@@ -11,22 +11,22 @@
 
 ## Canonical Areas
 ### Platforms
-- _(add platform pages here)_
+- [Amazon JP](wiki/platforms/amazon-jp.md)
 
 ### Markets
-- _(add market pages here)_
+- [Japan](wiki/markets/japan.md)
 
 ### Products
-- _(add product pages here)_
+- [Curtains](wiki/products/curtains.md)
 
 ### Projects
-- _(add project pages here)_
+- [Japan Market Entry](wiki/projects/japan-market-entry.md)
 
 ### Decisions
 - _(add decision pages here)_
 
 ### Playbooks
-- _(add playbook pages here)_
+- [Market Research Workflow](wiki/playbooks/market-research-workflow.md)
 
 ### Syntheses
 - _(add synthesis pages here)_
