@@ -48,6 +48,7 @@ Do **not** use this page alone to support:
 ### 1. Free residual chlorine in bathing water reduces the water-holding capacity of the stratum corneum in atopic skin
 - Source type: PubMed-indexed article
 - URL: `https://pubmed.ncbi.nlm.nih.gov/12692355/`
+- Access level obtained in this session: **long abstract extracted from page HTML**
 - What it supports:
   - chlorine in bathing-water contexts can be relevant to skin-barrier concerns in atopic skin
 - What it does **not** support:
@@ -57,6 +58,7 @@ Do **not** use this page alone to support:
 ### 2. Association between domestic water hardness, chlorine, and atopic dermatitis risk in early life
 - Source type: PubMed-indexed population-based cross-sectional study
 - URL: `https://pubmed.ncbi.nlm.nih.gov/27241890/`
+- Access level obtained in this session: **long abstract extracted from page HTML**
 - Visible abstract signal:
   - higher domestic water CaCO3 associated with increased AD risk in infancy
   - chlorine influence remained uncertain in the visible summary
@@ -107,6 +109,7 @@ Do **not** use this page alone to support:
 ### 7. Pooling the evidence: A review of swimming and atopic dermatitis
 - Source type: PMC review article
 - URL: `https://pmc.ncbi.nlm.nih.gov/articles/PMC10946598/`
+- Access level obtained in this session: **title + snippet only; direct article-body retrieval blocked by browser check / reCAPTCHA**
 - What it supports:
   - chlorine exposure can be irritating in some contexts
   - literature remains nuanced
@@ -126,6 +129,7 @@ Do **not** use this page alone to support:
 ### 9. EPA — CCR Information for Consumers
 - Source type: US EPA
 - URL: `https://www.epa.gov/ccr/ccr-information-consumers`
+- Access level obtained in this session: **body text / page content partially extracted from public HTML**
 - What it supports:
   - consumers can check local annual water quality reports
   - local-water education can be grounded in official sources
@@ -143,6 +147,7 @@ Do **not** use this page alone to support:
 ### 11. National Eczema Society — Swimming and eczema
 - Source type: condition-specific institution / society guidance
 - URL: `https://eczema.org/information-and-advice/triggers-for-eczema/swimming-and-eczema/`
+- Access level obtained in this session: **meaningful body paragraphs extracted from public HTML**
 - What it supports:
   - chlorine can contribute to dryness / irritation
   - chlorine is not straightforwardly “all bad” in every eczema context
@@ -186,3 +191,4 @@ Some full-text materials were only available at abstract, snippet, or index leve
 - [Source Summary — Bathtub Filter Academic and Institutional Evidence Deepening (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-deepening-2026-04-11.md)
 - [Source Summary — Bathtub Filter Market Research Signals (2026-04-11)](../source-summaries/bathtub-filter-market-research-signals-2026-04-11.md)
 - [Source Summary — Bathtub Filter Market Research and Industry Explanation Deepening (2026-04-11)](../source-summaries/bathtub-filter-market-research-and-industry-explanation-deepening-2026-04-11.md)
+- [Source Summary — Bathtub Filter Web Content Fetch Attempts (2026-04-11)](../source-summaries/bathtub-filter-web-content-fetch-attempts-2026-04-11.md)
