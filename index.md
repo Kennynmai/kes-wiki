@@ -31,6 +31,7 @@
 
 ### Syntheses
 - [Bathtub Filter Research Map](wiki/syntheses/bathtub-filter-research-map.md)
+- [Bathtub Filter Competitor and Demand Scan](wiki/syntheses/bathtub-filter-competitor-and-demand-scan.md)
 
 ### Risks
 - _(add risk pages here)_

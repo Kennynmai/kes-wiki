@@ -14,6 +14,9 @@ review_cycle: monthly
 verification_status: unverified
 related:
   - ../syntheses/bathtub-filter-research-map.md
+  - ../syntheses/bathtub-filter-competitor-and-demand-scan.md
+  - ./bathtub-filter-user-segments.md
+  - ./bathtub-filter-claims-and-certifications.md
   - ../products/curtains.md
 ---
 
