@@ -254,3 +254,4 @@ Because the evidence layer is nuanced, but marketplace copy is often extreme.
 - [Source Summary — Bathtub Filter Academic and Institutional Evidence Deepening (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-deepening-2026-04-11.md)
 - [Source Summary — Bathtub Filter Market Research Signals (2026-04-11)](../source-summaries/bathtub-filter-market-research-signals-2026-04-11.md)
 - [Source Summary — Bathtub Filter Market Research and Industry Explanation Deepening (2026-04-11)](../source-summaries/bathtub-filter-market-research-and-industry-explanation-deepening-2026-04-11.md)
+- [Source Summary — Bathtub Filter Evidence Access Audit (2026-04-11)](../source-summaries/bathtub-filter-evidence-access-audit-2026-04-11.md)

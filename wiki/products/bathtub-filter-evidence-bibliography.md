@@ -58,7 +58,10 @@ Do **not** use this page alone to support:
 ### 2. Association between domestic water hardness, chlorine, and atopic dermatitis risk in early life
 - Source type: PubMed-indexed population-based cross-sectional study
 - URL: `https://pubmed.ncbi.nlm.nih.gov/27241890/`
-- Access level obtained in this session: **long abstract extracted from page HTML**
+- Access level obtained in this session: **accepted manuscript / near-full text obtained**
+- Better-access locations identified:
+  - KCL Pure record: `https://kclpure.kcl.ac.uk/portal/en/publications/the-association-between-domestic-water-hardness-chlorine-and-atop/`
+  - DocsLib accepted-manuscript mirror: `https://docslib.org/doc/4417330/the-association-between-domestic-water-hardness-chlorine-and-atopic-dermatitis-risk-in-early-life-a-population-based-cross-sectional-study`
 - Visible abstract signal:
   - higher domestic water CaCO3 associated with increased AD risk in infancy
   - chlorine influence remained uncertain in the visible summary
@@ -71,6 +74,9 @@ Do **not** use this page alone to support:
 ### 3. The effect of water hardness on atopic eczema, skin barrier function: A systematic review, meta-analysis
 - Source type: PubMed-indexed systematic review / meta-analysis
 - URL: `https://pubmed.ncbi.nlm.nih.gov/33259122/`
+- Access level obtained in this session: **detailed repository abstract obtained**
+- Better-access location identified:
+  - KCL Pure record: `https://kclpure.kcl.ac.uk/portal/en/publications/the-effect-of-water-hardness-on-atopic-eczema-skin-barrier-functi/`
 - Visible abstract signal:
   - hard water associated with AE in children
   - no evidence that domestic water softeners improve objective severity in established AE
@@ -192,3 +198,4 @@ Some full-text materials were only available at abstract, snippet, or index leve
 - [Source Summary — Bathtub Filter Market Research Signals (2026-04-11)](../source-summaries/bathtub-filter-market-research-signals-2026-04-11.md)
 - [Source Summary — Bathtub Filter Market Research and Industry Explanation Deepening (2026-04-11)](../source-summaries/bathtub-filter-market-research-and-industry-explanation-deepening-2026-04-11.md)
 - [Source Summary — Bathtub Filter Web Content Fetch Attempts (2026-04-11)](../source-summaries/bathtub-filter-web-content-fetch-attempts-2026-04-11.md)
+- [Source Summary — Bathtub Filter Evidence Access Audit (2026-04-11)](../source-summaries/bathtub-filter-evidence-access-audit-2026-04-11.md)
