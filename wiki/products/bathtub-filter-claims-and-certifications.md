@@ -98,6 +98,7 @@ Those are not the same. If KES ever enters this category, marketing should avoid
 
 ## Sources
 - [Source Summary — Bathtub Filter Academic and Institutional Evidence (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-2026-04-11.md)
+- [Source Summary — Bathtub Filter Academic and Institutional Evidence Deepening (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-deepening-2026-04-11.md)
 - [Source Summary — Bathtub Filter Market Scan (2026-04-11)](../source-summaries/bathtub-filter-market-scan-2026-04-11.md)
 - public search snippets referencing KDF, vitamin C, NSF, and contaminant claims
 - bathtub-filter competitor scan notes

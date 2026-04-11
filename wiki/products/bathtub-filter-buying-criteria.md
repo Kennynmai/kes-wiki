@@ -96,5 +96,6 @@ than a large share of current marketplace listings.
 
 ## Sources
 - [Source Summary — Bathtub Filter Market Research Signals (2026-04-11)](../source-summaries/bathtub-filter-market-research-signals-2026-04-11.md)
+- [Source Summary — Bathtub Filter Market Research and Industry Explanation Deepening (2026-04-11)](../source-summaries/bathtub-filter-market-research-and-industry-explanation-deepening-2026-04-11.md)
 - [Source Summary — Bathtub Filter Category and Consumer Cognition (2026-04-11)](../source-summaries/bathtub-filter-category-and-consumer-cognition-2026-04-11.md)
 - first-pass competitor snippets and visible public product messaging
