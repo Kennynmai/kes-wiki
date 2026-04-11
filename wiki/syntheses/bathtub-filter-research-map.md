@@ -129,4 +129,5 @@ If weak, it may still be useful as a demand-sensing case study for how to evalua
 - [Market Research Workflow](../playbooks/market-research-workflow.md)
 
 ## Sources
-- _(relevant source-summary or raw links to be added)_
+- [Source Summary — Bathtub Filter Market Scan (2026-04-11)](../source-summaries/bathtub-filter-market-scan-2026-04-11.md)
+- `raw/products/bathtub-filter/2026-04-11-market-scan.md`

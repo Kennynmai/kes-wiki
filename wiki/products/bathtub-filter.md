@@ -119,4 +119,5 @@ than KES’s current core hardware products.
 - evaluate whether this should live under bathroom hardware adjacency or water-treatment adjacency
 
 ## Sources
-- _(to be added)_
+- [Source Summary — Bathtub Filter Market Scan (2026-04-11)](../source-summaries/bathtub-filter-market-scan-2026-04-11.md)
+- [Bathtub Filter Competitor and Demand Scan](../syntheses/bathtub-filter-competitor-and-demand-scan.md)

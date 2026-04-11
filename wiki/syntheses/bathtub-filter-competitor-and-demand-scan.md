@@ -137,6 +137,7 @@ This does not yet look like a broad mainstream category on the level of generic 
 - [Bathtub Filter Research Map](./bathtub-filter-research-map.md)
 
 ## Sources
+- [Source Summary — Bathtub Filter Market Scan (2026-04-11)](../source-summaries/bathtub-filter-market-scan-2026-04-11.md)
 - Amazon bathtub filter query results and visible snippets
 - Canopy baby bath filter public product page
 - Crystal Quest bath ball filter public product page
