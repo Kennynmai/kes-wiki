@@ -21,6 +21,7 @@ related:
   - ./bathtub-filter-buying-criteria.md
   - ./bathtub-filter-claims-and-certifications.md
   - ./bathtub-filter-evidence-bibliography.md
+  - ./bathtub-filter-evidence-matrix.md
   - ./bathtub-filter-institutional-guidance.md
   - ../products/curtains.md
 ---
