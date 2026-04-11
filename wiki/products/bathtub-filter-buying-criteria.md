@@ -95,4 +95,6 @@ than a large share of current marketplace listings.
 - Can KES create a noticeably more credible product page than current competitors?
 
 ## Sources
+- [Source Summary — Bathtub Filter Market Research Signals (2026-04-11)](../source-summaries/bathtub-filter-market-research-signals-2026-04-11.md)
+- [Source Summary — Bathtub Filter Category and Consumer Cognition (2026-04-11)](../source-summaries/bathtub-filter-category-and-consumer-cognition-2026-04-11.md)
 - first-pass competitor snippets and visible public product messaging

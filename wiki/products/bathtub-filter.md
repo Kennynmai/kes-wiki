@@ -121,4 +121,6 @@ than KES’s current core hardware products.
 ## Sources
 - [Source Summary — Bathtub Filter Market Scan (2026-04-11)](../source-summaries/bathtub-filter-market-scan-2026-04-11.md)
 - [Source Summary — Bathtub Filter Category and Consumer Cognition (2026-04-11)](../source-summaries/bathtub-filter-category-and-consumer-cognition-2026-04-11.md)
+- [Source Summary — Bathtub Filter Academic and Institutional Evidence (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-2026-04-11.md)
+- [Source Summary — Bathtub Filter Market Research Signals (2026-04-11)](../source-summaries/bathtub-filter-market-research-signals-2026-04-11.md)
 - [Bathtub Filter Competitor and Demand Scan](../syntheses/bathtub-filter-competitor-and-demand-scan.md)
