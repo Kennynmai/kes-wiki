@@ -97,6 +97,7 @@ Do **not** use this page alone to support:
 ### 5. Interactions between domestic water hardness, infant swimming and atopy in the development of childhood eczema
 - Source type: PubMed-indexed article
 - URL: `https://pubmed.ncbi.nlm.nih.gov/22591883/`
+- Access level obtained in this session: **long abstract extracted from page HTML**
 - What it supports:
   - interaction between hard water, infant swimming, and atopic status in childhood eczema discussion
 - Evidence role: **baby / infant segment support**
@@ -144,6 +145,7 @@ Do **not** use this page alone to support:
 ### 10. CDC — Chloramines and Pool Operation
 - Source type: CDC Healthy Swimming
 - URL: `https://www.cdc.gov/healthy-swimming/toolkit/chloramines-and-pool-operation.html`
+- Access level obtained in this session: **body paragraphs extracted from public HTML**
 - What it supports:
   - chloramines can irritate skin, eyes, and respiratory tract in pool settings
 - Important limit:

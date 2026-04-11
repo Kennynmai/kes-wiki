@@ -56,11 +56,11 @@ Audit the practical accessibility level of key evidence items in the bathtub-fil
 
 ### 4. Interactions between domestic water hardness, infant swimming and atopy in the development of childhood eczema
 - Primary URL: `https://pubmed.ncbi.nlm.nih.gov/22591883/`
-- Best access achieved: **snippet / citation-trail level only**
+- Best access achieved: **long abstract obtained**
 - Supporting clue:
   - referenced in later PMC and review materials
 - Notes:
-  - no reliable full or abstract page captured in this pass beyond search-level and citation-trail references
+  - direct PubMed page HTML yielded a substantial abstract with study design, sample size, OR, CI, and interaction interpretation
 
 ### 5. Pooling the evidence: A review of swimming and atopic dermatitis
 - Primary URL: `https://pmc.ncbi.nlm.nih.gov/articles/PMC10946598/`
@@ -83,19 +83,18 @@ Audit the practical accessibility level of key evidence items in the bathtub-fil
 
 ### 8. CDC — Chloramines and Pool Operation
 - Primary URL: `https://www.cdc.gov/healthy-swimming/toolkit/chloramines-and-pool-operation.html`
-- Best access achieved: **meta / title level only in this pass**
+- Best access achieved: **body paragraphs obtained**
 - Notes:
-  - page metadata accessible
-  - deeper body text not yet systematically extracted
+  - direct page HTML yielded meaningful body text on chloramines, irritation, and operational context
 
 ## Most useful access wins so far
 1. DocsLib accepted manuscript for Perkin et al. early-life water hardness/chlorine study
 2. KCL Pure repository abstracts for Perkin et al. and Jabbar-Lopez et al.
-3. PubMed long abstracts for chlorine-in-bathing-water paper and Perkin et al.
+3. PubMed long abstracts for chlorine-in-bathing-water paper, Perkin et al., and the 2012 infant swimming paper
 4. National Eczema Society body text
 5. EPA body text
+6. CDC body text on chloramines and irritation context
 
 ## Practical next retrieval targets
 - revisit PMC review with browser automation
-- try direct HTML extraction for CDC page body
-- search for repository / author manuscript for the 2012 infant swimming paper
+- search for repository / author manuscript for the 2012 infant swimming paper beyond abstract level
