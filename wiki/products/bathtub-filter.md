@@ -16,6 +16,9 @@ related:
   - ../syntheses/bathtub-filter-research-map.md
   - ../syntheses/bathtub-filter-competitor-and-demand-scan.md
   - ./bathtub-filter-user-segments.md
+  - ./bathtub-filter-product-forms.md
+  - ./bathtub-filter-technology-notes.md
+  - ./bathtub-filter-buying-criteria.md
   - ./bathtub-filter-claims-and-certifications.md
   - ../products/curtains.md
 ---
