@@ -17,6 +17,7 @@
 - [Japan](wiki/markets/japan.md)
 
 ### Products
+- [Bathtub Filter](wiki/products/bathtub-filter.md)
 - [Curtains](wiki/products/curtains.md)
 
 ### Projects
@@ -29,7 +30,7 @@
 - [Market Research Workflow](wiki/playbooks/market-research-workflow.md)
 
 ### Syntheses
-- _(add synthesis pages here)_
+- [Bathtub Filter Research Map](wiki/syntheses/bathtub-filter-research-map.md)
 
 ### Risks
 - _(add risk pages here)_
