@@ -116,5 +116,7 @@ Trying to be all four at once may create confused positioning and risky copy.
 - Which segment best matches KES brand stretch?
 
 ## Sources
+- [Source Summary — Bathtub Filter Category and Consumer Cognition (2026-04-11)](../source-summaries/bathtub-filter-category-and-consumer-cognition-2026-04-11.md)
+- [Source Summary — Bathtub Filter Market Scan (2026-04-11)](../source-summaries/bathtub-filter-market-scan-2026-04-11.md)
 - public search snippets from Amazon and DTC pages
 - bathtub-filter competitor and demand scan
