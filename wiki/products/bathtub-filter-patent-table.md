@@ -90,6 +90,13 @@ Do not use this page as:
 - infringement opinion
 - proof of commercial white space
 
+## Brand-layout clues worth tracking next
+Even before full assignee clustering is done, a few brand-linked posture clues are already visible:
+- Sprite appears to rely heavily on patented-media storytelling and shower-to-bath extension logic
+- Crystal Quest appears strongly tied to bath-ball product-form storytelling and may have design-patent relevance in the bath-ball format
+- Santevia appears less patent-forward in visible messaging, and more differentiated by lifestyle/materials/product-expression strategy
+
 ## Sources
 - [Source Summary — Bathtub Filter API-Backed Academic and Patent Fetch (2026-04-12)](../source-summaries/bathtub-filter-api-backed-academic-and-patent-fetch-2026-04-12.md)
 - [Bathtub Filter Patent and Technical Landscape](../syntheses/bathtub-filter-patent-and-technical-landscape.md)
+- [Bathtub Filter Brand and Content Landscape](../syntheses/bathtub-filter-brand-and-content-landscape.md)
