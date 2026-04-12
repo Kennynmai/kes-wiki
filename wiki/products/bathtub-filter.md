@@ -105,6 +105,38 @@ Initial intuition: this is worth researching because it has stronger consumer pa
 - more compatibility complexity
 than KES’s current core hardware products.
 
+The evidence base has also become clearer: the category has a much better-supported **problem story** than **product-efficacy story**. In other words, there is now a credible reason to believe consumers are reacting to real water / skin-comfort concerns, but much less evidence that generic bathtub filters as sold in-market reliably solve those concerns to a clinically meaningful degree.
+
+## Working evidence synthesis
+### What seems most defensible now
+- hard water appears to be a more strongly evidence-backed category concern than simplistic chlorine-only storytelling
+- chlorine / chloramine / pool-water irritation logic is still relevant for sensitive-skin explanation, but needs careful scope control
+- baby / infant and sensitive-skin use cases are plausible demand segments because the underlying concern is evidence-adjacent, not purely invented marketing language
+- the current literature supports a nuanced “reduce irritation burden” frame much better than a therapeutic or disease-improvement frame
+
+### Swimming + eczema interpretation layer
+The newest improvement in this research pass is that the swimming / eczema review layer is now accessible at full-text level through Europe PMC, even though direct PMC browser access was blocked.
+
+That fuller review layer sharpens the interpretation:
+- children with atopic dermatitis should not be framed as automatically needing to avoid swimming
+- infant swimming by itself does not appear to have a consistent independent relationship with AD across the reviewed literature
+- hard water is discussed as a more central barrier-relevant variable
+- the combination of hard water + infant swimming is described as potentially synergistic in increasing AD prevalence in atopy-prone contexts
+- practical mitigation advice is more evidence-aligned than blanket avoidance advice: rinse after exposure, remove wet swimwear quickly, consider emollient support before and/or after swimming
+
+For KES, this matters because it supports a more intelligent explanation layer around “why some families care about bath water” without forcing an overclaim that a bathtub filter is a medical solution.
+
+### Claim discipline implication
+The research direction is getting more favorable for:
+- education-led positioning
+- skin-comfort / chlorine-conscious / family-use framing
+- premium trust storytelling
+
+It is **not** getting more favorable for:
+- “improves eczema” claims
+- strong baby-safety implication claims without validation
+- strong hard-water-softening claims unless the technical route is unusually credible and test-backed
+
 ## Open questions
 - Is bathtub filter a real standalone demand pocket or just a tiny edge case?
 - Which pain point drives conversion most: baby use, skin sensitivity, chlorine, or hard water?
@@ -126,6 +158,9 @@ than KES’s current core hardware products.
 - [Source Summary — Bathtub Filter Category and Consumer Cognition (2026-04-11)](../source-summaries/bathtub-filter-category-and-consumer-cognition-2026-04-11.md)
 - [Source Summary — Bathtub Filter Academic and Institutional Evidence (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-2026-04-11.md)
 - [Source Summary — Bathtub Filter Academic and Institutional Evidence Deepening (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-deepening-2026-04-11.md)
+- [Source Summary — Bathtub Filter Evidence Access Audit (2026-04-11)](../source-summaries/bathtub-filter-evidence-access-audit-2026-04-11.md)
 - [Source Summary — Bathtub Filter Market Research Signals (2026-04-11)](../source-summaries/bathtub-filter-market-research-signals-2026-04-11.md)
 - [Source Summary — Bathtub Filter Market Research and Industry Explanation Deepening (2026-04-11)](../source-summaries/bathtub-filter-market-research-and-industry-explanation-deepening-2026-04-11.md)
+- [Bathtub Filter Evidence Bibliography](./bathtub-filter-evidence-bibliography.md)
+- [Bathtub Filter Evidence Matrix](./bathtub-filter-evidence-matrix.md)
 - [Bathtub Filter Competitor and Demand Scan](../syntheses/bathtub-filter-competitor-and-demand-scan.md)

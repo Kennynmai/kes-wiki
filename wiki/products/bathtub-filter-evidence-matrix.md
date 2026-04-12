@@ -47,13 +47,14 @@ At present, the matrix is strong in **problem support** and **claim caution**, a
 
 ### Key sources
 - PubMed: *Free residual chlorine in bathing water reduces the water-holding capacity of the stratum corneum in atopic skin*
-- PMC review: *Pooling the evidence: A review of swimming and atopic dermatitis*
+- PMC review: *Pooling the evidence: A review of swimming and atopic dermatitis* (full text obtained via Europe PMC)
 - National Eczema Society: *Swimming and eczema*
 - CDC chloramine irritation context (pool setting)
 
 ### What this supports
 - chlorine exposure in bathing/swimming-related contexts can be relevant to skin dryness or irritation in some sensitive-skin / AD contexts
 - chlorine concern is a plausible buyer motivator
+- the better-supported framing is mitigation and balance, not automatic avoidance of swimming
 
 ### What this does not support
 - direct efficacy of consumer bathtub filters
@@ -106,6 +107,7 @@ At present, the matrix is strong in **problem support** and **claim caution**, a
 ### What this supports
 - baby/infant bathing is a plausible segment from a consumer-concern perspective
 - parents’ sensitivity to water quality is understandable and evidence-adjacent
+- the strongest nuanced reading is interaction-based: hard water appears more central than infant swimming alone, but the combination may heighten concern in atopy-prone contexts
 
 ### What this does not support
 - baby-safe or baby-benefit product claims without product-level validation

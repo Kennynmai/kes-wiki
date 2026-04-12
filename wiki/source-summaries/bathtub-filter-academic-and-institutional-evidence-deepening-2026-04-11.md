@@ -30,6 +30,8 @@ related:
 - Residual chlorine in bathing water has publicly visible literature support as a skin-barrier-relevant issue in atopic skin.
 - Domestic water hardness has repeatedly appeared in published eczema-risk research, especially in infant/child contexts.
 - Systematic-review-level material suggests water hardness may matter in disease initiation, but there is no evidence in the cited summary that domestic water softeners improve objective severity in established atopic eczema.
+- The PMC review body is now directly accessible via Europe PMC fullTextXML and adds a stronger interpretive layer: hard water may damage the skin barrier, increase dryness/irritation, and interact synergistically with infant swimming in raising AD prevalence, while infant swimming alone does not show a consistent independent relationship with AD across the reviewed literature.
+- The same review also supports a practical mitigation frame rather than a blanket avoidance frame: rinse promptly after swimming, remove wet swimwear quickly, and consider emollient application before and/or after swimming.
 
 ### Institutional layer
 - EPA CCR materials are useful official references for local water-quality awareness and consumer education.

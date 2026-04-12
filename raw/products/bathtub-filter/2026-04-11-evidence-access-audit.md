@@ -57,17 +57,23 @@ Audit the practical accessibility level of key evidence items in the bathtub-fil
 ### 4. Interactions between domestic water hardness, infant swimming and atopy in the development of childhood eczema
 - Primary URL: `https://pubmed.ncbi.nlm.nih.gov/22591883/`
 - Best access achieved: **long abstract obtained**
-- Supporting clue:
+- Supporting clues:
   - referenced in later PMC and review materials
+  - OpenAlex metadata check currently shows `open_access.is_oa = false` and `any_repository_has_fulltext = false`
 - Notes:
   - direct PubMed page HTML yielded a substantial abstract with study design, sample size, OR, CI, and interaction interpretation
+  - additional repository/manuscript searching in this pass did not yield a dependable accepted manuscript or institutional repository full text
 
 ### 5. Pooling the evidence: A review of swimming and atopic dermatitis
 - Primary URL: `https://pmc.ncbi.nlm.nih.gov/articles/PMC10946598/`
-- Best access achieved: **snippet only / blocked for body**
+- Best access achieved: **full text obtained via Europe PMC fullTextXML**
+- Supporting URLs:
+  - Europe PMC metadata: `https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:37029288%20AND%20SRC:MED&format=json`
+  - Europe PMC full text XML: `https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10946598/fullTextXML`
 - Notes:
-  - direct HTML retrieval hit browser check / reCAPTCHA
-  - likely revisitable later with browser automation
+  - direct browser/HTML access on PMC still hit browser check / reCAPTCHA
+  - Europe PMC exposes the article body and confirms open-access PDF availability
+  - usable full-text statements were extracted on hard water, infant swimming, chlorine irritation, rinse/emollient advice, and the review's overall recommendation not to exclude children with AD from swimming
 
 ### 6. National Eczema Society — Swimming and eczema
 - Primary URL: `https://eczema.org/information-and-advice/triggers-for-eczema/swimming-and-eczema/`

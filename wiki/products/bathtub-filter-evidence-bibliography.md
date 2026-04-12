@@ -98,6 +98,9 @@ Do **not** use this page alone to support:
 - Source type: PubMed-indexed article
 - URL: `https://pubmed.ncbi.nlm.nih.gov/22591883/`
 - Access level obtained in this session: **long abstract extracted from page HTML**
+- Additional access audit result:
+  - further manuscript / repository searching in this pass did **not** produce a dependable accepted manuscript or institutional repository full text
+  - OpenAlex metadata currently indicates no repository full text found
 - What it supports:
   - interaction between hard water, infant swimming, and atopic status in childhood eczema discussion
 - Evidence role: **baby / infant segment support**
@@ -116,10 +119,19 @@ Do **not** use this page alone to support:
 ### 7. Pooling the evidence: A review of swimming and atopic dermatitis
 - Source type: PMC review article
 - URL: `https://pmc.ncbi.nlm.nih.gov/articles/PMC10946598/`
-- Access level obtained in this session: **title + snippet only; direct article-body retrieval blocked by browser check / reCAPTCHA**
+- Access level obtained in this session: **full text obtained via Europe PMC fullTextXML**
+- Supporting access paths:
+  - Europe PMC metadata confirms PMCID / open-access status
+  - Europe PMC full text XML exposed the article body when direct PMC browser access was blocked by browser check / reCAPTCHA
+- Visible full-text signal:
+  - the review does **not** support blanket avoidance of swimming for children with AD
+  - hard water is discussed as a barrier-relevant irritant variable
+  - infant swimming alone does not show a consistent independent relationship with AD, but the combination of hard water and infant swimming is described as synergistic in increasing AD prevalence
+  - practical mitigation advice includes rinsing after swimming, removing wet swimwear promptly, and using emollient before and/or after swimming
 - What it supports:
   - chlorine exposure can be irritating in some contexts
   - literature remains nuanced
+  - a balanced “swimming + eczema” explanation layer is possible without overstating evidence
 - Evidence role: **contextual support / nuance**
 
 ### 8. Effects of Water Bathing on Atopic Dermatitis Are Determined by the Constituents in the Water

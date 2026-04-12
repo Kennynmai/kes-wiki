@@ -3,7 +3,7 @@ type: source-summary
 status: draft
 owner: strategy
 created: 2026-04-11
-updated: 2026-04-11
+updated: 2026-04-12
 visibility: team
 confidence: medium
 officiality: draft
@@ -30,22 +30,23 @@ This source upgrades the evidence base from “what exists” to “what is actu
 ## Key findings
 ### Best-access items
 - Perkin et al. early-life water hardness/chlorine study: accepted-manuscript level access achieved via DocsLib; repository abstract also available via KCL Pure
+- PMC swimming/AD review: full text now obtained via Europe PMC fullTextXML, despite direct PMC browser access still triggering reCAPTCHA/browser check
 - Jabbar-Lopez et al. systematic review/meta-analysis: detailed repository abstract available via KCL Pure
 - PubMed chlorine-in-bathing-water paper: long abstract available
 
 ### Medium-access items
 - National Eczema Society page: meaningful body paragraphs available
 - EPA CCR consumer page: practical body text available
+- CDC chloramine page: meaningful body text available
 
 ### Weak-access items
-- PMC swimming/AD review: snippet only so far because browser check blocked body retrieval
-- 2012 infant swimming paper: citation/snippet level only so far
-- CDC chloramine page: metadata accessible; body not yet robustly extracted
+- 2012 infant swimming paper: long abstract available, but no dependable accepted manuscript / repository full text found in this pass
 
 ## Strategic implication
 The evidence base is now substantially stronger for a few central items than it was at pure snippet level. In particular:
 - hard-water / AD evidence has moved into a more trustworthy access state
 - early-life water-quality / eczema evidence has a stronger manuscript-level base
+- the swimming + eczema interpretive layer is stronger now that the PMC review body can be cited directly
 - transparency about evidence depth can now be carried into bibliography and matrix pages
 
 ## Sources
