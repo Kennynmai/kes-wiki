@@ -152,6 +152,8 @@ It is **not** getting more favorable for:
 - extract common complaint patterns from reviews
 - assess certification / legal claim barriers
 - evaluate whether this should live under bathroom hardware adjacency or water-treatment adjacency
+- formalize the academic-search workflow for evidence-heavy subtopics
+- add patent / technical-route analysis to test architecture credibility and IP crowding
 
 ## Sources
 - [Source Summary — Bathtub Filter Market Scan (2026-04-11)](../source-summaries/bathtub-filter-market-scan-2026-04-11.md)
@@ -164,3 +166,5 @@ It is **not** getting more favorable for:
 - [Bathtub Filter Evidence Bibliography](./bathtub-filter-evidence-bibliography.md)
 - [Bathtub Filter Evidence Matrix](./bathtub-filter-evidence-matrix.md)
 - [Bathtub Filter Competitor and Demand Scan](../syntheses/bathtub-filter-competitor-and-demand-scan.md)
+- [Bathtub Filter Patent and Technical Landscape](../syntheses/bathtub-filter-patent-and-technical-landscape.md)
+- [Academic Search Workflow](../playbooks/academic-search-workflow.md)

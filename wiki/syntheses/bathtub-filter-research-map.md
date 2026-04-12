@@ -31,6 +31,17 @@ This page is the reusable research map for the bathtub filter topic. Its purpose
 5. platform-commercial fit
 
 ### Likely research tracks
+#### 0. Academic-search infrastructure track
+Questions:
+- Which metadata/search stack should support future evidence work?
+- How should manuscript / repository access depth be recorded?
+- When is a dedicated academic workflow justified for a product topic?
+
+Deliverables:
+- academic-search workflow
+- access-state vocabulary
+- evidence-access audit habit
+
 #### 1. Search-intent track
 Questions:
 - Do users search “bathtub filter” directly?
@@ -89,6 +100,18 @@ Deliverables:
 - margin hypothesis notes
 - failure-mode / return-risk map
 
+#### 6. Patent / technical-route track
+Questions:
+- Which product architectures already exist in prior art?
+- Is the category mainly a bathtub-specific architecture or a shower-filter adjacency?
+- Which claims look technically credible vs. mostly marketing-driven?
+- Is there obvious IP crowding around certain attachment or cartridge formats?
+
+Deliverables:
+- patent / technical landscape
+- route-type taxonomy
+- future assignee/family map
+
 ## Fact vs inference
 ### Facts currently established
 - KES is evaluating category adjacency beyond current core lines.
@@ -127,6 +150,8 @@ If weak, it may still be useful as a demand-sensing case study for how to evalua
 ## Related pages
 - [Bathtub Filter](../products/bathtub-filter.md)
 - [Market Research Workflow](../playbooks/market-research-workflow.md)
+- [Academic Search Workflow](../playbooks/academic-search-workflow.md)
+- [Bathtub Filter Patent and Technical Landscape](./bathtub-filter-patent-and-technical-landscape.md)
 
 ## Sources
 - [Source Summary — Bathtub Filter Market Scan (2026-04-11)](../source-summaries/bathtub-filter-market-scan-2026-04-11.md)
