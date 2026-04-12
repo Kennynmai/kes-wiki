@@ -189,6 +189,7 @@ It is **not** getting more favorable for:
 - [Bathtub Filter Brand Page Claim / Compliance Audit](./bathtub-filter-brand-page-claim-compliance-audit.md)
 - [Bathtub Filter KES Product Architecture Hypotheses](./bathtub-filter-kes-product-architecture-hypotheses.md)
 - [Bathtub Filter KES Route Screening Memo — V1](./bathtub-filter-kes-route-screening-memo-v1.md)
+- [Bathtub Filter KES Route Screening Memo — V2](./bathtub-filter-kes-route-screening-memo-v2.md)
 - [Academic Search Workflow](../playbooks/academic-search-workflow.md)
 - [Bathtub Filter Brand and Content Landscape](../syntheses/bathtub-filter-brand-and-content-landscape.md)
 - [Bathtub Filter Review and Compliance Landscape](../syntheses/bathtub-filter-review-and-compliance-landscape.md)

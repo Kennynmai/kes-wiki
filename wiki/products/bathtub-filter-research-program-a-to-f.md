@@ -80,6 +80,7 @@ Goal:
 Primary file:
 - `bathtub-filter-kes-product-architecture-hypotheses.md`
 - `bathtub-filter-kes-route-screening-memo-v1.md`
+- `bathtub-filter-kes-route-screening-memo-v2.md`
 
 ## Program note
 These modules are intended to keep the topic comprehensive without letting it become shapeless.

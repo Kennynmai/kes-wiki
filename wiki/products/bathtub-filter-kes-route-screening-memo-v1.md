@@ -127,6 +127,13 @@ Meaning:
 - more believable than eczema-outcome DTC brands
 - more performance-proven than pure design-first premium brands
 
+### Why this view strengthened in this pass
+Recent page-pack auditing increased confidence in this direction:
+- Kinder pages combine clinical, eczema-prone, baby-safe, and fit-guarantee language too aggressively to look like a safe template
+- Tubo pages stack clinical language, broad contaminant claims, bacteria/virus language, and parent-emotional hooks in a way that looks commercially potent but highly unstable under scrutiny
+- Canopy pages show how premium baby/wellness positioning can work commercially, but also how quickly “tested to” language, compensated-expert reassurance, and performance skepticism can create trust tension
+- Sprite and Santevia remain more useful as reference poles for narrower promise discipline, even if neither is a perfect final model for KES
+
 ## What KES should probably avoid first
 - direct eczema-improvement promise
 - baby-safe implication without robust substantiation
