@@ -116,12 +116,25 @@ Questions:
 - how do brands visually signal trust and softness?
 
 ## Current recommendation
-The next best layers to deepen are:
+All three tiers are now in scope for this topic.
+
+### Tier 1 — highest priority / already underway
 1. marketplace reviews
 2. standards / certification / compliance
 3. brand patent-marking / IP depth
+
+### Tier 2 — now formally included
 4. installation / compatibility engineering
+5. pricing / unit economics / replacement logic
+6. channel / retailer landscape
+
+### Tier 3 — now formally included
+7. SNS / creator / short-form discourse
+8. visual merchandising / creative strategy
+9. community-language compression and emotional conversion patterns
 
 ## Strategic implication
 The topic is no longer missing “whether there is enough to research.”
-The bigger risk now is **uneven coverage**: strong narrative and early technical mapping, but weaker operational, compliance, and review-friction insight.
+
+It has now expanded into a **full-stack product-research topic**.
+The bigger risk is no longer lack of material, but losing structure across too many evidence and market layers at once.

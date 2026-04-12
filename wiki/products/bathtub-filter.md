@@ -154,6 +154,10 @@ It is **not** getting more favorable for:
 - evaluate whether this should live under bathroom hardware adjacency or water-treatment adjacency
 - formalize the academic-search workflow for evidence-heavy subtopics
 - add patent / technical-route analysis to test architecture credibility and IP crowding
+- deepen installation / compatibility engineering analysis
+- build pricing / refill / replacement comparison logic
+- map channel identities across Amazon / Home Depot / Walmart / DTC / wellness / baby-sensitive-skin routes
+- analyze SNS / creator discourse and visual-merchandising patterns
 
 ## Sources
 - [Source Summary — Bathtub Filter Market Scan (2026-04-11)](../source-summaries/bathtub-filter-market-scan-2026-04-11.md)
@@ -173,4 +177,5 @@ It is **not** getting more favorable for:
 - [Academic Search Workflow](../playbooks/academic-search-workflow.md)
 - [Bathtub Filter Brand and Content Landscape](../syntheses/bathtub-filter-brand-and-content-landscape.md)
 - [Bathtub Filter Review and Compliance Landscape](../syntheses/bathtub-filter-review-and-compliance-landscape.md)
+- [Bathtub Filter Operations, Channel, and Visual Landscape](../syntheses/bathtub-filter-operations-channel-and-visual-landscape.md)
 - [Source Summary — Bathtub Filter API-Backed Academic and Patent Fetch (2026-04-12)](../source-summaries/bathtub-filter-api-backed-academic-and-patent-fetch-2026-04-12.md)
