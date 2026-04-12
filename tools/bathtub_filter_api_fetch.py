@@ -50,6 +50,8 @@ PATENT_TARGETS = [
     "US6096197A",
     "US6267887B1",
     "US7682513B2",
+    "US6056875A",
+    "D1034899",
     "JP3002925U",
     "FR2480822A1",
 ]
@@ -268,6 +270,16 @@ def academic_markdown(bundle: dict[str, Any]) -> str:
     return "\n".join(lines).strip() + "\n"
 
 
+def compliance_markdown() -> str:
+    lines = ["# API Output — Bathtub Filter Compliance Notes\n"]
+    lines.append("## Current standards/compliance observations\n")
+    lines.append("- NSF/ANSI 177 is the most visible shower-filtration benchmark in surfaced materials.")
+    lines.append("- NSF consumer guidance states shower filters certified to NSF/ANSI 177 are certified to reduce only free available chlorine.")
+    lines.append("- This creates a key claim-discipline issue for bathtub filters and bath-ball products: brands may imply broader reduction or skin-outcome effects than the standard itself supports.")
+    lines.append("- The category appears full of mixed wording such as 'certified to', 'tested to', 'independently tested', and plain performance claims. These need to be separated carefully in future audits.")
+    return "\n".join(lines).strip() + "\n"
+
+
 def patent_markdown(bundle: dict[str, Any]) -> str:
     lines = ["# API Output — Bathtub Filter Patent Detail Fetch\n"]
     lines.append(f"Generated: {bundle['generated_at']}\n")
@@ -322,9 +334,32 @@ def main() -> int:
             "europepmc": europepmc_search(query, page_size=5),
         })
 
+    patents = []
+    for pid in PATENT_TARGETS:
+        try:
+            patents.append(patent_google_fetch(pid))
+        except Exception as e:
+            patents.append({
+                "patent_id": pid,
+                "url": f"https://patents.google.com/patent/{pid}/en",
+                "title": None,
+                "description": f"fetch failed: {type(e).__name__}: {e}",
+                "publication_number": None,
+                "application_number": None,
+                "assignee_current": None,
+                "assignee_original": None,
+                "inventor": None,
+                "priority_date": None,
+                "filing_date": None,
+                "publication_date": None,
+                "grant_date": None,
+                "legal_status": None,
+                "claims_sample": [],
+            })
+
     patent_bundle: dict[str, Any] = {
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
-        "patents": [patent_google_fetch(pid) for pid in PATENT_TARGETS],
+        "patents": patents,
         "patent_provider_note": "PatentsView legacy endpoint now returns 410 Gone during USPTO migration; Google Patents public pages used for detailed public patent metadata in this fetch.",
     }
 
@@ -332,6 +367,7 @@ def main() -> int:
     (outdir / f"{today}-patents.json").write_text(json.dumps(patent_bundle, indent=2, ensure_ascii=False))
     (outdir / f"{today}-academic.md").write_text(academic_markdown(academic_bundle))
     (outdir / f"{today}-patents.md").write_text(patent_markdown(patent_bundle))
+    (outdir / f"{today}-compliance.md").write_text(compliance_markdown())
 
     print(f"Wrote outputs to {outdir}")
     return 0

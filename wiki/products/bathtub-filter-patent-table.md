@@ -32,6 +32,7 @@ It is not a legal FTO opinion. It is a strategic product-research tool for compa
 | `US6096197A` | Shower filter for chlorine removal and scale deposit prevention | shower/tub dual-purpose cartridge | chlorine-removal + scale-inhibition in bathroom attachment format | high | suggests bathtub concepts may inherit shower-filter architecture |
 | `US6267887B1` | Shower filter for chlorine removal and scale deposit prevention | shower/tub cartridge | replaceable cartridge logic with chlorine/scale framing | high | useful for cartridge and housing thinking |
 | `US7682513B2` | Water dechlorination means | soluble-media dechlorination | water-soluble media transfer; claim sample mentions ascorbic acid | medium-high | relevant for non-classic cartridge concepts and vitamin-C-style dechlorination routes |
+| `US6056875A` | Shower filter media | shower-media chemistry route | ceramic-type calcium sulfite beads plus copper-zinc media for hot-water shower filtration | high | useful for Sprite/Chlorgon-adjacent media logic and hot-water chlorine-removal route thinking |
 | `JP3002925U` | Chlorine remover for bath water | immersion accessory | soak-in-bath-water chlorine-removal accessory | high | confirms the category includes immersion products, not only inline filters |
 | `FR2480822A1` | Ion exchange resin water softener for shower bath sprays | softening / point-of-use adjacency | point-of-use softening and/or chlorine treatment | medium | useful for softening-claim caution and adjacency logic |
 

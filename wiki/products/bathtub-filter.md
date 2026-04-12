@@ -169,6 +169,8 @@ It is **not** getting more favorable for:
 - [Bathtub Filter Patent and Technical Landscape](../syntheses/bathtub-filter-patent-and-technical-landscape.md)
 - [Bathtub Filter Patent Table](./bathtub-filter-patent-table.md)
 - [Bathtub Filter Research Coverage Gaps](./bathtub-filter-research-coverage-gaps.md)
+- [Bathtub Filter Claim-Evidence Ladder](./bathtub-filter-claim-evidence-ladder.md)
 - [Academic Search Workflow](../playbooks/academic-search-workflow.md)
 - [Bathtub Filter Brand and Content Landscape](../syntheses/bathtub-filter-brand-and-content-landscape.md)
+- [Bathtub Filter Review and Compliance Landscape](../syntheses/bathtub-filter-review-and-compliance-landscape.md)
 - [Source Summary — Bathtub Filter API-Backed Academic and Patent Fetch (2026-04-12)](../source-summaries/bathtub-filter-api-backed-academic-and-patent-fetch-2026-04-12.md)

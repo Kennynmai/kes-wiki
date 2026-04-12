@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T03:14:16.199931+00:00",
+  "generated_at": "2026-04-12T03:36:21.844721+00:00",
   "patents": [
     {
       "patent_id": "US6145670A",
@@ -84,6 +84,44 @@
         "2. A water dechlorination means according to claim 1 wherein the water soluble dechlorination media is ascorbic acid.",
         "3. A water dechlorination means according to claim 1 wherein the water soluble dechlorination media is sodium ascorbate."
       ]
+    },
+    {
+      "patent_id": "US6056875A",
+      "url": "https://patents.google.com/patent/US6056875A/en",
+      "title": "Shower filter media",
+      "description": "A filtering material for filtering hot water in a shower utilizes ceramic-type calcium sulfite beads, made from a ceramic binder and calcium sulfite, and a copper-zinc media, with the ceramic-type calcium sulfite beads and the copper-zinc media being present in substantially equal volumetric portions.",
+      "publication_number": "US6056875A",
+      "application_number": "US09/246,881",
+      "assignee_current": null,
+      "assignee_original": "Keigo Kanaya",
+      "inventor": null,
+      "priority_date": "1995-12-29",
+      "filing_date": "1999-02-08",
+      "publication_date": "2000-05-02",
+      "grant_date": null,
+      "legal_status": "Expired - Lifetime",
+      "claims_sample": [
+        "1. A shower filter having therein a filter media to remove contaminants from hot water flowing through the shower filter, the shower filter media comprising non-soluble ceramic-type calcium sulfite beads and a copper-zinc media.",
+        "2. The shower filter of claim 1 wherein said ceramic-type calcium sulfite beads and said copper-zinc media are present in approximately equal volumetric portions.",
+        "3. The shower filter of claim 1 wherein said ceramic-type calcium sulfite beads are approximately 50% of the volume of said shower filter media."
+      ]
+    },
+    {
+      "patent_id": "D1034899",
+      "url": "https://patents.google.com/patent/D1034899/en",
+      "title": null,
+      "description": "fetch failed: HTTPError: HTTP Error 404: Not Found",
+      "publication_number": null,
+      "application_number": null,
+      "assignee_current": null,
+      "assignee_original": null,
+      "inventor": null,
+      "priority_date": null,
+      "filing_date": null,
+      "publication_date": null,
+      "grant_date": null,
+      "legal_status": null,
+      "claims_sample": []
     },
     {
       "patent_id": "JP3002925U",
