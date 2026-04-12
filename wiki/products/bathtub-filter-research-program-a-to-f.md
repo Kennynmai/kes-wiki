@@ -66,5 +66,19 @@ Current anchor files:
 - `../syntheses/bathtub-filter-brand-and-content-landscape.md`
 - `../syntheses/bathtub-filter-operations-channel-and-visual-landscape.md`
 
+## G. Standards / certification specific audit by brand
+Goal:
+- identify where each major brand uses certification, testing, or clinical language differently
+
+Primary file:
+- `bathtub-filter-standards-and-certification-audit-by-brand.md`
+
+## H. Product architecture hypothesis for KES
+Goal:
+- convert category learning into structured product-route hypotheses relevant to KES
+
+Primary file:
+- `bathtub-filter-kes-product-architecture-hypotheses.md`
+
 ## Program note
-These six modules are intended to keep the topic comprehensive without letting it become shapeless.
+These modules are intended to keep the topic comprehensive without letting it become shapeless.
