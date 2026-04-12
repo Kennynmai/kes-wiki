@@ -100,6 +100,17 @@ The patent layer increases confidence in one conclusion:
 
 It should not be treated as only a keyword-demand question.
 
+## Concrete fetched patent signals
+The topic is no longer resting only on search snippets. Direct public patent-page fetching has now been used to pull title/date/description/claim samples for the current seed set.
+
+Examples:
+- `US6145670A` confirms a direct bathtub-spout removable-filter architecture
+- `US6096197A` / `US6267887B1` confirm strong shower/tub crossover architecture and cartridge logic
+- `US7682513B2` confirms a dechlorination route where sampled claims explicitly mention water-soluble media and ascorbic-acid relevance
+- `JP3002925U` confirms an immersion-style bath-water chlorine-removal route
+
+This makes the route taxonomy more credible and less speculative than before.
+
 ## What is still missing
 This page is still an early map, not a full patent landscape.
 

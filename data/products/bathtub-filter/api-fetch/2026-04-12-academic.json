@@ -1,0 +1,836 @@
+{
+  "generated_at": "2026-04-12T03:13:46.409392+00:00",
+  "targets": [
+    {
+      "pmid": "12692355",
+      "pmcid": null,
+      "doi": "10.1111/j.1346-8138.2003.tb00371.x",
+      "title": "Free residual chlorine in bathing water reduces the water-holding capacity of the stratum corneum in atopic skin.",
+      "journal": "J Dermatol",
+      "year": "2003",
+      "is_open_access": "N",
+      "has_pdf": "N",
+      "label": "residual chlorine bathing water atopic skin"
+    },
+    {
+      "pmid": "22591883",
+      "pmcid": null,
+      "doi": "10.1016/j.envres.2012.04.013",
+      "title": "Interactions between domestic water hardness, infant swimming and atopy in the development of childhood eczema.",
+      "journal": "Environ Res",
+      "year": "2012",
+      "is_open_access": "N",
+      "has_pdf": "N",
+      "label": "domestic water hardness infant swimming childhood eczema"
+    },
+    {
+      "pmid": "27241890",
+      "pmcid": null,
+      "doi": "10.1016/j.jaci.2016.03.031",
+      "title": "Association between domestic water hardness, chlorine, and atopic dermatitis risk in early life: A population-based cross-sectional study.",
+      "journal": "J Allergy Clin Immunol",
+      "year": "2016",
+      "is_open_access": "N",
+      "has_pdf": "N",
+      "label": "domestic water hardness chlorine atopic dermatitis early life"
+    },
+    {
+      "pmid": "33259122",
+      "pmcid": null,
+      "doi": "10.1111/cea.13797",
+      "title": "The effect of water hardness on atopic eczema, skin barrier function: A systematic review, meta-analysis.",
+      "journal": "Clin Exp Allergy",
+      "year": "2021",
+      "is_open_access": "N",
+      "has_pdf": "N",
+      "label": "water hardness atopic eczema systematic review meta-analysis"
+    },
+    {
+      "pmid": "37029288",
+      "pmcid": "PMC10946598",
+      "doi": "10.1111/pde.15325",
+      "title": "Pooling the evidence: A review of swimming and atopic dermatitis.",
+      "journal": "Pediatr Dermatol",
+      "year": "2023",
+      "is_open_access": "Y",
+      "has_pdf": "Y",
+      "fulltext_xml_available": true,
+      "fulltext_snippet": "pmc Pediatr Dermatol Pediatr Dermatol 379 blackwellopen PDE Pediatric Dermatology 0736-8046 1525-1470 pmc-is-collection-domain yes pmc-collection-title Wiley Open Access Collection PMC10946598 PMC10946598.1 10946598 10946598 37029288 10.1111/pde.15325 PDE15325 1 Review Article Review Article Pooling the evidence: A review of swimming and atopic dermatitis O'Connor et al. O'Connor Cathal MD https://orcid.org/0000-0001-7084-5293 1 2 3 4 cathal.oconnor@ucc.ie McCarthy Siobhan PhD https://orcid.org/0000-0002-1098-2963 1 3 Murphy Michelle MD https://orcid.org/0000-0003-2431-076X 1 3 1 Dermatology South Infirmary Victoria University Hospital Cork Ireland 2 Paediatrics and Child Health Cork University Hospital Cork Ireland 3 Medicine University College Cork Cork Ireland 4 INFANT Research Centre University College Cork Cork Ireland * Correspondence Cathal O'Connor, INFANT Research Centre, University College Cork, Cork, Ireland. Email: cathal.oconnor@ucc.ie 07 4 2023 May-Jun 2023 40 3 458101 1…",
+      "label": "swimming and atopic dermatitis review"
+    }
+  ],
+  "queries": [
+    {
+      "query": "atopic dermatitis hard water chlorine infant swimming",
+      "openalex": {
+        "query": "atopic dermatitis hard water chlorine infant swimming",
+        "meta": {
+          "count": 17,
+          "db_response_time_ms": 400,
+          "page": 1,
+          "per_page": 5,
+          "groups_count": null,
+          "cost_usd": 0.001
+        },
+        "results": [
+          {
+            "id": "https://openalex.org/W2769553061",
+            "doi": "https://doi.org/10.1016/j.jid.2017.08.037",
+            "title": "The Effect of Water Hardness on Surfactant Deposition after Washing and Subsequent Skin Irritation in Atopic Dermatitis Patients and Healthy Control Subjects",
+            "year": 2017,
+            "type": "article",
+            "oa": true,
+            "oa_status": "bronze",
+            "oa_url": "http://www.jidonline.org/article/S0022202X1732938X/pdf",
+            "primary_location": "https://doi.org/10.1016/j.jid.2017.08.037",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W2344666322",
+            "doi": "https://doi.org/10.1016/j.jaci.2016.03.031",
+            "title": "Association between domestic water hardness, chlorine, and atopic dermatitis risk in early life: A population-based cross-sectional study",
+            "year": 2016,
+            "type": "article",
+            "oa": true,
+            "oa_status": "green",
+            "oa_url": "https://kclpure.kcl.ac.uk/portal/files/51336966/1_s2.0_S0091674916301877_main.pdf",
+            "primary_location": "https://doi.org/10.1016/j.jaci.2016.03.031",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W2136330876",
+            "doi": "https://doi.org/10.1183/09031936.00118009",
+            "title": "Infant swimming in chlorinated pools and the risks of bronchiolitis, asthma and allergy",
+            "year": 2010,
+            "type": "article",
+            "oa": true,
+            "oa_status": "bronze",
+            "oa_url": "https://erj.ersjournals.com/content/erj/36/1/41.full.pdf",
+            "primary_location": "https://doi.org/10.1183/09031936.00118009",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W2140825382",
+            "doi": "https://doi.org/10.3310/hta15080",
+            "title": "A multicentre randomised controlled trial and economic evaluation of ion-exchange water softeners for the treatment of eczema in children: the Softened Water Eczema Trial (SWET)",
+            "year": 2011,
+            "type": "article",
+            "oa": true,
+            "oa_status": "diamond",
+            "oa_url": "https://njl-admin.nihr.ac.uk/document/download/2002095",
+            "primary_location": "https://doi.org/10.3310/hta15080",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W2063413396",
+            "doi": "https://doi.org/10.1038/jes.2015.7",
+            "title": "The Canadian Healthy Infant Longitudinal Development (CHILD) birth cohort study: assessment of environmental exposures",
+            "year": 2015,
+            "type": "article",
+            "oa": true,
+            "oa_status": "bronze",
+            "oa_url": "https://www.nature.com/articles/jes20157.pdf",
+            "primary_location": "https://doi.org/10.1038/jes.2015.7",
+            "abstract": null
+          }
+        ]
+      },
+      "crossref": {
+        "query": "atopic dermatitis hard water chlorine infant swimming",
+        "total_results": 1752343,
+        "results": [
+          {
+            "DOI": "10.1080/00325481.1953.11711320",
+            "title": "Atopic Dermatitis in the Infant (Infantile Eczema)",
+            "publisher": "Informa UK Limited",
+            "type": "journal-article",
+            "published": "2016-07-06T22:47:59Z",
+            "abstract": null
+          },
+          {
+            "DOI": "10.1016/s0300-7073(07)70489-9",
+            "title": "Infant Atopic Dermatitis May Signal Elevated Asthma Risk",
+            "publisher": "Elsevier BV",
+            "type": "journal-article",
+            "published": "2009-01-10T05:46:10Z",
+            "abstract": null
+          },
+          {
+            "DOI": "10.1111/pde.15325",
+            "title": "Pooling the evidence: A review of swimming and atopic dermatitis",
+            "publisher": "Wiley",
+            "type": "journal-article",
+            "published": "2023-04-08T03:05:10Z",
+            "abstract": "Abstract Swimming is an excellent form of aerobic exercise and is an essential life skill. Many children with atopic dermatitis (AD) are advised not to swim because of concerns about negative impacts on their skin disease, and some children with AD do not swim because they are self‐conscious about the appearance of their skin. We aimed to perform a narrative review of the available literature on swimming and AD and scientifically analyze the potential impact of all components of swimming in AD—water, skin barrier, swimming gear, and exercise. Studies examined the impact of swimming on the skin barrier and the relative contraindications to swimming. Constituents of water which may affect AD …"
+          },
+          {
+            "DOI": "10.1097/01634989-200006000-00055",
+            "title": "BROMINATED SWIMMING POOL WATER: CHLORINE-SENSITIVE BEWAREI",
+            "publisher": "SAGE Publications",
+            "type": "journal-article",
+            "published": "2014-04-16T12:16:42Z",
+            "abstract": null
+          },
+          {
+            "DOI": "10.37609/akya.4051.c4792",
+            "title": "Atopic Dermatitis and Other Dermatitis (Atopic Dermatitis)",
+            "publisher": "Akademisyen Kitabevi",
+            "type": "book-chapter",
+            "published": "2026-03-11T06:55:55Z",
+            "abstract": "This chapter focuses on atopic dermatitis (AD) and other dermatitis types in the elderly population, emphasizing their epidemiology, pathophysiology, clinical presentation, diagnosis, and treatment. AD is a chronic inflammatory skin disease whose prevalence and clinical characteristics differ significantly with age. In elderly individuals, physiological skin changes, multimorbidity, and polypharmacy complicate disease management. The chapter discusses the main immunological mechanisms underlying AD, including skin barrier dysfunction, Th2-mediated inflammation, and age-related immune alterations. It also reviews diagnostic challenges due to overlapping pruritic dermatoses and highlights bot…"
+          }
+        ]
+      },
+      "europepmc": {
+        "query": "atopic dermatitis hard water chlorine infant swimming",
+        "hitCount": 30,
+        "results": [
+          {
+            "id": "37029288",
+            "source": "MED",
+            "pmid": "37029288",
+            "pmcid": "PMC10946598",
+            "doi": "10.1111/pde.15325",
+            "title": "Pooling the evidence: A review of swimming and atopic dermatitis.",
+            "journal": "Pediatr Dermatol",
+            "year": "2023",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          },
+          {
+            "id": "39388827",
+            "source": "MED",
+            "pmid": "39388827",
+            "pmcid": "PMC11497470",
+            "doi": "10.1016/j.bjorl.2024.101500",
+            "title": "V Brazilian Consensus on Rhinitis - 2024.",
+            "journal": "Braz J Otorhinolaryngol",
+            "year": "2025",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          },
+          {
+            "id": "22591883",
+            "source": "MED",
+            "pmid": "22591883",
+            "pmcid": null,
+            "doi": "10.1016/j.envres.2012.04.013",
+            "title": "Interactions between domestic water hardness, infant swimming and atopy in the development of childhood eczema.",
+            "journal": "Environ Res",
+            "year": "2012",
+            "is_open_access": "N",
+            "has_pdf": "N",
+            "abstract": null
+          },
+          {
+            "id": "24171071",
+            "source": "MED",
+            "pmid": "24171071",
+            "pmcid": "PMC3809588",
+            "doi": null,
+            "title": "Pathways to managing atopic dermatitis: consensus from the experts.",
+            "journal": "J Clin Aesthet Dermatol",
+            "year": "2013",
+            "is_open_access": "N",
+            "has_pdf": "Y",
+            "abstract": null
+          },
+          {
+            "id": "PMC6019992",
+            "source": "PMC",
+            "pmid": null,
+            "pmcid": "PMC6019992",
+            "doi": null,
+            "title": "5th Pediatric Allergy and Asthma Meeting (PAAM)",
+            "journal": "Clin Transl Allergy",
+            "year": "2018",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          }
+        ]
+      }
+    },
+    {
+      "query": "bathing water chlorine atopic skin",
+      "openalex": {
+        "query": "bathing water chlorine atopic skin",
+        "meta": {
+          "count": 163,
+          "db_response_time_ms": 131,
+          "page": 1,
+          "per_page": 5,
+          "groups_count": null,
+          "cost_usd": 0.001
+        },
+        "results": [
+          {
+            "id": "https://openalex.org/W2157617204",
+            "doi": "https://doi.org/10.1111/j.1346-8138.2003.tb00371.x",
+            "title": "Free Residual Chlorine in Bathing Water Reduces the Water‐Holding Capacity of the Stratum Corneum in Atopic Skin",
+            "year": 2003,
+            "type": "article",
+            "oa": false,
+            "oa_status": "closed",
+            "oa_url": null,
+            "primary_location": "https://doi.org/10.1111/j.1346-8138.2003.tb00371.x",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W4410043959",
+            "doi": "https://doi.org/10.2147/ccid.s532670",
+            "title": "Revisiting the Etiology and Management of Atopic Dermatitis: A Perspective on Skin Microbiota, Bathing Habits, and Surfactant-Free Skincare",
+            "year": 2025,
+            "type": "article",
+            "oa": true,
+            "oa_status": "gold",
+            "oa_url": "https://doi.org/10.2147/ccid.s532670",
+            "primary_location": "https://doi.org/10.2147/ccid.s532670",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W1988179669",
+            "doi": "https://doi.org/10.1007/s40572-014-0032-x",
+            "title": "Overview of Disinfection By-products and Associated Health Effects",
+            "year": 2015,
+            "type": "article",
+            "oa": true,
+            "oa_status": "bronze",
+            "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs40572-014-0032-x.pdf",
+            "primary_location": "https://doi.org/10.1007/s40572-014-0032-x",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W2012434022",
+            "doi": "https://doi.org/10.1016/j.jaci.2012.12.672",
+            "title": "Atopic dermatitis: A practice parameter update 2012",
+            "year": 2013,
+            "type": "review",
+            "oa": true,
+            "oa_status": "bronze",
+            "oa_url": "http://www.jacionline.org/article/S0091674912026735/pdf",
+            "primary_location": "https://doi.org/10.1016/j.jaci.2012.12.672",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W4255155429",
+            "doi": "https://doi.org/10.1186/s13223-018-0281-6",
+            "title": "Atopic dermatitis",
+            "year": 2018,
+            "type": "review",
+            "oa": true,
+            "oa_status": "gold",
+            "oa_url": "https://aacijournal.biomedcentral.com/track/pdf/10.1186/s13223-018-0281-6.pdf",
+            "primary_location": "https://doi.org/10.1186/s13223-018-0281-6",
+            "abstract": null
+          }
+        ]
+      },
+      "crossref": {
+        "query": "bathing water chlorine atopic skin",
+        "total_results": 1770716,
+        "results": [
+          {
+            "DOI": "10.1111/j.1346-8138.2003.tb00371.x",
+            "title": "Free Residual Chlorine in Bathing Water Reduces the Water‐Holding Capacity of the Stratum Corneum in Atopic Skin",
+            "publisher": "Wiley",
+            "type": "journal-article",
+            "published": "2014-07-22T09:53:14Z",
+            "abstract": "Abstract Some patients with atopic dermatitis (AD) develop dry skin or exacerbated cutaneous inflammations with frequent swimming in public pools or after bathing. We examined the effects of residual chlorine in bathing water on the function of the stratum corneum (SC) in patients with AD and determined the lowest chlorine concentration showing an effect. In addition, we investigated the relationship between the free residual chlorine concentration in bathing water and the water‐holding capacity of the SC in patients with AD. Twenty patients with AD and 10 normal control (NC) subjects were included in this study. The hydration status of the SC on the flexor surface of the forearm was measur…"
+          },
+          {
+            "DOI": "10.1080/14649365.2017.1347271",
+            "title": "Water, skin and touch: migrant bathing assemblages",
+            "publisher": "Informa UK Limited",
+            "type": "journal-article",
+            "published": "2017-07-06T14:04:20Z",
+            "abstract": null
+          },
+          {
+            "DOI": "10.46747/cfp.6710758",
+            "title": "Atopic dermatitis and bathing",
+            "publisher": "The College of Family Physicians of Canada",
+            "type": "journal-article",
+            "published": "2022-06-21T03:15:49Z",
+            "abstract": null
+          },
+          {
+            "DOI": "10.1007/s13762-022-03966-7",
+            "title": "Modernized sensor measurement technique for determination of chlorine in bathing water",
+            "publisher": "Springer Science and Business Media LLC",
+            "type": "journal-article",
+            "published": "2022-02-09T08:02:58Z",
+            "abstract": null
+          },
+          {
+            "DOI": "10.22541/au.176051557.79328862/v1",
+            "title": "Associations between bathing and skin care routines and severity of atopic dermatitis (AD)",
+            "publisher": "Wiley",
+            "type": "posted-content",
+            "published": "2025-10-15T08:06:21Z",
+            "abstract": null
+          }
+        ]
+      },
+      "europepmc": {
+        "query": "bathing water chlorine atopic skin",
+        "hitCount": 81,
+        "results": [
+          {
+            "id": "40329957",
+            "source": "MED",
+            "pmid": "40329957",
+            "pmcid": "PMC12054541",
+            "doi": "10.2147/ccid.s532670",
+            "title": "Revisiting the Etiology and Management of Atopic Dermatitis: A Perspective on Skin Microbiota, Bathing Habits, and Surfactant-Free Skincare.",
+            "journal": "Clin Cosmet Investig Dermatol",
+            "year": "2025",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          },
+          {
+            "id": "41700199",
+            "source": "MED",
+            "pmid": "41700199",
+            "pmcid": "PMC12906884",
+            "doi": "10.14744/semb.2025.54782",
+            "title": "Turkish Bath-Associated Infectious Dermatoses: A Comprehensive Review of Risk Factors, Clinical Manifestations, and Preventive Measures.",
+            "journal": "Sisli Etfal Hastan Tip Bul",
+            "year": "2025",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          },
+          {
+            "id": "40365260",
+            "source": "MED",
+            "pmid": "40365260",
+            "pmcid": "PMC12068486",
+            "doi": "10.1093/skinhd/vzaf005",
+            "title": "Co-producing a randomized controlled trial on the frequency of bathing in eczema: description of a citizen science approach.",
+            "journal": "Skin Health Dis",
+            "year": "2025",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          },
+          {
+            "id": "40423748",
+            "source": "MED",
+            "pmid": "40423748",
+            "pmcid": "PMC12287192",
+            "doi": "10.1007/s00484-025-02937-0",
+            "title": "Comprehensive review of dermatological and cosmeceutical manifestations of thermal water and future insights.",
+            "journal": "Int J Biometeorol",
+            "year": "2025",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          },
+          {
+            "id": "39654051",
+            "source": "MED",
+            "pmid": "39654051",
+            "pmcid": "PMC11629513",
+            "doi": "10.1186/s13223-024-00927-2",
+            "title": "Atopic dermatitis.",
+            "journal": "Allergy Asthma Clin Immunol",
+            "year": "2024",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          }
+        ]
+      }
+    },
+    {
+      "query": "water hardness atopic eczema systematic review",
+      "openalex": {
+        "query": "water hardness atopic eczema systematic review",
+        "meta": {
+          "count": 205,
+          "db_response_time_ms": 505,
+          "page": 1,
+          "per_page": 5,
+          "groups_count": null,
+          "cost_usd": 0.001
+        },
+        "results": [
+          {
+            "id": "https://openalex.org/W3109706813",
+            "doi": "https://doi.org/10.1111/cea.13797",
+            "title": "The effect of water hardness on atopic eczema, skin barrier function: A systematic review, meta‐analysis",
+            "year": 2020,
+            "type": "review",
+            "oa": false,
+            "oa_status": "closed",
+            "oa_url": null,
+            "primary_location": "https://doi.org/10.1111/cea.13797",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W2279757418",
+            "doi": "https://doi.org/10.1016/j.jaci.2015.10.049",
+            "title": "Does atopic dermatitis cause food allergy? A systematic review",
+            "year": 2016,
+            "type": "review",
+            "oa": true,
+            "oa_status": "green",
+            "oa_url": "https://kclpure.kcl.ac.uk/ws/files/100447672/Does_atopic_dermatitis_cause_TSAKOK_Firstonline18February2016_GREEN_AAM_CC_BY_NC_ND_.pdf",
+            "primary_location": "https://doi.org/10.1016/j.jaci.2015.10.049",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W3009019417",
+            "doi": "https://doi.org/10.1016/s0140-6736(19)32984-8",
+            "title": "Daily emollient during infancy for prevention of eczema: the BEEP randomised controlled trial",
+            "year": 2020,
+            "type": "article",
+            "oa": true,
+            "oa_status": "hybrid",
+            "oa_url": "http://www.thelancet.com/article/S0140673619329848/pdf",
+            "primary_location": "https://doi.org/10.1016/s0140-6736(19)32984-8",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W1723492156",
+            "doi": "https://doi.org/10.1002/14651858.cd004054.pub3",
+            "title": "Psychological and educational interventions for atopic eczema in children",
+            "year": 2014,
+            "type": "review",
+            "oa": true,
+            "oa_status": "bronze",
+            "oa_url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004054.pub3/pdf/full",
+            "primary_location": "https://doi.org/10.1002/14651858.cd004054.pub3",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W2053952900",
+            "doi": "https://doi.org/10.1046/j.1365-2133.148.s63.1.x",
+            "title": "International Consensus Conference on Atopic Dermatitis II (ICCAD II*): clinical update and current treatment strategies",
+            "year": 2003,
+            "type": "review",
+            "oa": true,
+            "oa_status": "green",
+            "oa_url": "https://hdl.handle.net/2027.42/74915",
+            "primary_location": "https://doi.org/10.1046/j.1365-2133.148.s63.1.x",
+            "abstract": null
+          }
+        ]
+      },
+      "crossref": {
+        "query": "water hardness atopic eczema systematic review",
+        "total_results": 4732689,
+        "results": [
+          {
+            "DOI": "10.1016/s0140-6736(98)01402-0",
+            "title": "Atopic eczema and domestic water hardness",
+            "publisher": "Elsevier BV",
+            "type": "journal-article",
+            "published": "2002-07-26T00:46:25Z",
+            "abstract": null
+          },
+          {
+            "DOI": "10.1111/cea.13797",
+            "title": "The effect of water hardness on atopic eczema, skin barrier function: A systematic review, meta‐analysis",
+            "publisher": "Wiley",
+            "type": "journal-article",
+            "published": "2020-12-01T23:40:19Z",
+            "abstract": "Abstract Background Hard domestic water has been reported to worsen atopic eczema (AE) and may contribute to its development in early life. Objective To review the literature on the relationship between the effect of water hardness (high calcium carbonate; CaCO 3 ) on (a) the risk of developing AE, (b) the treatment of existing AE and (c) skin barrier function in human and animal studies. Design , data sources and eligibility criteria We systematically searched databases (MEDLINE, Embase, Cochrane CENTRAL, GREAT and Web of Science) from inception until 30/6/2020. Human and animal observational and experimental studies were included. The primary outcomes were risk of AE and skin barrier func…"
+          },
+          {
+            "DOI": "10.1016/s0190-9622(02)61464-1",
+            "title": "Systematic review of treatments for atopic eczema",
+            "publisher": "Elsevier BV",
+            "type": "journal-article",
+            "published": "2004-01-16T05:15:36Z",
+            "abstract": null
+          },
+          {
+            "DOI": "10.3310/hta4370",
+            "title": "Systematic review of treatments for atopic eczema.",
+            "publisher": "National Institute for Health and Care Research",
+            "type": "journal-article",
+            "published": "2019-03-14T12:16:43Z",
+            "abstract": null
+          },
+          {
+            "DOI": "10.1046/j.1365-2133.2002.467110.x",
+            "title": "Systematic Review of Treatments for Atopic Eczema",
+            "publisher": "Oxford University Press (OUP)",
+            "type": "journal-article",
+            "published": "2003-03-11T05:46:29Z",
+            "abstract": null
+          }
+        ]
+      },
+      "europepmc": {
+        "query": "water hardness atopic eczema systematic review",
+        "hitCount": 98,
+        "results": [
+          {
+            "id": "41737032",
+            "source": "MED",
+            "pmid": "41737032",
+            "pmcid": "PMC12927792",
+            "doi": "10.2147/ijn.s574853",
+            "title": "Melatonin-Loaded Sacchachitin Nanofiber Hydrogel as a Novel Non-Steroidal Platform for Atopic Dermatitis Therapy.",
+            "journal": "Int J Nanomedicine",
+            "year": "2026",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          },
+          {
+            "id": "40462597",
+            "source": "MED",
+            "pmid": "40462597",
+            "pmcid": "PMC12368900",
+            "doi": "10.1111/all.16605",
+            "title": "Gene-Environment Interaction Affects Risk of Atopic Eczema: Population and In Vitro Studies.",
+            "journal": "Allergy",
+            "year": "2025",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          },
+          {
+            "id": "PPR971952",
+            "source": "PPR",
+            "pmid": null,
+            "pmcid": null,
+            "doi": "10.1101/2025.01.24.25321071",
+            "title": "Gene-environment interaction analysis in atopic eczema: evidence from large population datasets and modelling <i>in vitro</i>",
+            "journal": null,
+            "year": "2025",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          },
+          {
+            "id": "41080860",
+            "source": "MED",
+            "pmid": "41080860",
+            "pmcid": "PMC12507775",
+            "doi": "10.3389/fpubh.2025.1642873",
+            "title": "A review of pharmaceutical and personal care products and atopic dermatitis based on epidemiological and basic research findings.",
+            "journal": "Front Public Health",
+            "year": "2025",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          },
+          {
+            "id": "40087673",
+            "source": "MED",
+            "pmid": "40087673",
+            "pmcid": "PMC11907801",
+            "doi": "10.1186/s12940-025-01166-7",
+            "title": "Domestic water hardness, genetic risk, and distinct phenotypes of cardiovascular disease.",
+            "journal": "Environ Health",
+            "year": "2025",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          }
+        ]
+      }
+    },
+    {
+      "query": "swimming atopic dermatitis review",
+      "openalex": {
+        "query": "swimming atopic dermatitis review",
+        "meta": {
+          "count": 1305,
+          "db_response_time_ms": 198,
+          "page": 1,
+          "per_page": 5,
+          "groups_count": null,
+          "cost_usd": 0.001
+        },
+        "results": [
+          {
+            "id": "https://openalex.org/W4362717108",
+            "doi": "https://doi.org/10.1111/pde.15325",
+            "title": "Pooling the evidence: A review of swimming and atopic dermatitis",
+            "year": 2023,
+            "type": "review",
+            "oa": true,
+            "oa_status": "hybrid",
+            "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/pde.15325",
+            "primary_location": "https://doi.org/10.1111/pde.15325",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W1776228394",
+            "doi": "https://doi.org/10.1111/j.1742-1241.2006.01047.x",
+            "title": "Quality of life and childhood atopic dermatitis: the misery of living with childhood eczema",
+            "year": 2006,
+            "type": "review",
+            "oa": false,
+            "oa_status": "closed",
+            "oa_url": null,
+            "primary_location": "https://doi.org/10.1111/j.1742-1241.2006.01047.x",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W4324262474",
+            "doi": "https://doi.org/10.7326/0003-4819-154-4-201102150-00017",
+            "title": "CONSORT 2010 Statement: Updated Guidelines for Reporting Parallel Group Randomized Trials",
+            "year": 2011,
+            "type": "article",
+            "oa": false,
+            "oa_status": "closed",
+            "oa_url": null,
+            "primary_location": "https://doi.org/10.7326/0003-4819-154-4-201102150-00017",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W2520198258",
+            "doi": "https://doi.org/10.1016/j.jid.2016.07.012",
+            "title": "The Burden of Atopic Dermatitis: Summary of a Report for the National Eczema Association",
+            "year": 2016,
+            "type": "review",
+            "oa": true,
+            "oa_status": "bronze",
+            "oa_url": "http://www.jidonline.org/article/S0022202X16321200/pdf",
+            "primary_location": "https://doi.org/10.1016/j.jid.2016.07.012",
+            "abstract": null
+          },
+          {
+            "id": "https://openalex.org/W4319293042",
+            "doi": "https://doi.org/10.3310/hta4370",
+            "title": "Systematic review of treatments for atopic eczema.",
+            "year": 2000,
+            "type": "article",
+            "oa": true,
+            "oa_status": "hybrid",
+            "oa_url": "https://njl-admin.nihr.ac.uk/document/download/2004189",
+            "primary_location": "https://doi.org/10.3310/hta4370",
+            "abstract": null
+          }
+        ]
+      },
+      "crossref": {
+        "query": "swimming atopic dermatitis review",
+        "total_results": 3256967,
+        "results": [
+          {
+            "DOI": "10.1111/pde.15325",
+            "title": "Pooling the evidence: A review of swimming and atopic dermatitis",
+            "publisher": "Wiley",
+            "type": "journal-article",
+            "published": "2023-04-08T03:05:10Z",
+            "abstract": "Abstract Swimming is an excellent form of aerobic exercise and is an essential life skill. Many children with atopic dermatitis (AD) are advised not to swim because of concerns about negative impacts on their skin disease, and some children with AD do not swim because they are self‐conscious about the appearance of their skin. We aimed to perform a narrative review of the available literature on swimming and AD and scientifically analyze the potential impact of all components of swimming in AD—water, skin barrier, swimming gear, and exercise. Studies examined the impact of swimming on the skin barrier and the relative contraindications to swimming. Constituents of water which may affect AD …"
+          },
+          {
+            "DOI": "10.1093/bjd/ljad259.021",
+            "title": "P11 Pooling the evidence: a review of swimming and atopic dermatitis",
+            "publisher": "Oxford University Press (OUP)",
+            "type": "journal-article",
+            "published": "2023-08-25T00:17:15Z",
+            "abstract": "Abstract Swimming is an excellent form of aerobic exercise and is an essential life skill. Many children with atopic dermatitis (AD) are advised not to swim because of concerns about negative impacts on their skin disease, and some children with AD do not swim because they are self-conscious about the appearance of their skin. We aimed to review the available literature on swimming and AD and scientifically analyse the potential impact of all components of swimming in AD – water, skin barrier, swimming gear and exercise. Studies examined the impact of swimming on the skin barrier and relative contraindications to swimming. Constituents of water that may affect AD include hardness, pH, tempe…"
+          },
+          {
+            "DOI": "10.12775/qs.2025.37.56851",
+            "title": "Atopic dermatitis - the review",
+            "publisher": "Uniwersytet Mikolaja Kopernika/Nicolaus Copernicus University",
+            "type": "journal-article",
+            "published": "2025-01-03T13:12:27Z",
+            "abstract": "Atopic dermatitis (AD) is a chronic inflammatory skin disorder characterized by a disrupted epidermal barrier, immune dysregulation, and genetic predisposition. Affecting individuals across all age groups, AD presents with recurrent flare-ups and varying clinical patterns depending on age. The pathophysiology involves key elements such as loss-of-function mutations in the filaggrin (FLG) gene, overproduction of cytokines like IL-4 and IL-13, and skin colonization by Staphylococcus aureus. Management strategies include patient education, topical therapies (e.g., corticosteroids, calcineurin inhibitors, crisaborole, and tapinarof), systemic treatments like dupilumab and methotrexate, and phot…"
+          },
+          {
+            "DOI": "10.48175/ijarsct-14030",
+            "title": "Review on Atopic Dermatitis",
+            "publisher": "Naksh Solutions",
+            "type": "journal-article",
+            "published": "2023-12-05T19:58:39Z",
+            "abstract": "Atopic dermatitis (AD) is becoming a major public health problem due to its increasing prevalence and growing evidence that it may cause other allergic reactions. Atopic dermatitis is a common inflammatory skin disease, with typical recurrent eczema lesions. This can be frustrating for children's patients, parents and healthcare providers. Pediatrics treats most children with atopic dermatitis because many patients do not have access to pediatric subspecialty physicians such as pediatric dermatologists and pediatric allergic doctors."
+          },
+          {
+            "DOI": "10.37609/akya.4051.c4792",
+            "title": "Atopic Dermatitis and Other Dermatitis (Atopic Dermatitis)",
+            "publisher": "Akademisyen Kitabevi",
+            "type": "book-chapter",
+            "published": "2026-03-11T06:55:55Z",
+            "abstract": "This chapter focuses on atopic dermatitis (AD) and other dermatitis types in the elderly population, emphasizing their epidemiology, pathophysiology, clinical presentation, diagnosis, and treatment. AD is a chronic inflammatory skin disease whose prevalence and clinical characteristics differ significantly with age. In elderly individuals, physiological skin changes, multimorbidity, and polypharmacy complicate disease management. The chapter discusses the main immunological mechanisms underlying AD, including skin barrier dysfunction, Th2-mediated inflammation, and age-related immune alterations. It also reviews diagnostic challenges due to overlapping pruritic dermatoses and highlights bot…"
+          }
+        ]
+      },
+      "europepmc": {
+        "query": "swimming atopic dermatitis review",
+        "hitCount": 721,
+        "results": [
+          {
+            "id": "41708045",
+            "source": "MED",
+            "pmid": "41708045",
+            "pmcid": null,
+            "doi": "10.1016/j.yrtph.2026.106061",
+            "title": "Association between swimming pool attendance and allergic diseases: An updated systematic review and meta-analysis.",
+            "journal": "Regul Toxicol Pharmacol",
+            "year": "2026",
+            "is_open_access": "N",
+            "has_pdf": "N",
+            "abstract": null
+          },
+          {
+            "id": "41424665",
+            "source": "MED",
+            "pmid": "41424665",
+            "pmcid": "PMC12714407",
+            "doi": "10.7573/dic.2025-8-2",
+            "title": "Effectiveness of the antihistamine and anti-PAF effects of rupatadine in allergic diseases: off-label use in a case series study.",
+            "journal": "Drugs Context",
+            "year": "2025",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          },
+          {
+            "id": "41816133",
+            "source": "MED",
+            "pmid": "41816133",
+            "pmcid": "PMC12975106",
+            "doi": "10.4103/jfmpc.jfmpc_625_25",
+            "title": "Parental perspective of the impact of atopic dermatitis on the quality of life in children in Saudi Arabia: A cross-sectional study.",
+            "journal": "J Family Med Prim Care",
+            "year": "2026",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          },
+          {
+            "id": "PMC12989706",
+            "source": "PMC",
+            "pmid": null,
+            "pmcid": "PMC12989706",
+            "doi": null,
+            "title": "UV Protection Habits and Preferences in Patients With Distinct Cutaneous Immune‐Mediated Inflammatory Diseases",
+            "journal": "Photodermatol Photoimmunol Photomed",
+            "year": "2026",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          },
+          {
+            "id": "41798765",
+            "source": "MED",
+            "pmid": "41798765",
+            "pmcid": "PMC12963907",
+            "doi": "10.1016/j.waojou.2026.101346",
+            "title": "Non-syndromic hyper-IgE in children: A practical approach.",
+            "journal": "World Allergy Organ J",
+            "year": "2026",
+            "is_open_access": "Y",
+            "has_pdf": "Y",
+            "abstract": null
+          }
+        ]
+      }
+    }
+  ]
+}
