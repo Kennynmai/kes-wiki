@@ -82,5 +82,10 @@ Primary file:
 - `bathtub-filter-kes-route-screening-memo-v1.md`
 - `bathtub-filter-kes-route-screening-memo-v2.md`
 
+## Additional deep-dive assets
+- `bathtub-filter-brand-page-claim-compliance-audit.md`
+- `bathtub-filter-brand-page-pack-audit-v2.md`
+- `bathtub-filter-kes-go-no-go-memo-v1.md`
+
 ## Program note
 These modules are intended to keep the topic comprehensive without letting it become shapeless.
