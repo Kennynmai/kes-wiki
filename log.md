@@ -38,3 +38,9 @@ Example:
 - updated: wiki/source-summaries/bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13.md; wiki/source-summaries/bathtub-filter-market-scan-2026-04-11.md; wiki/source-summaries/bathtub-filter-academic-and-institutional-evidence-2026-04-11.md; wiki/source-summaries/bathtub-filter-api-backed-academic-and-patent-fetch-2026-04-12.md; wiki/source-summaries/bathtub-filter-swimming-eczema-explanation-layer-2026-04-12.md; wiki/source-summaries/bathtub-filter-web-content-fetch-attempts-2026-04-11.md; wiki/products/bathtub-filter-marketplace-negative-review-signals.md
 - status: working
 - notes: added `[[wikilinks]]` to key source-summary pages and expanded complaint clusters to include overflow, slower-fill frustration, value disappointment, and curved-faucet compatibility tension.
+
+## [2026-04-13] maintain | bathtub filter complaint taxonomy by route + synthesis backlink strengthening
+- source: raw/products/bathtub-filter/2026-04-13-complaint-taxonomy-by-route-notes.md
+- updated: wiki/products/bathtub-filter-complaint-taxonomy-and-risk-by-route.md; wiki/products/bathtub-filter.md; wiki/products/bathtub-filter-obsidian-map.md; wiki/syntheses/bathtub-filter-brand-and-content-landscape.md; wiki/syntheses/bathtub-filter-competitor-and-demand-scan.md; wiki/syntheses/bathtub-filter-patent-and-technical-landscape.md; wiki/syntheses/bathtub-filter-research-map.md
+- status: working
+- notes: converted complaint clusters into a route-based screening lens and strengthened Obsidian graph connectivity across the main synthesis pages.

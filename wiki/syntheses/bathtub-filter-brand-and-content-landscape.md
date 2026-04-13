@@ -20,6 +20,15 @@ related:
 
 # Bathtub Filter Brand and Content Landscape
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-brand-operating-matrix-v2]]
+- [[bathtub-filter-channel-positioning-table-v2]]
+- [[bathtub-filter-review-patterns-and-return-risk]]
+- [[bathtub-filter-marketplace-negative-review-signals]]
+- [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
+- [[bathtub-filter-patent-and-technical-landscape]]
+
 ## Why this page exists
 This page adds two missing layers to the bathtub-filter topic:
 1. **major brand / product-line reconnaissance**

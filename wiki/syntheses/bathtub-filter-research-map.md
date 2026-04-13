@@ -19,6 +19,16 @@ related:
 
 # Bathtub Filter Research Map
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-competitor-and-demand-scan]]
+- [[bathtub-filter-brand-and-content-landscape]]
+- [[bathtub-filter-patent-and-technical-landscape]]
+- [[bathtub-filter-review-and-compliance-landscape]]
+- [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
+- [[market-research-workflow]]
+- [[academic-search-workflow]]
+
 ## Framing
 This page is the reusable research map for the bathtub filter topic. Its purpose is to structure future capture, source reading, and write-back so the category can be explored systematically instead of through scattered notes.
 

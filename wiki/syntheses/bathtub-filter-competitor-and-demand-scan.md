@@ -19,6 +19,14 @@ related:
 
 # Bathtub Filter Competitor and Demand Scan
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-research-map]]
+- [[bathtub-filter-product-forms]]
+- [[bathtub-filter-user-segments]]
+- [[bathtub-filter-marketplace-negative-review-signals]]
+- [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
+
 ## Framing
 This is a first-pass market scan based on public search results and visible listing language. It is intended to identify whether bathtub filter appears to be a real demand pocket, what product forms dominate, and what the current claim environment looks like.
 

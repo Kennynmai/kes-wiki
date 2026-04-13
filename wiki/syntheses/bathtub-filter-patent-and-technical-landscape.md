@@ -20,6 +20,14 @@ related:
 
 # Bathtub Filter Patent and Technical Landscape
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-patent-table]]
+- [[bathtub-filter-kes-product-architecture-hypotheses]]
+- [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
+- [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
+- [[academic-search-workflow]]
+
 ## Why this page exists
 This page adds a patent / technical-route lens to the bathtub-filter topic.
 
