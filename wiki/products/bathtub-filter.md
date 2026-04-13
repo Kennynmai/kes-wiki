@@ -3,7 +3,7 @@ type: product
 status: active
 owner: product
 created: 2026-04-11
-updated: 2026-04-11
+updated: 2026-04-13
 visibility: company
 confidence: low
 officiality: draft
@@ -23,6 +23,7 @@ related:
   - ./bathtub-filter-evidence-bibliography.md
   - ./bathtub-filter-evidence-matrix.md
   - ./bathtub-filter-institutional-guidance.md
+  - ./bathtub-filter-review-patterns-and-return-risk.md
   - ../products/curtains.md
 ---
 
@@ -107,6 +108,8 @@ than KES’s current core hardware products.
 
 The evidence base has also become clearer: the category has a much better-supported **problem story** than **product-efficacy story**. In other words, there is now a credible reason to believe consumers are reacting to real water / skin-comfort concerns, but much less evidence that generic bathtub filters as sold in-market reliably solve those concerns to a clinically meaningful degree.
 
+A newer review-pattern pass also sharpens the operating risk: the category’s core failure mode may be **normal-flow disappointment**. Public review/testing materials now reinforce that bathtub-filter performance can be materially flow-rate-sensitive, which means marketing conversion can outrun realistic tub-fill efficacy unless the architecture, fit scope, and claim strategy are tightly controlled.
+
 ## Working evidence synthesis
 ### What seems most defensible now
 - hard water appears to be a more strongly evidence-backed category concern than simplistic chlorine-only storytelling
@@ -152,6 +155,8 @@ It is **not** getting more favorable for:
 - extract common complaint patterns from reviews
 - assess certification / legal claim barriers
 - evaluate whether this should live under bathroom hardware adjacency or water-treatment adjacency
+- formalize marketplace-native negative-review extraction by SKU
+- test normal-flow versus reduced-flow performance implications more explicitly
 - formalize the academic-search workflow for evidence-heavy subtopics
 - add patent / technical-route analysis to test architecture credibility and IP crowding
 - deepen installation / compatibility engineering analysis
@@ -195,8 +200,10 @@ It is **not** getting more favorable for:
 - [Bathtub Filter Product Definition Language](./bathtub-filter-product-definition-language.md)
 - [Academic Search Workflow](../playbooks/academic-search-workflow.md)
 - [Bathtub Filter Validation / Testing Protocol](../playbooks/bathtub-filter-validation-testing-protocol.md)
+- [Bathtub Filter Review Patterns and Return Risk](./bathtub-filter-review-patterns-and-return-risk.md)
 - [Bathtub Filter Brand and Content Landscape](../syntheses/bathtub-filter-brand-and-content-landscape.md)
 - [Bathtub Filter Review and Compliance Landscape](../syntheses/bathtub-filter-review-and-compliance-landscape.md)
 - [Bathtub Filter Operations, Channel, and Visual Landscape](../syntheses/bathtub-filter-operations-channel-and-visual-landscape.md)
 - [Bathtub Filter SNS, Creator, and Visual Taxonomy](../syntheses/bathtub-filter-sns-creator-and-visual-taxonomy.md)
 - [Source Summary — Bathtub Filter API-Backed Academic and Patent Fetch (2026-04-12)](../source-summaries/bathtub-filter-api-backed-academic-and-patent-fetch-2026-04-12.md)
+- [Source Summary — Bathtub Filter Marketplace Review and Editorial Review Pass (2026-04-13)](../source-summaries/bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13.md)
