@@ -19,6 +19,9 @@ related:
 
 # Bathtub Filter Claim Risk Audit
 
+## Version links
+- Newer working page: [[bathtub-filter-claim-risk-audit-v2]]
+
 ## Table
 | Claim category | Typical wording seen in market | Evidence base status | Risk level | KES view |
 |---|---|---|---|---|

@@ -22,6 +22,14 @@ related:
 
 # Source Summary — Bathtub Filter API-Backed Academic and Patent Fetch (2026-04-12)
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-patent-table]]
+- [[bathtub-filter-patent-and-technical-landscape]]
+- [[academic-search-workflow]]
+
+# Source Summary — Bathtub Filter API-Backed Academic and Patent Fetch (2026-04-12)
+
 ## Why this source matters
 This source upgrades the bathtub-filter topic from manual browsing/search-only work to repeatable API-backed retrieval plus direct patent-page fetching.
 

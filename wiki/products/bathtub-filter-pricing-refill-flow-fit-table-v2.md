@@ -19,6 +19,9 @@ related:
 
 # Bathtub Filter Pricing / Refill / Flow / Fit Table — V2
 
+## Version links
+- Earlier page: [[bathtub-filter-pricing-refill-flow-fit-table]]
+
 | Brand | Upfront price signal | Replacement price / cadence | Capacity signal | Flow anchor | Fit/install anchor | Quote anchor | Notes |
 |---|---|---|---|---|---|---|---|
 | Santevia | WaterFilterGuru surfaced ~$19.99 | replace every 2 months | 4,755 gal / ~100 baths | strongest surfaced faster-flow chlorine result | must hang dry between uses | “the only product to reduce 100% chlorine at the faster flow” / “The Bath Filter lasts 2 months or 18,120 L / 4,755 gal (100 baths)” | strong performance signal but short maintenance cycle |

@@ -21,6 +21,12 @@ related:
 
 # Source Summary — Bathtub Filter Academic and Institutional Evidence (2026-04-11)
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-claims-and-certifications]]
+- [[bathtub-filter-evidence-bibliography]]
+- [[bathtub-filter-evidence-matrix]]
+
 ## Source
 - Raw capture: `raw/products/bathtub-filter/2026-04-11-academic-and-institutional-evidence.md`
 - PubMed / PMC / JACI / clinical-adjacent and institutional explainer materials observed through public search

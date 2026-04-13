@@ -20,6 +20,9 @@ related:
 
 # Bathtub Filter KES Route Screening Memo — V1
 
+## Version links
+- Newer working page: [[bathtub-filter-kes-route-screening-memo-v2]]
+
 ## Executive read
 The category looks real enough to study seriously, but the likely winning route is **not** “say more things.”
 

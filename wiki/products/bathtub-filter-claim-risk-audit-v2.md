@@ -19,6 +19,9 @@ related:
 
 # Bathtub Filter Claim Risk Audit — V2
 
+## Version links
+- Earlier page: [[bathtub-filter-claim-risk-audit]]
+
 | Claim class | Example surfaced wording | Source anchor | Evidence posture | Risk | KES posture |
 |---|---|---|---|---|---|
 | Free chlorine reduction | “helps to remove free chlorine” | Sprite / NSF-177-adjacent shower context | relatively strongest | low-medium | usable with precise wording |

@@ -19,6 +19,9 @@ related:
 
 # Bathtub Filter Pricing / Refill / Flow / Fit Table
 
+## Version links
+- Newer working page: [[bathtub-filter-pricing-refill-flow-fit-table-v2]]
+
 ## Purpose
 Track the practical economics and operating reality of leading products.
 

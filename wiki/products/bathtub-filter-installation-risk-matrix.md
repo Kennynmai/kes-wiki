@@ -19,6 +19,9 @@ related:
 
 # Bathtub Filter Installation Risk Matrix
 
+## Version links
+- Newer working page: [[bathtub-filter-installation-risk-matrix-v2]]
+
 ## Matrix
 | Risk area | Why it matters | Current signal | Risk level |
 |---|---|---|---|

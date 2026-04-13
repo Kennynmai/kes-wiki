@@ -21,6 +21,13 @@ related:
 
 # Source Summary — Bathtub Filter Market Scan (2026-04-11)
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-research-map]]
+- [[bathtub-filter-competitor-and-demand-scan]]
+- [[bathtub-filter-product-forms]]
+- [[bathtub-filter-user-segments]]
+
 ## Source
 - Raw capture: `raw/products/bathtub-filter/2026-04-11-market-scan.md`
 - Public web search and visible search snippets from Amazon, DTC pages, and review-style editorial pages

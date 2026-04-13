@@ -32,3 +32,9 @@ Example:
 - updated: wiki/products/bathtub-filter-marketplace-negative-review-signals.md; wiki/products/bathtub-filter.md; wiki/products/bathtub-filter-obsidian-map.md; wiki/products/bathtub-filter-brand-operating-matrix.md; wiki/products/bathtub-filter-brand-operating-matrix-v2.md; wiki/products/bathtub-filter-channel-positioning-table.md; wiki/products/bathtub-filter-channel-positioning-table-v2.md
 - status: working
 - notes: added early marketplace-native complaint signals from public snippets and started explicit version links for selected v1/v2 pages.
+
+## [2026-04-13] maintain | bathtub filter source-summary link pass + complaint clustering deepening
+- source: wiki/source-summaries/bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13.md
+- updated: wiki/source-summaries/bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13.md; wiki/source-summaries/bathtub-filter-market-scan-2026-04-11.md; wiki/source-summaries/bathtub-filter-academic-and-institutional-evidence-2026-04-11.md; wiki/source-summaries/bathtub-filter-api-backed-academic-and-patent-fetch-2026-04-12.md; wiki/source-summaries/bathtub-filter-swimming-eczema-explanation-layer-2026-04-12.md; wiki/source-summaries/bathtub-filter-web-content-fetch-attempts-2026-04-11.md; wiki/products/bathtub-filter-marketplace-negative-review-signals.md
+- status: working
+- notes: added `[[wikilinks]]` to key source-summary pages and expanded complaint clusters to include overflow, slower-fill frustration, value disappointment, and curved-faucet compatibility tension.

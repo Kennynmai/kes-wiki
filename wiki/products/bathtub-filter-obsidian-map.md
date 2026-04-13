@@ -49,6 +49,7 @@ This page is a navigation hub for Obsidian browsing.
 
 ## Claims / compliance / standards
 - [[bathtub-filter-claims-and-certifications]]
+- [[bathtub-filter-marketplace-negative-review-signals]]
 - [[bathtub-filter-claim-evidence-ladder]]
 - [[bathtub-filter-standards-and-certification-audit-by-brand]]
 - [[bathtub-filter-brand-page-claim-compliance-audit]]
@@ -62,10 +63,12 @@ This page is a navigation hub for Obsidian browsing.
 
 ## Source summaries
 - [[bathtub-filter-market-scan-2026-04-11]]
+- [[bathtub-filter-swimming-eczema-explanation-layer-2026-04-12]]
 - [[bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13]]
 - [[bathtub-filter-academic-and-institutional-evidence-2026-04-11]]
 - [[bathtub-filter-academic-and-institutional-evidence-deepening-2026-04-11]]
 - [[bathtub-filter-api-backed-academic-and-patent-fetch-2026-04-12]]
+- [[bathtub-filter-web-content-fetch-attempts-2026-04-11]]
 
 ## Related syntheses
 - [[bathtub-filter-research-map]]

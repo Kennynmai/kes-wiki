@@ -22,6 +22,13 @@ related:
 
 # Source Summary — Bathtub Filter Marketplace Review and Editorial Review Pass (2026-04-13)
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-review-patterns-and-return-risk]]
+- [[bathtub-filter-marketplace-negative-review-signals]]
+- [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
+- [[bathtub-filter-review-and-compliance-landscape]]
+
 ## Source
 - Raw capture: `raw/products/bathtub-filter/2026-04-13-market-review-pass.md`
 - Underlying HTML captures in: `raw/products/bathtub-filter/2026-04-13-market-review-pass/`

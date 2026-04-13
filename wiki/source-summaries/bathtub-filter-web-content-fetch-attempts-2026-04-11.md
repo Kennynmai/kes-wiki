@@ -20,6 +20,11 @@ related:
 
 # Source Summary — Bathtub Filter Web Content Fetch Attempts (2026-04-11)
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-evidence-bibliography]]
+- [[bathtub-filter-evidence-access-audit-2026-04-11]]
+
 ## Source
 - Raw capture: `raw/products/bathtub-filter/2026-04-11-web-content-fetch-attempts-and-results.md`
 

@@ -37,12 +37,39 @@ Working interpretation:
 - positive conversion language is still dominated by perceptible sensory cues
 - this strengthens the view that the category sells on sensory reassurance, while complaints may center on attachment and proof mismatch
 
+## Additional surfaced complaint signals
+### Santevia Q&A / Amazon-visible snippet
+URL:
+- https://www.amazon.com/ask/questions/TxIBJB133QC0JE/
+
+Visible snippet signal:
+- “it won't be and shouldn't be as fast as a brita pitcher”
+- reports that in some purchases “it wouldn’t filter and water would overflow”
+- mentions better support when buying directly versus third-party sellers
+
+Working interpretation:
+- fill-speed expectation management is part of the category risk
+- overflow is a serious practical failure mode, not just a minor inconvenience
+- channel quality / seller quality may affect perceived product reliability
+
+### Generic bathtub-filter Amazon snippet signal
+URL:
+- https://www.amazon.com/TNEHOD-Filtration-Contaminants-Bathwater-Healthier/dp/B0D9LV6L79
+
+Visible snippet signal:
+- one visible review says it is good for a curved faucet
+- another says “Slips off no matter what I do.”
+
+Working interpretation:
+- curved-faucet compatibility is a real consumer micro-segment
+- compatibility success and compatibility failure can coexist sharply even within similar faucet-mount product logic
+
 ## Cross-signal implication
 Even this shallow marketplace-native pass already suggests a practical split:
-- positive language = softer feel, less chlorine smell
-- negative language = doesn’t remove chlorine, slips off faucet
+- positive language = softer feel, less chlorine smell, works on curved faucet
+- negative language = doesn’t remove chlorine, slips off faucet, overflows, too expensive, doesn’t work as advertised
 
-That is commercially important because the exact same SKU can attract both perceived-benefit praise and product-reality complaints.
+That is commercially important because the exact same SKU or route can attract both perceived-benefit praise and product-reality complaints.
 
 ## Caveats
 - this is a search-snippet pass, not a full exported review dataset

@@ -19,6 +19,9 @@ related:
 
 # Bathtub Filter Installation Risk Matrix — V2
 
+## Version links
+- Earlier page: [[bathtub-filter-installation-risk-matrix]]
+
 | Risk area | Normalized category | Source-backed signal | Quote anchor | Risk level | Why it matters |
 |---|---|---|---|---|---|
 | Native tub-spout compatibility | geometry/fit | multiple surfaced pages rely on “fits most tubs” language, implying variance is real | Crystal Quest: “Includes both standard and flexible handles for easy fit” | high | products are solving around real bathtub hardware variation |

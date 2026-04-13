@@ -20,6 +20,9 @@ related:
 
 # Bathtub Filter KES Route Screening Memo — V2
 
+## Version links
+- Earlier page: [[bathtub-filter-kes-route-screening-memo-v1]]
+
 ## Decision frame
 The question is no longer “is there enough signal to care?” There is.
 
