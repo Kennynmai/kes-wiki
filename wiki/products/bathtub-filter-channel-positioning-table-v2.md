@@ -19,6 +19,9 @@ related:
 
 # Bathtub Filter Channel Positioning Table — V2
 
+## Version links
+- Earlier page: [[bathtub-filter-channel-positioning-table]]
+
 | Channel identity | Representative brands/surfaces | Core promise | Quote anchor | Strength | Weakness |
 |---|---|---|---|---|---|
 | Premium baby/wellness DTC | Canopy, Motherly, Babylist | gentler, safer, more comfortable bath time for babies/families | “baby bath gear that’s worth the $89 price tag” | high emotional conversion; design premium | performance and claim scrutiny rise with price and softness framing |

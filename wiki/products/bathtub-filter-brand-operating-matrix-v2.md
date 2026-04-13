@@ -20,6 +20,9 @@ related:
 
 # Bathtub Filter Brand Operating Matrix — V2
 
+## Version links
+- Earlier page: [[bathtub-filter-brand-operating-matrix]]
+
 ## Normalization key
 ### Route type
 - **soft-hanging** = flexible / fabric-like bath filter that hangs under running water

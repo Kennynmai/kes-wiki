@@ -19,6 +19,9 @@ related:
 
 # Bathtub Filter Channel Positioning Table
 
+## Version links
+- Newer working page: [[bathtub-filter-channel-positioning-table-v2]]
+
 ## Table
 | Channel type | Representative surfaces | Typical message | Likely winning angle | Likely weakness |
 |---|---|---|---|---|

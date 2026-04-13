@@ -20,6 +20,9 @@ related:
 
 # Bathtub Filter Brand Operating Matrix
 
+## Version links
+- Newer working page: [[bathtub-filter-brand-operating-matrix-v2]]
+
 ## Purpose
 Compare leading bathtub-filter brands on product form, technical route, core claims, believable value, likely friction, and likely claim/compliance risk.
 

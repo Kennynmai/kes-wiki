@@ -169,7 +169,9 @@ It is **not** getting more favorable for:
 ### Core bathtub-filter pages
 - [[bathtub-filter]]
 - [[bathtub-filter-review-patterns-and-return-risk]]
+- [[bathtub-filter-marketplace-negative-review-signals]]
 - [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
+- [[bathtub-filter-structure-audit-and-link-maintenance-2026-04-13]]
 - [[bathtub-filter-review-and-compliance-landscape]]
 - [[bathtub-filter-pricing-refill-flow-fit-table-v2]]
 - [[bathtub-filter-installation-risk-matrix-v2]]

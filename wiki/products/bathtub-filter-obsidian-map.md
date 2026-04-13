@@ -30,8 +30,10 @@ This page is a navigation hub for Obsidian browsing.
 
 ## Core decision-support pages
 - [[bathtub-filter-review-patterns-and-return-risk]]
+- [[bathtub-filter-marketplace-negative-review-signals]]
 - [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
 - [[bathtub-filter-review-and-compliance-landscape]]
+- [[bathtub-filter-structure-audit-and-link-maintenance-2026-04-13]]
 - [[bathtub-filter-pricing-refill-flow-fit-table-v2]]
 - [[bathtub-filter-installation-risk-matrix-v2]]
 - [[bathtub-filter-claim-risk-audit-v2]]

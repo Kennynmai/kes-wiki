@@ -26,3 +26,9 @@ Example:
 - updated: wiki/products/bathtub-filter.md; wiki/products/bathtub-filter-review-patterns-and-return-risk.md; wiki/products/bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md; wiki/syntheses/bathtub-filter-review-and-compliance-landscape.md
 - status: working
 - notes: added `[[wikilinks]]` and a dedicated Obsidian navigation hub for the bathtub-filter page cluster.
+
+## [2026-04-13] maintain | bathtub filter structure audit + marketplace negative-review scouting
+- source: wiki/products/bathtub-filter-structure-audit-and-link-maintenance-2026-04-13.md
+- updated: wiki/products/bathtub-filter-marketplace-negative-review-signals.md; wiki/products/bathtub-filter.md; wiki/products/bathtub-filter-obsidian-map.md; wiki/products/bathtub-filter-brand-operating-matrix.md; wiki/products/bathtub-filter-brand-operating-matrix-v2.md; wiki/products/bathtub-filter-channel-positioning-table.md; wiki/products/bathtub-filter-channel-positioning-table-v2.md
+- status: working
+- notes: added early marketplace-native complaint signals from public snippets and started explicit version links for selected v1/v2 pages.
