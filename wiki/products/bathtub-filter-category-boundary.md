@@ -20,6 +20,12 @@ related:
 
 # Bathtub Filter Category Boundary
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-product-forms]]
+- [[bathtub-filter-user-segments]]
+- [[bathtub-filter-research-map]]
+
 ## Why this page exists
 Bathtub filter appears to be a fuzzy category. This page clarifies what it is, what it is adjacent to, and what it should not be confused with.
 

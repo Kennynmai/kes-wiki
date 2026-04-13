@@ -20,6 +20,13 @@ related:
 
 # Bathtub Filter Buying Criteria
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-product-forms]]
+- [[bathtub-filter-claims-and-certifications]]
+- [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
+- [[bathtub-filter-kes-route-elimination-memo-v1]]
+
 ## Why this page exists
 Before deeper market sizing, KES should define what makes a bathtub filter commercially attractive or unattractive as a product concept.
 

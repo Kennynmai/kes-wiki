@@ -44,3 +44,9 @@ Example:
 - updated: wiki/products/bathtub-filter-complaint-taxonomy-and-risk-by-route.md; wiki/products/bathtub-filter.md; wiki/products/bathtub-filter-obsidian-map.md; wiki/syntheses/bathtub-filter-brand-and-content-landscape.md; wiki/syntheses/bathtub-filter-competitor-and-demand-scan.md; wiki/syntheses/bathtub-filter-patent-and-technical-landscape.md; wiki/syntheses/bathtub-filter-research-map.md
 - status: working
 - notes: converted complaint clusters into a route-based screening lens and strengthened Obsidian graph connectivity across the main synthesis pages.
+
+## [2026-04-13] maintain | bathtub filter route elimination memo + weak-page backlink strengthening
+- source: wiki/products/bathtub-filter-kes-route-elimination-memo-v1.md
+- updated: wiki/products/bathtub-filter-kes-route-elimination-memo-v1.md; wiki/products/bathtub-filter.md; wiki/products/bathtub-filter-obsidian-map.md; wiki/products/bathtub-filter-kes-route-screening-memo-v2.md; wiki/products/bathtub-filter-buying-criteria.md; wiki/products/bathtub-filter-category-boundary.md; wiki/products/bathtub-filter-institutional-guidance.md; wiki/products/bathtub-filter-technology-notes.md; wiki/playbooks/bathtub-filter-validation-testing-protocol.md; wiki/syntheses/bathtub-filter-operations-channel-and-visual-landscape.md; wiki/syntheses/bathtub-filter-sns-creator-and-visual-taxonomy.md; wiki/products/bathtub-filter-structure-audit-and-link-maintenance-2026-04-13.md; wiki/source-summaries/bathtub-filter-web-content-fetch-attempts-2026-04-11.md
+- status: working
+- notes: added a stricter KES route-elimination layer and improved Obsidian reachability for previously low-backlink bathtub-filter pages.

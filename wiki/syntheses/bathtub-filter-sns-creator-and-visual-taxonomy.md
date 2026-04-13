@@ -19,6 +19,12 @@ related:
 
 # Bathtub Filter SNS, Creator, and Visual Taxonomy
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-brand-and-content-landscape]]
+- [[bathtub-filter-operations-channel-and-visual-landscape]]
+- [[bathtub-filter-obsidian-map]]
+
 ## Why this page exists
 This page is the deeper F-layer: not just that social/creator content exists, but **how it compresses the category into repeatable narratives and visual codes**.
 

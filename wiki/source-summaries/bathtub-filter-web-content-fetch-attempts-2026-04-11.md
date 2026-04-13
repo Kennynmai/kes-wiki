@@ -24,6 +24,7 @@ related:
 - [[bathtub-filter]]
 - [[bathtub-filter-evidence-bibliography]]
 - [[bathtub-filter-evidence-access-audit-2026-04-11]]
+- [[bathtub-filter-structure-audit-and-link-maintenance-2026-04-13]]
 
 ## Source
 - Raw capture: `raw/products/bathtub-filter/2026-04-11-web-content-fetch-attempts-and-results.md`

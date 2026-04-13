@@ -20,6 +20,13 @@ related:
 
 # Bathtub Filter Institutional Guidance
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-evidence-bibliography]]
+- [[bathtub-filter-claims-and-certifications]]
+- [[bathtub-filter-claim-evidence-ladder]]
+- [[bathtub-filter-review-and-compliance-landscape]]
+
 ## Why this page exists
 This page organizes official and authority-style guidance relevant to bathtub-filter category messaging.
 

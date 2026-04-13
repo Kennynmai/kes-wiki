@@ -39,6 +39,7 @@ This page is a navigation hub for Obsidian browsing.
 - [[bathtub-filter-installation-risk-matrix-v2]]
 - [[bathtub-filter-claim-risk-audit-v2]]
 - [[bathtub-filter-kes-route-screening-memo-v2]]
+- [[bathtub-filter-kes-route-elimination-memo-v1]]
 
 ## Product / category structure
 - [[bathtub-filter-product-forms]]

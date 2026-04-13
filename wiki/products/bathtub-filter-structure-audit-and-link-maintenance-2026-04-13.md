@@ -21,6 +21,14 @@ related:
 
 # Bathtub Filter Structure Audit and Link Maintenance (2026-04-13)
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-obsidian-map]]
+- [[bathtub-filter-kes-route-elimination-memo-v1]]
+- [[bathtub-filter-marketplace-negative-review-signals]]
+- [[bathtub-filter-swimming-eczema-explanation-layer-2026-04-12]]
+- [[bathtub-filter-web-content-fetch-attempts-2026-04-11]]
+
 ## Why this page exists
 This page tracks structural maintenance needs for the bathtub-filter cluster so the topic remains easy to browse in Obsidian and easy to maintain over time.
 

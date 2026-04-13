@@ -19,6 +19,12 @@ related:
 
 # Bathtub Filter Technology Notes
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-claims-and-certifications]]
+- [[bathtub-filter-patent-and-technical-landscape]]
+- [[bathtub-filter-kes-product-architecture-hypotheses]]
+
 ## Why this page exists
 The bathtub filter market appears to borrow heavily from shower-filter media narratives. This page tracks the recurring technical building blocks and the early questions KES should ask before treating those claims as meaningful product differentiation.
 

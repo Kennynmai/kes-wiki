@@ -18,6 +18,13 @@ related:
 
 # Bathtub Filter Validation / Testing Protocol
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
+- [[bathtub-filter-installation-risk-matrix-v2]]
+- [[bathtub-filter-kes-go-no-go-memo-v1]]
+- [[bathtub-filter-kes-route-elimination-memo-v1]]
+
 ## Goal
 Define what KES would need to test before taking bathtub filters seriously as a real product opportunity.
 

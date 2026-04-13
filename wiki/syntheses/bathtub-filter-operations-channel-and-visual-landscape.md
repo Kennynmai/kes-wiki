@@ -20,6 +20,13 @@ related:
 
 # Bathtub Filter Operations, Channel, and Visual Landscape
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-channel-positioning-table-v2]]
+- [[bathtub-filter-brand-and-content-landscape]]
+- [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
+- [[bathtub-filter-obsidian-map]]
+
 ## Why this page exists
 This page covers the second- and third-tier layers that become important once the category is proven worthy of deeper attention.
 
