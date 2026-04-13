@@ -40,6 +40,7 @@ This page is a navigation hub for Obsidian browsing.
 - [[bathtub-filter-claim-risk-audit-v2]]
 - [[bathtub-filter-kes-route-screening-memo-v2]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
+- [[bathtub-filter-kes-concept-brief-v1]]
 - [[bathtub-filter-test-gating-checklist-for-kes]]
 
 ## Product / category structure

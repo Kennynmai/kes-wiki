@@ -22,6 +22,7 @@ related:
 ## Obsidian links
 - [[bathtub-filter]]
 - [[bathtub-filter-kes-go-no-go-memo-v1]]
+- [[bathtub-filter-kes-concept-brief-v1]]
 - [[bathtub-filter-claim-risk-audit-v2]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
 

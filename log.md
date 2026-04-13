@@ -56,3 +56,9 @@ Example:
 - updated: wiki/products/bathtub-filter-test-gating-checklist-for-kes.md; wiki/products/bathtub-filter.md; wiki/products/bathtub-filter-obsidian-map.md; wiki/playbooks/bathtub-filter-validation-testing-protocol.md; wiki/products/bathtub-filter-brand-page-claim-compliance-audit.md; wiki/products/bathtub-filter-brand-page-pack-audit-v2.md; wiki/products/bathtub-filter-product-definition-language.md; wiki/products/bathtub-filter-research-program-a-to-f.md; wiki/source-summaries/bathtub-filter-swimming-eczema-explanation-layer-2026-04-12.md
 - status: working
 - notes: converted research into a practical KES screening gate and further reduced weak-link pockets in the bathtub-filter Obsidian graph.
+
+## [2026-04-14] maintain | bathtub filter concept brief + concept-graph tightening
+- source: wiki/products/bathtub-filter-kes-concept-brief-v1.md
+- updated: wiki/products/bathtub-filter-kes-concept-brief-v1.md; wiki/products/bathtub-filter.md; wiki/products/bathtub-filter-obsidian-map.md; wiki/products/bathtub-filter-kes-route-elimination-memo-v1.md; wiki/products/bathtub-filter-test-gating-checklist-for-kes.md; wiki/products/bathtub-filter-buying-criteria.md; wiki/products/bathtub-filter-technology-notes.md; wiki/products/bathtub-filter-product-definition-language.md; wiki/products/bathtub-filter-kes-product-architecture-hypotheses.md
+- status: working
+- notes: translated surviving routes into concept candidates and tightened the decision chain from elimination → test gating → concept definition.

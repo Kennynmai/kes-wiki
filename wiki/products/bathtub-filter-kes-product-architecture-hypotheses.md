@@ -20,6 +20,14 @@ related:
 
 # Bathtub Filter KES Product Architecture Hypotheses
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-brand-operating-matrix-v2]]
+- [[bathtub-filter-installation-risk-matrix-v2]]
+- [[bathtub-filter-claim-risk-audit-v2]]
+- [[bathtub-filter-kes-concept-brief-v1]]
+- [[bathtub-filter-kes-route-elimination-memo-v1]]
+
 ## Why this page exists
 This page converts the research into KES-relevant product architecture hypotheses.
 

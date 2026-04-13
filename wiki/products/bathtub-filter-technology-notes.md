@@ -22,6 +22,7 @@ related:
 ## Obsidian links
 - [[bathtub-filter]]
 - [[bathtub-filter-claims-and-certifications]]
+- [[bathtub-filter-kes-concept-brief-v1]]
 - [[bathtub-filter-patent-and-technical-landscape]]
 - [[bathtub-filter-kes-product-architecture-hypotheses]]
 

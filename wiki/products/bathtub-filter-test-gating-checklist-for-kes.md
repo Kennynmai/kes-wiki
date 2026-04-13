@@ -111,6 +111,7 @@ Based on current research, the strongest survivors are still:
 - [[bathtub-filter]]
 - [[bathtub-filter-kes-go-no-go-memo-v1]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
+- [[bathtub-filter-kes-concept-brief-v1]]
 - [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
 - [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
 - [[bathtub-filter-validation-testing-protocol]]
