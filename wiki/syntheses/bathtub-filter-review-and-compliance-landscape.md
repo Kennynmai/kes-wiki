@@ -110,6 +110,15 @@ It must also be judged through three commercial realities:
 - build a claim-evidence ladder page with example wording
 - later run page-level audits on the most aggressive DTC brands
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-review-and-compliance-landscape]]
+- [[bathtub-filter-review-patterns-and-return-risk]]
+- [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
+- [[bathtub-filter-claim-evidence-ladder]]
+- [[bathtub-filter-claim-risk-audit-v2]]
+- [[bathtub-filter-standards-and-certification-audit-by-brand]]
+
 ## Sources
 - `raw/products/bathtub-filter/2026-04-12-review-mining-and-compliance-scouting.md`
 - `data/products/bathtub-filter/api-fetch/2026-04-12-compliance.md`

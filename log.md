@@ -20,3 +20,9 @@ Example:
 - updated: wiki/products/bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md; wiki/products/bathtub-filter.md; wiki/syntheses/bathtub-filter-review-and-compliance-landscape.md
 - status: pending-owner-review
 - notes: isolated flow-rate sensitivity as a category-gating issue and added a dedicated working evidence table.
+
+## [2026-04-13] maintain | bathtub filter obsidian link pass
+- source: wiki/products/bathtub-filter-obsidian-map.md
+- updated: wiki/products/bathtub-filter.md; wiki/products/bathtub-filter-review-patterns-and-return-risk.md; wiki/products/bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md; wiki/syntheses/bathtub-filter-review-and-compliance-landscape.md
+- status: working
+- notes: added `[[wikilinks]]` and a dedicated Obsidian navigation hub for the bathtub-filter page cluster.

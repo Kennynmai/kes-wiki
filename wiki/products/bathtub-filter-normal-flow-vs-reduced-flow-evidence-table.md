@@ -65,6 +65,15 @@ This is more important than adding more contaminants to the claim stack.
 3. test whether “normal-flow proof” can be made into a category-gating requirement for KES
 4. link each route to likely fit / leak / setup tradeoffs
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
+- [[bathtub-filter-review-patterns-and-return-risk]]
+- [[bathtub-filter-review-and-compliance-landscape]]
+- [[bathtub-filter-pricing-refill-flow-fit-table-v2]]
+- [[bathtub-filter-installation-risk-matrix-v2]]
+- [[bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13]]
+
 ## Sources
 - [Source Summary — Bathtub Filter Marketplace Review and Editorial Review Pass (2026-04-13)](../source-summaries/bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13.md)
 - `../../raw/products/bathtub-filter/2026-04-13-normal-flow-vs-reduced-flow-evidence-notes.md`

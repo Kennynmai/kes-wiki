@@ -165,6 +165,33 @@ It is **not** getting more favorable for:
 - map channel identities across Amazon / Home Depot / Walmart / DTC / wellness / baby-sensitive-skin routes
 - analyze SNS / creator discourse and visual-merchandising patterns
 
+## Obsidian links
+### Core bathtub-filter pages
+- [[bathtub-filter]]
+- [[bathtub-filter-review-patterns-and-return-risk]]
+- [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
+- [[bathtub-filter-review-and-compliance-landscape]]
+- [[bathtub-filter-pricing-refill-flow-fit-table-v2]]
+- [[bathtub-filter-installation-risk-matrix-v2]]
+- [[bathtub-filter-claim-risk-audit-v2]]
+- [[bathtub-filter-kes-go-no-go-memo-v1]]
+- [[bathtub-filter-obsidian-map]]
+
+### Supporting research pages
+- [[bathtub-filter-research-coverage-gaps]]
+- [[bathtub-filter-research-program-a-to-f]]
+- [[bathtub-filter-claims-and-certifications]]
+- [[bathtub-filter-brand-operating-matrix-v2]]
+- [[bathtub-filter-channel-positioning-table-v2]]
+- [[bathtub-filter-kes-route-screening-memo-v2]]
+- [[bathtub-filter-kes-product-architecture-hypotheses]]
+
+### Source-summary pages
+- [[bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13]]
+- [[bathtub-filter-market-scan-2026-04-11]]
+- [[bathtub-filter-academic-and-institutional-evidence-2026-04-11]]
+- [[bathtub-filter-api-backed-academic-and-patent-fetch-2026-04-12]]
+
 ## Sources
 - [Source Summary — Bathtub Filter Market Scan (2026-04-11)](../source-summaries/bathtub-filter-market-scan-2026-04-11.md)
 - [Source Summary — Bathtub Filter Category and Consumer Cognition (2026-04-11)](../source-summaries/bathtub-filter-category-and-consumer-cognition-2026-04-11.md)

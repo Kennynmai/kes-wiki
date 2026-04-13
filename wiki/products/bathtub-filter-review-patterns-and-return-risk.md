@@ -130,5 +130,14 @@ That means review risk is not a side issue; it is central to whether the categor
 4. refill-cost tolerance versus selling-price band
 5. claim language audit against visible proof stack
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-review-patterns-and-return-risk]]
+- [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
+- [[bathtub-filter-installation-risk-matrix-v2]]
+- [[bathtub-filter-claim-risk-audit-v2]]
+- [[bathtub-filter-pricing-refill-flow-fit-table-v2]]
+- [[bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13]]
+
 ## Sources
 - [Source Summary — Bathtub Filter Marketplace Review and Editorial Review Pass (2026-04-13)](../source-summaries/bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13.md)
