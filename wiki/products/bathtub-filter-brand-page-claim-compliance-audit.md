@@ -19,6 +19,12 @@ related:
 
 # Bathtub Filter Brand Page Claim / Compliance Audit
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-claim-risk-audit-v2]]
+- [[bathtub-filter-standards-and-certification-audit-by-brand]]
+- [[bathtub-filter-kes-route-elimination-memo-v1]]
+
 ## Purpose
 This page audits how leading brand pages currently frame proof, performance, sensitivity, and authority.
 

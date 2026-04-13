@@ -19,6 +19,12 @@ related:
 
 # Bathtub Filter Product Definition Language
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-kes-go-no-go-memo-v1]]
+- [[bathtub-filter-claim-risk-audit-v2]]
+- [[bathtub-filter-kes-route-elimination-memo-v1]]
+
 ## Purpose
 Translate research into language KES could eventually use internally to define a viable product route.
 

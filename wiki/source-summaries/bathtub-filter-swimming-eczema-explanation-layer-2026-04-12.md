@@ -29,6 +29,7 @@ related:
 - [[bathtub-filter-evidence-matrix]]
 - [[bathtub-filter-academic-and-institutional-evidence-deepening-2026-04-11]]
 - [[bathtub-filter-evidence-access-audit-2026-04-11]]
+- [[bathtub-filter-kes-route-elimination-memo-v1]]
 
 ## Why this note exists
 This note converts the current evidence base into a reusable explanation layer for internal product thinking.

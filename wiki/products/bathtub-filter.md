@@ -172,6 +172,7 @@ It is **not** getting more favorable for:
 - [[bathtub-filter-marketplace-negative-review-signals]]
 - [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
+- [[bathtub-filter-test-gating-checklist-for-kes]]
 - [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
 - [[bathtub-filter-structure-audit-and-link-maintenance-2026-04-13]]
 - [[bathtub-filter-review-and-compliance-landscape]]

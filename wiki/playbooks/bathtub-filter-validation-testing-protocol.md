@@ -24,6 +24,7 @@ related:
 - [[bathtub-filter-installation-risk-matrix-v2]]
 - [[bathtub-filter-kes-go-no-go-memo-v1]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
+- [[bathtub-filter-test-gating-checklist-for-kes]]
 
 ## Goal
 Define what KES would need to test before taking bathtub filters seriously as a real product opportunity.

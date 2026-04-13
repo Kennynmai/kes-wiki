@@ -23,6 +23,15 @@ related:
 
 # Bathtub Filter Research Program — A to F
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-brand-operating-matrix-v2]]
+- [[bathtub-filter-pricing-refill-flow-fit-table-v2]]
+- [[bathtub-filter-channel-positioning-table-v2]]
+- [[bathtub-filter-installation-risk-matrix-v2]]
+- [[bathtub-filter-claim-risk-audit-v2]]
+- [[bathtub-filter-test-gating-checklist-for-kes]]
+
 ## A. Brand operating matrix
 Goal:
 - compare leading brands on route type, claims, believable value, friction, and channel identity

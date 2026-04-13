@@ -19,6 +19,12 @@ related:
 
 # Bathtub Filter Brand Page-Pack Audit — V2
 
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-brand-page-claim-compliance-audit]]
+- [[bathtub-filter-brand-operating-matrix-v2]]
+- [[bathtub-filter-kes-route-elimination-memo-v1]]
+
 ## Scope in this pass
 This pass deepens the page-pack audit for:
 - Crystal Quest

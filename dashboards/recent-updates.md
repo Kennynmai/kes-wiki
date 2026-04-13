@@ -7,3 +7,4 @@
 - 2026-04-13 — Added more v1/v2 version links, expanded marketplace complaint clustering, and added `[[wikilinks]]` to key bathtub-filter source-summary pages.
 - 2026-04-13 — Added a route-based bathtub-filter complaint taxonomy page and expanded `[[wikilinks]]` across major synthesis pages.
 - 2026-04-13 — Added a KES route-elimination memo and strengthened backlinks for lower-linked bathtub-filter product, synthesis, playbook, and source-summary pages.
+- 2026-04-13 — Added a KES test-gating checklist page and further linked weaker bathtub-filter audit, compliance-audit, definition-language, research-program, and source-summary pages into the Obsidian graph.

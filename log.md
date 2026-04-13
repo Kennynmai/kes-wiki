@@ -50,3 +50,9 @@ Example:
 - updated: wiki/products/bathtub-filter-kes-route-elimination-memo-v1.md; wiki/products/bathtub-filter.md; wiki/products/bathtub-filter-obsidian-map.md; wiki/products/bathtub-filter-kes-route-screening-memo-v2.md; wiki/products/bathtub-filter-buying-criteria.md; wiki/products/bathtub-filter-category-boundary.md; wiki/products/bathtub-filter-institutional-guidance.md; wiki/products/bathtub-filter-technology-notes.md; wiki/playbooks/bathtub-filter-validation-testing-protocol.md; wiki/syntheses/bathtub-filter-operations-channel-and-visual-landscape.md; wiki/syntheses/bathtub-filter-sns-creator-and-visual-taxonomy.md; wiki/products/bathtub-filter-structure-audit-and-link-maintenance-2026-04-13.md; wiki/source-summaries/bathtub-filter-web-content-fetch-attempts-2026-04-11.md
 - status: working
 - notes: added a stricter KES route-elimination layer and improved Obsidian reachability for previously low-backlink bathtub-filter pages.
+
+## [2026-04-13] maintain | bathtub filter test-gating checklist + final weak-page link pass
+- source: wiki/products/bathtub-filter-test-gating-checklist-for-kes.md
+- updated: wiki/products/bathtub-filter-test-gating-checklist-for-kes.md; wiki/products/bathtub-filter.md; wiki/products/bathtub-filter-obsidian-map.md; wiki/playbooks/bathtub-filter-validation-testing-protocol.md; wiki/products/bathtub-filter-brand-page-claim-compliance-audit.md; wiki/products/bathtub-filter-brand-page-pack-audit-v2.md; wiki/products/bathtub-filter-product-definition-language.md; wiki/products/bathtub-filter-research-program-a-to-f.md; wiki/source-summaries/bathtub-filter-swimming-eczema-explanation-layer-2026-04-12.md
+- status: working
+- notes: converted research into a practical KES screening gate and further reduced weak-link pockets in the bathtub-filter Obsidian graph.
