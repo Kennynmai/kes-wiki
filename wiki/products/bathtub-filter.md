@@ -24,6 +24,7 @@ related:
   - ./bathtub-filter-evidence-matrix.md
   - ./bathtub-filter-institutional-guidance.md
   - ./bathtub-filter-review-patterns-and-return-risk.md
+  - ./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
   - ../products/curtains.md
 ---
 
@@ -201,6 +202,7 @@ It is **not** getting more favorable for:
 - [Academic Search Workflow](../playbooks/academic-search-workflow.md)
 - [Bathtub Filter Validation / Testing Protocol](../playbooks/bathtub-filter-validation-testing-protocol.md)
 - [Bathtub Filter Review Patterns and Return Risk](./bathtub-filter-review-patterns-and-return-risk.md)
+- [Bathtub Filter Normal-Flow vs Reduced-Flow Evidence Table](./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md)
 - [Bathtub Filter Brand and Content Landscape](../syntheses/bathtub-filter-brand-and-content-landscape.md)
 - [Bathtub Filter Review and Compliance Landscape](../syntheses/bathtub-filter-review-and-compliance-landscape.md)
 - [Bathtub Filter Operations, Channel, and Visual Landscape](../syntheses/bathtub-filter-operations-channel-and-visual-landscape.md)

@@ -3,7 +3,7 @@ type: synthesis
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-13
 visibility: team
 confidence: medium
 officiality: draft
@@ -15,6 +15,8 @@ verification_status: spot-checked
 related:
   - ../products/bathtub-filter.md
   - ../products/bathtub-filter-patent-table.md
+  - ../products/bathtub-filter-review-patterns-and-return-risk.md
+  - ../products/bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
   - ./bathtub-filter-brand-and-content-landscape.md
 ---
 
@@ -104,6 +106,7 @@ It must also be judged through three commercial realities:
 
 ## Suggested next steps
 - build a review-theme matrix by brand
+- normalize normal-flow versus reduced-flow evidence into a stricter gating table
 - build a claim-evidence ladder page with example wording
 - later run page-level audits on the most aggressive DTC brands
 
