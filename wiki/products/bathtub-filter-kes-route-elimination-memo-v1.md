@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -15,6 +15,7 @@ verification_status: working
 related:
   - ./bathtub-filter-kes-route-screening-memo-v2.md
   - ./bathtub-filter-kes-go-no-go-memo-v1.md
+  - ./bathtub-filter-kes-next-step-execution-plan-v1.md
   - ./bathtub-filter-kes-product-architecture-hypotheses.md
   - ./bathtub-filter-complaint-taxonomy-and-risk-by-route.md
 ---
@@ -113,6 +114,7 @@ and more time asking:
 - [[bathtub-filter]]
 - [[bathtub-filter-kes-route-screening-memo-v2]]
 - [[bathtub-filter-kes-go-no-go-memo-v1]]
+- [[bathtub-filter-kes-next-step-execution-plan-v1]]
 - [[bathtub-filter-kes-product-architecture-hypotheses]]
 - [[bathtub-filter-kes-concept-brief-v1]]
 - [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]

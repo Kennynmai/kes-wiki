@@ -3,7 +3,7 @@ type: product
 status: active
 owner: product
 created: 2026-04-11
-updated: 2026-04-13
+updated: 2026-04-14
 visibility: company
 confidence: low
 officiality: draft
@@ -173,6 +173,8 @@ It is **not** getting more favorable for:
 - [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
 - [[bathtub-filter-kes-concept-brief-v1]]
+- [[bathtub-filter-kes-next-step-execution-plan-v1]]
+- [[bathtub-filter-cluster-cleanup-note-2026-04-14]]
 - [[bathtub-filter-test-gating-checklist-for-kes]]
 - [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
 - [[bathtub-filter-structure-audit-and-link-maintenance-2026-04-13]]

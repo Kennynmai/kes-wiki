@@ -41,6 +41,8 @@ This page is a navigation hub for Obsidian browsing.
 - [[bathtub-filter-kes-route-screening-memo-v2]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
 - [[bathtub-filter-kes-concept-brief-v1]]
+- [[bathtub-filter-kes-next-step-execution-plan-v1]]
+- [[bathtub-filter-cluster-cleanup-note-2026-04-14]]
 - [[bathtub-filter-test-gating-checklist-for-kes]]
 
 ## Product / category structure

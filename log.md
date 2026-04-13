@@ -62,3 +62,9 @@ Example:
 - updated: wiki/products/bathtub-filter-kes-concept-brief-v1.md; wiki/products/bathtub-filter.md; wiki/products/bathtub-filter-obsidian-map.md; wiki/products/bathtub-filter-kes-route-elimination-memo-v1.md; wiki/products/bathtub-filter-test-gating-checklist-for-kes.md; wiki/products/bathtub-filter-buying-criteria.md; wiki/products/bathtub-filter-technology-notes.md; wiki/products/bathtub-filter-product-definition-language.md; wiki/products/bathtub-filter-kes-product-architecture-hypotheses.md
 - status: working
 - notes: translated surviving routes into concept candidates and tightened the decision chain from elimination → test gating → concept definition.
+
+## [2026-04-14] maintain | bathtub filter execution-plan package + cleanup note
+- source: wiki/products/bathtub-filter-kes-next-step-execution-plan-v1.md
+- updated: wiki/products/bathtub-filter-kes-next-step-execution-plan-v1.md; wiki/products/bathtub-filter.md; wiki/products/bathtub-filter-obsidian-map.md; wiki/products/bathtub-filter-kes-concept-brief-v1.md; wiki/products/bathtub-filter-kes-route-elimination-memo-v1.md; wiki/products/bathtub-filter-test-gating-checklist-for-kes.md; wiki/products/bathtub-filter-cluster-cleanup-note-2026-04-14.md
+- status: working
+- notes: converted the concept package into an execution sequence and recorded current cluster cleanup status for ongoing maintenance.

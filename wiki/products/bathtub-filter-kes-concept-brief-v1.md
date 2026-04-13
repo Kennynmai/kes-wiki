@@ -15,6 +15,7 @@ verification_status: working
 related:
   - ./bathtub-filter-kes-route-elimination-memo-v1.md
   - ./bathtub-filter-test-gating-checklist-for-kes.md
+  - ./bathtub-filter-kes-next-step-execution-plan-v1.md
   - ./bathtub-filter-product-definition-language.md
   - ./bathtub-filter-kes-product-architecture-hypotheses.md
 ---
@@ -104,6 +105,7 @@ If KES explores bathtub filters further, the best current concept should probabl
 ## Obsidian links
 - [[bathtub-filter]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
+- [[bathtub-filter-kes-next-step-execution-plan-v1]]
 - [[bathtub-filter-test-gating-checklist-for-kes]]
 - [[bathtub-filter-product-definition-language]]
 - [[bathtub-filter-kes-product-architecture-hypotheses]]

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -15,6 +15,7 @@ verification_status: working
 related:
   - ./bathtub-filter-kes-go-no-go-memo-v1.md
   - ./bathtub-filter-kes-route-elimination-memo-v1.md
+  - ./bathtub-filter-kes-next-step-execution-plan-v1.md
   - ./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
   - ../playbooks/bathtub-filter-validation-testing-protocol.md
 ---
@@ -112,6 +113,7 @@ Based on current research, the strongest survivors are still:
 - [[bathtub-filter-kes-go-no-go-memo-v1]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
 - [[bathtub-filter-kes-concept-brief-v1]]
+- [[bathtub-filter-kes-next-step-execution-plan-v1]]
 - [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
 - [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
 - [[bathtub-filter-validation-testing-protocol]]

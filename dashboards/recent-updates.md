@@ -9,3 +9,4 @@
 - 2026-04-13 — Added a KES route-elimination memo and strengthened backlinks for lower-linked bathtub-filter product, synthesis, playbook, and source-summary pages.
 - 2026-04-13 — Added a KES test-gating checklist page and further linked weaker bathtub-filter audit, compliance-audit, definition-language, research-program, and source-summary pages into the Obsidian graph.
 - 2026-04-14 — Added a KES concept brief page and further tightened links among the concept, elimination, test-gating, architecture, buying-criteria, and technology pages.
+- 2026-04-14 — Added a KES next-step execution plan plus a cluster cleanup note, and updated the main bathtub-filter entry chain to include execution and cleanup surfaces.
