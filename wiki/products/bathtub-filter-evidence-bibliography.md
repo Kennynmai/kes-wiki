@@ -9,7 +9,7 @@ confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, evidence, bibliography]
-source_count: 6
+source_count: 11
 review_cycle: monthly
 verification_status: spot-checked
 related:
@@ -180,6 +180,62 @@ related:
 ---
 
 ## D. 市场 / 邻近行业证据
+
+### 13. NSF — Standards for Water Treatment Systems
+- 来源类型：认证机构 / consumer resource
+- URL：`https://www.nsf.org/consumer-resources/articles/standards-water-treatment-systems`
+- 本轮访问层级：**通过 browser 抓到正文关键段落**
+- 可见关键句：
+  - `NSF/ANSI 177` shower filters are **certified to only reduce free available chlorine**
+- 它支持什么：
+  - `177` 是真实存在的、且 scope 很窄的 shower-filter authority anchor
+- 它**不**支持什么：
+  - broad contaminant-removal 或 bathtub SKU 的自动外推
+- 证据角色：**高价值 certification scope anchor**
+
+### 14. WQA — Product Certification / Gold Seal
+- 来源类型：行业协会 / 第三方认证项目说明
+- URL：`https://wqa.org/grow/product-certification/`
+- 本轮访问层级：**通过 browser 抓到正文关键段落**
+- 可见关键句：
+  - Gold Seal 是 water treatment industry 中历史很久的 third-party testing and certification program
+  - 认证会看 **structural integrity、materials safety、literature**
+- 它支持什么：
+  - WQA 不是弱替代，而是正式的第三方认证路径
+  - 认证不只看 reduction，也看结构 / 材料 / 文案边界
+- 证据角色：**高价值 certifier-process anchor**
+
+### 15. IAPMO R&T — Water Systems Certification
+- 来源类型：第三方认证机构
+- URL：`https://iapmort.org/certification-services/water-systems-certification`
+- 本轮访问层级：**通过 browser 抓到正文关键段落**
+- 可见关键句：
+  - IAPMO marks of conformity are **widely recognized**
+  - Water systems certification 覆盖 `NSF/ANSI 177` 在内多项 standards
+- 它支持什么：
+  - IAPMO 在 code / plumbing / compliance 语境下是强 authority
+- 证据角色：**高价值 plumbing-adjacent authority anchor**
+
+### 16. FTC — Performing seals / certification seal guidance
+- 来源类型：美国 FTC business guidance
+- URL：`https://www.ftc.gov/business-guidance/blog/2015/09/performing-seals`
+- 本轮访问层级：**通过 browser 抓到正文关键段落**
+- 可见关键句：
+  - certification / seals 若 basis 不清，容易造成 deception risk
+  - 写清楚 certification 的 **specific attributes** 能降低误导风险
+- 它支持什么：
+  - bathtub filter 页面里的 badge / seal / authority wording 不能只靠 impression
+- 证据角色：**高价值 misuse / claim-discipline anchor**
+
+### 17. EPA — Identifying Drinking Water Filters Certified to Reduce PFAS
+- 来源类型：美国 EPA 指引页
+- URL：`https://www.epa.gov/water-research/identifying-drinking-water-filters-certified-reduce-pfas`
+- 本轮访问层级：**搜索结果片段 + 已有页面交叉使用**
+- 可见信号：
+  - EPA 会引导消费者去看 manufacturer certification information，并核对 NSF 等认证路径
+- 它支持什么：
+  - EPA 在这里更像 regulator / guidance source，而不是 shower / bathtub efficacy certifier
+- 证据角色：**官方边界提醒**
 
 ### 12. shower filter market-report summaries（多家供应商）
 - 观察到的类型：

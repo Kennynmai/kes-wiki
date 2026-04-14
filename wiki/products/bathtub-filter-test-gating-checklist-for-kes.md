@@ -9,7 +9,7 @@ confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, kes, test-gating, checklist]
-source_count: 5
+source_count: 7
 review_cycle: monthly
 verification_status: working
 related:
@@ -18,6 +18,7 @@ related:
   - ./bathtub-filter-kes-next-step-execution-plan-v1.md
   - ./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
   - ./bathtub-filter-certification-and-testing-pathways.md
+  - ./bathtub-filter-certification-authority-tiers-and-workflow.md
   - ../playbooks/bathtub-filter-validation-testing-protocol.md
 ---
 
@@ -90,11 +91,17 @@ If a route cannot pass these checks, KES should not treat it as a serious produc
 - clear decision on whether the route is pursuing **official certification**, **third-party testing**, or only **materials / component compliance**
 - no mixing of `certified`, `tested`, and `uses certified media`
 - no external borrowing of shower-standard authority onto bathtub claims without boundary language
+- for every authority signal, a one-line evidence card with:
+  - issuer
+  - object
+  - scope
+  - proof
 
 ### Fail if
 - route depends on certification-adjacent wording to create trust
 - route cannot explain exactly what is product-certified vs media-level vs internally tested
 - route needs EPA / medical / vague lab language to feel credible
+- sales / packaging / Amazon copy are likely to widen the claim beyond the evidence card
 
 ## Gate 8 — KES route fit
 ### Must have
@@ -115,6 +122,12 @@ A bathtub-filter route should not move forward unless it can satisfy all of the 
 5. acceptable refill burden
 6. disciplined claim boundary
 7. clear certification / evidence route
+
+## 建议新增内部 deliverables（立项前必须齐）
+- **claim-evidence register**：每条 claim 对应一条证据卡
+- **authority map**：NSF / WQA / IAPMO / lab / supplier 各自扮演什么角色
+- **copy red-lines**：客服、包装、Amazon A+、FAQ 禁止出现的词
+- **SKU boundary note**：bathtub SKU 与 future shower SKU 不能互借的 authority list
 
 ## Best current survivors
 Based on current research, the strongest survivors are still:

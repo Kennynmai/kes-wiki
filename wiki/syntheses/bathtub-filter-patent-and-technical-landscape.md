@@ -26,6 +26,7 @@ related:
 - [[bathtub-filter-patent-table]]
 - [[bathtub-filter-technology-notes]]
 - [[bathtub-filter-kes-product-architecture-hypotheses]]
+- [[bathtub-filter-route-clusters-and-kes-opportunity-spaces]]
 - [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
 - [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
 

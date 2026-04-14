@@ -142,6 +142,7 @@ related:
 - [[bathtub-filter-installation-risk-matrix-v2]]
 - [[bathtub-filter-claim-risk-audit-v2]]
 - [[bathtub-filter-kes-product-architecture-hypotheses]]
+- [[bathtub-filter-route-clusters-and-kes-opportunity-spaces]]
 
 ## Obsidian links
 ### Core bathtub-filter pages

@@ -16,6 +16,7 @@ related:
   - ./bathtub-filter-claims-and-certifications.md
   - ./bathtub-filter-standards-and-certification-audit-by-brand.md
   - ./bathtub-filter-compliance-framework-and-evidence-boundaries.md
+  - ./bathtub-filter-certification-authority-tiers-and-workflow.md
   - ./bathtub-filter-test-gating-checklist-for-kes.md
   - ./bathtub-filter.md
 ---
@@ -229,6 +230,17 @@ EPA 关于 PFAS 的消费指引会明确叫消费者找：
 
 这三类都是 KES 应该优先尊重的第三方锚点。
 
+### KES 内部 authority 排序规则（实操版）
+如果未来内部有人说“这个也算认证吧”，先按下面顺序判定：
+1. **有没有 public listing / official directory**
+2. **有没有 exact standard + exact claim scope**
+3. **有没有 mark usage rights / logo usage basis**
+4. **有没有 factory / QA surveillance 要求**
+5. **有没有 literature / packaging review**
+
+只满足 1–2 项的，往往还是 testing 或 self-claimed compliance；
+能同时满足 1–5 项，才更接近真正的 formal certification。
+
 ### 第二梯队：有价值，但边界必须写清
 - accredited third-party lab report
 - internal lab + outside lab combination
@@ -280,6 +292,17 @@ EPA 关于 PFAS 的消费指引会明确叫消费者找：
 
 7. **持续监督**
    - 年审、工厂审核、抽检 / periodic retesting、文案使用规则
+
+### certifier 通常真正会验证什么
+结合 NSF、WQA、IAPMO 的公开描述，更稳妥的理解是：
+- 不是只测 reduction
+- 还会看 **materials safety**
+- 还会看 **structural integrity / design / construction**
+- 还会看 **literature / labeling / marking** 是否超出被认证 scope
+- 正式认证通常还涉及 **量产一致性 / facility oversight**
+
+这意味着：
+> certifier 不是只替你证明“有效”，而是在一定 scope 内同时看“产品、材料、文案、量产一致性”是否匹配。
 
 #### 优点
 - 权威最强
@@ -381,6 +404,7 @@ EPA 关于 PFAS 的消费指引会明确叫消费者找：
 - [[bathtub-filter-claims-and-certifications]]
 - [[bathtub-filter-standards-and-certification-audit-by-brand]]
 - [[bathtub-filter-compliance-framework-and-evidence-boundaries]]
+- [[bathtub-filter-certification-authority-tiers-and-workflow]]
 - [[bathtub-filter-test-gating-checklist-for-kes]]
 - [[bathtub-filter-claim-risk-audit-v2]]
 

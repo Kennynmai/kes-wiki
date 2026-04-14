@@ -9,12 +9,13 @@ confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, compliance, standards, certification, framework]
-source_count: 6
+source_count: 8
 review_cycle: monthly
 verification_status: working
 related:
   - ./bathtub-filter-claims-and-certifications.md
   - ./bathtub-filter-standards-and-certification-audit-by-brand.md
+  - ./bathtub-filter-certification-authority-tiers-and-workflow.md
   - ./bathtub-filter-claim-risk-audit-v2.md
 ---
 # 浴缸过滤器（bathtub filter）合规框架与证据边界
@@ -87,12 +88,23 @@ related:
 - 先定义 object（整机 / 滤芯 / 介质）
 - 再定义 evidence type（certified / tested / internal / testimonial）
 - 最后定义 scope（只针对 chlorine？还是别的？）
+- 对任何 badge / seal / authority name，都补一行 basis 说明：**certifier、standard、claim scope、public proof**
 
 ### 更适合避免的表达纪律
 - 用一个标准编号暗示整包健康结果
 - 用一个 tested 词汇暗示正式认证
 - 用 certified media 暗示 certified product
 - 用 expert / doctor 语言抬高页面可信度，却不给可核验边界
+- 用 logo impression 代替具体 scope
+
+## 可直接套用的页面审校模板
+| 字段 | 必填问题 | 通过标准 |
+|---|---|---|
+| issuer | 谁发的？ | 具体 certifier / lab / supplier 名称 |
+| object | 证据对应整机、滤芯还是 media？ | 对象唯一，不跳变 |
+| scope | 到底支持 chlorine、materials 还是 comfort？ | 不跨越证据边界 |
+| proof | 能公开查什么？ | listing / report / none 说清 |
+| wording | 页面最终写什么？ | 不把 tested 写成 certified |
 
 ## 对 bathtub filter 这题的总结
 在这个品类里，真正的竞争力不只是“谁更会写文案”，而是：

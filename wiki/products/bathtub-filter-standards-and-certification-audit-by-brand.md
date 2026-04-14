@@ -15,6 +15,7 @@ verification_status: working
 related:
   - ./bathtub-filter-claim-risk-audit-v2.md
   - ./bathtub-filter-claims-and-certifications.md
+  - ./bathtub-filter-certification-authority-tiers-and-workflow.md
   - ../syntheses/bathtub-filter-review-and-compliance-landscape.md
 ---
 # 浴缸过滤器（bathtub filter）品牌标准 / 认证审核
@@ -108,6 +109,12 @@ Crystal Quest 当前更像是：
 - 如果引用标准编号，必须知道该标准到底覆盖什么
 - 优先采用更窄、更可核验的 chlorine-related language
 - 如果没有公开 listing / certificate / report，避免让页面读者误以为有正式第三方认证
+- 审 competitor 时，额外标记它属于哪一种 risk pattern：
+  - `tested-not-certified`
+  - `media-not-product`
+  - `scope-inflation`
+  - `authority-stacking`
+  - `clinical-overhang`
 
 ### 应避免的做法
 - 把 `tested to` 写得像 `certified to`

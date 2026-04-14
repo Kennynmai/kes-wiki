@@ -9,12 +9,13 @@ confidence: low
 officiality: draft
 domain: product
 domains: [bathtub-filter, claims, compliance, certification]
-source_count: 4
+source_count: 7
 review_cycle: monthly
 verification_status: unverified
 related:
   - ./bathtub-filter.md
   - ./bathtub-filter-certification-and-testing-pathways.md
+  - ./bathtub-filter-certification-authority-tiers-and-workflow.md
   - ../syntheses/bathtub-filter-competitor-and-demand-scan.md
 ---
 # 浴缸过滤器（bathtub filter）宣称与认证
@@ -91,8 +92,29 @@ vs.
 - 它最核心的公开 consumer-facing 定义，是 **only reduce free available chlorine**
 - `WQA Gold Seal` 与 `IAPMO` 都是高可信第三方认证路径，不应被当成弱替代
 - `EPA` 在这里更像 regulator / public-health reference，不是 shower-filter efficacy certifier
+- FTC 关于 seals / certifications 的公开 guidance 也提示：**如果 badge / seal 的 basis 不清、scope 不清，消费者很容易被宽泛权威感误导**
 
 因此，市场上凡是把 `177`、WQA、IAPMO、EPA 一起写成一个宽泛“权威净化”印象的页面，都要高度警惕。
+
+## KES 最该防的 claim misuse patterns
+### 1. authority stacking
+把 `NSF` + `EPA` + `lab tested` + `clinically tested` 堆在一起，制造“什么都被权威证明”的 impression。
+
+### 2. object switching
+前半句说 media / cartridge，后半句让读者误以为 whole product certified。
+
+### 3. scope inflation
+先拿 chlorine reduction 的窄证据，后面慢慢放大成 heavy metals / chloramine / wellness / baby story。
+
+### 4. seal illusion
+放一个 logo、badge、gold-seal 风格图形，但不说清楚：
+- 谁发的
+- 对哪个 SKU 生效
+- 覆盖什么 claim
+- 能不能公开核验
+
+### 5. route borrowing
+把 shower SKU 的 authority 借到 bathtub SKU；或者把 drinking-water standard 的可信度借到 bathing-water story。
 
 ## 对 KES 的早期工作指引
 1. 把 media story 与 finished-product substantiation 分开写。
@@ -103,6 +125,11 @@ vs.
    - core credible claims
    - secondary comfort claims
    - optional segment-oriented claims
+6. 对每个外部 authority 都写明 4 个字段：
+   - **issuer**（谁发的）
+   - **object**（整机 / media / cartridge）
+   - **scope**（只管什么）
+   - **proof**（listing / report / none）
 
 ## 当前开放问题
 - 哪些 certification signals 最常出现在表现最强的 listings 中？
