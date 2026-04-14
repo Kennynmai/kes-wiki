@@ -21,6 +21,7 @@ related:
   - ./bathtub-filter-technology-notes.md
   - ./bathtub-filter-buying-criteria.md
   - ./bathtub-filter-claims-and-certifications.md
+  - ./bathtub-filter-certification-and-testing-pathways.md
   - ./bathtub-filter-evidence-bibliography.md
   - ./bathtub-filter-evidence-matrix.md
   - ./bathtub-filter-institutional-guidance.md
@@ -168,6 +169,7 @@ related:
 - [[bathtub-filter-research-coverage-gaps]]
 - [[bathtub-filter-research-program-a-to-f]]
 - [[bathtub-filter-claims-and-certifications]]
+- [[bathtub-filter-certification-and-testing-pathways]]
 - [[bathtub-filter-brand-operating-matrix-v2]]
 - [[bathtub-filter-channel-positioning-table-v2]]
 - [[bathtub-filter-kes-route-screening-memo-v2]]

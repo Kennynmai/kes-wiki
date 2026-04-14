@@ -9,11 +9,12 @@ confidence: low
 officiality: draft
 domain: product
 domains: [bathtub-filter, claims, compliance, certification]
-source_count: 2
+source_count: 4
 review_cycle: monthly
 verification_status: unverified
 related:
   - ./bathtub-filter.md
+  - ./bathtub-filter-certification-and-testing-pathways.md
   - ../syntheses/bathtub-filter-competitor-and-demand-scan.md
 ---
 # 浴缸过滤器（bathtub filter）宣称与认证
@@ -84,6 +85,15 @@ vs.
 
 如果 KES 进入这个品类，必须避免把“用了某种 filter media”包装成“整机已被验证”。
 
+## 当前更清晰的认证边界
+基于新增的公开锚点，当前最值得记住的是：
+- `NSF/ANSI 177` 是 **shower filtration systems** 的窄标准锚点
+- 它最核心的公开 consumer-facing 定义，是 **only reduce free available chlorine**
+- `WQA Gold Seal` 与 `IAPMO` 都是高可信第三方认证路径，不应被当成弱替代
+- `EPA` 在这里更像 regulator / public-health reference，不是 shower-filter efficacy certifier
+
+因此，市场上凡是把 `177`、WQA、IAPMO、EPA 一起写成一个宽泛“权威净化”印象的页面，都要高度警惕。
+
 ## 对 KES 的早期工作指引
 1. 把 media story 与 finished-product substantiation 分开写。
 2. 除非有强证据和法律审查，否则避免 disease-relief language。
@@ -106,3 +116,4 @@ vs.
 - [Source Summary — Bathtub Filter Market Scan (2026-04-11)](../source-summaries/bathtub-filter-market-scan-2026-04-11.md)
 - 公共搜索片段中可见的 KDF、vitamin C、NSF 与 contaminant-removal 相关文案
 - bathtub filter competitor scan notes
+- [Bathtub Filter Certification and Testing Pathways](./bathtub-filter-certification-and-testing-pathways.md)

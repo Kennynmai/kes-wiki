@@ -9,7 +9,7 @@ confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, kes, test-gating, checklist]
-source_count: 4
+source_count: 5
 review_cycle: monthly
 verification_status: working
 related:
@@ -17,6 +17,7 @@ related:
   - ./bathtub-filter-kes-route-elimination-memo-v1.md
   - ./bathtub-filter-kes-next-step-execution-plan-v1.md
   - ./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
+  - ./bathtub-filter-certification-and-testing-pathways.md
   - ../playbooks/bathtub-filter-validation-testing-protocol.md
 ---
 
@@ -84,7 +85,18 @@ If a route cannot pass these checks, KES should not treat it as a serious produc
 ### Fail if
 - route depends on eczema-improvement, baby-safety, heavy-metal fantasy stack, or broad medical implication to convert
 
-## Gate 7 — KES route fit
+## Gate 7 — certification / evidence route clarity
+### Must have
+- clear decision on whether the route is pursuing **official certification**, **third-party testing**, or only **materials / component compliance**
+- no mixing of `certified`, `tested`, and `uses certified media`
+- no external borrowing of shower-standard authority onto bathtub claims without boundary language
+
+### Fail if
+- route depends on certification-adjacent wording to create trust
+- route cannot explain exactly what is product-certified vs media-level vs internally tested
+- route needs EPA / medical / vague lab language to feel credible
+
+## Gate 8 — KES route fit
 ### Must have
 - route is compatible with KES brand discipline
 - route can be explained clearly without overclaiming
@@ -102,6 +114,7 @@ A bathtub-filter route should not move forward unless it can satisfy all of the 
 4. survivable complaint pattern
 5. acceptable refill burden
 6. disciplined claim boundary
+7. clear certification / evidence route
 
 ## Best current survivors
 Based on current research, the strongest survivors are still:
@@ -117,9 +130,11 @@ Based on current research, the strongest survivors are still:
 - [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
 - [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
 - [[bathtub-filter-validation-testing-protocol]]
+- [[bathtub-filter-certification-and-testing-pathways]]
 
 ## Sources
 - [[bathtub-filter-kes-go-no-go-memo-v1]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
 - [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
 - [[bathtub-filter-validation-testing-protocol]]
+- [[bathtub-filter-certification-and-testing-pathways]]
