@@ -16,88 +16,93 @@ related:
   - ./bathtub-filter.md
   - ../syntheses/bathtub-filter-competitor-and-demand-scan.md
 ---
-# 浴缸过滤器（bathtub filter）声明和认证
+# 浴缸过滤器（bathtub filter）宣称与认证
 
-## 为什么有这份页面
-浴缸过滤器（bathtub filter）可能是一个转换很大程度上受到健康相关、皮肤相关和污染物减少声明影响的类别。这也意味着宣称纪律比普通硬件类别更重要。
+## 为什么有这页
+bathtub filter 是一个高度受 **health-adjacent / skin-adjacent / contaminant-reduction** 叙事影响的品类。
 
-## 市场上观察到的宣称桶
-### 污染物减少声明
-常见的观察措辞包括：
-- 去除氯
-- 减少氯
-- 去除氯胺
-- 去除重金属
-- 去除氟化物
-- 去除污染物
-- 减少刺激物
+这意味着：
+**claim discipline（宣称纪律）比普通硬件品类重要得多。**
 
-### 水质/舒适度声明
-- 软化硬水
-- 改善气味
-- 沐浴水更温和
-- 皮肤和头发更光滑
-- 更适合敏感肌肤
+## 市场上常见的宣称桶（claim buckets）
+### 1. contaminant-reduction claims（污染物减少宣称）
+常见公开表述包括：
+- removes chlorine
+- reduces chlorine
+- removes chloramine
+- removes heavy metals
+- removes fluoride
+- removes contaminants
+- reduces irritants
 
-### 结果/福利宣称
-- 帮助湿疹
-- 帮助干燥发痒的皮肤
-- 适合婴儿和儿童
-- 更健康的皮肤和头发
-- 更安全的洗澡水
+### 2. water-quality / comfort claims（水感 / 舒适度宣称）
+- softens hard water
+- improves odor
+- gentler bath water
+- softer skin and smoother hair
+- better for sensitive skin
 
-## 工作风险观
-### 低风险方向
-更安全的商业语言可能更接近于：
-- 旨在减少与氯相关的气味
-- 可能有助于改善洗澡水的感觉
-- 旨在提供更温和的沐浴体验
-- 适合寻求低氯沐浴习惯的消费者
+### 3. outcome / benefit claims（结果 / 益处宣称）
+- helps eczema
+- helps dry itchy skin
+- safe for babies and children
+- healthier skin and hair
+- safer bath water
+
+## 当前风险判断
+### 相对低风险的方向
+更稳妥的商业语言，通常更接近以下表达：
+- designed to reduce chlorine-related odor
+- may help improve bath-water feel
+- intended to support a gentler bathing experience
+- for consumers seeking a chlorine-conscious bath routine
 
 ### 高风险方向
-高风险宣称可能包括：
-- 去除 99% 的污染物（没有明确的测试背景）
-- 去除氟化物（特别是在证据薄弱或不一致的情况下）
-- 治愈或改善湿疹
-- 以技术广泛的方式软化硬水，无需定义机制
-- 无需支撑即可保证婴儿安全
+高风险宣称通常包括：
+- 在没有清晰测试条件的前提下，声称去除 99% pollutants
+- 在证据薄弱或不一致的情况下，强调 removes fluoride
+- improve / relieve / calm eczema
+- 用宽泛技术词包装 hard-water softening
+- 没有支撑就暗示 baby-safe
 
-## 认证/证实问题
-这一类别需要更深入地研究哪些证明标准在市场上真正重要。
+## 认证 / substantiation（证明）层面的问题
+这个品类需要重点厘清的，不只是“有没有技术词”，而是：
 
-关键问题：
-- 卖家是直接引用 NSF 标准，还是仅引用 KDF 等熟悉的媒体？
-- 消息灵通的买家是否期望获得认证，或者内容主导的信任对于大多数列表格来说是否足够？
-- 哪些声明可以通过媒体级别的可信度与产品级别的测试证明来做出？
-- 亚马逊的执法是否有意义地限制了与健康相关的最强烈的主张？
+- 卖家是在引用 NSF standard，还是只是在引用 KDF 这类熟悉介质？
+- 买家到底期待 third-party certification，还是内容信任与页面表达已足够转化？
+- 哪些 claims 能由 media-level credibility 支撑，哪些必须依赖 finished-product testing？
+- Amazon / marketplace policy 是否对最激进的 health-adjacent claims 形成真实约束？
 
-## 重要区别
-市场模式可能会重复出现：
-- 产品内部使用经过认证的介质
-与
-- 成品本身经过标准认证或验证
+## 一个非常重要的区别
+市场上经常会模糊以下两件事：
 
-这些不一样。如果 KES 进入这一类别，营销人员应该避免模糊这种区别。
+- **使用了某种“知名介质”**
+vs.
+- **成品本身经过认证 / 验证**
 
-## KES 早期工作指导
-1. 将媒体故事与成品证明分开。
-2. 除非有强有力的证据和法律审查，否则避免使用缓解疾病的语言。
-3. 优先选择“减少”而不是“删除”，除非证据是具体的和产品级别的。
-4. 将氟化物和硬水软化声明视为特别敏感的。
-5. 构建声明层次结构：
-   - 核心可信主张
-   - 次要舒适度要求
-   - 可选的分段声明
+这两者不是一回事。
 
-## 开放式问题
-- 哪些认证信号最常出现在表格现最强的列表格中？
-- 高性能产品是否确实经过认证，或者只是积极推销？
-- 哪种声明语言似乎与高评论（review）信任度和评论（review）失望相关？
-- 哪些宣称可能会引发投诉、退货（return）或保单风险？
+如果 KES 进入这个品类，必须避免把“用了某种 filter media”包装成“整机已被验证”。
 
-## 来源
--[Source Summary — Bathtub Filter Academic and Institutional Evidence (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-2026-04-11.md)
--[Source Summary — Bathtub Filter Academic and Institutional Evidence Deepening (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-deepening-2026-04-11.md)
--[Source Summary — Bathtub Filter Market Scan (2026-04-11)](../source-summaries/bathtub-filter-market-scan-2026-04-11.md)
-- 引用 KDF、维生素 C、NSF 和污染物声明的公共搜索片段
-- 浴缸过滤器（bathtub filter）竞争对手扫描笔记
+## 对 KES 的早期工作指引
+1. 把 media story 与 finished-product substantiation 分开写。
+2. 除非有强证据和法律审查，否则避免 disease-relief language。
+3. 优先使用 “reduce” 而不是 “remove”，除非证据是具体、可复核、产品级的。
+4. 把 fluoride 与 hard-water softening 视为特别敏感的 claim 区域。
+5. 建立 claim ladder（宣称梯度）：
+   - core credible claims
+   - secondary comfort claims
+   - optional segment-oriented claims
+
+## 当前开放问题
+- 哪些 certification signals 最常出现在表现最强的 listings 中？
+- 高表现产品是真的有 certification，还是只是在做 aggressive marketing？
+- 哪类 claim wording 更容易带来高 review trust，哪类更容易导致 review disappointment？
+- 哪些 claims 最容易引发 complaint、return 或 policy risk？
+
+## Sources
+- [Source Summary — Bathtub Filter Academic and Institutional Evidence (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-2026-04-11.md)
+- [Source Summary — Bathtub Filter Academic and Institutional Evidence Deepening (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-deepening-2026-04-11.md)
+- [Source Summary — Bathtub Filter Market Scan (2026-04-11)](../source-summaries/bathtub-filter-market-scan-2026-04-11.md)
+- 公共搜索片段中可见的 KDF、vitamin C、NSF 与 contaminant-removal 相关文案
+- bathtub filter competitor scan notes

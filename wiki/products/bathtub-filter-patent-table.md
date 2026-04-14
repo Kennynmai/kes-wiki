@@ -17,86 +17,94 @@ related:
   - ../syntheses/bathtub-filter-patent-and-technical-landscape.md
   - ../source-summaries/bathtub-filter-api-backed-academic-and-patent-fetch-2026-04-12.md
 ---
-# 浴缸过滤器（bathtub filter）专利表格
+# 浴缸过滤器（bathtub filter）专利表
 
-## 为什么有这份页面
-本页将早期的专利格局转变为更具可比性的工作表格。
+## 为什么有这页
+这页把早期专利线索整理成更可比较的工作表。
 
-这不是法律 FTO 意见。它是一种战略产品研究工具，用于比较路线类型、宣称方向以及与 KES 的可能相关性。
+它**不是**法律意义上的 FTO（freedom to operate）意见，
+而是一份用于比较：
+- route type（路线类型）
+- technical signal（技术信号）
+- claim direction（宣称方向）
+- 与 KES 的潜在相关性
 
-## 专利表格
-|专利 |标题 |路线类型 |主要技术信号 |可能的 KES 相关性 |笔记|
+的战略研究工具。
+
+## 专利表
+| Patent | 标题 | 路线类型 | 主要技术信号 | 对 KES 的潜在相关性 | 备注 |
 |---|---|---|---|---|---|
-| `US6145670A` |带可拆卸过滤器的浴缸出水口|直列式浴缸出水口 |可拆卸的浴缸喷嘴过滤器主体，包含介质|非常高|迄今为止发现的最强的直接浴缸特定建筑
-| `US6096197A` |用于去除氯和防止水垢沉积的淋浴过滤器 |淋浴/盆浴两用阀芯|浴室附件形式的除氯+抑垢|高|表格明浴缸概念可能继承淋浴过滤器架构
-| `US6267887B1` |用于去除氯和防止水垢沉积的淋浴过滤器 |淋浴/浴缸阀芯 |带氯/水垢框架的可更换盒逻辑 |高|对于滤芯（cartridge）和外壳思考很有用|
-| `US7682513B2` |水除氯手段|溶解介质脱氯|水溶性介质转移；声称样品提到抗坏血酸|中高 |与非经典滤筒概念和维生素 C 型脱氯路线相关 |
-| `US6056875A` |淋浴过滤介质 |淋浴介质化学路线|用于热水淋浴过滤的陶瓷型亚硫酸钙珠加铜锌介质|高|对于 Sprite/Chlorgon 相邻介质逻辑和热水除氯路线思考很有用 |
-| `JP3002925U` |洗澡水除氯剂 |浸入式配件 |浸泡式沐浴水除氯配件 |高|确认该类别包括浸入式产品，而不仅仅是在线过滤器 |
-| `FR2480822A1` |用于淋浴沐浴喷雾的离子交换树脂软水器|软化/使用点邻接|使用点软化和/或氯处理|中等|对于软化声明谨慎和邻接逻辑很有用|
+| `US6145670A` | Bathtub spout with removable filter | inline tub-spout route | 可拆卸的 tub-spout filter body，内部容纳过滤介质 | 很高 | 目前看到最直接、最“浴缸专用”的 architecture 之一 |
+| `US6096197A` | Shower filter for removing chlorine and preventing scale deposit | shower / tub-adjacent cartridge route | 除氯 + 抑制水垢的 bathroom attachment 逻辑 | 高 | 表明 bathtub route 可能继承 shower-filter architecture |
+| `US6267887B1` | Shower filter for removing chlorine and preventing scale deposit | shower / tub cartridge route | 可更换 cartridge + chlorine / scale framing | 高 | 对 cartridge housing 与 replacement logic 很有参考价值 |
+| `US7682513B2` | Means for dechlorinating water | dissolvable-media dechlorination route | 可溶性脱氯介质；样本中提到 ascorbic acid / vitamin C 思路 | 中高 | 与非传统滤芯路线、vitamin C 型脱氯思路相关 |
+| `US6056875A` | Shower filtration medium | media / chemistry route | 针对热水淋浴过滤的 calcium sulfite beads + copper-zinc media | 高 | 对 Sprite / Chlorgon 邻近路线与热水除氯叙事有参考价值 |
+| `JP3002925U` | Bathwater dechlorinating agent | immersion accessory route | 浸泡式 bathwater dechlorination accessory | 高 | 说明该品类不只包含 inline filter，也包含 immersion-style products |
+| `FR2480822A1` | Ion-exchange resin water softener for shower/bath spray | softening adjacency route | point-of-use softening / chlorine-treatment adjacency | 中 | 对 softening claim 风险与技术边界有提醒意义 |
 
-## 路由类型解释
-### 1. 浴缸出水口内联路线
-如果 KES 想要一种感觉像浴室硬件而不是沐浴添加剂的产品，那么最具战略意义的是。
+## 路线类型解读
+### 1. tub-spout inline route
+如果 KES 想做一个更像 bathroom hardware、而不是 bath additive 的产品，这条路线最有战略意义。
 
-这条路线提出的问题：
-- 与浴缸喷嘴兼容
-- 泄漏风险
-- 压力/填充率惩罚
-- 房屋美观和清洁负担
+它带来的核心问题包括：
+- tub-spout compatibility
+- leak risk
+- pressure / fill-rate penalty
+- 外观与清洁负担
 
-### 2. 淋浴/浴缸阀芯路线
-重要的是，因为它表格明浴缸过滤器（bathtub filter）产品可能不是真正独立的架构。
+### 2. shower / tub cartridge route
+这条路线的重要意义在于：
+**它提示 bathtub filter 可能并不是完全独立的新架构，而是 shower-filter logic 的延伸。**
 
-这条路线提出的问题：
-- 目前的浴缸产品大多采用淋浴过滤逻辑吗？
-- KES 通过将其视为一个新类别而不是浴室过滤器扩展来获得任何好处吗？
+它带来的问题包括：
+- 市面上的 bathtub 产品，是否大多只是 shower-filter architecture 的变体？
+- KES 是否真的能把它做成独立新品类，而不只是 bathroom filtration extension？
 
-### 3.浸泡脱氯路线
-重要的是因为它改变了类别边界。
+### 3. immersion dechlorination route
+这条路线的重要性在于，它改变了 category boundary（品类边界）。
 
-这条路线提出的问题：
-- 用户实际上购买的是“过滤器”还是“除氯配件”？
-- 消耗性浸泡水产品会比安装在水龙头上的设备更容易解释吗？
+它带来的问题包括：
+- 用户买的究竟是“filter”，还是“dechlorinating accessory”？
+- 相比 faucet-mounted 装置，浸泡型 / 可溶型产品是否更容易解释和接受？
 
-### 4.软化邻接路由
-重要的主要是作为一个警告区域。
+### 4. softening adjacency route
+这条路线更像是一个警示区。
 
-这条路线提出的问题：
-- “硬水软化器”语言是否超出了紧凑型浴缸设备的实际功能？
-- KES 是否应该避免使用强烈的软化语言，除非技术路线异常稳健？
+它带来的问题包括：
+- “hard-water softening” 语言是否已经超出 compact bathtub device 的合理能力？
+- 除非技术路线非常扎实，KES 是否应避免强 softening 叙事？
 
-## 早期宣称观察
-根据获取的专利描述和样本权利要求，最合理的技术权利要求方向似乎是：
-- 氯减少/脱氯
-- 与规模相关的缓解语言
-- 可移动或可更换的媒体架构
-- 浴缸专用附件或浸入式使用
+## 早期 claim 观察
+基于当前拿到的专利描述与样本 claims，较合理的技术宣称方向仍然是：
+- chlorine reduction / dechlorination
+- scale-related mitigation language
+- removable / replaceable media architecture
+- bathtub-specific attachment 或 immersion use
 
-最不舒服的宣称区域仍然是：
-- 强大的硬水软化承诺
-- 广泛的污染物去除故事，没有特定路线的证据
-- 皮肤/湿疹结果声明
+目前最不舒服、也最需要克制的宣称区域仍然是：
+- 强 hard-water softening 承诺
+- 没有具体路线证据支撑的 broad contaminant-removal story
+- skin / eczema outcome claims
 
-## KES wiki 中的最佳使用
-使用此页面用于：
-- 技术路线比较
-- 建筑头脑风暴
-- 宣称纪律审查
-- 确定该主题真正指的是哪种浴缸过滤器（bathtub filter）产品
+## 在 KES wiki 中的最佳用途
+适合把这页用于：
+- technical-route comparison
+- architecture brainstorming
+- claim-discipline review
+- 判断“bathtub filter”这一主题到底对应哪些产品逻辑
 
-请勿将此页面用作：
-- 合法许可
-- 侵权意见
-- 商业空白的证明
+不适合把这页用于：
+- 法律可实施性判断
+- 侵权结论
+- 证明市场上一定存在“专利空白”
 
-## 接下来值得追踪的品牌布局线索
-即使在完成完整的受托人聚类之前，一些与品牌相关的姿势线索就已经可见：
-- Sprite 似乎严重依赖专利媒体讲故事和淋浴到浴缸的扩展逻辑
-- Crystal Quest 似乎与沐浴球产品形式的故事讲述密切相关，并且可能与沐浴球形式的设计专利相关
-- Santevia 在可见信息方面的专利转发似乎较少，并且在生活方式/材料/产品表格达策略方面更具差异化
+## 值得继续追踪的品牌 / 布局线索
+即使还没做完整 assignee clustering，一些姿态线索已经可见：
+- Sprite 更像是依赖 patent-backed media storytelling，并从 shower route 向 bathtub extension 延伸
+- Crystal Quest 与 bath-ball / bath-filter form factor 的绑定感更强，也可能与该形态的 design-patent 线索有关
+- Santevia 的可见 patent-forward 表达较少，更像 lifestyle / material / product-expression differentiation
 
-## 来源
--[Source Summary — Bathtub Filter API-Backed Academic and Patent Fetch (2026-04-12)](../source-summaries/bathtub-filter-api-backed-academic-and-patent-fetch-2026-04-12.md)
--[Bathtub Filter Patent and Technical Landscape](../syntheses/bathtub-filter-patent-and-technical-landscape.md)
--[Bathtub Filter Brand and Content Landscape](../syntheses/bathtub-filter-brand-and-content-landscape.md)
+## Sources
+- [Source Summary — Bathtub Filter API-Backed Academic and Patent Fetch (2026-04-12)](../source-summaries/bathtub-filter-api-backed-academic-and-patent-fetch-2026-04-12.md)
+- [Bathtub Filter Patent and Technical Landscape](../syntheses/bathtub-filter-patent-and-technical-landscape.md)
+- [Bathtub Filter Brand and Content Landscape](../syntheses/bathtub-filter-brand-and-content-landscape.md)

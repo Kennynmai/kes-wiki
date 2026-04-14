@@ -19,240 +19,234 @@ related:
 ---
 # 浴缸过滤器（bathtub filter）证据矩阵
 
-## 为什么有这份页面
-此页面将浴缸过滤器（bathtub filter）证据库组织成实用的查找矩阵。
+## 为什么有这页
+这页把 bathtub filter 相关证据整理成一个可快速查阅的矩阵，用来回答：
+- 哪些消费者担忧有证据支撑？
+- 支撑强度有多高？
+- 证据是在支持 **问题存在**、**细分人群**、**教育内容**，还是 **产品功效**？
 
-用它来回答：
-- 哪些类型的消费者担忧实际上有证据支持？
-- 支持有多强？
-- 证据是否支持**问题**、**细分**、**内容框架**或**产品声明**？
+## 阅读说明
+### 证据角色
+- **问题支持（problem support）**：说明这类担忧是真实或合理的
+- **细分支持（segment support）**：说明某类用户群体是可信的
+- **内容支持（content support）**：支持谨慎的教育表达
+- **宣称警戒（claim caution）**：帮助界定哪些内容不应夸大
+- **产品功效（product efficacy）**：支持产品级功效宣称
 
-## 阅读指南
-### 证据角色含义
-- **问题支持**：帮助表格明担忧是真实的或合理的
-- **细分支持**：帮助显示用户细分是可信的
-- **内容支持**：帮助支持仔细的教育框架
-- **声明谨慎**：有助于定义不应夸大的内容
-- **产品功效**：支持产品级功效声明
-
-目前，该矩阵在**问题支持**和**警示**方面较强，而在**产品功效**方面较弱。
+当前这组证据，明显是：
+- **问题支持较强**
+- **宣称警戒较强**
+- **产品功效较弱**
 
 ---
 
-## 1. 氯/沐浴/皮肤屏障问题
-
+## 1. chlorine / bathing / skin-barrier 问题
 ### 证据状态
-**中等问题级别支持**
+**中等强度的问题级支持**
 
 ### 关键来源
-- PubMed：*洗澡水中的游离余氯会降低特应性皮肤角质层的持水能力*
-- PMC 审查：*汇集证据：游泳和特应性皮炎的审查*（全文通过欧洲 PMC 获得）
-- 国家湿疹协会：*游泳和湿疹*
-- CDC 氯胺刺激环境（泳池环境）
+- PubMed：*Free residual chlorine in bathing water reduces water-holding capacity of the stratum corneum in atopic skin*
+- PMC review：*Pooled evidence: swimming and atopic dermatitis*（全文通过 Europe PMC 获得）
+- National Eczema Society：*Swimming and eczema*
+- CDC 关于 chloramine irritation 的公开说明
 
 ### 这支持什么
-- 在某些敏感皮肤/ AD 环境中，沐浴/游泳相关环境中的氯暴露可能与皮肤干燥或刺激有关
-- 对氯的担忧是买家的合理动机
-- 更好支持的框架是缓解和平衡，而不是自动避免游泳
+- 在某些敏感皮肤 / atopic dermatitis（AD）情境下，氯相关暴露可能与干燥或刺激有关
+- 用户关心 chlorine，并不是完全凭空想象
+- 更稳妥的 framing 是“减轻刺激负担 / 提升舒适感”，而不是一刀切地否定游泳或含氯用水
 
 ### 这不支持什么
-- 消费者浴缸过滤器（bathtub filter）的直接功效
-- 总括性声明，所有氯接触对湿疹都是有害的
+- 普通 bathtub filter 一定能带来明确皮肤改善
+- “所有氯接触都会恶化 eczema” 这类过强概括
 
-### KES 的最佳使用
-- 问题框架
-- 敏感肌肤消费者了解
-- 要求克制
+### 对 KES 的意义
+- 可用于 problem framing
+- 可用于 sensitive-skin segment understanding
+- 不可直接跳到 medical-style product claim
 
 ---
 
-## 2.硬水/湿疹/皮肤舒适度问题
-
+## 2. hard water / eczema / skin comfort 问题
 ### 证据状态
-**中等到强的问题级别支持**
+**中等到较强的问题级支持**
 
 ### 关键来源
-- PubMed：*生活用水硬度、氯和生命早期特应性皮炎风险之间的关联*
-- PubMed：*水硬度对特应性湿疹、皮肤屏障功能的影响：系统评价、荟萃分析*
-- PubMed：*特应性湿疹和生活用水硬度*
-- 英国生物银行成人队列文章
+- PubMed：*The association between domestic water hardness, chlorine, and atopic dermatitis risk in early life*
+- PubMed：*The effect of water hardness on atopic eczema, skin barrier function: systematic review and meta-analysis*
+- PubMed：*Atopic eczema and domestic water hardness*
+- UK Biobank 成人队列研究
 
 ### 这支持什么
-- 硬水是一个严重的类别相关变量
-- 硬水问题不仅仅是营销语言
-- 婴儿/儿童和可能的成人湿疹讨论包括真正的硬水讨论
+- hard water 是这个品类真正相关的变量
+- “硬水困扰”不只是营销话术
+- 婴儿、儿童，以及部分成人 eczema 讨论，都与硬水问题相关
 
 ### 这不支持什么
-- 浴缸过滤器（bathtub filter）以临床相关的方式有效地软化水
-- 小型配套产品的水软化声称自然是可信的
+- 普通 bathtub filter 可以稳定实现 clinically meaningful softening（临床相关意义上的软化）
+- 紧凑型挂件天然有资格说“softens hard water”
 
-### KES 的最佳使用
-- 类别框架
-- 问题相关性
-- 警惕松散的“硬水软化剂”声称
+### 对 KES 的意义
+- 可用于 category framing
+- 可用于问题重要性判断
+- 需要谨慎对待 hard-water softening claim
 
 ---
 
-## 3.婴儿/婴儿段的合理性
-
+## 3. baby / infant segment 的合理性
 ### 证据状态
-**适度的段级支持**
+**中等强度的细分支持**
 
 ### 关键来源
-- 涉及生活用水硬度的生命早期/婴儿期 AD 风险研究
-- 婴儿游泳+硬水+特应性相互作用研究
-- 以育儿为导向的公共解释者（次要的、低质量的支持）
+- 与 domestic water hardness 相关的 early-life / infancy AD 研究
+- infant swimming + hard water + atopy interaction 研究
+- 少量 parenting-oriented public explainers（质量较低，仅作辅助）
 
 ### 这支持什么
-- 从消费者关注的角度来看，婴儿/婴儿沐浴是一个合理的部分
-- 家长对水质的敏感度是可以理解的并且有证据表格明
-- 最细致入微的解读是基于互动的：硬水似乎比单独的婴儿游泳更重要，但两者的结合可能会加剧对易过敏环境的担忧
+- 从消费者心理与研究背景看，baby / infant bathing 确实是合理细分
+- 家长对 bath-water quality 的敏感并非空穴来风
+- 更细致的解释是：硬水可能比“婴儿游泳本身”更关键，但 hard water + infant swimming 的组合，在 atopy-prone 情境下可能更值得注意
 
 ### 这不支持什么
-- 未经产品级验证的婴儿安全或婴儿福利产品声明
+- 未经产品级验证就作出 baby-safe 或 infant-benefit 的产品承诺
 
-### KES 的最佳使用
-- 细分优先级
-- 优质讲故事评估
-- 信任负担意识
+### 对 KES 的意义
+- 适合用于 segment prioritization
+- 适合用于判断 premium storytelling 是否有商业空间
+- 同时意味着更高 trust burden
 
 ---
 
-## 4. 敏感皮肤/湿疹段的合理性
-
+## 4. sensitive-skin / eczema-prone segment 的合理性
 ### 证据状态
-**适度的段级支持**
+**中等强度的细分支持**
 
 ### 关键来源
-- 氯/沐浴水/特应性皮肤纸
-- 水硬度/AD研究
-- 国家湿疹协会指南
+- chlorine / bathing-water / atopic-skin 相关研究
+- water hardness / AD 研究
+- National Eczema Society 的公开指南
 
 ### 这支持什么
-- 易患湿疹和敏感皮肤的买家是可信的群体
-- 该类别的情感问题框架具有邻近证据的基础
+- sensitive skin / eczema-prone 用户确实是可信的目标人群
+- 这一品类的情绪叙事有 evidence-adjacent foundation（证据邻接基础）
 
 ### 这不支持什么
-- “改善湿疹”产品声称
-- 一般消费配件的医学化营销语言
+- “improves eczema” 之类结果承诺
+- 把普通消费品包装成医疗解决方案
 
-### KES 的最佳使用
-- 分段映射
-- 谨慎的内容策略
-- 审查/问卷设计以供未来验证
+### 对 KES 的意义
+- 有利于 segment mapping
+- 适合做 cautious content strategy
+- 可用于未来访谈 / survey 设计
 
 ---
 
-## 5. 机构/官方教育框架
-
+## 5. institutional / official education framing
 ### 证据状态
-**中等内容支持水平**
+**中等强度的内容支持**
 
 ### 关键来源
-- EPA CCR 信息页面
-- CDC 健康游泳氯胺指南
-- 国家湿疹协会指南
+- EPA CCR 信息页
+- CDC Healthy Swimming 关于 chloramine 的内容
+- National Eczema Society 公开说明
 
 ### 这支持什么
-- 使用官方参考资料进行水质意识和刺激环境教育
-- 均衡的消费者教育
+- 可以用官方资料支持 water-quality awareness 与 irritation context 的教育表达
+- 可以做比较平衡、不夸大的 consumer education
 
 ### 这不支持什么
-- 使用 EPA/CDC/湿疹协会参考资料作为浴缸过滤器（bathtub filter）功效的证明
+- 把 EPA / CDC / eczema organization 的资料当成 bathtub filter efficacy proof
 
-### KES 的最佳使用
-- 教育内容策划
-- 内部编辑护栏
-- 反过度索取治理
+### 对 KES 的意义
+- 适合做 education content curation
+- 适合做内部编辑 guardrail
+- 适合防止 overclaim
 
 ---
 
-## 6. 市场规模/品类规模信心
-
+## 6. market size / category-size confidence
 ### 证据状态
-**直接支持较弱；适度的邻近市场支持**
+**直接支持弱；邻近市场支持中等**
 
 ### 关键来源
-- 淋浴过滤器市场报告
-- 家庭水过滤市场报告
-- 稀疏直接浴缸过滤器（bathtub filter）报告可见性
+- shower filter 市场报告
+- home water filtration 市场报告
+- 少量 bathtub filter 直接研究线索
 
 ### 这支持什么
-- 存在相邻的需求逻辑
-- 淋浴过滤器是一个更明确可报告的邻近类别
-- 浴缸过滤器（bathtub filter）可能在商业上是真实的，但在制度上定义不明确
+- 存在明确的 adjacent demand logic（邻近需求逻辑）
+- shower filter 是更成熟、可报告的相邻品类
+- bathtub filter 可能在商业上真实存在，但制度化定义仍不清晰
 
 ### 这不支持什么
-- 直接浴缸过滤器（bathtub filter） TAM
-- 自信的浴缸过滤器（bathtub filter）独立规模假设
+- bathtub filter 独立 TAM
+- 对独立品类规模做高置信判断
 
-### KES 的最佳使用
-- 商业化谨慎
-- 邻接逻辑
-- 优先考虑进一步的需求三角测量
-
----
-
-## 7.浴缸过滤器（bathtub filter）本身的产品功效
-
-### 证据状态
-**弱/不足**
-
-### 当前状态
-当前的证据集**不**强烈支持浴缸过滤器（bathtub filter）作为一个类别的成品功效声明。
-
-### 缺少证据
-- 产品级测试数据
-- 主导产品独立比较
-- 强有力的证据将这些产品与皮肤效果联系起来
-- 在浴缸填充条件下广泛去除或软化声称的有力证据
-
-### KES 的最佳使用
-- 红旗区
-- 未来研究的优先差距
+### 对 KES 的意义
+- 商业化应保持谨慎
+- 更适合先把它当 bathroom-water-care adjacency
+- 需要继续 triangulate demand（多角度验证需求）
 
 ---
 
-## 8. 宣称安全/过度宣称风险
-
+## 7. bathtub filter 产品功效本身
 ### 证据状态
-**强烈的谨慎支持**
+**弱 / 不足**
+
+### 当前判断
+现有证据**不足以强力支持** bathtub filter 作为一个品类的 finished-product efficacy claim。
+
+### 缺口在哪里
+- 缺产品级测试数据
+- 缺主流产品的独立对比
+- 缺把产品与 skin outcome 直接联系起来的强证据
+- 缺在 realistic tub-fill conditions 下支持广泛去除 / 软化宣称的高质量证据
+
+### 对 KES 的意义
+- 这是红旗区（red-flag zone）
+- 也是后续 validation 的最高优先级缺口
+
+---
+
+## 8. claim safety / overclaim risk
+### 证据状态
+**强烈的警戒性支持**
 
 ### 为什么
-因为证据层是微妙的，但市场复制往往是极端的。
+因为当前证据层是细致、有限、条件化的；
+而市场文案往往是宽泛、情绪化、绝对化的。
 
-### 高风险宣称
-- 改善湿疹
-- 婴儿安全作为隐含的安全保证
-- 去除氟化物/去除广泛的污染物，无需证明
-- 技术感强的硬水软化器
-- 直接疾病或治疗利益声明
+### 高风险 claim
+- improves eczema
+- 隐含 baby-safe / medical reassurance
+- removes fluoride / removes many contaminants without proof
+- 强势 hard-water softening 承诺
+- 疾病改善或治疗利益表达
 
-### 更好支持的方向
-- 沐浴水感觉更温和
-- 氯意识沐浴支持
-- 以皮肤舒适为导向的教育框架
-- 谨慎的非医疗定位
+### 相对更稳妥的方向
+- gentler-feeling bath water
+- chlorine-conscious bath support
+- comfort-first education
+- non-medical positioning
 
 ---
 
-## 摘要视图
-### 最受支持的区域
-- 硬水是一个相关问题
-- 氯/沐浴敏感性是一个合理的担忧
-- 婴儿/敏感皮肤段的合理性
-- 对教育框架的官方背景支持
+## 总结视图
+### 当前证据最支持的区域
+- hard water 是真实问题变量
+- chlorine / bathing sensitivity 是合理担忧
+- baby / sensitive-skin segment 具备合理性
+- 官方资料可支撑谨慎教育表达
 
-### 支持最薄弱的领域
+### 当前证据最薄弱的区域
 - 独立类别规模
-- 产品功效
-- 强有力的医疗结果声明
+- finished-product efficacy
+- 强医疗结果型宣称
 
-## 来源
--[Bathtub Filter Evidence Bibliography](./bathtub-filter-evidence-bibliography.md)
--[Bathtub Filter Institutional Guidance](./bathtub-filter-institutional-guidance.md)
--[Source Summary — Bathtub Filter Academic and Institutional Evidence (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-2026-04-11.md)
--[Source Summary — Bathtub Filter Academic and Institutional Evidence Deepening (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-deepening-2026-04-11.md)
--[Source Summary — Bathtub Filter Market Research Signals (2026-04-11)](../source-summaries/bathtub-filter-market-research-signals-2026-04-11.md)
--[Source Summary — Bathtub Filter Market Research and Industry Explanation Deepening (2026-04-11)](../source-summaries/bathtub-filter-market-research-and-industry-explanation-deepening-2026-04-11.md)
--[Source Summary — Bathtub Filter Evidence Access Audit (2026-04-11)](../source-summaries/bathtub-filter-evidence-access-audit-2026-04-11.md)
+## Sources
+- [Bathtub Filter Evidence Bibliography](./bathtub-filter-evidence-bibliography.md)
+- [Bathtub Filter Institutional Guidance](./bathtub-filter-institutional-guidance.md)
+- [Source Summary — Bathtub Filter Academic and Institutional Evidence (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-2026-04-11.md)
+- [Source Summary — Bathtub Filter Academic and Institutional Evidence Deepening (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-deepening-2026-04-11.md)
+- [Source Summary — Bathtub Filter Market Research Signals (2026-04-11)](../source-summaries/bathtub-filter-market-research-signals-2026-04-11.md)
+- [Source Summary — Bathtub Filter Market Research and Industry Explanation Deepening (2026-04-11)](../source-summaries/bathtub-filter-market-research-and-industry-explanation-deepening-2026-04-11.md)
+- [Source Summary — Bathtub Filter Evidence Access Audit (2026-04-11)](../source-summaries/bathtub-filter-evidence-access-audit-2026-04-11.md)
