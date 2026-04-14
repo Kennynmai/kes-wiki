@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -17,47 +17,46 @@ related:
   - ./bathtub-filter-patent-table.md
   - ./bathtub-filter-claim-risk-audit.md
 ---
+# 浴缸过滤器（bathtub filter）（浴缸过滤器（bathtub filter））品牌运营矩阵 — V2
 
-# Bathtub Filter Brand Operating Matrix — V2
+## 版本链接
+- 早期页面：[[bathtub-filter-brand-operating-matrix]]
 
-## Version links
-- Earlier page: [[bathtub-filter-brand-operating-matrix]]
+## 标准化接头
+### 航线类型
+- **软悬挂** =悬挂在流水下的柔性/织物状浴缸过滤器（bathtub filter）（浴缸过滤器（bathtub filter））
+- **浴缸球** = 连接到浴缸的硬壳球或灯泡装置
+- **高级喷嘴** = 设计以为主控的浴缸喷嘴装置
+- **传统媒体** = 传统淋浴过滤媒体/品牌逻辑浴缸
+- **DTC敏感肌肤** = 面向直接消费者家庭/湿疹前向定位
 
-## Normalization key
-### Route type
-- **soft-hanging** = flexible / fabric-like bath filter that hangs under running water
-- **bath-ball** = hard-shell ball or bulb unit attached to tub faucet
-- **premium-spout** = design-led bath-spout device
-- **legacy-media** = legacy shower-filter media/brand logic extended into bath
-- **DTC-sensitive-skin** = direct-to-consumer family/eczema-forward positioning
+### 姿势姿势
+- **窄** = 主要是黑暗/气味/舒适范围
+- **混合**=大众+更广泛但仍部分范围的权利要求
+- **侵略性** = 皮肤结果/婴儿安全/非常广泛的长江语言
 
-### Claim posture
-- **narrow** = mostly chlorine / odor / comfort scoped
-- **mixed** = chlorine + broader but still partially scoped claims
-- **aggressive** = skin outcome / baby safety / very broad contaminant language
-
-## Matrix
-| Brand | Route type | Claim posture | Replacement signal | Evidence/performance anchor | Quote anchor | Visible risk summary | Sources |
+## 矩阵
+|品牌|航线类型|姿势姿势|交换信号|证据/性能依据|引用点|可见的风险总结|来源|
 |---|---|---:|---|---|---|---|---|
-| Santevia | soft-hanging | mixed | every 2 months / 4,755 gal / ~100 baths | strongest surfaced independent review signal on faster-flow chlorine reduction | “the only product to reduce 100% chlorine at the faster flow” and “replace the filter every 2 months or after 4,755 gallons (approximately 100 baths)” | high maintenance cadence, drying burden, but comparatively stronger performance signal | WaterFilterGuru Santevia review; Santevia support/product |
-| Sprite | legacy-media / bath-ball | narrow-mixed | approx. 25–30 baths / $19.95 surfaced for bath cartridge | strongest legacy technical-media story; narrower chlorine-focused trust signal | “Rated for approximately 25-30 baths” and “Chlorgon filtration media helps to remove free chlorine, dirt, and odors” | bath capacity may be short; bath value may depend on narrower but more credible promise stack | Sprite replacement cartridge page |
-| Crystal Quest | bath-ball | mixed-aggressive | 12–18 months or 2,000–2,500 gal | visible category benchmark, but surfaced review skepticism on flow and build | “couldn’t even remove 100% chlorine at an impractically slow faucet flow rate” | broad claim stack, design-quality concern, flow sensitivity | WaterFilterGuru Crystal Quest review; Crystal Quest product page |
-| Canopy | premium-spout | mixed | every 90 days; premium upfront price (~$79–$89 surfaced) | strong design-led DTC/baby positioning but weaker independent performance signal | “unable to effectively remove chlorine at a ‘normal’ faster faucet flow rate” and “every 90 days” | premium price + frequent refill + certification wording confusion | WaterFilterGuru Canopy review; Canopy product/cartridge pages |
-| Kinder | DTC-sensitive-skin | aggressive | 10–12 months surfaced for bath filter | strongest surfaced clinical/skin-hydration wording, weakest independent verification in this pass | “clinically tested to improve skin hydration” | high claim/compliance risk, especially eczema/sensitive-skin outcome framing | Kinder product/home pages |
-| Tubo | DTC-sensitive-skin / faucet-attach | aggressive | 2,500 gal / ~6–8 months | strong social/parent conversion copy, but no stable independent verification surfaced in this pass | “Each Tubo filter lasts for approximately 2,500 gallons… about 6-8 months” and “CLINICALLY TESTED” | very broad contaminant + family-skin claims; likely high compliance scrutiny need | Tubo product page |
+|桑特维亚|软挂|混合的|每 2 个月 / 4,755 加仑 / ~100 浴|关于快速股市减少最大浮出度的独立审查信号|“唯一能够以更快的流量（flow）（流量（flow））减少 100% 氯的产品”和“每 2 个月或在 4,755 加仑（大约 100 次沐浴）后更换过滤器”|保持平衡高，干燥负载大，但性能信号相对比|WaterFilterGuru Santevia 评论（review）（评论（review））；Santevia 支持/产品|
+|雪碧|传统媒体 / 沐浴球|狭混合|约。 25–30 次沐浴 / 沐浴盒浮出水面 19.95 美元|最强势的传统技术媒体故事；以传播为中心的信任信号范围更窄|“额定大约 25-30 次沐浴”和“Chlorgon 过滤介质有助于实现分离、漂白和味异”|浴槽容量可能不足；浴值可能取决于更谨慎但更可信的承诺堆栈|雪碧更换滤芯（cartridge）页面|
+|水晶探索|沐浴球|混合攻击性|12–18 个月或 2,000–2,500 加仑|可见的类别基准，但出现了对流程和构建怀疑审查|“在不切实际的缓慢的流速（flow rate）（流量（flow））下甚至无法达到 100% 的氯”|广泛的主板堆栈、设计质量问题、流量（flow）（flow）主板|WaterFilterGuru Crystal Quest 评论（review）（评论（review））；水晶探索产品页面|
+|天篷|高级喷嘴|混合的|- 90 天一次；溢价预付款（~$79–$89 浮出水面）|设计主导的DTC/婴儿定位，但独立性能信号较弱|“无法以‘正常’更快的节流速（flow rate）度（流量（flow））有效地达到清洁”和“每 90 天一次”|溢价+间隙补充+认证措辞混乱|WaterFilterGuru Canopy 审查； Canopy 产品/滤芯（cartridge）页面|
+|金德|DTC-敏感皮肤|挑衅的|浴缸过滤器（bathtub filter）（bathtub filter） 10-12个月浮出水面|最强的表面临床/皮肤水合措辞，此通道中最弱的独立验证|“经过临床测试，可改善肌肤水合作用”|高指控/合规风险，尤其是湿疹/敏感皮肤结果框架|健达产品/主页|
+|吐蕃|DTC-敏感皮肤/房间连接|挑衅的|2,500 加仑/~6–8 个月|强大的社交/父母转换副本，但在此通行证据中没有出现稳定的独立验证|“每个Tubo过滤器可持续使用约2,500加仑……约6-8个月”和“经过临床测试”|非常广泛的曼哈顿+家庭皮肤状况；可能需要高度合规审查|图博产品页面|
 
-## Brand notes
-### Santevia
-Most compelling as a “credible-feeling, lower-priced, faster-flow-performing” outlier rather than as a maximal-claims brand.
+## 品牌注释
+### 桑特维亚
+最引人注目的是“可信度较低、流程执行速度较快”的异常品牌，而不是最大承诺的品牌。
 
-### Sprite
-Most interesting because its bath route inherits a clearer media/technical lineage than many newer bathtub-filter-first brands.
+### 雪碧
+最有趣的是，它的沐浴路线继承了比许多新的浴缸过滤器（bathtub filter）（浴缸过滤器（bathtub filter））优先品牌更清晰的媒体/技术血统。
 
-### Crystal Quest
-Still important because bath-ball is a durable consumer form factor, but the gap between visible marketing breadth and surfaced review skepticism looks meaningful.
+### 水晶探索
+仍然很重要，因为沐浴球是一种持久的消费者形态因素，但可见的营销广度和表面的评论（review）（评论（review））之间的差距看起来很有意义。
 
-### Canopy
-Most useful benchmark for premium design and registry/baby-channel positioning. Also a strong case study in how aesthetics can outrun performance evidence.
+###天篷
+优质设计和注册/婴儿频道定位最有用的基准。这也是关于美学如何超越性能证据的案例研究。
 
-### Kinder / Tubo
-Commercially important not because they are the cleanest technical stories, but because they show how aggressively the category can be sold into the sensitive-skin / baby / eczema emotional zone.
+###金德/图博
+商业上的重要性并不是因为它们是最清晰的技术故事，而是因为它们展示了该类别可以如何积极地销售到敏感皮肤/婴儿/湿疹情感区。

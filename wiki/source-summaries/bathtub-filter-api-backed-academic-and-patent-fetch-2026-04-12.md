@@ -3,7 +3,7 @@ type: source-summary
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -20,7 +20,7 @@ related:
   - ../playbooks/academic-search-workflow.md
 ---
 
-# Source Summary — Bathtub Filter API-Backed Academic and Patent Fetch (2026-04-12)
+# 来源摘要｜Bathtub Filter 基于 API 的学术与专利抓取（2026-04-12）
 
 ## Obsidian links
 - [[bathtub-filter]]
@@ -28,72 +28,70 @@ related:
 - [[bathtub-filter-patent-and-technical-landscape]]
 - [[academic-search-workflow]]
 
-# Source Summary — Bathtub Filter API-Backed Academic and Patent Fetch (2026-04-12)
+## 这份来源为什么重要
+这份来源把 bathtub-filter 主题从“手工浏览 / 仅搜索式研究”升级为“可重复的 API-backed retrieval + 直接专利页抓取”。
 
-## Why this source matters
-This source upgrades the bathtub-filter topic from manual browsing/search-only work to repeatable API-backed retrieval plus direct patent-page fetching.
+它证明，这个主题现在可以由一层轻量 research tooling 支撑，而不再只能依赖 ad hoc 搜索。
 
-It demonstrates that the topic can now be supported by a lightweight research tooling layer rather than only ad hoc searching.
-
-## Academic stack actually used
+## 实际使用的 academic stack
 - OpenAlex API
 - Crossref API
 - Europe PMC API
 
-## Patent retrieval actually used
-- direct public Google Patents page fetch for known patent IDs
+## 实际使用的 patent retrieval
+- 对已知 patent ID 直接抓取公开 Google Patents 页面
 
 ## Important tooling note
-A direct PatentsView-style patent API call was attempted, but the legacy endpoint now returns a migration message because PatentsView is moving into the USPTO Open Data Portal.
+曾尝试直接调用 PatentsView 风格的 patent API，但 legacy endpoint 现在返回迁移提示，因为 PatentsView 正在迁入 USPTO Open Data Portal。
 
-So the practical state is:
-- academic APIs are already directly usable and integrated
-- public patent detail fetching is currently working through Google Patents page retrieval
-- USPTO/PatentsView migration should be revisited later if a stable new patent-search endpoint becomes available
+所以当前可行状态是：
+- academic APIs 已可直接使用并完成整合
+- patent detail fetching 目前通过 Google Patents 页面抓取来实现
+- 如果未来出现稳定的新 patent-search endpoint，应重新评估 USPTO / PatentsView 迁移后的接入方式
 
-## High-value academic results confirmed via API
-### Targeted PMID lookups confirmed
-- PMID 12692355: chlorine in bathing water / atopic skin paper confirmed with DOI metadata
-- PMID 22591883: 2012 infant swimming / hard water / atopy paper confirmed with DOI metadata, still non-OA in the returned metadata
-- PMID 27241890: early-life water hardness/chlorine / AD study confirmed with DOI metadata
-- PMID 33259122: systematic review / meta-analysis confirmed with DOI metadata
-- PMID 37029288: swimming / AD review confirmed with PMCID `PMC10946598`, OA = yes, and Europe PMC fullTextXML available
+## 通过 API 确认的高价值 academic results
+### 已确认的 targeted PMID lookups
+- PMID 12692355：关于 bathing water 中 chlorine / atopic skin 的论文，已确认 DOI metadata
+- PMID 22591883：2012 年 infant swimming / hard water / atopy 论文，已确认 DOI metadata，但返回 metadata 中仍为 non-OA
+- PMID 27241890：关于 early-life water hardness/chlorine / AD 的研究，已确认 DOI metadata
+- PMID 33259122：systematic review / meta-analysis，已确认 DOI metadata
+- PMID 37029288：swimming / AD review，已确认 PMCID `PMC10946598`，OA = yes，且 Europe PMC fullTextXML 可用
 
 ### Strategic academic implication
-The academic API layer is already useful for:
-- DOI/PMID/PMCID normalization
-- OA status checking
-- manuscript/full-text opportunity checking
-- broad related-paper expansion around hard water / chlorine / swimming / eczema
+academic API 层已经适合用于：
+- DOI / PMID / PMCID 规范化
+- OA 状态检查
+- manuscript / full-text 获取机会检查
+- 围绕 hard water / chlorine / swimming / eczema 做相关论文扩展
 
-## High-value patent results confirmed via direct fetch
-### Strongest direct category hit
+## 通过 direct fetch 确认的高价值 patent results
+### 最强的 direct category hit
 - `US6145670A` — *Bathtub spout with removable filter*
-  - direct bathtub-spout architecture
-  - strong relevance to tub-fill compatibility and removable filter housing logic
+  - 直接对应 bathtub-spout 架构
+  - 与 tub-fill 兼容性及 removable filter housing 逻辑高度相关
 
-### Strongest shower/tub crossover hits
+### 最强的 shower / tub crossover hits
 - `US6096197A` — *Shower filter for chlorine removal and scale deposit prevention*
 - `US6267887B1` — *Shower filter for chlorine removal and scale deposit prevention*
-  - strong evidence that bathtub-filter architecture overlaps with shower/tub dual-purpose cartridge logic
+  - 强烈表明 bathtub-filter 架构与 shower/tub 双用途 cartridge 逻辑存在重叠
 
-### Strongest alternative dechlorination route hit
+### 最强的 alternative dechlorination route hit
 - `US7682513B2` — *Water dechlorination means*
-  - notable because the claims point to water-soluble dechlorination media and explicitly mention ascorbic acid in sampled claims
+  - 值得注意，因为抽样 claims 明确指向 water-soluble dechlorination media，并提到 ascorbic acid
 
-### Strongest immersion-style bath treatment hit
+### 最强的 immersion-style bath treatment hit
 - `JP3002925U` — *Chlorine remover for bath water*
-  - strong signal that immersion dechlorination accessories belong in the category map, not only inline filter units
+  - 强信号表明，品类地图里不仅应包含 inline filter units，也应包含 immersion dechlorination accessories
 
 ## Strategic implication
-The research base now has a real tooling layer underneath it.
+该研究底座现在已经有一层真实可用的 tooling 支撑。
 
-That means future bathtub-filter work can be more systematic in three ways:
-1. academic verification can be repeated instead of re-searched manually every time
-2. patent detail capture can be normalized into comparable rows
-3. topic expansion can now happen from API-backed evidence rather than only web snippets
+这意味着未来的 bathtub-filter 工作可以在三个方面更系统化：
+1. academic verification 可以重复执行，而不是每次都手工重搜
+2. patent detail capture 可以标准化成可比较的行记录
+3. topic expansion 可以基于 API-backed evidence，而不只依赖网页 snippets
 
-## Files produced in this run
+## 本次运行产出的文件
 - `tools/bathtub_filter_api_fetch.py`
 - `data/products/bathtub-filter/api-fetch/2026-04-12-academic.json`
 - `data/products/bathtub-filter/api-fetch/2026-04-12-academic.md`

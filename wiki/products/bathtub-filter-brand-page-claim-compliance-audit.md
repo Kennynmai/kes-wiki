@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -16,44 +16,43 @@ related:
   - ./bathtub-filter-claim-risk-audit-v2.md
   - ./bathtub-filter-standards-and-certification-audit-by-brand.md
 ---
+# 浴缸过滤器（bathtub filter）（bathtub filter）品牌页面声明/合规审核
 
-# Bathtub Filter Brand Page Claim / Compliance Audit
+## 黑曜石链接
+-[[bathtub-filter]]
+-[[bathtub-filter-claim-risk-audit-v2]]
+-[[bathtub-filter-standards-and-certification-audit-by-brand]]
+-[[bathtub-filter-kes-route-elimination-memo-v1]]
 
-## Obsidian links
-- [[bathtub-filter]]
-- [[bathtub-filter-claim-risk-audit-v2]]
-- [[bathtub-filter-standards-and-certification-audit-by-brand]]
-- [[bathtub-filter-kes-route-elimination-memo-v1]]
+## 目的
+此页面审核了相关品牌页面当前如何构建证据、性能、依据和权威。
 
-## Purpose
-This page audits how leading brand pages currently frame proof, performance, sensitivity, and authority.
-
-## Audit table
-| Brand | Page type | Key surfaced wording | Proof style used | Main issue spotted | Risk read |
+## 审核表
+|品牌|页面类型|关键措辞|使用校园风格|发现主要问题|风险解读|
 |---|---|---|---|---|---|
-| Canopy | product page | “More than 98% of all community water systems… use added chlorine…” + “Physician was compensated by Canopy for their medical expertise.” | authority + expert-backed reassurance + lifestyle comfort | blends legitimate chlorine concern with sponsored medical reassurance and soft baby/wellness framing | medium-high |
-| Canopy | product/cartridge page | “Tested to ANSI/NSF 177 Standard” + eczema testimonial on page + “$37 $27 … every 90 days” | standards-adjacent wording + testimonial + subscription economics | "tested to" can be mistaken for certified; testimonial layer increases skin-outcome implication | high |
-| Canopy | reviewer counterpoint | “unable to effectively remove chlorine at a ‘normal’ faster faucet flow rate” | independent reviewer performance challenge | strongest surfaced gap between premium positioning and test performance | high |
-| Santevia | product/support | “It removes 99% of chlorine…” / “replaced every two months” / “4,755 gal (100 baths)” | narrower product/process claim + maintenance specifics | comparatively better scoped, but still needs route/performance verification in broader contexts | medium |
-| Sprite | bath replacement page | “Chlorgon filtration media helps to remove free chlorine, dirt, and odors…” / “Rated for approximately 25-30 baths” | narrower media/mechanism + usage-count specificity | strongest legacy technical posture; bath route still short-life | medium |
-| Sprite | shower certification context | “certified to NSF/ANSI Standard No.177” | explicit certification wording | strongest surfaced certification clarity, though mostly inherited from shower lineage | low-medium |
-| Crystal Quest | bath-ball product page | “Removes chlorine, chloramines, VOC’s, THM’s, pesticides… heavy metals… while balancing pH” | very broad contaminant stack | large breadth of claims with weaker surfaced certification clarity in this pass | high |
-| Crystal Quest | reviewer counterpoint | “couldn’t even remove 100% chlorine at an impractically slow faucet flow rate” | independent reviewer performance challenge | strongest surfaced contradiction between breadth and credible performance | high |
-| Kinder | home/why/product page | “only bath filter clinically tested to improve skin hydration” / “clinically tested to improve skin hydration in just 2-3 weeks” | clinical superiority framing | very strong outcome language; substantiation context still not clear enough in surfaced pass | very high |
-| Kinder | product page | “Clinically proven to calm sensitive, eczema-prone skin” + “Loved by parents for baby-safe, skin-soothing baths” + “100% fit Guarantee” | clinical + baby-safe + fit-guarantee stack | combines multiple high-risk implication layers in one page | very high |
-| Tubo | product page | “CLINICALLY TESTED” + “2,500 gallons… 6-8 months” + “eliminates up to 99% of harsh contaminants” | conversion-heavy testing language + practical value frame | testing basis unclear while contaminant/health framing is broad | very high |
-| Tubo | product page | “heavy metals and bacteria” / “removes up to 99.9% of bacteria and viruses” / eczema-help FAQ language | pseudo-purification and condition-adjacent implication | strongest surfaced overreach pattern in this set | very high |
-| Tubo | reviewer counterpoint | WaterFilterGuru: no visible official certifications; bacteria/viruses claim “highly unlikely to be true” | independent reviewer rebuttal | unusually direct contradiction between brand rhetoric and reviewer plausibility read | very high |
-| Tubo | social-facing wording | “the bath filter every parent needs” / “eczema-friendly bath filter” | parental urgency + short-form compression | strongest emotional compression, weakest nuance | very high |
+|天篷|产品页面|“超过 98% 的社区供水系统......使用添加氯......” + “医生去除医疗专业知识而得到了 Canopy 的补偿。”|权威+专家支持的保证+生活方式舒适|将合法的氯关注与赞助的医疗保障和优质的婴儿/健康框架相结合|中高|
+|天篷|产品/滤芯（cartridge）页面|“经过 ANSI/NSF 177 标准测试”+页面上的湿疹感言+“37 美元 27 美元……每 90 天”|与标准上下文的措辞+推荐+订阅经济学|“经过测试”可能会被误认为是经过认证的；推荐层增加皮肤效果的影响|高的|
+|天篷|审稿人对位|“无法以‘正常’更快的节奏（流速（flow rate））有效地达到清洁”|独立评审员绩效挑战|优质定位和测试性能之间最大的表面差距|高的|
+|桑特维亚|产品/支持|“它可以带来 99% 的劳动强度……”/“每两个月更换一次”/“4,755 加仑（100 次沐浴）”|更精简的产品/工艺要求+维护细节|范围相对较好，但仍需要在更广泛的背景下进行路线/性能验证|中等的|
+|雪碧|浴缸换页|“Chlorgon过滤介质有助于解除分离、重组和异味……”/“额定约25-30次沐浴”|更狭窄的媒体机制/+使用统计图表|最传承的传统技术命题；沐浴路线仍短|中等的|
+|雪碧|准备认证背景|“通过NSF/ANSI标准No.177认证”|明确的说明措辞|最强的表面认证平台，尽管主要继承自浴血统|低中|
+|水晶探索|沐浴球产品页面|“去除氯、氯胺、VOC、THM、农药……重金属……同时平衡pH值”|非常广泛的带宽|本次通过的攻击范围广泛，表面认证得分较弱|高的|
+|水晶探索|审稿人对位|“在不切实际的缓慢的流速（flow rate）（流量（flow））下甚至无法达到 100% 的氯”|独立评审员绩效挑战|广度和可信性能之间最明显的矛盾|高的|
+|金德|主页/原因/产品页面|“唯一经过临床测试可在短短2-3周内改善皮肤水合作用的沐浴过滤器”/“经过临床测试可在短短2-3周内改善皮肤水合作用”|临床优势框架|非常强烈的结果语言；浮出水面的证实背景仍然不清楚|非常高|
+|金德|产品页面|“经临床证明可以静敏感、易患湿疹的皮肤” + “因婴儿安全、调节皮肤的镇沐浴而深受父母喜爱” + “100%贴合保证”|临床+婴儿安全+合身保证库|将多个高风险信息层层整合在一页中|非常高|
+|吐蕃|产品页面|“临床经过测试”+“2,500加仑……6-8个月”+“消除高达99%的有害珊瑚”|高转化率的测试语言+实用价值框架|测试参考不明确，而底层/健康框架很广泛|非常高|
+|吐蕃|产品页面|“重金属和细菌”/“达到高达99.9%的细菌和病毒”/eczema-help 常见问题解答语言|a 净化和邻近条件提示|该组中最强的浮出的越界模式|非常高|
+|吐蕃|审稿人对位|WaterFilterGuru：没有可见的官方认证；病毒/病毒宣称（claim）“极不可能是真的”|独立评审员反驳|品牌修改辞与评论（review）（评论（review））者的合理性之间异常直接的矛盾的阅读|非常高|
+|吐蕃|面向社会的措辞|“每个父母都需要浴缸过滤器（bathtub filter）（浴缸过滤器（bathtub filter））”/“湿疹耐受型浴缸过滤器（bathtub filter）（浴缸过滤器（bathtub filter））”|家长的紧迫感+简短的压缩|情感最丰富，成本效益最弱|非常高|
 
-## Working interpretation
-### Lowest apparent wording-risk zone
-- Sprite chlorine-focused lineage
-- Santevia narrower chlorine/maintenance framing
+## 工作口译
+### 最低明显措辞风险区
+- 雪碧以太空为中心的谱系
+- Santevia 较为狭窄的社交/维护框架
 
-### Highest apparent wording-risk zone
-- Kinder / Tubo skin-outcome and clinical language
-- Crystal Quest broad contaminant stack if not tightly substantiated
+### 最明显的措辞风险区
+- Kinder / Tubo 皮肤结果和临床语言
+- 如果没有得到严格证实，Crystal Quest 会产生广泛的带宽堆栈
 
-### Most important contradiction to keep watching
-- Canopy-style premium reassurance vs reviewer performance skepticism
+### 需要持续关注的最重要的矛盾
+- Canopy式的质量保证与审稿人的绩效怀疑

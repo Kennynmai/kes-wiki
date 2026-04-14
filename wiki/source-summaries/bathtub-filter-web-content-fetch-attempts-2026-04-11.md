@@ -3,7 +3,7 @@ type: source-summary
 status: draft
 owner: strategy
 created: 2026-04-11
-updated: 2026-04-11
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -18,7 +18,7 @@ related:
   - ../../raw/products/bathtub-filter/2026-04-11-web-content-fetch-attempts-and-results.md
 ---
 
-# Source Summary — Bathtub Filter Web Content Fetch Attempts (2026-04-11)
+# 来源摘要｜Bathtub Filter 网页内容抓取尝试（2026-04-11）
 
 ## Obsidian links
 - [[bathtub-filter]]
@@ -27,33 +27,33 @@ related:
 - [[bathtub-filter-structure-audit-and-link-maintenance-2026-04-13]]
 
 ## Source
-- Raw capture: `raw/products/bathtub-filter/2026-04-11-web-content-fetch-attempts-and-results.md`
+- 原始抓取：`raw/products/bathtub-filter/2026-04-11-web-content-fetch-attempts-and-results.md`
 
-## Why this matters
-This source records which evidence items were successfully deepened beyond snippet-level access and which remained constrained.
+## 为什么这很重要
+这份来源记录了：哪些证据项成功从 snippet-level access 深化，哪些仍然受限。
 
-## Key extracted facts
+## 提取出的关键信息
 ### Successfully deepened beyond basic snippet level
-- PubMed article on residual chlorine in bathing water and atopic skin: long abstract extracted
-- PubMed article on domestic water hardness/chlorine and AD risk in early life: long abstract extracted
-- National Eczema Society page: substantial body paragraphs extracted
-- EPA CCR consumer page: meaningful body text extracted
+- 关于 bathing water 中 residual chlorine 与 atopic skin 的 PubMed 文章：已提取长摘要
+- 关于 early life 中 domestic water hardness/chlorine 与 AD risk 的 PubMed 文章：已提取长摘要
+- National Eczema Society 页面：已提取较完整正文段落
+- EPA CCR consumer page：已提取有意义的正文文本
 
 ### Still constrained
-- PMC review article hit browser check / reCAPTCHA and could not be reliably pulled in this session
-- 12ft / Unpaywall / paywall-removal mirror routes did not produce dependable full-text retrieval in this environment
+- PMC review article 在该会话中触发了 browser check / reCAPTCHA，无法稳定抓取
+- 12ft / Unpaywall / 去付费墙镜像路径，在此环境中未能稳定取得可信全文
 
 ## Strategic implication
-Evidence entries should continue to distinguish between:
-- full text obtained
-- abstract-level access obtained
-- snippet/index only
+证据条目应继续明确区分：
+- 已获取全文
+- 已获取摘要级访问
+- 仅有 snippet / index
 
-That distinction is important for maintaining wiki trustworthiness.
+这种区分对维护 wiki 的可信度很重要。
 
-## Best use inside KES wiki
+## 在 KES wiki 内的最佳用途
 - evidence-quality labeling
-- transparency around what has actually been read vs inferred from metadata or snippets
+- 对“实际读到了什么”与“仅根据 metadata 或 snippets 推断了什么”保持透明
 
 ## Sources
 - `raw/products/bathtub-filter/2026-04-11-web-content-fetch-attempts-and-results.md`

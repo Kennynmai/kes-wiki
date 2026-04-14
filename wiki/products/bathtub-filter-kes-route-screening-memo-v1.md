@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -17,136 +17,135 @@ related:
   - ./bathtub-filter-brand-page-claim-compliance-audit.md
   - ./bathtub-filter-pricing-refill-flow-fit-table-v2.md
 ---
+# 浴缸过滤器（bathtub filter） KES 路线筛选备忘录 — V1
 
-# Bathtub Filter KES Route Screening Memo — V1
+## 版本链接
+- 较新的工作页面：[[bathtub-filter-kes-route-screening-memo-v2]]
 
-## Version links
-- Newer working page: [[bathtub-filter-kes-route-screening-memo-v2]]
+## 执行阅读
+这个类别看起来足够真实，值得认真研究，但可能的获胜途径是**不是**“说更多的事情”。
 
-## Executive read
-The category looks real enough to study seriously, but the likely winning route is **not** “say more things.”
+研究越来越多地指向一条更窄的路线：
+- 更好的实际流量（flow）氯性能
+- 更严格的安装/装配纪律
+- 较少医学化的语言
+- 比激进的 DTC 母品牌更强的证明姿态
+- 比商品浴球克隆产品更精致的设计
 
-The research increasingly points to a narrower route:
-- better real-flow chlorine performance
-- tighter install/fit discipline
-- less medicalized language
-- stronger proof posture than aggressive DTC parent brands
-- more design refinement than commodity bath-ball clones
+## 路由筛选
+### 路线 A — 商品广泛声称沐浴球
+市场例子：
+- 通用市场沐浴球
+- 广泛的污染物堆积
 
-## Route screening
-### Route A — Commodity broad-claim bath ball
-Examples in market:
-- generic marketplace bath balls
-- broad contaminant stacks
+优点：
+- 易于解释
+- 熟悉的产品形态
+- 适合市场的简单渠道
 
-Pros:
-- easy to explain
-- familiar product form
-- easy channel fit for marketplaces
+缺点：
+- 快速通用化
+- 广泛宣称风险高
+- 绩效怀疑有意义
 
-Cons:
-- genericized fast
-- broad-claim risk high
-- performance skepticism meaningful
+KES 屏幕：
+- **不首选**
 
-KES screen:
-- **not preferred**
+### 路线 B — 传统介质以氯为中心的浴槽延伸
+市场例子：
+- 精灵血统
 
-### Route B — Legacy-media chlorine-focused bath extension
-Examples in market:
-- Sprite lineage
+优点：
+- 承诺范围更窄
+- 更可信的技术故事
+- 更强的标准/认证邻接性
 
-Pros:
-- narrower promise
-- more believable technical story
-- stronger standard/certification adjacency
+缺点：
+- 可能感觉不太差异化或溢价
+- 浴缸滤芯（cartridge）的使用寿命可能会很短
 
-Cons:
-- may feel less differentiated or premium
-- bath cartridge life may feel short
+KES 屏幕：
+- **强参考路线**
+- 可用作证明/纪律模型，不一定作为最终的美学模型
 
-KES screen:
-- **strong reference route**
-- useful as proof/discipline model, not necessarily as final aesthetic model
+### 路线 C — 以优质设计为主导的婴儿/健康浴缸过滤器（bathtub filter）
+市场例子：
+- 天篷
 
-### Route C — Premium design-led baby/wellness bathtub filter
-Examples in market:
-- Canopy
+优点：
+- 最强的设计溢价和注册/礼品性逻辑
+- 高情绪转化率
 
-Pros:
-- strongest design premium and registry/giftability logic
-- high emotional conversion
+缺点：
+- 溢价引发严格审查
+- 浮出水面的审查证据显示正常流程下的性能挑战
+- 权威提示可以成为软防护剧场
 
-Cons:
-- premium price invites hard scrutiny
-- surfaced review evidence shows performance challenges at normal flow
-- authority cues can become soft-proof theater
+KES 屏幕：
+- **仅当性能证明明显优于 Canopy 公开的审阅者资料时才可行**
 
-KES screen:
-- **only viable if performance proof is materially better than Canopy’s surfaced reviewer profile**
+### 路线 D — 敏感皮肤/湿疹前向 DTC
+市场例子：
+- 金德
+- 吐蕃
 
-### Route D — Sensitive-skin / eczema-forward DTC
-Examples in market:
-- Kinder
-- Tubo
+优点：
+- 最强的紧迫性和转化潜力
+- 清晰的观众故事
 
-Pros:
-- strongest immediate urgency and conversion potential
-- clear audience story
+缺点：
+- 最高的措辞/合规风险
+- 超越证据的最强诱惑
+- 如果宣称受到质疑，强烈反对的可能性更大
 
-Cons:
-- highest wording/compliance risk
-- strongest temptation to outrun evidence
-- higher chance of backlash if claims are challenged
+KES 屏幕：
+- **不首选作为主要路线**
 
-KES screen:
-- **not preferred as primary route**
+### 路线 E — 软悬挂仪式路线
+市场例子：
+- 类似 Santevia 的逻辑
 
-### Route E — Soft-hanging ritual route
-Examples in market:
-- Santevia-like logic
+优点：
+- 与硬塑料球形式不同
+- 生活方式/健康契合
+- 浮出水面的独立审稿人信号看起来相对较强
 
-Pros:
-- differentiated from hard-plastic ball format
-- lifestyle/wellness fit
-- surfaced independent reviewer signal looked relatively strong
+缺点：
+- 更换节奏短
+- 干燥/储存摩擦
+- 可能感觉不像是永久的浴室硬件解决方案
 
-Cons:
-- short replacement cadence
-- drying/storage friction
-- may not feel like a permanent bathroom hardware solution
+KES 屏幕：
+- **有前途的参考路线** 如果 KES 想要更软的定位并且可以管理维护摩擦故事
 
-KES screen:
-- **promising reference route** if KES wants softer positioning and can manage maintenance friction story
+##当前KES最佳路线假设
+当前最强的假设是混合路线：
 
-## Best current KES route hypothesis
-The strongest current hypothesis is a hybrid route:
+> **优质但有纪律**
 
-> **premium but disciplined**
+含义：
+- 比商品沐浴球更美观
+- 技术上比宽泛的“删除一切”品牌更狭窄
+- 比湿疹结果 DTC 品牌更可信
+- 比纯粹以设计为先的优质品牌经过更多性能验证
 
-Meaning:
-- aesthetically better than commodity bath balls
-- technically narrower than broad “removes everything” brands
-- more believable than eczema-outcome DTC brands
-- more performance-proven than pure design-first premium brands
+### 为什么这个观点在这一关中得到加强
+最近的页面包审核增加了对此方向的信心：
+- Kinder 页面过于激进地结合了临床、湿疹倾向、婴儿安全和合身保证语言，看起来不像一个安全模板
+- Tubo 页面堆叠了临床语言、广泛的污染物声明、细菌/病毒语言以及家长情感挂钩，其方式看起来具有商业潜力，但在审查下却非常不稳定
+- Canopy 页面展示了优质婴儿/健康定位如何在商业上发挥作用，还展示了语言“测试”、有补偿的专家保证和绩效怀疑如何快速地造成信任紧张
+- Sprite 和 Santevia 作为较窄承诺规则的参考极仍然更有用，即使两者都不是 KES 的完美最终模型
 
-### Why this view strengthened in this pass
-Recent page-pack auditing increased confidence in this direction:
-- Kinder pages combine clinical, eczema-prone, baby-safe, and fit-guarantee language too aggressively to look like a safe template
-- Tubo pages stack clinical language, broad contaminant claims, bacteria/virus language, and parent-emotional hooks in a way that looks commercially potent but highly unstable under scrutiny
-- Canopy pages show how premium baby/wellness positioning can work commercially, but also how quickly “tested to” language, compensated-expert reassurance, and performance skepticism can create trust tension
-- Sprite and Santevia remain more useful as reference poles for narrower promise discipline, even if neither is a perfect final model for KES
+## KES 应该首先避免什么
+- 直接改善湿疹的承诺
+- 婴儿安全的暗示没有强有力的证据
+- 广泛的硬水软化故事
+- 过于自信的通用语言
+- 没有正常流量（flow）证明的溢价
 
-## What KES should probably avoid first
-- direct eczema-improvement promise
-- baby-safe implication without robust substantiation
-- broad hard-water-softening story
-- overconfident universal-fit language
-- premium pricing without normal-flow proof
-
-## What KES should probably test first
-- realistic bath-fill flow chlorine reduction
-- install/fit scope across actual tub-spout types
-- leak/stability under repeated use
-- replacement cadence users will tolerate
-- whether a narrower chlorine/comfort story converts well enough without medicalized claims
+## KES 应该首先测试什么
+- 真实的浴缸填充流量（flow）氯减少
+- 在实际的浴缸喷嘴类型中安装/安装范围
+- 重复使用下的泄漏/稳定性
+- 替换节奏用户可以容忍
+- 更窄的氯/舒适故事是否可以在没有医疗声明的情况下很好地转化

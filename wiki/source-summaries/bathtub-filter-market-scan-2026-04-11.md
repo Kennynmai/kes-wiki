@@ -3,7 +3,7 @@ type: source-summary
 status: draft
 owner: strategy
 created: 2026-04-11
-updated: 2026-04-11
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -19,7 +19,7 @@ related:
   - ../../raw/products/bathtub-filter/2026-04-11-market-scan.md
 ---
 
-# Source Summary — Bathtub Filter Market Scan (2026-04-11)
+# 来源摘要｜Bathtub Filter 市场扫描（2026-04-11）
 
 ## Obsidian links
 - [[bathtub-filter]]
@@ -29,32 +29,32 @@ related:
 - [[bathtub-filter-user-segments]]
 
 ## Source
-- Raw capture: `raw/products/bathtub-filter/2026-04-11-market-scan.md`
-- Public web search and visible search snippets from Amazon, DTC pages, and review-style editorial pages
+- 原始抓取：`raw/products/bathtub-filter/2026-04-11-market-scan.md`
+- 来自 Amazon、DTC 页面与 review-style editorial pages 的公开网页搜索与可见 snippets
 
-## What this source is
-A first-pass market scan used to establish category reality, recurring language patterns, visible competitor forms, and early claim/technology themes.
+## 这份来源是什么
+这是一次 first-pass market scan，用于确认品类是否真实存在、识别重复语言模式、可见竞品形态，以及早期 claim / technology 主题。
 
-## Key extracted facts
+## 提取出的关键信息
 ### Category signal
-- Bathtub filter appears to be a real but fragmented category.
-- There are multiple visible marketplace and DTC products using explicit bathtub-filter language.
+- Bathtub filter 看起来是一个真实存在、但较为分散的品类。
+- 市场上可见多个 marketplace 与 DTC 产品，明确使用 bathtub-filter 语言。
 
 ### User-demand language
-Repeated clusters observed:
+反复出现的需求簇包括：
 - baby / kids / delicate skin
 - sensitive skin / eczema / dry itchy skin
 - chlorine / irritants / odor
 - hard water / softer skin and hair
 
 ### Product-form signal
-Visible forms include:
+可见形态包括：
 - faucet-mounted / tub-spout attached filters
 - bath ball / universal hanging filters
-- baby-oriented premium systems
+- 面向 baby 的 premium systems
 
 ### Technical language
-Repeated signals include:
+反复出现的技术信号包括：
 - KDF 55
 - activated carbon
 - vitamin C
@@ -63,30 +63,30 @@ Repeated signals include:
 - multi-stage filtration counts
 
 ### Claim-risk signal
-Visible claims often include aggressive phrases around:
+可见 claims 常包含较激进的表述，围绕：
 - contaminant removal
 - fluoride / heavy metals
 - hard water softening
-- eczema or sensitive-skin outcomes
+- eczema 或 sensitive-skin outcomes
 - baby suitability
 
-## What this source is useful for
-- proving the topic is worth tracking
-- creating initial category structure
-- informing competitor-map and claim-audit work
-- separating visible market patterns from deeper verification work
+## 这份来源适合用来做什么
+- 证明这个主题值得持续追踪
+- 搭建初始 category structure
+- 支撑 competitor-map 与 claim-audit 工作
+- 将可见的市场模式与更深层验证工作区分开来
 
-## What this source cannot prove yet
-- actual sales concentration by product form
-- product-level efficacy
-- certification depth of leading products
-- true review-weighted winner features
-- accurate market size
+## 这份来源目前还不能证明什么
+- 各 product form 的真实销售集中度
+- 产品级 efficacy
+- 头部产品的 certification depth
+- 基于评论权重的真实 winner features
+- 准确市场规模
 
-## Recommended write-backs
-- canonical product page for bathtub filter
+## 建议回写
+- bathtub filter 的 canonical product page
 - research-map synthesis page
-- claims/certification page
+- claims / certification page
 - user-segments page
 - product-forms page
 - technology-notes page

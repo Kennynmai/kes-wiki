@@ -3,7 +3,7 @@ type: source-summary
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -20,7 +20,7 @@ related:
   - ../../raw/products/bathtub-filter/2026-04-13-market-review-pass.md
 ---
 
-# Source Summary — Bathtub Filter Marketplace Review and Editorial Review Pass (2026-04-13)
+# 来源摘要｜Bathtub Filter 市场评论与编辑评测复盘（2026-04-13）
 
 ## Obsidian links
 - [[bathtub-filter]]
@@ -30,71 +30,71 @@ related:
 - [[bathtub-filter-review-and-compliance-landscape]]
 
 ## Source
-- Raw capture: `raw/products/bathtub-filter/2026-04-13-market-review-pass.md`
-- Underlying HTML captures in: `raw/products/bathtub-filter/2026-04-13-market-review-pass/`
-- Public pages captured from Water Filter Guru, Interior Medicine, and Crystal Quest
+- 原始抓取：`raw/products/bathtub-filter/2026-04-13-market-review-pass.md`
+- 底层 HTML 抓取位于：`raw/products/bathtub-filter/2026-04-13-market-review-pass/`
+- 抓取公开页面来自 Water Filter Guru、Interior Medicine 与 Crystal Quest
 
-## What this source is
-A directional review-pattern pass focused on likely conversion drivers and likely return-risk drivers in bathtub-filter products, using accessible editorial testing pages plus an official brand page.
+## 这份来源是什么
+这是一次方向性 review-pattern pass，重点识别 bathtub-filter 产品的潜在 conversion drivers 与 return-risk drivers，依据是可访问的 editorial testing pages 加上一页官方品牌页。
 
-## Key extracted facts
-### Flow-rate dependence looks like the core product reality
-Across the captured material, the strongest repeated technical pattern is that bathtub-filter efficacy appears highly sensitive to tub-fill flow rate.
+## 提取出的关键信息
+### Flow-rate dependence 看起来是这个品类的核心现实
+在抓取材料中，最强、最重复的技术模式是：bathtub-filter 的 efficacy 似乎对 tub-fill flow rate 高度敏感。
 
-Signals observed:
-- faster tub-fill flow may materially reduce chlorine-removal performance
-- slower flow appears to improve results
-- some designs risk top-overflow / spill behavior when faucet flow is pushed too high
+观察到的信号：
+- 更快的 tub-fill flow 可能显著降低 chlorine-removal performance
+- 更慢的流速似乎会改善结果
+- 某些设计在 faucet flow 过高时，存在 top-overflow / spill 风险
 
-### The category likely sells on comfort language, not only technical language
-Repeated customer-facing conversion cues include:
+### 这个品类卖的可能不只是技术语言，更是 comfort language
+反复出现的面向客户的转化线索包括：
 - chlorine smell reduction
 - softer-feeling skin / hair
 - baby / family / sensitive-skin framing
 - easy install / low-friction setup
-- long cartridge life / convenient maintenance
+- 长 cartridge life / maintenance convenience
 
-### The category likely fails when expectation outruns physics
-Repeated disappointment-risk themes include:
-- premium price with unclear real-world efficacy
-- universal-fit or all-tubs language that may overpromise
-- broad contaminant-removal stacks without visible certification
-- realistic fast-fill performance that may not match marketing implications
+### 这个品类容易失败在“用户预期跑赢物理现实”
+反复出现的失望风险主题包括：
+- premium price，但真实使用中的 efficacy 不清晰
+- “universal-fit” 或 “all-tubs” 语言可能过度承诺
+- 缺少可见 certification 支撑时，却堆叠广泛 contaminant-removal 说法
+- 正常快速注水表现，可能达不到 marketing 暗示
 
-### Review-style editorial pages are materially useful here
-Even if they are not the same as marketplace-native review mining, accessible review/testing pages help expose:
-- practical setup constraints
-- flow / contact-time issues
-- whether the product forces water through media or lets it bypass
-- the difference between plausible media selection and actually convincing use-case performance
+### Review-style editorial pages 在这里很有价值
+虽然它们不同于 marketplace-native review mining，但这些可访问的 review/testing 页面有助于暴露：
+- 实际安装约束
+- flow / contact-time 问题
+- 产品是否强迫水流ผ่าน滤材，还是允许 bypass
+- “滤材选得合理” 与 “实际 use-case performance 真能服人” 之间的差别
 
 ## Working implications for KES
-### Most important product-learning so far
-The category’s biggest risk is not simply whether consumers care.
-It is whether a bathtub filter can perform credibly enough under normal tub-filling behavior to avoid disappointment, complaint, and return pressure.
+### 当前最重要的 product learning
+这个品类最大的风险，不只是消费者是否在意。
+而是 bathtub filter 在正常注浴行为下，是否能表现得足够可信，从而避免失望、投诉与退货压力。
 
-### Most important message-learning so far
-A narrower and more disciplined value story appears safer:
+### 当前最重要的 message learning
+更窄、更克制的价值叙事看起来更安全：
 - chlorine-conscious
 - comfort-oriented
-- realistic about limits
-- careful on fit scope
-- careful on baby / eczema adjacency
+- 对 limits 保持真实
+- 对 fit scope 保持谨慎
+- 对 baby / eczema adjacency 保持谨慎
 
-### Most important research-next-step implied by this pass
-A dedicated marketplace-native review extraction pass is still needed if accessible, because this source is strongest for pattern detection, not for complaint-frequency quantification.
+### 这轮复盘暗示的最重要下一步研究
+如果条件允许，仍需要做一次专门的 marketplace-native review extraction pass，因为这份来源最强的是 pattern detection，而不是 complaint-frequency quantification。
 
-## What this source cannot prove yet
-- exact complaint frequency by SKU
-- actual return rate by product form
-- sales-weighted winner features
-- product-level certification validity across all brands
-- whether editorial test setups perfectly reflect common consumer faucet conditions
+## 这份来源目前还不能证明什么
+- 各 SKU 的精确投诉频率
+- 各 product form 的真实退货率
+- 以销售权重计算的 winner features
+- 所有品牌的产品级 certification validity
+- editorial test setups 是否完美代表普通消费者 faucet 条件
 
-## Recommended write-backs
-- create a review-pattern / return-risk page
-- update canonical bathtub-filter page with stronger flow-risk language
-- connect findings to installation-risk and claim-risk pages
+## 建议回写
+- 创建 review-pattern / return-risk 页面
+- 在 canonical bathtub-filter 页面强化 flow-risk 语言
+- 将发现连接到 installation-risk 与 claim-risk 页面
 
 ## Related pages
 - [Bathtub Filter](../products/bathtub-filter.md)

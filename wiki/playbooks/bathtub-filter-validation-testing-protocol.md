@@ -3,7 +3,7 @@ type: playbook
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-14
 visibility: company
 confidence: medium
 officiality: draft
@@ -16,7 +16,7 @@ related:
   - ../products/bathtub-filter-kes-route-screening-memo-v2.md
 ---
 
-# Bathtub Filter Validation / Testing Protocol
+# Bathtub Filter 验证 / 测试协议
 
 ## Obsidian links
 - [[bathtub-filter]]
@@ -27,85 +27,85 @@ related:
 - [[bathtub-filter-test-gating-checklist-for-kes]]
 
 ## Goal
-Define what KES would need to test before taking bathtub filters seriously as a real product opportunity.
+定义：如果 KES 要把 bathtub filter 当作一个真实产品机会认真评估，至少需要做哪些测试。
 
 ## Core principle
-The category should be tested for **real bath use**, not idealized slow trickle scenarios.
+这个品类必须按 **真实 bath use** 来测试，而不是用理想化的 slow trickle 场景来测试。
 
 ## Required test modules
 ### 1. Normal-flow chlorine reduction
-Questions:
-- At realistic tub-fill flow, how much free chlorine reduction occurs?
-- Does performance collapse above certain flow thresholds?
+问题：
+- 在真实 tub-fill flow 下，自由氯能降低多少？
+- 当流量高于某些阈值时，性能是否会明显塌陷？
 
-Suggested setup:
-- at least two faucet-flow conditions: “normal/realistic” and “slow/max-contact-time”
-- repeated measurements across multiple runs
-- record starting chlorine ppm and ending chlorine ppm
-- explicitly record fill time impact
+建议 setup：
+- 至少两种 faucet-flow 条件：`normal / realistic` 与 `slow / max-contact-time`
+- 多轮重复测量
+- 记录起始 chlorine ppm 与结束 chlorine ppm
+- 明确记录 fill time 影响
 
-Minimum useful output:
-- % chlorine reduction at each flow
-- fill time for standard bathtub volume estimate
+最低有用输出：
+- 各流量下的 % chlorine reduction
+- 标准 bathtub 容积估算下的 fill time
 
 ### 2. Installation / compatibility test
-Questions:
-- Which tub-spout types can the product actually fit?
-- What fraction of real-world spouts would be out of scope?
+问题：
+- 产品实际能适配哪些 tub-spout 类型？
+- 现实世界中有多少比例的 spouts 属于 out-of-scope？
 
-Suggested setup:
-- test against a matrix of diverter vs non-diverter spouts
-- threaded vs slip-fit vs variant geometries where relevant
-- measure install time, stability, leak, and need for workaround
+建议 setup：
+- 对 diverter 与 non-diverter spouts 做矩阵测试
+- 在相关情况下覆盖 threaded、slip-fit 与变体几何
+- 测量安装时间、稳定性、漏水情况，以及是否需要 workaround
 
-Minimum useful output:
-- supported spout types
-- unsupported spout types
+最低有用输出：
+- 支持的 spout types
+- 不支持的 spout types
 - install failure modes
 
 ### 3. Leak / stability durability test
-Questions:
-- Does the device slip, wobble, or leak under repeated use?
-- Does performance degrade after multiple attachment cycles?
+问题：
+- 在重复使用下，设备是否会滑脱、晃动或漏水？
+- 多次装卸后，性能是否会退化？
 
-Suggested setup:
-- repeated mount / unmount cycles
-- repeated bath-fill runs
-- document seam, seal, and hang stability
+建议 setup：
+- 重复 mount / unmount cycles
+- 重复 bath-fill runs
+- 记录 seam、seal 与悬挂稳定性
 
 ### 4. Maintenance / refill economics
-Questions:
-- What is realistic replacement cadence under actual family bath usage?
-- Does maintenance burden feel acceptable?
+问题：
+- 按真实家庭 bath usage 来看，合理的 replacement cadence 是什么？
+- 用户是否会觉得维护负担可接受？
 
-Suggested setup:
-- convert gallons/baths claims into usage scenarios
-- compare 1-child, 2-child, and family mixed-use scenarios
-- estimate annual replacement cost
+建议 setup：
+- 把 gallons / baths claims 换算为具体 usage scenarios
+- 对比 1-child、2-child 与 family mixed-use 场景
+- 估算年度 replacement cost
 
 ### 5. Claims validation
-Questions:
-- Which claims can be supported directly by testing?
-- Which claims remain only educational/contextual?
+问题：
+- 哪些 claims 可以被测试直接支持？
+- 哪些 claims 仍只能停留在 educational / contextual 层面？
 
-Suggested rule:
-- product proof claims must come from product testing
-- category-explanation claims must not be converted into finished-product efficacy promises
+建议规则：
+- product proof claims 必须来自产品测试
+- category-explanation claims 不能被转换成 finished-product efficacy promises
 
-## Suggested pass/fail thresholds
-### Stronger pass indicators
-- meaningful chlorine reduction at realistic normal flow
-- no leak/stability issues in repeated use
-- clearly defined fit scope
-- annual refill cost remains commercially tolerable
+## Suggested pass / fail thresholds
+### 更强的 pass indicators
+- 在真实 normal flow 下仍有有意义的 chlorine reduction
+- 重复使用中没有 leak / stability 问题
+- fit scope 定义清晰
+- 年度 refill cost 在商业上仍可接受
 
 ### Fail indicators
-- only strong performance at impractically slow flow
-- repeated slip/leak/fit problems
-- no clear route to disciplined claims
-- refill economics too painful relative to user value
+- 只有在不现实的慢流速下才表现强
+- 反复出现 slip / leak / fit 问题
+- 没有清晰、合规的 claims 路径
+- refill economics 相对用户价值过于痛苦
 
 ## Why this matters
-This category is unusually sensitive to the gap between:
-- what sounds good in copy
-- what actually works in a bathroom
+这个品类对以下两者之间的落差异常敏感：
+- 文案听起来多好
+- 产品在真实浴室里到底能不能工作

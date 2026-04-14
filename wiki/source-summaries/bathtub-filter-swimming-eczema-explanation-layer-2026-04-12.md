@@ -3,7 +3,7 @@ type: source-summary
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -21,7 +21,7 @@ related:
   - ./bathtub-filter-evidence-access-audit-2026-04-11.md
 ---
 
-# Source Summary — Bathtub Filter Swimming + Eczema Explanation Layer (2026-04-12)
+# 来源摘要｜Bathtub Filter 游泳 + 湿疹解释层（2026-04-12）
 
 ## Obsidian links
 - [[bathtub-filter]]
@@ -31,53 +31,53 @@ related:
 - [[bathtub-filter-evidence-access-audit-2026-04-11]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
 
-## Why this note exists
-This note converts the current evidence base into a reusable explanation layer for internal product thinking.
+## 为什么有这份笔记
+这份笔记把当前证据底座转化成一层可复用的 explanation layer，供内部产品思考使用。
 
-The goal is not to prove bathtub-filter efficacy. The goal is to explain, carefully and defensibly, why some families may care about bath water in eczema / sensitive-skin contexts.
+目标不是证明 bathtub-filter efficacy，而是更谨慎、可辩护地解释：为什么在 eczema / sensitive-skin 场景里，一些家庭会在意 bath water。
 
-## Core interpretation
-The current evidence base supports a **nuanced irritation-burden story**, not a simple cure story.
+## 核心解释
+当前证据底座支持的是一个 **细腻的 irritation-burden story**，而不是一个简单的 cure story。
 
-A careful synthesis would be:
-- hard water appears to be a stronger and more repeatedly supported variable than simplistic chlorine-only narratives
-- chlorine / chloramine exposure can still matter as a dryness / irritation concern in some bathing or swimming contexts
-- infant swimming alone is not consistently supported as an independent driver of AD
-- however, the combination of hard water + infant swimming has been discussed as a potentially synergistic risk pattern in atopy-prone contexts
-- the best-supported practical framing is mitigation and barrier support, not blanket avoidance and not medicalized treatment claims
+更谨慎的综合表达可以是：
+- 相比简单的 chlorine-only narratives，hard water 看起来是更强、也更反复被支持的变量
+- chlorine / chloramine exposure 在某些 bathing 或 swimming 场景中，仍可能与 dryness / irritation 有关
+- 单独的 infant swimming 并未被稳定支持为 AD 的独立驱动因素
+- 但在 atopy-prone 场景里，hard water + infant swimming 的组合，被讨论为可能具有协同风险模式
+- 当前最有支撑的 practical framing 是 mitigation 与 barrier support，而不是 blanket avoidance，更不是 medicalized treatment claims
 
-## What the PMC review adds
-The review *Pooling the evidence: A review of swimming and atopic dermatitis* is now accessible at full-text level via Europe PMC fullTextXML.
+## PMC review 增加了什么
+综述 *Pooling the evidence: A review of swimming and atopic dermatitis* 现在已可通过 Europe PMC fullTextXML 访问全文。
 
-This matters because it strengthens the interpretive layer in several ways:
-- children with AD should not automatically be told to avoid swimming
-- swimming has physical, emotional, and quality-of-life benefits that matter
-- hard water is discussed as a barrier-relevant irritant variable
-- chlorine can irritate skin in some contexts, but the literature is mixed and not all exposure should be framed as uniformly harmful
-- post-exposure routines matter: rinsing, removing wet swimwear, and emollient support are more defensible than strong prohibition language
+这很重要，因为它在多个方面强化了解释层：
+- 不应自动建议有 AD 的儿童避免游泳
+- 游泳带来的身体、情绪与 quality-of-life benefits 具有现实意义
+- hard water 被讨论为与 barrier 相关的 irritant variable
+- chlorine 在某些场景中可能刺激皮肤，但文献并不一致，不能把所有 exposure 都描述成一致有害
+- 暴露后的 routines 很关键：冲洗、尽快脱下湿泳衣、配合 emollient，比强硬的禁止式语言更可辩护
 
-## Best internal-use wording direction
-If KES wants a disciplined explanation layer, the safest direction is something like:
+## 最适合内部使用的 wording 方向
+如果 KES 想建立一层克制的 explanation layer，较安全的方向可以是：
 
-> Some families worry about bath and pool water because the underlying issue is not imaginary: research has linked hard water and some chlorine-related exposure contexts with skin dryness, irritation, and eczema-relevant barrier stress in susceptible users. But the literature is nuanced. The better-supported approach is reducing irritation burden and supporting skin comfort, not making therapeutic claims.
+> 一些家庭会担心洗澡水或泳池水，这种担心并非凭空而来：研究确实把 hard water 以及某些与 chlorine 相关的暴露场景，与易感用户的皮肤干燥、刺激和 eczema 相关的屏障压力联系起来。但文献本身是细腻而有条件的。更有支撑的做法，是降低 irritation burden、支持 skin comfort，而不是做治疗性承诺。
 
-## What this note does NOT justify
+## 这份笔记不支持什么
 - “bathtub filters improve eczema”
 - “babies should avoid swimming unless water is filtered”
 - “chlorine is always harmful for eczema”
 - “hard water softening by bathtub filters is proven”
 
-## Strategic use inside KES wiki
-Use this note for:
-- internal product framing
+## 在 KES wiki 内的战略用途
+可用于：
+- 内部 product framing
 - content-strategy guardrails
 - premium trust-language development
 - baby / sensitive-skin segment interpretation
 
-Do not use it as standalone proof of:
+不要将其作为以下事项的独立证明：
 - finished-product efficacy
 - clinical outcomes
-- strong compliance-sensitive claims
+- 强 compliance-sensitive claims
 
 ## Source anchors
 - Europe PMC full-text access path for PMC10946598

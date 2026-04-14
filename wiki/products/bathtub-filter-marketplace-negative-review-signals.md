@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-04-14
 visibility: team
 confidence: low
 officiality: draft
@@ -18,53 +18,52 @@ related:
   - ./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
   - ./bathtub-filter-installation-risk-matrix-v2.md
 ---
+# 浴缸过滤器（bathtub filter）市场负面评论（review）信号
 
-# Bathtub Filter Marketplace Negative Review Signals
+## 为什么有这份页面
+此页面将早期投诉信号与市场本地表格面隔离，即使到目前为止仅在片段级别。
 
-## Why this page exists
-This page isolates early complaint signals from marketplace-native surfaces, even if only at snippet level so far.
+## 目前的证据状况
+这是一个弱到中等信心的侦察页面。
+它还不应该被视为全面审查挖掘。
 
-## Current evidence posture
-This is a weak-to-medium confidence scouting page.
-It should not yet be treated as full review mining.
+## 早期投诉群现已可见
+### 1.“不能去除氯”
+这是最重要的抱怨之一，因为它攻击了该类别最清晰的核心承诺。
 
-## Early complaint clusters now visible
-### 1. "Doesn’t remove chlorine"
-This is one of the most important surfaced complaints because it attacks the category’s most legible core promise.
+### 2.“从水龙头上滑下来”
+这是最重要的投诉之一，因为它结合了：
+- 配合失败
+- 附件不稳定
+- 立即让用户感到沮丧
+- 在判断疗效之前信任就受到侵蚀
 
-### 2. "Slips off the faucet"
-This is one of the most important surfaced complaints because it combines:
-- fit failure
-- attachment instability
-- immediate user frustration
-- trust erosion before efficacy is even judged
+### 3. 溢出/填充控制失败
+这很重要，因为它表格明某些产品可能需要笨拙的调整，或者在实际的浴缸填充行为下可能会失败。
+这甚至在用户评估功效之前就让产品感到烦人。
 
-### 3. Overflow / fill-control frustration
-This matters because it suggests that some products may require awkward tuning or may fail under real tub-filling behavior.
-That makes the product feel annoying even before the user evaluates efficacy.
+### 4. 太贵/不像宣传的那样
+这在商业上很重要，因为它表格明，当业绩不明确或不一致时，溢价会加剧失望。
 
-### 4. Too expensive / not as advertised
-This is commercially important because it shows that premium pricing multiplies disappointment when performance is unclear or inconsistent.
+### 5. 混合功能/价值感知
+即使在相同的可见 SKU 表格面内，一些用户报告明显的感官益处，而另一些用户则报告微弱或缺乏益处。
+这表格明了一种经典的高方差类别模式。
 
-### 5. Mixed functionality / value perception
-Even within the same visible SKU surface, some users report clear sensory benefit while others report weak or absent benefit.
-This suggests a classic high-variance category pattern.
+## 为什么这对 KES 很重要
+浴缸过滤器（bathtub filter）企业可能会同时在两个方向的审查中失败：
+- 过滤器可能感觉不够有效
+- 产品可能无法保持附着或表格现不够稳定
 
-## Why this matters for KES
-A bathtub-filter business can fail in reviews from two directions at once:
-- the filter may not feel effective enough
-- the product may not stay attached or behave stably enough
+这种组合比纯粹的功效问题要糟糕得多，因为它使该产品感觉既不方便又不值得信赖。
 
-That combination is much worse than a pure efficacy problem because it makes the item feel both inconvenient and untrustworthy.
+## 当前最佳含义
+负面评论（review）提取现在应该被视为最优先的尽职调查层，而不是一个可有可无的东西。
 
-## Best current implication
-Negative-review extraction should now be treated as a top-priority diligence layer, not a nice-to-have.
+投诉结构也越来越清晰：
+- **功效存疑** = 不能去除氯/不能像宣传的那样发挥作用
+- **安装失败** = 水龙头滑落/弯曲水龙头不匹配
+- **操作挫折** = 溢出/填充速度慢于预期
+- **价值失望** = 对于感觉结果来说太贵了
 
-The complaint structure is also getting clearer:
-- **efficacy doubt** = doesn’t remove chlorine / doesn’t work as advertised
-- **fit failure** = slips off faucet / curved-faucet mismatch
-- **operating frustration** = overflow / slower-than-expected fill
-- **value disappointment** = too expensive for the felt result
-
-## Sources
-- `../../raw/products/bathtub-filter/2026-04-13-marketplace-negative-review-signals.md`
+## 来源
+-`../../raw/products/bathtub-filter/2026-04-13-marketplace-negative-review-signals.md`

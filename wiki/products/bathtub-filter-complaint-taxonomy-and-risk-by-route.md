@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -19,100 +19,99 @@ related:
   - ./bathtub-filter-installation-risk-matrix-v2.md
   - ./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
 ---
+# 浴缸过滤器（bathtub filter）投诉分类和风险（按途径）
 
-# Bathtub Filter Complaint Taxonomy and Risk by Route
+## 为什么有这份页面
+该页面将分散的投诉信号转化为基于路线的决策工具。
+目标是回答：
+**哪条浴缸过滤器（bathtub filter）路线最有可能发生故障，以及它是如何发生故障的？**
 
-## Why this page exists
-This page translates scattered complaint signals into a route-based decision tool.
-The goal is to answer:
-**which bathtub-filter route is most likely to fail, and how does it fail?**
+## 目前的证据状况
+这是定向综合，不是定量回顾挖掘产出。
+但它已经很有用了，因为投诉模式在结构上变得清晰可见。
 
-## Current evidence posture
-This is a directional synthesis, not a quantitative review-mining output.
-But it is already useful because complaint patterns are becoming structurally legible.
+## 基于路线的投诉地图
+### 1.沐浴球/硬壳通用路线
+代表格逻辑：
+- 水晶探索沐浴球
+- 通用通用浴缸水龙头过滤器
 
-## Route-based complaint map
-### 1. Bath-ball / hard-shell universal route
-Representative logic:
-- Crystal Quest bath ball
-- generic universal tub-faucet filters
+可能最强烈的投诉类别：
+- 配合失败
+- 功效存疑
+- 价值失望
 
-Likely strongest complaint classes:
-- fit failure
-- efficacy doubt
-- value disappointment
+为什么：
+- “通用”带来兼容性（compatibility）风险
+- 水路可能看起来不那么强迫/不那么令人信服
+- 广泛的污染物声明增加了期望负担
 
-Why:
-- “universal” creates compatibility risk
-- water path may look less forced / less convincing
-- broad contaminant claims raise the expectation burden
+### 2.软挂/类织物路线
+代表格逻辑：
+- Santevia 浴缸过滤器（bathtub filter）
 
-### 2. Soft-hanging / fabric-like route
-Representative logic:
-- Santevia bath filter
+可能最强烈的投诉类别：
+- 经营挫折
+- 溢出/填充速度的误解
+- 维护负担
 
-Likely strongest complaint classes:
-- operating frustration
-- overflow / fill-speed misunderstanding
-- maintenance burden
+为什么：
+- 该路线要求用户容忍更明显的流程权衡
+- 如果填充速度或溢出变得明显，用户可能会认为该路线不切实际，即使性能在方向上更好
 
-Why:
-- the route asks users to tolerate a more visible process tradeoff
-- if fill speed or overflow becomes noticeable, users may see the route as impractical even if performance is directionally better
+### 3.水龙头连接/强制路径路由
+代表格逻辑：
+- 类似顶篷或通用浴缸喷嘴的连接路线
 
-### 3. Faucet-attach / forced-path route
-Representative logic:
-- Canopy-like or generic tub-spout attachment routes
+可能最强烈的投诉类别：
+- 配合失败
+- 经营挫折
+- 对正常流量（flow）功效的怀疑
 
-Likely strongest complaint classes:
-- fit failure
-- operating frustration
-- normal-flow efficacy skepticism
+为什么：
+- 该路线具有更强的工程可信度，但也有更严格的兼容性（compatibility）负担
+- 如果洗澡速度太慢或表格现得很尴尬，你会立即感到失望
 
-Why:
-- this route has stronger engineering credibility, but also stricter compatibility burden
-- if it slows the bath too much or behaves awkwardly, disappointment is immediate
+### 4.敏感肌/婴儿/湿疹前向路线
+代表格逻辑：
+- DTC 品牌的婴儿/湿疹重度定位
 
-### 4. Sensitive-skin / baby / eczema-forward route
-Representative logic:
-- baby / eczema-heavy positioning across DTC brands
+可能最强烈的投诉类别：
+- 功效存疑
+- 价值失望
+- 过度承诺后信任崩溃
 
-Likely strongest complaint classes:
-- efficacy doubt
-- value disappointment
-- trust collapse after overpromise
+为什么：
+- 情感承诺更加强烈
+- 任何表格现不佳或利益模糊的感觉都更像是背叛，而不仅仅是不便
 
-Why:
-- the emotional promise is stronger
-- any weak performance or ambiguous benefit feels more like betrayal than mere inconvenience
+## 整个类别中最重要的投诉类别
+###功效存疑
+最危险的是，它直接攻击了该类别的核心承诺。
 
-## Complaint classes that matter most across the category
-### Efficacy doubt
-Most dangerous because it attacks the category’s core promise directly.
+### 适配失败
+最危险的是，它会立即产生明显的挫败感，并使产品感觉廉价或不稳定。
 
-### Fit failure
-Most dangerous because it creates immediate visible frustration and makes the product feel cheap or unstable.
+### 运营挫折
+最危险的是，它把“健康”产品变成了一种烦人的仪式。
 
-### Operating frustration
-Most dangerous because it turns a “wellness” product into an annoying ritual.
+### 值失望
+当与高级定位或经常性的补充负担结合在一起时，这是最危险的。
 
-### Value disappointment
-Most dangerous when paired with premium positioning or recurring refill burden.
+## 对 KES 的当前最佳影响
+如果 KES 进一步探索这一类别，路线选择应包括一个明确的问题：
 
-## Best current implication for KES
-If KES explores this category further, route selection should include an explicit question:
+> 这条路线的自然投诉模式能否大规模生存？
 
-> Is this route’s natural complaint pattern survivable at scale?
+这可能比这条路线在广告中看起来是否有销路更重要。
 
-That may be more important than whether the route looks marketable in ads.
+## 黑曜石链接
+-[[bathtub-filter]]
+-[[bathtub-filter-marketplace-negative-review-signals]]
+-[[bathtub-filter-review-patterns-and-return-risk]]
+-[[bathtub-filter-installation-risk-matrix-v2]]
+-[[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
+-[[bathtub-filter-kes-route-screening-memo-v2]]
 
-## Obsidian links
-- [[bathtub-filter]]
-- [[bathtub-filter-marketplace-negative-review-signals]]
-- [[bathtub-filter-review-patterns-and-return-risk]]
-- [[bathtub-filter-installation-risk-matrix-v2]]
-- [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
-- [[bathtub-filter-kes-route-screening-memo-v2]]
-
-## Sources
-- `../../raw/products/bathtub-filter/2026-04-13-complaint-taxonomy-by-route-notes.md`
+## 来源
+-`../../raw/products/bathtub-filter/2026-04-13-complaint-taxonomy-by-route-notes.md`

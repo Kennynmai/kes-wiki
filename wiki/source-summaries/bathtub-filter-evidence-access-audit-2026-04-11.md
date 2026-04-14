@@ -3,7 +3,7 @@ type: source-summary
 status: draft
 owner: strategy
 created: 2026-04-11
-updated: 2026-04-12
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -19,35 +19,35 @@ related:
   - ../../raw/products/bathtub-filter/2026-04-11-evidence-access-audit.md
 ---
 
-# Source Summary — Bathtub Filter Evidence Access Audit (2026-04-11)
+# 来源摘要｜Bathtub Filter 证据可访问性审计（2026-04-11）
 
 ## Source
-- Raw capture: `raw/products/bathtub-filter/2026-04-11-evidence-access-audit.md`
+- 原始抓取：`raw/products/bathtub-filter/2026-04-11-evidence-access-audit.md`
 
-## Why this matters
-This source upgrades the evidence base from “what exists” to “what is actually accessible and how deeply it was accessed.”
+## 为什么这很重要
+这份来源把证据底座从“有哪些材料存在”升级到“哪些材料真正可访问，以及访问深度到了什么程度”。
 
-## Key findings
+## 关键发现
 ### Best-access items
-- Perkin et al. early-life water hardness/chlorine study: accepted-manuscript level access achieved via DocsLib; repository abstract also available via KCL Pure
-- PMC swimming/AD review: full text now obtained via Europe PMC fullTextXML, despite direct PMC browser access still triggering reCAPTCHA/browser check
-- Jabbar-Lopez et al. systematic review/meta-analysis: detailed repository abstract available via KCL Pure
-- PubMed chlorine-in-bathing-water paper: long abstract available
+- Perkin et al. 关于 early-life water hardness/chlorine 的研究：已通过 DocsLib 获取 accepted-manuscript 级访问；KCL Pure 也提供 repository abstract
+- PMC swimming/AD review：虽然直接 PMC 浏览器访问仍会触发 reCAPTCHA / browser check，但现已通过 Europe PMC fullTextXML 获取全文
+- Jabbar-Lopez et al. systematic review/meta-analysis：已通过 KCL Pure 获取较详细的 repository abstract
+- PubMed 关于 chlorine-in-bathing-water 的论文：已获取长摘要
 
 ### Medium-access items
-- National Eczema Society page: meaningful body paragraphs available
-- EPA CCR consumer page: practical body text available
-- CDC chloramine page: meaningful body text available
+- National Eczema Society 页面：已获取有意义的正文段落
+- EPA CCR consumer page：已获取具有实用性的正文文本
+- CDC chloramine 页面：已获取有意义的正文文本
 
 ### Weak-access items
-- 2012 infant swimming paper: long abstract available, but no dependable accepted manuscript / repository full text found in this pass
+- 2012 infant swimming 论文：本轮仅取得长摘要，尚未找到稳定的 accepted manuscript / repository full text
 
 ## Strategic implication
-The evidence base is now substantially stronger for a few central items than it was at pure snippet level. In particular:
-- hard-water / AD evidence has moved into a more trustworthy access state
-- early-life water-quality / eczema evidence has a stronger manuscript-level base
-- the swimming + eczema interpretive layer is stronger now that the PMC review body can be cited directly
-- transparency about evidence depth can now be carried into bibliography and matrix pages
+对于少数核心证据项，目前的证据底座已经比单纯 snippet 级别强很多。尤其是：
+- hard-water / AD 证据已进入更可信的 access 状态
+- early-life water-quality / eczema 证据已有更强的 manuscript-level 基础
+- 由于 PMC review 正文已可直接引用，swimming + eczema 的解释层更扎实
+- 关于证据深度的透明标注，现已可以同步写回 bibliography 与 matrix 页面
 
 ## Sources
 - `raw/products/bathtub-filter/2026-04-11-evidence-access-audit.md`

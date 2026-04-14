@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -17,124 +17,123 @@ related:
   - ../syntheses/bathtub-filter-research-map.md
   - ../syntheses/bathtub-filter-brand-and-content-landscape.md
 ---
+# 浴缸过滤器（bathtub filter）研究覆盖范围差距
 
-# Bathtub Filter Research Coverage Gaps
+## 为什么有这份页面
+本页回答了一个实际问题：**现在涵盖了哪些类别的研究，以及可能仍然缺少哪些？**
 
-## Why this page exists
-This page answers a practical question: **what categories of research are now covered, and what may still be missing?**
+## 到目前为止涵盖的研究层
+### 1.学术/机构证据
+覆盖足以支持：
+- 水/皮肤/湿疹问题框架
+- 硬水与氯的细微差别
+- 游泳+湿疹解释层
+- 证据访问审核
 
-## Covered research layers so far
-### 1. Academic / institutional evidence
-Covered enough to support:
-- water / skin / eczema concern framing
-- hard-water vs chlorine nuance
-- swimming + eczema explanation layer
-- evidence access auditing
+### 2. 专利/技术路线图
+覆盖足以支持：
+- 路线分类
+- 种子专利表格
+- 早期的架构思考
+- 初始可溶性介质/浴球/浴缸喷嘴路线区分
 
-### 2. Patent / technical-route mapping
-Covered enough to support:
-- route taxonomy
-- seed patent table
-- early architecture thinking
-- initial soluble-media / bath-ball / bathtub-spout route differentiation
+### 3.品牌/产品线勘察
+现在部分涵盖：
+- 精灵/淋浴过滤器原点扩展逻辑
+- 水晶探索/沐浴球逻辑
+- Santevia / 优质生活方式逻辑
+- 婴儿/湿疹前向品牌姿势线索
 
-### 3. Brand / product-line reconnaissance
-Now partially covered:
-- Sprite / shower-filter-origin extension logic
-- Crystal Quest / bath-ball logic
-- Santevia / premium-lifestyle logic
-- baby / eczema-forward brand posture clues
+### 4.内容生态系统
+现在部分涵盖：
+- 评论（review）发布者层
+- 养育/生活方式层
+- 经销商/博客层
+- Reddit/社区信号层
 
-### 4. Content ecosystem
-Now partially covered:
-- review-publisher layer
-- parenting/lifestyle layer
-- reseller/blog layer
-- Reddit/community signal layer
+## 可能缺失或仍然薄弱的层
+### A. 市场评论（review）挖掘
+还是很弱。
 
-## Likely missing or still weak layers
-### A. Marketplace review mining
-Still weak.
+问题：
+- 什么是重复的一星级和三星级投诉？
+- 流量（flow）、配合、泄漏、滤芯（cartridge）寿命和过度宣称挫败感在哪里表格现得最多？
+- 哪种细分语言与正面评价与退货（return）风险相关？
 
-Questions:
-- what are repeated 1-star and 3-star complaints?
-- where do flow, fit, leakage, cartridge life, and overclaim frustration show up most?
-- which segment language correlates with positive reviews vs return risk?
+### B. 渠道/零售商格局
+还是很弱。
 
-### B. Channel / retailer landscape
-Still weak.
+问题：
+- 这个类别真正存在于哪里：亚马逊、DTC、家得宝式公用事业零售、健康零售、婴儿零售？
+- 哪些渠道支持优质定位与商品定位？
 
-Questions:
-- where does this category really live: Amazon, DTC, Home Depot-style utility retail, wellness retail, baby retail?
-- which channels support premium positioning vs commodity positioning?
+### C. 标准/认证/合规层
+仍然薄弱且具有战略重要性。
 
-### C. Standards / certification / compliance layer
-Still weak and strategically important.
+问题：
+- 合法引用了哪些标准？
+- 品牌在哪些方面倾向于“经过测试”和“经过认证”的语言？
+- 哪些宣称在美国/欧盟/日本表格面上存在风险？
 
-Questions:
-- what standards are cited legitimately?
-- where are brands leaning on “tested to” vs “certified to” language?
-- what claims become risky across US/EU/JP surfaces?
+### D. 定价/单位经济/更换逻辑
+还是很弱。
 
-### D. Pricing / unit economics / replacement logic
-Still weak.
+问题：
+- 滤芯（cartridge）节奏和经济性
+- 利润结构与投诉风险
+- 补充/消耗品逻辑对于品类吸引力是否是必要的
 
-Questions:
-- cartridge cadence and economics
-- margin structure vs complaint risk
-- whether refill / consumable logic is necessary for category attractiveness
+### E.安装/兼容性（compatibility）工程
+还是很弱。
 
-### E. Installation / compatibility engineering
-Still weak.
+问题：
+- 浴缸喷嘴安装类型
+- 租户友好性与泄漏风险
+- 架构填充速度权衡
+- “适用于大多数浴缸”不再可信的断点
 
-Questions:
-- tub-spout fit types
-- renter-friendliness vs leak risk
-- fill speed tradeoff by architecture
-- breakpoints where “works on most tubs” stops being credible
+### F. 监管/水质管辖权的细微差别
+还是很弱。
 
-### F. Regulatory / water-quality jurisdiction nuance
-Still weak.
+问题：
+- 哪些当地水务实际情况真正改变了用户需求？
+- 类别强度是否取决于氯/氯胺重市场、硬水市场或两者？
 
-Questions:
-- which local water realities actually change user need?
-- does category strength depend on chlorine/chloramine-heavy markets, hard-water markets, or both?
+### G.竞争IP/品牌标记深度
+还是很弱。
 
-### G. Competitive IP / brand marking depth
-Still weak.
+问题：
+- 哪些领先品牌公开标记专利？
+- 当前产品是否有实用专利、设计专利或主要是营销语言的支持？
+- 是否有明显的受让人集群或许可线索？
 
-Questions:
-- which leading brands mark patents publicly?
-- are current products backed by utility patents, design patents, or mostly marketing language?
-- are there visible assignee clusters or licensing clues?
+### H.视觉营销/创意策略
+大多失踪了。
 
-### H. Visual merchandising / creative strategy
-Mostly missing.
+问题：
+- 哪些图像、故事前后或“婴儿沐浴仪式”视觉效果可以推动转化？
+- 品牌如何在视觉上传达信任和柔和的信号？
 
-Questions:
-- what imagery, before/after stories, or “baby bath ritual” visuals drive conversion?
-- how do brands visually signal trust and softness?
+## 当前推荐
+所有三个层现在都在本主题的范围内。
 
-## Current recommendation
-All three tiers are now in scope for this topic.
+### 第 1 层 — 最高优先级/已在进行中
+1. 市场评论（review）
+2. 标准/认证/合规性
+3.品牌专利标记/IP深度
 
-### Tier 1 — highest priority / already underway
-1. marketplace reviews
-2. standards / certification / compliance
-3. brand patent-marking / IP depth
+### 第 2 层 — 现已正式纳入
+4.安装/兼容性（compatibility）工程
+5. 定价/单位经济性/替换逻辑
+6. 渠道/零售商格局
 
-### Tier 2 — now formally included
-4. installation / compatibility engineering
-5. pricing / unit economics / replacement logic
-6. channel / retailer landscape
+### 第 3 级 — 现已正式纳入
+7. SNS/创作者/短篇话语
+8.视觉营销/创意策略
+9. 社区语言压缩和情感转换模式
 
-### Tier 3 — now formally included
-7. SNS / creator / short-form discourse
-8. visual merchandising / creative strategy
-9. community-language compression and emotional conversion patterns
+## 战略意义
+话题不再缺少“是否有足够的研究”。
 
-## Strategic implication
-The topic is no longer missing “whether there is enough to research.”
-
-It has now expanded into a **full-stack product-research topic**.
-The bigger risk is no longer lack of material, but losing structure across too many evidence and market layers at once.
+它现在已扩展为**全栈产品研究主题**。
+更大的风险不再是缺乏材料，而是同时失去太多证据和市场层面的结构。

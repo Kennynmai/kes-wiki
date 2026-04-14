@@ -3,7 +3,7 @@ type: synthesis
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -17,7 +17,7 @@ related:
   - ../products/bathtub-filter-channel-positioning-table-v2.md
 ---
 
-# Bathtub Filter SNS, Creator, and Visual Taxonomy
+# 浴缸过滤器（Bathtub Filter）SNS、创作者与视觉分类法
 
 ## Obsidian links
 - [[bathtub-filter]]
@@ -25,125 +25,125 @@ related:
 - [[bathtub-filter-operations-channel-and-visual-landscape]]
 - [[bathtub-filter-obsidian-map]]
 
-## Why this page exists
-This page is the deeper F-layer: not just that social/creator content exists, but **how it compresses the category into repeatable narratives and visual codes**.
+## 为什么会有这页
+这页更深入处理所谓的 F-layer：不仅是 social / creator content 的存在本身，而是它**如何把这个品类压缩成可重复的 narratives 与 visual codes（视觉代码）**。
 
 ## Creator / short-video narrative taxonomy
 ### 1. Worth-it / review challenge
-Representative surfaced phrasing:
+代表性表述：
 - “Is It Really Worth $89?”
 - “Premium Look, But Does It Really Work?”
 - “Why Santevia Performed Better”
 
-What it does:
-- frames bathtub filters as a trendy but questionable purchase
-- emphasizes price, performance, and chlorine reduction at flow
+它在做什么：
+- 把 bathtub filters 框定成一个时髦但可疑的购买项
+- 强调价格、性能，以及在 flow 条件下的 chlorine reduction
 
 ### 2. Parent rescue / baby-bath protection
-Representative surfaced phrasing:
+代表性表述：
 - “the bath filter every parent needs”
 - “Looking to filter bath water for your baby?”
-- Motherly framing: “baby bath gear that’s worth the $89 price tag”
+- Motherly 风格表达：“baby bath gear that’s worth the $89 price tag”
 
-What it does:
-- converts water quality into parental care / protection behavior
-- shifts purchase logic from utility to caregiving
+它在做什么：
+- 把 water quality 转译成 parental care / protection behavior
+- 让购买逻辑从 utility 转向 caregiving
 
 ### 3. Sensitive-skin / eczema relief shortcut
-Representative surfaced phrasing:
+代表性表述：
 - “eczema-friendly bath filter”
 - “clinically tested to improve skin hydration”
-- social/problem-solution hooks around kids’ eczema
+- 围绕 kids’ eczema 的 social / problem-solution hooks
 
-What it does:
-- creates the strongest urgency
-- also creates the highest risk of flattening nuance into outcome promises
+它在做什么：
+- 制造最强 urgency（紧迫感）
+- 也最容易把复杂性压扁成 outcome promises（结果承诺）
 
 ### 4. Premium ritual / spa upgrade
-Representative surfaced phrasing:
+代表性表述：
 - “spa-like and relaxing”
-- soft, elevated, premium look-and-feel emphasis
-- mindbodygreen wellness framing around skin barrier comfort
+- 强调 soft、elevated、premium 的 look-and-feel
+- mindbodygreen 式 wellness framing，围绕 skin barrier comfort
 
-What it does:
-- sells experience and identity, not just contaminant reduction
-- lets a product justify premium price without purely technical proof
+它在做什么：
+- 卖的是 experience 与 identity，而不只是 contaminant reduction
+- 让产品即便缺少纯技术证明，也能合理化 premium price
 
 ### 5. Technical-trust / data-driven proof
-Representative surfaced phrasing:
+代表性表述：
 - “unbiased lab test”
 - “data-driven analysis”
 - “full score breakdown”
 
-What it does:
-- gives buyers permission to believe or reject the category rationally
-- often becomes the counterweight to influencer softness
+它在做什么：
+- 让买家有理由用“理性”方式去相信或拒绝这个品类
+- 往往成为 influencer softness（软性种草）的对冲力量
 
 ## Visual language taxonomy
 ### A. Baby-safe visual code
-Common cues:
-- soft pastels / oat / white / muted nursery-adjacent colors
+常见线索：
+- 软 pastel / oat / white / muted nursery-adjacent colors
 - rounded forms
 - baby bath context
-- parent reassurance language and clean-gentle iconography
+- parent reassurance language 与 clean-gentle iconography
 
-Strategic effect:
-- frames the product as care infrastructure for a vulnerable user
+战略效果：
+- 把产品框成 vulnerable user（脆弱用户）的 care infrastructure
 
 ### B. Premium ritual visual code
-Common cues:
-- calm bathroom styling
-- minimalist design object presentation
-- spa / relaxation / wellness ambiance
+常见线索：
+- 平静的 bathroom styling
+- 极简设计物件式呈现
+- spa / relaxation / wellness 氛围
 - “elevated bath time” framing
 
-Strategic effect:
-- shifts the category out of hardware and into beauty/wellness
+战略效果：
+- 把这个品类从 hardware 拉向 beauty / wellness
 
 ### C. Technical-trust visual code
-Common cues:
+常见线索：
 - filtration-stage diagrams
 - contaminant lists
 - media closeups
-- scorecards, test panels, and performance charts
+- scorecards、test panels 与 performance charts
 
-Strategic effect:
-- gives authority, especially when price is challenged or social hype is high
+战略效果：
+- 赋予 authority，尤其当 price 被质疑或 social hype 较高时
 
-## Three major visual-selling strategies
+## 三种主要的 visual-selling strategies
 ### 1. Baby-safe
-Best for:
+适合：
 - baby registry
 - parent anxiety / care conversion
 - skin-sensitivity framing
 
-Main risk:
-- easily drifts into high-risk safety/health implication language
+主要风险：
+- 很容易滑向高风险的 safety / health implication language
 
 ### 2. Premium ritual
-Best for:
+适合：
 - DTC wellness brands
 - premium pricing
 - self-care / gifting / bathroom-aesthetic positioning
 
-Main risk:
-- can mask weak performance with strong design storytelling
+主要风险：
+- 可能用很强的设计叙事掩盖较弱的实际性能
 
 ### 3. Technical-trust
-Best for:
+适合：
 - review content
 - performance-led challenger positioning
-- chlorine-focused, narrower claims
+- 以 chlorine 为核心、范围更窄的 claims
 
-Main risk:
-- if the testing context is weak or cherry-picked, trust can reverse fast
+主要风险：
+- 如果 testing context 薄弱或 cherry-picked，信任会很快反噬
 
 ## Working conclusion
-The category is not merely sold through social media; it is **simplified** there.
+这个品类不只是通过 social media 被销售；它更是在那里被**简化**了。
 
-And the simplification tends to collapse into three emotionally legible stories:
+而这种简化，往往收敛成三种情绪上容易理解的故事：
 - protect the baby
 - upgrade the ritual
 - trust the test
 
-Those three stories appear to be the dominant symbolic frames of the market.
+这三种故事看起来就是当前市场最主要的 symbolic frames（符号框架）。

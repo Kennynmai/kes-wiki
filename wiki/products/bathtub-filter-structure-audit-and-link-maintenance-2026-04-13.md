@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -18,40 +18,39 @@ related:
   - ./bathtub-filter-review-patterns-and-return-risk.md
   - ./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
 ---
+# 浴缸过滤器（bathtub filter）结构审核及链路维护 (2026-04-13)
 
-# Bathtub Filter Structure Audit and Link Maintenance (2026-04-13)
+## 黑曜石链接
+-[[bathtub-filter]]
+-[[bathtub-filter-obsidian-map]]
+-[[bathtub-filter-kes-route-elimination-memo-v1]]
+-[[bathtub-filter-marketplace-negative-review-signals]]
+-[[bathtub-filter-swimming-eczema-explanation-layer-2026-04-12]]
+-[[bathtub-filter-web-content-fetch-attempts-2026-04-11]]
 
-## Obsidian links
-- [[bathtub-filter]]
-- [[bathtub-filter-obsidian-map]]
-- [[bathtub-filter-kes-route-elimination-memo-v1]]
-- [[bathtub-filter-marketplace-negative-review-signals]]
-- [[bathtub-filter-swimming-eczema-explanation-layer-2026-04-12]]
-- [[bathtub-filter-web-content-fetch-attempts-2026-04-11]]
+## 为什么有这份页面
+此页面跟踪浴缸过滤器（bathtub filter）集群的结构维护需求，因此该主题在 Obsidian 中仍然易于浏览，并且随着时间的推移也易于维护。
 
-## Why this page exists
-This page tracks structural maintenance needs for the bathtub-filter cluster so the topic remains easy to browse in Obsidian and easy to maintain over time.
+## 目前的结构发现
+### 1. 核心页面现在的链接明显更好
+规范页面加上最新的决策支持页面现在包含`[[wikilinks]]`，并且[[bathtub-filter-obsidian-map]] 上存在专用导航中心。
 
-## Current structural findings
-### 1. Core pages are now noticeably better linked
-The canonical page plus the newest decision-support pages now contain `[[wikilinks]]` and a dedicated navigation hub exists at [[bathtub-filter-obsidian-map]].
+### 2. 许多旧页面的黑曜石连接仍然较弱
+大量的浴缸过滤器（bathtub filter）页面仍然有：
+- 零`[[wikilinks]]`
+- 只有稀疏的降价链接
+- 反向链接数量少
 
-### 2. Many older pages still have weak Obsidian connectivity
-A large number of bathtub-filter pages still have:
-- zero `[[wikilinks]]`
-- only sparse markdown links
-- low backlink counts
+这意味着集群仍然可以导航，但还不是图形友好的。
 
-This means the cluster is still navigable, but not yet graph-friendly.
+### 3. 有些页面尽管可能很重要，但结构薄弱
+审计中出现的例子：
+- [[bathtub-filter-validation-testing-protocol]] 的反向链接深度非常低
+- [[bathtub-filter-swimming-eczema-explanation-layer-2026-04-12]] 目前似乎有零反向链接
+- 几个 v1 页面仍然存在，但在图形层中没有明确标记为已取代
 
-### 3. Some pages are structurally weak despite likely importance
-Examples surfaced in audit:
-- [[bathtub-filter-validation-testing-protocol]] has very low backlink depth
-- [[bathtub-filter-swimming-eczema-explanation-layer-2026-04-12]] currently appears to have zero backlinks
-- several v1 pages still exist but are not clearly marked as superseded in the graph layer
-
-### 4. v1 / v2 relationships need explicit handling
-Observed pairs that should be made clearer:
+### 4. v1 / v2 关系需要显式处理
+应该更清楚地观察到的对：
 - [[bathtub-filter-brand-operating-matrix]] ↔ [[bathtub-filter-brand-operating-matrix-v2]]
 - [[bathtub-filter-channel-positioning-table]] ↔ [[bathtub-filter-channel-positioning-table-v2]]
 - [[bathtub-filter-claim-risk-audit]] ↔ [[bathtub-filter-claim-risk-audit-v2]]
@@ -59,26 +58,26 @@ Observed pairs that should be made clearer:
 - [[bathtub-filter-pricing-refill-flow-fit-table]] ↔ [[bathtub-filter-pricing-refill-flow-fit-table-v2]]
 - [[bathtub-filter-kes-route-screening-memo-v1]] ↔ [[bathtub-filter-kes-route-screening-memo-v2]]
 
-## Maintenance recommendations
-### Priority 1 — graph usability
-- add `[[wikilinks]]` to all high-value product, synthesis, and source-summary pages
-- add one short “Obsidian links” section near the bottom of each important page
+## 维护建议
+### 优先级 1 — 图形可用性
+- 将`[[wikilinks]]`添加到所有高价值产品、合成和源摘要页面
+- 在每个重要页面底部附近添加一个简短的“黑曜石链接”部分
 
-### Priority 2 — version hygiene
-- add explicit `Supersedes` / `Superseded by` sections for v1/v2 pairs
-- reduce ambiguity about which page should be read first
+### 优先级 2 — 版本卫生
+- 为 v1/v2 对添加显式 `Supersedes` / `Superseded by` 部分
+- 减少应首先阅读哪一页的歧义
 
-### Priority 3 — orphan reduction
-- add backlinks to low-linked but strategically useful pages
-- especially testing, evidence-access, and explanation-layer pages
+### 优先级 3 — 减少孤儿
+- 添加反向链接到低链接但具有战略意义的有用页面
+- 特别是测试、证据访问和解释层页面
 
-### Priority 4 — cluster hubs
-- keep [[bathtub-filter]] as the canonical page
-- keep [[bathtub-filter-obsidian-map]] as the click-through hub
-- optionally add sub-hubs later for claims/compliance and technical/testing
+### 优先级 4 — 集群中心
+- 保留[[bathtub-filter]]作为规范页面
+- 保持[[bathtub-filter-obsidian-map]]作为点击中心
+- 稍后可选择添加子中心以进行声明/合规性和技术/测试
 
-## Suggested next structure pass
-1. add version-crosslinks to all v1/v2 pairs
-2. add `[[wikilinks]]` to source-summary pages
-3. add backlinks to weak pages from [[bathtub-filter-obsidian-map]] and [[bathtub-filter]]
-4. later consider archiving or visually de-emphasizing outdated v1 surfaces
+## 建议的下一个结构传递
+1. 为所有 v1/v2 对添加版本交叉链接
+2.将`[[wikilinks]]`添加到源摘要页面
+3.添加来自[[bathtub-filter-obsidian-map]]和[[bathtub-filter]]的弱页面的反向链接
+4. 稍后考虑存档或在视觉上淡化过时的 v1 表格面

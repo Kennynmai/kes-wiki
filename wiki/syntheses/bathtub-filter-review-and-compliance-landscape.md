@@ -3,7 +3,7 @@ type: synthesis
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-13
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -20,42 +20,42 @@ related:
   - ./bathtub-filter-brand-and-content-landscape.md
 ---
 
-# Bathtub Filter Review and Compliance Landscape
+# 浴缸过滤器（Bathtub Filter）评论与合规版图
 
 ## Why this page exists
-This page combines two high-priority missing layers:
-1. what review and marketplace signals say about real-world product acceptance
-2. what public standards/compliance signals suggest about claim boundaries
+这页把两个高优先级缺口合并到一起：
+1. review 与 marketplace signals 对真实世界产品接受度（real-world product acceptance）说了什么
+2. 公开 standards / compliance signals 对 claim boundaries（宣称边界）意味着什么
 
-## Main review themes surfacing so far
+## 目前浮现出的主要 review themes
 ### Positive themes
-- chlorine smell reduction is one of the most believable and repeated positive signals
-- softer-feeling water / gentler bath experience appears often in user and reseller language
-- baby / child / sensitive-skin use is one of the strongest conversion contexts
+- chlorine smell reduction（氯味减少）是最可信、也最反复出现的正向信号之一
+- softer-feeling water / gentler bath experience（更柔和的水感 / 更温和的泡澡体验）在 user 与 reseller 语言中经常出现
+- baby / child / sensitive-skin use 是最强的转化场景之一
 
 ### Negative or risky themes
-- leak risk and housing/seam reliability matter a lot in adjacent shower-filter review snippets
-- fit / attachment stability is a recurring practical concern for bath-ball / faucet-hung products
-- performance may depend heavily on faucet flow rate
-- aggressive eczema-improvement testimonials create expectation risk
+- 在相邻 shower-filter reviews 片段里，leak risk 与 housing / seam reliability 非常重要
+- 对 bath-ball / faucet-hung products 而言，fit / attachment stability 是反复出现的实际问题
+- performance 可能高度依赖 faucet flow rate
+- 激进的 eczema-improvement testimonials 会制造 expectation risk（预期风险）
 
-## Strongest practical insight from review mining so far
-A bathtub filter that only works at unrealistically slow faucet flow may still look good in selective testing, but that is unlikely to hold up well in real user experience.
+## 目前 review mining 给出的最强实践洞察
+如果一个 bathtub filter 只有在不现实的低速出水条件下才表现良好，那么即便在选择性测试中看起来不错，也很难在真实用户体验中站得住。
 
-This may become one of the most important category truths:
+这可能会成为该品类最重要的 truths 之一：
 
-> Real bath-fill flow performance may matter more than broad contaminant lists in determining whether users feel the product actually works.
+> 真实 bath-fill flow 下的性能，可能比宽泛的 contaminant list 更能决定用户是否真的觉得产品有效。
 
-## Compliance / standards reality check
+## 合规 / 标准现实校验（Compliance / standards reality check）
 ### NSF/ANSI 177
-Current public signals indicate:
-- NSF/ANSI 177 is the most visible shower-filtration standard in this space
-- public NSF guidance says products certified to this standard are certified to reduce only **free available chlorine**
+当前公开信号表明：
+- NSF/ANSI 177 是这个空间里最显眼的 shower-filtration standard
+- NSF 的公开指引说明，按该标准认证的产品，认证范围仅指向 **free available chlorine** 的减少
 
-### What this means for bathtub filters
-This standard can support a narrow chlorine-reduction trust signal when legitimately applicable.
+### 这对 bathtub filters 意味着什么
+当确实适用时，这个标准可以支撑一种更窄、更可信的 chlorine-reduction trust signal。
 
-It does **not** automatically support:
+但它**并不能**自动支撑：
 - broad contaminant-removal storytelling
 - hard-water-softening claims
 - baby-safety claims
@@ -63,7 +63,7 @@ It does **not** automatically support:
 - clinically meaningful skin-outcome promises
 
 ## Claim-language ladder
-The category needs a stronger internal ladder for interpreting public wording:
+这个品类需要一套更强的内部语言梯度，来理解公开措辞：
 
 ### Stronger / narrower
 - certified to reduce free available chlorine
@@ -80,35 +80,35 @@ The category needs a stronger internal ladder for interpreting public wording:
 - pediatrician recommended
 - helps soothe eczema flare-ups
 
-## Brand posture comparison (early)
+## 品牌姿态对比（early）
 ### Sprite
-- stronger public tie to patented-media and shower-standard credibility
-- likely more grounded in chlorine-reduction trust language
+- 对 patented-media 与 shower-standard credibility 的公开绑定更强
+- 在 chlorine-reduction trust language 上可能更扎实
 
 ### Crystal Quest
-- stronger broad-claim commercial storytelling and bath-ball product-form visibility
-- likely needs careful separation between core believable benefit and broad promise stack
+- 更偏 broad-claim commercial storytelling，且 bath-ball product form 更显眼
+- 需要谨慎区分 core believable benefit（核心可信利益点）与 broad promise stack（宽泛承诺堆栈）
 
 ### Santevia
-- strongest visible differentiation may be practical performance at faster flow plus lifestyle framing
+- 最明显的可见差异化，可能在于更快 flow 下的 practical performance，以及 lifestyle framing
 
-### Kinder / Tubo style DTC brands
-- strongest visible use of testimonial and skin-outcome persuasion
-- likely highest claim-discipline risk among surfaced brands so far
+### Kinder / Tubo 风格 DTC 品牌
+- 对 testimonial 与 skin-outcome persuasion 的使用最强
+- 在目前浮现品牌中，claim-discipline risk 很可能最高
 
-## Strategic implication
-The category cannot be judged well from academic evidence alone.
+## 战略含义
+这个品类不能只靠 academic evidence 来判断。
 
-It must also be judged through three commercial realities:
-1. does it perform at realistic bath-fill flow?
-2. does the product form avoid leak/fit frustration?
-3. are the highest-conversion claims actually the least defensible ones?
+还必须放到三种商业现实中一起看：
+1. 它在真实 bath-fill flow 下是否表现成立？
+2. 产品形态是否能避免 leak / fit frustration？
+3. 转化最强的 claims，是否恰恰是最难 defend 的 claims？
 
-## Suggested next steps
-- build a review-theme matrix by brand
-- normalize normal-flow versus reduced-flow evidence into a stricter gating table
-- build a claim-evidence ladder page with example wording
-- later run page-level audits on the most aggressive DTC brands
+## 建议下一步
+- 建立按品牌拆分的 review-theme matrix
+- 把 normal-flow versus reduced-flow evidence 整理成更严格的 gating table
+- 建一页 claim-evidence ladder，附 example wording
+- 后续对最激进的 DTC 品牌做 page-level audits
 
 ## Obsidian links
 - [[bathtub-filter]]

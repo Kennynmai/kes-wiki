@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: product
 created: 2026-04-11
-updated: 2026-04-11
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -17,93 +17,92 @@ related:
   - ./bathtub-filter-product-forms.md
   - ./bathtub-filter-claims-and-certifications.md
 ---
+# 浴缸过滤器（bathtub filter）（浴缸过滤器（bathtub filter））购买标准
 
-# Bathtub Filter Buying Criteria
+## 黑曜石链接
+-[[bathtub-filter]]
+-[[bathtub-filter-product-forms]]
+-[[bathtub-filter-claims-and-certifications]]
+-[[bathtub-filter-kes-concept-brief-v1]]
+-[[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
+-[[bathtub-filter-kes-route-elimination-memo-v1]]
 
-## Obsidian links
-- [[bathtub-filter]]
-- [[bathtub-filter-product-forms]]
-- [[bathtub-filter-claims-and-certifications]]
-- [[bathtub-filter-kes-concept-brief-v1]]
-- [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
-- [[bathtub-filter-kes-route-elimination-memo-v1]]
+##为什么有这份页面
+在更深入地确定市场规模之前，KES 应该定义浴缸过滤器（bathtub filter）（bathtub filter）作为产品概念在商业上的入侵或没有吸引力的因素。
 
-## Why this page exists
-Before deeper market sizing, KES should define what makes a bathtub filter commercially attractive or unattractive as a product concept.
+## KES 的核心购买标准
+### 1.明确需求
+问题：
+- 搜索意图是否足够强且足够具体？
+- 客户购买产品的关键是否有一个？
+- 示例的可重复性是否足以支持类别深度？
 
-## Core buying criteria for KES
-### 1. Demand clarity
-Questions:
-- Is search intent strong enough and specific enough?
-- Are customers clearly buying for one leading reason?
-- Is the use case repeatable enough to support category depth?
+### 2.声称可信度
+问题：
+- 如果没有危险的医疗方式承诺，产品故事能否令人信服？
+- 核心持续能否受住审查？
+- 能否诚实地用“减少”而不是夸大的“全部去除”语言来销售产品？
 
-### 2. Claim credibility
-Questions:
-- Can the product story be convincing without risky medical-style promises?
-- Can the core claim survive review scrutiny?
-- Can the product be sold honestly with “reduce” rather than inflated “remove everything” language?
+### 3.兼容性（compatibility）（compatibility）简单
+问题：
+- 该产品是否适合足够的浴缸配置支撑喧闹？
+- 兼容性（compatibility）（compatibility）可以理解、简单地解释吗？
+- 安装（installation）对消费者来说风险低吗？
 
-### 3. Compatibility simplicity
-Questions:
-- Does the product fit enough tub configurations to avoid support chaos?
-- Can compatibility be explained visually and simply?
-- Is installation low-risk for consumers?
+### 4.消费者的显著利益
+问题：
+- 是否有足够多的用户注意到气味减少、感觉改变或舒适度提高？
+- 带来的好处是否得到充分支持和良好的评论积累速度？
+- 用户感觉“没有改变”的风险是否存在？
 
-### 4. Noticeable consumer benefit
-Questions:
-- Will enough users notice odor reduction, feel change, or comfort improvement?
-- Is the benefit immediate enough to support good review velocity?
-- Is there a high risk that users feel “nothing changed”?
+### 5.替换经济性
+问题：
+- 有滤芯（cartridge）/补充装（refill）（笔芯）的故事吗？
+- 换班是否可信且容易理解？
+- 重复购买会提高利润质量吗？
 
-### 5. Replacement economics
-Questions:
-- Is there a cartridge / refill story?
-- Are replacement intervals believable and easy to understand?
-- Does repeat purchase improve margin quality?
+### 6.使用脆弱性
+问题：
+- 处罚评价是否可能集中在适配性、漏税、不良或因夸大宣称而失望等方面？
+- 在这个类别中，少量的信任失败会严重损害转化吗？
 
-### 6. Review fragility
-Questions:
-- Are negative reviews likely to cluster around fit, leakage, weak performance, or overclaim disappointment?
-- Is this a category where a small number of trust failures can damage conversion badly?
+### 7. 与 KES 的操作配合
+问题：
+- 该类别是否足够接近KES产品DNA？
+- 是否需要超出当前能力强度的化学/合规？
+- 与当前的硬件产品线相比，支持负担是否会大幅增加？
 
-### 7. Operational fit with KES
-Questions:
-- Is the category close enough to KES product DNA?
-- Does it require chemistry/compliance capabilities beyond current strengths?
-- Would support burden rise materially versus current hardware lines?
+## 危险信号
+- 没有明确证实广泛的以太网声明
+- “适合所有浴缸”真正类型的语言，但可能存在例外情况
+- 小型亮点设备承诺的结果太多
+- 对水的实际过滤方式的视觉解释很弱
+- 缺乏技术发展的硬水软化语言
+- 没有充分证据表明医疗或婴儿安全影响
 
-## Red flags
-- broad contaminant claims with no clear substantiation path
-- “fits all tubs” type language with likely real exceptions
-- too many promised outcomes from a small low-cost device
-- weak visual explanation of how water is actually filtered
-- hard-water-softening language without technical clarity
-- medical or baby-safety implications without strong proof
+## 积极信号
+- 一个精准的、可信的用户问题
+- 一个简单可信的安装（安装）故事
+- 一个温和但有意义的方案
+- 感觉自然的重复滤芯（cartridge）逻辑
+- 产品设计使观赏可信
 
-## Green flags
-- a narrow, believable user problem
-- a simple and credible install story
-- a claim set that is modest but meaningful
-- repeat cartridge logic that feels natural
-- product design that makes efficacy intuitively believable
+## 当前当前判断
+一个可安装的KES切入方案可能需要通过以下方式破解：
+- 更可信
+- 更仔细地理解
+- 兼容性（compatibility）（compatibility）更透明
+- 说法不那么夸张
+比当前平台在售 listing的很大一部分。
 
-## Current working view
-A viable KES entry would likely need to win by being:
-- more believable
-- more visually understandable
-- more compatibility-transparent
-- less exaggerated in claims
-than a large share of current marketplace listings.
+## 开放式问题
+- 在转化率最高的列表中，哪种购买标准最重要？
+- 哪些制裁评论（review）（评论（review））最常抑制杀动力的原因？
+- 在这个利基市场中，替换经济性是真实存在的还是主要是理论的？
+- KES能否创建一个比当前竞争对手更可信的产品页面？
 
-## Open questions
-- Which buying criteria matter most in top-converting listings?
-- Which negative review reasons most often kill momentum?
-- Is replacement economics real or mostly theoretical in this niche?
-- Can KES create a noticeably more credible product page than current competitors?
-
-## Sources
-- [Source Summary — Bathtub Filter Market Research Signals (2026-04-11)](../source-summaries/bathtub-filter-market-research-signals-2026-04-11.md)
-- [Source Summary — Bathtub Filter Market Research and Industry Explanation Deepening (2026-04-11)](../source-summaries/bathtub-filter-market-research-and-industry-explanation-deepening-2026-04-11.md)
-- [Source Summary — Bathtub Filter Category and Consumer Cognition (2026-04-11)](../source-summaries/bathtub-filter-category-and-consumer-cognition-2026-04-11.md)
-- first-pass competitor snippets and visible public product messaging
+## 来源
+-[Source Summary — 浴缸过滤器（bathtub filter）（bathtub filter）市场研究信号 (2026-04-11)](../source-summaries/bathtub-filter-market-research-signals-2026-04-11.md)
+-[来源汇总——浴缸过滤器（bathtub filter）（bathtub filter）市场研究与行业解读深化 (2026-04-11)](../source-summaries/bathtub-filter-market-research-and-industry-explanation-deepening-2026-04-11.md)
+-[Source Summary — 浴缸过滤器（bathtub filter）（bathtub filter）类别与消费者认知 (2026-04-11)](../source-summaries/bathtub-filter-category-and-consumer-cognition-2026-04-11.md)
+- 首次通过竞争对手碎片和可见的公共产品消息

@@ -3,7 +3,7 @@ type: source-summary
 status: draft
 owner: strategy
 created: 2026-04-11
-updated: 2026-04-11
+updated: 2026-04-14
 visibility: team
 confidence: low
 officiality: draft
@@ -19,33 +19,33 @@ related:
   - ../../raw/products/bathtub-filter/2026-04-11-market-research-signals.md
 ---
 
-# Source Summary — Bathtub Filter Market Research Signals (2026-04-11)
+# 来源摘要｜Bathtub Filter 市场研究信号（2026-04-11）
 
 ## Source
-- Raw capture: `raw/products/bathtub-filter/2026-04-11-market-research-signals.md`
-- Publicly visible adjacent market-report snippets for shower filters and home water filtration
+- 原始抓取：`raw/products/bathtub-filter/2026-04-11-market-research-signals.md`
+- 来自 shower filters 与 home water filtration 的公开相邻市场报告 snippets
 
-## What this source is for
-This source helps contextualize bathtub filter from a market-structure perspective when direct bathtub-filter market reporting is sparse.
+## 这份来源的用途
+当 direct bathtub-filter market reporting 很稀缺时，这份来源帮助从 market-structure 视角为 bathtub filter 提供背景。
 
-## Key extracted facts
-- Shower filter appears to be a reportable adjacent market with repeated market-report coverage.
-- Home water filtration is broadly reportable, but bathtub filter is not clearly visible as a major standalone segmentation bucket in public snippets observed.
-- This suggests bathtub filter may not yet be institutionally recognized as a large standalone market category.
+## 提取出的关键信息
+- Shower filter 看起来是一个可被市场报告反复覆盖的相邻市场。
+- Home water filtration 是广泛可报告的，但 bathtub filter 在当前观察到的公开 snippets 中，并未清晰出现为主要 standalone segmentation bucket。
+- 这意味着 bathtub filter 可能尚未被机构性地认定为一个大型独立市场品类。
 
-## What this source supports
-- treating bathtub filter as a niche adjacent category
-- using shower-filter market logic as a partial proxy
-- being cautious about overstating category scale before stronger demand triangulation
+## 这份来源支持什么
+- 将 bathtub filter 视为 niche adjacent category
+- 以 shower-filter 的市场逻辑作为部分 proxy
+- 在获得更强 demand triangulation 之前，对 category scale 保持克制
 
-## What this source does not support
-- exact bathtub-filter market size
-- exact bathtub-filter growth rate
-- direct TAM conclusions for KES
+## 这份来源不支持什么
+- 精确的 bathtub-filter 市场规模
+- 精确的 bathtub-filter 增长率
+- 直接的 KES TAM 结论
 
-## Recommended write-backs
-- use as context in category-boundary and commercialization pages
-- maintain caution around market-size claims
+## 建议回写
+- 用于 category-boundary 与 commercialization 页面提供背景
+- 持续对 market-size claims 保持谨慎
 
 ## Related pages
 - [Bathtub Filter](../products/bathtub-filter.md)

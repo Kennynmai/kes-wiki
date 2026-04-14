@@ -3,7 +3,7 @@ type: source-summary
 status: draft
 owner: strategy
 created: 2026-04-11
-updated: 2026-04-11
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -19,43 +19,43 @@ related:
   - ../../raw/products/bathtub-filter/2026-04-11-academic-and-institutional-evidence-deepening.md
 ---
 
-# Source Summary — Bathtub Filter Academic and Institutional Evidence Deepening (2026-04-11)
+# 来源摘要｜Bathtub Filter 学术与机构证据深化（2026-04-11）
 
 ## Source
-- Raw capture: `raw/products/bathtub-filter/2026-04-11-academic-and-institutional-evidence-deepening.md`
-- Publicly visible summaries from PubMed, EPA, CDC, and National Eczema Society
+- 原始抓取：`raw/products/bathtub-filter/2026-04-11-academic-and-institutional-evidence-deepening.md`
+- 来自 PubMed、EPA、CDC 与 National Eczema Society 的公开可见摘要材料
 
-## Key extracted facts
+## 提取出的关键信息
 ### Academic layer
-- Residual chlorine in bathing water has publicly visible literature support as a skin-barrier-relevant issue in atopic skin.
-- Domestic water hardness has repeatedly appeared in published eczema-risk research, especially in infant/child contexts.
-- Systematic-review-level material suggests water hardness may matter in disease initiation, but there is no evidence in the cited summary that domestic water softeners improve objective severity in established atopic eczema.
-- The PMC review body is now directly accessible via Europe PMC fullTextXML and adds a stronger interpretive layer: hard water may damage the skin barrier, increase dryness/irritation, and interact synergistically with infant swimming in raising AD prevalence, while infant swimming alone does not show a consistent independent relationship with AD across the reviewed literature.
-- The same review also supports a practical mitigation frame rather than a blanket avoidance frame: rinse promptly after swimming, remove wet swimwear quickly, and consider emollient application before and/or after swimming.
+- 洗澡水中的 residual chlorine，作为 atopic skin 屏障相关问题，在公开文献中有一定支持。
+- 家庭 hard water 在已发表的 eczema-risk 研究中反复出现，尤其集中在 infant/child 场景。
+- systematic-review 级别材料提示，water hardness 可能与疾病起始相关；但在此处引用的总结中，没有证据表明家用 water softeners 能改善已形成 atopic eczema 的客观严重程度。
+- 现已可直接通过 Europe PMC fullTextXML 访问的 PMC review，进一步加强了解释层：hard water 可能损伤 skin barrier、增加 dryness/irritation，并且在提高 AD prevalence 方面可能与 infant swimming 产生协同作用；但单独的 infant swimming 并未在综述文献中稳定显示与 AD 存在独立一致关系。
+- 同一篇 review 也支持“practical mitigation”而不是“一刀切回避”的框架：如游泳后尽快冲洗、及时更换湿泳衣，并考虑在游泳前后使用 emollient。
 
 ### Institutional layer
-- EPA CCR materials are useful official references for local water-quality awareness and consumer education.
-- CDC chloramine guidance supports irritation language in chlorinated-water contexts, though pool context should not be overgeneralized to household bathing.
-- National Eczema Society provides a nuanced authority-style reference showing chlorine can contribute to dryness while not being uniformly harmful in every eczema context.
+- EPA CCR 材料适合作为本地 water-quality awareness 与 consumer education 的官方参考。
+- CDC 关于 chloramine 的指导支持在 chlorinated-water 场景中使用 irritation 相关表述，但不能把 pool context 直接泛化到 household bathing。
+- National Eczema Society 提供了更细腻的权威型参考：chlorine 可能导致 dryness，但在所有 eczema 场景中并非一致有害。
 
 ## Strategic interpretation
-This deepened evidence layer supports category relevance, not product efficacy.
+这层深化后的证据支持的是 **category relevance**，而不是 **product efficacy**。
 
-It strengthens the case that:
-- the consumer concern is real enough to investigate
-- baby / sensitive-skin / hard-water narratives have real background logic
-- claim discipline is essential because the evidence is more nuanced than marketplace copy often suggests
+它强化了以下判断：
+- 消费者担忧真实到值得继续研究
+- baby / sensitive-skin / hard-water 叙事有真实背景逻辑
+- claim discipline 很关键，因为证据比市场文案常呈现的更复杂、更有条件
 
 ## High-value cautions
-- hard water may be a stronger evidence-backed category problem than chlorine-alone narratives in some contexts
-- finished-product bathtub filter claims still require product-level proof
-- “eczema improvement” remains a high-risk claim area
+- 在一些语境下，hard water 可能比单纯的 chlorine narrative 更有证据支撑
+- bathtub filter 成品 claims 仍然需要产品级 proof
+- “eczema improvement” 依旧是高风险 claim 区域
 
 ## Best use inside KES wiki
-- category framing
-- segment logic
-- claim-discipline and regulatory caution
-- educational content strategy grounded in nuance
+- 品类 framing
+- 用户分层逻辑
+- claim-discipline 与 regulatory caution
+- 建立在细腻证据之上的 educational content strategy
 
 ## Sources
 - `raw/products/bathtub-filter/2026-04-11-academic-and-institutional-evidence-deepening.md`

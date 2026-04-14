@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -16,52 +16,51 @@ related:
   - ./bathtub-filter-brand-page-claim-compliance-audit.md
   - ./bathtub-filter-brand-operating-matrix-v2.md
 ---
+# 浴缸过滤器（bathtub filter）（浴缸过滤器（bathtub filter））品牌页面包审核 — V2
 
-# Bathtub Filter Brand Page-Pack Audit — V2
+## 黑曜石链接
+-[[bathtub-filter]]
+-[[bathtub-filter-brand-page-claim-compliance-audit]]
+-[[bathtub-filter-brand-operating-matrix-v2]]
+-[[bathtub-filter-kes-route-elimination-memo-v1]]
 
-## Obsidian links
-- [[bathtub-filter]]
-- [[bathtub-filter-brand-page-claim-compliance-audit]]
-- [[bathtub-filter-brand-operating-matrix-v2]]
-- [[bathtub-filter-kes-route-elimination-memo-v1]]
+## 本次通行证范围
+此遍加深了页面包审核：
+- 水晶探索
+- 雪碧
+——桑特维亚
 
-## Scope in this pass
-This pass deepens the page-pack audit for:
-- Crystal Quest
-- Sprite
-- Santevia
+Kinder / Tubo / Canopy 在这个过程中已经取得了之前的进展，并且仍然是风险最高的措辞案例。
 
-Kinder / Tubo / Canopy were already advanced in the prior pass and remain the highest-risk wording cases.
-
-## Audit table
-| Brand | Page-pack signal | Quote anchor | Reading | Risk |
+## 审核表
+|品牌|页包信号|引用点|阅读|风险|
 |---|---|---|---|---|
-| Crystal Quest | flagship product page | “Removes chlorine, chloramines, VOC's, THM's, pesticides… heavy metals… while balancing pH & de-chlorinating” | very broad removal and enhancement stack on core product page | high |
-| Crystal Quest | lifespan/economics signal | “12 to 18 months” / “2,000 to 2,500 gallons” | attractive lifespan framing | medium |
-| Crystal Quest | reviewer counterpoint | “couldn’t even remove 100% chlorine at an impractically slow faucet flow rate” | strongest contradiction between breadth and practical plausibility | high |
-| Crystal Quest | reviewer value judgment | “we don’t think the Crystal Quest Bath Filter is worth it for most folks” | value/performance skepticism is unusually explicit | high |
-| Sprite | bath cartridge page | “Chlorgon filtration media helps to remove free chlorine, dirt, and odors” | narrower and more believable core promise | medium-low |
-| Sprite | bath product page | “Uses Replaceable Filter Cartridge model BBC for approximately 30 baths” | clear usage-count framing for bath route | medium |
-| Sprite | corporate/certification context | “Most Sprite products are certified to NSF standard #177 for shower filtration” | strongest surfaced standards-adjacent legacy trust posture | low-medium |
-| Sprite | reviewer context | “Sprite Bath Pure filter matched Canopy… score of 7.54” | bath performance not category-leading, but not weak either | medium |
-| Santevia | product page | “The housing is 100% cotton…” / “It removes 99% of chlorine” | softer product form with narrower claim set | medium |
-| Santevia | support page | “The Bath Filter lasts 2 months or 18,120 L / 4,755 gal (100 baths)” | unusually clear maintenance/use math | low-medium |
-| Santevia | reviewer counterbalance | “isn’t certified” / “the only product to reduce 100% chlorine at the faster flow” | lacks certification, but has strongest surfaced performance signal | medium |
-| Santevia | reviewer comparison | “If you just want a reliable bath filter that removes chlorine, we recommend the Santevia Bath Filter instead” | strongest current reference point for chlorine-only performance | low-medium |
+|水晶探索|旗舰产品页面|“去除氯、氯胺、VOC、THM、农药……重金属……同时平衡pH值和脱氯”|核心产品页面上非常广泛的删除和增强堆栈|高的|
+|水晶探索|消耗/经济信号|“12 至 18 个月”/“2,000 至 2,500 加仑”|消耗的消耗框架|中等的|
+|水晶探索|审稿人对位|“在不切实际的缓慢的流速（flow rate）（流量（flow））下甚至无法达到 100% 的氯”|广度与实际合理性之间最强烈的矛盾|高的|
+|水晶探索|审稿人价值判断|“我们认为 Crystal Quest 沐浴过滤器对大多数人来说不值得”|价值/绩效感知异常明显|高的|
+|雪碧|浴盒页面|“Chlorgon过滤介质有助于解除分离、重组和异味”|更狭窄、更可信的核心承诺|中低|
+|雪碧|沐浴产品页面|“使用 BBC 型可更换滤芯（cartridge）（cartridge）进行大约 30 次清洗”|沐浴路线的语音使用统计框架|中等的|
+|雪碧|公司/认证背景|“大多数雪碧产品都经过NSF标准#177淋浴过滤认证”|最强的浮现标准 - 邻近的传承信任|低中|
+|雪碧|审稿人背景|“Sprite Bath Pure过滤器与Canopy相匹配……得分7.54”|沐浴性能虽然不是同类产品中的同类产品，但也不弱|中等的|
+|桑特维亚|产品页面|“外壳是 100% 棉……”/“它可以消除 99% 的氯”|更软的产品形态和更狭窄的权利要求|中等的|
+|桑特维亚|支持页面|“浴槽过滤器可持续使用2个月或18,120升/4,755加仑（100次浴）”|异常明显的维护/使用数学|低中|
+|桑特维亚|审稿人平衡|“未经认证”/“唯一能够以更快的流量（flow）（flow）减少100%大众化的产品”|缺乏认证，但具有最强的表面性能信号|中等的|
+|桑特维亚|审稿人比较|“如果您只是想要一个可靠的高效氯的浴缸过滤器（bathtub filter）（浴缸过滤器（bathtub filter）），我们推荐使用 Santevia 浴缸过滤器（bathtub filter）（浴缸过滤器（bathtub filter））”|当前最大股市表现最强参考点|低中|
 
-## Comparative read
-### Crystal Quest
-Commercially vivid, technically broad, but with the biggest gap between claim breadth and surfaced reviewer confidence among the three brands in this pass.
+## 比较读
+### 水晶探索
+商业上牲畜，技术上广泛，但在这三个品牌中，声明广度和评论（review）（评论（review））者信心之间的差距最大。
 
-### Sprite
-Not the flashiest route, but the most disciplined and standards-adjacent. Good reference point for what a narrower promise architecture looks like.
+### 雪碧
+这不是最华丽的路线，而是最有纪律、最符合标准的路线。对于更紧凑的注意力架构而言，这是一个很好的参考。
 
-### Santevia
-Most interesting “credible outsider” route so far: not certification-led, but with the strongest surfaced normal/faster-flow chlorine signal and a softer, more differentiated product form.
+### 桑特维亚
+迄今为止最有趣的“可信局外人”路线：不是以认证为主导，而是拥有最强的表面正常/更快的流量（flow）（流）和更温和、更具差异化的产品形态。
 
-## Working implication for KES
-If KES wants reference brands for **what to emulate**, the strongest current references are:
-- Sprite for promise discipline
-- Santevia for differentiated form + relatively favorable performance signal
+## KES的工作意义
+如果KES想要**修改什么**的参考品牌，当前最强的参考是：
+- 承诺纪律的精灵
+- Santevia差异化形态+相对有利的业绩信号
 
-If KES wants reference brands for **what to avoid overstating**, Crystal Quest remains one of the clearest warning cases.
+如果 KES 想要参考品牌**什么应该避免夸大**，Crystal Quest 仍然是最明确的警告案例之一。

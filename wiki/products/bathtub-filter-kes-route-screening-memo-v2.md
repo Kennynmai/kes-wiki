@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -17,124 +17,123 @@ related:
   - ./bathtub-filter-brand-page-claim-compliance-audit.md
   - ./bathtub-filter-brand-operating-matrix-v2.md
 ---
+# 浴缸过滤器（bathtub filter） KES 路线筛选备忘录 — V2
 
-# Bathtub Filter KES Route Screening Memo — V2
+## 版本链接
+- 早期页面：[[bathtub-filter-kes-route-screening-memo-v1]]
+- 后续淘汰备忘录：[[bathtub-filter-kes-route-elimination-memo-v1]]
 
-## Version links
-- Earlier page: [[bathtub-filter-kes-route-screening-memo-v1]]
-- Follow-on elimination memo: [[bathtub-filter-kes-route-elimination-memo-v1]]
+## 决策框架
+问题不再是“是否有足够的信号来关心？”有。
 
-## Decision frame
-The question is no longer “is there enough signal to care?” There is.
+真正的问题是：
 
-The real question is:
+> **哪条路线最有可能让 KES 变得可信、具有商业吸引力并且不会被危险地过度宣称（claim）？**
 
-> **Which route gives KES the best chance of being credible, commercially attractive, and not dangerously overclaimed?**
-
-## Route scorecard
-| Route | Market upside | Compliance risk | Technical/operational risk | Reference brands | Current KES read |
+## 路线记分卡
+|路线 |市场上行 |合规风险|技术/操作风险 |参考品牌|当前 KES 读取 |
 |---|---|---|---|---|---|
-| Commodity broad-claim bath ball | medium | high | medium-high | generic marketplace, broad-copy Crystal Quest style | weak |
-| Legacy-media chlorine-focused extension | medium | low-medium | medium | Sprite lineage | strong reference |
-| Premium design-led baby/wellness | high | medium-high | medium-high | Canopy | conditional |
-| Sensitive-skin / eczema-forward DTC | high | very high | medium | Kinder, Tubo | avoid as primary route |
-| Soft-hanging ritual route | medium-high | medium | medium | Santevia | promising reference |
-| Hybrid premium-but-disciplined | high | medium | medium | no exact market perfect match yet | most promising |
+|商品广称沐浴球|中等|高|中高 |通用市场，广泛复制 Crystal Quest 风格 |弱|
+|传统介质以氯为中心的扩展 |中等|低-中 |中等|精灵血统 |强参考|
+|以优质设计为主导的婴儿/健康|高|中高 |中高 |天篷|有条件|
+|敏感皮肤/湿疹前向 DTC |高|非常高|中等|吐蕃金德|避免作为主要路线 |
+|软挂仪式路线|中高 |中等|中等|桑特维亚 |有希望的参考|
+|混合优质但纪律严明|高|中等|中等|尚无完全匹配的市场|最有前途|
 
-## Route-by-route detail
-### 1. Commodity broad-claim bath ball
-Support:
-- easy form factor to understand
-- strong marketplace fit
+## 逐条路线详细信息
+### 1.商品广义沐浴球
+支持：
+- 易于理解的外形尺寸
+- 强大的市场契合度
 
-Problems:
-- genericized quickly
-- broad contaminant claim stack is hard to defend
-- performance skepticism already visible in reviewer content
+问题：
+- 快速通用化
+- 广泛的污染物宣称很难辩护
+- 审稿人内容中已经出现了对性能的怀疑
 
-KES recommendation:
-- not a good lead route unless paired with unusually strong proof and design differentiation
+KES推荐：
+- 除非与异常强大的证据和设计差异化相结合，否则不是一个好的引导路线
 
-### 2. Legacy-media chlorine-focused extension
-Support:
-- more believable promise architecture
-- certification/technical lineage easier to narrate
-- narrower claim surface
+### 2. 传统介质以氯为中心的扩展
+支持：
+- 更可信的承诺架构
+- 认证/技术血统更容易叙述
+- 更窄的宣称面
 
-Problems:
-- may feel less emotionally differentiated
-- bath cartridge life may feel unimpressive
+问题：
+- 可能感觉情感差异较小
+- 浴筒寿命可能会让人感觉平平无奇
 
-KES recommendation:
-- use this as a **discipline template** even if not copied literally
+KES推荐：
+- 即使没有逐字复制，也可以将其用作**纪律模板**
 
-### 3. Premium design-led baby/wellness
-Support:
-- high giftability / registry / social friendliness
-- strongest visual merchandising upside
+### 3. 以优质设计为主导的婴儿/健康
+支持：
+- 高赠品能力/登记/社交友好度
+- 最强的视觉营销优势
 
-Problems:
-- premium pricing invites objective review scrutiny
-- “tested to” / compensated expert / testimonial mix can weaken trust if proof is not strong
-- easy to drift into soft medical implication
+问题：
+- 溢价需要客观审查
+- 如果证据不充分，“经过测试”/有偿专家/推荐组合可能会削弱信任
+- 容易陷入软医学含义
 
-KES recommendation:
-- viable only if KES can support better real-flow proof and tighter language than surfaced Canopy tensions
+KES推荐：
+- 仅当 KES 能够支持比表格面上的 Canopy 张力更好的真实流程证明和更严格的语言时才可行
 
-### 4. Sensitive-skin / eczema-forward DTC
-Support:
-- strongest direct-response conversion energy
-- clear parent pain-point story
+### 4. 敏感皮肤/湿疹前向 DTC
+支持：
+- 最强的直接响应转换能量
+- 清晰的家长痛点故事
 
-Problems:
-- Kinder/Tubo page packs show how quickly this route becomes overloaded with clinical, eczema, baby-safe, and outcome language
-- highest downside if challenged
+问题：
+- Kinder/Tubo 页面包显示这条路线多快就会因临床、湿疹、婴儿安全和结果语言而超载
+- 如果受到挑战，最大的缺点
 
-KES recommendation:
-- do not use this as the primary route
+KES推荐：
+- 不要将此作为主要路线
 
-### 5. Soft-hanging ritual route
-Support:
-- distinct from hard bath-ball aesthetics
-- wellness / comfort positioning works naturally
-- surfaced independent reviewer signal was relatively favorable for Santevia on fast-flow chlorine reduction
+### 5.软挂仪式路线
+支持：
+- 与硬浴球美学不同
+- 健康/舒适的定位自然有效
+- 独立评审员的信号对 Santevia 在快速氯减少方面相对有利
 
-Problems:
-- drying/storage burden
-- short replacement cadence can create maintenance fatigue
+问题：
+- 干燥/储存负担
+- 更换节奏过短会造成维护疲劳
 
-KES recommendation:
-- strong inspiration route if KES wants a softer design language
+KES推荐：
+- 如果 KES 想要更柔和的设计语言，则有强大的灵感路线
 
-### 6. Hybrid premium-but-disciplined
-Support:
-- can combine premium appearance with narrow, defensible promise architecture
-- avoids the two worst extremes: generic broad-claim commodity vs aggressive eczema-forward DTC
+### 6. 混合优质但纪律严明
+支持：
+- 可以将优质外观与狭窄、可防御的承诺架构相结合
+- 避免两个最糟糕的极端：通用的广泛宣称商品与激进的湿疹前 DTC
 
-Requirements:
-- real normal-flow chlorine-performance proof
-- explicit fit/install boundaries
-- restrained claim ladder
-- premium but not theatrical authority signaling
+要求：
+- 真正的正常流量（flow）氯性能证明
+- 明确的配合/安装边界
+- 限制宣称阶梯
+- 优质但不是戏剧权威信号
 
-KES recommendation:
-- best current route hypothesis
+KES推荐：
+- 最佳当前路线假设
 
-## What KES should validate next
-1. normal-flow chlorine reduction under realistic bath-fill conditions
-2. install compatibility across actual tub-spout types
-3. leak/stability under repeated use
-4. acceptable refill cadence and cost
-5. whether a chlorine/comfort story can convert without eczema-forward claims
+## KES 接下来应该验证什么
+1. 在实际的槽液填充条件下正常流量（flow）氯减少
+2. 跨实际浴缸喷嘴类型的安装兼容性（compatibility）
+3. 重复使用下的泄漏/稳定性
+4.可接受的补充节奏和成本
+5. 氯/舒适故事是否可以在没有湿疹前向声明的情况下转化
 
-## What KES should avoid copying
-- Kinder’s “clinically proven to calm eczema-prone skin” style stacking
-- Tubo’s bacteria/viruses + clinical + parent-urgency mix
-- Canopy’s softer proof theater without correspondingly strong independent performance
+## KES 应该避免复制什么
+- Kinder 的“经临床证明可以镇静易发湿疹的皮肤”风格的堆叠
+- Tubo 的细菌/病毒 + 临床 + 家长紧急组合
+- Canopy 的软证明剧院没有相应强大的独立性能
 
-## Current conclusion
-If KES enters this category, it should probably aim to be:
-- **more credible than Kinder/Tubo**
-- **more performance-serious than Canopy**
-- **more refined and design-aware than commodity bath balls**
-- **more commercially human than a pure legacy-media engineering clone**
+## 目前的结论
+如果 KES 进入这一类别，它的目标可能是：
+- **比 Kinder/Tubo 更可信**
+- **比 Canopy 更注重性能**
+- **比商品沐浴球更加精致和设计感**
+- **比纯粹的传统媒体工程克隆更具商业人性**

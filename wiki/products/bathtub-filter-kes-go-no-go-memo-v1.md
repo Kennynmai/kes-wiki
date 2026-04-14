@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -17,77 +17,76 @@ related:
   - ./bathtub-filter-brand-page-pack-audit-v2.md
   - ./bathtub-filter-claim-risk-audit-v2.md
 ---
+# 浴缸过滤器（bathtub filter） KES Go/No-Go 备忘录 — V1
 
-# Bathtub Filter KES Go / No-Go Memo — V1
+## 决策状态
+**当前答案：有条件的继续努力，而不是产品的继续。**
 
-## Decision status
-**Current answer: conditional GO for continued diligence, not product GO yet.**
+这意味着：
+- 该类别值得认真对待
+- 有足够的证据表格明需求、叙述力和产品形式的多样性可以继续下去
+- 但还没有足够的证据来建议立即推出产品或自信的宣称策略
 
-This means:
-- the category is worth taking seriously
-- there is enough evidence of demand, narrative power, and product-form variety to continue
-- but there is not yet enough proof to recommend immediate product launch or confident claim strategy
+## 什么是有吸引力的
+### 1.问题故事足够真实
+硬水/氯/敏感皮肤问题并不是纯粹的发明。证据基础是微妙的，但担忧本身足以支持类别兴趣。
 
-## What is attractive
-### 1. The problem story is real enough
-Hard water / chlorine / sensitive-skin concern is not a pure invention. The evidence base is nuanced, but the concern itself is plausible enough to support category interest.
+### 2.市场有明显的情绪转换能量
+父母、婴儿、湿疹相关和健康的叙述都足以推销产品。
 
-### 2. The market has clear emotional conversion energy
-Parent, baby, eczema-adjacent, and wellness narratives are all strong enough to sell products.
+### 3. 极端之间存在空白
+目前市场分为：
+- 广泛使用的商品沐浴球
+- 侵略性敏感皮肤 DTC 品牌
+- 以优质设计为主导的健康品牌
+- 传统氯过滤器品牌
 
-### 3. There is white space between extremes
-The market currently appears split between:
-- broad-claim commodity bath balls
-- aggressive sensitive-skin DTC brands
-- premium design-led wellness brands
-- legacy chlorine-filter brands
+这为更可靠的混合路线留下了可能的空间。
 
-That leaves possible room for a more credible hybrid route.
+## 什么是危险的
+### 1.品类不断夸大
+最有吸引力的转换语言往往是最没有防御力的。
 
-## What is dangerous
-### 1. The category overclaims constantly
-The most magnetic conversion language is often the least defensible.
+### 2. 真实流量（flow）表格现可能会令人失望
+审查/测试内容反复表格明流速（flow rate）会对有效性产生重大影响。
 
-### 2. Real-flow performance may disappoint
-Review/testing content repeatedly suggests that flow rate can materially affect effectiveness.
+### 3. 安装和配合可能是被低估的风险因素
+如果产品笨拙、缓慢、不稳定或存在漏洞，即使潜在的问题是真实存在的，该类别也可能会失败。
 
-### 3. Installation and fit are probably underappreciated risk factors
-If the product is awkward, slow, unstable, or leaks, the category can fail even when the underlying concern is real.
+### 4. 高端定位增加了举证负担
+Canopy 表格明，设计和柔软度有助于销售，但当性能不明显时，它们也会引起更严格的审查。
 
-### 4. Premium positioning raises the proof burden
-Canopy shows that design and softness help sell, but they also attract harsher scrutiny when performance doesn’t clearly stand up.
+## 尚未解决的问题
+- 浴缸过滤器（bathtub filter）在实际的浴缸填充流量（flow）下能否表格现足够好？
+- 什么适合范围是现实的而不陷入普遍适合的过度主张？
+- 买家可以容忍什么样的补充节奏？
+- 更窄的氯/舒适信息是否可以在没有湿疹前向声明的情况下足够好地转换？
+- KES 想要一条更温和的仪式路线还是一条更具技术性的以氯为中心的路线？
 
-## What remains unresolved
-- can a bathtub filter perform well enough at realistic tub-fill flow?
-- what fit scope is realistic without falling into universal-fit overclaim?
-- what refill cadence can buyers tolerate?
-- can a narrower chlorine/comfort message convert well enough without eczema-forward claims?
-- does KES want a softer ritual route or a more technical chlorine-focused route?
+## 在任何真正的产品上线之前需要进行下一次验证
+1.真实的正常流量（flow）性能测试
+2. 不同浴缸喷嘴类型的兼容性（compatibility）测试
+3.泄漏/稳定性重复使用测试
+4. 补充经济健全性检查
+5. 避免临床/湿疹过度使用的措辞策略
 
-## Required next validation before any true product GO
-1. realistic normal-flow performance test
-2. compatibility test across tub-spout types
-3. leak/stability repeated-use test
-4. refill economics sanity check
-5. wording strategy that avoids clinical/eczema overreach
+## 初步战略建议
+### 继续研究
+是的。
 
-## Preliminary strategic recommendation
-### Go on research
-Yes.
+### 继续产品概念探索
+是的，但仅限于狭窄的路线。
 
-### Go on product concept exploration
-Yes, but only for narrow routes.
+### 坚定进入广泛市场的信念
+还没有。
 
-### Go on broad market-entry conviction
-Not yet.
+### 继续以积极的婴儿/湿疹宣称为主导的路线
+不。
 
-### Go on aggressive baby/eczema claim-led route
-No.
-
-## Best current KES posture
-If KES continues, the most promising route remains:
-- premium but disciplined
-- chlorine/comfort-first
-- normal-flow proof required
-- no eczema-improvement promise
-- no broad contaminant fantasy stack
+## 当前 KES 最佳姿势
+如果 KES 继续下去，最有希望的路线仍然是：
+- 优质但纪律严明
+- 氯/舒适第一
+- 需要正常流动证明
+- 没有改善湿疹的承诺
+- 没有广泛的污染幻想堆栈
