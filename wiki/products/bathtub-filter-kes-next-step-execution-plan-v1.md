@@ -134,6 +134,7 @@ related:
 - [[bathtub-filter-final-executive-summary-2026-04-14]]
 - [[bathtub-filter-kes-concept-brief-v1]]
 - [[bathtub-filter-test-gating-checklist-for-kes]]
+- [[bathtub-filter-kes-rd-and-validation-roadmap]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
 - [[bathtub-filter-validation-testing-protocol]]
 - [[bathtub-filter-kes-go-no-go-memo-v1]]

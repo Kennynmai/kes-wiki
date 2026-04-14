@@ -133,6 +133,7 @@ related:
 3. [[bathtub-filter-kes-route-elimination-memo-v1]]
 4. [[bathtub-filter-kes-concept-brief-v1]]
 5. [[bathtub-filter-test-gating-checklist-for-kes]]
+6. [[bathtub-filter-kes-rd-and-validation-roadmap]]
 
 ### 如果要继续做产品判断，再看
 - [[bathtub-filter-kes-next-step-execution-plan-v1]]

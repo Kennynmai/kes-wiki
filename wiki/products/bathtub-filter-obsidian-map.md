@@ -54,6 +54,7 @@ related:
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
 - [[bathtub-filter-kes-concept-brief-v1]]
 - [[bathtub-filter-kes-next-step-execution-plan-v1]]
+- [[bathtub-filter-kes-rd-and-validation-roadmap]]
 - [[bathtub-filter-route-clusters-and-kes-opportunity-spaces]]
 - [[bathtub-filter-cluster-cleanup-note-2026-04-14]]
 - [[bathtub-filter-test-gating-checklist-for-kes]]
@@ -105,3 +106,4 @@ related:
 如果是要继续推进产品方向，接着读：
 4. [[bathtub-filter-kes-concept-brief-v1]]
 5. [[bathtub-filter-kes-next-step-execution-plan-v1]]
+6. [[bathtub-filter-kes-rd-and-validation-roadmap]]
