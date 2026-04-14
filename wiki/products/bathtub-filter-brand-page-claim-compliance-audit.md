@@ -9,50 +9,87 @@ confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, brand-pages, claim-audit, compliance-audit]
-source_count: 14
+source_count: 15
 review_cycle: monthly
 verification_status: spot-checked
 related:
   - ./bathtub-filter-claim-risk-audit-v2.md
   - ./bathtub-filter-standards-and-certification-audit-by-brand.md
 ---
-# 浴缸过滤器（bathtub filter）（bathtub filter）品牌页面声明/合规审核
+# 浴缸过滤器（bathtub filter）品牌页面宣称 / 合规审核
 
-## 黑曜石链接
--[[bathtub-filter]]
--[[bathtub-filter-claim-risk-audit-v2]]
--[[bathtub-filter-standards-and-certification-audit-by-brand]]
--[[bathtub-filter-kes-route-elimination-memo-v1]]
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-claim-risk-audit-v2]]
+- [[bathtub-filter-standards-and-certification-audit-by-brand]]
+- [[bathtub-filter-kes-route-elimination-memo-v1]]
 
 ## 目的
-此页面审核了相关品牌页面当前如何构建证据、性能、依据和权威。
+这页审核各品牌页面如何组合：
+- evidence（证据）
+- performance（性能）
+- authority（权威）
+- testimonials（证言）
+- compliance-adjacent language（合规邻近语言）
+
+重点不只是看“它说了什么”，而是看：
+**它把什么混在一起说。**
 
 ## 审核表
-|品牌|页面类型|关键措辞|使用校园风格|发现主要问题|风险解读|
+| 品牌 | 页面类型 | 关键措辞 | 页面姿态 | 主要问题 | 风险解读 |
 |---|---|---|---|---|---|
-|天篷|产品页面|“超过 98% 的社区供水系统......使用添加氯......” + “医生去除医疗专业知识而得到了 Canopy 的补偿。”|权威+专家支持的保证+生活方式舒适|将合法的氯关注与赞助的医疗保障和优质的婴儿/健康框架相结合|中高|
-|天篷|产品/滤芯（cartridge）页面|“经过 ANSI/NSF 177 标准测试”+页面上的湿疹感言+“37 美元 27 美元……每 90 天”|与标准上下文的措辞+推荐+订阅经济学|“经过测试”可能会被误认为是经过认证的；推荐层增加皮肤效果的影响|高的|
-|天篷|审稿人对位|“无法以‘正常’更快的节奏（流速（flow rate））有效地达到清洁”|独立评审员绩效挑战|优质定位和测试性能之间最大的表面差距|高的|
-|桑特维亚|产品/支持|“它可以带来 99% 的劳动强度……”/“每两个月更换一次”/“4,755 加仑（100 次沐浴）”|更精简的产品/工艺要求+维护细节|范围相对较好，但仍需要在更广泛的背景下进行路线/性能验证|中等的|
-|雪碧|浴缸换页|“Chlorgon过滤介质有助于解除分离、重组和异味……”/“额定约25-30次沐浴”|更狭窄的媒体机制/+使用统计图表|最传承的传统技术命题；沐浴路线仍短|中等的|
-|雪碧|准备认证背景|“通过NSF/ANSI标准No.177认证”|明确的说明措辞|最强的表面认证平台，尽管主要继承自浴血统|低中|
-|水晶探索|沐浴球产品页面|“去除氯、氯胺、VOC、THM、农药……重金属……同时平衡pH值”|非常广泛的带宽|本次通过的攻击范围广泛，表面认证得分较弱|高的|
-|水晶探索|审稿人对位|“在不切实际的缓慢的流速（flow rate）（流量（flow））下甚至无法达到 100% 的氯”|独立评审员绩效挑战|广度和可信性能之间最明显的矛盾|高的|
-|金德|主页/原因/产品页面|“唯一经过临床测试可在短短2-3周内改善皮肤水合作用的沐浴过滤器”/“经过临床测试可在短短2-3周内改善皮肤水合作用”|临床优势框架|非常强烈的结果语言；浮出水面的证实背景仍然不清楚|非常高|
-|金德|产品页面|“经临床证明可以静敏感、易患湿疹的皮肤” + “因婴儿安全、调节皮肤的镇沐浴而深受父母喜爱” + “100%贴合保证”|临床+婴儿安全+合身保证库|将多个高风险信息层层整合在一页中|非常高|
-|吐蕃|产品页面|“临床经过测试”+“2,500加仑……6-8个月”+“消除高达99%的有害珊瑚”|高转化率的测试语言+实用价值框架|测试参考不明确，而底层/健康框架很广泛|非常高|
-|吐蕃|产品页面|“重金属和细菌”/“达到高达99.9%的细菌和病毒”/eczema-help 常见问题解答语言|a 净化和邻近条件提示|该组中最强的浮出的越界模式|非常高|
-|吐蕃|审稿人对位|WaterFilterGuru：没有可见的官方认证；病毒/病毒宣称（claim）“极不可能是真的”|独立评审员反驳|品牌修改辞与评论（review）（评论（review））者的合理性之间异常直接的矛盾的阅读|非常高|
-|吐蕃|面向社会的措辞|“每个父母都需要浴缸过滤器（bathtub filter）（浴缸过滤器（bathtub filter））”/“湿疹耐受型浴缸过滤器（bathtub filter）（浴缸过滤器（bathtub filter））”|家长的紧迫感+简短的压缩|情感最丰富，成本效益最弱|非常高|
+| Canopy | product page | 氯相关背景 + 医生背书 / compensated expert language | authority + wellness + premium baby/family | 合法问题意识、赞助式权威与 premium soft-medical framing 被揉在一起 | 中高 |
+| Canopy | product / cartridge page | “tested to ANSI/NSF 177” + eczema-adjacent testimonial + 订阅更换逻辑 | tested-language + testimonial + refill economics | `tested` 容易被读成 `certified`；testimonial 会放大 skin-outcome implication | 高 |
+| Canopy | review contrast | 独立评测指出在更快 normal flow 下表现张力 | external-performance challenge | premium positioning 与 practical performance 之间张力明显 | 高 |
+| Santevia | product / support | 更强调使用节奏、滤材、替换周期与 comfort frame | softer ritual / maintenance framing | 认证语言较弱，但 media credibility 与 product-performance 之间仍需切分 | 中 |
+| Sprite | tub replacement / lineage page | 更窄的 chlorine / media language；接近 NSF/ANSI 177 lineage | disciplined technical lineage | 当前最接近“可核验标准语言”的参考样本，但要避免把 shower lineage 自动外推到 bath SKU | 中 |
+| Sprite | certification context | 出现 `certified to NSF/ANSI 177` 邻近语境 | clear standard-adjacent posture | 该品牌最强点在于更窄的 standard story，而不是更宽的 benefit story | 低中 |
+| Crystal Quest | bath-ball page | chlorine / chloramine / heavy metals / broad-removal stack | wide-bandwidth promise | claim bandwidth 远大于当前可见认证锚点 | 高 |
+| Crystal Quest | review contrast | 独立评测对真实 performance 给出明显保留 | external skepticism | broad-removal story 与可信表现之间张力大 | 高 |
+| Kinder | homepage / product page | “clinically tested” + skin hydration / eczema-prone 相关结果语言 | clinical-outcome posture | clinical wording 强，但公开可见 substantiation boundary 不够清楚 | 很高 |
+| Kinder | product detail | “clinically proven” + baby-safe implication + fit guarantee | stacked-risk page pack | clinical、baby、安全、适配被叠在一页，风险过高 | 很高 |
+| Tubo | product page | “clinically tested” + 高覆盖率 / longevity / health-adjacent framing | aggressive high-conversion posture | test basis 不清，但结果与净化语言很强 | 很高 |
+| Tubo | product / FAQ | heavy metals / bacteria / viruses / eczema-help 组合 | purification + condition-adjacent implication | 属于本专题里最明显的越界风险样本之一 | 很高 |
+| Tubo | review contrast | 二级评测明确质疑 official certification visibility 与病毒类 claims | direct contradiction | 页面话术与可见外部合理性之间冲突大 | 很高 |
+| Tubo | social-facing copy | “every parent needs…” / “eczema-friendly…” | urgency + compressed social copy | 情绪强，但 cost-benefit 与合规基础最弱 | 很高 |
 
-## 工作口译
-### 最低明显措辞风险区
-- 雪碧以太空为中心的谱系
-- Santevia 较为狭窄的社交/维护框架
+## 审核解读
+### 最低风险区
+当前最靠近低风险区的，不是“完全没风险”，而是：
+- Sprite 的 narrower chlorine / standards-adjacent posture
+- Santevia 的相对 softer / maintenance-oriented framing
 
-### 最明显的措辞风险区
-- Kinder / Tubo 皮肤结果和临床语言
-- 如果没有得到严格证实，Crystal Quest 会产生广泛的带宽堆栈
+### 最明显的高风险区
+- Kinder / Tubo 的 clinical-result + baby / eczema-adjacent 叠法
+- Crystal Quest 的 broad-removal stack，如果没有更强认证 / 测试支撑
+- Canopy 的 tested-language 与 premium authority impression 之间的混读风险
 
-### 需要持续关注的最重要的矛盾
-- Canopy式的质量保证与审稿人的绩效怀疑
+### 当前最值得警惕的混搭模式
+1. **tested + testimonial + skin outcome**
+2. **clinical language + baby-safe implication**
+3. **broad contaminant list + weak visible certification anchor**
+4. **media credibility + whole-product implication**
+
+## 对 KES 的意义
+KES 如果进入这个品类，页面表达最好遵守以下原则：
+- 不把标准语言当作情绪营销道具
+- 不把 testimonial 当作功效证明
+- 不把 media story 写成 whole-product certification
+- 不把 baby / eczema 叙事写成临床承诺
+
+## 当前工作结论
+这组品牌页给出的核心教训不是“哪些文案最会卖”，而是：
+
+> **哪些页面把证据、权威、测试、证言与情绪叙事混得最危险。**
+
+对 KES 来说，最优解大概率不是最强情绪刺激，而是：
+- 更窄的 claim architecture
+- 更清楚的 test boundary
+- 更诚实的 fit / maintenance 表达
+- 更少 soft-medical implication
+
+## Sources
+- [Bathtub Filter Claim Risk Audit — V2](./bathtub-filter-claim-risk-audit-v2.md)
+- [Bathtub Filter Standards and Certification Audit by Brand](./bathtub-filter-standards-and-certification-audit-by-brand.md)
+- Public brand-page observations from prior source summaries
+- Secondary review snippets referenced in current bathtub-filter research package
