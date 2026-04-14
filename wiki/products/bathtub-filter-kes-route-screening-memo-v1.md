@@ -17,135 +17,136 @@ related:
   - ./bathtub-filter-brand-page-claim-compliance-audit.md
   - ./bathtub-filter-pricing-refill-flow-fit-table-v2.md
 ---
-# 浴缸过滤器（bathtub filter） KES 路线筛选备忘录 — V1
+# 浴缸过滤器（bathtub filter）KES 路线筛选备忘录 — V1
 
 ## 版本链接
-- 较新的工作页面：[[bathtub-filter-kes-route-screening-memo-v2]]
+- 更新版本：[[bathtub-filter-kes-route-screening-memo-v2]]
 
-## 执行阅读
-这个类别看起来足够真实，值得认真研究，但可能的获胜途径是**不是**“说更多的事情”。
+## 执行层阅读
+这个品类已经足够真实，值得认真研究；
+但当前越来越清楚的一点是，**胜出路径不是“说得更多”，而是“说得更窄、更可信”。**
 
-研究越来越多地指向一条更窄的路线：
-- 更好的实际流量（flow）氯性能
-- 更严格的安装/装配纪律
-- 较少医学化的语言
-- 比激进的 DTC 母品牌更强的证明姿态
-- 比商品浴球克隆产品更精致的设计
+研究正在把判断逐步推向一条更克制的路线：
+- 更好的 real-flow chlorine performance
+- 更严格的安装 / fit discipline
+- 更少医疗化语言
+- 比激进 DTC 亲子品牌更可信的 proof posture
+- 比 commodity bath-ball clone 更精致的设计与产品表达
 
-## 路由筛选
-### 路线 A — 商品广泛声称沐浴球
-市场例子：
-- 通用市场沐浴球
-- 广泛的污染物堆积
+## 路线筛选
+### 路线 A — commodity broad-claim bath ball
+市场参考：
+- 通用 marketplace bath ball
+- 大而泛的 contaminant-removal stack
 
 优点：
-- 易于解释
-- 熟悉的产品形态
-- 适合市场的简单渠道
+- 易解释
+- 产品形态熟悉
+- 更适合 marketplace 渠道
 
 缺点：
-- 快速通用化
-- 广泛宣称风险高
-- 绩效怀疑有意义
+- 很快同质化
+- 宽泛宣称风险高
+- 容易被质疑实际表现
 
-KES 屏幕：
-- **不首选**
+KES 判断：
+- **不是首选路线**
 
-### 路线 B — 传统介质以氯为中心的浴槽延伸
-市场例子：
-- 精灵血统
+### 路线 B — legacy-media chlorine-focused tub extension
+市场参考：
+- Sprite lineage
 
 优点：
 - 承诺范围更窄
-- 更可信的技术故事
-- 更强的标准/认证邻接性
+- 技术故事更可信
+- 更接近标准 / 认证邻接逻辑
 
 缺点：
-- 可能感觉不太差异化或溢价
-- 浴缸滤芯（cartridge）的使用寿命可能会很短
+- 情绪差异化可能不强
+- tub cartridge 寿命感知可能不够理想
 
-KES 屏幕：
+KES 判断：
 - **强参考路线**
-- 可用作证明/纪律模型，不一定作为最终的美学模型
+- 适合当作 proof / discipline 模板，不一定是最终 aesthetic 模板
 
-### 路线 C — 以优质设计为主导的婴儿/健康浴缸过滤器（bathtub filter）
-市场例子：
-- 天篷
-
-优点：
-- 最强的设计溢价和注册/礼品性逻辑
-- 高情绪转化率
-
-缺点：
-- 溢价引发严格审查
-- 浮出水面的审查证据显示正常流程下的性能挑战
-- 权威提示可以成为软防护剧场
-
-KES 屏幕：
-- **仅当性能证明明显优于 Canopy 公开的审阅者资料时才可行**
-
-### 路线 D — 敏感皮肤/湿疹前向 DTC
-市场例子：
-- 金德
-- 吐蕃
+### 路线 C — premium design-led baby / wellness bathtub filter
+市场参考：
+- Canopy
 
 优点：
-- 最强的紧迫性和转化潜力
-- 清晰的观众故事
+- 最强的 design premium 与 giftability / registry logic
+- 情绪转化能力很强
 
 缺点：
-- 最高的措辞/合规风险
-- 超越证据的最强诱惑
-- 如果宣称受到质疑，强烈反对的可能性更大
+- premium pricing 会放大审查强度
+- 可见 review 线索显示，normal-flow 下的表现可能存在张力
+- authority signaling 很容易沦为 soft proof theater
 
-KES 屏幕：
-- **不首选作为主要路线**
+KES 判断：
+- **只有在性能证明显著强于 Canopy 公域表现时，才值得继续**
 
-### 路线 E — 软悬挂仪式路线
-市场例子：
-- 类似 Santevia 的逻辑
+### 路线 D — sensitive-skin / eczema-forward DTC
+市场参考：
+- Kinder
+- Tubo
 
 优点：
-- 与硬塑料球形式不同
-- 生活方式/健康契合
-- 浮出水面的独立审稿人信号看起来相对较强
+- 转化动能最强
+- audience story 很清楚
 
 缺点：
-- 更换节奏短
-- 干燥/储存摩擦
-- 可能感觉不像是永久的浴室硬件解决方案
+- wording / compliance risk 最高
+- 最容易滑出证据边界
+- 一旦被质疑，反噬风险也最大
 
-KES 屏幕：
-- **有前途的参考路线** 如果 KES 想要更软的定位并且可以管理维护摩擦故事
+KES 判断：
+- **不应作为主路线**
 
-##当前KES最佳路线假设
-当前最强的假设是混合路线：
+### 路线 E — soft-hanging ritual route
+市场参考：
+- Santevia-like logic
 
-> **优质但有纪律**
+优点：
+- 与硬塑料 bath-ball 形态不同
+- 更适合 lifestyle / wellness positioning
+- 独立 reviewer signal 相对更友好
 
-含义：
-- 比商品沐浴球更美观
-- 技术上比宽泛的“删除一切”品牌更狭窄
-- 比湿疹结果 DTC 品牌更可信
-- 比纯粹以设计为先的优质品牌经过更多性能验证
+缺点：
+- replacement cadence 偏短
+- drying / storage friction 明显
+- 不一定像 permanent bathroom hardware 那样稳固
 
-### 为什么这个观点在这一关中得到加强
-最近的页面包审核增加了对此方向的信心：
-- Kinder 页面过于激进地结合了临床、湿疹倾向、婴儿安全和合身保证语言，看起来不像一个安全模板
-- Tubo 页面堆叠了临床语言、广泛的污染物声明、细菌/病毒语言以及家长情感挂钩，其方式看起来具有商业潜力，但在审查下却非常不稳定
-- Canopy 页面展示了优质婴儿/健康定位如何在商业上发挥作用，还展示了语言“测试”、有补偿的专家保证和绩效怀疑如何快速地造成信任紧张
-- Sprite 和 Santevia 作为较窄承诺规则的参考极仍然更有用，即使两者都不是 KES 的完美最终模型
+KES 判断：
+- **有潜力的参考路线**，前提是 KES 能处理维护摩擦与使用解释
 
-## KES 应该首先避免什么
-- 直接改善湿疹的承诺
-- 婴儿安全的暗示没有强有力的证据
-- 广泛的硬水软化故事
-- 过于自信的通用语言
-- 没有正常流量（flow）证明的溢价
+## 当前 KES 最强路线假设
+当前最强的路线假设仍然是：
 
-## KES 应该首先测试什么
-- 真实的浴缸填充流量（flow）氯减少
-- 在实际的浴缸喷嘴类型中安装/安装范围
-- 重复使用下的泄漏/稳定性
-- 替换节奏用户可以容忍
-- 更窄的氯/舒适故事是否可以在没有医疗声明的情况下很好地转化
+> **premium but disciplined**
+
+意思是：
+- 比 commodity bath ball 更美观、更成体系
+- 比“remove everything” 式品牌更窄、更可信
+- 比 eczema-outcome DTC 路线更可防守
+- 比纯 design-first premium brand 更强调 performance proof
+
+### 为什么这个判断被进一步强化
+最近的品牌 / 页面审阅让这条路线更站得住：
+- Kinder 的页面把 clinical、eczema-prone、baby-safe 与 fit 保证叠得过满，不适合作为安全模板
+- Tubo 把 clinical language、bacteria / virus、家长焦虑与宽泛污染物去除叙事堆在一起，商业上很强，但风控上太脆
+- Canopy 证明了 premium baby / wellness 定位有商业吸引力，也暴露了“tested”语言、付费专家与 performance tension 会如何快速放大信任问题
+- Sprite 与 Santevia 仍然是更有价值的参考极：一个偏 disciplined technical lineage，一个偏 softer ritual expression
+
+## KES 应优先避免什么
+- 直接改善 eczema 的承诺
+- 没有强证据支撑的 baby-safety implication
+- 宽泛的 hard-water softening story
+- 过度自信的 universal-fit 语言
+- 没有 normal-flow proof 的 premium promise
+
+## KES 应优先测试什么
+- 真实 tub-fill flow 下的 chlorine reduction
+- 不同 tub-spout types 的安装 / fit 范围
+- repeated use 下的 leak / stability
+- 用户是否能接受 replacement cadence
+- 更窄的 chlorine / comfort story 是否能在不医疗化的前提下转化

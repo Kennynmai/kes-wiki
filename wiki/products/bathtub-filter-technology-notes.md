@@ -18,95 +18,109 @@ related:
 ---
 # 浴缸过滤器（bathtub filter）技术说明
 
-## 黑曜石链接
--[[bathtub-filter]]
--[[bathtub-filter-claims-and-certifications]]
--[[bathtub-filter-kes-concept-brief-v1]]
--[[bathtub-filter-patent-and-technical-landscape]]
--[[bathtub-filter-kes-product-architecture-hypotheses]]
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-claims-and-certifications]]
+- [[bathtub-filter-kes-concept-brief-v1]]
+- [[bathtub-filter-patent-and-technical-landscape]]
+- [[bathtub-filter-kes-product-architecture-hypotheses]]
 
-## 为什么有这份页面
-浴缸过滤器（bathtub filter）市场似乎大量借鉴了淋浴过滤器媒体的叙述。本页跟踪重复出现的技术构建模块以及 KES 在将这些声明视为有意义的产品差异化之前应提出的早期问题。
+## 为什么有这页
+当前 bathtub filter 市场，明显大量借用了 shower filter 的 media storytelling（滤材叙事）。
 
-## 市场上观察到的重复媒体/信号
+这页用来记录：
+- 市场上反复出现的技术构件
+- 各种 media / chemistry route 的直觉优缺点
+- KES 在把这些技术词当成“产品差异化”之前，应该先问哪些问题
+
+## 市场上反复出现的 media / technical signals
 ### KDF 55
-在上市文案中反复用作核心信任信号。
-通常与减少氯、重金属或减少气味的语言搭配使用。
+常被当作核心信任信号，通常与以下表述一起出现：
+- chlorine reduction
+- heavy-metal reduction
+- odor reduction
 
-工作注意事项：
-- KDF是品类文案中最常见的可信度锚点之一
-- 但“含有KDF”与成品性能证明不同
+工作提醒：
+- KDF 是该品类最常见的 credibility anchor（可信度锚点）之一
+- 但“contains KDF” 不等于成品性能已经被证明
 
-### 活性炭
-与 KDF 或多级系统结合经常重复。
+### activated carbon（活性炭）
+常与 KDF 或 multi-stage system 组合出现。
 
-工作注意事项：
-- 通常用作默认过滤可信度信号
-- 消费者可能很熟悉，但热水使用和接触时间问题很重要
+工作提醒：
+- 它是用户非常熟悉的默认过滤可信度信号
+- 但在 warm / hot water 使用条件下，temperature 与 contact time（接触时间）问题都很关键
 
-### 维生素C
-通常被定位为更温和、亲肤或适合婴儿。
-有时与“碱性”或皮肤/头发有益的语言搭配使用。
+### vitamin C
+常被放在 gentler / skin-friendly / baby-friendly 的语境中。
+有时还会与 alkaline、skin / hair benefit 等语言绑定。
 
-工作注意事项：
-- 在美容/皮肤/婴儿定位方面可能更有说服力
-- 即使工程细节差异很大，对于特定片段的故事讲述也可能具有商业用途
+工作提醒：
+- 在 beauty / skin / baby positioning 上更容易讲故事
+- 即使工程细节差异很大，它对某些 segment 仍有商业吸引力
 
-### 亚硫酸钙
-通常出现在淋浴过滤器式的技术叙述中。
-通常与热水中氯的减少有关。
+### calcium sulfite（亚硫酸钙）
+常见于 shower-filter 风格的技术叙事，通常与 hot-water chlorine reduction 相关。
 
-工作注意事项：
-- 似乎是一个值得深入研究的关键媒体，因为浴缸的使用通常涉及温/热水
+工作提醒：
+- 这是值得重点深挖的 media route 之一
+- 因为 bathtub use 往往就是 warm / hot water scenario
 
-### 沸石/陶瓷球/矿物石/碱性球
-经常用于多阶段或“17 阶段”类型的列表格。
+### zeolite / ceramic balls / mineral stones / alkaline balls
+经常出现在 multi-stage、8-stage、15-stage、17-stage 这类 listing 里。
 
-工作注意事项：
-- 这些可能会增加列表格副本中感知的复杂性和高级感
-- 真正的边际效益与营销复杂性仍不清楚
+工作提醒：
+- 它们会显著增强“复杂、高级”的感知
+- 但真实边际收益，常常不如 marketing complexity 那么明显
 
-## 重要的类别范围限制
-### 1.热水很重要
-洗澡水通常是温水或热水。这意味着任何性能随温度而大幅下降的介质都应小心处理。
+## 这个品类的技术边界提醒
+### 1. temperature matters（温度很重要）
+浴缸注水通常是 warm / hot water。
+所以任何在高温下性能明显衰减的路线，都必须谨慎处理。
 
-### 2. 接触时间很重要
-浴缸填充可能涉及相对较高的流量（flow）和较短的接触时间。
-这可能会限制小媒体量的实际效果。
+### 2. contact time matters（接触时间很重要）
+真实 tub-fill 往往意味着：
+- 流速较高
+- 接触时间较短
 
-### 3. 尺寸很重要
-除非产品级证据明确，否则应以怀疑的态度对待体积较小的产品提出非常广泛的去除要求。
+这会严重限制小体积 media 在实际使用中的效果。
 
-### 4.水路很重要
-如果设计不能迫使水通过足够的活性介质，功效可能会比产品故事所暗示的要弱。
+### 3. device size matters（体积很重要）
+如果产品很小，却同时宣称广泛去除多种污染物，就应该默认提高怀疑阈值。
+除非有很强的产品级证据，否则不应轻易接受这类 broad-removal story。
 
-## 观察市场格局
-许多列表格似乎将媒体名称作为一种说服机制：
+### 4. water path matters（过水路径很重要）
+如果设计并不能强制水流经过足够体积、足够有效的 media，
+那么真实功效很可能远弱于 marketing story。
+
+## 当前市场技术表达的典型模式
+很多 listings 看起来都在把“滤材名称”本身当作说服机制：
 - KDF
-- 活性炭
-- 亚硫酸钙
-- 维生素C
-- 陶瓷球
-- 矿物石
-- 多级计数
+- activated carbon
+- calcium sulfite
+- vitamin C
+- ceramic balls
+- mineral stones
+- multi-stage counts
 
-这可能意味着：
-- 媒体堆栈是一种主要的营销语言模式
-- 阶段数可能更多的是作为感知的复杂性而不是作为值得信赖的购买指标
+这意味着：
+- media stack 本身已经是一种主要 marketing language pattern
+- stage count 很多时候更像“感知复杂度”，不一定是真正可靠的购买指标
 
-## KES 最终应该验证什么
-- 哪些介质实际上适合浴缸填充温度和流量（flow）条件？
-- 哪种组合可以提供最佳的可信度与复杂性权衡？
-- 哪些媒体可以支持清晰且在法律上更安全的主张语言？
-- 哪个技术故事最容易解释而不过度承诺？
+## KES 最终应验证什么
+- 哪些 media 真正适合 bathtub fill 的温度与流速条件？
+- 哪种 media combination 能在 credibility 与 complexity 之间取得最好平衡？
+- 哪些技术路线最适合支撑 legal-risk 较低的 claim language？
+- 哪种技术故事最容易解释，而且不过度承诺？
 
-## 早期当前判断
-可能的技术商业最佳点可能不是媒体类型最多的产品。它可能是具有以下特征的：
-- 最清晰的水路逻辑
-- 一个可信的热水表格演故事
-- 克制的主张语言
-- 更换和维护简单
+## 当前早期判断
+最有商业价值的路线，未必是 media 种类最多的那种。
+它更可能是这样一种组合：
+- water-path logic 最清晰
+- hot-water story 讲得通
+- claim language 更克制
+- refill / maintenance 更简单
 
-## 来源
-- 引用 KDF、活性炭、维生素 C、亚硫酸钙、沸石和多级浴过滤器的公共片段
-- 浴缸过滤器（bathtub filter）竞争对手扫描
+## Sources
+- 公共片段中可见的 KDF、activated carbon、vitamin C、calcium sulfite、zeolite 与 multi-stage bath-filter 文案
+- bathtub filter competitor scan

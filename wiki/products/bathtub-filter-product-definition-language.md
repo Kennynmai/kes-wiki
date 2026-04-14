@@ -18,49 +18,51 @@ related:
 ---
 # 浴缸过滤器（bathtub filter）产品定义语言
 
-## 黑曜石链接
--[[bathtub-filter]]
--[[bathtub-filter-kes-go-no-go-memo-v1]]
--[[bathtub-filter-kes-concept-brief-v1]]
--[[bathtub-filter-claim-risk-audit-v2]]
--[[bathtub-filter-kes-route-elimination-memo-v1]]
+## Obsidian links
+- [[bathtub-filter]]
+- [[bathtub-filter-kes-go-no-go-memo-v1]]
+- [[bathtub-filter-kes-concept-brief-v1]]
+- [[bathtub-filter-claim-risk-audit-v2]]
+- [[bathtub-filter-kes-route-elimination-memo-v1]]
 
 ## 目的
-将研究成果转化为 KES 最终可以在内部使用的语言来定义可行的产品路线。
+把当前研究，转成 KES 在内部讨论产品路线时可以直接使用的定义语言与表达边界。
 
-## KES 可能会说什么
-- 氯意识洗澡水舒适度
+## KES 可以优先使用的语言
+- chlorine-conscious bath-water comfort（氯意识型沐浴水舒适体验）
 - 更温和的沐浴体验
-- 专为实际沐浴使用而设计
-- 可更换的过滤介质
-- 高级沐浴时间升级
-- 家庭洗澡水舒适度
+- 为真实 bath use（沐浴使用场景）而设计
+- 可更换过滤介质（replaceable filtration media）
+- premium bath-time upgrade（高端沐浴升级）
+- family bath-water comfort（家庭沐浴水舒适度）
 
-## KES 只有在有强有力的证据的情况下才应该说的话
-- 在规定条件下去除 X% 的游离氯
-- 与这些特定的浴缸喷嘴格式兼容
-- 在真实的浴缸填充条件下进行测试
+## KES 只有在证据足够强时才应使用的语言
+- 在明确 stated conditions（声明条件）下，可减少 X% free chlorine
+- 兼容这些特定 tub-spout formats（浴缸出水口类型）
+- 在 realistic tub-fill conditions（真实浴缸注水条件）下完成测试
 
-## KES 应该避免说什么
-- 改善湿疹
-- 对婴儿安全，因为它去除了有害化学物质
-- 以具有临床意义的方式软化硬水
-- 去除大量污染物，无需特定路线的证明
-- 临床证明皮肤改善
+## KES 应避免使用的语言
+- improves eczema
+- 对婴儿更安全，因为去除了有害化学物质
+- 以临床相关方式 softens hard water
+- 在缺乏明确技术路线证明时，声称去除大量污染物
+- clinically proven skin improvement
 
-## 可能的目标用户语言
-### 最合理的观众
-- 有氯意识的沐浴者
-- 想要更温和沐浴水的家庭
-- 优质浴室/健康买家
-- 敏感皮肤家庭（没有希望的医疗结果）
+## 目标用户语言
+### 相对合理的受众语言
+- chlorine-conscious bathers
+- 希望 bath water feel 更温和的家庭
+- premium bathroom / wellness buyers
+- sensitive-skin households（但不承诺医疗结果）
 
-### 不太安全的受众语言
-- 寻求湿疹治疗的买家
-- 婴儿医疗安全框架
-- 毒素恐慌的极端主义者
+### 相对不安全的受众语言
+- 明确在寻找 eczema treatment 的买家
+- baby-medical-safety framing
+- toxin-panic 极端叙事
 
 ## 候选工作定义
-KES 的浴缸过滤器（bathtub filter）最合理的定义是：
+对 KES 来说，当前最合理的 bathtub filter 定义可以写成：
 
-> 一种优质但严格的沐浴水舒适产品，旨在减少实际沐浴使用条件下与氯相关的刺激负担，而不会过度承诺医疗或广泛的污染结果。
+> 一种 premium but disciplined（高端但克制）的 bath-water comfort product，
+> 目标是在真实沐浴使用条件下，降低与 chlorine 相关的刺激负担，
+> 但不把自己包装成医疗解决方案，也不做宽泛的污染物结果承诺。
