@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-04-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -14,27 +14,38 @@ review_cycle: monthly
 verification_status: working
 related:
   - ./bathtub-filter.md
+  - ./bathtub-filter-final-executive-summary-2026-04-14.md
   - ./bathtub-filter-review-patterns-and-return-risk.md
   - ./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
   - ../syntheses/bathtub-filter-review-and-compliance-landscape.md
 ---
 
-# Bathtub Filter Obsidian Map
+# Bathtub Filter Obsidian 导航图
 
-This page is a navigation hub for Obsidian browsing.
+这页是 bathtub filter 主题的导航页，目的是让团队在 Obsidian 中快速找到：
+- 先读什么
+- 决策页在哪里
+- 支撑分析页在哪里
+- source summaries（来源摘要）在哪里
 
-## Start here
+## 建议起点
+### 管理层 / 快速判断
 - [[bathtub-filter]]
+- [[bathtub-filter-final-executive-summary-2026-04-14]]
 - [[bathtub-filter-kes-go-no-go-memo-v1]]
-- [[bathtub-filter-research-coverage-gaps]]
 
-## Core decision-support pages
+### 产品 / 策略继续评估
+- [[bathtub-filter-kes-route-elimination-memo-v1]]
+- [[bathtub-filter-kes-concept-brief-v1]]
+- [[bathtub-filter-test-gating-checklist-for-kes]]
+- [[bathtub-filter-kes-next-step-execution-plan-v1]]
+
+## 核心决策支持页
 - [[bathtub-filter-review-patterns-and-return-risk]]
 - [[bathtub-filter-marketplace-negative-review-signals]]
 - [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
 - [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
 - [[bathtub-filter-review-and-compliance-landscape]]
-- [[bathtub-filter-structure-audit-and-link-maintenance-2026-04-13]]
 - [[bathtub-filter-pricing-refill-flow-fit-table-v2]]
 - [[bathtub-filter-installation-risk-matrix-v2]]
 - [[bathtub-filter-claim-risk-audit-v2]]
@@ -45,7 +56,7 @@ This page is a navigation hub for Obsidian browsing.
 - [[bathtub-filter-cluster-cleanup-note-2026-04-14]]
 - [[bathtub-filter-test-gating-checklist-for-kes]]
 
-## Product / category structure
+## 产品 / 品类结构页
 - [[bathtub-filter-product-forms]]
 - [[bathtub-filter-buying-criteria]]
 - [[bathtub-filter-user-segments]]
@@ -53,15 +64,14 @@ This page is a navigation hub for Obsidian browsing.
 - [[bathtub-filter-product-definition-language]]
 - [[bathtub-filter-category-boundary]]
 
-## Claims / compliance / standards
+## 宣称 / 合规 / 标准页
 - [[bathtub-filter-claims-and-certifications]]
-- [[bathtub-filter-marketplace-negative-review-signals]]
 - [[bathtub-filter-claim-evidence-ladder]]
 - [[bathtub-filter-standards-and-certification-audit-by-brand]]
 - [[bathtub-filter-brand-page-claim-compliance-audit]]
 - [[bathtub-filter-brand-page-pack-audit-v2]]
 
-## Market / channel / brand
+## 市场 / 渠道 / 品牌页
 - [[bathtub-filter-brand-operating-matrix-v2]]
 - [[bathtub-filter-channel-positioning-table-v2]]
 - [[bathtub-filter-patent-table]]
@@ -83,3 +93,13 @@ This page is a navigation hub for Obsidian browsing.
 - [[bathtub-filter-review-and-compliance-landscape]]
 - [[bathtub-filter-operations-channel-and-visual-landscape]]
 - [[bathtub-filter-sns-creator-and-visual-taxonomy]]
+
+## 当前使用建议
+如果只是想知道“这题现在是否可以收尾”，优先读：
+1. [[bathtub-filter-final-executive-summary-2026-04-14]]
+2. [[bathtub-filter-kes-go-no-go-memo-v1]]
+3. [[bathtub-filter-test-gating-checklist-for-kes]]
+
+如果是要继续推进产品方向，接着读：
+4. [[bathtub-filter-kes-concept-brief-v1]]
+5. [[bathtub-filter-kes-next-step-execution-plan-v1]]

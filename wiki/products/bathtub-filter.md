@@ -5,14 +5,15 @@ owner: product
 created: 2026-04-11
 updated: 2026-04-14
 visibility: company
-confidence: low
+confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, water-filtration, bathroom, product-research]
-source_count: 0
+source_count: 1
 review_cycle: monthly
-verification_status: unverified
+verification_status: working
 related:
+  - ./bathtub-filter-final-executive-summary-2026-04-14.md
   - ../syntheses/bathtub-filter-research-map.md
   - ../syntheses/bathtub-filter-competitor-and-demand-scan.md
   - ./bathtub-filter-user-segments.md
@@ -30,144 +31,121 @@ related:
 
 # Bathtub Filter
 
-## Scope and definition
-A working canonical page for research on bathtub filters: products intended to reduce unwanted substances or improve water quality characteristics for tub filling or bathing use.
+## 页面定位
+这是 bathtub filter 主题的 **canonical page（总页）**。
 
-This page should help KES assess whether bathtub filter is:
-- a viable new category
-- a useful adjacency to bathroom hardware
-- better treated as a niche accessory vs. a scalable product line
+它的用途不是承载全部细节，而是回答三件事：
+1. 这个品类到底在研究什么
+2. KES 当前对这个品类的主判断是什么
+3. 应该先看哪些页面，才能快速完成决策阅读
 
-## Why this category matters
-Potential reasons this category may matter for KES:
-- overlaps with bathroom and home-water-use behavior
-- could create a higher-problem / higher-explanation product than basic hardware
-- may support premium positioning if the user pain is strong and specific
-- may be relevant for content-led commerce because customer education is likely important
+## 当前一句话结论
+**这组研究已经足够完整，可以结束当前 desk research 阶段；若继续推进，应转入样品采购与测试验证，而不是继续无限扩写 wiki。**
 
-## Working problem statement
-Users may want cleaner-feeling bath water because of concerns such as:
-- chlorine or chloramine
-- hard water or mineral feel
-- odor
-- skin sensitivity
-- baby / child bathing
-- hair / skin comfort during soaking or rinsing
+## 范围与定义
+这里的 bathtub filter，指用于 **浴缸注水 / 泡澡场景**、试图降低某些不希望出现的水中成分，或改善 bathing comfort（水感 / 气味 / 皮肤体感）的产品。
 
-This requires verification by market and platform rather than assumption.
+这个主题应与以下类别相关但分开处理：
+- shower filters（淋浴过滤器）
+- faucet filters（水龙头过滤器）
+- whole-house filtration（全屋过滤）
+- under-sink systems（台下系统）
+- bath additives（非真正过滤逻辑的浴盐 / 添加剂 / bath treatment）
 
-## Category boundaries
-This topic should be kept separate from, but related to:
-- shower filters
-- faucet filters
-- whole-house filtration
-- under-sink systems
-- bath additives that are not true filtration products
+## 为什么值得研究
+对 KES 来说，这个方向之所以值得看，不是因为它像一个普通五金件，而是因为它兼具：
+- bathroom adjacency（浴室邻近品类）
+- stronger problem language（更强的问题驱动叙事）
+- premium storytelling potential（较强的高端叙事空间）
+- refill / consumable logic（潜在耗材逻辑）
 
-A key early question is whether customers search and buy bathtub filters as a standalone category or mostly as a subset of shower/water-filter intent.
+但它同时也带来更高门槛：
+- trust burden（信任负担）
+- claims risk（宣称风险）
+- compatibility complexity（适配复杂度）
+- review fragility（评论脆弱性）
 
-## Product-form hypotheses
-Possible product forms to investigate:
-- tub-faucet attached filter
-- inline filter for tub fill use
-- portable / temporary bathing filter
-- replaceable cartridge model
-- bath-ball / media-filled products that behave more like water-treatment accessories than true filters
+## 当前最稳定的研究判断
+### 1. 这是一个真实但碎片化的 niche
+公开市场已经显示 bathtub filter 不是虚构需求。
+但它仍然更像一个 **fragmented niche（碎片化小类目）**，而不是成熟、标准化、清晰分层的大类。
 
-## Key evaluation dimensions
-### User / demand
-- how strong is the pain point?
-- is demand episodic or repeatable?
-- is the use case concentrated around babies, sensitive skin, or premium wellness?
+### 2. 问题故事强于功效证据
+当前研究最清楚的一点是：
+- 用户为什么会关心水质、氯、硬水、敏感肌、baby bathing，这个逻辑已经较为清楚
+- 但 generic bathtub filters 是否真的在 realistic tub-fill conditions（真实浴缸注水条件）下稳定有效，仍缺硬验证
 
-### Product / engineering
-- compatibility with faucet and tub configurations
-- flow-rate constraints
-- cartridge life and replacement economics
-- real reduction performance vs. marketing-only claims
-- installation complexity and leakage risk
+换句话说：
+> **problem story is stronger than product-efficacy story**
 
-### Commercial
-- price band
-- contribution margin after filter media and replacement parts
-- repeat-purchase potential
-- review-driven conversion risk
-- return / complaint risk if performance expectations are too high
+### 3. 这个品类最大的风险是“高承诺、低验证”
+目前市场上最容易出问题的地方，不是没人买，而是：
+- overclaim（过度宣称）
+- fit ambiguity（适配边界不清）
+- normal-flow disappointment（正常流速下效果不及营销期待）
+- leak / overflow / maintenance burden（漏水 / 溢流 / 维护负担）
 
-### Compliance / claims
-- what can be claimed safely?
-- whether “removes chlorine” must be softened to “reduces chlorine” without certification
-- material safety and jurisdiction-specific compliance requirements
+## KES 当前建议姿态
+### 可以继续
+- concept narrowing（概念收窄）
+- benchmark sample buying（采购对标样品）
+- validation testing（验证测试）
+- claim-boundary design（宣称边界设计）
 
-## Current working view
-Initial intuition: this is worth researching because it has stronger consumer pain language than ordinary hardware, but it may also be a category with:
-- more trust burden
-- more claims risk
-- more education cost
-- more compatibility complexity
-than KES’s current core hardware products.
+### 不建议继续
+- 无上限追加 desk research 页面
+- 在没有真实测试前写成 launch-ready 结论
+- 走 aggressive eczema / baby-outcome claim route（激进湿疹 / 婴儿功效宣称路线）
 
-The evidence base has also become clearer: the category has a much better-supported **problem story** than **product-efficacy story**. In other words, there is now a credible reason to believe consumers are reacting to real water / skin-comfort concerns, but much less evidence that generic bathtub filters as sold in-market reliably solve those concerns to a clinically meaningful degree.
+## 当前最值得保留的路线
+### 主保留路线
+- **hybrid premium-but-disciplined route**  
+  偏高端、但克制、适合 KES 做成 bathroom product language 的路线
 
-A newer review-pattern pass also sharpens the operating risk: the category’s core failure mode may be **normal-flow disappointment**. Public review/testing materials now reinforce that bathtub-filter performance can be materially flow-rate-sensitive, which means marketing conversion can outrun realistic tub-fill efficacy unless the architecture, fit scope, and claim strategy are tightly controlled.
+- **narrow chlorine-focused / technically disciplined route**  
+  以 chlorine reduction、适配边界、测试透明度为核心的技术克制路线
 
-## Working evidence synthesis
-### What seems most defensible now
-- hard water appears to be a more strongly evidence-backed category concern than simplistic chlorine-only storytelling
-- chlorine / chloramine / pool-water irritation logic is still relevant for sensitive-skin explanation, but needs careful scope control
-- baby / infant and sensitive-skin use cases are plausible demand segments because the underlying concern is evidence-adjacent, not purely invented marketing language
-- the current literature supports a nuanced “reduce irritation burden” frame much better than a therapeutic or disease-improvement frame
+### 仅条件保留
+- soft-hanging ritual route（偏柔和生活方式 / ritual 感的路线）
 
-### Swimming + eczema interpretation layer
-The newest improvement in this research pass is that the swimming / eczema review layer is now accessible at full-text level through Europe PMC, even though direct PMC browser access was blocked.
+### 不建议作为主路线
+- commodity broad-claim bath-ball clone（泛化大宣称 bath ball 路线）
+- aggressive eczema / baby-outcome DTC route（激进湿疹 / 婴儿功效导向路线）
 
-That fuller review layer sharpens the interpretation:
-- children with atopic dermatitis should not be framed as automatically needing to avoid swimming
-- infant swimming by itself does not appear to have a consistent independent relationship with AD across the reviewed literature
-- hard water is discussed as a more central barrier-relevant variable
-- the combination of hard water + infant swimming is described as potentially synergistic in increasing AD prevalence in atopy-prone contexts
-- practical mitigation advice is more evidence-aligned than blanket avoidance advice: rinse after exposure, remove wet swimwear quickly, consider emollient support before and/or after swimming
+## 还没有真正闭环的关键问题
+这几项如果不做实测，继续扩写 wiki 的价值会明显下降：
+1. normal-flow proof（正常流速表现）
+2. fit realism（适配边界）
+3. leak / overflow / stability（漏水 / 溢流 / 稳定性）
+4. refill economics（替换成本与频率）
+5. claim boundary（不用夸大宣称时是否仍可转化）
 
-For KES, this matters because it supports a more intelligent explanation layer around “why some families care about bath water” without forcing an overclaim that a bathtub filter is a medical solution.
+## 当前推荐的正式表述
+建议内部将这题定义为：
 
-### Claim discipline implication
-The research direction is getting more favorable for:
-- education-led positioning
-- skin-comfort / chlorine-conscious / family-use framing
-- premium trust storytelling
+> **Bathtub filter 研究阶段已完成，可停止继续扩写；若继续推进，仅进入样品采购、测试验证与概念收窄阶段。**
 
-It is **not** getting more favorable for:
-- “improves eczema” claims
-- strong baby-safety implication claims without validation
-- strong hard-water-softening claims unless the technical route is unusually credible and test-backed
+## 建议阅读顺序
+### 先看这几页
+1. [[bathtub-filter-final-executive-summary-2026-04-14]]
+2. [[bathtub-filter-kes-go-no-go-memo-v1]]
+3. [[bathtub-filter-kes-route-elimination-memo-v1]]
+4. [[bathtub-filter-kes-concept-brief-v1]]
+5. [[bathtub-filter-test-gating-checklist-for-kes]]
 
-## Open questions
-- Is bathtub filter a real standalone demand pocket or just a tiny edge case?
-- Which pain point drives conversion most: baby use, skin sensitivity, chlorine, or hard water?
-- What technical route appears credible for tub-fill usage?
-- Is certification essential for winning, or can strong content and constrained claims work?
-- Which platforms show enough signal to justify deeper investment?
-- Does this fit KES operating strengths, or is it too far from current product DNA?
-
-## Next actions
-- map search intent and keyword variants
-- identify major product forms and top-reviewed listings
-- compare claim language across leading brands
-- extract common complaint patterns from reviews
-- assess certification / legal claim barriers
-- evaluate whether this should live under bathroom hardware adjacency or water-treatment adjacency
-- formalize marketplace-native negative-review extraction by SKU
-- test normal-flow versus reduced-flow performance implications more explicitly
-- formalize the academic-search workflow for evidence-heavy subtopics
-- add patent / technical-route analysis to test architecture credibility and IP crowding
-- deepen installation / compatibility engineering analysis
-- build pricing / refill / replacement comparison logic
-- map channel identities across Amazon / Home Depot / Walmart / DTC / wellness / baby-sensitive-skin routes
-- analyze SNS / creator discourse and visual-merchandising patterns
+### 如果要继续做产品判断，再看
+- [[bathtub-filter-kes-next-step-execution-plan-v1]]
+- [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
+- [[bathtub-filter-review-patterns-and-return-risk]]
+- [[bathtub-filter-pricing-refill-flow-fit-table-v2]]
+- [[bathtub-filter-installation-risk-matrix-v2]]
+- [[bathtub-filter-claim-risk-audit-v2]]
+- [[bathtub-filter-kes-product-architecture-hypotheses]]
 
 ## Obsidian links
 ### Core bathtub-filter pages
 - [[bathtub-filter]]
+- [[bathtub-filter-final-executive-summary-2026-04-14]]
 - [[bathtub-filter-review-patterns-and-return-risk]]
 - [[bathtub-filter-marketplace-negative-review-signals]]
 - [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
@@ -201,46 +179,10 @@ It is **not** getting more favorable for:
 - [[bathtub-filter-api-backed-academic-and-patent-fetch-2026-04-12]]
 
 ## Sources
-- [Source Summary — Bathtub Filter Market Scan (2026-04-11)](../source-summaries/bathtub-filter-market-scan-2026-04-11.md)
-- [Source Summary — Bathtub Filter Category and Consumer Cognition (2026-04-11)](../source-summaries/bathtub-filter-category-and-consumer-cognition-2026-04-11.md)
-- [Source Summary — Bathtub Filter Academic and Institutional Evidence (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-2026-04-11.md)
-- [Source Summary — Bathtub Filter Academic and Institutional Evidence Deepening (2026-04-11)](../source-summaries/bathtub-filter-academic-and-institutional-evidence-deepening-2026-04-11.md)
-- [Source Summary — Bathtub Filter Evidence Access Audit (2026-04-11)](../source-summaries/bathtub-filter-evidence-access-audit-2026-04-11.md)
-- [Source Summary — Bathtub Filter Market Research Signals (2026-04-11)](../source-summaries/bathtub-filter-market-research-signals-2026-04-11.md)
-- [Source Summary — Bathtub Filter Market Research and Industry Explanation Deepening (2026-04-11)](../source-summaries/bathtub-filter-market-research-and-industry-explanation-deepening-2026-04-11.md)
-- [Bathtub Filter Evidence Bibliography](./bathtub-filter-evidence-bibliography.md)
-- [Bathtub Filter Evidence Matrix](./bathtub-filter-evidence-matrix.md)
-- [Bathtub Filter Competitor and Demand Scan](../syntheses/bathtub-filter-competitor-and-demand-scan.md)
-- [Bathtub Filter Patent and Technical Landscape](../syntheses/bathtub-filter-patent-and-technical-landscape.md)
-- [Bathtub Filter Patent Table](./bathtub-filter-patent-table.md)
-- [Bathtub Filter Research Coverage Gaps](./bathtub-filter-research-coverage-gaps.md)
-- [Bathtub Filter Research Program — A to F](./bathtub-filter-research-program-a-to-f.md)
-- [Bathtub Filter Claim-Evidence Ladder](./bathtub-filter-claim-evidence-ladder.md)
-- [Bathtub Filter Claim Risk Audit](./bathtub-filter-claim-risk-audit.md)
-- [Bathtub Filter Claim Risk Audit — V2](./bathtub-filter-claim-risk-audit-v2.md)
-- [Bathtub Filter Brand Operating Matrix](./bathtub-filter-brand-operating-matrix.md)
-- [Bathtub Filter Brand Operating Matrix — V2](./bathtub-filter-brand-operating-matrix-v2.md)
-- [Bathtub Filter Pricing / Refill / Flow / Fit Table](./bathtub-filter-pricing-refill-flow-fit-table.md)
-- [Bathtub Filter Pricing / Refill / Flow / Fit Table — V2](./bathtub-filter-pricing-refill-flow-fit-table-v2.md)
-- [Bathtub Filter Channel Positioning Table](./bathtub-filter-channel-positioning-table.md)
-- [Bathtub Filter Channel Positioning Table — V2](./bathtub-filter-channel-positioning-table-v2.md)
-- [Bathtub Filter Installation Risk Matrix](./bathtub-filter-installation-risk-matrix.md)
-- [Bathtub Filter Installation Risk Matrix — V2](./bathtub-filter-installation-risk-matrix-v2.md)
-- [Bathtub Filter Standards and Certification Audit by Brand](./bathtub-filter-standards-and-certification-audit-by-brand.md)
-- [Bathtub Filter Brand Page Claim / Compliance Audit](./bathtub-filter-brand-page-claim-compliance-audit.md)
-- [Bathtub Filter Brand Page-Pack Audit — V2](./bathtub-filter-brand-page-pack-audit-v2.md)
-- [Bathtub Filter KES Product Architecture Hypotheses](./bathtub-filter-kes-product-architecture-hypotheses.md)
-- [Bathtub Filter KES Route Screening Memo — V1](./bathtub-filter-kes-route-screening-memo-v1.md)
-- [Bathtub Filter KES Route Screening Memo — V2](./bathtub-filter-kes-route-screening-memo-v2.md)
+- [Bathtub Filter 最终收尾摘要（2026-04-14）](./bathtub-filter-final-executive-summary-2026-04-14.md)
 - [Bathtub Filter KES Go / No-Go Memo — V1](./bathtub-filter-kes-go-no-go-memo-v1.md)
-- [Bathtub Filter Product Definition Language](./bathtub-filter-product-definition-language.md)
-- [Academic Search Workflow](../playbooks/academic-search-workflow.md)
-- [Bathtub Filter Validation / Testing Protocol](../playbooks/bathtub-filter-validation-testing-protocol.md)
+- [Bathtub Filter KES Route Elimination Memo — V1](./bathtub-filter-kes-route-elimination-memo-v1.md)
+- [Bathtub Filter KES Next-Step Execution Plan — V1](./bathtub-filter-kes-next-step-execution-plan-v1.md)
+- [Bathtub Filter Test-Gating Checklist for KES](./bathtub-filter-test-gating-checklist-for-kes.md)
 - [Bathtub Filter Review Patterns and Return Risk](./bathtub-filter-review-patterns-and-return-risk.md)
-- [Bathtub Filter Normal-Flow vs Reduced-Flow Evidence Table](./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md)
-- [Bathtub Filter Brand and Content Landscape](../syntheses/bathtub-filter-brand-and-content-landscape.md)
-- [Bathtub Filter Review and Compliance Landscape](../syntheses/bathtub-filter-review-and-compliance-landscape.md)
-- [Bathtub Filter Operations, Channel, and Visual Landscape](../syntheses/bathtub-filter-operations-channel-and-visual-landscape.md)
-- [Bathtub Filter SNS, Creator, and Visual Taxonomy](../syntheses/bathtub-filter-sns-creator-and-visual-taxonomy.md)
-- [Source Summary — Bathtub Filter API-Backed Academic and Patent Fetch (2026-04-12)](../source-summaries/bathtub-filter-api-backed-academic-and-patent-fetch-2026-04-12.md)
-- [Source Summary — Bathtub Filter Marketplace Review and Editorial Review Pass (2026-04-13)](../source-summaries/bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13.md)
+- [Bathtub Filter Competitor and Demand Scan](../syntheses/bathtub-filter-competitor-and-demand-scan.md)

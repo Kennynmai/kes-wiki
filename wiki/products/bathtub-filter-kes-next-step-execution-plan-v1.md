@@ -9,113 +9,129 @@ confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, kes, execution-plan]
-source_count: 4
+source_count: 5
 review_cycle: monthly
 verification_status: working
 related:
+  - ./bathtub-filter-final-executive-summary-2026-04-14.md
   - ./bathtub-filter-kes-concept-brief-v1.md
   - ./bathtub-filter-test-gating-checklist-for-kes.md
   - ./bathtub-filter-kes-route-elimination-memo-v1.md
   - ../playbooks/bathtub-filter-validation-testing-protocol.md
 ---
 
-# Bathtub Filter KES Next-Step Execution Plan — V1
+# Bathtub Filter KES 下一步执行计划 — V1
 
-## Why this page exists
-This page converts the current research package into a practical next-step plan.
-It is about execution order, not category theory.
+## 这页的目的
+这页把当前 research package 转成实际可执行的 next-step plan。
 
-## Objective
-Answer one narrow question first:
+它回答的不是“这个品类有没有意思”，而是：
 
-> Does KES have a survivable concept path in bathtub filters, or should the topic remain only a research archive?
+> **如果 KES 还要继续，这件事下一步到底怎么做？**
 
-## Workstream 1 — concept narrowing
-### Goal
-Pick only 1 lead concept and 1 backup concept.
+## 当前总原则
+当前建议不是 launch，而是：
+- 结束继续扩写型 desk research
+- 进入 concept narrowing + sample acquisition + validation testing
+- 在测试后再做一次明确的 continue / pause / archive decision
 
-### Current recommendation
-- Lead: [[bathtub-filter-kes-concept-brief-v1|Hybrid premium-but-disciplined tub-spout route]]
-- Backup: [[bathtub-filter-kes-concept-brief-v1|Narrow chlorine-focused technically disciplined route]]
-- Conditional reserve only: soft-hanging ritual route
+## 目标
+先回答一个更窄的问题：
 
-### Output
-- one-page concept summary per surviving route
-- one-page reason-for-rejection note for deprioritized routes
+> **KES 是否存在一个可存活（survivable）的 bathtub filter concept path？**
 
-## Workstream 2 — competitor/sample acquisition plan
-### Goal
-Get enough reference products to test the category honestly.
+如果没有，就应把这题保留为 research archive，而不是继续投入产品开发叙事。
 
-### Suggested sample set
-- 1 bath-ball benchmark
-- 1 soft-hanging benchmark
-- 1 premium spout-attach benchmark
-- 1 narrow chlorine-focused technical benchmark if accessible
+## Workstream 1 — concept narrowing（概念收窄）
+### 目标
+只保留：
+- 1 个 lead concept（主概念）
+- 1 个 backup concept（备选概念）
 
-### Output
-- sample shortlist
-- priority buy list
-- estimated budget
+### 当前建议
+- Lead：[[bathtub-filter-kes-concept-brief-v1|Hybrid premium-but-disciplined tub-spout route]]
+- Backup：[[bathtub-filter-kes-concept-brief-v1|Narrow chlorine-focused technically disciplined route]]
+- Conditional reserve only：soft-hanging ritual route
 
-## Workstream 3 — test setup definition
-### Goal
-Translate the validation protocol into a runnable internal test plan.
+### 输出物
+- 每条 surviving route 各 1 页简要 concept summary
+- 每条被放弃路线各 1 份 rejection note（可短）
 
-### Required modules
-- normal-flow chlorine reduction
-- reduced-flow comparison
-- fit matrix across tub-spout types
-- leak / overflow / repeated-use stability
-- refill / maintenance burden
+## Workstream 2 — competitor / sample acquisition（竞品与样品采购）
+### 目标
+拿到足够诚实的 benchmark samples（对标样品），避免只靠页面想象判断。
 
-### Output
-- test sheet template
-- pass/fail thresholds
-- equipment / reagent list if needed
+### 建议样品结构
+- 1 个 bath-ball benchmark
+- 1 个 soft-hanging benchmark
+- 1 个 premium spout-attach benchmark
+- 1 个 narrow chlorine-focused technical benchmark（如果可获取）
 
-## Workstream 4 — claim and language guardrails
-### Goal
-Prevent KES from drifting into the category’s worst habits.
+### 输出物
+- sample shortlist（样品短名单）
+- priority buy list（优先采购清单）
+- estimated budget（预算估算）
 
-### Non-negotiables
-- no eczema-improvement promise
-- no broad contaminant fantasy stack without proof
-- no vague universal-fit promise
-- no baby-safety implication beyond substantiated boundaries
+## Workstream 3 — validation test setup（验证测试搭建）
+### 目标
+把 validation protocol 变成真实可运行的内部测试。
 
-### Output
-- allowed claim list
-- conditional claim list
-- banned claim list
+### 必做模块
+- normal-flow chlorine reduction（正常流速下的氯 reduction 表现）
+- reduced-flow comparison（降流对比）
+- fit matrix across tub-spout types（不同浴缸出水口类型的适配矩阵）
+- leak / overflow / repeated-use stability（漏水 / 溢流 / 重复使用稳定性）
+- refill / maintenance burden（耗材更换与维护负担）
 
-## Workstream 5 — decision checkpoint
-### Goal
-After early testing and sample review, force a real decision.
+### 输出物
+- test sheet template（测试记录模板）
+- pass/fail thresholds（通过 / 失败阈值）
+- equipment / reagent list（设备与试剂清单，如需要）
 
-### Decision options
-- continue concept development
-- pause pending better proof
-- archive as non-priority adjacency
+## Workstream 4 — claim and language guardrails（宣称与语言边界）
+### 目标
+防止 KES 在这个品类里滑向最危险的市场表达。
 
-### Trigger
-Do not move forward without passing the gates in [[bathtub-filter-test-gating-checklist-for-kes]].
+### Non-negotiables（不可妥协项）
+- no eczema-improvement promise（不做“改善湿疹”承诺）
+- no broad contaminant fantasy stack without proof（无证据不做泛化污染物去除大礼包）
+- no vague universal-fit promise（不做模糊的 universal fit 承诺）
+- no baby-safety implication beyond substantiated boundary（不做超出证据边界的婴儿安全暗示）
 
-## Suggested execution order
-1. freeze route scope
-2. buy / source competitor samples
-3. set up test protocol
-4. run flow / fit / leak tests
-5. compare complaint risk against observed product behavior
-6. update concept brief and go/no-go memo
-7. make explicit continue/pause/archive decision
+### 输出物
+- allowed claims（允许宣称）
+- conditional claims（条件宣称）
+- banned claims（禁用宣称）
 
-## Best current managerial read
-The topic is mature enough for **structured diligence**.
-It is not mature enough for confident launch logic.
+## Workstream 5 — decision checkpoint（决策关口）
+### 目标
+在早期测试与样品复盘之后，强制做一次明确决策。
+
+### 决策选项
+- continue concept development（继续概念开发）
+- pause pending better proof（暂停，等待更强证据）
+- archive as non-priority adjacency（作为非优先邻近品类归档）
+
+### 触发条件
+在通过 [[bathtub-filter-test-gating-checklist-for-kes]] 前，不应进入真正的 product GO 逻辑。
+
+## 建议执行顺序
+1. freeze route scope（冻结路线范围）
+2. buy / source competitor samples（采购或获取竞品样品）
+3. set up validation protocol（搭建验证协议）
+4. run flow / fit / leak tests（执行流速 / 适配 / 漏水测试）
+5. compare complaint risk vs observed behavior（把评论风险与真实表现对照）
+6. update concept brief and go/no-go memo（更新概念简报与 go/no-go 结论）
+7. make explicit continue / pause / archive decision（做明确继续 / 暂停 / 归档决策）
+
+## 当前管理判断
+这题已经成熟到可以进入 **structured diligence（结构化尽调）**。
+
+但它仍然**没有成熟到可直接支持 launch conviction（直接支持上市信心）**。
 
 ## Obsidian links
 - [[bathtub-filter]]
+- [[bathtub-filter-final-executive-summary-2026-04-14]]
 - [[bathtub-filter-kes-concept-brief-v1]]
 - [[bathtub-filter-test-gating-checklist-for-kes]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
@@ -123,6 +139,7 @@ It is not mature enough for confident launch logic.
 - [[bathtub-filter-kes-go-no-go-memo-v1]]
 
 ## Sources
+- [[bathtub-filter-final-executive-summary-2026-04-14]]
 - [[bathtub-filter-kes-concept-brief-v1]]
 - [[bathtub-filter-test-gating-checklist-for-kes]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
