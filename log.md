@@ -86,3 +86,9 @@ Example:
 - updated: raw/products/bathtub-filter/2026-04-15-compatibility-engineering-and-water-jurisdiction-pass.md; wiki/products/bathtub-filter-compatibility-engineering-breakpoints.md; wiki/products/bathtub-filter-water-jurisdiction-demand-map.md; wiki/products/bathtub-filter-installation-risk-matrix-v2.md; wiki/products/bathtub-filter.md
 - status: working
 - notes: upgraded installation/compatibility from generic risk language into engineering breakpoints, and clarified how chlorine, chloramine, and hard-water realities affect category demand versus claim defensibility.
+
+## [2026-04-15] maintain | bathtub filter E/F write-back into go-no-go and gating
+- source: wiki/products/bathtub-filter-kes-go-no-go-memo-v1.md
+- updated: wiki/products/bathtub-filter-kes-go-no-go-memo-v1.md; wiki/products/bathtub-filter-test-gating-checklist-for-kes.md
+- status: working
+- notes: wrote compatibility-engineering and water-jurisdiction insights back into the decision memo and test gates, adding leak-taxonomy, spout-taxonomy, and geo/water-profile-fit requirements.

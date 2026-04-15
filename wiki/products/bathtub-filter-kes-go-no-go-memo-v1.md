@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-14
+updated: 2026-04-15
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, kes, go-no-go, memo]
-source_count: 24
+source_count: 26
 review_cycle: monthly
 verification_status: working
 related:
@@ -61,15 +61,38 @@ review / testing 内容反复提示，flow rate 会显著影响表现。
 
 那么即使底层问题真实存在，产品也可能在运营层面失败。
 
+而且现在更清楚的是，installation risk 不能只写成“容易漏水”。
+它至少包含：
+- geometry mismatch（几何不匹配）
+- bypass flow（部分水没真正过滤）
+- top overflow（顶部溢流）
+- seam / housing leak（接缝漏水）
+- retention failure（滑脱 / 摆动 / 半脱落）
+
+这说明 bathtub filter 的 compatibility 不是小配件问题，而是 route-level engineering problem（路线级工程问题）。
+
 ### 4. premium positioning 会同步提高 proof burden
 Canopy 说明了 design 与 softness 有助于卖货；
 但它也说明，一旦 performance 不够清晰，premium positioning 会引来更严格的审查。
 
+### 5. water-jurisdiction nuance（当地水务差异）会改变 route 的可防守性
+并不是所有地方的 demand 都来自同一类问题。
+当前更清楚的判断是：
+- free-chlorine 市场，更适合当前最可防守的 chlorine / odor / comfort story
+- chloramine-heavy 市场，用户动机可能更强，但 compact bathtub filter 也更难诚实承诺
+- hard-water 市场，类别相关性更强，但 compact bath filter 更容易被推向 softening overclaim
+
+这意味着：
+**需求强，不等于产品 story 也更容易成立。**
+
 ## 仍未解决的关键问题
 - bathtub filter 在 realistic tub-fill flow 下能不能真正表现足够好？
 - 什么样的 fit scope 是现实可交付的，而不会滑向 universal-fit overclaim？
+- 哪些 tub-spout types 值得支持，哪些应当前置排除？
+- renter-friendly 与 robust sealing / retention / overflow discipline 能否兼得，还是必须取舍？
 - 用户能接受怎样的 refill cadence？
 - 如果不用 eczema-forward 语言，单靠 chlorine / comfort story 是否足够转化？
+- 对 KES 来说，优先面向 chlorine-led 市场、chloramine-heavy 市场，还是 hard-water-led 市场？
 - KES 应该走 softer ritual route，还是更技术克制的 chlorine-focused route？
 
 ## 在任何真正的 product GO 之前，必须完成的验证
@@ -78,6 +101,8 @@ Canopy 说明了 design 与 softness 有助于卖货；
 3. repeated-use leak / stability test
 4. refill economics sanity check
 5. wording strategy that avoids clinical / eczema overreach
+6. leak taxonomy validation（至少拆分 bypass / overflow / seam leak / retention failure）
+7. geo / water-profile screen（至少区分 chlorine-led / chloramine-led / hard-water-led / dual-trigger markets）
 
 ## 初步战略建议
 ### 继续研究
@@ -97,5 +122,15 @@ Canopy 说明了 design 与 softness 有助于卖货；
 - premium but disciplined
 - chlorine / comfort-first
 - 必须要有 normal-flow proof
+- 必须要有 bounded-fit matrix，而不是 universal-fit 想象
+- 优先从更适合 chlorine story 的市场切入，而不是先碰最难讲真的 chloramine + hard-water 组合市场
 - 不做 eczema-improvement promise
 - 不做 broad contaminant fantasy stack
+
+## 新增判断：什么情况会把 conditional GO 拉回 NO-GO
+如果后续验证显示以下任一情况成立，当前的 conditional GO 应被下调：
+- 产品只在 reduced flow 下才有像样表现
+- 兼容性成功高度依赖隐藏 geometry 条件或用户 workaround
+- renter-friendly 诉求与 leak / overflow discipline 无法兼得
+- 目标市场主要由 chloramine / hard-water anxiety 驱动，但产品只能诚实讲很窄的 free-chlorine story，导致 demand / claim mismatch 过大
+- refill / hygiene / setup burden 叠加后，使 lived economics 明显崩掉
