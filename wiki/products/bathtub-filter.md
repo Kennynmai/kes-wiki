@@ -164,6 +164,8 @@ related:
 - [[bathtub-filter-installation-risk-matrix-v2]]
 - [[bathtub-filter-compatibility-engineering-breakpoints]]
 - [[bathtub-filter-water-jurisdiction-demand-map]]
+- [[bathtub-filter-ip-depth-and-brand-marker-map]]
+- [[bathtub-filter-visual-merchandising-and-creative-strategy]]
 - [[bathtub-filter-claim-risk-audit-v2]]
 - [[bathtub-filter-compliance-framework-and-evidence-boundaries]]
 - [[bathtub-filter-kes-go-no-go-memo-v1]]

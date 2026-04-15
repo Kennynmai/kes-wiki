@@ -92,3 +92,9 @@ Example:
 - updated: wiki/products/bathtub-filter-kes-go-no-go-memo-v1.md; wiki/products/bathtub-filter-test-gating-checklist-for-kes.md
 - status: working
 - notes: wrote compatibility-engineering and water-jurisdiction insights back into the decision memo and test gates, adding leak-taxonomy, spout-taxonomy, and geo/water-profile-fit requirements.
+
+## [2026-04-15] maintain | bathtub filter IP depth + visual strategy deepening
+- source: raw/products/bathtub-filter/2026-04-15-ip-depth-and-visual-strategy-pass.md
+- updated: raw/products/bathtub-filter/2026-04-15-ip-depth-and-visual-strategy-pass.md; wiki/products/bathtub-filter-ip-depth-and-brand-marker-map.md; wiki/products/bathtub-filter-visual-merchandising-and-creative-strategy.md; wiki/products/bathtub-filter.md
+- status: working
+- notes: clarified which brands appear more technically anchored versus marketing-led, and mapped the recurring visual worlds that seem to drive bathtub-filter conversion.
