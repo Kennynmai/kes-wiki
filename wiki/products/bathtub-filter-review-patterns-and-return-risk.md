@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-14
+updated: 2026-04-15
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, review-patterns, return-risk, marketplace]
-source_count: 1
+source_count: 2
 review_cycle: monthly
 verification_status: working
 related:
@@ -27,7 +27,7 @@ related:
 **什么样的 bathtub filter 承诺最容易转化，什么样的产品现实最容易引发失望、差评与退货（return）压力？**
 
 ## 当前证据状态
-这是一份基于公开 review-style editorial content（评测/导购内容）与品牌页面的定向综合。
+这是一份基于公开 review-style editorial content（评测/导购内容）、品牌页面，以及新增的 marketplace-native snippet / Q&A / Reddit 线索的定向综合。
 
 它适合用于识别 **pattern（模式）**，但不应被当作最终的定量评论挖掘结果。
 
@@ -72,8 +72,12 @@ related:
 - 滑落
 - 容易溢流
 - 必须用很别扭的方式调节龙头
+- 甚至需要用户额外用胶带、发圈等 workaround（临时补救方式）固定
 
 那么用户通常会在判断过滤效果之前，就先认为产品“不靠谱”。
+
+新增的 marketplace-native 线索还说明，这类失败往往不是简单的“装不上”，而是 **某些 faucet geometry（龙头几何）可用、某些不行**。
+这意味着所谓的 universal-fit（通用适配）风险，很多时候来自 **高方差适配**，不是单点 defect（缺陷）。
 
 ### 3. “universal fit（通用适配）”语言非常危险
 像“fits all tubs”或“works with all standard faucets”这类说法在商业上很诱人，
@@ -99,6 +103,15 @@ related:
 - cartridge / refill 寿命偏短
 - 塑料感明显或做工不稳
 - 给人“主要在卖故事，不是在卖工程”的感觉
+
+新增侦察也表明，**value collapse（价值坍塌）** 常常不是单独由价格引起，
+而是由下面这组组合触发：
+- 价格偏高
+- 效果感知不稳定
+- 龙头适配不稳定
+- 还要用户主动降速注水或做 workaround
+
+一旦同时发生两到三项，用户就很容易把产品评价为“不值这个价”。
 
 ## 不同 product forms 的典型风险
 ### 挂式 / bath-ball / universal 形式
@@ -140,6 +153,7 @@ related:
 - 更温和的 bath-water feel
 - comfort-first
 - premium but disciplined
+- 明确写出适配边界与推荐流速，而不是只写 easy install / universal fit
 
 更高风险的 messaging zone 包括：
 - eczema-improvement implication
@@ -155,11 +169,12 @@ related:
 评论风险不是边缘问题，而是能否规模化经营的核心变量。
 
 ## 下一步应验证什么
-1. 按 SKU 抽取 marketplace-native negative reviews
-2. 按 product form 聚类 fit failure / leak failure
+1. 按 SKU 抽取 20–30 条 marketplace-native review / Q&A fragments
+2. 按 product form 聚类 fit failure / slip failure / overflow failure
 3. 继续完善 normal-flow vs reduced-flow 证据表
 4. 结合售价带分析 refill cost tolerance（耗材承受度）
 5. 对照公开证据强度继续做 claim-language audit
+6. 单独建立 faucet geometry compatibility matrix（如 curved faucet / short spout / weak lip / high-pressure fill）
 
 ## Obsidian links
 - [[bathtub-filter]]
@@ -172,3 +187,4 @@ related:
 
 ## Sources
 - [Source Summary — Bathtub Filter Marketplace Review and Editorial Review Pass (2026-04-13)](../source-summaries/bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13.md)
+- `../../raw/products/bathtub-filter/2026-04-15-marketplace-review-mining-pass.md`

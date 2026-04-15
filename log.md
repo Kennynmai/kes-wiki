@@ -68,3 +68,9 @@ Example:
 - updated: wiki/products/bathtub-filter-kes-next-step-execution-plan-v1.md; wiki/products/bathtub-filter.md; wiki/products/bathtub-filter-obsidian-map.md; wiki/products/bathtub-filter-kes-concept-brief-v1.md; wiki/products/bathtub-filter-kes-route-elimination-memo-v1.md; wiki/products/bathtub-filter-test-gating-checklist-for-kes.md; wiki/products/bathtub-filter-cluster-cleanup-note-2026-04-14.md
 - status: working
 - notes: converted the concept package into an execution sequence and recorded current cluster cleanup status for ongoing maintenance.
+
+## [2026-04-15] maintain | bathtub filter marketplace-native review mining deepening
+- source: raw/products/bathtub-filter/2026-04-15-marketplace-review-mining-pass.md
+- updated: raw/products/bathtub-filter/2026-04-15-marketplace-review-mining-pass.md; wiki/products/bathtub-filter-review-patterns-and-return-risk.md; wiki/products/bathtub-filter-marketplace-negative-review-signals.md
+- status: working
+- notes: extended review mining with Amazon snippet/Q&A and Reddit-visible signals; sharpened slip/overflow/slow-fill/value-collapse patterns and converted them into clearer KES product/messaging implications.
