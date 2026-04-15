@@ -74,3 +74,9 @@ Example:
 - updated: raw/products/bathtub-filter/2026-04-15-marketplace-review-mining-pass.md; wiki/products/bathtub-filter-review-patterns-and-return-risk.md; wiki/products/bathtub-filter-marketplace-negative-review-signals.md
 - status: working
 - notes: extended review mining with Amazon snippet/Q&A and Reddit-visible signals; sharpened slip/overflow/slow-fill/value-collapse patterns and converted them into clearer KES product/messaging implications.
+
+## [2026-04-15] maintain | bathtub filter channel + unit-economics deepening
+- source: raw/products/bathtub-filter/2026-04-15-channel-and-unit-economics-pass.md
+- updated: raw/products/bathtub-filter/2026-04-15-channel-and-unit-economics-pass.md; wiki/products/bathtub-filter-channel-positioning-table-v2.md; wiki/products/bathtub-filter-pricing-refill-flow-fit-table-v2.md
+- status: working
+- notes: clarified channel identities (marketplace commodity vs premium DTC vs utility-lineage vs review bridge) and reframed pricing/replacement logic around lived unit economics rather than list price alone.
