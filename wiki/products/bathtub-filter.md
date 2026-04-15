@@ -162,6 +162,8 @@ related:
 - [[bathtub-filter-review-and-compliance-landscape]]
 - [[bathtub-filter-pricing-refill-flow-fit-table-v2]]
 - [[bathtub-filter-installation-risk-matrix-v2]]
+- [[bathtub-filter-compatibility-engineering-breakpoints]]
+- [[bathtub-filter-water-jurisdiction-demand-map]]
 - [[bathtub-filter-claim-risk-audit-v2]]
 - [[bathtub-filter-compliance-framework-and-evidence-boundaries]]
 - [[bathtub-filter-kes-go-no-go-memo-v1]]

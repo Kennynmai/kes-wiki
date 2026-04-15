@@ -80,3 +80,9 @@ Example:
 - updated: raw/products/bathtub-filter/2026-04-15-channel-and-unit-economics-pass.md; wiki/products/bathtub-filter-channel-positioning-table-v2.md; wiki/products/bathtub-filter-pricing-refill-flow-fit-table-v2.md
 - status: working
 - notes: clarified channel identities (marketplace commodity vs premium DTC vs utility-lineage vs review bridge) and reframed pricing/replacement logic around lived unit economics rather than list price alone.
+
+## [2026-04-15] maintain | bathtub filter compatibility engineering + water-jurisdiction deepening
+- source: raw/products/bathtub-filter/2026-04-15-compatibility-engineering-and-water-jurisdiction-pass.md
+- updated: raw/products/bathtub-filter/2026-04-15-compatibility-engineering-and-water-jurisdiction-pass.md; wiki/products/bathtub-filter-compatibility-engineering-breakpoints.md; wiki/products/bathtub-filter-water-jurisdiction-demand-map.md; wiki/products/bathtub-filter-installation-risk-matrix-v2.md; wiki/products/bathtub-filter.md
+- status: working
+- notes: upgraded installation/compatibility from generic risk language into engineering breakpoints, and clarified how chlorine, chloramine, and hard-water realities affect category demand versus claim defensibility.
