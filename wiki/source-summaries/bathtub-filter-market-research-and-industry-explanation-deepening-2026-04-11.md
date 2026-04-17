@@ -14,8 +14,8 @@ extraction_mode: progressive
 review_cycle: monthly
 verification_status: unverified
 related:
-  - ../products/bathtub-filter.md
-  - ../products/bathtub-filter-buying-criteria.md
+  - ../products/bathtub-filter/bathtub-filter.md
+  - ../products/bathtub-filter/bathtub-filter-buying-criteria.md
   - ../../raw/products/bathtub-filter/2026-04-11-market-research-and-industry-explanation-deepening.md
 ---
 

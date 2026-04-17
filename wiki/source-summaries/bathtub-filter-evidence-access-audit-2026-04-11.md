@@ -14,8 +14,8 @@ extraction_mode: direct-fetch
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ../products/bathtub-filter-evidence-bibliography.md
-  - ../products/bathtub-filter-evidence-matrix.md
+  - ../products/bathtub-filter/bathtub-filter-evidence-bibliography.md
+  - ../products/bathtub-filter/bathtub-filter-evidence-matrix.md
   - ../../raw/products/bathtub-filter/2026-04-11-evidence-access-audit.md
 ---
 

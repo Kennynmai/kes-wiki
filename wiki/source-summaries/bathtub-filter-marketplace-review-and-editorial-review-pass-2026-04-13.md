@@ -14,8 +14,8 @@ extraction_mode: progressive
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ../products/bathtub-filter.md
-  - ../products/bathtub-filter-review-patterns-and-return-risk.md
+  - ../products/bathtub-filter/bathtub-filter.md
+  - ../products/bathtub-filter/bathtub-filter-review-patterns-and-return-risk.md
   - ../syntheses/bathtub-filter-review-and-compliance-landscape.md
   - ../../raw/products/bathtub-filter/2026-04-13-market-review-pass.md
 ---
@@ -97,8 +97,8 @@ related:
 - 将发现连接到 installation-risk 与 claim-risk 页面
 
 ## Related pages
-- [Bathtub Filter](../products/bathtub-filter.md)
-- [Bathtub Filter Review Patterns and Return Risk](../products/bathtub-filter-review-patterns-and-return-risk.md)
+- [Bathtub Filter](../products/bathtub-filter/bathtub-filter.md)
+- [Bathtub Filter Review Patterns and Return Risk](../products/bathtub-filter/bathtub-filter-review-patterns-and-return-risk.md)
 - [Bathtub Filter Review and Compliance Landscape](../syntheses/bathtub-filter-review-and-compliance-landscape.md)
 
 ## Sources

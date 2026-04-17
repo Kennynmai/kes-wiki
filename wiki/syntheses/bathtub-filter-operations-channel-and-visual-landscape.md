@@ -13,8 +13,8 @@ source_count: 1
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ../products/bathtub-filter.md
-  - ../products/bathtub-filter-research-coverage-gaps.md
+  - ../products/bathtub-filter/bathtub-filter.md
+  - ../products/bathtub-filter/bathtub-filter-research-coverage-gaps.md
   - ./bathtub-filter-review-and-compliance-landscape.md
 ---
 

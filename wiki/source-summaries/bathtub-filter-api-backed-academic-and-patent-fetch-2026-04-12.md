@@ -14,8 +14,8 @@ extraction_mode: direct-api
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ../products/bathtub-filter.md
-  - ../products/bathtub-filter-patent-table.md
+  - ../products/bathtub-filter/bathtub-filter.md
+  - ../products/bathtub-filter/bathtub-filter-patent-table.md
   - ../syntheses/bathtub-filter-patent-and-technical-landscape.md
   - ../playbooks/academic-search-workflow.md
 ---

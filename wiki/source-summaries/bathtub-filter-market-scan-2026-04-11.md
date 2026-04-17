@@ -14,7 +14,7 @@ extraction_mode: progressive
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ../products/bathtub-filter.md
+  - ../products/bathtub-filter/bathtub-filter.md
   - ../syntheses/bathtub-filter-research-map.md
   - ../../raw/products/bathtub-filter/2026-04-11-market-scan.md
 ---
@@ -92,7 +92,7 @@ related:
 - technology-notes page
 
 ## Related pages
-- [Bathtub Filter](../products/bathtub-filter.md)
+- [Bathtub Filter](../products/bathtub-filter/bathtub-filter.md)
 - [Bathtub Filter Research Map](../syntheses/bathtub-filter-research-map.md)
 - [Bathtub Filter Competitor and Demand Scan](../syntheses/bathtub-filter-competitor-and-demand-scan.md)
 

@@ -14,9 +14,9 @@ extraction_mode: manual-synthesis
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ../products/bathtub-filter.md
-  - ../products/bathtub-filter-evidence-bibliography.md
-  - ../products/bathtub-filter-evidence-matrix.md
+  - ../products/bathtub-filter/bathtub-filter.md
+  - ../products/bathtub-filter/bathtub-filter-evidence-bibliography.md
+  - ../products/bathtub-filter/bathtub-filter-evidence-matrix.md
   - ./bathtub-filter-academic-and-institutional-evidence-deepening-2026-04-11.md
   - ./bathtub-filter-evidence-access-audit-2026-04-11.md
 ---

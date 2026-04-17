@@ -13,8 +13,8 @@ source_count: 9
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ../products/bathtub-filter.md
-  - ../products/bathtub-filter-channel-positioning-table-v2.md
+  - ../products/bathtub-filter/bathtub-filter.md
+  - ../products/bathtub-filter/bathtub-filter-channel-positioning-table-v2.md
 ---
 
 # 浴缸过滤器（Bathtub Filter）SNS、创作者与视觉分类法

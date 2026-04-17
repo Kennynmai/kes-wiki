@@ -14,8 +14,8 @@ extraction_mode: progressive
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ../products/bathtub-filter.md
-  - ../products/bathtub-filter-claims-and-certifications.md
+  - ../products/bathtub-filter/bathtub-filter.md
+  - ../products/bathtub-filter/bathtub-filter-claims-and-certifications.md
   - ../../raw/products/bathtub-filter/2026-04-11-academic-and-institutional-evidence.md
 ---
 
@@ -62,8 +62,8 @@ related:
 - 作为避免 overclaiming 的警示来源使用
 
 ## Related pages
-- [Bathtub Filter](../products/bathtub-filter.md)
-- [Bathtub Filter Claims and Certifications](../products/bathtub-filter-claims-and-certifications.md)
+- [Bathtub Filter](../products/bathtub-filter/bathtub-filter.md)
+- [Bathtub Filter Claims and Certifications](../products/bathtub-filter/bathtub-filter-claims-and-certifications.md)
 
 ## Sources
 - `raw/products/bathtub-filter/2026-04-11-academic-and-institutional-evidence.md`

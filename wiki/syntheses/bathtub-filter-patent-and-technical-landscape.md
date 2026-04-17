@@ -3,19 +3,19 @@ type: synthesis
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-14
+updated: 2026-04-17
 visibility: team
 confidence: medium
 officiality: draft
 domain: strategy
 domains: [bathtub-filter, patents, technical-landscape, product-architecture]
-source_count: 12
+source_count: 20
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ../products/bathtub-filter.md
-  - ../products/bathtub-filter-patent-table.md
-  - ../products/bathtub-filter-technology-notes.md
+  - ../products/bathtub-filter/bathtub-filter.md
+  - ../products/bathtub-filter/bathtub-filter-patent-table.md
+  - ../products/bathtub-filter/bathtub-filter-technology-notes.md
   - ../syntheses/bathtub-filter-research-map.md
 ---
 
@@ -359,11 +359,88 @@ shower 与 tub fill 的使用方式不同。
 
 这并不代表它们没有价值；只代表它们的“护城河种类”未必主要是公开可见 patent moat（专利护城河）。
 
+## 新品牌 IP 状态（2026-04-17 补充专项搜索）
+
+### 搜索方法
+对 Canopy、Kinder Filter、Tubo 分别进行了 Google Patents assignee 搜索 + 品牌官网 IP 声明检查 + USPTO 文件查询。
+
+### Canopy
+- **官网 IP 声明**：产品页面上找不到专利号、”patent pending”或任何 IP 声明
+- **USPTO 痕迹**：发现了一个与 Canopy 关联的 USPTO 文件编号（`data.uspto.gov/patent-file-wrapper/details/29986439`）——该编号对应设计专利申请格式（”D”字头），而非功能型实用专利（utility patent）
+- **曾存在的 patents 页面**（`onecanopy.com/pages/patents`）：404 已失效
+- **结论**：Canopy **可能持有至少一项设计专利**（外观专利），但具体内容不可确认；**没有公开可见的功能型 utility patent 与 bath filter 的过滤机制绑定**
+
+### Kinder Filter
+- **官网 IP 声明**：无任何专利声明、专利号或 “patent pending” 措辞
+- **Google Patents 搜索**：在 Kinder Filter 名下未找到任何与 bath filter 相关的专利申请
+- **结论**：**未见专利保护**
+
+### Tubo
+- **官网 IP 声明**：无专利声明；品牌以功效宣称（”clinically tested”、”99% chlorine removal”）为主
+- **Google Patents 搜索**：未找到与 Tubo / trytubo 关联的 bath filter 专利申请
+- **结论**：**未见专利保护**
+
+### 2015–2025 新增专利观察
+- **D1,034,899**（2024-07-09 授权）：”Bath Ball Filter” — 外观设计专利，受让人未完全确认，非功能 IP
+- DTC 新品牌整体：IP 版图在 2015–2025 年没有明显新增 utility patent 活动；主要新进入者依赖品牌定位、设计差异化和 supply chain 而非专利护城河
+
+### 修正后的整体 IP 版图判断
+> 原有判断（以 Sprite/Chlorgon 为主的 hot-water dechlorination media lineage 是最强技术 IP）保持有效。
+
+**新结论补充：**
+- DTC 新品牌（Canopy、Kinder、Tubo）在公开可见层面**没有功能型专利保护**
+- 这意味着 KES 进入此类目，在专利层面的压力主要来自 Sprite 旧有专利（大多临近或已过期），而非新品牌的 IP 壁垒
+- 新品牌的护城河更像：**品牌认知 + 设计美学 + DTC 渠道建设**，而非专利
+
+## 滤材化学证据更新（2026-04-17 P4/P5 专项调研）
+
+> 完整数据见：[[bathtub-filter-chloramine-media-research]] 和 [[bathtub-filter-media-efficacy-at-bath-conditions]]
+
+### 氯胺去除的 Tier 1 证据（关键补充）
+
+之前分析的"chloramine reduction 需要更收口"现在有 Tier 1 实验支持：
+
+| 媒体 | 游离氯 | 一氯胺 | 最强证据等级 |
+|------|------|------|------|
+| KDF-55 | ✅ 优秀 | ❌ 18.2% | Tier 2（Pure Water Gazette 测试）|
+| KDF-85 | ✅ 优秀 | ❌ 1.4% | Tier 2（同上）|
+| 亚硫酸钙 | ✅ 优秀 | ❌ pH 依赖失效 | **Tier 1**（Yiin et al. 1987, Inorg Chem）|
+| 标准 GAC | ✅ 良好 | ⚠️ 需 EBCT ≥10 min | Tier 2（贸易技术文献）|
+| 催化活性炭 | ✅ 优秀 | ✅ 需 EBCT ≥4–5 min | **Tier 1**（Kochany 2008, Water Environ Res）|
+| 维生素 C（淋浴）| ✅ 瞬时 | ❌ 接触时间不足 | **Tier 1**（Basu 2011, J Water Supply）|
+| 维生素 C（浴缸）| ✅ 瞬时 | ✅ 4–8 min 完全去除 | Tier 2（SFPUC 政府建议）|
+
+**最重要的修正**：之前标注为"中间地带"的氯胺宣称，现在有了更精确的媒体边界：
+- 亚硫酸钙：**不能宣称氯胺去除**（有 Tier 1 化学证据）
+- KDF-55/85：**不能宣称氯胺去除**（18.2% / 1.4%，实测数据）
+- 催化活性炭 + 充足接触时间：**可以宣称**（有 Tier 1 证据支持）
+- 维生素 C + 浴缸注水场景：**可以宣称**（有政府机构数据支持）
+
+### 浴缸注水条件的逆直觉发现（P5）
+
+之前对"contact time matters"的担忧是基于逻辑推断。现在有实测数据：
+
+独立评测（waterfilterguru.com 2026）在不同流速下对主要产品进行了比色法测试：
+- **快速流速（1.6–3.8 GPM）**：多数产品去除率 0–50%（部分产品完全失效）
+- **慢速流速（0.36–1.0 GPM，接近浴缸注水条件）**：多数产品达到 85–100%
+
+**结论：浴缸注水的低流速（0.3–0.8 GPM）对氯去除是有利条件，而非不利条件。** 这颠覆了之前基于"大体积水、短接触时间"的悲观预判。
+
+### NSF/ANSI 177 氯胺确认
+
+NSF/ANSI 177：
+- 测试水中氯胺要求 <0.1 mg/L（明确将氯胺作为干扰物排除）
+- **要求产品必须附加氯胺免责声明**："本产品未经评估在含氯胺水中的游离氯去除性能"
+- **任何使用 KDF-55 + 亚硫酸钙 + 标准 GAC 的 NSF 177 认证产品，不能声称氯胺去除**
+
+KES 若需氯胺宣称，正确认证路径是 **NSF/ANSI 42 氯胺去除认证**（需专门测试和申请）。
+
 ## 当前不确定性（Uncertainty）
 - 这轮主要依赖公开可见 patent pages、品牌站文案、搜索可见片段；并未做完整 patent family legal-status review
-- 未完成 brand-to-assignee 的系统映射，尤其 Canopy / Kinder / Tubo 可能存在未被快速搜索命中的申请
+- Canopy 的 USPTO 文件编号已确认，但设计专利具体内容、权利要求范围未完全审阅
 - 一些媒体文章会把 brand claims 转述得更激进，不能直接等同于 brand 官方实证
 - “clinical tested” 具体测试设计、样本量、终点与是否发表，公开信息仍有限
+- Sprite 20+ 专利的具体到期状态未系统核查
 
 ## Sources
 - `https://patents.google.com/patent/US6145670A/en`

@@ -14,7 +14,7 @@ extraction_mode: progressive
 review_cycle: monthly
 verification_status: unverified
 related:
-  - ../products/bathtub-filter.md
+  - ../products/bathtub-filter/bathtub-filter.md
   - ../syntheses/bathtub-filter-research-map.md
   - ../../raw/products/bathtub-filter/2026-04-11-market-research-signals.md
 ---
@@ -48,7 +48,7 @@ related:
 - 持续对 market-size claims 保持谨慎
 
 ## Related pages
-- [Bathtub Filter](../products/bathtub-filter.md)
+- [Bathtub Filter](../products/bathtub-filter/bathtub-filter.md)
 - [Bathtub Filter Research Map](../syntheses/bathtub-filter-research-map.md)
 
 ## Sources

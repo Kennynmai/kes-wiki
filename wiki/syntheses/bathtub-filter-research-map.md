@@ -13,7 +13,7 @@ source_count: 0
 review_cycle: monthly
 verification_status: unverified
 related:
-  - ../products/bathtub-filter.md
+  - ../products/bathtub-filter/bathtub-filter.md
   - ../playbooks/market-research-workflow.md
 ---
 
@@ -158,7 +158,7 @@ related:
 - shower-filter-vs-bathtub-filter
 
 ## Related pages
-- [Bathtub Filter](../products/bathtub-filter.md)
+- [Bathtub Filter](../products/bathtub-filter/bathtub-filter.md)
 - [Market Research Workflow](../playbooks/market-research-workflow.md)
 - [Academic Search Workflow](../playbooks/academic-search-workflow.md)
 - [Bathtub Filter Patent and Technical Landscape](./bathtub-filter-patent-and-technical-landscape.md)

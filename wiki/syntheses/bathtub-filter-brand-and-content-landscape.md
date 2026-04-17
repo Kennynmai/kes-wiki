@@ -13,8 +13,9 @@ source_count: 1
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ../products/bathtub-filter.md
-  - ../products/bathtub-filter-patent-table.md
+  - ../products/bathtub-filter/bathtub-filter.md
+  - ../products/bathtub-filter/bathtub-filter-patent-table.md
+  - ../products/bathtub-filter/bathtub-filter-content-ecosystem-by-layer.md
   - ./bathtub-filter-patent-and-technical-landscape.md
 ---
 
@@ -24,6 +25,7 @@ related:
 - [[bathtub-filter]]
 - [[bathtub-filter-brand-operating-matrix-v2]]
 - [[bathtub-filter-channel-positioning-table-v2]]
+- [[bathtub-filter-content-ecosystem-by-layer]]
 - [[bathtub-filter-review-patterns-and-return-risk]]
 - [[bathtub-filter-marketplace-negative-review-signals]]
 - [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
@@ -81,6 +83,8 @@ related:
 - 同时也很可能是 claim discipline risk（宣称边界风险）最高的区域之一
 
 ## 内容生态（Content ecosystems）
+→ 这四层的详细分层拆解见 [[bathtub-filter-content-ecosystem-by-layer]]，下面只做简要入口。
+
 ### A. Testing / review publishers
 已浮现示例：
 - WaterFilterGuru

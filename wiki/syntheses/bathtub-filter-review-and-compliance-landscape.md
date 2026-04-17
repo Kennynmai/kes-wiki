@@ -3,20 +3,20 @@ type: synthesis
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-14
+updated: 2026-04-17
 visibility: team
 confidence: medium
 officiality: draft
 domain: strategy
 domains: [bathtub-filter, reviews, compliance, standards, claims]
-source_count: 2
+source_count: 6
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ../products/bathtub-filter.md
-  - ../products/bathtub-filter-patent-table.md
-  - ../products/bathtub-filter-review-patterns-and-return-risk.md
-  - ../products/bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
+  - ../products/bathtub-filter/bathtub-filter.md
+  - ../products/bathtub-filter/bathtub-filter-patent-table.md
+  - ../products/bathtub-filter/bathtub-filter-review-patterns-and-return-risk.md
+  - ../products/bathtub-filter/bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
   - ./bathtub-filter-brand-and-content-landscape.md
 ---
 
@@ -104,18 +104,60 @@ related:
 2. 产品形态是否能避免 leak / fit frustration？
 3. 转化最强的 claims，是否恰恰是最难 defend 的 claims？
 
+## 合规与标准更新（2026-04-17）
+
+> 以下基于 P2（竞品情报）和 P4（氯胺证据）专项调研确认的新数据。完整证据见：[[bathtub-filter-competitor-commercial-intelligence]]，[[bathtub-filter-chloramine-media-research]]
+
+### NSF/ANSI 177 的两个关键确认
+
+**确认 1：品类内目前没有任何产品持有浴缸应用场景的独立 NSF 认证**
+
+| 品牌 | NSF 宣称 | 实际状态 |
+|------|------|------|
+| Canopy | "Tested to NSF/ANSI 177" | 无认证；自检 |
+| Crystal Quest | "IAPMO R&T tested to NSF 177" | 已测试，未认证 |
+| Santevia | "NSF 42 & 53 tested" | 未确认是否取得正式认证 |
+| Filterbaby | IAPMO 认证（Titanium 莲蓬头款）| 莲蓬头有认证，浴缸/龙头款无认证 |
+| 其余品牌 | 无或仅组件认证 | 均无产品级独立认证 |
+
+**确认 2：NSF/ANSI 177 明确不覆盖氯胺，且要求产品必须附加氯胺免责声明**
+
+NSF/ANSI 177 测试水中氯胺浓度要求 <0.1 mg/L（明确将氯胺作为干扰物排除在外），并要求通过该标准认证的产品必须声明："本产品未经评估在含氯胺水中的游离氯去除性能"。
+
+含义：
+- 任何以 NSF 177 为信任背书同时宣称去除氯胺的产品，都在误用该标准
+- Filterbaby 宣称"Lab Certified 去除 99.9% 氯胺"——但其浴缸/龙头款无 NSF 认证，使用的技术标准需进一步确认
+- KES 如需宣称氯胺去除，正确路径是 **NSF/ANSI 42 氯胺去除认证**，而非 NSF 177
+
+### 媒体层面的合规边界（P4 新增）
+
+| 宣称 | 可支撑媒体 | 不可支撑媒体 |
+|------|------|------|
+| "减少游离氯" | KDF-55/85、亚硫酸钙、催化炭、维生素 C | — |
+| "减少氯胺" | 催化活性炭（足够 EBCT）、浴缸场景下的维生素 C | KDF-55（18.2%）、KDF-85（1.4%）、亚硫酸钙（pH 依赖失效）|
+| "NSF 177 认证" | 不适用浴缸水龙头场景 | 不适用所有浴缸产品 |
+| "减少氯胺 + NSF 认证" | NSF 42 chloramine reduction（需单独认证）| NSF 177（明确不测试氯胺）|
+
+### 竞品性能 vs 宣称的错位
+
+独立测试（waterfilterguru.com 2026）显示：
+- Tubo（宣称 "8 阶段去除 99% 氯"）：正常流速下去除率 **0%**，检出铜渗出 405%
+- Crystal Quest：正常流速下 **0%**
+- Canopy：正常流速下 **50%**（仅在慢速流速 0.6 GPM 下达 100%）
+- **Santevia**：任何流速下均达 **100%**——独立测试第一，但几乎无营销
+
 ## 建议下一步
 - 建立按品牌拆分的 review-theme matrix
-- 把 normal-flow versus reduced-flow evidence 整理成更严格的 gating table
-- 建一页 claim-evidence ladder，附 example wording
-- 后续对最激进的 DTC 品牌做 page-level audits
+- 把 normal-flow versus reduced-flow evidence 整理成更严格的 gating table（已部分完成，见 [[bathtub-filter-media-efficacy-at-bath-conditions]]）
+- 建一页 claim-evidence ladder，附 example wording（已完成，见 [[bathtub-filter-evidence-matrix]] Section 9）
+- 后续对最激进的 DTC 品牌做 page-level audits（已完成，见 [[bathtub-filter-brand-page-claim-compliance-audit]]）
 
 ## Obsidian links
 - [[bathtub-filter]]
 - [[bathtub-filter-review-and-compliance-landscape]]
 - [[bathtub-filter-review-patterns-and-return-risk]]
 - [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
-- [[bathtub-filter-claim-evidence-ladder]]
+- [[bathtub-filter-evidence-matrix]]
 - [[bathtub-filter-claim-risk-audit-v2]]
 - [[bathtub-filter-standards-and-certification-audit-by-brand]]
 

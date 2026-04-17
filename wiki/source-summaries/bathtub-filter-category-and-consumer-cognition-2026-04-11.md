@@ -14,8 +14,8 @@ extraction_mode: progressive
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ../products/bathtub-filter.md
-  - ../products/bathtub-filter-user-segments.md
+  - ../products/bathtub-filter/bathtub-filter.md
+  - ../products/bathtub-filter/bathtub-filter-user-segments.md
   - ../../raw/products/bathtub-filter/2026-04-11-category-and-consumer-cognition.md
 ---
 
@@ -76,9 +76,9 @@ related:
 - 如果主题继续扩展，可新增 consumer-cognition / use-case 页面
 
 ## Related pages
-- [Bathtub Filter](../products/bathtub-filter.md)
-- [Bathtub Filter User Segments](../products/bathtub-filter-user-segments.md)
-- [Bathtub Filter Product Forms](../products/bathtub-filter-product-forms.md)
+- [Bathtub Filter](../products/bathtub-filter/bathtub-filter.md)
+- [Bathtub Filter User Segments](../products/bathtub-filter/bathtub-filter-user-segments.md)
+- [Bathtub Filter Product Forms](../products/bathtub-filter/bathtub-filter-product-forms.md)
 
 ## Sources
 - `raw/products/bathtub-filter/2026-04-11-category-and-consumer-cognition.md`

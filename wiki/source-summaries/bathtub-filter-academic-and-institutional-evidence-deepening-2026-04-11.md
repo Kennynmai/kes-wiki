@@ -14,8 +14,8 @@ extraction_mode: progressive
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ../products/bathtub-filter.md
-  - ../products/bathtub-filter-claims-and-certifications.md
+  - ../products/bathtub-filter/bathtub-filter.md
+  - ../products/bathtub-filter/bathtub-filter-claims-and-certifications.md
   - ../../raw/products/bathtub-filter/2026-04-11-academic-and-institutional-evidence-deepening.md
 ---
 
