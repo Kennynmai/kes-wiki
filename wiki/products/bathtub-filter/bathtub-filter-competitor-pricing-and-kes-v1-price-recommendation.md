@@ -220,6 +220,76 @@ Target 比 Amazon 低 21%——Canopy 明显把实体零售作为主销渠道，
 
 baby_sensitive_skin 定位（Canopy + Filterbaby）均价 $101，是 multi_stage 通用路线的 2.5 倍——**场景特化定位的溢价空间已被市场验证**。
 
+### 7.5 installation_type 维度（2026-04-18 完整切分）
+
+| installation_type | ASIN 数 | 月销合计 | 均价 | 代表品牌 |
+|---|---|---|---|---|
+| `faucet_mount` | 2 | 1K+ | **$101** | Canopy / Filterbaby |
+| `ball_style` | 1 | 500+ | $65 | Crystal Quest |
+| `other`（含 Tubo / Santevia / Beati）| 6 | 4K+ | $41 | — |
+| `overflow_integrated` | 3 | 2K+ | $21 | SHLLKTTRY / Yolycen |
+| `velcro_strap` | 1 | 1K+ | $16 | JYFJYF |
+
+**关键发现：** `faucet_mount` 是唯一平均价格 > $80 的安装方式，且月销仍达 1K+。所有其他安装方式均价 ≤ $65，大多数在 $40 以下。
+
+### 7.6 housing_material 维度（2026-04-18 完整切分）
+
+| housing_material | ASIN 数 | 月销合计 | 均价 | 代表品牌 |
+|---|---|---|---|---|
+| `metal_titanium` | 1 | 1K+ | $113 | Filterbaby |
+| `silicone` | 1 | 500+ | $89 | Canopy |
+| `plastic_abs` | 4 | 3K+ | $44 | Tubo / Crystal Quest / SHLLKTTRY |
+| `other` | 6 | 4K+ | $31 | Beati Faucet / Syvahome 等 |
+| `fabric_cotton` | 1 | 1K+ | $23 | Santevia |
+
+premium 材质（metal_titanium / silicone）= 均价 $90+；commodity 材质（plastic_abs / other）= 均价 $31–44。**材质选择直接锚定价格带**，KES 若进 $59–79 区间，housing 材质选择必须在 silicone / premium plastic 之间——普通 ABS 会被感知为 commodity。
+
+### 7.7 三个交叉切分视图（2026-04-18 新增）
+
+**视图 B — 价格带 × installation_type**（每格：ASIN 数 / 月销合计）
+
+| 价格带 | velcro_strap | faucet_mount | overflow_integrated | ball_style | other |
+|---|---|---|---|---|---|
+| <$20 | 1 / 1K+ | — | 2 / 1K+ | — | — |
+| $20–40 | — | — | 1 / 1K+ | — | 4 / 4K+ |
+| $40–80 | — | — | — | 1 / 500+ | 2 / 800+ |
+| **>$80** | — | **2 / 1K+** | — | — | — |
+
+→ **>$80 价位唯一有销量的 installation_type 是 faucet_mount**。其他安装方式无法支撑溢价定价。
+
+**视图 C — filtration_approach × installation_type**（每格：ASIN 数 / 月销合计 / 均价）
+
+| filtration_approach \ installation_type | velcro_strap | faucet_mount | overflow_integrated | ball_style | other |
+|---|---|---|---|---|---|
+| multi_stage_chemical_removal | 1/$16 | **— (空白)** | 2/$23 | 1/$65 | 4/$48 |
+| vitamin_mineral_infusion | — | — | 1/$16 | — | 2/$26 |
+| **baby_sensitive_skin_specialized** | — | **2 / 1K+ / $101** | — | — | — |
+
+→ **两个核心发现：**
+1. `baby_sensitive_skin` 全部集中在 `faucet_mount`，无一例外
+2. `faucet_mount × multi_stage_chemical_removal` 是**完全空白的市场格**——当前无品牌占据
+
+### 7.8 KES 定位矩阵含义（基于维度交叉）
+
+```
+faucet_mount × baby_sensitive_skin   → $101 avg（Canopy + Filterbaby 占据）
+faucet_mount × multi_stage            → ★ 完全空白格 ★
+other / ball / overflow × multi_stage → $16–65（OEM 白牌 + Crystal Quest 占据）
+```
+
+**KES V1 建议进入的格：`faucet_mount × multi_stage_chemical_removal`，定价 $59–79**
+
+理由：
+- 当前无竞争者：不与 Canopy（baby定位）正面对撞，不与 OEM 白牌打价格战
+- faucet_mount 结构性支撑溢价（市场验证：该格唯一 >$80 的安装方式）
+- KES 以 $59–79 进入，是目前**唯一** faucet_mount 产品低于 $80 的品牌
+- multi_stage 框架（去氯为核心）+ faucet_mount 工程可信度 = 技术信任感高于 baby-style 的情绪定位
+- 后期可向 baby_sensitive_skin 叙事升级（加 silver-ion / 换设计语言），但 V1 不需要
+
+**KES 不应进入的格：**
+- `baby_sensitive_skin` 格：FilterBaby 专利 (`US12534389B2`, 到期 2044) + Canopy 品牌心智 = 双重 blocker
+- `overflow_integrated` / `velcro_strap` 格：价格天花板 $20，OEM 成本优势无法竞争
+
 ## 8. 复查节奏
 
 每季度复查竞品价格 + refill cadence。特别监测：
@@ -238,3 +308,6 @@ baby_sensitive_skin 定位（Canopy + Filterbaby）均价 $101，是 multi_stage
 - [[bathtub-filter-community-language-compression-patterns]]
 - [[bathtub-filter-utility-service-map-by-metro]]
 - [[bathtub-filter-research-coverage-gaps]]
+
+## Sources（追加）
+- `raw/products/bathtub-filter/2026-04-18-ops-platform-dimension-matrix-and-cross-site.md`（三维度 ASIN 明细 + 三交叉视图 + 跨站点覆盖矩阵）
