@@ -1,0 +1,116 @@
+{
+  "dimensions": [
+    {
+      "name": "installation_type",
+      "description": "The physical mechanism used to attach or position the filter on the bathtub faucet or within the tub.",
+      "values": [
+        "velcro_strap",
+        "faucet_mount",
+        "overflow_integrated",
+        "ball_style",
+        "other"
+      ]
+    },
+    {
+      "name": "housing_material",
+      "description": "The primary material used for the external casing of the filter unit which determines durability and heat resistance.",
+      "values": [
+        "plastic_abs",
+        "metal_titanium",
+        "silicone",
+        "fabric_cotton",
+        "other"
+      ]
+    },
+    {
+      "name": "filtration_approach",
+      "description": "The primary functional method or additive used to treat the water for specific user outcomes.",
+      "values": [
+        "multi_stage_chemical_removal",
+        "vitamin_mineral_infusion",
+        "baby_sensitive_skin_specialized",
+        "other"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "asin": "B0CXT5KL5Z",
+      "installation_type": "other",
+      "housing_material": "other",
+      "filtration_approach": "multi_stage_chemical_removal"
+    },
+    {
+      "asin": "B0GFQ1JRSK",
+      "installation_type": "faucet_mount",
+      "housing_material": "silicone",
+      "filtration_approach": "baby_sensitive_skin_specialized"
+    },
+    {
+      "asin": "B0D3X39378",
+      "installation_type": "overflow_integrated",
+      "housing_material": "plastic_abs",
+      "filtration_approach": "multi_stage_chemical_removal"
+    },
+    {
+      "asin": "B0DC3JQ34R",
+      "installation_type": "overflow_integrated",
+      "housing_material": "plastic_abs",
+      "filtration_approach": "multi_stage_chemical_removal"
+    },
+    {
+      "asin": "B0742KFY9R",
+      "installation_type": "other",
+      "housing_material": "fabric_cotton",
+      "filtration_approach": "vitamin_mineral_infusion"
+    },
+    {
+      "asin": "B0D78XBHSW",
+      "installation_type": "other",
+      "housing_material": "other",
+      "filtration_approach": "multi_stage_chemical_removal"
+    },
+    {
+      "asin": "B0FT7R9ZQ9",
+      "installation_type": "velcro_strap",
+      "housing_material": "other",
+      "filtration_approach": "multi_stage_chemical_removal"
+    },
+    {
+      "asin": "B0FNVDJRSQ",
+      "installation_type": "faucet_mount",
+      "housing_material": "metal_titanium",
+      "filtration_approach": "baby_sensitive_skin_specialized"
+    },
+    {
+      "asin": "B0DTQ8H23D",
+      "installation_type": "other",
+      "housing_material": "plastic_abs",
+      "filtration_approach": "multi_stage_chemical_removal"
+    },
+    {
+      "asin": "B008A4AG2U",
+      "installation_type": "ball_style",
+      "housing_material": "plastic_abs",
+      "filtration_approach": "multi_stage_chemical_removal"
+    },
+    {
+      "asin": "B0G5NZBW6W",
+      "installation_type": "other",
+      "housing_material": "other",
+      "filtration_approach": "vitamin_mineral_infusion"
+    },
+    {
+      "asin": "B0FL24SLM5",
+      "installation_type": "overflow_integrated",
+      "housing_material": "other",
+      "filtration_approach": "vitamin_mineral_infusion"
+    },
+    {
+      "asin": "B0GKT5CHYL",
+      "installation_type": "other",
+      "housing_material": "other",
+      "filtration_approach": "multi_stage_chemical_removal"
+    }
+  ]
+}

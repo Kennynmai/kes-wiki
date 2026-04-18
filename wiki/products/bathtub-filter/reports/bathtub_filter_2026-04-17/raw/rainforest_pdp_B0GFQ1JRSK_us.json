@@ -1,0 +1,774 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 4319,
+    "credits_used_this_request": 1,
+    "credits_remaining": 5681,
+    "credits_reset_at": "2026-04-19T07:41:22.000Z"
+  },
+  "request_parameters": {
+    "type": "product",
+    "amazon_domain": "amazon.com",
+    "asin": "B0GFQ1JRSK",
+    "output": "json"
+  },
+  "request_metadata": {
+    "created_at": "2026-04-18T00:46:16.203Z",
+    "processed_at": "2026-04-18T00:46:22.755Z",
+    "total_time_taken": 6.55,
+    "amazon_url": "https://www.amazon.com/dp/B0GFQ1JRSK?th=1&psc=1"
+  },
+  "product": {
+    "title": "Canopy Baby Bath Tub Filter \u2013 Gentler Water Filtration for Delicate Skin | Reduces Chlorine & Irritants | BPA-Free Silicone Spout Cover | Easy Tool-Free Install | Activated Carbon Filtration Butter Yellow",
+    "search_alias": {
+      "title": "Tools & Home Improvement",
+      "value": "search-alias=tools"
+    },
+    "title_excluding_variant_name": "Canopy Baby Bath Tub Filter \u2013 Gentler Water Filtration for Delicate Skin | Reduces Chlorine & Irritants | BPA-Free Silicone Spout Cover | Easy Tool-Free Install | Activated Carbon Filtration",
+    "keywords": "Canopy Baby Bath Tub Filter \u2013 Gentler Water Filtration for Delicate Skin | Reduces Chlorine & Irritants | BPA-Free Silicone Spout Cover | Easy Tool-Free Install | Activated Carbon Filtration Butter Yellow",
+    "is_collection": false,
+    "asin": "B0GFQ1JRSK",
+    "parent_asin": "B0GHSMGDSQ",
+    "link": "https://www.amazon.com/Canopy-Baby-Bath-Tub-Filter/dp/B0GFQ1JRSK",
+    "brand": "Canopy",
+    "sell_on_amazon": false,
+    "variants": [
+      {
+        "asin": "B0FLN3N4T1",
+        "title": "Snow White",
+        "is_current_product": false,
+        "link": "https://www.amazon.com/dp/B0FLN3N4T1?th=1&psc=1",
+        "dimensions": [
+          {
+            "name": "Color",
+            "value": "Snow White"
+          }
+        ],
+        "main_image": "https://m.media-amazon.com/images/I/61+RPCv9nCL._AC_SL1500_.jpg",
+        "images": [
+          {
+            "variant": "MAIN",
+            "link": "https://m.media-amazon.com/images/I/61+RPCv9nCL._AC_SL1500_.jpg"
+          }
+        ]
+      },
+      {
+        "asin": "B0GFQ1JRSK",
+        "title": "Butter Yellow",
+        "is_current_product": true,
+        "link": "https://www.amazon.com/dp/B0GFQ1JRSK?th=1&psc=1",
+        "dimensions": [
+          {
+            "name": "Color",
+            "value": "Butter Yellow"
+          }
+        ],
+        "main_image": "https://m.media-amazon.com/images/I/61iSTfftnpL._AC_SL1500_.jpg",
+        "images": [
+          {
+            "variant": "MAIN",
+            "link": "https://m.media-amazon.com/images/I/61iSTfftnpL._AC_SL1500_.jpg"
+          }
+        ]
+      },
+      {
+        "asin": "B0GFPWV6S9",
+        "title": "Lavender",
+        "is_current_product": false,
+        "link": "https://www.amazon.com/dp/B0GFPWV6S9?th=1&psc=1",
+        "dimensions": [
+          {
+            "name": "Color",
+            "value": "Lavender"
+          }
+        ],
+        "main_image": "https://m.media-amazon.com/images/I/61Ak0SvewxL._AC_SL1500_.jpg",
+        "images": [
+          {
+            "variant": "MAIN",
+            "link": "https://m.media-amazon.com/images/I/61Ak0SvewxL._AC_SL1500_.jpg"
+          }
+        ]
+      }
+    ],
+    "variant_asins_flat": "B0FLN3N4T1,B0GFQ1JRSK,B0GFPWV6S9",
+    "proposition_65_warning": false,
+    "has_size_guide": true,
+    "add_on_item": {
+      "is_add_on_item": true
+    },
+    "categories": [
+      {
+        "name": "Tools & Home Improvement",
+        "link": "https://www.amazon.com/Tools-and-Home-Improvement/b/ref=dp_bc_1?ie=UTF8&node=228013",
+        "category_id": "228013"
+      },
+      {
+        "name": "Kitchen & Bath Fixtures",
+        "link": "https://www.amazon.com/Kitchen-26-Bath-Fixtures/b/ref=dp_bc_2?ie=UTF8&node=3754161",
+        "category_id": "3754161"
+      },
+      {
+        "name": "Bathroom Fixtures",
+        "link": "https://www.amazon.com/Bathroom-Fixtures/b/ref=dp_bc_3?ie=UTF8&node=680350011",
+        "category_id": "680350011"
+      },
+      {
+        "name": "Bathtub Faucets & Showerheads",
+        "link": "https://www.amazon.com/Bathtub-Faucets-26-Showerheads/b/ref=dp_bc_4?ie=UTF8&node=6810209011",
+        "category_id": "6810209011"
+      },
+      {
+        "name": "Bathtub Faucet Replacement Parts",
+        "link": "https://www.amazon.com/Bathtub-Faucet-Parts/b/ref=dp_bc_5?ie=UTF8&node=10425126011",
+        "category_id": "10425126011"
+      }
+    ],
+    "categories_flat": "Tools & Home Improvement > Kitchen & Bath Fixtures > Bathroom Fixtures > Bathtub Faucets & Showerheads > Bathtub Faucet Replacement Parts",
+    "sub_title": {
+      "text": "Visit the Canopy Store",
+      "link": "https://www.amazon.com/stores/Canopy/page/371F8F31-44CC-4CB5-8ECE-9E8954FE56DF?lp_asin=B0GFQ1JRSK&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto"
+    },
+    "amazons_choice": {
+      "link": "https://www.amazon.com/Canopy-Baby-Bath-Tub-Filter/dp/B0GFQ1JRSK",
+      "badge_text": "Amazon's  Choice"
+    },
+    "marketplace_id": "ATVPDKIKX0DER",
+    "rating": 4.5,
+    "rating_breakdown": {
+      "five_star": {
+        "percentage": 70,
+        "count": 40
+      },
+      "four_star": {
+        "percentage": 13,
+        "count": 7
+      },
+      "three_star": {
+        "percentage": 15,
+        "count": 9
+      },
+      "two_star": {
+        "percentage": 0,
+        "count": 0
+      },
+      "one_star": {
+        "percentage": 2,
+        "count": 1
+      }
+    },
+    "ratings_total": 57,
+    "main_image": {
+      "link": "https://m.media-amazon.com/images/I/61iSTfftnpL.jpg"
+    },
+    "images": [
+      {
+        "link": "https://m.media-amazon.com/images/I/61lIQsAuEbL._AC_SL1500_.jpg",
+        "variant": "PT01"
+      },
+      {
+        "link": "https://m.media-amazon.com/images/I/71A1e+KFtuL._AC_SL1500_.jpg",
+        "variant": "PT02"
+      },
+      {
+        "link": "https://m.media-amazon.com/images/I/71Txvn0ut5L._AC_SL1500_.jpg",
+        "variant": "PT03"
+      },
+      {
+        "link": "https://m.media-amazon.com/images/I/71zhSRttXQL._AC_SL1500_.jpg",
+        "variant": "PT04"
+      },
+      {
+        "link": "https://m.media-amazon.com/images/I/81BcJyb2gfL._AC_SL1500_.jpg",
+        "variant": "PT05"
+      },
+      {
+        "link": "https://m.media-amazon.com/images/I/61cxglhgUOL._AC_SL1500_.jpg",
+        "variant": "PT06"
+      },
+      {
+        "link": "https://m.media-amazon.com/images/I/817IQIDcjNL._AC_SL1500_.jpg",
+        "variant": "PT07"
+      },
+      {
+        "link": "https://m.media-amazon.com/images/I/71J-liA9iML._AC_SL1500_.jpg",
+        "variant": "PT08"
+      }
+    ],
+    "images_count": 8,
+    "images_flat": "https://m.media-amazon.com/images/I/61lIQsAuEbL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71A1e+KFtuL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71Txvn0ut5L._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71zhSRttXQL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/81BcJyb2gfL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/61cxglhgUOL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/817IQIDcjNL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71J-liA9iML._AC_SL1500_.jpg",
+    "videos_additional": [
+      {
+        "type": "videos_for_this_product",
+        "id": "amzn1.vse.video.0513395a523d480e8b6e15ce6acddef6",
+        "product_asin": "B0GFQ1JRSK",
+        "parent_asin": "B0GHSMGDSQ",
+        "related_products": "B0GFQ1JRSK",
+        "title": "This filter is the best for babies skin",
+        "profile_image_url": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/inezmoore_379b6dbc-f276-43b1-a49e-04a90cafa78e._SL34_.jpeg",
+        "profile_link": "/shop/inezmoore",
+        "public_name": "Keya J",
+        "vendor_code": "inezmoore:shop",
+        "vendor_name": "Keya J",
+        "vendor_tracking_id": "keyaj-20",
+        "video_image_url": "https://m.media-amazon.com/images/I/418KsOrXEoL._CR0,0,360,203_SR342,193_.jpg",
+        "video_image_url_unchanged": "https://m.media-amazon.com/images/I/418KsOrXEoL.jpg",
+        "video_image_width": "360",
+        "video_image_height": "640",
+        "video_image_extension": "jpg",
+        "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/771d3c71-a91f-4b52-9bff-369e95a853df/default.vertical.jobtemplate.hls.m3u8",
+        "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a4f2c801-ea05-4446-8c31-3b731ba2f30b/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a4f2c801-ea05-4446-8c31-3b731ba2f30b/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+        "video_mime_type": "application/x-mpegURL",
+        "duration": "0:42",
+        "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/447ef55a-dea8-4dff-be24-20e73d16da24.vtt"
+      },
+      {
+        "type": "videos_for_this_product",
+        "id": "amzn1.vse.video.071a4baf913e4e9bbad43721533f89bb",
+        "product_asin": "B0GFQ1JRSK",
+        "parent_asin": "B0GHSMGDSQ",
+        "related_products": "B0GFQ1JRSK",
+        "title": "Non toxic living isnt just what you buy Its what you bathe in every day",
+        "profile_image_url": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/inezmoore_379b6dbc-f276-43b1-a49e-04a90cafa78e._SL34_.jpeg",
+        "profile_link": "/shop/inezmoore",
+        "public_name": "Keya J",
+        "vendor_code": "inezmoore:shop",
+        "vendor_name": "Keya J",
+        "vendor_tracking_id": "keyaj-20",
+        "video_image_url": "https://m.media-amazon.com/images/I/41yuTenWzhL._CR0,0,360,203_SR342,193_.jpg",
+        "video_image_url_unchanged": "https://m.media-amazon.com/images/I/41yuTenWzhL.jpg",
+        "video_image_width": "360",
+        "video_image_height": "640",
+        "video_image_extension": "jpg",
+        "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/3f021686-3e6e-4c3d-a4ad-5ff89361156c/default.vertical.jobtemplate.hls.m3u8",
+        "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/e2ec02a2-dff5-4904-a7ae-0c5613934159/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/e2ec02a2-dff5-4904-a7ae-0c5613934159/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+        "video_mime_type": "application/x-mpegURL",
+        "duration": "0:08",
+        "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/5e590024-2af7-4034-980e-c52face05d3a.vtt"
+      },
+      {
+        "type": "videos_for_this_product",
+        "id": "amzn1.vse.video.0a4a658106a14a9a9e9815939d351679",
+        "product_asin": "B0GFQ1JRSK",
+        "parent_asin": "B0GHSMGDSQ",
+        "related_products": "B0GFPWV6S9,B0GHSMGDSQ",
+        "title": "The EASIEST install ever... Cleaner water in minutes!",
+        "profile_image_url": "https://m.media-amazon.com/images/I/71cwPdBKzwL._CR0,0,1120,1120_._FMjpg_._SL34_.jpg",
+        "profile_link": "/shop/belleplume.crochet",
+        "public_name": "\u2728Alexa, is it worth it? \u2728",
+        "vendor_code": "belleplume.crochet:shop",
+        "vendor_name": "\u2728Alexa, is it worth it? \u2728",
+        "vendor_tracking_id": "onamzale01b10-20",
+        "video_image_url": "https://m.media-amazon.com/images/I/514AF4-o0DL._CR0,0,1305,736_SR684,386_.jpg",
+        "video_image_url_unchanged": "https://m.media-amazon.com/images/I/514AF4-o0DL.jpg",
+        "video_image_width": "1305",
+        "video_image_height": "737",
+        "video_image_extension": "jpg",
+        "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a8727f9f-818e-4ce6-9714-9a5b8af12f91/default.jobtemplate.hls.m3u8",
+        "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f04dd400-c214-4af2-be78-db62c8c93f7e/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f04dd400-c214-4af2-be78-db62c8c93f7e/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+        "video_mime_type": "application/x-mpegURL",
+        "duration": "3:33",
+        "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/e418ebe5-1ce6-4dae-baaa-1d5c2d0e4b97.vtt"
+      },
+      {
+        "type": "videos_for_this_product",
+        "id": "amzn1.vse.video.0ce18e5426884f1da8c4cd1b86c386c1",
+        "product_asin": "B0GFQ1JRSK",
+        "parent_asin": "B0GHSMGDSQ",
+        "related_products": "B0FLN3N4T1",
+        "title": "Bathtub Water Filter",
+        "profile_image_url": "https://m.media-amazon.com/images/I/71OkPYIY37L._CR0,0,1138,1138_._FMjpg_._SL34_.jpg",
+        "profile_link": "/shop/davisrootshomestead",
+        "public_name": "Haley Davis",
+        "vendor_code": "davisrootshomestead:shop",
+        "vendor_name": "Haley Davis",
+        "vendor_tracking_id": "onamzhale06f3-20",
+        "video_image_url": "https://m.media-amazon.com/images/I/51cDyf1h6jL._CR0,0,640,361_SR342,193_.jpg",
+        "video_image_url_unchanged": "https://m.media-amazon.com/images/I/51cDyf1h6jL.jpg",
+        "video_image_width": "640",
+        "video_image_height": "1137",
+        "video_image_extension": "jpg",
+        "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/947f4834-32fb-4f88-86b3-75919f3dbc11/default.vertical.jobtemplate.hls.m3u8",
+        "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f37116ec-b5e3-4be5-803d-09d43d3e98d9/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f37116ec-b5e3-4be5-803d-09d43d3e98d9/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+        "video_mime_type": "application/x-mpegURL",
+        "duration": "0:33",
+        "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/f201ae04-7405-4163-a4e9-b1d403a71ffc.vtt"
+      },
+      {
+        "type": "videos_for_this_product",
+        "id": "amzn1.vse.video.013f8dc536584a83a8cda8a15a329b42",
+        "product_asin": "B0GFQ1JRSK",
+        "parent_asin": "B0GHSMGDSQ",
+        "related_products": "B0GFQGXGXP",
+        "title": "The best tub filter",
+        "profile_image_url": "https://m.media-amazon.com/images/I/B1-+aujy9GL._CR0,0,4284,4284_._FMjpg_._SL34_.jpg",
+        "profile_link": "/shop/kendallpaigeh",
+        "public_name": "Kendall Higgs",
+        "vendor_code": "kendallpaigeh:shop",
+        "vendor_name": "Kendall Higgs",
+        "vendor_tracking_id": "onamzkend0ae0-20",
+        "video_image_url": "https://m.media-amazon.com/images/I/51MrklmXXHL._CR0,0,640,361_SR342,193_.jpg",
+        "video_image_url_unchanged": "https://m.media-amazon.com/images/I/51MrklmXXHL.jpg",
+        "video_image_width": "640",
+        "video_image_height": "1137",
+        "video_image_extension": "jpg",
+        "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/e98bab0b-8b56-45cf-a0cf-6a7fd7717e63/default.vertical.jobtemplate.hls.m3u8",
+        "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4e76133a-c0e2-4de2-9007-fbfb8a389582/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4e76133a-c0e2-4de2-9007-fbfb8a389582/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+        "video_mime_type": "application/x-mpegURL",
+        "duration": "0:23",
+        "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/11e5bd85-b6b7-4722-890e-0d2bc77f248e.vtt"
+      },
+      {
+        "type": "videos_for_this_product",
+        "id": "amzn1.vse.video.0100f5df0e604440bca3c819e773f153",
+        "product_asin": "B0GFQ1JRSK",
+        "parent_asin": "B0GHSMGDSQ",
+        "related_products": "B0GFPWV6S9",
+        "title": "Bath Filter for delicate skin",
+        "profile_image_url": "https://m.media-amazon.com/images/I/C11N2SK300L._CR0,534,3024,3024_._FMjpg_._SL34_.jpg",
+        "profile_link": "/shop/benteweaver-healthwealth",
+        "public_name": "Bente Weaver",
+        "vendor_code": "benteweaver-healthwealth:shop",
+        "vendor_name": "Bente Weaver",
+        "vendor_tracking_id": "onamzessen0a0-20",
+        "video_image_url": "https://m.media-amazon.com/images/I/51dHCVNSNaL._CR0,0,640,361_SR342,193_.jpg",
+        "video_image_url_unchanged": "https://m.media-amazon.com/images/I/51dHCVNSNaL.jpg",
+        "video_image_width": "640",
+        "video_image_height": "1137",
+        "video_image_extension": "jpg",
+        "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/bf8eb6ce-6c16-4f8a-a4bc-5ba72204c783/default.vertical.jobtemplate.hls.m3u8",
+        "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/6d1852b2-f419-4e17-aa89-d226bb7a15b1/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/6d1852b2-f419-4e17-aa89-d226bb7a15b1/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+        "video_mime_type": "application/x-mpegURL",
+        "duration": "0:20",
+        "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/a488aa2f-f641-48c7-a152-39448d7c2b7b.vtt"
+      },
+      {
+        "type": "videos_for_this_product",
+        "id": "amzn1.vse.video.0e9192388f934b979f5a741f68561b23",
+        "product_asin": "B0GFQ1JRSK",
+        "parent_asin": "B0GHSMGDSQ",
+        "related_products": "B0GFPWV6S9",
+        "title": "Use this bath water filter if your baby has sensitive skin!",
+        "profile_image_url": "https://m.media-amazon.com/images/I/61sW6QrJyfL._CR0,0,493,493_._FMjpg_._SL34_.jpg",
+        "profile_link": "/shop/meimeiburk",
+        "public_name": "\u2728\ud83d\udecd\ufe0fSmart Shopper\ud83d\udecd\ufe0f\u2728",
+        "vendor_code": "meimeiburk:shop",
+        "vendor_name": "\u2728\ud83d\udecd\ufe0fSmart Shopper\ud83d\udecd\ufe0f\u2728",
+        "vendor_tracking_id": "onamzmurielbu-20",
+        "video_image_url": "https://m.media-amazon.com/images/I/51GJP-ztrnL._CR0,0,640,361_SR342,193_.jpg",
+        "video_image_url_unchanged": "https://m.media-amazon.com/images/I/51GJP-ztrnL.jpg",
+        "video_image_width": "640",
+        "video_image_height": "1137",
+        "video_image_extension": "jpg",
+        "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/c1ab6e98-1903-4f5a-98cf-e90ce55e3a7a/default.vertical.jobtemplate.hls.m3u8",
+        "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/fdcbef7a-7217-462c-83c1-d4f2f64c33c0/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/fdcbef7a-7217-462c-83c1-d4f2f64c33c0/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+        "video_mime_type": "application/x-mpegURL",
+        "duration": "0:27",
+        "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/d227011f-dc95-4cfd-8eb6-22d786ddc8fe.vtt"
+      },
+      {
+        "type": "videos_for_this_product",
+        "id": "amzn1.vse.video.0bfdd8004d034a1094ba3dcee4ec3c1b",
+        "product_asin": "B0GFQ1JRSK",
+        "parent_asin": "B0GHSMGDSQ",
+        "related_products": "B0GFQ1JRSK",
+        "title": "Upgrade your bath water quality!",
+        "profile_image_url": "https://m.media-amazon.com/images/I/A1decKoLYqL._CR0,0,3334,3333_._FMjpg_._SL34_.jpg",
+        "profile_link": "/shop/sandyyyangel",
+        "public_name": "Sandy A. Garcia",
+        "vendor_code": "sandyyyangel:shop",
+        "vendor_name": "Sandy A. Garcia",
+        "vendor_tracking_id": "onamzsandyg01-20",
+        "video_image_url": "https://m.media-amazon.com/images/I/61MB2iF9c6L._CR0,0,640,361_SR342,193_.jpg",
+        "video_image_url_unchanged": "https://m.media-amazon.com/images/I/61MB2iF9c6L.jpg",
+        "video_image_width": "640",
+        "video_image_height": "1137",
+        "video_image_extension": "jpg",
+        "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/2c194b32-80b1-4d58-9bb0-748710aedba1/default.vertical.jobtemplate.hls.m3u8",
+        "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4a331652-cde8-490b-8187-69fe97d2a4c1/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4a331652-cde8-490b-8187-69fe97d2a4c1/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+        "video_mime_type": "application/x-mpegURL",
+        "duration": "0:27",
+        "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/6c2ad158-7ca8-41da-b4d3-b939d5d3bcd0.vtt"
+      },
+      {
+        "type": "videos_for_this_product",
+        "id": "amzn1.vse.video.0a7aeef5149948cf9bcbf234fd6445f1",
+        "product_asin": "B0GFQ1JRSK",
+        "parent_asin": "B0GHSMGDSQ",
+        "related_products": "B0GFQ1JRSK",
+        "title": "Should You Buy? Canopy Bath Tub Filter",
+        "profile_image_url": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/deliciousencounters_1642812309872_original._CR0,63,1365,1365_._FMjpg_._SL34_.jpeg",
+        "profile_link": "/shop/deliciousencounters",
+        "public_name": "Should You Buy?",
+        "vendor_code": "deliciousencounters:shop",
+        "vendor_name": "Should You Buy?",
+        "vendor_tracking_id": "onamzchri0cbe-20",
+        "video_image_url": "https://m.media-amazon.com/images/I/91whtp3V-gL._CR7,0,1056,596_SR684,386_.png",
+        "video_image_url_unchanged": "https://m.media-amazon.com/images/I/91whtp3V-gL.png",
+        "video_image_width": "1070",
+        "video_image_height": "596",
+        "video_image_extension": "png",
+        "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/480ff300-aae0-452b-8077-ab2d69b73070/default.jobtemplate.hls.m3u8",
+        "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/82f3bbe4-be6d-48cf-9382-c7ac24a9279d/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/82f3bbe4-be6d-48cf-9382-c7ac24a9279d/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+        "video_mime_type": "application/x-mpegURL",
+        "duration": "9:15",
+        "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/230da29a-bc66-4d8d-aedc-1046b5b59c34.vtt"
+      },
+      {
+        "type": "videos_for_this_product",
+        "id": "amzn1.vse.video.00aac47eadbd468a87554f6b1af9af41",
+        "product_asin": "B0GFQ1JRSK",
+        "parent_asin": "B0GHSMGDSQ",
+        "related_products": "B0FLN3N4T1",
+        "title": "Baby Bath Water Filter",
+        "profile_image_url": "https://m.media-amazon.com/images/I/819oYSqS1kL._CR0,0,1238,1238_._FMjpg_._SL34_.jpg",
+        "profile_link": "/shop/resetandrepeatmama",
+        "public_name": "Long-Distance Besties",
+        "vendor_code": "resetandrepeatmama:shop",
+        "vendor_name": "Long-Distance Besties",
+        "vendor_tracking_id": "onamzvic0dbb2-20",
+        "video_image_url": "https://m.media-amazon.com/images/I/61OUNHls-yL._CR0,0,640,361_SR342,193_.jpg",
+        "video_image_url_unchanged": "https://m.media-amazon.com/images/I/61OUNHls-yL.jpg",
+        "video_image_width": "640",
+        "video_image_height": "1137",
+        "video_image_extension": "jpg",
+        "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/6b349e18-ff7d-4617-aec5-8bc342e752a3/default.vertical.jobtemplate.hls.m3u8",
+        "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/7f9e7d9c-9972-401f-8711-dd48c04b3c98/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/7f9e7d9c-9972-401f-8711-dd48c04b3c98/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+        "video_mime_type": "application/x-mpegURL",
+        "duration": "0:11",
+        "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/a72b9ae7-d312-4337-a793-e4e0c120c22d.vtt"
+      }
+    ],
+    "is_bundle": false,
+    "feature_bullets": [
+      "Gentler Bath Water for Sensitive Skin \u2013 Advanced filtration reduces chlorine & water irritants so your baby\u2019s delicate skin stays soft, soothed, and protected. Perfect for reducing dryness, itchiness and irritation after bath time.",
+      "3-in-1 Design for Peace of Mind & Comfort \u2013 Doubles as a soft BPA-free silicone spout cover to cushion accidental bumps and a color-changing, battery-free temperature gauge so you always know when water is just right for your little one.",
+      "Easy Install, Use & Easy Clean Materials \u2013 Install in minutes without tools on most tub spouts. Replace the filter every 90 days to continue enjoying the benefits of cleaner water. Place parts on the top rack of the dishwasher for a deep clean.",
+      "Skin-Friendly Water \u2013 Cleaner water helps support healthy-looking skin and reduces the chances of redness, dryness, and irritation often caused by unfiltered tap water.",
+      "The Canopy Brand Promise - 60 Day Guarantee \u2013 We are driven by the quality of our products and our commitment to creating reimagined household devices that effortlessly optimize the home for beauty and wellness. Every Tub Filter comes with our state of the art technology and design - an experience only found with Canopy."
+    ],
+    "feature_bullets_count": 5,
+    "feature_bullets_flat": "The Canopy Brand Promise - 60 Day Guarantee \u2013 We are driven by the quality of our products and our commitment to creating reimagined household devices that effortlessly optimize the home for beauty and wellness. Every Tub Filter comes with our state of the art technology and design - an experience only found with Canopy. Skin-Friendly Water \u2013 Cleaner water helps support healthy-looking skin and reduces the chances of redness, dryness, and irritation often caused by unfiltered tap water. Easy Install, Use & Easy Clean Materials \u2013 Install in minutes without tools on most tub spouts. Replace the filter every 90 days to continue enjoying the benefits of cleaner water. Place parts on the top rack of the dishwasher for a deep clean. 3-in-1 Design for Peace of Mind & Comfort \u2013 Doubles as a soft BPA-free silicone spout cover to cushion accidental bumps and a color-changing, battery-free temperature gauge so you always know when water is just right for your little one. Gentler Bath Water for Sensitive Skin \u2013 Advanced filtration reduces chlorine & water irritants so your baby\u2019s delicate skin stays soft, soothed, and protected. Perfect for reducing dryness, itchiness and irritation after bath time.",
+    "top_reviews": [
+      {
+        "id": "R2KTTR4MOTTEAN",
+        "title": "Best purchase for my baby!",
+        "body": "This product is perfect. Water comes out gently and not too harsh. My baby has struggled with eczema since he was born, for 7 months nothing would help. This has helped a significant amount. I know it seems like a lot of money but it is such a great investment. Installation is easy and fits perfectly.",
+        "rating": 5,
+        "date": {
+          "raw": "Reviewed in the United States on April 9, 2026"
+        },
+        "profile": {
+          "name": "cashmere lopez"
+        },
+        "verified_purchase": true,
+        "link": "https://www.amazon.com/gp/customer-reviews/R2KTTR4MOTTEAN/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+      },
+      {
+        "id": "R2ME1KVKXVRR7R",
+        "title": "Works great!",
+        "body": "Just moved into a new house with a 1 month old didn\u2019t know we had hard water until the baby started breaking out super bad used this once since we got it. Next morning baby\u2019s skin had no irritation works great. Easy to install comes with two different sizes for the faucet. Definitely would buy again",
+        "rating": 5,
+        "date": {
+          "raw": "Reviewed in the United States on March 20, 2026"
+        },
+        "profile": {
+          "name": "Valerie"
+        },
+        "verified_purchase": true,
+        "link": "https://www.amazon.com/gp/customer-reviews/R2ME1KVKXVRR7R/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+      },
+      {
+        "id": "R2X1DZ5WGOGLHP",
+        "title": "Easy to install and noticeably gentler water for baby baths",
+        "body": "We started using this bath tub filter specifically to help reduce chlorine and make bath time gentler for our baby\u2019s sensitive skin. Installation was very straightforward and took only a couple of minutes\u2014no tools required. It fit securely on our tub spout and didn\u2019t interfere with water pressure, which was a big plus.After a few uses, the water felt noticeably softer, and we saw less dryness on our baby\u2019s skin after baths. It also helped reduce the strong chlorine smell that we normally notice, which made bath time more comfortable overall. The compact design looks clean and unobtrusive, and it doesn\u2019t leak or shift once installed.That said, the filter cartridge will need regular replacement, which is something to factor into the ongoing cost. It also slightly extends the length of the tub spout, so in smaller tubs you may need to adjust how you position your baby during baths.Overall, this filter does exactly what it\u2019s meant to do\u2014provide gentler, cleaner water for baby baths. It\u2019s a solid choice for parents concerned about water quality, especially for babies with sensitive skin, as long as you\u2019re aware of the filter replacement schedule.",
+        "rating": 4,
+        "date": {
+          "raw": "Reviewed in the United States on February 8, 2026"
+        },
+        "profile": {
+          "name": "KK"
+        },
+        "verified_purchase": true,
+        "helpful_votes": 3,
+        "link": "https://www.amazon.com/gp/customer-reviews/R2X1DZ5WGOGLHP/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+      },
+      {
+        "id": "R2M9FKBON4USTI",
+        "title": "Good but can\u2019t handle much flow",
+        "body": "Wanted to love this but it does not work for a standard tub that just turns water on and controls temp\u2014 as in no control over flow.",
+        "rating": 3,
+        "date": {
+          "raw": "Reviewed in the United States on March 13, 2026"
+        },
+        "profile": {
+          "name": "Palmer Hardy"
+        },
+        "verified_purchase": true,
+        "link": "https://www.amazon.com/gp/customer-reviews/R2M9FKBON4USTI/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+      },
+      {
+        "id": "RBDFADDPVNWF0",
+        "title": "Buy this one instead of the competitors",
+        "body": "So far I have noticed this is a great way to filter out tapwater. I bought this for my son for his first bath in hopes that his skin would do OK and it did! Super easy to install, and I like the design a lot. It indicates when the water is too hot. Great value for money!",
+        "rating": 5,
+        "date": {
+          "raw": "Reviewed in the United States on March 19, 2026"
+        },
+        "profile": {
+          "name": "Amazon Customer"
+        },
+        "verified_purchase": true,
+        "helpful_votes": 2,
+        "link": "https://www.amazon.com/gp/customer-reviews/RBDFADDPVNWF0/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+      },
+      {
+        "id": "R52B70GID9SLU",
+        "title": "Easy to install and works well",
+        "body": "Super easy to install and fits perfectly. Water feels a bit softer and no issues so far. Happy with the purchase.",
+        "rating": 5,
+        "date": {
+          "raw": "Reviewed in the United States on March 23, 2026"
+        },
+        "profile": {
+          "name": "Super"
+        },
+        "verified_purchase": true,
+        "link": "https://www.amazon.com/gp/customer-reviews/R52B70GID9SLU/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+      },
+      {
+        "id": "R1WU2C43RRQB35",
+        "title": "Worth it!",
+        "body": "My son had very dry \u201ccrispy\u201d skin. Very bumpy, scaly and scabby. I noticed the flare ups more after baths. He prescribed medicated eczema ointment. While it did help, the red dry patches were still visible and present. I went on a limb and bought this filter. His problem is completely GONE! He has not had flare up or dry skin since! And we no longer use the ointment. When I tell you night and day, it really was night and day. 100% would recommend!",
+        "rating": 5,
+        "date": {
+          "raw": "Reviewed in the United States on March 7, 2026"
+        },
+        "profile": {
+          "name": "Cynthia Campos"
+        },
+        "verified_purchase": true,
+        "helpful_votes": null,
+        "link": "https://www.amazon.com/gp/customer-reviews/R1WU2C43RRQB35/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+      },
+      {
+        "id": "R2KWH0DW805M8G",
+        "title": "For sensitive skin",
+        "body": "Love it just never got the aroma in it sadly and it\u2019s a bit pricey for what it is definitely can\u2019t wait to use it for my sons skin and ours",
+        "rating": 4,
+        "date": {
+          "raw": "Reviewed in the United States on January 22, 2026"
+        },
+        "profile": {
+          "name": "Maddie"
+        },
+        "verified_purchase": true,
+        "helpful_votes": null,
+        "link": "https://www.amazon.com/gp/customer-reviews/R2KWH0DW805M8G/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+      }
+    ],
+    "bestsellers_rank": [
+      {
+        "rank": 4005,
+        "category": "Tools & Home Improvement",
+        "link": "https://www.amazon.com/gp/bestsellers/hi/ref=pd_zg_ts_hi"
+      },
+      {
+        "rank": 2,
+        "category": "Bathtub Faucet Replacement Parts",
+        "link": "https://www.amazon.com/gp/bestsellers/hi/10425126011/ref=pd_zg_hrsr_hi"
+      }
+    ],
+    "a_plus_content": {
+      "has_a_plus_content": true,
+      "has_brand_story": true,
+      "brand_story": {
+        "hero_image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/85e5abda-89f4-4ee9-ae79-102f9db7ac16.__CR0,0,1464,625_PT0_SX1464_V1___.jpg",
+        "images": [
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/85e5abda-89f4-4ee9-ae79-102f9db7ac16.__CR0,0,1464,625_PT0_SX1464_V1___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9ddaf6f1-20eb-413e-bc6a-ce55195521e0.__CR0,0,724,906_PT0_SX362_V1___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8ee38581-d5c9-4b8e-8412-aa76215d5c0a.__CR0,0,724,906_PT0_SX362_V1___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5a7e8ebd-b7da-493e-ab42-d6249caa6f51.__CR0,0,724,906_PT0_SX362_V1___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/702dace1-3584-4f40-a95f-d19e16b6c82f.__CR0,0,724,906_PT0_SX362_V1___.jpg"
+        ]
+      },
+      "all_images": [
+        {
+          "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/85e5abda-89f4-4ee9-ae79-102f9db7ac16.__CR0,0,1464,625_PT0_SX1464_V1___.jpg",
+          "name": "Canopy home and wellness"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9ddaf6f1-20eb-413e-bc6a-ce55195521e0.__CR0,0,724,906_PT0_SX362_V1___.jpg",
+          "name": "Canopy where wellness, home and family meet"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8f3a66e9-e78b-460b-a9fb-93cc8cfc0cb0.__CR0,0,332,364_PT0_SX166_V1___.png",
+          "name": "baby bath tub filter"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/c74c1950-a4d2-4494-9c85-61ca41ea1947.__CR0,0,332,364_PT0_SX166_V1___.png",
+          "name": "bedside humidifier"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2b8e7572-fe30-4df9-8cf5-daa0513d5ab8.__CR0,0,332,364_PT0_SX166_V1___.png",
+          "name": "nursery humidifier"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ef8c6b00-2219-4e38-8e20-74a3906cccc8.__CR0,0,332,364_PT0_SX166_V1___.png",
+          "name": "filtered showerhead"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8ee38581-d5c9-4b8e-8412-aa76215d5c0a.__CR0,0,724,906_PT0_SX362_V1___.jpg",
+          "name": "Canopy healthier homes, happier families"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5a7e8ebd-b7da-493e-ab42-d6249caa6f51.__CR0,0,724,906_PT0_SX362_V1___.jpg",
+          "name": "Canopy award winning wellness"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/702dace1-3584-4f40-a95f-d19e16b6c82f.__CR0,0,724,906_PT0_SX362_V1___.jpg",
+          "name": "Canopy buy once refill forever"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6a06eef7-c2f1-4fe9-b873-b68414ae1649.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg",
+          "name": "Canopy Bath Tub filter"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/44a1d2d9-5c0c-4ea8-838d-c479cb0b5703.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg",
+          "name": "Canopy Bath Tub filter, how clean is your bath water?"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/fb219ae7-e001-46be-8b92-a8b5379fcec9.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg",
+          "name": "Canopy Bath Tub filter, spout cover, temperature indicator"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e4445d1c-8f3b-43ed-8cad-d914eff8b005.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg",
+          "name": "Canopy Bath Tub filter, bath time standard"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9249c7da-438a-4f61-b93b-b47a7efcd7e5.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg",
+          "name": "Canopy Bath Tub filter, multi-stage filtration"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/baa56e2d-e0da-4367-bf06-0ff0a49ce079.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg",
+          "name": "Canopy Bath Tub filter, results"
+        }
+      ],
+      "third_party": false
+    },
+    "additional_details": [
+      {
+        "name": "Small Business",
+        "value": "This product is from a small business brand. Support small."
+      }
+    ],
+    "additional_details_flat": "Small Business: This product is from a small business brand. Support small.",
+    "buybox_winner": {
+      "maximum_order_quantity": {
+        "value": 30,
+        "hard_maximum": true
+      },
+      "price_only_available_in_cart": false,
+      "trade_in_and_save": true,
+      "return_policy": {
+        "duration_days": 30,
+        "type": "refund/replacement"
+      },
+      "is_prime": true,
+      "is_prime_exclusive_deal": false,
+      "is_amazon_fresh": false,
+      "condition": {
+        "is_new": true
+      },
+      "availability": {
+        "type": "in_stock",
+        "raw": "In Stock",
+        "dispatch_days": 1
+      },
+      "fulfillment": {
+        "type": "p2",
+        "standard_delivery": {
+          "date": "Wednesday, April 22",
+          "name": "FREE"
+        },
+        "is_sold_by_amazon": false,
+        "is_fulfilled_by_amazon": true,
+        "is_fulfilled_by_third_party": false,
+        "is_sold_by_third_party": true,
+        "third_party_seller": {
+          "name": "Canopy Home Goods",
+          "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A2Q5QVDWFDN5P4&asin=B0GFQ1JRSK&ref_=dp_merchant_link&isAmazonFulfilled=1",
+          "id": "A2Q5QVDWFDN5P4"
+        }
+      },
+      "price": {
+        "symbol": "$",
+        "value": 89,
+        "currency": "USD",
+        "raw": "$89.00"
+      },
+      "shipping": {
+        "raw": "FREE"
+      }
+    },
+    "specifications": [
+      {
+        "name": "Manufacturer",
+        "value": "\u200eCanopy"
+      },
+      {
+        "name": "Item Weight",
+        "value": "\u200e1.68 pounds"
+      },
+      {
+        "name": "Package Dimensions",
+        "value": "\u200e7.52 x 6.73 x 3.66 inches"
+      },
+      {
+        "name": "Color",
+        "value": "\u200eButter Yellow"
+      },
+      {
+        "name": "Batteries Included?",
+        "value": "\u200eNo"
+      },
+      {
+        "name": "Batteries Required?",
+        "value": "\u200eNo"
+      },
+      {
+        "name": "ASIN",
+        "value": "B0GFQ1JRSK"
+      },
+      {
+        "name": "Customer Reviews",
+        "value": "4.5    4.5 out of 5 stars         (57)           4.5 out of 5 stars"
+      },
+      {
+        "name": "Best Sellers Rank",
+        "value": "#4,005 in Tools & Home Improvement (See Top 100 in Tools & Home Improvement) #2 in Bathtub Faucet Replacement Parts"
+      },
+      {
+        "name": "Date First Available",
+        "value": "January 8, 2026"
+      }
+    ],
+    "specifications_flat": "Date First Available: January 8, 2026. Best Sellers Rank: #4,005 in Tools & Home Improvement (See Top 100 in Tools & Home Improvement) #2 in Bathtub Faucet Replacement Parts. Customer Reviews: 4.5    4.5 out of 5 stars         (57)           4.5 out of 5 stars. ASIN: B0GFQ1JRSK. Batteries Required?: \u200eNo. Batteries Included?: \u200eNo. Color: \u200eButter Yellow. Package Dimensions: \u200e7.52 x 6.73 x 3.66 inches. Item Weight: \u200e1.68 pounds. Manufacturer: \u200eCanopy.",
+    "recent_sales": "500+ bought in past month",
+    "gift_guide_badge": {
+      "badge_text": "500+ bought in past month"
+    },
+    "color": "\u200eButter Yellow",
+    "manufacturer": "\u200eCanopy",
+    "weight": "\u200e1.68 pounds",
+    "first_available": {
+      "raw": "January 8, 2026",
+      "utc": "2026-01-08T00:00:00.000Z"
+    },
+    "bestsellers_rank_flat": "Category: Tools & Home Improvement | Rank: 4005, Category: Bathtub Faucet Replacement Parts | Rank: 2"
+  },
+  "brand_store": {
+    "id": "371F8F31-44CC-4CB5-8ECE-9E8954FE56DF",
+    "link": "https://www.amazon.com/stores/Canopy/page/371F8F31-44CC-4CB5-8ECE-9E8954FE56DF"
+  }
+}

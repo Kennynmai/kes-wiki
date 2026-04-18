@@ -1,0 +1,175 @@
+{
+  "search_metadata": {
+    "id": "69e2e4a559eb37b829dbd49e",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/gKd8isFXL2DIKAMlbkKXKA/69e2e4a559eb37b829dbd49e.json",
+    "created_at": "2026-04-18 01:55:49 UTC",
+    "processed_at": "2026-04-18 01:55:49 UTC",
+    "google_trends_url": "https://trends.google.com/trends/embed/explore/RELATED_QUERIES?hl=en&tz=420&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22bathtub+filter%22%2C%22geo%22%3A%22US%22%2C%22time%22%3A%22today+12-m%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D",
+    "raw_html_file": "https://serpapi.com/searches/gKd8isFXL2DIKAMlbkKXKA/69e2e4a559eb37b829dbd49e.html",
+    "prettify_html_file": "https://serpapi.com/searches/gKd8isFXL2DIKAMlbkKXKA/69e2e4a559eb37b829dbd49e.prettify",
+    "total_time_taken": 1.36
+  },
+  "search_parameters": {
+    "engine": "google_trends",
+    "q": "bathtub filter",
+    "hl": "en",
+    "geo": "US",
+    "date": "today 12-m",
+    "tz": "420",
+    "data_type": "RELATED_QUERIES"
+  },
+  "related_queries": {
+    "rising": [
+      {
+        "query": "how to install bathtub faucet",
+        "value": "Breakout",
+        "extracted_value": 150400,
+        "link": "https://trends.google.com/trends/explore?q=how+to+install+bathtub+faucet&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=how+to+install+bathtub+faucet&tz=420"
+      },
+      {
+        "query": "canopy bath tub filter",
+        "value": "Breakout",
+        "extracted_value": 138750,
+        "link": "https://trends.google.com/trends/explore?q=canopy+bath+tub+filter&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=canopy+bath+tub+filter&tz=420"
+      },
+      {
+        "query": "mobil 1 extended performance oil filter",
+        "value": "+2,650%",
+        "extracted_value": 2650,
+        "link": "https://trends.google.com/trends/explore?q=mobil+1+extended+performance+oil+filter&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=mobil+1+extended+performance+oil+filter&tz=420"
+      },
+      {
+        "query": "canopy",
+        "value": "+1,450%",
+        "extracted_value": 1450,
+        "link": "https://trends.google.com/trends/explore?q=canopy&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=canopy&tz=420"
+      },
+      {
+        "query": "canopy bath filter",
+        "value": "+800%",
+        "extracted_value": 800,
+        "link": "https://trends.google.com/trends/explore?q=canopy+bath+filter&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=canopy+bath+filter&tz=420"
+      },
+      {
+        "query": "filter baby",
+        "value": "+100%",
+        "extracted_value": 100,
+        "link": "https://trends.google.com/trends/explore?q=filter+baby&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=filter+baby&tz=420"
+      }
+    ],
+    "top": [
+      {
+        "query": "bathtub water filter",
+        "value": "100",
+        "extracted_value": 100,
+        "link": "https://trends.google.com/trends/explore?q=bathtub+water+filter&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=bathtub+water+filter&tz=420"
+      },
+      {
+        "query": "water filter",
+        "value": "99",
+        "extracted_value": 99,
+        "link": "https://trends.google.com/trends/explore?q=water+filter&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=water+filter&tz=420"
+      },
+      {
+        "query": "water filter for bathtub",
+        "value": "54",
+        "extracted_value": 54,
+        "link": "https://trends.google.com/trends/explore?q=water+filter+for+bathtub&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=water+filter+for+bathtub&tz=420"
+      },
+      {
+        "query": "bathtub faucet",
+        "value": "43",
+        "extracted_value": 43,
+        "link": "https://trends.google.com/trends/explore?q=bathtub+faucet&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=bathtub+faucet&tz=420"
+      },
+      {
+        "query": "tub filter",
+        "value": "33",
+        "extracted_value": 33,
+        "link": "https://trends.google.com/trends/explore?q=tub+filter&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=tub+filter&tz=420"
+      },
+      {
+        "query": "filter for bathtub faucet",
+        "value": "23",
+        "extracted_value": 23,
+        "link": "https://trends.google.com/trends/explore?q=filter+for+bathtub+faucet&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=filter+for+bathtub+faucet&tz=420"
+      },
+      {
+        "query": "filter baby",
+        "value": "23",
+        "extracted_value": 23,
+        "link": "https://trends.google.com/trends/explore?q=filter+baby&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=filter+baby&tz=420"
+      },
+      {
+        "query": "canopy",
+        "value": "23",
+        "extracted_value": 23,
+        "link": "https://trends.google.com/trends/explore?q=canopy&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=canopy&tz=420"
+      },
+      {
+        "query": "shower water filter",
+        "value": "15",
+        "extracted_value": 15,
+        "link": "https://trends.google.com/trends/explore?q=shower+water+filter&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=shower+water+filter&tz=420"
+      },
+      {
+        "query": "bath tub filter",
+        "value": "13",
+        "extracted_value": 13,
+        "link": "https://trends.google.com/trends/explore?q=bath+tub+filter&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=bath+tub+filter&tz=420"
+      },
+      {
+        "query": "shower head filter",
+        "value": "9",
+        "extracted_value": 9,
+        "link": "https://trends.google.com/trends/explore?q=shower+head+filter&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=shower+head+filter&tz=420"
+      },
+      {
+        "query": "canopy bath filter",
+        "value": "6",
+        "extracted_value": 6,
+        "link": "https://trends.google.com/trends/explore?q=canopy+bath+filter&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=canopy+bath+filter&tz=420"
+      },
+      {
+        "query": "how to install bathtub faucet",
+        "value": "4",
+        "extracted_value": 4,
+        "link": "https://trends.google.com/trends/explore?q=how+to+install+bathtub+faucet&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=how+to+install+bathtub+faucet&tz=420"
+      },
+      {
+        "query": "canopy bath tub filter",
+        "value": "4",
+        "extracted_value": 4,
+        "link": "https://trends.google.com/trends/explore?q=canopy+bath+tub+filter&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=canopy+bath+tub+filter&tz=420"
+      },
+      {
+        "query": "mobil 1 extended performance oil filter",
+        "value": "<1",
+        "extracted_value": 0,
+        "link": "https://trends.google.com/trends/explore?q=mobil+1+extended+performance+oil+filter&date=today+12-m&geo=US",
+        "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=US&hl=en&q=mobil+1+extended+performance+oil+filter&tz=420"
+      }
+    ]
+  }
+}

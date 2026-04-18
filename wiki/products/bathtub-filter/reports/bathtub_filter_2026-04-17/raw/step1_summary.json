@@ -1,0 +1,41 @@
+{
+  "data_source": "fact_ba_search_terms_weekly",
+  "query_date": "2026-04-17",
+  "sites_covered": [
+    "amz_us",
+    "amz_ca",
+    "amz_uk",
+    "amz_de"
+  ],
+  "ba_data_range": "2025-05-04 to 2026-03-22",
+  "keywords_matched": 51,
+  "us_latest_week": "2026-03-22",
+  "key_findings": {
+    "market_leader_us": {
+      "asin": "B0GFQ1JRSK",
+      "brand_hint": "Canopy",
+      "terms_in_top1": 30,
+      "avg_click_share": 0.2464
+    },
+    "market_leader_ca": {
+      "asin": "B0FKH16TZR",
+      "brand_hint": "TBD"
+    },
+    "small_player": {
+      "asin": "B01MUBU0YC",
+      "brand_hint": "Santevia"
+    },
+    "search_rank_bathtub_filter_us_latest": 102223,
+    "brand_search_rank_canopy_bathtub_filter_jul2025": 487651,
+    "brand_search_rank_canopy_bathtub_filter_mar2026": 65874,
+    "growth_pct_brand_search_7mo": "~6.4x",
+    "uk_de_coverage": "no matches in latest week (category absent or below BA reporting threshold)",
+    "faucet_filter_is_different_category": true,
+    "faucet_filter_leader_asin": "B07MLSVLZH"
+  },
+  "use_cases_from_tail_queries": [
+    "baby bath water safety (baby bath filter, canopy baby bath tub filter)",
+    "dechlorination (bath chlorine, hard water)",
+    "replacement cartridges (canopy bathtub filter replacement)"
+  ]
+}

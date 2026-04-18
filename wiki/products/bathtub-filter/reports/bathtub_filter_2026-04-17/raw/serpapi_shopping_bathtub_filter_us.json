@@ -1,0 +1,1533 @@
+{
+  "search_metadata": {
+    "id": "69e2e550bc3f0b1d1ad290f9",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/QaWWt7QQA4MuPZjDLu8qZw/69e2e550bc3f0b1d1ad290f9.json",
+    "created_at": "2026-04-18 01:58:40 UTC",
+    "processed_at": "2026-04-18 01:58:40 UTC",
+    "google_shopping_url": "https://www.google.com/search?udm=28&q=bathtub+filter&hl=en&gl=us",
+    "raw_html_file": "https://serpapi.com/searches/QaWWt7QQA4MuPZjDLu8qZw/69e2e550bc3f0b1d1ad290f9.html",
+    "total_time_taken": 0.97
+  },
+  "search_parameters": {
+    "engine": "google_shopping",
+    "q": "bathtub filter",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "bathtub filter",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Canopy 2-in-1 Bathtub Filter",
+      "product_id": "11135016732571921125",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:11135016732571921125,headlineOfferDocid:510528535935757126,imageDocid:5678077694047158674,rds:PC_10012076486635705080|PROD_PC_10012076486635705080,gpcid:10012076486635705080,mid:576462878170679370,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExMzUwMTY3MzI1NzE5MjExMjUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTA1Mjg1MzU5MzU3NTcxMjYiLCJpbWFnZURvY2lkIjoiNTY3ODA3NzY5NDA0NzE1ODY3NCIsInJkcyI6IlBDXzEwMDEyMDc2NDg2NjM1NzA1MDgwfFBST0RfUENfMTAwMTIwNzY0ODY2MzU3MDUwODAiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMDAxMjA3NjQ4NjYzNTcwNTA4MCIsIm1pZCI6IjU3NjQ2Mjg3ODE3MDY3OTM3MCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExMzUwMTY3MzI1NzE5MjExMjUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTA1Mjg1MzU5MzU3NTcxMjYiLCJpbWFnZURvY2lkIjoiNTY3ODA3NzY5NDA0NzE1ODY3NCIsInJkcyI6IlBDXzEwMDEyMDc2NDg2NjM1NzA1MDgwfFBST0RfUENfMTAwMTIwNzY0ODY2MzU3MDUwODAiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMDAxMjA3NjQ4NjYzNTcwNTA4MCIsIm1pZCI6IjU3NjQ2Mjg3ODE3MDY3OTM3MCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+      "source": "Target",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TF6moVZ3_XAhb9SG2JjgIXA.png",
+      "multiple_sources": true,
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "rating": 4.5,
+      "reviews": 266,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTf5fjZbnzmu1JQ4VpDZCVpB-BjxVDvy1Jt-Lelpds90VXPBuSE4k48L1RSku5Vb792IOVxjEKTwPyBpHBwdXrkoZx0sZF4LQ",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Wt8PcnicDclJDoIwAADAF7GmRCExxgouSBSFNKQ3admlVFoEfIlf8zc61_l-Sim5cDQtY6SfucyoIlNmqoWQd1kRlXStJsqO84oV6-fqf87mTO09iXMrr3HK3u1g-FeAuIu3iEMF1hNyX7PhSyXIHpwKW0dJCIfIAw1YBsYtagYLpQvbPF7QVHuneAxnyA9wpEnfdHjSBd6B4PoDD_02RQ",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 2,
+      "title": "PUREPLUS SF008 Bathtub Bath Water Filter",
+      "product_id": "5696487805050024153",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:5696487805050024153,headlineOfferDocid:4879392857760760801,imageDocid:16378740823417644564,gpcid:11497609248875560325,mid:576462899357342178,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNTY5NjQ4NzgwNTA1MDAyNDE1MyIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ4NzkzOTI4NTc3NjA3NjA4MDEiLCJpbWFnZURvY2lkIjoiMTYzNzg3NDA4MjM0MTc2NDQ1NjQiLCJyZHMiOiIiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMTQ5NzYwOTI0ODg3NTU2MDMyNSIsIm1pZCI6IjU3NjQ2Mjg5OTM1NzM0MjE3OCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNTY5NjQ4NzgwNTA1MDAyNDE1MyIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ4NzkzOTI4NTc3NjA3NjA4MDEiLCJpbWFnZURvY2lkIjoiMTYzNzg3NDA4MjM0MTc2NDQ1NjQiLCJyZHMiOiIiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMTQ5NzYwOTI0ODg3NTU2MDMyNSIsIm1pZCI6IjU3NjQ2Mjg5OTM1NzM0MjE3OCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+      "source": "Walmart - Premium Icepure",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TAqXUmYY5F6MnDNf9qGw21k.png",
+      "price": "$17.90",
+      "extracted_price": 17.9,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQB7pLWlKOuF690q0eGYToBbYOaz0T2IZFdrIEU-HPX7nRzSLcmyZTqonbdacWCz5TiljDdfKdW2jDpcHySc7hege9HYRj8",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/HOfNTHicDclLDoIwFADAEwENiSIkxojIJxBRKEHYwWvlE2gL1AUcxLt5G53tfD-tlGKxNI0ymFchKVFkzZDaLLKSHajAR21puRAda07T8X_W-UZMDx62IaJ8COO3uzfRhKhXYG7XRVxtCOtB6ZI5uGaKf38aLNnSCMa1xBNnNakgv2w73A29Q14hyfXeEeCvKRgtbajpF0l_-AGKwTXl"
+    },
+    {
+      "position": 3,
+      "title": "Canopy Bathtub Filter 2 Pack",
+      "product_id": "15672262290619995761",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:15672262290619995761,headlineOfferDocid:11216869351003576262,imageDocid:416980763197615091,rds:PC_8311956256189129030|PROD_PC_8311956256189129030,gpcid:8311956256189129030,mid:576462864218835677,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTU2NzIyNjIyOTA2MTk5OTU3NjEiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMTIxNjg2OTM1MTAwMzU3NjI2MiIsImltYWdlRG9jaWQiOiI0MTY5ODA3NjMxOTc2MTUwOTEiLCJyZHMiOiJQQ184MzExOTU2MjU2MTg5MTI5MDMwfFBST0RfUENfODMxMTk1NjI1NjE4OTEyOTAzMCIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjgzMTE5NTYyNTYxODkxMjkwMzAiLCJtaWQiOiI1NzY0NjI4NjQyMTg4MzU2NzciLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTU2NzIyNjIyOTA2MTk5OTU3NjEiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMTIxNjg2OTM1MTAwMzU3NjI2MiIsImltYWdlRG9jaWQiOiI0MTY5ODA3NjMxOTc2MTUwOTEiLCJyZHMiOiJQQ184MzExOTU2MjU2MTg5MTI5MDMwfFBST0RfUENfODMxMTk1NjI1NjE4OTEyOTAzMCIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjgzMTE5NTYyNTYxODkxMjkwMzAiLCJtaWQiOiI1NzY0NjI4NjQyMTg4MzU2NzciLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "Target",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TH3IwuMn4H6gTzJa8PMIv9A.png",
+      "multiple_sources": true,
+      "price": "$65.99",
+      "extracted_price": 65.99,
+      "rating": 5.0,
+      "reviews": 2,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQHDYPMJPCn9OAwmATFllL41aT5aBRKtRGJMhmf9a0RB6FWFfoJAWdIITYt8iFk2we8V9xGi6_qyYqXYUVqXY7qgieJsBsAsw",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/hzqYZnicDcldDoIgAADgE6X9mrq1hjVMyjJnGk-NEJWlKMFm3qSrdZt8-V6-37fSulOuaTJB30OnWT7RT7EwSqWJ5tSgbWOqqu06Lsqt3IzngnPu-PR62OMoRNFOOBfQNyCBdX1azkiyIl581LGPwqopHDKNPQtmsGgRyPIgSLC2OXzNe2anzsfn1kMOWN7xLR1Zy5IzpDwFVP8Hy-I2Hg",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 4,
+      "title": "Tubo 2.0 Bathtub Filter",
+      "product_id": "643283605523649036",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:643283605523649036,headlineOfferDocid:732687637117362780,imageDocid:1150948752250232069,rds:PC_13539858849141423714|PROD_PC_13539858849141423714,gpcid:13539858849141423714,mid:576462879839527004,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjQzMjgzNjA1NTIzNjQ5MDM2IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNzMyNjg3NjM3MTE3MzYyNzgwIiwiaW1hZ2VEb2NpZCI6IjExNTA5NDg3NTIyNTAyMzIwNjkiLCJyZHMiOiJQQ18xMzUzOTg1ODg0OTE0MTQyMzcxNHxQUk9EX1BDXzEzNTM5ODU4ODQ5MTQxNDIzNzE0IiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTM1Mzk4NTg4NDkxNDE0MjM3MTQiLCJtaWQiOiI1NzY0NjI4Nzk4Mzk1MjcwMDQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjQzMjgzNjA1NTIzNjQ5MDM2IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNzMyNjg3NjM3MTE3MzYyNzgwIiwiaW1hZ2VEb2NpZCI6IjExNTA5NDg3NTIyNTAyMzIwNjkiLCJyZHMiOiJQQ18xMzUzOTg1ODg0OTE0MTQyMzcxNHxQUk9EX1BDXzEzNTM5ODU4ODQ5MTQxNDIzNzE0IiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTM1Mzk4NTg4NDkxNDE0MjM3MTQiLCJtaWQiOiI1NzY0NjI4Nzk4Mzk1MjcwMDQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "Tubo",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TPvlCWBhBeT-RU8Z4d2IOu0.png",
+      "multiple_sources": true,
+      "price": "$64.99",
+      "extracted_price": 64.99,
+      "old_price": "$110",
+      "extracted_old_price": 110,
+      "rating": 3.9,
+      "reviews": 123,
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRCYmrvWQUmFhmc5VGc2IiPWy0-w41PURUqImnRZM-sWpCrDixLIJ6x_upnUrdMj6HpeKUyxlAHN3tbY9jFTQoMfeOzBuM6Eyce4Uo95iGEVTvu2iYoOMcs",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/-V9yIXicDcn_DoFAAADgJ0oKbdnMEioc1Vwt_xjXqWvuR92V8lDex9vw_ft9P6VSQs51HTPUDELhXFN3ZowKqW6KoBHiVJclF4KwYlkv_jd3jrntodjNaNOlEaTbkqJZ4iEzIGE6jLXX1AhhDOuAsvgCNJkKt1mT_hDsrP7aCgabHFSWL_AeDv3T8Y8Tdc_sanuOOHjg03vVAmszIDyF3J4Rb5Ocu9YkGT8BJH9VRz7q",
+      "tag": "40% OFF",
+      "extensions": [
+        "40% OFF"
+      ],
+      "delivery": "Free delivery on $85+"
+    },
+    {
+      "position": 5,
+      "title": "Crystal Quest Bath Ball Filter",
+      "product_id": "12056042349598914395",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:12056042349598914395,headlineOfferDocid:3877283407515386241,imageDocid:286531183429312801,rds:PC_7573002106200248670|PROD_PC_7573002106200248670,gpcid:16604687810463418756,mid:576462847130509786,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTIwNTYwNDIzNDk1OTg5MTQzOTUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIzODc3MjgzNDA3NTE1Mzg2MjQxIiwiaW1hZ2VEb2NpZCI6IjI4NjUzMTE4MzQyOTMxMjgwMSIsInJkcyI6IlBDXzc1NzMwMDIxMDYyMDAyNDg2NzB8UFJPRF9QQ183NTczMDAyMTA2MjAwMjQ4NjcwIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTY2MDQ2ODc4MTA0NjM0MTg3NTYiLCJtaWQiOiI1NzY0NjI4NDcxMzA1MDk3ODYiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTIwNTYwNDIzNDk1OTg5MTQzOTUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIzODc3MjgzNDA3NTE1Mzg2MjQxIiwiaW1hZ2VEb2NpZCI6IjI4NjUzMTE4MzQyOTMxMjgwMSIsInJkcyI6IlBDXzc1NzMwMDIxMDYyMDAyNDg2NzB8UFJPRF9QQ183NTczMDAyMTA2MjAwMjQ4NjcwIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTY2MDQ2ODc4MTA0NjM0MTg3NTYiLCJtaWQiOiI1NzY0NjI4NDcxMzA1MDk3ODYiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "Crystal Quest",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TO-IuAqB5EJ1eoFMVrkB_t4.png",
+      "multiple_sources": true,
+      "price": "$64.95",
+      "extracted_price": 64.95,
+      "rating": 4.9,
+      "reviews": 195,
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQUwj588t77ObP1rbjLXKYTXMNMDsrmoNPeFp9HzAX_908Z_VzmeiyJhdtNk8KNxrfgABDcpUQJT1MnWVUeqnxk2fYrCMuHxYCqRS59IMaMKozGAGxcq_3J6g",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/e-ylf3icDclJDoIwAADAFwmiUZbEGIQIgq0rCF4IlLKGUkqNwKv8jr_Ruc73U3BOe00UMUFspBynM54QSch7HvMSCahtxL5oKS1Jvu02_9N0mKoWunjvaqUoXJZPyVliSXUM3PAeAAjMnjUtPOM9Ve1JDyJ1rjwjf2pwOTpFymGtuHBgWa7vTES9i3OXAHn4Hu7IUC-ykBngZQ-h0V1vK_UAYuC2k6VbA-qipbPOf7SYPyI",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 6,
+      "title": "Canopy Bath Tub Filter",
+      "product_id": "8132641390240680838",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:8132641390240680838,headlineOfferDocid:9967090707660847296,imageDocid:14537170889201686436,rds:PC_8885422417199979273|PROD_PC_8885422417199979273,gpcid:8885422417199979273,mid:576462537538415727,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiODEzMjY0MTM5MDI0MDY4MDgzOCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijk5NjcwOTA3MDc2NjA4NDcyOTYiLCJpbWFnZURvY2lkIjoiMTQ1MzcxNzA4ODkyMDE2ODY0MzYiLCJyZHMiOiJQQ184ODg1NDIyNDE3MTk5OTc5MjczfFBST0RfUENfODg4NTQyMjQxNzE5OTk3OTI3MyIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6Ijg4ODU0MjI0MTcxOTk5NzkyNzMiLCJtaWQiOiI1NzY0NjI1Mzc1Mzg0MTU3MjciLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiODEzMjY0MTM5MDI0MDY4MDgzOCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijk5NjcwOTA3MDc2NjA4NDcyOTYiLCJpbWFnZURvY2lkIjoiMTQ1MzcxNzA4ODkyMDE2ODY0MzYiLCJyZHMiOiJQQ184ODg1NDIyNDE3MTk5OTc5MjczfFBST0RfUENfODg4NTQyMjQxNzE5OTk3OTI3MyIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6Ijg4ODU0MjI0MTcxOTk5NzkyNzMiLCJtaWQiOiI1NzY0NjI1Mzc1Mzg0MTU3MjciLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "Babylist",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TPezOdL7DuR4hw8SlsS8D08.png",
+      "multiple_sources": true,
+      "price": "$89.00",
+      "extracted_price": 89.0,
+      "rating": 4.5,
+      "reviews": 4,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ5bzMf18moshwXJn0YFBk6JwTkMVcEdaQx2HRJu_bIJo_pZJSn2pkG4MxIXlay3U3LaC4w-K9lpcj6LcqRliuJPovsemhmMJwo-VlS3kN5WCNUxfnyCNkOFQ",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/gDvTxnicDclREkJAAADQE4mIiZmmKRO1oShSP4alaNld7RY6VdfpNvV-3_dTck6ZIYoFho-B8iIXeIal0Y3xlFdwBEkjspJQWuHbvJ39z1h4uW5DX83e7nU8bQgruxhg6WwtkQa6I3IjuMpTv5fXAXgm2QaQhF7AAcsU2RO338R1Oiih4qTmpBO2ek3hXXNgG9TVE-zJixVN2bigI0JUHxTkqSfTC_srHkwP7Sz_B9JpP6I",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 7,
+      "title": "PUREPLUS 11 Stages Bathtub Filter",
+      "product_id": "15419619902230152735",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:15419619902230152735,headlineOfferDocid:13149070755350702863,imageDocid:7029667743691969130,gpcid:9496177413696320106,mid:576462875317608908,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTU0MTk2MTk5MDIyMzAxNTI3MzUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMzE0OTA3MDc1NTM1MDcwMjg2MyIsImltYWdlRG9jaWQiOiI3MDI5NjY3NzQzNjkxOTY5MTMwIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiOTQ5NjE3NzQxMzY5NjMyMDEwNiIsIm1pZCI6IjU3NjQ2Mjg3NTMxNzYwODkwOCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTU0MTk2MTk5MDIyMzAxNTI3MzUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMzE0OTA3MDc1NTM1MDcwMjg2MyIsImltYWdlRG9jaWQiOiI3MDI5NjY3NzQzNjkxOTY5MTMwIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiOTQ5NjE3NzQxMzY5NjMyMDEwNiIsIm1pZCI6IjU3NjQ2Mjg3NTMxNzYwODkwOCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+      "source": "pureplusfilter.com",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TO1B6pqZ4WBUpsACgNgEzZI.jpeg",
+      "price": "$22.99",
+      "extracted_price": 22.99,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT7pXIm7Q9KA2Y2s7XDoWd1WQBXqsW8IZ-XLZuShTiVsBPZbrvSqzuea2KbFNlwb4vOTp6I-yuZNVhEbgkuX9tPVMdz89A-vDYJTpC35sBk7e_FMMDPVgk0",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/UdS8GXicDcltD0JAAADgX4TSi5etNZImEevG8aW5Y5hw3J3Gj-r_9G_q-fp8PxVjhOqSVHR4nAkrcoGhThZLyjJWYxH3rUSrnpC6K4_D4X-64efaBQOFQKdVQs015ESmCrT6OF_HoQkHGqtOKsBbyh8VqCNqBikap8ew8CKTXWT7rzfaTndA9o4w89SPqjMqGw41FkRevqiaIUxWcgXktNlRs1GKp-15VhCVzeoHCZw9jQ",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 8,
+      "title": "Bath Filter for Tub, Shower Water Filter with Overflow, Filter for Bathtub Bath Water Filter, 2500 Gallons, Removes Contaminants & pH Balancer,",
+      "product_id": "16689730080413315792",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=productid:16689730080413315792,headlineOfferDocid:16689730080413315792,imageDocid:9509800616500956372,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMTY2ODk3MzAwODA0MTMzMTU3OTIiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNjY4OTczMDA4MDQxMzMxNTc5MiIsImltYWdlRG9jaWQiOiI5NTA5ODAwNjE2NTAwOTU2MzcyIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMTY2ODk3MzAwODA0MTMzMTU3OTIiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNjY4OTczMDA4MDQxMzMxNTc5MiIsImltYWdlRG9jaWQiOiI5NTA5ODAwNjE2NTAwOTU2MzcyIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "source": "Walmart - AmzDoer",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TGxOcCEW2MVDbDPzjfMq3lU.png",
+      "price": "$23.99",
+      "extracted_price": 23.99,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRHmw5L91MHWZU0d9M-SWGr2CIeOoN0mMN36MqA0k0Keoy0lhvCAkpJnD4n4W-zxkNxTpD-QmOszB8_ApL-k4ZNiE1gbXJU",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/OGlcJ3icDcnbCoIwAADQL5rOskghwjQ0c5MuYvgSOYfK2iUdpX5I_9bf1Hk930-jtepd06SCdKPStAK6FNCoe33XLTGI5GbfSKVaUW-e6_-5Hq6ckJwi_l4kjoWivMhg5SBwzsNu5u9pKjHkCM-X6OlBBg9UjvDRvHyPqVgEtrBzMA0MDxcVgCNP-2m7unkqAcwucLuz6vIaZz9E-DRW"
+    },
+    {
+      "position": 9,
+      "title": "WETRBWEH Bath Filter",
+      "product_id": "5977010235653913425",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:5977010235653913425,headlineOfferDocid:14862437741966690796,imageDocid:10334318623747180923,gpcid:4405156487488843120,mid:576462775153126350,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNTk3NzAxMDIzNTY1MzkxMzQyNSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE0ODYyNDM3NzQxOTY2NjkwNzk2IiwiaW1hZ2VEb2NpZCI6IjEwMzM0MzE4NjIzNzQ3MTgwOTIzIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiNDQwNTE1NjQ4NzQ4ODg0MzEyMCIsIm1pZCI6IjU3NjQ2Mjc3NTE1MzEyNjM1MCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNTk3NzAxMDIzNTY1MzkxMzQyNSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE0ODYyNDM3NzQxOTY2NjkwNzk2IiwiaW1hZ2VEb2NpZCI6IjEwMzM0MzE4NjIzNzQ3MTgwOTIzIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiNDQwNTE1NjQ4NzQ4ODg0MzEyMCIsIm1pZCI6IjU3NjQ2Mjc3NTE1MzEyNjM1MCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+      "source": "eBay",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TOBPgQ02jFTbfWOFSv1on-I.png",
+      "multiple_sources": true,
+      "price": "$5.00",
+      "extracted_price": 5.0,
+      "second_hand_condition": "pre-owned",
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTpj9JO_U7GW3qgVwOzmF8T3FiFbqhPelbQSDt12hAH22UsAZtGap2KCYjjjRjfSLwngCMXMCoAyTt-ElJq5Y0z92f8SCrcsAigyWNqSf6P3PqejNFpFCGOQw",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/ab2kA3icDclhCoIwGADQE6U1qTSIGKsZVmqpmf2JXDodplv7QOxUXafb1Pv7vp8KQOqFaRYtew0SiscI8tYyuIY71Mxg3dPUVSdl3fKVWv5vgf2H47JYCscLbsncTS3Fz33wflI7tmhNc1WFRZMfozVMUIW3CCUaX8G9S7QjmRDiJMpo37ecHC4H0uEhhtGm8dQ0G78dVNoReTGNaz6kvorKWWiFqhA-lZS4wbH_AZf2Po0"
+    },
+    {
+      "position": 10,
+      "title": "Canopy Bath Tub Filter for Healthy Skin and Hair",
+      "product_id": "6128862122962204465",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:6128862122962204465,headlineOfferDocid:4906055410247960459,imageDocid:3043016121759635966,rds:PC_16150089605323671985|PROD_PC_16150089605323671985,gpcid:16150089605323671985,mid:576462880526414165,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjEyODg2MjEyMjk2MjIwNDQ2NSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ5MDYwNTU0MTAyNDc5NjA0NTkiLCJpbWFnZURvY2lkIjoiMzA0MzAxNjEyMTc1OTYzNTk2NiIsInJkcyI6IlBDXzE2MTUwMDg5NjA1MzIzNjcxOTg1fFBST0RfUENfMTYxNTAwODk2MDUzMjM2NzE5ODUiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxNjE1MDA4OTYwNTMyMzY3MTk4NSIsIm1pZCI6IjU3NjQ2Mjg4MDUyNjQxNDE2NSIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjEyODg2MjEyMjk2MjIwNDQ2NSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ5MDYwNTU0MTAyNDc5NjA0NTkiLCJpbWFnZURvY2lkIjoiMzA0MzAxNjEyMTc1OTYzNTk2NiIsInJkcyI6IlBDXzE2MTUwMDg5NjA1MzIzNjcxOTg1fFBST0RfUENfMTYxNTAwODk2MDUzMjM2NzE5ODUiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxNjE1MDA4OTYwNTMyMzY3MTk4NSIsIm1pZCI6IjU3NjQ2Mjg4MDUyNjQxNDE2NSIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+      "source": "Sephora",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TDUIk-7YI7uHKXDV0gYUOKk.png",
+      "multiple_sources": true,
+      "price": "$89.00",
+      "extracted_price": 89.0,
+      "rating": 4.7,
+      "reviews": 31,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQhk_E_jExgiCWkSqzuUfQ3h2yDCJC2ipGeZbGk4SV0nBH27Bq9n-nNpiygllMlVfajTubum_YoHdgO17S5fHWiMgFlVDNCwA",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/n9xyhnicDclRCoIwAADQE6m1ClGI0GlKoCGWUj-iU7fpnDM3yk7S1bpNvd_3_RApxWwbRsPRYxGyqTVZcaDjWZaSIh2NgzGTUQjK8WHa_8924toKUEL6wi86_4UpzPt0eqtrm2wIWDx4goCKoLlXQb9NsxV3Q2C6k8U1Hgu6YMYilrVld1GVGorbGNb4vDbTXRvmNMJHlnkxfDo_ROc3MA",
+      "delivery": "Free delivery by Thu"
+    },
+    {
+      "position": 11,
+      "title": "PUREPLUS SF008 Bathtub Filter Replacement Cartridge",
+      "product_id": "16868014649710898898",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:16868014649710898898,headlineOfferDocid:18411454897208447510,imageDocid:12588680171869944516,gpcid:11170195994565894784,mid:576462876180720279,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTY4NjgwMTQ2NDk3MTA4OTg4OTgiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxODQxMTQ1NDg5NzIwODQ0NzUxMCIsImltYWdlRG9jaWQiOiIxMjU4ODY4MDE3MTg2OTk0NDUxNiIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjExMTcwMTk1OTk0NTY1ODk0Nzg0IiwibWlkIjoiNTc2NDYyODc2MTgwNzIwMjc5IiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTY4NjgwMTQ2NDk3MTA4OTg4OTgiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxODQxMTQ1NDg5NzIwODQ0NzUxMCIsImltYWdlRG9jaWQiOiIxMjU4ODY4MDE3MTg2OTk0NDUxNiIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjExMTcwMTk1OTk0NTY1ODk0Nzg0IiwibWlkIjoiNTc2NDYyODc2MTgwNzIwMjc5IiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "source": "pureplusfilter.com",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TKJhSWauka4QOFvlKQfZxpE.jpeg",
+      "price": "$17.99",
+      "extracted_price": 17.99,
+      "old_price": "$28",
+      "extracted_old_price": 28,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRyQpWoTNoi1XtGxlNmPJO__Kw0ea5K-c7J7Sodck8LmPYkGICtjzKayzTkLItEj42tr2AWlyqBbGM8t3ezDwLaRamcUqiFugIvEcYJoKK3SK05N2ZxMkog",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/TCjp5XicDcndEkJAGADQJ_ITGWqmafRnWKnQSDdmWwZt7OIr8VC9T29T5_Z8PwUA7-aSlNWkHThkqQC3WhbzDjCURCSskrqCcV7W-bJZ_G9ueunMIv5w4hELPVZOLmC9H151dA5Jgno5wxoSiO7oAUsJNdzqGFPLXsN9RHgYQ-rasL1PFWgVM3oMzepm7Q1Qs3HTu9jHFTk35e6Z268tiR2GkBogWfOU63tPWf4DcBo-9w",
+      "tag": "35% OFF",
+      "extensions": [
+        "35% OFF"
+      ],
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 12,
+      "title": "Tru Bath Water Filter w/Cartridge",
+      "product_id": "17805257510538936149",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:17805257510538936149,headlineOfferDocid:1000463715789666622,imageDocid:10582500542292938463,gpcid:11902544577375605440,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTc4MDUyNTc1MTA1Mzg5MzYxNDkiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMDAwNDYzNzE1Nzg5NjY2NjIyIiwiaW1hZ2VEb2NpZCI6IjEwNTgyNTAwNTQyMjkyOTM4NDYzIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTE5MDI1NDQ1NzczNzU2MDU0NDAiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTc4MDUyNTc1MTA1Mzg5MzYxNDkiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMDAwNDYzNzE1Nzg5NjY2NjIyIiwiaW1hZ2VEb2NpZCI6IjEwNTgyNTAwNTQyMjkyOTM4NDYzIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTE5MDI1NDQ1NzczNzU2MDU0NDAiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "USABerkeyFilters.com",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TC4R_UUuGvgYC0FuIqkdrwo.png",
+      "price": "$27.99",
+      "extracted_price": 27.99,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQWukjuQyZsnFr6KD9RKDsSI29rxWob-_3vUapD3afcNDawkF2POe0cQF--kOf9wn8zsdSr_vYI-3uORjoblly5XvsCeiUgQg",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Dse_UHicDcnbCoIwAADQL5qGo2hCRDQMEbQp0uVFdOq8ta1tavYl_Vp_U-f1fD-NMVK7tl1xqhZpqhKYgkOLaZObllpUPGzdCClbzvbP3f_cQ1iiEyWXse9Gstw199QmwCgOsE58B6nXRRQgg1OaSwzzmoY4n3vPOUfVihIPgD6q0cy3b10mKptuPoBjFHeiGIZlfZ30sWpTRtgPNh43cQ",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 13,
+      "title": "Bathtub & Shower Filter - Removes 96% Chlorine, Lead & Fluoride Baby-Safe Soft Water for Sensitive Skin, Hair & Eczema",
+      "product_id": "11835330049829203874",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=productid:11835330049829203874,headlineOfferDocid:11835330049829203874,imageDocid:13377176234874395949,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMTE4MzUzMzAwNDk4MjkyMDM4NzQiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMTgzNTMzMDA0OTgyOTIwMzg3NCIsImltYWdlRG9jaWQiOiIxMzM3NzE3NjIzNDg3NDM5NTk0OSIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMTE4MzUzMzAwNDk4MjkyMDM4NzQiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMTgzNTMzMDA0OTgyOTIwMzg3NCIsImltYWdlRG9jaWQiOiIxMzM3NzE3NjIzNDg3NDM5NTk0OSIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+      "source": "Walmart - hui zhou shi jing qiu dian zi ke ji you xian gong si",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TEc99g3KksNyBnFy_v-uJGw.png",
+      "price": "$16.42",
+      "extracted_price": 16.42,
+      "old_price": "$19",
+      "extracted_old_price": 19,
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQsCPx3okhPEAEelIMQXJ0HQ7Hdg1uFRqyiFNnxDF_-UivoqU0BBbvVkM0hJOqVAMV8OHDjLNS7MM2xplcnPjVpp6s7WNuL0A",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/uYzubHicDcnhDkJAAADgJ8KpLWVrjZDMHWqu_rUc49Dd6Y7xJr1ab1Pf3-_7aZQS0jaMipH3IlRVaqpgpl5L9VSU6IS_DNlwISirD8P-f7aDyt2JZPKYzmveNanv-FV_htk9AmFmhWVtjsFlWGiA2OwFDy2nEx9y4LrFhDsImigZsAPxNgm9NkZXC8LVLHrC0hYLsZHWDY0xcH4EaTYU",
+      "tag": "15% OFF",
+      "extensions": [
+        "15% OFF"
+      ],
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 14,
+      "title": "Sprite BB-CM Bath Ball Filter",
+      "product_id": "132766683581921554",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:132766683581921554,headlineOfferDocid:14252160062581475669,imageDocid:17006406753375572513,rds:PC_5633795899517332658|PROD_PC_5633795899517332658,gpcid:5633795899517332658,mid:576462794105258859,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTMyNzY2NjgzNTgxOTIxNTU0IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTQyNTIxNjAwNjI1ODE0NzU2NjkiLCJpbWFnZURvY2lkIjoiMTcwMDY0MDY3NTMzNzU1NzI1MTMiLCJyZHMiOiJQQ181NjMzNzk1ODk5NTE3MzMyNjU4fFBST0RfUENfNTYzMzc5NTg5OTUxNzMzMjY1OCIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjU2MzM3OTU4OTk1MTczMzI2NTgiLCJtaWQiOiI1NzY0NjI3OTQxMDUyNTg4NTkiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTMyNzY2NjgzNTgxOTIxNTU0IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTQyNTIxNjAwNjI1ODE0NzU2NjkiLCJpbWFnZURvY2lkIjoiMTcwMDY0MDY3NTMzNzU1NzI1MTMiLCJyZHMiOiJQQ181NjMzNzk1ODk5NTE3MzMyNjU4fFBST0RfUENfNTYzMzc5NTg5OTUxNzMzMjY1OCIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjU2MzM3OTU4OTk1MTczMzI2NTgiLCJtaWQiOiI1NzY0NjI3OTQxMDUyNTg4NTkiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "My Pure Water",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TOSZKg73pu0kRdWFyTmYKvY.png",
+      "multiple_sources": true,
+      "price": "$32.50",
+      "extracted_price": 32.5,
+      "old_price": "Usually $37",
+      "extracted_old_price": 37,
+      "rating": 4.0,
+      "reviews": 4,
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQSMena-aMKCOIh-_sQOTKZy-OU8LRoPkmZ_JmPXbvST_bIKkUyNKMGEQLT7Wweq2ZLnVW3fSXrA0-vtcgLMn5udaBXEbFm8Q2H-uv0oe4XUTwdncxQjwPxVA",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/nA9nq3icDclJDoIwAADAFxUQNSKJMWgQkbWyhguBUgEJZSvbr_yOv9G5zvdTUNoOIstigvq1pTgDNCUbJh9oQkvEoKZmh6Jp25Lk5-70P1Eys6OCoGNgkoDE0K6WWoB4gJarRSuwPEF_NnZVR_GjtsN0ctw4VbXKW03NUGSou4dgxh0f6cQPti8n7CUOTBTlukH2Y5ZcQjm91QLk72CcuAbvQs-dM4IW-J7txZd-kQE-1Q",
+      "tag": "LOW PRICE",
+      "extensions": [
+        "LOW PRICE"
+      ]
+    },
+    {
+      "position": 15,
+      "title": "TENicas Premium Design Leak-Proof Bath Filter",
+      "product_id": "3436279178965158852",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:3436279178965158852,headlineOfferDocid:8576481831222332825,imageDocid:2414439476098599312,gpcid:15793023648455381510,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMzQzNjI3OTE3ODk2NTE1ODg1MiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijg1NzY0ODE4MzEyMjIzMzI4MjUiLCJpbWFnZURvY2lkIjoiMjQxNDQzOTQ3NjA5ODU5OTMxMiIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjE1NzkzMDIzNjQ4NDU1MzgxNTEwIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMzQzNjI3OTE3ODk2NTE1ODg1MiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijg1NzY0ODE4MzEyMjIzMzI4MjUiLCJpbWFnZURvY2lkIjoiMjQxNDQzOTQ3NjA5ODU5OTMxMiIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjE1NzkzMDIzNjQ4NDU1MzgxNTEwIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "source": "Wayfair",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TNQOC5esSCh8FVdJb7bdpes.png",
+      "price": "$104.99",
+      "extracted_price": 104.99,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSnxTHBgxj4oXDnSyfYjjGHt0t-0mrFe445lIhZSIICudkC6ifxO1WohPweI4Jop--dumghfFyBQEeutF7uPmwI_XNav9gUmRMxchlzHkdasjuMRH5EWkva",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/mLy21HicDclZDsFAGADgE3WRFGkTEUp1JCgllhepmelMl1noP7QO5T5uw_f6fT8cQDeB41CJH50GSiy4SddmDWRQYBsr4TRcaV1INr6P_hdM1sRf4FS2-3jK2tJTp5lMu_xclosYXLBc8Yio5_VrxC8pQqEhVTgo8nbTOyqevCjylkpbFjGC8Tzqpts5NRANTSJe6HpaZ0-fHcRu1WJev-OKZE1pVru4Pz9Wz-wHc8c_0Q",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 16,
+      "title": "FLYMOOO Bath Water Filter",
+      "product_id": "15293553906986903689",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:15293553906986903689,headlineOfferDocid:5151804616856576753,imageDocid:10732610237823741434,gpcid:7286062734340200719,mid:576462815796841714,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTUyOTM1NTM5MDY5ODY5MDM2ODkiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTUxODA0NjE2ODU2NTc2NzUzIiwiaW1hZ2VEb2NpZCI6IjEwNzMyNjEwMjM3ODIzNzQxNDM0IiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiNzI4NjA2MjczNDM0MDIwMDcxOSIsIm1pZCI6IjU3NjQ2MjgxNTc5Njg0MTcxNCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTUyOTM1NTM5MDY5ODY5MDM2ODkiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTUxODA0NjE2ODU2NTc2NzUzIiwiaW1hZ2VEb2NpZCI6IjEwNzMyNjEwMjM3ODIzNzQxNDM0IiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiNzI4NjA2MjczNDM0MDIwMDcxOSIsIm1pZCI6IjU3NjQ2MjgxNTc5Njg0MTcxNCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+      "source": "eBay",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TD2I1q67a-pR78VoNxglOpQ.png",
+      "multiple_sources": true,
+      "price": "$10.00",
+      "extracted_price": 10.0,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSA2vmZZ5DqQG9emy-Uuj2XyJLtyit0vF8EwnCbK--DYAyFG-L1L9SABrBvmTJQT3PknKGT6roFrNYNt5Fjm3Za3Q3HAQX5qAYA_76OnIw-Nr08aG5TXbkZ",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/A7SvhnicDcndCoIwGADQJ5qaw1IhYlauVCzRQL0JNckfNnV-GXup3qe3qXN7vp8GYJxtVa15JeQI9QNByXXlOUMBbaVUA1PnZhjHlj930_Z_NgkfFq1ioi8sz43DFFGrZhLdXp2eSi8A2YK2uObxzfelj9AhI9KlKFgFVkwc4Sws8aIEX3vu02QtBleEWQiG2zGcFzjCJxKlxkQyct-sL_z8RqHQzIIaSVr2-Q_Xojwa"
+    },
+    {
+      "position": 17,
+      "title": "Etokfoks Bathtub Water Filter with Overflow",
+      "product_id": "12463358092812697556",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:12463358092812697556,headlineOfferDocid:9177299695613148959,imageDocid:855299168951481326,gpcid:9524925736507744726,mid:576462549872991081,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTI0NjMzNTgwOTI4MTI2OTc1NTYiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI5MTc3Mjk5Njk1NjEzMTQ4OTU5IiwiaW1hZ2VEb2NpZCI6Ijg1NTI5OTE2ODk1MTQ4MTMyNiIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6Ijk1MjQ5MjU3MzY1MDc3NDQ3MjYiLCJtaWQiOiI1NzY0NjI1NDk4NzI5OTEwODEiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTI0NjMzNTgwOTI4MTI2OTc1NTYiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI5MTc3Mjk5Njk1NjEzMTQ4OTU5IiwiaW1hZ2VEb2NpZCI6Ijg1NTI5OTE2ODk1MTQ4MTMyNiIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6Ijk1MjQ5MjU3MzY1MDc3NDQ3MjYiLCJtaWQiOiI1NzY0NjI1NDk4NzI5OTEwODEiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "Lowe's",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TJ4NyifSdSJjH-tC8ofdBRI.png",
+      "price": "$63.70",
+      "extracted_price": 63.7,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQL5ixvmXMiBSaqu9V97kxaNPA_VQo500zo3A6-fnxfYxCzkbP0tepN1wQq3nzAE6JbMqWpakIEsm5JCuU_4WCbRg06smlrWJxvODrG9IENkxrzf_1xHqh4",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Gb1g2nicDcn_DkJAAADgJ8IpNLbWLplYRC3qL_ObyblzR5eH6n16m_r-_b6fhjFMDUkqUT6-MSsLgWVoJdaUpazNxXzoJdoMGLeo3pHt_wzoF7qdhye15XN_99r9NSWTHumbjqd-AJMoHFQAlmENNaFCvHpwc-myALAS-_IrJGu0QEtzM4_EOO0ci_aqa063RInN7FIDjfbPMXb5fD6Mtu5YfsfHpUpkfiSN8gNMFD7c",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 18,
+      "title": "PUREPLUS Bath Ball",
+      "product_id": "13500472929605463171",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:13500472929605463171,headlineOfferDocid:17438888546505227029,imageDocid:6764964728113838621,rds:PC_13178504726447942675|PROD_PC_13178504726447942675,gpcid:13178504726447942675,mid:576462886777520534,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTM1MDA0NzI5Mjk2MDU0NjMxNzEiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNzQzODg4ODU0NjUwNTIyNzAyOSIsImltYWdlRG9jaWQiOiI2NzY0OTY0NzI4MTEzODM4NjIxIiwicmRzIjoiUENfMTMxNzg1MDQ3MjY0NDc5NDI2NzV8UFJPRF9QQ18xMzE3ODUwNDcyNjQ0Nzk0MjY3NSIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjEzMTc4NTA0NzI2NDQ3OTQyNjc1IiwibWlkIjoiNTc2NDYyODg2Nzc3NTIwNTM0IiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTM1MDA0NzI5Mjk2MDU0NjMxNzEiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNzQzODg4ODU0NjUwNTIyNzAyOSIsImltYWdlRG9jaWQiOiI2NzY0OTY0NzI4MTEzODM4NjIxIiwicmRzIjoiUENfMTMxNzg1MDQ3MjY0NDc5NDI2NzV8UFJPRF9QQ18xMzE3ODUwNDcyNjQ0Nzk0MjY3NSIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjEzMTc4NTA0NzI2NDQ3OTQyNjc1IiwibWlkIjoiNTc2NDYyODg2Nzc3NTIwNTM0IiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "source": "Walmart - Premium Icepure",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TG1nDKVPUZGfnvgWm34Lji8.png",
+      "price": "$15.90",
+      "extracted_price": 15.9,
+      "old_price": "$20",
+      "extracted_old_price": 20,
+      "rating": 2.0,
+      "reviews": 1,
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRTatCuaDus4Z-kfQYYap7lBbeO_PDd6uug3Erd0xjvkiNA1LGwiOtqa2BGmVEHj1Mj0DtfMBvEs1OD8-PTo4ihuO-SdEtw",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/3yrAAnicDclJDoIwFADQEzFUiQOJMSAEF0JRiQluTGkZCgKF_oJexLt5G33b9_1UAELahpF3dHwLyJkGWYf0UgIBTnXat4aseiF4V-6H3f9sJ2LbgF4SAgdFPCWtu9YU5zQlYv10sxw_Yo-tlCqX_sjMVz01PHLQKZg5hoEs3KC9-ccahbXpQRG6ky8R9jZanPQWrxTWrsyH-QfGNzX5",
+      "tag": "20% OFF",
+      "extensions": [
+        "20% OFF"
+      ]
+    },
+    {
+      "position": 19,
+      "title": "Rainshow'r Crystal Bath Ball 3000",
+      "product_id": "9934184424898291984",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:9934184424898291984,headlineOfferDocid:17407483181746598848,imageDocid:1832950282230583500,rds:PC_2827027567204221587|PROD_PC_2827027567204221587,gpcid:2827027567204221587,mid:576462350679677560,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiOTkzNDE4NDQyNDg5ODI5MTk4NCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE3NDA3NDgzMTgxNzQ2NTk4ODQ4IiwiaW1hZ2VEb2NpZCI6IjE4MzI5NTAyODIyMzA1ODM1MDAiLCJyZHMiOiJQQ18yODI3MDI3NTY3MjA0MjIxNTg3fFBST0RfUENfMjgyNzAyNzU2NzIwNDIyMTU4NyIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjI4MjcwMjc1NjcyMDQyMjE1ODciLCJtaWQiOiI1NzY0NjIzNTA2Nzk2Nzc1NjAiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiOTkzNDE4NDQyNDg5ODI5MTk4NCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE3NDA3NDgzMTgxNzQ2NTk4ODQ4IiwiaW1hZ2VEb2NpZCI6IjE4MzI5NTAyODIyMzA1ODM1MDAiLCJyZHMiOiJQQ18yODI3MDI3NTY3MjA0MjIxNTg3fFBST0RfUENfMjgyNzAyNzU2NzIwNDIyMTU4NyIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjI4MjcwMjc1NjcyMDQyMjE1ODciLCJtaWQiOiI1NzY0NjIzNTA2Nzk2Nzc1NjAiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "Quality Water Filters 4 You",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TAEFdH1FszydyGsQXrxlkCY.jpeg",
+      "multiple_sources": true,
+      "price": "$49.00",
+      "extracted_price": 49.0,
+      "rating": 5.0,
+      "reviews": 2,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQrBmshsiAS9eWpsWqyrOeEFGtdJJIJbHTY98jLnRa5XJslSQ8ML1yQFniorXBpG7huebVzbBg1rhrVQ74-VmqYefnhp9fGcgi0YN_899-vKgzQqXX_RRUX4cKN",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/pPMkqHicDcltDoIgAADQE_m11RS31nIrysyGleKvpkhAS0SgNjtWt-k29f6-74dbq0zseVQSPSlLO8e20neZsY0VxCVD7xk-KCUkW46L_8WrvAOQIJ30hhuxOgFaKVONkz7S9QbaLk13abs91yC6Z7Jo5jg1jxOKDlkwoY0Ug8aJgiF_0rZ8twkLNNclCmdO2Y81vUmuwA0SJvw6v0YAOK89e6MR42tRXPCM7PMffONAMw",
+      "delivery": "Free delivery on $70+"
+    },
+    {
+      "position": 20,
+      "title": "Bathtub Chlorine Removal Filter",
+      "product_id": "13669190954519437946",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:13669190954519437946,headlineOfferDocid:17531849332221215598,imageDocid:14212411221579838776,gpcid:9071165032878395859,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTM2NjkxOTA5NTQ1MTk0Mzc5NDYiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNzUzMTg0OTMzMjIyMTIxNTU5OCIsImltYWdlRG9jaWQiOiIxNDIxMjQxMTIyMTU3OTgzODc3NiIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjkwNzExNjUwMzI4NzgzOTU4NTkiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTM2NjkxOTA5NTQ1MTk0Mzc5NDYiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNzUzMTg0OTMzMjIyMTIxNTU5OCIsImltYWdlRG9jaWQiOiIxNDIxMjQxMTIyMTU3OTgzODc3NiIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjkwNzExNjUwMzI4NzgzOTU4NTkiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "EcoQuestPurifiers",
+      "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/7GikWnOMm1N_M5SNdhD4TFnN0W60Y9VR2BqWBLGY1lM.png",
+      "price": "$34.99",
+      "extracted_price": 34.99,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQEyqBtNlajNQzdeK8ZZpI4niowJanVhVfBR4KwGYMcBbXXY0XDu0xUrrpPbD7G0TOQPwrYzr9ATtqvJ7yHNKbMcpY8vkA4",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/0VoZ7XicDclLDoIwFADAEwldkPBJjIFgqhAqGCSUHS0I-CmlPEE4iHfzNjrb-X5aADk6ul4LrhYJdbUBJpDWjFBCxzXeP_Wx7aXsRLMbtv9zXFLZmCf7ZfCAPMobSdaqDq2ikEdDdP0clCJrs6t3NsIZ04h7LM8pyv0Xel-UkjHzTYzSUxLPiq7KdlMYpsBcDiRkEZfUmu6u8QPlAza5"
+    },
+    {
+      "position": 21,
+      "title": "Uni Key Health Systems, Inc Bathtub Water Filter",
+      "product_id": "14781058789554264504",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:14781058789554264504,headlineOfferDocid:15742261535389775358,imageDocid:4246847294635117235,rds:PC_95438902323217415|PROD_PC_95438902323217415,gpcid:95438902323217415,mid:576462901032386485,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTQ3ODEwNTg3ODk1NTQyNjQ1MDQiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNTc0MjI2MTUzNTM4OTc3NTM1OCIsImltYWdlRG9jaWQiOiI0MjQ2ODQ3Mjk0NjM1MTE3MjM1IiwicmRzIjoiUENfOTU0Mzg5MDIzMjMyMTc0MTV8UFJPRF9QQ185NTQzODkwMjMyMzIxNzQxNSIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6Ijk1NDM4OTAyMzIzMjE3NDE1IiwibWlkIjoiNTc2NDYyOTAxMDMyMzg2NDg1IiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTQ3ODEwNTg3ODk1NTQyNjQ1MDQiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNTc0MjI2MTUzNTM4OTc3NTM1OCIsImltYWdlRG9jaWQiOiI0MjQ2ODQ3Mjk0NjM1MTE3MjM1IiwicmRzIjoiUENfOTU0Mzg5MDIzMjMyMTc0MTV8UFJPRF9QQ185NTQzODkwMjMyMzIxNzQxNSIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6Ijk1NDM4OTAyMzIzMjE3NDE1IiwibWlkIjoiNTc2NDYyOTAxMDMyMzg2NDg1IiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "source": "Uni Key Health Systems",
+      "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn%3AANd9GcTZ_wI-4_mAR3Ym1lZGRL_kDhr9rZ-gkvkSXckg_9UF0D9BQXjUKL9iMcde7dBftvOGIh6Rzt-FgAui5OOHYxoZ5nhG7-DALumv",
+      "multiple_sources": true,
+      "price": "$53.00",
+      "extracted_price": 53.0,
+      "rating": 5.0,
+      "reviews": 1,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT7LGC2CGZiK5_6GAlygsaft0Z1SLj20s2ptdlo87Dy1SVJWPXyfQ1Bqls_cFxeyBnFw9iXrM3LmD_NwVk-2E-UI3TkvbzXaw",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/r7jj3XicDclJDoIwAADAF7GVKEJiDIs0KhINiIQLgbJVtkIbsb7Er_kbnet8Pw1jhBqSVA5o5oSVhcDyQRVryjKGkYjGXqLNSAge6t20_Z9h-oUOUah50AY2TPBpla6h2fGaZhWTEyXwHkCmgLCiGzeaw5UgOt4vMa-uijV1NEXuq-TW4C46juez6vVO6i9RK4C9cDuoYfvM33G2_ADjeDY0"
+    },
+    {
+      "position": 22,
+      "title": "CapriLoves Bath Ball Filter",
+      "product_id": "13970915875573551408",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:13970915875573551408,headlineOfferDocid:17337876896614232072,imageDocid:8288882073433506450,gpcid:5926645236101797307,mid:576462775427384052,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTM5NzA5MTU4NzU1NzM1NTE0MDgiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNzMzNzg3Njg5NjYxNDIzMjA3MiIsImltYWdlRG9jaWQiOiI4Mjg4ODgyMDczNDMzNTA2NDUwIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiNTkyNjY0NTIzNjEwMTc5NzMwNyIsIm1pZCI6IjU3NjQ2Mjc3NTQyNzM4NDA1MiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTM5NzA5MTU4NzU1NzM1NTE0MDgiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNzMzNzg3Njg5NjYxNDIzMjA3MiIsImltYWdlRG9jaWQiOiI4Mjg4ODgyMDczNDMzNTA2NDUwIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiNTkyNjY0NTIzNjEwMTc5NzMwNyIsIm1pZCI6IjU3NjQ2Mjc3NTQyNzM4NDA1MiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+      "source": "eBay",
+      "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcSN1XmQeJU_yT0zcxhHYWuffZKmEBeCLcmLdkaZM422mZbdDohDeZ1F0htTlz68NMC5ys71nX8kDNtoHo_3z5uYipJX7A",
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSs1UEMGolZyF38ih9ZSper8qNs7MmtKwv_xeWiymq902B7hAFqVI1TVuCDRpRsVEr6OffanBH8w4xXic04_pGh9jpD-0q80PTu7UHJaUeWth178Grasj_bSQ",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/EV7ECHicDclJDoIwAADAF7FKpJgYI4KgRlRWw4VArbZEoKVF5Fd-x9_oXOf7wUJQvlAU1MJ-ogLdJFG1uvzgohQEyrBrFI47Skn7WLHl_xbr4GZ5MOJa4h697plP2xkg2MojinrAAm4eG3EYX8UbZWRqmKXqtonXW5butDgdNk5IQ566_fx0v5et7YPReF8JVI2CetiqqSOpDKjneDATf18mKBNYM4HXl7wuqujyA7n7Pps"
+    },
+    {
+      "position": 23,
+      "title": "Atzeste Bath Filter for Tub Faucet, Bathtub Bath Water Filter, Hard Water Softener, 2500 Gallons, Removes Contaminants, Chlorine and Fluoride, BPA",
+      "product_id": "8844311775632619453",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=productid:8844311775632619453,headlineOfferDocid:8844311775632619453,imageDocid:17825099994438498000,rds:PC_252878082775428254|PROD_PC_252878082775428254,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiODg0NDMxMTc3NTYzMjYxOTQ1MyIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijg4NDQzMTE3NzU2MzI2MTk0NTMiLCJpbWFnZURvY2lkIjoiMTc4MjUwOTk5OTQ0Mzg0OTgwMDAiLCJyZHMiOiJQQ18yNTI4NzgwODI3NzU0MjgyNTR8UFJPRF9QQ18yNTI4NzgwODI3NzU0MjgyNTQiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiODg0NDMxMTc3NTYzMjYxOTQ1MyIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijg4NDQzMTE3NzU2MzI2MTk0NTMiLCJpbWFnZURvY2lkIjoiMTc4MjUwOTk5OTQ0Mzg0OTgwMDAiLCJyZHMiOiJQQ18yNTI4NzgwODI3NzU0MjgyNTR8UFJPRF9QQ18yNTI4NzgwODI3NzU0MjgyNTQiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "Walmart - Atzeste",
+      "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcTnP5ISNmbEt5sfd-d6O77v8eZaWxR-UtwYkk865osEjKrS0r8udsVsfLPjH1VQBQizWhrYkhO2STFk8WaMhokVgFUhjn2NoxU",
+      "price": "$17.99",
+      "extracted_price": 17.99,
+      "old_price": "$37",
+      "extracted_old_price": 37,
+      "rating": 4.6,
+      "reviews": 25,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQb29er2aK1HAK3ryk1ErjHOkoQ6fJjo4KiwUpMVEdjZWu6e_GS2CkKvI4RnJp5yJVZKV5dOBmjhdCjG2MJS7ShKYaYp_HT",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/1VKNPHicDclRCoIwAADQE6W51FCIMBHNYWKWoT-ibjknbmuuwot0t25T7_d9P0QpMbu6jlknF6EwWqmWrbV-Vo0aOq3jkz4TLsTA-v1j9z_XOyEn7LIWOFiCBhqRBzdyGY1A0igdeWbfY8pNOLyvIikCRKvb08Z1mAN_hK-jeWaxsJa4qGBhofQwUYJ8GoIkzrc5gWVTijq6_ACIETVN",
+      "tag": "51% OFF",
+      "extensions": [
+        "51% OFF"
+      ]
+    },
+    {
+      "position": 24,
+      "title": "Santevia Bath Filter",
+      "product_id": "16977577524896177988",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:16977577524896177988,headlineOfferDocid:2193877363960556284,imageDocid:10514936379453483291,rds:PC_2565858312938632815|PROD_PC_2565858312938632815,gpcid:2565858312938632815,mid:576462401410787904,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTY5Nzc1Nzc1MjQ4OTYxNzc5ODgiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIyMTkzODc3MzYzOTYwNTU2Mjg0IiwiaW1hZ2VEb2NpZCI6IjEwNTE0OTM2Mzc5NDUzNDgzMjkxIiwicmRzIjoiUENfMjU2NTg1ODMxMjkzODYzMjgxNXxQUk9EX1BDXzI1NjU4NTgzMTI5Mzg2MzI4MTUiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIyNTY1ODU4MzEyOTM4NjMyODE1IiwibWlkIjoiNTc2NDYyNDAxNDEwNzg3OTA0IiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTY5Nzc1Nzc1MjQ4OTYxNzc5ODgiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIyMTkzODc3MzYzOTYwNTU2Mjg0IiwiaW1hZ2VEb2NpZCI6IjEwNTE0OTM2Mzc5NDUzNDgzMjkxIiwicmRzIjoiUENfMjU2NTg1ODMxMjkzODYzMjgxNXxQUk9EX1BDXzI1NjU4NTgzMTI5Mzg2MzI4MTUiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIyNTY1ODU4MzEyOTM4NjMyODE1IiwibWlkIjoiNTc2NDYyNDAxNDEwNzg3OTA0IiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "source": "National Nutrition",
+      "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn%3AANd9GcTXtrZ3AhI7aOA2egw3UAZ4i9rvHtl9_PK0dEoLLtOD0d_w78zAqcbaItvHeEQ3C3N8uc3jByfff_tbmosHDmPQNHOhA_g2rNYcC2bfbydPK9A",
+      "multiple_sources": true,
+      "price": "$16.32",
+      "extracted_price": 16.32,
+      "alternative_price": {
+        "price": "CA$22",
+        "extracted_price": 22,
+        "currency": "CA$"
+      },
+      "rating": 4.1,
+      "reviews": 77,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQQ3j4DeRo_gLcm1gbpbDefrrKSTMBu5PYQooBHHQ5LNSCFHUYsIV2DTwZlHbN5S025XC57nKUZOxPLMal8YbP75vPgD72P",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/LA7uRnicDcnbDoIgAADQL0pLY5Zbaykrmpcws6UvTdDQpkBCtx_p3_qbOq_n-2m0lso1zZrT4S11XY004bbBlC51Sw0qelM1QsqWs-Vt8T93FVfzDU0S-zqF9V6cWUj7CSOSwPoyDEF6iLw7wHkihIdQAsI49dcoy9X2aMHDs-gQiUE6tsDJBw4PsmL3wmFUdrOcYAc8MIOOhX-D-TRJ",
+      "delivery": "Free delivery on $108+"
+    },
+    {
+      "position": 25,
+      "title": "Crystal Quest Bath Ball Water Filter",
+      "product_id": "1302920099385923146",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:1302920099385923146,headlineOfferDocid:17935494289821010565,imageDocid:1490012069190424440,rds:PC_8468480699803220392|PROD_PC_8468480699803220392,gpcid:8468480699803220392,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTMwMjkyMDA5OTM4NTkyMzE0NiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE3OTM1NDk0Mjg5ODIxMDEwNTY1IiwiaW1hZ2VEb2NpZCI6IjE0OTAwMTIwNjkxOTA0MjQ0NDAiLCJyZHMiOiJQQ184NDY4NDgwNjk5ODAzMjIwMzkyfFBST0RfUENfODQ2ODQ4MDY5OTgwMzIyMDM5MiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6Ijg0Njg0ODA2OTk4MDMyMjAzOTIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTMwMjkyMDA5OTM4NTkyMzE0NiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE3OTM1NDk0Mjg5ODIxMDEwNTY1IiwiaW1hZ2VEb2NpZCI6IjE0OTAwMTIwNjkxOTA0MjQ0NDAiLCJyZHMiOiJQQ184NDY4NDgwNjk5ODAzMjIwMzkyfFBST0RfUENfODQ2ODQ4MDY5OTgwMzIyMDM5MiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6Ijg0Njg0ODA2OTk4MDMyMjAzOTIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "Quality Water Filters 4 You",
+      "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn%3AANd9GcQIYHM_nBC0DIbq56l9R-N0Ik-WSbDUUY8g3Cr4LRMzidZSezIKX96Ggk1U-SmsQbJVdAprwECSh_8SQzgaf361S5AIn-qlrVUN8EJHcRMJPwXsDNvFtMA",
+      "multiple_sources": true,
+      "price": "$69.95",
+      "extracted_price": 69.95,
+      "rating": 4.8,
+      "reviews": 16,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSMJquPn51p5NYU0KiGEZLyqhnBa192-XoB3DdBe8bim_RuwHUZyyKHa3BnarwkZ5Nvgq43NN3ewAbXCnFwOvPZDRFnwaPEH8UCDEPswlgm-bcnKrWH7QV7AQ",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/ydaVQHicDclvD0JAHADgT4RKFrbW_IulrktT8qadY1j5ORw336qv07ep5-3z_VScs8FUlAJoPzNe5BLPYCGXAye8pjJtG2WoWsZqKHfd9n-mhXLDp9fToRsxaEumoUe8CGvfS49zV4FNlsZKSlpbdXO70LO6eUajCOJ0nsOAqDaQXrxSDU1lt1YRUgthZYkDe3GecOpGexAEe4EeO66HB_EuGymjEPb3YHO5bazLD4eyPlQ",
+      "delivery": "Free delivery on $70+"
+    },
+    {
+      "position": 26,
+      "title": "Canopy Bath Tub Filter Cartridge Replacement Filter",
+      "product_id": "18356711110982943609",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:18356711110982943609,headlineOfferDocid:18070889879382464157,imageDocid:907867979349998144,rds:PC_8512188539534769191|PROD_PC_8512188539534769191,gpcid:8512188539534769191,mid:576462846075534850,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTgzNTY3MTExMTA5ODI5NDM2MDkiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxODA3MDg4OTg3OTM4MjQ2NDE1NyIsImltYWdlRG9jaWQiOiI5MDc4Njc5NzkzNDk5OTgxNDQiLCJyZHMiOiJQQ184NTEyMTg4NTM5NTM0NzY5MTkxfFBST0RfUENfODUxMjE4ODUzOTUzNDc2OTE5MSIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6Ijg1MTIxODg1Mzk1MzQ3NjkxOTEiLCJtaWQiOiI1NzY0NjI4NDYwNzU1MzQ4NTAiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTgzNTY3MTExMTA5ODI5NDM2MDkiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxODA3MDg4OTg3OTM4MjQ2NDE1NyIsImltYWdlRG9jaWQiOiI5MDc4Njc5NzkzNDk5OTgxNDQiLCJyZHMiOiJQQ184NTEyMTg4NTM5NTM0NzY5MTkxfFBST0RfUENfODUxMjE4ODUzOTUzNDc2OTE5MSIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6Ijg1MTIxODg1Mzk1MzQ3NjkxOTEiLCJtaWQiOiI1NzY0NjI4NDYwNzU1MzQ4NTAiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "The Autism Store",
+      "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn%3AANd9GcTd680tYNuMZqy-Rlf0PRO23sSha-W0SAluS7KPY1iWDz9S7PATEjVZE416BRuIsFiaMiXFvTSIYArrNf3-thWlWKKnklth-DE7eZ19cw",
+      "multiple_sources": true,
+      "price": "$37.00",
+      "extracted_price": 37.0,
+      "rating": 4.9,
+      "reviews": 77,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRhZQLhHN619IHt_QvKWMaFOLlqxP-L3rZG5P9axPUY9iQbnPQAS3UBQOhl_5NZ7G1BniNIS68j9brky_oIv_F4u49yA9g6E5DtgtDzIviILnSzAkBx6KRsrZNi",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/IItkQHicDcndCoIwGADQJyqL1FoQoZg6tLUlEnkj_uGWNk2_RH2s3qa3qXN7vh8O0PZ7RSlk1k0tFPkCUrlalj0kILJl1jyVnjdtK2R5fB3-tzdIjpzsyiPmc5foa4RdiNng3c6JffHr10gX_qaLHI2iZKThHQmWSsqMYBOa7MLrWCPR1lmbUhAc6LsHSrtqihs8xLb6VtFkoFI_aRaUYM14ENiXwWxU5qh7176LiPgBxV0-gw"
+    },
+    {
+      "position": 27,
+      "title": "Premium Tub Faucet Bath Water Filter with Overflow",
+      "product_id": "7064620333811076451",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:7064620333811076451,headlineOfferDocid:1081819350633229831,imageDocid:12998819851965512164,gpcid:11169322088992770280,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNzA2NDYyMDMzMzgxMTA3NjQ1MSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjEwODE4MTkzNTA2MzMyMjk4MzEiLCJpbWFnZURvY2lkIjoiMTI5OTg4MTk4NTE5NjU1MTIxNjQiLCJyZHMiOiIiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMTE2OTMyMjA4ODk5Mjc3MDI4MCIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNzA2NDYyMDMzMzgxMTA3NjQ1MSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjEwODE4MTkzNTA2MzMyMjk4MzEiLCJpbWFnZURvY2lkIjoiMTI5OTg4MTk4NTE5NjU1MTIxNjQiLCJyZHMiOiIiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMTE2OTMyMjA4ODk5Mjc3MDI4MCIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+      "source": "eBay",
+      "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn%3AANd9GcStSXIDaj71YsIPhNTSExhHzakjNUGyaAMz3P_x4eAAB9OInaPnUUkOYezwWeo85LJSxMDWgUrH0-GjGnKMeutGnw",
+      "multiple_sources": true,
+      "price": "$18.69",
+      "extracted_price": 18.69,
+      "old_price": "$22",
+      "extracted_old_price": 22,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSXCs1gdqg1Rw63SG0ps70pOOJHQ5QX4kJ7rdZvK-9niuzOPI7ZcjR55gHkt15_uLyvEKUojNl4jBdRX5ENtd-mZDTLGvDq",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/qbZrBnicDclbCoJAFADQFfkiJ1GIqBRNRfMRiD9RMzI-chydq2ELaW_tps7v-X5qAC4sRakYnlYOFZHgwVSZCrhDg2U89IqoB84bRvfj7n_WISKmi7PiJDRKRqqlr-0mc1UuDJXHse8lKCn0zjcmUi6BZLJmfseXs1HiNkWIeh1o6DaH6-IE16GNnnp7JGmBnAiI1Jd2HrqLPf4AdP01GQ",
+      "tag": "15% OFF",
+      "extensions": [
+        "15% OFF"
+      ],
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 28,
+      "title": "Xwlshop 10-Stage Bath Water Filter for Tub Faucet, 2500 Gallons, Helps Reduce Chlorine & Impurities (Black)",
+      "product_id": "7170437927223715996",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=productid:7170437927223715996,headlineOfferDocid:7170437927223715996,imageDocid:13156452438592337827,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiNzE3MDQzNzkyNzIyMzcxNTk5NiIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjcxNzA0Mzc5MjcyMjM3MTU5OTYiLCJpbWFnZURvY2lkIjoiMTMxNTY0NTI0Mzg1OTIzMzc4MjciLCJyZHMiOiIiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiNzE3MDQzNzkyNzIyMzcxNTk5NiIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjcxNzA0Mzc5MjcyMjM3MTU5OTYiLCJpbWFnZURvY2lkIjoiMTMxNTY0NTI0Mzg1OTIzMzc4MjciLCJyZHMiOiIiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "Walmart - Seller",
+      "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcTnP5ISNmbEt5sfd-d6O77v8eZaWxR-UtwYkk865osEjKrS0r8udsVsfLPjH1VQBQizWhrYkhO2STFk8WaMhokVgFUhjn2NoxU",
+      "price": "$22.99",
+      "extracted_price": 22.99,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQstiaJccVUteOJceSba0BtMNc2BjgSwhhTrDU6sbMG2mAuiHT3-6Nz3GV9epvpf8BuArXKN2KRpRvpvUmp_ctMM_nwHVNeKA",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/SjLEhHicDclbCoJAFADQFamhIClEKIGizES-6E_0OjkTON6cm1IraWvtps7v-X4kEZrQcYSG5YUkBot67dmjoY4U2DBPjpEzotLj8XH4XxjxIUjgYkh1GUBTkzhnIMq-28XEOLjxfSw3KavlVPumZ4k7RU-VVp7l87eXNIHAFW_7-Bkt15y7eYHFims9YQvEWKu3tOEij35EAzdk",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 29,
+      "title": "Etokfoks Bath Filter for Tub Removes Contaminants for Softer Smoother Skin 2500 Gallons Filtration BPA Free one_size in White | EFT1003D10",
+      "product_id": "4760485252204725230",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:4760485252204725230,headlineOfferDocid:18134057848438573704,imageDocid:13165252152877120452,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNDc2MDQ4NTI1MjIwNDcyNTIzMCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE4MTM0MDU3ODQ4NDM4NTczNzA0IiwiaW1hZ2VEb2NpZCI6IjEzMTY1MjUyMTUyODc3MTIwNDUyIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNDc2MDQ4NTI1MjIwNDcyNTIzMCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE4MTM0MDU3ODQ4NDM4NTczNzA0IiwiaW1hZ2VEb2NpZCI6IjEzMTY1MjUyMTUyODc3MTIwNDUyIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "source": "Lowe's",
+      "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcR3xmR1w-5O4CsetSdcZ8XFvLjnzpy_HFnF9Y5hUT_-5b0ghYL77HmIov6tFFyb6uJSqmD-3stiC5rUmL_ht4qkDpiEsY8j",
+      "price": "$64.98",
+      "extracted_price": 64.98,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRi_3O3Mz0jqO2NOb7fd6frYOUm8WHJabP2Bh1JElaT3wdwdAL2smYpqrwn_EAlmJDPARHLXm9dX-aSZoQYLguMh_09kHKgAP2Iq0eLPKFl7Pl4QyFBBl14vw",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/1XUExHicDclJDoIwAADAF8lqVEiMKRFF1ooawQsBChRtoUCV4Kv8jr_Ruc73gzlngy6KRZP3E-MFmvGskYRq4CmvcyFvqTjglrG6qTbd-n868JG2z8M6UQPVe0v3LlD8IFuWaFH2cXChq6tlpxlUDCzbJknP6ohGBFxloDHr-rFJTECovYUgtNyIaiiapadbe4zd6unhRNIellMBqBw6qXChsyNLSObHaWcYRJ6_xh95nT3J",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 30,
+      "title": "Bath Water Filter - AquaPure - Easy Install, Long-Lasting, Clean Water - Kiddie Corner",
+      "product_id": "1208769900420500045",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=productid:1208769900420500045,headlineOfferDocid:1208769900420500045,imageDocid:15224483512840713210,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMTIwODc2OTkwMDQyMDUwMDA0NSIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjEyMDg3Njk5MDA0MjA1MDAwNDUiLCJpbWFnZURvY2lkIjoiMTUyMjQ0ODM1MTI4NDA3MTMyMTAiLCJyZHMiOiIiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMTIwODc2OTkwMDQyMDUwMDA0NSIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjEyMDg3Njk5MDA0MjA1MDAwNDUiLCJpbWFnZURvY2lkIjoiMTUyMjQ0ODM1MTI4NDA3MTMyMTAiLCJyZHMiOiIiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "Kiddie Corner",
+      "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn%3AANd9GcQIYH5sPI7j7128IjMdt6CEVUMrFCfkTqUXqttH-qVyXVYgHIB3p5OxfiwenZlDFy8fYGH2BE5iSjb8wUda_lIHLgQ49V9s1NtKbw",
+      "price": "$24.90",
+      "extracted_price": 24.9,
+      "old_price": "$40",
+      "extracted_old_price": 40,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSdprFQzyH77QFjskQxqXLrG3I1u8i8sgL3SKrh7LXV2Xu562ZhGgwsT15OI3Tl3lYwP1KKcNz_XcYK9bODuFlcC2ChMJMYUonhZ_c0KT2C",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/zPurXHicDcnbCoIwAADQL0pzw7xARBiazUuSxfRFcoqzTKebmH5Of9Xf1Hk93w8VgnFTlsuWDDMTZbESeQukiou7qIlEupfMacdY3Va7fvs_cx8UhkMuBRvsaJmPmhbZD_6M3j32Bge6yqjXOq88eEED1Tx8A3hUNyClTjXxWFFDF8YNbJLprCBEgiXDJEFGHh5GuyEWsKh_8pNr19I0I2sUA-sHQA85Hw",
+      "tag": "37% OFF",
+      "extensions": [
+        "37% OFF"
+      ],
+      "delivery": "Free delivery on $40+"
+    },
+    {
+      "position": 31,
+      "title": "Bath Tub Water Filter | Bath Filter and Water Purifier for Softer Skin & Healthier Hair",
+      "product_id": "8713318034312364672",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:8713318034312364672,headlineOfferDocid:6998502852791236280,imageDocid:8457008706690395451,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiODcxMzMxODAzNDMxMjM2NDY3MiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjY5OTg1MDI4NTI3OTEyMzYyODAiLCJpbWFnZURvY2lkIjoiODQ1NzAwODcwNjY5MDM5NTQ1MSIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiODcxMzMxODAzNDMxMjM2NDY3MiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjY5OTg1MDI4NTI3OTEyMzYyODAiLCJpbWFnZURvY2lkIjoiODQ1NzAwODcwNjY5MDM5NTQ1MSIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+      "source": "TikTok Shop",
+      "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn%3AANd9GcSzJ1ls2_cPjS0ODcKFSEY4BtWidRIJZ-fO0U_hHUIxuRh3KOqhiDL1wRKDOrjFPmvuRS4uQDFeX0E5NscXbfYhoArZP4EU9A",
+      "multiple_sources": true,
+      "price": "$26.99",
+      "extracted_price": 26.99,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTiv8h7rAjQ5zuLUYpnY5qivC-4B_Rlbey2dYBOMwFGIUxxQRM4ayz8u1mGSgIV6xwZ5zAjA3WttzE703HiImpH1ep_UTjy-9f3MMHK7pfzGEQ_sSzXoqsS",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/a-AHFnicDcnbEkJAAADQL0JCLjNNQyNMqXGr9GLcrQnLrtt-VP_T39R5Pd9PhTFECsPkbTqsEOcZhZOWo0uEYwxSOu0aBlUdhKAtD_3-f4p6zWQj9cEkVeKg1o5AxksQwjYUejAdKV6L3HeSr9ss1G72fDKsYFkc1-bjlUgj2xhead13y_wSiFqr3ANjoosbzgRWA002h1Hg1yslF5xtm2cRFsTQnQh55Nn1yPsBTGA-oA",
+      "delivery": "Free delivery by Tue"
+    },
+    {
+      "position": 32,
+      "title": "Xwlshop Washable Bath Water Filter for Bathtub, 2500 Gallons High Flow Filter with Kdf55 & Activated Carbon, BPA Free, White",
+      "product_id": "2227113504241271259",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=productid:2227113504241271259,headlineOfferDocid:2227113504241271259,imageDocid:6288912960734227933,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMjIyNzExMzUwNDI0MTI3MTI1OSIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjIyMjcxMTM1MDQyNDEyNzEyNTkiLCJpbWFnZURvY2lkIjoiNjI4ODkxMjk2MDczNDIyNzkzMyIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMjIyNzExMzUwNDI0MTI3MTI1OSIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjIyMjcxMTM1MDQyNDEyNzEyNTkiLCJpbWFnZURvY2lkIjoiNjI4ODkxMjk2MDczNDIyNzkzMyIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+      "source": "Walmart - Seller",
+      "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcTnP5ISNmbEt5sfd-d6O77v8eZaWxR-UtwYkk865osEjKrS0r8udsVsfLPjH1VQBQizWhrYkhO2STFk8WaMhokVgFUhjn2NoxU",
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSPUHktAF0sanW6s8r6ikChSTGIsb6tSm3_xS81dcW01MuBJD9Hl5FIbMH1-1y3usAEOYFC0zNdhssMfJpvGVuZCk1g8J3W",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/eYIHwXicDclbCoJAFADQFfkYJFEhwixfoAVTSf2Ezpgj5jh5r5EtpL21mzq_5_sRiAo8w6glG2eFNdewkkRvAEtsmc6G3gAxKNXKZvVY_s_zc-5GjO6PcYd-aEIpCxuc0W67QNBDlEBlI-2t64s6hLPCJNm0TjdufF-ESZXFRCOzNYG_3Z3DwHznXABkt1Q9o9N0CTrSOKlV_AB1VDSe",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 33,
+      "title": "BATH BALL FILTER, Nature's Haven innovative bathwater filter.",
+      "product_id": "17880709562481461526",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=productid:17880709562481461526,headlineOfferDocid:17880709562481461526,imageDocid:16908503522618975299,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMTc4ODA3MDk1NjI0ODE0NjE1MjYiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNzg4MDcwOTU2MjQ4MTQ2MTUyNiIsImltYWdlRG9jaWQiOiIxNjkwODUwMzUyMjYxODk3NTI5OSIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMTc4ODA3MDk1NjI0ODE0NjE1MjYiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNzg4MDcwOTU2MjQ4MTQ2MTUyNiIsImltYWdlRG9jaWQiOiIxNjkwODUwMzUyMjYxODk3NTI5OSIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+      "source": "eBay",
+      "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn%3AANd9GcStSXIDaj71YsIPhNTSExhHzakjNUGyaAMz3P_x4eAAB9OInaPnUUkOYezwWeo85LJSxMDWgUrH0-GjGnKMeutGnw",
+      "price": "$49.30",
+      "extracted_price": 49.3,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ8qL-21jyxTFZs2ExfqqJL5M37hKPUU8NKDbJ0HHdDApltDXkBOWa6uhbu-vmQ7EMJP-f2j3Xg6Z3EkK93otdfF2pUZLyRog",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/8R-0_XicDcnbCoIwAADQL1LLkTeIMNTEWxpJ4ps63dR0W5uhf9Kv9Td1Xs_3g4Wg3FKUdm5eGxUtlEQ9AxlxUYm-kRsyKRwTSvsZndjxf5adQPPSZAaLJHU_bOvdK7nqrh1jQXSIgY7DNM-NJHTqYOf70LHpUzjFeL4-Km3B9SK9p0x34yCVOnUABdJK4I6hCYiAnafSvIy2G0E_yVI1Qw"
+    },
+    {
+      "position": 34,
+      "title": "Bath Water Filter for Tub Faucet with Overflow TENICAS Color: White",
+      "product_id": "12639961772395563488",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=productid:12639961772395563488,headlineOfferDocid:12639961772395563488,imageDocid:16773034703388494924,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMTI2Mzk5NjE3NzIzOTU1NjM0ODgiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMjYzOTk2MTc3MjM5NTU2MzQ4OCIsImltYWdlRG9jaWQiOiIxNjc3MzAzNDcwMzM4ODQ5NDkyNCIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMTI2Mzk5NjE3NzIzOTU1NjM0ODgiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMjYzOTk2MTc3MjM5NTU2MzQ4OCIsImltYWdlRG9jaWQiOiIxNjc3MzAzNDcwMzM4ODQ5NDkyNCIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+      "source": "Wayfair",
+      "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn%3AANd9GcQMsNrO2V8_bttckefYvY_ocDYtHbMPSzsetnk1OlF_k0pE-DPf9HqRm6a5weiPrUvqondQPQwlDu6Pd4u-Ll5Mlafnq532hw",
+      "price": "$108.99",
+      "extracted_price": 108.99,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTWWRP76KYYSVaomtszL788OesEzVARTS66IK8GZpMfJ5IQ-cET2BmNPKHiRSYrgK25a_yGpIX-pP8A10l53eNPxW6ohVJNNZSVIFgVP25uEF3_2nazkCR1",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Qt4X6nicDcn_DkJAAADgJ_J7h2ytqSHUdWEn_jEdYYXLXVs8VO_T29T37_f9tJxTZklSPZBppryuBH4dZLFhvOQdEcnYS6wdKe2GZvNc_8-yYbXySJKmETL0MMtiXI49Z8vBMM1TzZwF21ES67ofml5Oj7cA-GeBOIm67SEK910UZ1MTqqAsZo_6F4Ei01bkB9BqiN6pPrY4gDCPse82GKng5bhaoQ7lct9Fyg-tgjuv",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 35,
+      "title": "Crystal Quest Bath Ball Filter CQE-SP-00809",
+      "product_id": "9160845442493306292",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:9160845442493306292,headlineOfferDocid:6062202377342024950,imageDocid:17223688726119012402,rds:PC_15229915967811533525|PROD_PC_15229915967811533525,gpcid:15229915967811533525,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiOTE2MDg0NTQ0MjQ5MzMwNjI5MiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjYwNjIyMDIzNzczNDIwMjQ5NTAiLCJpbWFnZURvY2lkIjoiMTcyMjM2ODg3MjYxMTkwMTI0MDIiLCJyZHMiOiJQQ18xNTIyOTkxNTk2NzgxMTUzMzUyNXxQUk9EX1BDXzE1MjI5OTE1OTY3ODExNTMzNTI1IiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTUyMjk5MTU5Njc4MTE1MzM1MjUiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiOTE2MDg0NTQ0MjQ5MzMwNjI5MiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjYwNjIyMDIzNzczNDIwMjQ5NTAiLCJpbWFnZURvY2lkIjoiMTcyMjM2ODg3MjYxMTkwMTI0MDIiLCJyZHMiOiJQQ18xNTIyOTkxNTk2NzgxMTUzMzUyNXxQUk9EX1BDXzE1MjI5OTE1OTY3ODExNTMzNTI1IiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTUyMjk5MTU5Njc4MTE1MzM1MjUiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "DiscountFilterStore.com",
+      "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn%3AANd9GcQXH8cmuR5LR0Efo56DfxJRIR6u0kdxQcpXYdaCagfODxX56KyuIjMyhJ0042aDMkkPEHs5raah3jjJ4UDUUQGmlL_0sKojcEeJHAiOaXMMcw",
+      "multiple_sources": true,
+      "price": "$71.37",
+      "extracted_price": 71.37,
+      "rating": 4.8,
+      "reviews": 5,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQHna4LF2lT9HxWHi0GXrG-XprSQry3DuGGnSOXuaMvWvR6fOXnFLtV2FRhoNq86zjD02siAd2LlwBEugzK9OsGkLUbNpf_f3OHqV2zNH4u615ZsnjrLrULUQ",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/vaHePHicDclJDoIwAADAF7FYlYiJMRqkTawlgCjxYqDsYiltceFVfsff6Fzn-6mU4nJpGDmj4s1VnmkqZUAvpUpUTXXa3Q1ZdZzXrFz3q_8tNySzIfURS2bYBe3RRq8zqk0YC6jFXIS-eE-dAUIWevGQHB7nR2AVXsxcrE7ADaqO9AtrbBwTyHqTAdw-t7uhHPe2J-ENRynhxbWYeqg_gZGg2WBN5hfJGoFFhCP_B5NRPp0",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 36,
+      "title": "Bathtub Water Filter for Faucet | Removes 95% Chlorine, Lead, Fluoride & Heavy Metals | Softens Water, Hard Water Balance | Safe Bath Filter for tub,",
+      "product_id": "17286216330030590644",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=productid:17286216330030590644,headlineOfferDocid:17286216330030590644,imageDocid:4599162619233416170,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMTcyODYyMTYzMzAwMzA1OTA2NDQiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNzI4NjIxNjMzMDAzMDU5MDY0NCIsImltYWdlRG9jaWQiOiI0NTk5MTYyNjE5MjMzNDE2MTcwIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMTcyODYyMTYzMzAwMzA1OTA2NDQiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNzI4NjIxNjMzMDAzMDU5MDY0NCIsImltYWdlRG9jaWQiOiI0NTk5MTYyNjE5MjMzNDE2MTcwIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "source": "Walmart - Seller",
+      "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcTnP5ISNmbEt5sfd-d6O77v8eZaWxR-UtwYkk865osEjKrS0r8udsVsfLPjH1VQBQizWhrYkhO2STFk8WaMhokVgFUhjn2NoxU",
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS6bH_rJRj1DznQc_crXBsObDuSNLw3oU5HowQoruYXhJUJOkK4tTL72mBEYOEYBXdn4ciMIALgjhrMdC4sJRuDd5PniX1_Cw",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/NVFlBXicDcnbCoIwAADQL0rRtEiI8Ea2vGQmzCfJTdwMt7VNpL6kX-tv6rye74doLZRnmj1D8iV0j1e6Y7YxKH3XFBmIT6YiXAjKhsNz_z_Pz_HuiKpNl7QSXEcrerMStUjCQBVdNFd5uqx57SZ8KbmcG0hADYrH2dG3dGtPQdwUcRNAzBxEs5OfDiORGQ4dBa5zhN0Lo9Bqw-UHLZo2uQ",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 37,
+      "title": "PUREPLUS 8-Stage Bathtub Water Filter | 2500 Gallons Filtration, 1 Extra Replace - New Home",
+      "product_id": "10953197107434858976",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=productid:10953197107434858976,headlineOfferDocid:10953197107434858976,imageDocid:10932080650776567390,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMTA5NTMxOTcxMDc0MzQ4NTg5NzYiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMDk1MzE5NzEwNzQzNDg1ODk3NiIsImltYWdlRG9jaWQiOiIxMDkzMjA4MDY1MDc3NjU2NzM5MCIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMTA5NTMxOTcxMDc0MzQ4NTg5NzYiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMDk1MzE5NzEwNzQzNDg1ODk3NiIsImltYWdlRG9jaWQiOiIxMDkzMjA4MDY1MDc3NjU2NzM5MCIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+      "source": "Mercari",
+      "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn%3AANd9GcTLmA5xX97YEyUeWttyp0GZJoClgBhChGvNVAgVZG1iY4w1WterJxcgj1K9DQWQeWmoxdOF-_ORNeOMQysiGBy38MCwRDT4jB0",
+      "price": "$15.00",
+      "extracted_price": 15.0,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRbztV4mq-ZbRXrUl_pZIYnwCV2EBGbii4L8SNdrmggmbOQgizlRt7bm3-R8LxEam7xc7aOPciX8SWaNLwe6eGJnGtwN4_bBP8nEL6XUU2P5fhfKqKj6xTAAA",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Xtvv9HicDclhCoIwGADQE5lgpiuImCFSitrKsv6EmzoXbU79QOtUXafb1Pv7vp8GQA8r06wU618aqtIAqqwZH6AAwWaslebQtFoLxTfd-n8rHJfLgBH6hrMtO-NGSd5nz7u-7a5q3J4t3wuoEHaEjnHZS84lTQ5cvJ8EXCrnBkHR5BfSnZhbJCkTOTpeijgaK6cK9iqAMbbv1EuR8iMnzzIrXdRNHXbhw5lOGOMf63g-6A"
+    },
+    {
+      "position": 38,
+      "title": "2500 Gallon Bathtub Water Filter",
+      "product_id": "2806965934353602704",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:2806965934353602704,headlineOfferDocid:14496656645332268163,imageDocid:15677202677034101582,gpcid:12327820738129945710,mid:576462874939104524,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMjgwNjk2NTkzNDM1MzYwMjcwNCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE0NDk2NjU2NjQ1MzMyMjY4MTYzIiwiaW1hZ2VEb2NpZCI6IjE1Njc3MjAyNjc3MDM0MTAxNTgyIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTIzMjc4MjA3MzgxMjk5NDU3MTAiLCJtaWQiOiI1NzY0NjI4NzQ5MzkxMDQ1MjQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMjgwNjk2NTkzNDM1MzYwMjcwNCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE0NDk2NjU2NjQ1MzMyMjY4MTYzIiwiaW1hZ2VEb2NpZCI6IjE1Njc3MjAyNjc3MDM0MTAxNTgyIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTIzMjc4MjA3MzgxMjk5NDU3MTAiLCJtaWQiOiI1NzY0NjI4NzQ5MzkxMDQ1MjQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+      "source": "eBay - kash-5886",
+      "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn%3AANd9GcRR0_zHnaJ3qErUF0QmVnyDMkZsagL2saaoEuixfD9kcC3BfifYr-i6Mb1745RdfmGPuusArl4AC2obvdP1BwJRoInAlVM",
+      "multiple_sources": true,
+      "price": "$39.59",
+      "extracted_price": 39.59,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSflHw6ZdUDFkAGSiOHbBDz8VvO0eKgcQ45jBQzjnybUe8_iYjbmb-3p-Q9aLtvu-5JaMVavA5LiQDclSz9LsOvlQPOfLAkl8B7MA9aUOGu0VR8rkRdwgeYaQ",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/HW5bqHicDcltCoIwAADQE6lRWSpETCSltLVEof7ENqfOz6VT0VN1nW5T7-_7fnIpRW9pGmtoNwvJEkWSZq1mvcSSU5W2tdbnrRC8yY7vw_8scE1Ml4Zp5U27ZxI5pxK4IYcesZ3FiEe4YpeMoq1e2GgpmplEzHjxR0FqomyEgkzsy3FQ9DMOYjwC3efIoVW4mH4PxwrdYOqDsjLsfQBMHEF3WMV3oyvvyZSxB0Y_noQ-mQ",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 39,
+      "title": "Bath Filter Water Purifier Silver",
+      "product_id": "2401717359702317857",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=productid:2401717359702317857,headlineOfferDocid:2401717359702317857,imageDocid:8672219757724504465,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMjQwMTcxNzM1OTcwMjMxNzg1NyIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjI0MDE3MTczNTk3MDIzMTc4NTciLCJpbWFnZURvY2lkIjoiODY3MjIxOTc1NzcyNDUwNDQ2NSIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiMjQwMTcxNzM1OTcwMjMxNzg1NyIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjI0MDE3MTczNTk3MDIzMTc4NTciLCJpbWFnZURvY2lkIjoiODY3MjIxOTc1NzcyNDUwNDQ2NSIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+      "source": "SSL Water Treatment Solutions",
+      "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn%3AANd9GcQhGiDTNv72lWiAUO6k8NjWMQZgw7wLvBndzSrn4xOrgx-kGY_jVCg3aPJj5cxKI-6LBgfO8xhFEkEcOK_rRD61-wE1kyY",
+      "price": "$49.90",
+      "extracted_price": 49.9,
+      "old_price": "$86",
+      "extracted_old_price": 86,
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTSSrHfbQJVr2kZrFYJNRLZLxH3qkInPE9__0pX-5rJx3bRqbIzf6aQldMtwW_ec8u_Z4hdJk0xSUm_cfhTiJwNJRvpnLo0AGn6hbTdpn7mdUGG0QVvauZD",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/BLNT23icDcnbDoIgAADQL0rpnm2ttVUqM5e3LrwwARVnIiKV9VH9T39T5_V8P1xr2S1NMxNUvaTO2EATMTSKTqe6pAZtarPjjZSlKNbt6n_Ljc8sm8ZRpJycBPCkRhVS-yv0Qw95vTNuK1ccdxbGQF4GUwX7MQlb4r7zWRrc2EE_zzijiztGE85gBfooqTHNeVzCpw_DhxReAza2mHESMynmNUtsGwSnR3pH2x9X6T8g",
+      "tag": "41% OFF",
+      "extensions": [
+        "41% OFF"
+      ]
+    },
+    {
+      "position": 40,
+      "title": "Bath Ball Water Filter",
+      "product_id": "12656357828809776706",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:12656357828809776706,headlineOfferDocid:1038920277433429603,imageDocid:16647730800982859419,rds:PC_16774475943023261329|PROD_PC_16774475943023261329,gpcid:16774475943023261329,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTI2NTYzNTc4Mjg4MDk3NzY3MDYiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMDM4OTIwMjc3NDMzNDI5NjAzIiwiaW1hZ2VEb2NpZCI6IjE2NjQ3NzMwODAwOTgyODU5NDE5IiwicmRzIjoiUENfMTY3NzQ0NzU5NDMwMjMyNjEzMjl8UFJPRF9QQ18xNjc3NDQ3NTk0MzAyMzI2MTMyOSIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjE2Nzc0NDc1OTQzMDIzMjYxMzI5IiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTI2NTYzNTc4Mjg4MDk3NzY3MDYiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMDM4OTIwMjc3NDMzNDI5NjAzIiwiaW1hZ2VEb2NpZCI6IjE2NjQ3NzMwODAwOTgyODU5NDE5IiwicmRzIjoiUENfMTY3NzQ0NzU5NDMwMjMyNjEzMjl8UFJPRF9QQ18xNjc3NDQ3NTk0MzAyMzI2MTMyOSIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6IjE2Nzc0NDc1OTQzMDIzMjYxMzI5IiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+      "source": "Carbon Wellness",
+      "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcTChtr5OWGJWzEEUWTGtVb7ts377ekC5i2Fi8bUuHMozmaOybA--s2TxAE1i7fDgBHcpq7MQp5Sj_r0vk6F7SyQEK9rPbPVspRH8FE8FA",
+      "multiple_sources": true,
+      "price": "$64.95",
+      "extracted_price": 64.95,
+      "rating": 5.0,
+      "reviews": 2,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRrdDnQ6GS6xRZekvG30wvg-8rYtqjLOgme7CSZDf4s0brpS665zI8jstnSsXUDRm1lulTD_TzY9FGC9TB5Qm10abYVmKo9AvRoQ3Vy8lYjmmUdobxoJ48v_Q",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/t5wtgHicDclZCoJAAADQE7nhkgoRpiQtFDoq6Y-45ZKz6EymnqrrdJt6v-_7aRgj1BSEChXjQlhVcixHMl9TlrG24AsMBdpgQlpU74bt_0zrWhpu4Y-lgzzNBdrsJ9VzcmXxPdWcPsZs6C63GlYbGyTOQ6FiPhKgaep61DvKEKD30PGh1L_6wEmDNTYOrm0Ee9WDkpjlcQTP2LAmH3tytOh93EEYljif8UnRp9T7AbiqPxg"
+    }
+  ],
+  "categorized_shopping_results": [
+    {
+      "title": "Spout mounted bathtub filter",
+      "shopping_results": [
+        {
+          "position": 1,
+          "title": "Canopy 2-in-1 Bathtub Filter",
+          "product_id": "11135016732571921125",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:11135016732571921125,headlineOfferDocid:510528535935757126,imageDocid:5678077694047158674,rds:PC_10012076486635705080|PROD_PC_10012076486635705080,gpcid:10012076486635705080,mid:576462878170679370,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExMzUwMTY3MzI1NzE5MjExMjUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTA1Mjg1MzU5MzU3NTcxMjYiLCJpbWFnZURvY2lkIjoiNTY3ODA3NzY5NDA0NzE1ODY3NCIsInJkcyI6IlBDXzEwMDEyMDc2NDg2NjM1NzA1MDgwfFBST0RfUENfMTAwMTIwNzY0ODY2MzU3MDUwODAiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMDAxMjA3NjQ4NjYzNTcwNTA4MCIsIm1pZCI6IjU3NjQ2Mjg3ODE3MDY3OTM3MCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExMzUwMTY3MzI1NzE5MjExMjUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTA1Mjg1MzU5MzU3NTcxMjYiLCJpbWFnZURvY2lkIjoiNTY3ODA3NzY5NDA0NzE1ODY3NCIsInJkcyI6IlBDXzEwMDEyMDc2NDg2NjM1NzA1MDgwfFBST0RfUENfMTAwMTIwNzY0ODY2MzU3MDUwODAiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMDAxMjA3NjQ4NjYzNTcwNTA4MCIsIm1pZCI6IjU3NjQ2Mjg3ODE3MDY3OTM3MCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+          "source": "Target",
+          "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygBjwla8rQDDutSYMyVEVWawUcVQxJDSYU60lrbXOZ1szhqQNln4Ko_ctbOcaMhlZg.png",
+          "multiple_sources": true,
+          "price": "$69.99",
+          "extracted_price": 69.99,
+          "rating": 4.5,
+          "reviews": 266,
+          "thumbnail": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygBjwla8rQDDutSYMyVEVWawUcVQxJDSYU60lrbXOZ1svNKPshX3FZQQGH1IBkgZzg.webp",
+          "delivery": "Free delivery"
+        },
+        {
+          "position": 2,
+          "title": "Tubo 2.0 Bathtub Filter",
+          "product_id": "643283605523649036",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:643283605523649036,headlineOfferDocid:732687637117362780,imageDocid:1150948752250232069,rds:PC_13539858849141423714|PROD_PC_13539858849141423714,gpcid:13539858849141423714,mid:576462879839527004,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjQzMjgzNjA1NTIzNjQ5MDM2IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNzMyNjg3NjM3MTE3MzYyNzgwIiwiaW1hZ2VEb2NpZCI6IjExNTA5NDg3NTIyNTAyMzIwNjkiLCJyZHMiOiJQQ18xMzUzOTg1ODg0OTE0MTQyMzcxNHxQUk9EX1BDXzEzNTM5ODU4ODQ5MTQxNDIzNzE0IiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTM1Mzk4NTg4NDkxNDE0MjM3MTQiLCJtaWQiOiI1NzY0NjI4Nzk4Mzk1MjcwMDQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjQzMjgzNjA1NTIzNjQ5MDM2IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNzMyNjg3NjM3MTE3MzYyNzgwIiwiaW1hZ2VEb2NpZCI6IjExNTA5NDg3NTIyNTAyMzIwNjkiLCJyZHMiOiJQQ18xMzUzOTg1ODg0OTE0MTQyMzcxNHxQUk9EX1BDXzEzNTM5ODU4ODQ5MTQxNDIzNzE0IiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTM1Mzk4NTg4NDkxNDE0MjM3MTQiLCJtaWQiOiI1NzY0NjI4Nzk4Mzk1MjcwMDQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+          "source": "Tubo",
+          "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygBjwla8rQDDutSYMyVEVWawUcVQxJDSYU60lrbXOZ1sGT1VECaA3xbkp1gMAJONsg.png",
+          "multiple_sources": true,
+          "price": "$64.99",
+          "extracted_price": 64.99,
+          "old_price": "$110",
+          "extracted_old_price": 110,
+          "rating": 3.9,
+          "reviews": 123,
+          "thumbnail": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygBjwla8rQDDutSYMyVEVWawUcVQxJDSYU60lrbXOZ1soGy0yzRJU3FdfNtTglW9qQ.webp",
+          "tag": "40% OFF",
+          "extensions": [
+            "40% OFF"
+          ],
+          "delivery": "Free delivery on $85+"
+        },
+        {
+          "position": 3,
+          "title": "Atzeste Bath Filter for Tub Faucet, Bathtub Bath Water Filter, Hard Water Softener, 2500 Gallons, Removes Contaminants, Chlorine and Fluoride, BPA",
+          "product_id": "8844311775632619453",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=productid:8844311775632619453,headlineOfferDocid:8844311775632619453,imageDocid:17825099994438498000,rds:PC_252878082775428254|PROD_PC_252878082775428254,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiODg0NDMxMTc3NTYzMjYxOTQ1MyIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijg4NDQzMTE3NzU2MzI2MTk0NTMiLCJpbWFnZURvY2lkIjoiMTc4MjUwOTk5OTQ0Mzg0OTgwMDAiLCJyZHMiOiJQQ18yNTI4NzgwODI3NzU0MjgyNTR8UFJPRF9QQ18yNTI4NzgwODI3NzU0MjgyNTQiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIiLCJtaWQiOm51bGwsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiODg0NDMxMTc3NTYzMjYxOTQ1MyIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijg4NDQzMTE3NzU2MzI2MTk0NTMiLCJpbWFnZURvY2lkIjoiMTc4MjUwOTk5OTQ0Mzg0OTgwMDAiLCJyZHMiOiJQQ18yNTI4NzgwODI3NzU0MjgyNTR8UFJPRF9QQ18yNTI4NzgwODI3NzU0MjgyNTQiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIiLCJtaWQiOm51bGwsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+          "source": "Walmart - Atzeste",
+          "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygBjwla8rQDDutSYMyVEVWawUcVQxJDSYU60lrbXOZ1soOZ4ydj_UyMdGpeGBUZeKg.png",
+          "price": "$17.99",
+          "extracted_price": 17.99,
+          "old_price": "$37",
+          "extracted_old_price": 37,
+          "rating": 4.6,
+          "reviews": 25,
+          "thumbnail": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygBjwla8rQDDutSYMyVEVWawUcVQxJDSYU60lrbXOZ1skUhlV1Hq9SEMlhEOn5ODeA.webp",
+          "tag": "51% OFF",
+          "extensions": [
+            "51% OFF"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "Canopy Bath Tub Filter",
+          "product_id": "8132641390240680838",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:8132641390240680838,headlineOfferDocid:11155256244977624636,imageDocid:14537170889201686436,rds:PC_8885422417199979273|PROD_PC_8885422417199979273,gpcid:8885422417199979273,mid:576462537538415727,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiODEzMjY0MTM5MDI0MDY4MDgzOCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjExMTU1MjU2MjQ0OTc3NjI0NjM2IiwiaW1hZ2VEb2NpZCI6IjE0NTM3MTcwODg5MjAxNjg2NDM2IiwicmRzIjoiUENfODg4NTQyMjQxNzE5OTk3OTI3M3xQUk9EX1BDXzg4ODU0MjI0MTcxOTk5NzkyNzMiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiI4ODg1NDIyNDE3MTk5OTc5MjczIiwibWlkIjoiNTc2NDYyNTM3NTM4NDE1NzI3IiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiODEzMjY0MTM5MDI0MDY4MDgzOCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjExMTU1MjU2MjQ0OTc3NjI0NjM2IiwiaW1hZ2VEb2NpZCI6IjE0NTM3MTcwODg5MjAxNjg2NDM2IiwicmRzIjoiUENfODg4NTQyMjQxNzE5OTk3OTI3M3xQUk9EX1BDXzg4ODU0MjI0MTcxOTk5NzkyNzMiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiI4ODg1NDIyNDE3MTk5OTc5MjczIiwibWlkIjoiNTc2NDYyNTM3NTM4NDE1NzI3IiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+          "source": "Babylist",
+          "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygBjwla8rQDDutSYMyVEVWawUcVQxJDSYU60lrbXOZ1sZvfujyJFerqaMWg50QzMkA.png",
+          "multiple_sources": true,
+          "price": "$89.00",
+          "extracted_price": 89.0,
+          "rating": 4.5,
+          "reviews": 4,
+          "thumbnail": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygBjwla8rQDDutSYMyVEVWawUcVQxJDSYU60lrbXOZ1sMoFd1J1VaK24HLbGSqPh4Q.webp",
+          "delivery": "Free delivery"
+        },
+        {
+          "position": 5,
+          "title": "Canopy Bath Tub Filter for Healthy Skin and Hair",
+          "product_id": "6128862122962204465",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:6128862122962204465,headlineOfferDocid:4906055410247960459,imageDocid:3043016121759635966,rds:PC_16150089605323671985|PROD_PC_16150089605323671985,gpcid:16150089605323671985,mid:576462880526414165,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjEyODg2MjEyMjk2MjIwNDQ2NSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ5MDYwNTU0MTAyNDc5NjA0NTkiLCJpbWFnZURvY2lkIjoiMzA0MzAxNjEyMTc1OTYzNTk2NiIsInJkcyI6IlBDXzE2MTUwMDg5NjA1MzIzNjcxOTg1fFBST0RfUENfMTYxNTAwODk2MDUzMjM2NzE5ODUiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxNjE1MDA4OTYwNTMyMzY3MTk4NSIsIm1pZCI6IjU3NjQ2Mjg4MDUyNjQxNDE2NSIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjEyODg2MjEyMjk2MjIwNDQ2NSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ5MDYwNTU0MTAyNDc5NjA0NTkiLCJpbWFnZURvY2lkIjoiMzA0MzAxNjEyMTc1OTYzNTk2NiIsInJkcyI6IlBDXzE2MTUwMDg5NjA1MzIzNjcxOTg1fFBST0RfUENfMTYxNTAwODk2MDUzMjM2NzE5ODUiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxNjE1MDA4OTYwNTMyMzY3MTk4NSIsIm1pZCI6IjU3NjQ2Mjg4MDUyNjQxNDE2NSIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+          "source": "Sephora",
+          "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygBjwla8rQDDutSYMyVEVWawUcVQxJDSYU60lrbXOZ1sLB2AFt18UFcTb0PTUn3FYg.png",
+          "multiple_sources": true,
+          "price": "$89.00",
+          "extracted_price": 89.0,
+          "rating": 4.7,
+          "reviews": 31,
+          "thumbnail": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygBjwla8rQDDutSYMyVEVWawUcVQxJDSYU60lrbXOZ1si7ZQUCka8HVgrl4Lf-Yn7Q.webp",
+          "delivery": "Free delivery by Thu"
+        }
+      ]
+    },
+    {
+      "title": "Activated carbon bathtub filter",
+      "shopping_results": [
+        {
+          "position": 1,
+          "title": "Canopy 2-in-1 Bathtub Filter",
+          "product_id": "11135016732571921125",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:11135016732571921125,headlineOfferDocid:510528535935757126,imageDocid:5678077694047158674,rds:PC_10012076486635705080|PROD_PC_10012076486635705080,gpcid:10012076486635705080,mid:576462878170679370,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExMzUwMTY3MzI1NzE5MjExMjUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTA1Mjg1MzU5MzU3NTcxMjYiLCJpbWFnZURvY2lkIjoiNTY3ODA3NzY5NDA0NzE1ODY3NCIsInJkcyI6IlBDXzEwMDEyMDc2NDg2NjM1NzA1MDgwfFBST0RfUENfMTAwMTIwNzY0ODY2MzU3MDUwODAiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMDAxMjA3NjQ4NjYzNTcwNTA4MCIsIm1pZCI6IjU3NjQ2Mjg3ODE3MDY3OTM3MCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExMzUwMTY3MzI1NzE5MjExMjUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTA1Mjg1MzU5MzU3NTcxMjYiLCJpbWFnZURvY2lkIjoiNTY3ODA3NzY5NDA0NzE1ODY3NCIsInJkcyI6IlBDXzEwMDEyMDc2NDg2NjM1NzA1MDgwfFBST0RfUENfMTAwMTIwNzY0ODY2MzU3MDUwODAiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMDAxMjA3NjQ4NjYzNTcwNTA4MCIsIm1pZCI6IjU3NjQ2Mjg3ODE3MDY3OTM3MCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+          "source": "Target",
+          "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMyoH7PA_3F9izyXuoGBSn9I2I8EHBRqXsZDRyVYm4oZeOJNP6L0KgyF129OnN14x2_Q.png",
+          "multiple_sources": true,
+          "price": "$69.99",
+          "extracted_price": 69.99,
+          "rating": 4.5,
+          "reviews": 266,
+          "thumbnail": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMyoH7PA_3F9izyXuoGBSn9I2I8EHBRqXsZDRyVYm4oZeO2fZ8aEzGkme92pZkCmMkpQ.webp",
+          "delivery": "Free delivery"
+        },
+        {
+          "position": 2,
+          "title": "Tubo 2.0 Bathtub Filter",
+          "product_id": "643283605523649036",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:643283605523649036,headlineOfferDocid:732687637117362780,imageDocid:1150948752250232069,rds:PC_13539858849141423714|PROD_PC_13539858849141423714,gpcid:13539858849141423714,mid:576462879839527004,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjQzMjgzNjA1NTIzNjQ5MDM2IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNzMyNjg3NjM3MTE3MzYyNzgwIiwiaW1hZ2VEb2NpZCI6IjExNTA5NDg3NTIyNTAyMzIwNjkiLCJyZHMiOiJQQ18xMzUzOTg1ODg0OTE0MTQyMzcxNHxQUk9EX1BDXzEzNTM5ODU4ODQ5MTQxNDIzNzE0IiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTM1Mzk4NTg4NDkxNDE0MjM3MTQiLCJtaWQiOiI1NzY0NjI4Nzk4Mzk1MjcwMDQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjQzMjgzNjA1NTIzNjQ5MDM2IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNzMyNjg3NjM3MTE3MzYyNzgwIiwiaW1hZ2VEb2NpZCI6IjExNTA5NDg3NTIyNTAyMzIwNjkiLCJyZHMiOiJQQ18xMzUzOTg1ODg0OTE0MTQyMzcxNHxQUk9EX1BDXzEzNTM5ODU4ODQ5MTQxNDIzNzE0IiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTM1Mzk4NTg4NDkxNDE0MjM3MTQiLCJtaWQiOiI1NzY0NjI4Nzk4Mzk1MjcwMDQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+          "source": "Tubo",
+          "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMyoH7PA_3F9izyXuoGBSn9I2I8EHBRqXsZDRyVYm4oZeOPps8pI_rLFdKvCGifSoQUg.png",
+          "multiple_sources": true,
+          "price": "$64.99",
+          "extracted_price": 64.99,
+          "old_price": "$110",
+          "extracted_old_price": 110,
+          "rating": 3.9,
+          "reviews": 123,
+          "thumbnail": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMyoH7PA_3F9izyXuoGBSn9I2I8EHBRqXsZDRyVYm4oZeOUxhyXYZb73kVaqXZKvUErw.webp",
+          "tag": "40% OFF",
+          "extensions": [
+            "40% OFF"
+          ],
+          "delivery": "Free delivery on $85+"
+        },
+        {
+          "position": 3,
+          "title": "Crystal Quest Bath Ball Filter",
+          "product_id": "12056042349598914395",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:12056042349598914395,headlineOfferDocid:3877283407515386241,imageDocid:286531183429312801,rds:PC_7573002106200248670|PROD_PC_7573002106200248670,gpcid:16604687810463418756,mid:576462847130509786,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTIwNTYwNDIzNDk1OTg5MTQzOTUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIzODc3MjgzNDA3NTE1Mzg2MjQxIiwiaW1hZ2VEb2NpZCI6IjI4NjUzMTE4MzQyOTMxMjgwMSIsInJkcyI6IlBDXzc1NzMwMDIxMDYyMDAyNDg2NzB8UFJPRF9QQ183NTczMDAyMTA2MjAwMjQ4NjcwIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTY2MDQ2ODc4MTA0NjM0MTg3NTYiLCJtaWQiOiI1NzY0NjI4NDcxMzA1MDk3ODYiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTIwNTYwNDIzNDk1OTg5MTQzOTUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIzODc3MjgzNDA3NTE1Mzg2MjQxIiwiaW1hZ2VEb2NpZCI6IjI4NjUzMTE4MzQyOTMxMjgwMSIsInJkcyI6IlBDXzc1NzMwMDIxMDYyMDAyNDg2NzB8UFJPRF9QQ183NTczMDAyMTA2MjAwMjQ4NjcwIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTY2MDQ2ODc4MTA0NjM0MTg3NTYiLCJtaWQiOiI1NzY0NjI4NDcxMzA1MDk3ODYiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+          "source": "Crystal Quest",
+          "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMyoH7PA_3F9izyXuoGBSn9I2I8EHBRqXsZDRyVYm4oZeO5RtyFK5HMMDIN7lmVeu_sw.png",
+          "multiple_sources": true,
+          "price": "$64.95",
+          "extracted_price": 64.95,
+          "rating": 4.9,
+          "reviews": 195,
+          "thumbnail": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMyoH7PA_3F9izyXuoGBSn9I2I8EHBRqXsZDRyVYm4oZeOIVFWvsM1AMA4VrFKc7yvaw.webp",
+          "delivery": "Free delivery"
+        },
+        {
+          "position": 4,
+          "title": "Canopy Bath Tub Filter for Healthy Skin and Hair",
+          "product_id": "6128862122962204465",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:6128862122962204465,headlineOfferDocid:4906055410247960459,imageDocid:3043016121759635966,rds:PC_16150089605323671985|PROD_PC_16150089605323671985,gpcid:16150089605323671985,mid:576462880526414165,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjEyODg2MjEyMjk2MjIwNDQ2NSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ5MDYwNTU0MTAyNDc5NjA0NTkiLCJpbWFnZURvY2lkIjoiMzA0MzAxNjEyMTc1OTYzNTk2NiIsInJkcyI6IlBDXzE2MTUwMDg5NjA1MzIzNjcxOTg1fFBST0RfUENfMTYxNTAwODk2MDUzMjM2NzE5ODUiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxNjE1MDA4OTYwNTMyMzY3MTk4NSIsIm1pZCI6IjU3NjQ2Mjg4MDUyNjQxNDE2NSIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjEyODg2MjEyMjk2MjIwNDQ2NSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ5MDYwNTU0MTAyNDc5NjA0NTkiLCJpbWFnZURvY2lkIjoiMzA0MzAxNjEyMTc1OTYzNTk2NiIsInJkcyI6IlBDXzE2MTUwMDg5NjA1MzIzNjcxOTg1fFBST0RfUENfMTYxNTAwODk2MDUzMjM2NzE5ODUiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxNjE1MDA4OTYwNTMyMzY3MTk4NSIsIm1pZCI6IjU3NjQ2Mjg4MDUyNjQxNDE2NSIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+          "source": "Sephora",
+          "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMyoH7PA_3F9izyXuoGBSn9I2I8EHBRqXsZDRyVYm4oZeOtPjIOGEWobjE061D7mO8Ng.png",
+          "multiple_sources": true,
+          "price": "$89.00",
+          "extracted_price": 89.0,
+          "rating": 4.7,
+          "reviews": 31,
+          "thumbnail": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMyoH7PA_3F9izyXuoGBSn9I2I8EHBRqXsZDRyVYm4oZeOcpuvg9O3oLMrXKHZeMGbHg.webp",
+          "delivery": "Free delivery by Thu"
+        },
+        {
+          "position": 5,
+          "title": "Etokfoks Bath Filter for Tub Removes Contaminants for Softer Smoother Skin 2500 Gallons Filtration BPA Free one_size in White | EFT1003D10",
+          "product_id": "4760485252204725230",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:4760485252204725230,headlineOfferDocid:18134057848438573704,imageDocid:13165252152877120452,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNDc2MDQ4NTI1MjIwNDcyNTIzMCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE4MTM0MDU3ODQ4NDM4NTczNzA0IiwiaW1hZ2VEb2NpZCI6IjEzMTY1MjUyMTUyODc3MTIwNDUyIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiIiwibWlkIjpudWxsLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNDc2MDQ4NTI1MjIwNDcyNTIzMCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE4MTM0MDU3ODQ4NDM4NTczNzA0IiwiaW1hZ2VEb2NpZCI6IjEzMTY1MjUyMTUyODc3MTIwNDUyIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiIiwibWlkIjpudWxsLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+          "source": "Lowe's",
+          "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMyoH7PA_3F9izyXuoGBSn9I2I8EHBRqXsZDRyVYm4oZeO3vsccRbH_19dIF0Ymq1S8Q.png",
+          "price": "$64.98",
+          "extracted_price": 64.98,
+          "thumbnail": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMyoH7PA_3F9izyXuoGBSn9I2I8EHBRqXsZDRyVYm4oZeO5vyxCKtpiWCBGe2t1ZobGA.webp",
+          "delivery": "Free delivery"
+        }
+      ]
+    },
+    {
+      "title": "Multiple contaminant removal filter",
+      "shopping_results": [
+        {
+          "position": 1,
+          "title": "Canopy 2-in-1 Bathtub Filter",
+          "product_id": "11135016732571921125",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:11135016732571921125,headlineOfferDocid:510528535935757126,imageDocid:5678077694047158674,rds:PC_10012076486635705080|PROD_PC_10012076486635705080,gpcid:10012076486635705080,mid:576462878170679370,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExMzUwMTY3MzI1NzE5MjExMjUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTA1Mjg1MzU5MzU3NTcxMjYiLCJpbWFnZURvY2lkIjoiNTY3ODA3NzY5NDA0NzE1ODY3NCIsInJkcyI6IlBDXzEwMDEyMDc2NDg2NjM1NzA1MDgwfFBST0RfUENfMTAwMTIwNzY0ODY2MzU3MDUwODAiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMDAxMjA3NjQ4NjYzNTcwNTA4MCIsIm1pZCI6IjU3NjQ2Mjg3ODE3MDY3OTM3MCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExMzUwMTY3MzI1NzE5MjExMjUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTA1Mjg1MzU5MzU3NTcxMjYiLCJpbWFnZURvY2lkIjoiNTY3ODA3NzY5NDA0NzE1ODY3NCIsInJkcyI6IlBDXzEwMDEyMDc2NDg2NjM1NzA1MDgwfFBST0RfUENfMTAwMTIwNzY0ODY2MzU3MDUwODAiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMDAxMjA3NjQ4NjYzNTcwNTA4MCIsIm1pZCI6IjU3NjQ2Mjg3ODE3MDY3OTM3MCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+          "source": "Target",
+          "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygigr0PvIDFh80JsRW2-vakl_iLdPn-mR7tTpnKMuouNX1XICMjMk5nf5seq633kbw.png",
+          "multiple_sources": true,
+          "price": "$69.99",
+          "extracted_price": 69.99,
+          "rating": 4.5,
+          "reviews": 266,
+          "thumbnail": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygigr0PvIDFh80JsRW2-vakl_iLdPn-mR7tTpnKMuouNC00T6xV-qLc9eRluDu6ZvA.webp",
+          "delivery": "Free delivery"
+        },
+        {
+          "position": 2,
+          "title": "PUREPLUS 11 Stages Bathtub Filter",
+          "product_id": "15419619902230152735",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:15419619902230152735,headlineOfferDocid:13149070755350702863,imageDocid:7029667743691969130,gpcid:9496177413696320106,mid:576462875317608908,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTU0MTk2MTk5MDIyMzAxNTI3MzUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMzE0OTA3MDc1NTM1MDcwMjg2MyIsImltYWdlRG9jaWQiOiI3MDI5NjY3NzQzNjkxOTY5MTMwIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiOTQ5NjE3NzQxMzY5NjMyMDEwNiIsIm1pZCI6IjU3NjQ2Mjg3NTMxNzYwODkwOCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTU0MTk2MTk5MDIyMzAxNTI3MzUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMzE0OTA3MDc1NTM1MDcwMjg2MyIsImltYWdlRG9jaWQiOiI3MDI5NjY3NzQzNjkxOTY5MTMwIiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiOTQ5NjE3NzQxMzY5NjMyMDEwNiIsIm1pZCI6IjU3NjQ2Mjg3NTMxNzYwODkwOCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+          "source": "pureplusfilter.com",
+          "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygigr0PvIDFh80JsRW2-vakl_iLdPn-mR7tTpnKMuouN0muUstSchZ70_brMmQYV7Q.jpeg",
+          "price": "$22.99",
+          "extracted_price": 22.99,
+          "thumbnail": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygigr0PvIDFh80JsRW2-vakl_iLdPn-mR7tTpnKMuouN7mGHUSCVdfrZVeBXNX9ilQ.webp",
+          "delivery": "Free delivery"
+        },
+        {
+          "position": 3,
+          "title": "Tubo 2.0 Bathtub Filter",
+          "product_id": "643283605523649036",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:643283605523649036,headlineOfferDocid:732687637117362780,imageDocid:1150948752250232069,rds:PC_13539858849141423714|PROD_PC_13539858849141423714,gpcid:13539858849141423714,mid:576462879839527004,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjQzMjgzNjA1NTIzNjQ5MDM2IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNzMyNjg3NjM3MTE3MzYyNzgwIiwiaW1hZ2VEb2NpZCI6IjExNTA5NDg3NTIyNTAyMzIwNjkiLCJyZHMiOiJQQ18xMzUzOTg1ODg0OTE0MTQyMzcxNHxQUk9EX1BDXzEzNTM5ODU4ODQ5MTQxNDIzNzE0IiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTM1Mzk4NTg4NDkxNDE0MjM3MTQiLCJtaWQiOiI1NzY0NjI4Nzk4Mzk1MjcwMDQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjQzMjgzNjA1NTIzNjQ5MDM2IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNzMyNjg3NjM3MTE3MzYyNzgwIiwiaW1hZ2VEb2NpZCI6IjExNTA5NDg3NTIyNTAyMzIwNjkiLCJyZHMiOiJQQ18xMzUzOTg1ODg0OTE0MTQyMzcxNHxQUk9EX1BDXzEzNTM5ODU4ODQ5MTQxNDIzNzE0IiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTM1Mzk4NTg4NDkxNDE0MjM3MTQiLCJtaWQiOiI1NzY0NjI4Nzk4Mzk1MjcwMDQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+          "source": "Tubo",
+          "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygigr0PvIDFh80JsRW2-vakl_iLdPn-mR7tTpnKMuouNC9KrfpM0pnR5f5BxyTdoPg.png",
+          "multiple_sources": true,
+          "price": "$64.99",
+          "extracted_price": 64.99,
+          "old_price": "$110",
+          "extracted_old_price": 110,
+          "rating": 3.9,
+          "reviews": 123,
+          "thumbnail": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygigr0PvIDFh80JsRW2-vakl_iLdPn-mR7tTpnKMuouNU8InOMnfjcGGstr5cL0t7g.webp",
+          "tag": "40% OFF",
+          "extensions": [
+            "40% OFF"
+          ],
+          "delivery": "Free delivery on $85+"
+        },
+        {
+          "position": 4,
+          "title": "Crystal Quest Bath Ball Filter",
+          "product_id": "12056042349598914395",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:12056042349598914395,headlineOfferDocid:3877283407515386241,imageDocid:286531183429312801,rds:PC_7573002106200248670|PROD_PC_7573002106200248670,gpcid:16604687810463418756,mid:576462847130509786,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTIwNTYwNDIzNDk1OTg5MTQzOTUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIzODc3MjgzNDA3NTE1Mzg2MjQxIiwiaW1hZ2VEb2NpZCI6IjI4NjUzMTE4MzQyOTMxMjgwMSIsInJkcyI6IlBDXzc1NzMwMDIxMDYyMDAyNDg2NzB8UFJPRF9QQ183NTczMDAyMTA2MjAwMjQ4NjcwIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTY2MDQ2ODc4MTA0NjM0MTg3NTYiLCJtaWQiOiI1NzY0NjI4NDcxMzA1MDk3ODYiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTIwNTYwNDIzNDk1OTg5MTQzOTUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIzODc3MjgzNDA3NTE1Mzg2MjQxIiwiaW1hZ2VEb2NpZCI6IjI4NjUzMTE4MzQyOTMxMjgwMSIsInJkcyI6IlBDXzc1NzMwMDIxMDYyMDAyNDg2NzB8UFJPRF9QQ183NTczMDAyMTA2MjAwMjQ4NjcwIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTY2MDQ2ODc4MTA0NjM0MTg3NTYiLCJtaWQiOiI1NzY0NjI4NDcxMzA1MDk3ODYiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+          "source": "Crystal Quest",
+          "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygigr0PvIDFh80JsRW2-vakl_iLdPn-mR7tTpnKMuouNFnGPn8ItBmSuDvBwcYrmlQ.png",
+          "multiple_sources": true,
+          "price": "$64.95",
+          "extracted_price": 64.95,
+          "rating": 4.9,
+          "reviews": 195,
+          "thumbnail": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygigr0PvIDFh80JsRW2-vakl_iLdPn-mR7tTpnKMuouNlV0_NdKvQFHZaiyatX4gQg.webp",
+          "delivery": "Free delivery"
+        },
+        {
+          "position": 5,
+          "title": "Canopy Bath Tub Filter for Healthy Skin and Hair",
+          "product_id": "6128862122962204465",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:6128862122962204465,headlineOfferDocid:4906055410247960459,imageDocid:3043016121759635966,rds:PC_16150089605323671985|PROD_PC_16150089605323671985,gpcid:16150089605323671985,mid:576462880526414165,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjEyODg2MjEyMjk2MjIwNDQ2NSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ5MDYwNTU0MTAyNDc5NjA0NTkiLCJpbWFnZURvY2lkIjoiMzA0MzAxNjEyMTc1OTYzNTk2NiIsInJkcyI6IlBDXzE2MTUwMDg5NjA1MzIzNjcxOTg1fFBST0RfUENfMTYxNTAwODk2MDUzMjM2NzE5ODUiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxNjE1MDA4OTYwNTMyMzY3MTk4NSIsIm1pZCI6IjU3NjQ2Mjg4MDUyNjQxNDE2NSIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjEyODg2MjEyMjk2MjIwNDQ2NSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ5MDYwNTU0MTAyNDc5NjA0NTkiLCJpbWFnZURvY2lkIjoiMzA0MzAxNjEyMTc1OTYzNTk2NiIsInJkcyI6IlBDXzE2MTUwMDg5NjA1MzIzNjcxOTg1fFBST0RfUENfMTYxNTAwODk2MDUzMjM2NzE5ODUiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxNjE1MDA4OTYwNTMyMzY3MTk4NSIsIm1pZCI6IjU3NjQ2Mjg4MDUyNjQxNDE2NSIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+          "source": "Sephora",
+          "source_icon": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygigr0PvIDFh80JsRW2-vakl_iLdPn-mR7tTpnKMuouNELnhkPj28Me-ROY77PYFew.png",
+          "multiple_sources": true,
+          "price": "$89.00",
+          "extracted_price": 89.0,
+          "rating": 4.7,
+          "reviews": 31,
+          "thumbnail": "https://serpapi.com/searches/69e2e550bc3f0b1d1ad290f9/images/g_LlbO4NSvy0kpwjZ4tMygigr0PvIDFh80JsRW2-vakl_iLdPn-mR7tTpnKMuouNfbRhTy0iiccr546fODpGvg.webp",
+          "delivery": "Free delivery by Thu"
+        }
+      ]
+    },
+    {
+      "title": "Long lifespan bathtub filter",
+      "shopping_results": [
+        {
+          "position": 1,
+          "title": "Canopy 2-in-1 Bathtub Filter",
+          "product_id": "11135016732571921125",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:11135016732571921125,headlineOfferDocid:510528535935757126,imageDocid:5678077694047158674,rds:PC_10012076486635705080|PROD_PC_10012076486635705080,gpcid:10012076486635705080,mid:576462878170679370,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExMzUwMTY3MzI1NzE5MjExMjUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTA1Mjg1MzU5MzU3NTcxMjYiLCJpbWFnZURvY2lkIjoiNTY3ODA3NzY5NDA0NzE1ODY3NCIsInJkcyI6IlBDXzEwMDEyMDc2NDg2NjM1NzA1MDgwfFBST0RfUENfMTAwMTIwNzY0ODY2MzU3MDUwODAiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMDAxMjA3NjQ4NjYzNTcwNTA4MCIsIm1pZCI6IjU3NjQ2Mjg3ODE3MDY3OTM3MCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExMzUwMTY3MzI1NzE5MjExMjUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTA1Mjg1MzU5MzU3NTcxMjYiLCJpbWFnZURvY2lkIjoiNTY3ODA3NzY5NDA0NzE1ODY3NCIsInJkcyI6IlBDXzEwMDEyMDc2NDg2NjM1NzA1MDgwfFBST0RfUENfMTAwMTIwNzY0ODY2MzU3MDUwODAiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMDAxMjA3NjQ4NjYzNTcwNTA4MCIsIm1pZCI6IjU3NjQ2Mjg3ODE3MDY3OTM3MCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+          "source": "Target",
+          "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcTEcvKCC4vYSJ0lcojmG1G8H5SxvMYMWwuZ0hBVYInrlmIpQc8-QknEydjdLUOCUc4t5gk8LzLYNskt9jyjXHnjIq2sfztY",
+          "multiple_sources": true,
+          "price": "$69.99",
+          "extracted_price": 69.99,
+          "rating": 4.5,
+          "reviews": 266,
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTf5fjZbnzmu1JQ4VpDZCVpB-BjxVDvy1Jt-Lelpds90VXPBuSE4k48L1RSku5Vb792IOVxjEKTwPyBpHBwdXrkoZx0sZF4LQ",
+          "serpapi_thumbnail": "https://serpapi.com/images/url/Wt8PcnicDclJDoIwAADAF7GmRCExxgouSBSFNKQ3admlVFoEfIlf8zc61_l-Sim5cDQtY6SfucyoIlNmqoWQd1kRlXStJsqO84oV6-fqf87mTO09iXMrr3HK3u1g-FeAuIu3iEMF1hNyX7PhSyXIHpwKW0dJCIfIAw1YBsYtagYLpQvbPF7QVHuneAxnyA9wpEnfdHjSBd6B4PoDD_02RQ",
+          "delivery": "Free delivery"
+        },
+        {
+          "position": 2,
+          "title": "Tubo 2.0 Bathtub Filter",
+          "product_id": "643283605523649036",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:643283605523649036,headlineOfferDocid:732687637117362780,imageDocid:1150948752250232069,rds:PC_13539858849141423714|PROD_PC_13539858849141423714,gpcid:13539858849141423714,mid:576462879839527004,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjQzMjgzNjA1NTIzNjQ5MDM2IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNzMyNjg3NjM3MTE3MzYyNzgwIiwiaW1hZ2VEb2NpZCI6IjExNTA5NDg3NTIyNTAyMzIwNjkiLCJyZHMiOiJQQ18xMzUzOTg1ODg0OTE0MTQyMzcxNHxQUk9EX1BDXzEzNTM5ODU4ODQ5MTQxNDIzNzE0IiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTM1Mzk4NTg4NDkxNDE0MjM3MTQiLCJtaWQiOiI1NzY0NjI4Nzk4Mzk1MjcwMDQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjQzMjgzNjA1NTIzNjQ5MDM2IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNzMyNjg3NjM3MTE3MzYyNzgwIiwiaW1hZ2VEb2NpZCI6IjExNTA5NDg3NTIyNTAyMzIwNjkiLCJyZHMiOiJQQ18xMzUzOTg1ODg0OTE0MTQyMzcxNHxQUk9EX1BDXzEzNTM5ODU4ODQ5MTQxNDIzNzE0IiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTM1Mzk4NTg4NDkxNDE0MjM3MTQiLCJtaWQiOiI1NzY0NjI4Nzk4Mzk1MjcwMDQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+          "source": "Tubo",
+          "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcRXZnTMj9Oc7KHJJENAFqfYEibd6NOX0ph90dePipEcaXitL1O9170HtKlnLBzmpeuPvUA8qLMPLUrEOioWtqPn6rf7Wg",
+          "multiple_sources": true,
+          "price": "$64.99",
+          "extracted_price": 64.99,
+          "old_price": "$110",
+          "extracted_old_price": 110,
+          "rating": 3.9,
+          "reviews": 123,
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTNc5FZa9elK9M-Vx8UPFGV3LT8Rv6xr7rH5m5lzKXzkOBcs5EWG0mQObf268WFXR5mAYrzaT5dHeYpS_iqCaHLEK4M-pvBXtvhYwwTfMMa1WsXvduwTxlP",
+          "serpapi_thumbnail": "https://serpapi.com/images/url/sctLBHicDclJDoIwAADAFyGiFoHEGDQsCatYBbyYWtbIUmgF5FH-x9_oXOf7KRgjVOH5tMH9m7A04dijERY5ZYiVeIHbmqdFS0jZ5Ptu9z9FdRPZwNDFQL8hOa0s2eGuk3TxdeO6tqEUDOLUb3sT1KCarWh-egdMgRYay_rkPbKVKIV6FIBajfsZQZCYaUzO97I7ItPWrI3DkeEQsaGIxxFmjoOEkEZD8hrhVPk_zkk95w",
+          "tag": "40% OFF",
+          "extensions": [
+            "40% OFF"
+          ],
+          "delivery": "Free delivery on $85+"
+        },
+        {
+          "position": 3,
+          "title": "Canopy Bath Tub Filter for Healthy Skin and Hair",
+          "product_id": "6128862122962204465",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:6128862122962204465,headlineOfferDocid:4906055410247960459,imageDocid:3043016121759635966,rds:PC_16150089605323671985|PROD_PC_16150089605323671985,gpcid:16150089605323671985,mid:576462880526414165,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjEyODg2MjEyMjk2MjIwNDQ2NSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ5MDYwNTU0MTAyNDc5NjA0NTkiLCJpbWFnZURvY2lkIjoiMzA0MzAxNjEyMTc1OTYzNTk2NiIsInJkcyI6IlBDXzE2MTUwMDg5NjA1MzIzNjcxOTg1fFBST0RfUENfMTYxNTAwODk2MDUzMjM2NzE5ODUiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxNjE1MDA4OTYwNTMyMzY3MTk4NSIsIm1pZCI6IjU3NjQ2Mjg4MDUyNjQxNDE2NSIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjEyODg2MjEyMjk2MjIwNDQ2NSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ5MDYwNTU0MTAyNDc5NjA0NTkiLCJpbWFnZURvY2lkIjoiMzA0MzAxNjEyMTc1OTYzNTk2NiIsInJkcyI6IlBDXzE2MTUwMDg5NjA1MzIzNjcxOTg1fFBST0RfUENfMTYxNTAwODk2MDUzMjM2NzE5ODUiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxNjE1MDA4OTYwNTMyMzY3MTk4NSIsIm1pZCI6IjU3NjQ2Mjg4MDUyNjQxNDE2NSIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+          "source": "Sephora",
+          "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn%3AANd9GcSRgutbnLHxZSJgJeXB3h9xJRB7wLT0X11VzBAH53QP37oho1zygYUXnsJODrp_KzwRlM-Zn0CuMERMS8m__2UXmCh1srRcT3Q",
+          "multiple_sources": true,
+          "price": "$89.00",
+          "extracted_price": 89.0,
+          "rating": 4.7,
+          "reviews": 31,
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTBqFeKz-iWBVtI-2119-HYEdvieSdr7OcR1I6frg1n9IdYyI4a0WaTfrbci9O_Sv--u-Qs8Y7mHXX6cyNV_oKTFdGLW874I5am0Bm9Jx7MohFz8haFvMTPdA",
+          "serpapi_thumbnail": "https://serpapi.com/images/url/BmLu5XicDclJDoIwAADAF5UtCpTEGEgEKgIqhOVESsvSA3slwqv8jr_Ruc7303I-LoYoVj2Zt5FXFPCyV4Rm4ZgzIpChE5d2GEfWN-fp9D_DDCh0SGxNduXtgKVWwhFQZBkCN7_QlVURnbWQPGWk1nMj9xDRfEMHLKU4rueSMBgW0QrACzwWPdc6N8tUsgVJMXixTZ1bqmsHdMSdZHXw-tb8obV3vcX26sd3av4ALuQ86w",
+          "delivery": "Free delivery by Thu"
+        },
+        {
+          "position": 4,
+          "title": "FLYMOOO Bath Water Filter",
+          "product_id": "15293553906986903689",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:15293553906986903689,headlineOfferDocid:5151804616856576753,imageDocid:10732610237823741434,gpcid:7286062734340200719,mid:576462815796841714,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTUyOTM1NTM5MDY5ODY5MDM2ODkiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTUxODA0NjE2ODU2NTc2NzUzIiwiaW1hZ2VEb2NpZCI6IjEwNzMyNjEwMjM3ODIzNzQxNDM0IiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiNzI4NjA2MjczNDM0MDIwMDcxOSIsIm1pZCI6IjU3NjQ2MjgxNTc5Njg0MTcxNCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTUyOTM1NTM5MDY5ODY5MDM2ODkiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTUxODA0NjE2ODU2NTc2NzUzIiwiaW1hZ2VEb2NpZCI6IjEwNzMyNjEwMjM3ODIzNzQxNDM0IiwicmRzIjoiIiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiNzI4NjA2MjczNDM0MDIwMDcxOSIsIm1pZCI6IjU3NjQ2MjgxNTc5Njg0MTcxNCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+          "source": "eBay",
+          "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcSN1XmQeJU_yT0zcxhHYWuffZKmEBeCLcmLdkaZM422mZbdDohDeZ1F0htTlz68NMC5ys71nX8kDNtoHo_3z5uYipJX7A",
+          "multiple_sources": true,
+          "price": "$10.00",
+          "extracted_price": 10.0,
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSaIFzF5knOurLOJVIr97u6kk0gJsQsIymbiM7QusrGrmYcXjsbzgtT9ZP1Sf4ATnusU9YBRHMk6QTkn_V_ykzkBKLdlwfdqz57cjfQtelNLjsSIiCLONuV",
+          "serpapi_thumbnail": "https://serpapi.com/images/url/neax8nicDcndCoIwGADQJyorUlGIqMCa-ZNpkt1ITp1zuWzfRuhD9T69TZ3b8_00UvZga1rFsRh6WZUTWfDFlIC8S4qn-Nlp0Dz7nnKyfq3-Z2-C0trj-I6c0dEZD5XwQjdFwjKVwdiMuBABGrqC-makQOxFl-FrC8VIZGLdTvO4Xm4SruBiZdvzwWdGlDCep_nARrY9euXjXZevUTdxW0eyegReCzGiOy8MVPoDmGBALA"
+        },
+        {
+          "position": 5,
+          "title": "Canopy Bath Tub Filter",
+          "product_id": "8132641390240680838",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:8132641390240680838,headlineOfferDocid:17437024979746168545,imageDocid:14537170889201686436,rds:PC_8885422417199979273|PROD_PC_8885422417199979273,gpcid:8885422417199979273,mid:576462537538415727,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiODEzMjY0MTM5MDI0MDY4MDgzOCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE3NDM3MDI0OTc5NzQ2MTY4NTQ1IiwiaW1hZ2VEb2NpZCI6IjE0NTM3MTcwODg5MjAxNjg2NDM2IiwicmRzIjoiUENfODg4NTQyMjQxNzE5OTk3OTI3M3xQUk9EX1BDXzg4ODU0MjI0MTcxOTk5NzkyNzMiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiI4ODg1NDIyNDE3MTk5OTc5MjczIiwibWlkIjoiNTc2NDYyNTM3NTM4NDE1NzI3IiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiODEzMjY0MTM5MDI0MDY4MDgzOCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE3NDM3MDI0OTc5NzQ2MTY4NTQ1IiwiaW1hZ2VEb2NpZCI6IjE0NTM3MTcwODg5MjAxNjg2NDM2IiwicmRzIjoiUENfODg4NTQyMjQxNzE5OTk3OTI3M3xQUk9EX1BDXzg4ODU0MjI0MTcxOTk5NzkyNzMiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiI4ODg1NDIyNDE3MTk5OTc5MjczIiwibWlkIjoiNTc2NDYyNTM3NTM4NDE1NzI3IiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+          "source": "Canopy",
+          "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcTBn8GnmuxsBddRD5vg6FtN5VuoXUbdp-QbK4y0fsOenfxy5Iy7oyH31ZxfThNabWc-zvpv8o0XguXl427oO5baiwJmSA",
+          "multiple_sources": true,
+          "price": "$89.00",
+          "extracted_price": 89.0,
+          "rating": 4.5,
+          "reviews": 4,
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQbZ_kiyPswxeeGiUe3ZsNqaovS6G4m8-FAvYqW7V4KnHR87dv2LVNIEI3Dn_VrbLytQPzW4GsSiDh65-XUsijpcCluAU2y5n3F2O6GO5JyOK8wZc9qtQCijQ",
+          "serpapi_thumbnail": "https://serpapi.com/images/url/BMcsO3icDclJDoIwAADAFwGGTSAxhqBUlLBoAOVioDRSlVJoReur_I6_0bnO99NyTpmjKIjAUVCOGonXZCZfGK84hjLsO4W1PaWYXJbD4n-OGzU2gGldnm9YJOz5QgjgDGkli4aqnw4m0DtL8t3pNBTzXN-Rzd6aN5Ma5lGwDrQVOedjHQqeJu9CB-yAV61pSMeM4SuF3v3hZqowiOarsQliYyvinfUsoT3w1MPX9AfIdz6D",
+          "delivery": "Free delivery"
+        }
+      ]
+    },
+    {
+      "title": "Eco-friendly bathtub filter",
+      "shopping_results": [
+        {
+          "position": 1,
+          "title": "Canopy 2-in-1 Bathtub Filter",
+          "product_id": "11135016732571921125",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:11135016732571921125,headlineOfferDocid:510528535935757126,imageDocid:5678077694047158674,rds:PC_10012076486635705080|PROD_PC_10012076486635705080,gpcid:10012076486635705080,mid:576462878170679370,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExMzUwMTY3MzI1NzE5MjExMjUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTA1Mjg1MzU5MzU3NTcxMjYiLCJpbWFnZURvY2lkIjoiNTY3ODA3NzY5NDA0NzE1ODY3NCIsInJkcyI6IlBDXzEwMDEyMDc2NDg2NjM1NzA1MDgwfFBST0RfUENfMTAwMTIwNzY0ODY2MzU3MDUwODAiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMDAxMjA3NjQ4NjYzNTcwNTA4MCIsIm1pZCI6IjU3NjQ2Mjg3ODE3MDY3OTM3MCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExMzUwMTY3MzI1NzE5MjExMjUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI1MTA1Mjg1MzU5MzU3NTcxMjYiLCJpbWFnZURvY2lkIjoiNTY3ODA3NzY5NDA0NzE1ODY3NCIsInJkcyI6IlBDXzEwMDEyMDc2NDg2NjM1NzA1MDgwfFBST0RfUENfMTAwMTIwNzY0ODY2MzU3MDUwODAiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxMDAxMjA3NjQ4NjYzNTcwNTA4MCIsIm1pZCI6IjU3NjQ2Mjg3ODE3MDY3OTM3MCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+          "source": "Target",
+          "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcTEcvKCC4vYSJ0lcojmG1G8H5SxvMYMWwuZ0hBVYInrlmIpQc8-QknEydjdLUOCUc4t5gk8LzLYNskt9jyjXHnjIq2sfztY",
+          "multiple_sources": true,
+          "price": "$69.99",
+          "extracted_price": 69.99,
+          "rating": 4.5,
+          "reviews": 266,
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTf5fjZbnzmu1JQ4VpDZCVpB-BjxVDvy1Jt-Lelpds90VXPBuSE4k48L1RSku5Vb792IOVxjEKTwPyBpHBwdXrkoZx0sZF4LQ",
+          "serpapi_thumbnail": "https://serpapi.com/images/url/Wt8PcnicDclJDoIwAADAF7GmRCExxgouSBSFNKQ3admlVFoEfIlf8zc61_l-Sim5cDQtY6SfucyoIlNmqoWQd1kRlXStJsqO84oV6-fqf87mTO09iXMrr3HK3u1g-FeAuIu3iEMF1hNyX7PhSyXIHpwKW0dJCIfIAw1YBsYtagYLpQvbPF7QVHuneAxnyA9wpEnfdHjSBd6B4PoDD_02RQ",
+          "delivery": "Free delivery"
+        },
+        {
+          "position": 2,
+          "title": "Canopy Bath Tub Filter",
+          "product_id": "8132641390240680838",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:8132641390240680838,headlineOfferDocid:9967090707660847296,imageDocid:14537170889201686436,rds:PC_8885422417199979273|PROD_PC_8885422417199979273,gpcid:8885422417199979273,mid:576462537538415727,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiODEzMjY0MTM5MDI0MDY4MDgzOCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijk5NjcwOTA3MDc2NjA4NDcyOTYiLCJpbWFnZURvY2lkIjoiMTQ1MzcxNzA4ODkyMDE2ODY0MzYiLCJyZHMiOiJQQ184ODg1NDIyNDE3MTk5OTc5MjczfFBST0RfUENfODg4NTQyMjQxNzE5OTk3OTI3MyIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6Ijg4ODU0MjI0MTcxOTk5NzkyNzMiLCJtaWQiOiI1NzY0NjI1Mzc1Mzg0MTU3MjciLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiODEzMjY0MTM5MDI0MDY4MDgzOCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijk5NjcwOTA3MDc2NjA4NDcyOTYiLCJpbWFnZURvY2lkIjoiMTQ1MzcxNzA4ODkyMDE2ODY0MzYiLCJyZHMiOiJQQ184ODg1NDIyNDE3MTk5OTc5MjczfFBST0RfUENfODg4NTQyMjQxNzE5OTk3OTI3MyIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6Ijg4ODU0MjI0MTcxOTk5NzkyNzMiLCJtaWQiOiI1NzY0NjI1Mzc1Mzg0MTU3MjciLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+          "source": "Babylist",
+          "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcR--824wN0lcxsdSH-hAZAUB1kFaZk1o0CHoBgEfP1lqjjzN1k6I__owblavz2oO0T2-_Q36Y_JjdfFxF_K3c6Po45Pg6LHyGN4",
+          "multiple_sources": true,
+          "price": "$89.00",
+          "extracted_price": 89.0,
+          "rating": 4.5,
+          "reviews": 4,
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQbZ_kiyPswxeeGiUe3ZsNqaovS6G4m8-FAvYqW7V4KnHR87dv2LVNIEI3Dn_VrbLytQPzW4GsSiDh65-XUsijpcCluAU2y5n3F2O6GO5JyOK8wZc9qtQCijQ",
+          "serpapi_thumbnail": "https://serpapi.com/images/url/BMcsO3icDclJDoIwAADAFwGGTSAxhqBUlLBoAOVioDRSlVJoReur_I6_0bnO99NyTpmjKIjAUVCOGonXZCZfGK84hjLsO4W1PaWYXJbD4n-OGzU2gGldnm9YJOz5QgjgDGkli4aqnw4m0DtL8t3pNBTzXN-Rzd6aN5Ma5lGwDrQVOedjHQqeJu9CB-yAV61pSMeM4SuF3v3hZqowiOarsQliYyvinfUsoT3w1MPX9AfIdz6D",
+          "delivery": "Free delivery"
+        },
+        {
+          "position": 3,
+          "title": "Tubo 2.0 Bathtub Filter",
+          "product_id": "643283605523649036",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:643283605523649036,headlineOfferDocid:732687637117362780,imageDocid:1150948752250232069,rds:PC_13539858849141423714|PROD_PC_13539858849141423714,gpcid:13539858849141423714,mid:576462879839527004,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjQzMjgzNjA1NTIzNjQ5MDM2IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNzMyNjg3NjM3MTE3MzYyNzgwIiwiaW1hZ2VEb2NpZCI6IjExNTA5NDg3NTIyNTAyMzIwNjkiLCJyZHMiOiJQQ18xMzUzOTg1ODg0OTE0MTQyMzcxNHxQUk9EX1BDXzEzNTM5ODU4ODQ5MTQxNDIzNzE0IiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTM1Mzk4NTg4NDkxNDE0MjM3MTQiLCJtaWQiOiI1NzY0NjI4Nzk4Mzk1MjcwMDQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjQzMjgzNjA1NTIzNjQ5MDM2IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNzMyNjg3NjM3MTE3MzYyNzgwIiwiaW1hZ2VEb2NpZCI6IjExNTA5NDg3NTIyNTAyMzIwNjkiLCJyZHMiOiJQQ18xMzUzOTg1ODg0OTE0MTQyMzcxNHxQUk9EX1BDXzEzNTM5ODU4ODQ5MTQxNDIzNzE0IiwicXVlcnkiOiJiYXRodHViK2ZpbHRlciIsImdwY2lkIjoiMTM1Mzk4NTg4NDkxNDE0MjM3MTQiLCJtaWQiOiI1NzY0NjI4Nzk4Mzk1MjcwMDQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+          "source": "Tubo",
+          "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcRXZnTMj9Oc7KHJJENAFqfYEibd6NOX0ph90dePipEcaXitL1O9170HtKlnLBzmpeuPvUA8qLMPLUrEOioWtqPn6rf7Wg",
+          "multiple_sources": true,
+          "price": "$64.99",
+          "extracted_price": 64.99,
+          "old_price": "$110",
+          "extracted_old_price": 110,
+          "rating": 3.9,
+          "reviews": 123,
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTNc5FZa9elK9M-Vx8UPFGV3LT8Rv6xr7rH5m5lzKXzkOBcs5EWG0mQObf268WFXR5mAYrzaT5dHeYpS_iqCaHLEK4M-pvBXtvhYwwTfMMa1WsXvduwTxlP",
+          "serpapi_thumbnail": "https://serpapi.com/images/url/sctLBHicDclJDoIwAADAFyGiFoHEGDQsCatYBbyYWtbIUmgF5FH-x9_oXOf7KRgjVOH5tMH9m7A04dijERY5ZYiVeIHbmqdFS0jZ5Ptu9z9FdRPZwNDFQL8hOa0s2eGuk3TxdeO6tqEUDOLUb3sT1KCarWh-egdMgRYay_rkPbKVKIV6FIBajfsZQZCYaUzO97I7ItPWrI3DkeEQsaGIxxFmjoOEkEZD8hrhVPk_zkk95w",
+          "tag": "40% OFF",
+          "extensions": [
+            "40% OFF"
+          ],
+          "delivery": "Free delivery on $85+"
+        },
+        {
+          "position": 4,
+          "title": "Canopy Bath Tub Filter for Healthy Skin and Hair",
+          "product_id": "6128862122962204465",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:6128862122962204465,headlineOfferDocid:4906055410247960459,imageDocid:3043016121759635966,rds:PC_16150089605323671985|PROD_PC_16150089605323671985,gpcid:16150089605323671985,mid:576462880526414165,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjEyODg2MjEyMjk2MjIwNDQ2NSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ5MDYwNTU0MTAyNDc5NjA0NTkiLCJpbWFnZURvY2lkIjoiMzA0MzAxNjEyMTc1OTYzNTk2NiIsInJkcyI6IlBDXzE2MTUwMDg5NjA1MzIzNjcxOTg1fFBST0RfUENfMTYxNTAwODk2MDUzMjM2NzE5ODUiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxNjE1MDA4OTYwNTMyMzY3MTk4NSIsIm1pZCI6IjU3NjQ2Mjg4MDUyNjQxNDE2NSIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ==",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjEyODg2MjEyMjk2MjIwNDQ2NSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ5MDYwNTU0MTAyNDc5NjA0NTkiLCJpbWFnZURvY2lkIjoiMzA0MzAxNjEyMTc1OTYzNTk2NiIsInJkcyI6IlBDXzE2MTUwMDg5NjA1MzIzNjcxOTg1fFBST0RfUENfMTYxNTAwODk2MDUzMjM2NzE5ODUiLCJxdWVyeSI6ImJhdGh0dWIrZmlsdGVyIiwiZ3BjaWQiOiIxNjE1MDA4OTYwNTMyMzY3MTk4NSIsIm1pZCI6IjU3NjQ2Mjg4MDUyNjQxNDE2NSIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ%3D%3D",
+          "source": "Sephora",
+          "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn%3AANd9GcSRgutbnLHxZSJgJeXB3h9xJRB7wLT0X11VzBAH53QP37oho1zygYUXnsJODrp_KzwRlM-Zn0CuMERMS8m__2UXmCh1srRcT3Q",
+          "multiple_sources": true,
+          "price": "$89.00",
+          "extracted_price": 89.0,
+          "rating": 4.7,
+          "reviews": 31,
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTBqFeKz-iWBVtI-2119-HYEdvieSdr7OcR1I6frg1n9IdYyI4a0WaTfrbci9O_Sv--u-Qs8Y7mHXX6cyNV_oKTFdGLW874I5am0Bm9Jx7MohFz8haFvMTPdA",
+          "serpapi_thumbnail": "https://serpapi.com/images/url/BmLu5XicDclJDoIwAADAF5UtCpTEGEgEKgIqhOVESsvSA3slwqv8jr_Ruc7303I-LoYoVj2Zt5FXFPCyV4Rm4ZgzIpChE5d2GEfWN-fp9D_DDCh0SGxNduXtgKVWwhFQZBkCN7_QlVURnbWQPGWk1nMj9xDRfEMHLKU4rueSMBgW0QrACzwWPdc6N8tUsgVJMXixTZ1bqmsHdMSdZHXw-tb8obV3vcX26sd3av4ALuQ86w",
+          "delivery": "Free delivery by Thu"
+        },
+        {
+          "position": 5,
+          "title": "Etokfoks Bathtub Water Filter with Overflow",
+          "product_id": "12463358092812697556",
+          "product_link": "https://www.google.com/search?ibp=oshop&q=bathtub filter&prds=catalogid:12463358092812697556,headlineOfferDocid:9177299695613148959,imageDocid:855299168951481326,gpcid:9524925736507744726,mid:576462549872991081,pvt:hg&hl=en&gl=us&udm=28",
+          "immersive_product_page_token": "eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTI0NjMzNTgwOTI4MTI2OTc1NTYiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI5MTc3Mjk5Njk1NjEzMTQ4OTU5IiwiaW1hZ2VEb2NpZCI6Ijg1NTI5OTE2ODk1MTQ4MTMyNiIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6Ijk1MjQ5MjU3MzY1MDc3NDQ3MjYiLCJtaWQiOiI1NzY0NjI1NDk4NzI5OTEwODEiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0=",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IlVlWGlhWmVjRnVXN210a1AwNEtuZ1FRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTI0NjMzNTgwOTI4MTI2OTc1NTYiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI5MTc3Mjk5Njk1NjEzMTQ4OTU5IiwiaW1hZ2VEb2NpZCI6Ijg1NTI5OTE2ODk1MTQ4MTMyNiIsInJkcyI6IiIsInF1ZXJ5IjoiYmF0aHR1YitmaWx0ZXIiLCJncGNpZCI6Ijk1MjQ5MjU3MzY1MDc3NDQ3MjYiLCJtaWQiOiI1NzY0NjI1NDk4NzI5OTEwODEiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidXMiLCJobCI6ImVuIn0%3D",
+          "source": "Lowe's",
+          "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcR3xmR1w-5O4CsetSdcZ8XFvLjnzpy_HFnF9Y5hUT_-5b0ghYL77HmIov6tFFyb6uJSqmD-3stiC5rUmL_ht4qkDpiEsY8j",
+          "price": "$63.70",
+          "extracted_price": 63.7,
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSbyw-iR_riOKoXSc0b1bU4vwSAaNawgGMoJbg2TXBNichYcDgzT4F48zqVbId0OjES2PZ4yvkR__bOSa4uZCd3I7FcpixvubfITJWATnoWlL4X3bs2Kanq",
+          "serpapi_thumbnail": "https://serpapi.com/images/url/itJAvnicDclJDoIwFADQEwmITRwSY3CA4ADGoiIb0l-w1KEtUkE8lPfxNvq27_sptFbVyDRzQR-t0nnW0SBsg1WaaE4NKu9mVUiluGCTcvy_kRNkQ49iaJsO36UPHq5kjKkFXdijusEOCUjDvI1cArOjeBpwWpzonL0j5KLBuzyAn1nhZYHtbYLa-rpLUwgxQc9klvX8vksVf9VPOPvR8uhEQh5vaxT3oLJXRJQ_Wyw-vg",
+          "delivery": "Free delivery"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "input_type": "link",
+      "options": [
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyoOYmF0aHR1YiBmaWx0ZXIyDAgDEgZOZWFyYnkYAljM3iBgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=bathtub+filter+nearby&shoprs=CAEYAyoOYmF0aHR1YiBmaWx0ZXIyDAgDEgZOZWFyYnkYAljM3iBgAg"
+        },
+        {
+          "text": "On sale",
+          "shoprs": "CAESBEoCGAEYBioOYmF0aHR1YiBmaWx0ZXIyEwgGEgdPbiBzYWxlGAIiBEoCGAFYzN4gYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=bathtub+filter+sale&shoprs=CAESBEoCGAEYBioOYmF0aHR1YiBmaWx0ZXIyEwgGEgdPbiBzYWxlGAIiBEoCGAFYzN4gYAI"
+        },
+        {
+          "text": "Get it fast",
+          "shoprs": "CAESDZoBCgoIEAM4AUABSAEYFCoOYmF0aHR1YiBmaWx0ZXIyJAgUEgtHZXQgaXQgZmFzdCINmgEKCggQAzgBQAFIASoEEAEYAWAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=bathtub+filter&shoprs=CAESDZoBCgoIEAM4AUABSAEYFCoOYmF0aHR1YiBmaWx0ZXIyJAgUEgtHZXQgaXQgZmFzdCINmgEKCggQAzgBQAFIASoEEAEYAWAC"
+        },
+        {
+          "text": "New",
+          "shoprs": "CAEYCioOYmF0aHR1YiBmaWx0ZXIyBwgKEgNOZXdYzN4gYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=new+bathtub+filter&shoprs=CAEYCioOYmF0aHR1YiBmaWx0ZXIyBwgKEgNOZXdYzN4gYAI"
+        }
+      ]
+    },
+    {
+      "type": "Stores",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "Home Depot",
+          "shoprs": "CAEYAioOYmF0aHR1YiBmaWx0ZXIyDggCEgpIb21lIERlcG90WMzeIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=home+depot+bathtub+filter&shoprs=CAEYAioOYmF0aHR1YiBmaWx0ZXIyDggCEgpIb21lIERlcG90WMzeIGAC"
+        },
+        {
+          "text": "Lowe's",
+          "shoprs": "CAEYAioOYmF0aHR1YiBmaWx0ZXIyCggCEgZMb3dlJ3NYzN4gYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=lowe%27s+bathtub+filter&shoprs=CAEYAioOYmF0aHR1YiBmaWx0ZXIyCggCEgZMb3dlJ3NYzN4gYAI"
+        },
+        {
+          "text": "Walmart",
+          "shoprs": "CAEYAioOYmF0aHR1YiBmaWx0ZXIyCwgCEgdXYWxtYXJ0WMzeIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=walmart+bathtub+filter&shoprs=CAEYAioOYmF0aHR1YiBmaWx0ZXIyCwgCEgdXYWxtYXJ0WMzeIGAC"
+        },
+        {
+          "text": "Target",
+          "shoprs": "CAEYAioOYmF0aHR1YiBmaWx0ZXIyCggCEgZUYXJnZXRYzN4gYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=target+bathtub+filter&shoprs=CAEYAioOYmF0aHR1YiBmaWx0ZXIyCggCEgZUYXJnZXRYzN4gYAI"
+        }
+      ]
+    },
+    {
+      "type": "Category",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "Water Filter Cartridges",
+          "shoprs": "CAEYCSoOYmF0aHR1YiBmaWx0ZXIyGwgJEhdXYXRlciBGaWx0ZXIgQ2FydHJpZGdlc2AC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=water+filter+cartridges+bathtub&shoprs=CAEYCSoOYmF0aHR1YiBmaWx0ZXIyGwgJEhdXYXRlciBGaWx0ZXIgQ2FydHJpZGdlc2AC"
+        },
+        {
+          "text": "Shower Heads",
+          "shoprs": "CAEYCSoOYmF0aHR1YiBmaWx0ZXIyEAgJEgxTaG93ZXIgSGVhZHNgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=shower+heads+bathtub+filter&shoprs=CAEYCSoOYmF0aHR1YiBmaWx0ZXIyEAgJEgxTaG93ZXIgSGVhZHNgAg"
+        },
+        {
+          "text": "Hot Tub & Pool Filters",
+          "shoprs": "CAEYCSoOYmF0aHR1YiBmaWx0ZXIyGggJEhZIb3QgVHViICYgUG9vbCBGaWx0ZXJzYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=hot+tub+%26+pool+filters+bathtub+filter&shoprs=CAEYCSoOYmF0aHR1YiBmaWx0ZXIyGggJEhZIb3QgVHViICYgUG9vbCBGaWx0ZXJzYAI"
+        },
+        {
+          "text": "Reverse Osmosis Filtration",
+          "shoprs": "CAEYCSoOYmF0aHR1YiBmaWx0ZXIyHggJEhpSZXZlcnNlIE9zbW9zaXMgRmlsdHJhdGlvbmAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=reverse+osmosis+filtration+bathtub+filter&shoprs=CAEYCSoOYmF0aHR1YiBmaWx0ZXIyHggJEhpSZXZlcnNlIE9zbW9zaXMgRmlsdHJhdGlvbmAC"
+        },
+        {
+          "text": "Drain Assemblies & Parts",
+          "shoprs": "CAEYCSoOYmF0aHR1YiBmaWx0ZXIyHAgJEhhEcmFpbiBBc3NlbWJsaWVzICYgUGFydHNgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=drain+assemblies+%26+parts+bathtub+filter&shoprs=CAEYCSoOYmF0aHR1YiBmaWx0ZXIyHAgJEhhEcmFpbiBBc3NlbWJsaWVzICYgUGFydHNgAg"
+        }
+      ]
+    },
+    {
+      "type": "Price",
+      "input_type": "price_range",
+      "options": [
+        {
+          "text": "Under $15",
+          "shoprs": "CAESDRILEQAAAAA4nGxBGAEYBSoOYmF0aHR1YiBmaWx0ZXIyIggFEglVbmRlciAkMTUYAiINEgsRAAAAADicbEEYASoCGAFYzN4gYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=bathtub+filter+under+%2415&shoprs=CAESDRILEQAAAAA4nGxBGAEYBSoOYmF0aHR1YiBmaWx0ZXIyIggFEglVbmRlciAkMTUYAiINEgsRAAAAADicbEEYASoCGAFYzN4gYAI"
+        },
+        {
+          "text": "$15 - $35",
+          "shoprs": "CAESFhIUCQAAAAA4nGxBEQAAAAB2sIBBGAEYBSoOYmF0aHR1YiBmaWx0ZXIyKwgFEgkkMTUgLSAkMzUYAiIWEhQJAAAAADicbEERAAAAAHawgEEYASoCGAFYzN4gYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=bathtub+filter+between+%2415+and+%2435&shoprs=CAESFhIUCQAAAAA4nGxBEQAAAAB2sIBBGAEYBSoOYmF0aHR1YiBmaWx0ZXIyKwgFEgkkMTUgLSAkMzUYAiIWEhQJAAAAADicbEERAAAAAHawgEEYASoCGAFYzN4gYAI"
+        },
+        {
+          "text": "$35 - $60",
+          "shoprs": "CAESFhIUCQAAAAB2sIBBEQAAAAA4nIxBGAEYBSoOYmF0aHR1YiBmaWx0ZXIyKwgFEgkkMzUgLSAkNjAYAiIWEhQJAAAAAHawgEERAAAAADicjEEYASoCGAFYzN4gYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=bathtub+filter+between+%2435+and+%2460&shoprs=CAESFhIUCQAAAAB2sIBBEQAAAAA4nIxBGAEYBSoOYmF0aHR1YiBmaWx0ZXIyKwgFEgkkMzUgLSAkNjAYAiIWEhQJAAAAAHawgEERAAAAADicjEEYASoCGAFYzN4gYAI"
+        },
+        {
+          "text": "Over $60",
+          "shoprs": "CAESDRILCQAAAAA4nIxBGAEYBSoOYmF0aHR1YiBmaWx0ZXIyIQgFEghPdmVyICQ2MBgCIg0SCwkAAAAAOJyMQRgBKgIYAVjM3iBgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=bathtub+filter+over+%2460&shoprs=CAESDRILCQAAAAA4nIxBGAEYBSoOYmF0aHR1YiBmaWx0ZXIyIQgFEghPdmVyICQ2MBgCIg0SCwkAAAAAOJyMQRgBKgIYAVjM3iBgAg"
+        }
+      ]
+    },
+    {
+      "type": "Count",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "1 filter",
+          "shoprs": "CAESGyoZCLeZ1gMSEgkAAAAAAADwPxEAAAAAAADwPxgBKg5iYXRodHViIGZpbHRlcjI4CAESCDEgZmlsdGVyIhsqGQi3mdYDEhIJAAAAAAAA8D8RAAAAAAAA8D8qAhgBOgkIt5nWAxAAMAZYzN4gYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=1+filter+bathtub&shoprs=CAESGyoZCLeZ1gMSEgkAAAAAAADwPxEAAAAAAADwPxgBKg5iYXRodHViIGZpbHRlcjI4CAESCDEgZmlsdGVyIhsqGQi3mdYDEhIJAAAAAAAA8D8RAAAAAAAA8D8qAhgBOgkIt5nWAxAAMAZYzN4gYAI"
+        },
+        {
+          "text": "2 filters",
+          "shoprs": "CAESGyoZCLeZ1gMSEgkAAAAAAAAAQBEAAAAAAAAAQBgBKg5iYXRodHViIGZpbHRlcjI5CAESCTIgZmlsdGVycyIbKhkIt5nWAxISCQAAAAAAAABAEQAAAAAAAABAKgIYAToJCLeZ1gMQADAGWMzeIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=2+filters+bathtub+filter&shoprs=CAESGyoZCLeZ1gMSEgkAAAAAAAAAQBEAAAAAAAAAQBgBKg5iYXRodHViIGZpbHRlcjI5CAESCTIgZmlsdGVycyIbKhkIt5nWAxISCQAAAAAAAABAEQAAAAAAAABAKgIYAToJCLeZ1gMQADAGWMzeIGAC"
+        }
+      ]
+    },
+    {
+      "type": "Free shipping",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "Free shipping",
+          "shoprs": "CAESBFICEAEYGSoOYmF0aHR1YiBmaWx0ZXIyFwgZEg1GcmVlIHNoaXBwaW5nIgRSAhABYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=bathtub+filter+free+shipping&shoprs=CAESBFICEAEYGSoOYmF0aHR1YiBmaWx0ZXIyFwgZEg1GcmVlIHNoaXBwaW5nIgRSAhABYAI"
+        }
+      ]
+    },
+    {
+      "type": "Brand",
+      "input_type": "checkbox",
+      "options": [
+        {
+          "text": "Jacuzzi",
+          "shoprs": "CAEYASoOYmF0aHR1YiBmaWx0ZXIyFwgBEgdKYWN1enppOgoIg_M8EPK0QDABWMzeIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=jacuzzi+bathtub+filter&shoprs=CAEYASoOYmF0aHR1YiBmaWx0ZXIyFwgBEgdKYWN1enppOgoIg_M8EPK0QDABWMzeIGAC"
+        },
+        {
+          "text": "Delta",
+          "shoprs": "CAEYASoOYmF0aHR1YiBmaWx0ZXIyFQgBEgVEZWx0YToKCIPzPBCg9D4wAVjM3iBgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=delta+bathtub+filter&shoprs=CAEYASoOYmF0aHR1YiBmaWx0ZXIyFQgBEgVEZWx0YToKCIPzPBCg9D4wAVjM3iBgAg"
+        },
+        {
+          "text": "Canopy",
+          "shoprs": "CAEYASoOYmF0aHR1YiBmaWx0ZXIyFwgBEgZDYW5vcHk6CwiD8zwQ1vugAjABWMzeIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=canopy+bathtub+filter&shoprs=CAEYASoOYmF0aHR1YiBmaWx0ZXIyFwgBEgZDYW5vcHk6CwiD8zwQ1vugAjABWMzeIGAC"
+        },
+        {
+          "text": "BLACK+DECKER",
+          "shoprs": "CAEYASoOYmF0aHR1YiBmaWx0ZXIyHAgBEgxCTEFDSytERUNLRVI6CgiD8zwQhuE9MAFYzN4gYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=black%2Bdecker+bathtub+filter&shoprs=CAEYASoOYmF0aHR1YiBmaWx0ZXIyHAgBEgxCTEFDSytERUNLRVI6CgiD8zwQhuE9MAFYzN4gYAI"
+        }
+      ]
+    },
+    {
+      "type": "Carousel Filters",
+      "options": [
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyoOYmF0aHR1YiBmaWx0ZXIyDAgDEgZOZWFyYnkYAljM3iBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=bathtub+filter+nearby&shoprs=CAEYAyoOYmF0aHR1YiBmaWx0ZXIyDAgDEgZOZWFyYnkYAljM3iBgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "Replacement",
+          "shoprs": "CAEYEioOYmF0aHR1YiBmaWx0ZXIyDwgSEgtSZXBsYWNlbWVudGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=replacement+bathtub+filter&shoprs=CAEYEioOYmF0aHR1YiBmaWx0ZXIyDwgSEgtSZXBsYWNlbWVudGAB",
+          "input_type": "link"
+        },
+        {
+          "text": "Home Depot",
+          "shoprs": "CAEYAioOYmF0aHR1YiBmaWx0ZXIyDggCEgpIb21lIERlcG90WMzeIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=home+depot+bathtub+filter&shoprs=CAEYAioOYmF0aHR1YiBmaWx0ZXIyDggCEgpIb21lIERlcG90WMzeIGAB",
+          "input_type": "link"
+        },
+        {
+          "text": "On sale",
+          "shoprs": "CAESBEoCGAEYBioOYmF0aHR1YiBmaWx0ZXIyEwgGEgdPbiBzYWxlGAIiBEoCGAFYzN4gYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=bathtub+filter+sale&shoprs=CAESBEoCGAEYBioOYmF0aHR1YiBmaWx0ZXIyEwgGEgdPbiBzYWxlGAIiBEoCGAFYzN4gYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "Get it fast",
+          "shoprs": "CAESDZoBCgoIEAM4AUABSAEYFCoOYmF0aHR1YiBmaWx0ZXIyJAgUEgtHZXQgaXQgZmFzdCINmgEKCggQAzgBQAFIASoEEAEYAWAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=bathtub+filter&shoprs=CAESDZoBCgoIEAM4AUABSAEYFCoOYmF0aHR1YiBmaWx0ZXIyJAgUEgtHZXQgaXQgZmFzdCINmgEKCggQAzgBQAFIASoEEAEYAWAB",
+          "input_type": "link"
+        },
+        {
+          "text": "Water Filter Cartridges",
+          "shoprs": "CAEYCSoOYmF0aHR1YiBmaWx0ZXIyGwgJEhdXYXRlciBGaWx0ZXIgQ2FydHJpZGdlc2AB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=water+filter+cartridges+bathtub&shoprs=CAEYCSoOYmF0aHR1YiBmaWx0ZXIyGwgJEhdXYXRlciBGaWx0ZXIgQ2FydHJpZGdlc2AB",
+          "input_type": "link"
+        },
+        {
+          "text": "Inline",
+          "shoprs": "CAEYEioOYmF0aHR1YiBmaWx0ZXIyCggSEgZJbmxpbmVgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=inline+bathtub+filter&shoprs=CAEYEioOYmF0aHR1YiBmaWx0ZXIyCggSEgZJbmxpbmVgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "Shower Heads",
+          "shoprs": "CAEYCSoOYmF0aHR1YiBmaWx0ZXIyEAgJEgxTaG93ZXIgSGVhZHNgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=shower+heads+bathtub+filter&shoprs=CAEYCSoOYmF0aHR1YiBmaWx0ZXIyEAgJEgxTaG93ZXIgSGVhZHNgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "Lowe's",
+          "shoprs": "CAEYAioOYmF0aHR1YiBmaWx0ZXIyCggCEgZMb3dlJ3NYzN4gYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=lowe%27s+bathtub+filter&shoprs=CAEYAioOYmF0aHR1YiBmaWx0ZXIyCggCEgZMb3dlJ3NYzN4gYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "Walmart",
+          "shoprs": "CAEYAioOYmF0aHR1YiBmaWx0ZXIyCwgCEgdXYWxtYXJ0WMzeIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=walmart+bathtub+filter&shoprs=CAEYAioOYmF0aHR1YiBmaWx0ZXIyCwgCEgdXYWxtYXJ0WMzeIGAB",
+          "input_type": "link"
+        },
+        {
+          "text": "Hot Tub & Pool Filters",
+          "shoprs": "CAEYCSoOYmF0aHR1YiBmaWx0ZXIyGggJEhZIb3QgVHViICYgUG9vbCBGaWx0ZXJzYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=hot+tub+%26+pool+filters+bathtub+filter&shoprs=CAEYCSoOYmF0aHR1YiBmaWx0ZXIyGggJEhZIb3QgVHViICYgUG9vbCBGaWx0ZXJzYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "Reverse Osmosis Filtration",
+          "shoprs": "CAEYCSoOYmF0aHR1YiBmaWx0ZXIyHggJEhpSZXZlcnNlIE9zbW9zaXMgRmlsdHJhdGlvbmAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=reverse+osmosis+filtration+bathtub+filter&shoprs=CAEYCSoOYmF0aHR1YiBmaWx0ZXIyHggJEhpSZXZlcnNlIE9zbW9zaXMgRmlsdHJhdGlvbmAB",
+          "input_type": "link"
+        },
+        {
+          "text": "Drain Assemblies & Parts",
+          "shoprs": "CAEYCSoOYmF0aHR1YiBmaWx0ZXIyHAgJEhhEcmFpbiBBc3NlbWJsaWVzICYgUGFydHNgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=drain+assemblies+%26+parts+bathtub+filter&shoprs=CAEYCSoOYmF0aHR1YiBmaWx0ZXIyHAgJEhhEcmFpbiBBc3NlbWJsaWVzICYgUGFydHNgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "Under $15",
+          "shoprs": "CAESDRILEQAAAAA4nGxBGAEYBSoOYmF0aHR1YiBmaWx0ZXIyIggFEglVbmRlciAkMTUYAiINEgsRAAAAADicbEEYASoCGAFYzN4gYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=bathtub+filter+under+%2415&shoprs=CAESDRILEQAAAAA4nGxBGAEYBSoOYmF0aHR1YiBmaWx0ZXIyIggFEglVbmRlciAkMTUYAiINEgsRAAAAADicbEEYASoCGAFYzN4gYAE",
+          "input_type": "price_range"
+        },
+        {
+          "text": "Hayward",
+          "shoprs": "CAEYEioOYmF0aHR1YiBmaWx0ZXIyCwgSEgdIYXl3YXJkYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=hayward+bathtub+filter&shoprs=CAEYEioOYmF0aHR1YiBmaWx0ZXIyCwgSEgdIYXl3YXJkYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "Target",
+          "shoprs": "CAEYAioOYmF0aHR1YiBmaWx0ZXIyCggCEgZUYXJnZXRYzN4gYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=target+bathtub+filter&shoprs=CAEYAioOYmF0aHR1YiBmaWx0ZXIyCggCEgZUYXJnZXRYzN4gYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "New",
+          "shoprs": "CAEYCioOYmF0aHR1YiBmaWx0ZXIyBwgKEgNOZXdYzN4gYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=new+bathtub+filter&shoprs=CAEYCioOYmF0aHR1YiBmaWx0ZXIyBwgKEgNOZXdYzN4gYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "Used",
+          "shoprs": "CAEYCioOYmF0aHR1YiBmaWx0ZXIyCAgKEgRVc2VkWMzeIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=used+bathtub+filter&shoprs=CAEYCioOYmF0aHR1YiBmaWx0ZXIyCAgKEgRVc2VkWMzeIGAB",
+          "input_type": "link"
+        },
+        {
+          "text": "Cartridge",
+          "shoprs": "CAEYASoOYmF0aHR1YiBmaWx0ZXIyGwgBEglDYXJ0cmlkZ2U6DAiomtYDEPWZ1gMwAljM3iBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=cartridge+bathtub+filter&shoprs=CAEYASoOYmF0aHR1YiBmaWx0ZXIyGwgBEglDYXJ0cmlkZ2U6DAiomtYDEPWZ1gMwAljM3iBgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "Spa",
+          "shoprs": "CAEYASoOYmF0aHR1YiBmaWx0ZXIyFQgBEgNTcGE6DAi9rJIEEO6skgQwAljM3iBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=spa+bathtub+filter&shoprs=CAEYASoOYmF0aHR1YiBmaWx0ZXIyFQgBEgNTcGE6DAi9rJIEEO6skgQwAljM3iBgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "Small business",
+          "shoprs": "CAESAmoAGBYqDmJhdGh0dWIgZmlsdGVyMhwIFhIOU21hbGwgYnVzaW5lc3MiAmoAKgQQARgBYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=bathtub+filter&shoprs=CAESAmoAGBYqDmJhdGh0dWIgZmlsdGVyMhwIFhIOU21hbGwgYnVzaW5lc3MiAmoAKgQQARgBYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "eBay",
+          "shoprs": "CAEYAioOYmF0aHR1YiBmaWx0ZXIyCAgCEgRlQmF5WMzeIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=ebay+bathtub+filter&shoprs=CAEYAioOYmF0aHR1YiBmaWx0ZXIyCAgCEgRlQmF5WMzeIGAB",
+          "input_type": "link"
+        },
+        {
+          "text": "EveryMarket",
+          "shoprs": "CAEYAioOYmF0aHR1YiBmaWx0ZXIyDwgCEgtFdmVyeU1hcmtldFjM3iBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=everymarket+bathtub+filter&shoprs=CAEYAioOYmF0aHR1YiBmaWx0ZXIyDwgCEgtFdmVyeU1hcmtldFjM3iBgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "Babylist",
+          "shoprs": "CAEYAioOYmF0aHR1YiBmaWx0ZXIyDAgCEghCYWJ5bGlzdFjM3iBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=babylist+bathtub+filter&shoprs=CAEYAioOYmF0aHR1YiBmaWx0ZXIyDAgCEghCYWJ5bGlzdFjM3iBgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "Aquasana",
+          "shoprs": "CAEYAioOYmF0aHR1YiBmaWx0ZXIyDAgCEghBcXVhc2FuYVjM3iBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=aquasana+bathtub+filter&shoprs=CAEYAioOYmF0aHR1YiBmaWx0ZXIyDAgCEghBcXVhc2FuYVjM3iBgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "1 filter",
+          "shoprs": "CAESGyoZCLeZ1gMSEgkAAAAAAADwPxEAAAAAAADwPxgBKg5iYXRodHViIGZpbHRlcjI4CAESCDEgZmlsdGVyIhsqGQi3mdYDEhIJAAAAAAAA8D8RAAAAAAAA8D8qAhgBOgkIt5nWAxAAMAZYzN4gYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=1+filter+bathtub&shoprs=CAESGyoZCLeZ1gMSEgkAAAAAAADwPxEAAAAAAADwPxgBKg5iYXRodHViIGZpbHRlcjI4CAESCDEgZmlsdGVyIhsqGQi3mdYDEhIJAAAAAAAA8D8RAAAAAAAA8D8qAhgBOgkIt5nWAxAAMAZYzN4gYAE",
+          "input_type": "link"
+        }
+      ]
+    }
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=bathtub+filter&start=10"
+  }
+}

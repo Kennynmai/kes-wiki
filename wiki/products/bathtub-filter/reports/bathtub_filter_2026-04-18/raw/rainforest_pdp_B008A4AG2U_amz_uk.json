@@ -1,0 +1,629 @@
+{
+  "title": "Crystal Quest CQE-SP-00808 Bath Ball Filter-White",
+  "search_alias": {
+    "title": "Home & Kitchen",
+    "value": "search-alias=kitchen"
+  },
+  "keywords": "Crystal Quest CQE-SP-00808 Bath Ball Filter-White",
+  "is_collection": false,
+  "asin": "B008A4AG2U",
+  "parent_asin": "B0GTX68B9J",
+  "gtin": "785084008080",
+  "link": "https://www.amazon.co.uk/Crystal-Quest-CQE-SP-00808-Bath-Filter-White/dp/B008A4AG2U",
+  "brand": "Crystal Quest",
+  "sell_on_amazon": false,
+  "variants": [
+    {
+      "asin": "B008A4AG2U",
+      "title": "White",
+      "is_current_product": true,
+      "link": "https://www.amazon.co.uk/dp/B008A4AG2U?th=1&psc=1",
+      "dimensions": [
+        {
+          "name": "Colour Name",
+          "value": "White"
+        }
+      ],
+      "main_image": "https://m.media-amazon.com/images/I/71hXCyNCC+L._SL1500_.jpg",
+      "images": [
+        {
+          "variant": "MAIN",
+          "link": "https://m.media-amazon.com/images/I/71hXCyNCC+L._SL1500_.jpg"
+        },
+        {
+          "variant": "PT02",
+          "link": "https://m.media-amazon.com/images/I/71ANWu2OMkL._SL1500_.jpg"
+        },
+        {
+          "variant": "PT03",
+          "link": "https://m.media-amazon.com/images/I/71XxDvslOFL._SL1500_.jpg"
+        },
+        {
+          "variant": "PT04",
+          "link": "https://m.media-amazon.com/images/I/71e0DqLvFcL._SL1500_.jpg"
+        },
+        {
+          "variant": "PT05",
+          "link": "https://m.media-amazon.com/images/I/71haQoEgKkL._SL1500_.jpg"
+        },
+        {
+          "variant": "PT06",
+          "link": "https://m.media-amazon.com/images/I/71HiKcuEIEL._SL1500_.jpg"
+        },
+        {
+          "variant": "PT07",
+          "link": "https://m.media-amazon.com/images/I/71g51Mb79CL._SL1500_.jpg"
+        }
+      ]
+    }
+  ],
+  "variant_asins_flat": "B008A4AG2U",
+  "proposition_65_warning": false,
+  "has_size_guide": true,
+  "add_on_item": {
+    "is_add_on_item": true
+  },
+  "categories": [
+    {
+      "name": "Home & Kitchen"
+    },
+    {
+      "name": "Garden",
+      "link": "https://www.amazon.co.uk/Garden-Outdoors-Home/b/ref=dp_bc_1?ie=UTF8&node=11052671",
+      "category_id": "11052671"
+    },
+    {
+      "name": "Barbecue & Outdoor Dining",
+      "link": "https://www.amazon.co.uk/Picnicware-Outdoor-Dining-Garden-Outdoors/b/ref=dp_bc_2?ie=UTF8&node=11714771",
+      "category_id": "11714771"
+    },
+    {
+      "name": "Outdoor Tableware & Picnicware",
+      "link": "https://www.amazon.co.uk/Outdoor-Tableware-Picnicware/b/ref=dp_bc_3?ie=UTF8&node=4295704031",
+      "category_id": "4295704031"
+    },
+    {
+      "name": "Sets",
+      "link": "https://www.amazon.co.uk/Picnic-Basket-Sets/b/ref=dp_bc_4?ie=UTF8&node=4295709031",
+      "category_id": "4295709031"
+    }
+  ],
+  "categories_flat": "Home & Kitchen > Garden > Barbecue & Outdoor Dining > Outdoor Tableware & Picnicware > Sets",
+  "description": "Bath Ball Filter,The Crystal Quest CQE-SP-00808 Bath Ball Filter will help soften your skin and hair.",
+  "sub_title": {
+    "text": "Brand: Crystal Quest",
+    "link": "https://www.amazon.co.uk/s/ref=bl_dp_s_web_0?ie=UTF8&search-alias=aps&field-keywords=Crystal+Quest"
+  },
+  "amazons_choice": {
+    "link": "https://www.amazon.co.uk/Crystal-Quest-CQE-SP-00808-Bath-Filter-White/dp/B008A4AG2U"
+  },
+  "rating": 4.4,
+  "rating_breakdown": {
+    "five_star": {
+      "percentage": 74,
+      "count": 639
+    },
+    "four_star": {
+      "percentage": 14,
+      "count": 121
+    },
+    "three_star": {
+      "percentage": 4,
+      "count": 35
+    },
+    "two_star": {
+      "percentage": 1,
+      "count": 9
+    },
+    "one_star": {
+      "percentage": 7,
+      "count": 60
+    }
+  },
+  "ratings_total": 864,
+  "main_image": {
+    "link": "https://m.media-amazon.com/images/I/71hXCyNCC+L.jpg"
+  },
+  "images": [
+    {
+      "link": "https://m.media-amazon.com/images/I/71ANWu2OMkL._SL1500_.jpg",
+      "variant": "PT02"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/71XxDvslOFL._SL1500_.jpg",
+      "variant": "PT03"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/71e0DqLvFcL._SL1500_.jpg",
+      "variant": "PT04"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/71haQoEgKkL._SL1500_.jpg",
+      "variant": "PT05"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/71HiKcuEIEL._SL1500_.jpg",
+      "variant": "PT06"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/71g51Mb79CL._SL1500_.jpg",
+      "variant": "PT07"
+    }
+  ],
+  "images_count": 6,
+  "images_flat": "https://m.media-amazon.com/images/I/71ANWu2OMkL._SL1500_.jpg,https://m.media-amazon.com/images/I/71XxDvslOFL._SL1500_.jpg,https://m.media-amazon.com/images/I/71e0DqLvFcL._SL1500_.jpg,https://m.media-amazon.com/images/I/71haQoEgKkL._SL1500_.jpg,https://m.media-amazon.com/images/I/71HiKcuEIEL._SL1500_.jpg,https://m.media-amazon.com/images/I/71g51Mb79CL._SL1500_.jpg",
+  "videos_additional": [
+    {
+      "id": "amzn1.vse.video.19fdf4228f2041b0aa4e314b98c36c32",
+      "related_products": "B0DM81R526,B0DY1944CN,B0F4WPYM1W",
+      "title": "Watch and see why this Bath filter is a Must Have!",
+      "profile_image_url": "https://m.media-amazon.com/images/I/C18J6+EMBnL._CR0,378,2268,2268_._FMjpg_._SL34_.jpg",
+      "profile_link": "/shop/criminalbehaviourtv/ref=ive_profile?_encoding=UTF8&pd_rd_w=00kSu&content-id=amzn1.sym.82418b28-9c35-483a-8b34-1b320f67d923&pf_rd_p=82418b28-9c35-483a-8b34-1b320f67d923&pf_rd_r=7DYPYREJ7YB8XW5PNDQV&pd_rd_wg=nSJPw&pd_rd_r=c964adb3-7679-49c2-b711-d257e397e0a4",
+      "public_name": "Emeka Nnochiri",
+      "creator_type": "Influencer",
+      "vendor_code": "criminalbehaviourtv:shop",
+      "vendor_name": "Emeka Nnochiri",
+      "vendor_tracking_id": "onamzchukwu08-21",
+      "video_image_id": "81YvCuqqUGL",
+      "video_image_url": "https://m.media-amazon.com/images/I/81YvCuqqUGL._CR0,0,1080,610_SR414,234_.jpg",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/81YvCuqqUGL.jpg",
+      "video_image_width": "1080",
+      "video_image_height": "1920",
+      "video_image_extension": "jpg",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/6a9257e1-c388-4a84-9bf2-00f2e83a1d91/default.vertical.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/24c57bcc-f1a6-4b8c-9da7-0da2ccf8796c/videopreview.jobtemplate.mp4.default.mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "1:16",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-eu-west-1-prod/closedCaptions/c3b8fc2c-3ac4-4f27-95f5-c94fbe790421.vtt",
+      "type": "videos_for_related_products"
+    },
+    {
+      "id": "amzn1.vse.video.14533f9a1b3541308bb4baa60274cba3",
+      "related_products": "B08Y8GSVJS",
+      "title": "Review for bath ball filter",
+      "profile_image_url": "https://m.media-amazon.com/images/I/71UcmpGRk3L._CR0,0,626,626_._FMjpg_._SL34_.jpg",
+      "profile_link": "/shop/homehacksamazoninfluencer/ref=ive_profile?_encoding=UTF8&pd_rd_w=00kSu&content-id=amzn1.sym.82418b28-9c35-483a-8b34-1b320f67d923&pf_rd_p=82418b28-9c35-483a-8b34-1b320f67d923&pf_rd_r=7DYPYREJ7YB8XW5PNDQV&pd_rd_wg=nSJPw&pd_rd_r=c964adb3-7679-49c2-b711-d257e397e0a4",
+      "public_name": "Christina",
+      "creator_type": "Influencer",
+      "vendor_code": "homehacksamazoninfluencer:shop",
+      "vendor_name": "Christina",
+      "vendor_tracking_id": "onamzchri0b7b-21",
+      "video_image_id": "613-ZT8HiNL",
+      "video_image_url": "https://m.media-amazon.com/images/I/613-ZT8HiNL._CR0,0,640,362_SR414,234_.jpg",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/613-ZT8HiNL.jpg",
+      "video_image_width": "640",
+      "video_image_height": "1137",
+      "video_image_extension": "jpg",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/27260aad-e2dd-45a5-a4e7-36af47d9f3de/default.vertical.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/5c581f9f-87ff-4e76-b290-4877834e9ff9/videopreview.jobtemplate.mp4.default.mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "0:18",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-eu-west-1-prod/closedCaptions/d28a7584-7475-4b00-ad0a-9d0fa2fd5fb4.vtt",
+      "type": "videos_for_related_products"
+    },
+    {
+      "id": "amzn1.vse.video.18e8489fcc9b49bcbc777bd1f4732c5c",
+      "related_products": "B0DM81R526,B0DRVLNV11,B0F4WPYM1W,B0F1388D4N",
+      "title": "My review on why this water filter is a Must Have!",
+      "profile_image_url": "https://images-eu.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/mexandhisviews_1683347832407_original._FMjpg_._SL34_.jpeg",
+      "profile_link": "/shop/mexandhisviews/ref=ive_profile?_encoding=UTF8&pd_rd_w=00kSu&content-id=amzn1.sym.82418b28-9c35-483a-8b34-1b320f67d923&pf_rd_p=82418b28-9c35-483a-8b34-1b320f67d923&pf_rd_r=7DYPYREJ7YB8XW5PNDQV&pd_rd_wg=nSJPw&pd_rd_r=c964adb3-7679-49c2-b711-d257e397e0a4",
+      "public_name": "MexVariety Store",
+      "creator_type": "Influencer",
+      "vendor_code": "mexandhisviews:shop",
+      "vendor_name": "MexVariety Store",
+      "vendor_tracking_id": "onamzchukwuem-21",
+      "video_image_id": "71-FkMCySwL",
+      "video_image_url": "https://m.media-amazon.com/images/I/71-FkMCySwL._CR0,0,720,407_SR414,234_.jpg",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/71-FkMCySwL.jpg",
+      "video_image_width": "720",
+      "video_image_height": "1280",
+      "video_image_extension": "jpg",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/f70cdca5-b2ff-4270-8861-b5e6c62f010a/default.vertical.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/4e706994-9631-4b3a-b3b5-a23b378c21ce/videopreview.jobtemplate.mp4.default.mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "0:24",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-eu-west-1-prod/closedCaptions/b58eb08b-2df3-4b1e-a39a-193cae834a52.vtt",
+      "type": "videos_for_related_products"
+    },
+    {
+      "id": "amzn1.vse.video.1a4c5fa1a7c1433fa61be7921e1b55f0",
+      "related_products": "B07358SY5W,B0F8HJHLCR",
+      "title": "Philips Shower Filter Unboxing and Installation. 1 Month Review",
+      "profile_image_url": "https://m.media-amazon.com/images/I/71r3hdk5FLL._CR0,0,958,958_._FMjpg_._SL34_.jpg",
+      "profile_link": "/shop/oui_mooi/ref=ive_profile?_encoding=UTF8&pd_rd_w=00kSu&content-id=amzn1.sym.82418b28-9c35-483a-8b34-1b320f67d923&pf_rd_p=82418b28-9c35-483a-8b34-1b320f67d923&pf_rd_r=7DYPYREJ7YB8XW5PNDQV&pd_rd_wg=nSJPw&pd_rd_r=c964adb3-7679-49c2-b711-d257e397e0a4",
+      "public_name": "Asya & Family",
+      "creator_type": "Influencer",
+      "vendor_code": "oui_mooi:shop",
+      "vendor_name": "Asya & Family",
+      "vendor_tracking_id": "onamzasiaause-21",
+      "video_image_id": "41sNw39odYL",
+      "video_image_url": "https://m.media-amazon.com/images/I/41sNw39odYL._CR2,0,637,360_SR414,234_.jpg",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/41sNw39odYL.jpg",
+      "video_image_width": "640",
+      "video_image_height": "360",
+      "video_image_extension": "jpg",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/e8bc700a-2855-4116-bf90-8caed041e5ad/default.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d02c5cd6-28dc-41ec-a59e-db35a37bd3f8/videopreview.jobtemplate.mp4.default.mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "1:09",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-eu-west-1-prod/closedCaptions/992eea64-b808-4dbb-94da-9b3937a0d323.vtt",
+      "type": "videos_for_related_products"
+    },
+    {
+      "id": "amzn1.vse.video.1e2c55fd12f04a98b54388c32b2568ba",
+      "related_products": "B006X3YJKK,B00BOBTG0E,B0FL76M838",
+      "title": "A fantastic iSpring 7-stage water filter system",
+      "profile_image_url": "https://m.media-amazon.com/images/I/61HFjY+7wQL._CR0,0,499,499_._FMjpg_._SL34_.jpg",
+      "profile_link": "/shop/obsessedwiththislife/ref=ive_profile?_encoding=UTF8&pd_rd_w=00kSu&content-id=amzn1.sym.82418b28-9c35-483a-8b34-1b320f67d923&pf_rd_p=82418b28-9c35-483a-8b34-1b320f67d923&pf_rd_r=7DYPYREJ7YB8XW5PNDQV&pd_rd_wg=nSJPw&pd_rd_r=c964adb3-7679-49c2-b711-d257e397e0a4",
+      "public_name": "Curated by My Joyful Self",
+      "creator_type": "Influencer",
+      "vendor_code": "obsessedwiththislife:shop",
+      "vendor_name": "Curated by My Joyful Self",
+      "vendor_tracking_id": "onamzeliz0ced-21",
+      "video_image_id": "51SoKu58unL",
+      "video_image_url": "https://m.media-amazon.com/images/I/51SoKu58unL._CR0,0,640,362_SR414,234_.jpg",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/51SoKu58unL.jpg",
+      "video_image_width": "640",
+      "video_image_height": "1137",
+      "video_image_extension": "jpg",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/6ff27a80-9fb0-416a-aa80-c861ccf339c9/default.vertical.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/9e007a72-ad5d-4364-8aa7-1ec0578efee8/videopreview.jobtemplate.mp4.default.mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "0:30",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-eu-west-1-prod/closedCaptions/e712b1b6-5565-4659-af58-71c6ac8f1f7c.vtt",
+      "type": "videos_for_related_products"
+    },
+    {
+      "id": "amzn1.vse.video.1ba79fdb30694093b3a7b7cfae97a503",
+      "related_products": "B097YC4VC2,B0CQBB26Z4",
+      "title": "Our Point of View on Waterdrop TSB-CM Under Sink Water Filter System ",
+      "profile_image_url": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/influencer-20a38664_1683211057594_original._FMjpg_._SL34_.jpeg",
+      "profile_link": "/shop/influencer-20a38664/ref=ive_profile?_encoding=UTF8&pd_rd_w=00kSu&content-id=amzn1.sym.82418b28-9c35-483a-8b34-1b320f67d923&pf_rd_p=82418b28-9c35-483a-8b34-1b320f67d923&pf_rd_r=7DYPYREJ7YB8XW5PNDQV&pd_rd_wg=nSJPw&pd_rd_r=c964adb3-7679-49c2-b711-d257e397e0a4",
+      "public_name": "WTI | We Tried It!",
+      "creator_type": "Influencer",
+      "vendor_code": "influencer-20a38664:shop",
+      "vendor_name": "WTI | We Tried It!",
+      "vendor_tracking_id": "onamzmarcvall-21",
+      "video_image_id": "91CXs8PRHtL",
+      "video_image_url": "https://m.media-amazon.com/images/I/91CXs8PRHtL._CR3,0,1274,720_SR414,234_.png",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/91CXs8PRHtL.png",
+      "video_image_width": "1280",
+      "video_image_height": "720",
+      "video_image_extension": "png",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/6d369fc0-5821-4442-a4a7-8e473ddfe70c/default.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/bdea9a32-edb0-40bf-9880-4b7d94214295/videopreview.jobtemplate.mp4.default.mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "1:41",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-eu-west-1-prod/closedCaptions/69fb175f-a0b0-4561-a365-6a6bace445ed.vtt",
+      "type": "videos_for_related_products"
+    },
+    {
+      "id": "amzn1.vse.video.178dd11d4e44451a9d6c47b68107bead",
+      "related_products": "B0D6GFV5T6",
+      "title": "Bath Ball Water Filter",
+      "public_name": "FMKJEU",
+      "creator_type": "Seller",
+      "vendor_code": "Z7AX4",
+      "vendor_name": "FMKJEU",
+      "video_image_id": "61IS4CuNYmL",
+      "video_image_url": "https://m.media-amazon.com/images/I/61IS4CuNYmL._CR0,0,640,362_SR414,234_.jpg",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/61IS4CuNYmL.jpg",
+      "video_image_width": "640",
+      "video_image_height": "1138",
+      "video_image_extension": "jpg",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/e057d7b3-dd1c-4282-813a-e50891e79103/default.vertical.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1402fa2-db95-4381-927b-79ca2671c72f/videopreview.jobtemplate.mp4.default.mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "0:34",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-eu-west-1-prod/closedCaptions/acad656b-de8a-4265-bca9-e902661ebd91.vtt",
+      "type": "videos_for_related_products"
+    },
+    {
+      "id": "amzn1.vse.video.17a7fde03126452b8f40978100d8204a",
+      "related_products": "B0DM81R526",
+      "title": "MoKo Bath Filter for Babies and Adults",
+      "public_name": "KnoWhite",
+      "creator_type": "Seller",
+      "vendor_code": "Z7AX4",
+      "vendor_name": "KnoWhite",
+      "video_image_id": "414d+MeRYLL",
+      "video_image_url": "https://m.media-amazon.com/images/I/414d+MeRYLL._CR2,0,637,360_SR414,234_.jpg",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/414d+MeRYLL.jpg",
+      "video_image_width": "640",
+      "video_image_height": "360",
+      "video_image_extension": "jpg",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/a0c1f22e-00ba-4204-824f-2713f4c6cdca/default.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/5472bd35-3abc-4fd7-bb83-d1231f928123/videopreview.jobtemplate.mp4.default.mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "0:25",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-eu-west-1-prod/closedCaptions/0e3d2664-b3b7-4d7a-9527-7b34bdb6562c.vtt",
+      "type": "videos_for_related_products"
+    }
+  ],
+  "is_bundle": false,
+  "feature_bullets": [
+    "The healthiest, most refreshing bath experience ever. It's like bathing in spring water",
+    "CRYSTAL QUEST bath ball Filter will give you smoother, softer skin and hair that is less dry.",
+    "Removes chlorine, chloramines, VOC's, THM's, pesticides, sulfur, heavy metals, hydrogen sulfide (\"rotten egg\" odor), iron oxides (\"rust water\"), dirt, sediment and other odors",
+    "CRYSTAL QUEST bath ball Filter contains a reversible filter cartridge, which lasts about a year.",
+    "It's pH balanced"
+  ],
+  "feature_bullets_count": 5,
+  "feature_bullets_flat": "It's pH balanced. CRYSTAL QUEST bath ball Filter contains a reversible filter cartridge, which lasts about a year. Removes chlorine, chloramines, VOC's, THM's, pesticides, sulfur, heavy metals, hydrogen sulfide (\"rotten egg\" odor), iron oxides (\"rust water\"), dirt, sediment and other odors. CRYSTAL QUEST bath ball Filter will give you smoother, softer skin and hair that is less dry. The healthiest, most refreshing bath experience ever. It's like bathing in spring water.",
+  "top_reviews": [
+    {
+      "id": "R37AHFRYDALX7Z",
+      "title": "Replacement filters a problem",
+      "body": "Its meant to be one of the best filters to get and it is good BUT it takes a very long time to arrive - its shipped from the US but worse than that, there don't seem to be any replacement filters on sale in the UK. You can order them direct from Crystal Quest in the States but that makes the filters prohibitively expensive and huge delays on delivery....v annoying to find this out after I've purchased the bath filter!!",
+      "rating": 3,
+      "date": {
+        "raw": "Reviewed in the United Kingdom on 14 April 2025"
+      },
+      "profile": {
+        "name": "Sue"
+      },
+      "verified_purchase": true,
+      "link": "https://www.amazon.co.uk/gp/customer-reviews/R37AHFRYDALX7Z/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+    },
+    {
+      "id": "R1Z99ALTFRI3NN",
+      "title": "High recommended!",
+      "body": "This bath filter is a game-changer. It was incredibly easy to install and works exactly as advertised. I immediately noticed a difference in the water—it feels much cleaner and \"softer\" on the skin. If you're dealing with hard water or chlorine smells, I highly recommend this!",
+      "rating": 5,
+      "date": {
+        "raw": "Reviewed in the United States on 7 April 2026"
+      },
+      "profile": {
+        "name": "Reforged & Refined"
+      },
+      "verified_purchase": true
+    },
+    {
+      "id": "R3NJAHV3I973ZU",
+      "title": "Good product",
+      "body": "Works well, easy setup",
+      "rating": 5,
+      "date": {
+        "raw": "Reviewed in Canada on 17 February 2024"
+      },
+      "profile": {
+        "name": "Bryan"
+      },
+      "verified_purchase": true
+    },
+    {
+      "id": "R2LE8FOFDBS4BS",
+      "title": "🌟🌟🌟🌟🌟 Game-Changer for Sensitive Skin – Noticeably Softer Water After One Use!",
+      "body": "I didn’t expect to love this bath filter as much as I do — but it made a noticeable difference after just one bath! Living in an area with hard, heavily chlorinated water, my skin always felt dry and itchy after bathing, no matter what products I used. This filter changed that instantly.💧 Skin Feels Softer & Less IrritatedAfter using this for one week, my skin feels smoother and less tight after every bath. I no longer need to slather on thick lotion right away. My daughter also has sensitive skin, and I’ve noticed fewer flare-ups since using this product. That alone made it worth every penny.💡 Easy to Use & AttachThe setup couldn’t be simpler — just hang it under your tub spout and let the water run through it. No complicated installation or tools. It even fits our slightly curved spout just fine.🛁 Water Smells & Feels CleanerThere’s no more heavy chlorine smell, and the water feels silkier somehow. It’s hard to describe, but you can literally feel the difference — like hotel-quality bath water at home.♻️ Eco-Friendly & BPA-FreeI love that it’s BPA-free and built to filter out harmful contaminants without compromising water flow. The design is also sleek and modern — it doesn’t look bulky or awkward in our tub.⸻Final Thoughts:I didn’t realize how much my bath water was affecting my skin until I tried this. I highly recommend it to anyone with skin issues, kids, or simply looking to upgrade their self-care routine at home.",
+      "rating": 5,
+      "date": {
+        "raw": "Reviewed in the United States on 30 May 2025"
+      },
+      "profile": {
+        "name": "Fray"
+      },
+      "verified_purchase": true
+    },
+    {
+      "id": "R34ARIBGB1QRYG",
+      "title": "A+++++ bath filter",
+      "body": "Put this filter on our water cabin system....took away the smell and yellow from lake water..feeling soft and clean...Awesome....",
+      "rating": 5,
+      "date": {
+        "raw": "Reviewed in Canada on 13 December 2016"
+      },
+      "profile": {
+        "name": "Cecil M. Howell"
+      },
+      "verified_purchase": true
+    },
+    {
+      "id": "R2IQANENM9I6NC",
+      "title": "Can visually see the difference in the colour of the ...",
+      "body": "Can visually see the difference in the colour of the water, and there is 0 smell of clorine now.",
+      "rating": 5,
+      "date": {
+        "raw": "Reviewed in Canada on 17 February 2018"
+      },
+      "profile": {
+        "name": "Alexa Greatrex"
+      },
+      "verified_purchase": true
+    }
+  ],
+  "bestsellers_rank": [
+    {
+      "rank": 125925,
+      "category": "Garden",
+      "link": "https://www.amazon.co.uk/gp/bestsellers/outdoors/ref=pd_zg_ts_outdoors"
+    },
+    {
+      "rank": 73,
+      "category": "Pool & Hot Tub Filters",
+      "link": "https://www.amazon.co.uk/gp/bestsellers/outdoors/4364605031/ref=pd_zg_hrsr_outdoors"
+    }
+  ],
+  "buybox_winner": {
+    "maximum_order_quantity": {
+      "value": 30,
+      "hard_maximum": true
+    },
+    "price_only_available_in_cart": false,
+    "new_offers_count": 2,
+    "new_offers_from": {
+      "raw": "New"
+    },
+    "trade_in_and_save": true,
+    "return_policy": {
+      "duration_days": 30,
+      "type": "refund/replacement",
+      "seller": "A2KVF7QXNCLV8H"
+    },
+    "is_prime": true,
+    "is_prime_exclusive_deal": false,
+    "is_amazon_fresh": false,
+    "condition": {
+      "is_new": true
+    },
+    "availability": {
+      "type": "in_stock",
+      "raw": "In stock",
+      "dispatch_days": 1
+    },
+    "fulfillment": {
+      "type": "p1",
+      "is_sold_by_amazon": true,
+      "amazon_seller": {
+        "name": "Amazon",
+        "link": "https://www.amazon.co.uk/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A2KVF7QXNCLV8H&asin=B008A4AG2U&ref_=dp_merchant_link",
+        "id": "A2KVF7QXNCLV8H"
+      },
+      "is_fulfilled_by_amazon": true,
+      "is_fulfilled_by_third_party": false,
+      "is_sold_by_third_party": false,
+      "is_fulfilled_by_amazon_international": true
+    },
+    "price": {
+      "symbol": "£",
+      "value": 61.86,
+      "currency": "GBP",
+      "raw": "£61.86"
+    }
+  },
+  "specifications": [
+    {
+      "name": "Brand",
+      "value": "Crystal Quest"
+    },
+    {
+      "name": "Special feature",
+      "value": "Durable Reversible Filter Cartridge"
+    },
+    {
+      "name": "Product dimensions",
+      "value": "12.7L x 12.7W x 12.7H centimetres"
+    },
+    {
+      "name": "Material",
+      "value": "Crystal"
+    },
+    {
+      "name": "Capacity",
+      "value": "2500 gallons"
+    },
+    {
+      "name": "Included components",
+      "value": "Main Unit, Replacement Disks (Filters)"
+    },
+    {
+      "name": "Package information",
+      "value": "Bottle"
+    },
+    {
+      "name": "Installation type",
+      "value": "Faucet Mount"
+    },
+    {
+      "name": "Purification method",
+      "value": "Activated Carbon"
+    },
+    {
+      "name": "Power source",
+      "value": "Manual (Gravity-fed)"
+    },
+    {
+      "name": "Other Special Features of the Product",
+      "value": "Durable Reversible Filter Cartridge"
+    },
+    {
+      "name": "Container Type",
+      "value": "Bottle"
+    },
+    {
+      "name": "Installation Type",
+      "value": "Faucet Mount"
+    },
+    {
+      "name": "Purification Method",
+      "value": "Activated Carbon"
+    },
+    {
+      "name": "Power Source",
+      "value": "Manual (Gravity-fed)"
+    },
+    {
+      "name": "Supported Water TDS Level Maximum (PPM)",
+      "value": "5000"
+    },
+    {
+      "name": "Item Dimensions L x W x H",
+      "value": "12.7L x 12.7W x 12.7H centimetres"
+    },
+    {
+      "name": "Item Weight",
+      "value": "340 g"
+    },
+    {
+      "name": "Material Type",
+      "value": "Crystal"
+    },
+    {
+      "name": "EU Spare Part Availability Duration",
+      "value": "1 Years"
+    },
+    {
+      "name": "Included Components",
+      "value": "Main Unit, Replacement Disks (Filters)"
+    },
+    {
+      "name": "Model Name",
+      "value": "CQE-SP-00808"
+    },
+    {
+      "name": "Model Number",
+      "value": "CQE-SP-00808"
+    },
+    {
+      "name": "UPC",
+      "value": "785084008080"
+    },
+    {
+      "name": "Global Trade Identification Number",
+      "value": "00785084008080"
+    },
+    {
+      "name": "Manufacturer",
+      "value": "Crystal Quest"
+    },
+    {
+      "name": "Unit Count",
+      "value": "1.0 count"
+    },
+    {
+      "name": "Best Sellers Rank",
+      "value": "125,925 in Garden (See Top 100 in Garden) 73 in Pool & Hot Tub Filters"
+    },
+    {
+      "name": "ASIN",
+      "value": "B008A4AG2U"
+    },
+    {
+      "name": "Customer Reviews",
+      "value": "4.4    4.4 out of 5 stars         (864)           4.4 out of 5 stars"
+    },
+    {
+      "name": "GTIN",
+      "value": "785084008080"
+    }
+  ],
+  "specifications_flat": "GTIN: 785084008080. Customer Reviews: 4.4    4.4 out of 5 stars         (864)           4.4 out of 5 stars. ASIN: B008A4AG2U. Best Sellers Rank: 125,925 in Garden (See Top 100 in Garden) 73 in Pool & Hot Tub Filters. Unit Count: 1.0 count. Manufacturer: Crystal Quest. Global Trade Identification Number: 00785084008080. UPC: 785084008080. Model Number: CQE-SP-00808. Model Name: CQE-SP-00808. Included Components: Main Unit, Replacement Disks (Filters). EU Spare Part Availability Duration: 1 Years. Material Type: Crystal. Item Weight: 340 g. Item Dimensions L x W x H: 12.7L x 12.7W x 12.7H centimetres. Supported Water TDS Level Maximum (PPM): 5000. Power Source: Manual (Gravity-fed). Purification Method: Activated Carbon. Installation Type: Faucet Mount. Container Type: Bottle. Other Special Features of the Product: Durable Reversible Filter Cartridge. Power source: Manual (Gravity-fed). Purification method: Activated Carbon. Installation type: Faucet Mount. Package information: Bottle. Included components: Main Unit, Replacement Disks (Filters). Capacity: 2500 gallons. Material: Crystal. Product dimensions: 12.7L x 12.7W x 12.7H centimetres. Special feature: Durable Reversible Filter Cartridge. Brand: Crystal Quest.",
+  "material": "Crystal",
+  "manufacturer": "Crystal Quest",
+  "weight": "340 g",
+  "dimensions": "12.7L x 12.7W x 12.7H centimetres",
+  "model_number": "CQE-SP-00808",
+  "bestsellers_rank_flat": "Category: Garden | Rank: 125925, Category: Pool & Hot Tub Filters | Rank: 73",
+  "whats_in_the_box": [
+    "Main Unit, Replacement Disks (Filters)"
+  ]
+}

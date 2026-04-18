@@ -1,0 +1,793 @@
+{
+  "type": "search",
+  "query": {
+    "original": "site:reddit.com bathtub water filter chlorine",
+    "show_strict_warning": false,
+    "cleaned": "bathtub water filter chlorine",
+    "is_navigational": false,
+    "is_news_breaking": false,
+    "spellcheck_off": false,
+    "country": "us",
+    "bad_results": false,
+    "should_fallback": false,
+    "postal_code": "",
+    "city": "",
+    "header_country": "",
+    "more_results_available": true,
+    "state": "",
+    "search_operators": {
+      "applied": true,
+      "cleaned_query": "bathtub water filter chlorine",
+      "sites": [
+        "reddit.com"
+      ]
+    }
+  },
+  "infobox": {
+    "type": "graph",
+    "results": [
+      {
+        "title": "Bath Filter?",
+        "url": "https://www.reddit.com/r/moderatelygranolamoms/comments/1fd0vja/bath_filter/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "",
+        "family_friendly": true,
+        "type": "infobox",
+        "position": 1,
+        "attributes": [],
+        "providers": [
+          {
+            "type": "external",
+            "name": "reddit.com",
+            "url": "https://www.reddit.com/r/moderatelygranolamoms/comments/1fd0vja/bath_filter/",
+            "img": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8"
+          }
+        ],
+        "subtype": "code",
+        "data": {
+          "question": "Bath Filter?",
+          "answer": {
+            "text": "We have very hard water in our area and used a shower filter for a while, but removed it a few months ago because we didn't have replacement cartridges for it. I did not notice any difference for my own sensitive skin or hair whether we were using the filter or not. If anything, my hair actually got less frizzy after removing the filter. Honestly, the best thing you could probably do for your son's eczema would be to reduce the baths. Our son also has mild eczema and we bathe him 1-2 times a week. Any more than that and his skin just gets so dry.",
+            "author": "IlexAquifolia",
+            "upvoteCount": 12
+          }
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "reddit.com",
+          "hostname": "www.reddit.com",
+          "favicon": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8",
+          "path": "\u203a r  \u203a moderatelygranolamoms  \u203a comments  \u203a 1fd0vja  \u203a bath_filter"
+        }
+      },
+      {
+        "title": "Best shower filter for chloramines?",
+        "url": "https://www.reddit.com/r/WaterTreatment/comments/ww69cf/best_shower_filter_for_chloramines/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "",
+        "family_friendly": true,
+        "type": "infobox",
+        "position": 6,
+        "attributes": [],
+        "providers": [
+          {
+            "type": "external",
+            "name": "reddit.com",
+            "url": "https://www.reddit.com/r/WaterTreatment/comments/ww69cf/best_shower_filter_for_chloramines/",
+            "img": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8"
+          }
+        ],
+        "subtype": "code",
+        "data": {
+          "question": "Best shower filter for chloramines?",
+          "answer": {
+            "text": "If the filter says total chlorine monochloramines are included",
+            "author": "CadaverMutilatr",
+            "upvoteCount": 4
+          }
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "reddit.com",
+          "hostname": "www.reddit.com",
+          "favicon": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8",
+          "path": "\u203a r  \u203a WaterTreatment  \u203a comments  \u203a ww69cf  \u203a best_shower_filter_for_chloramines"
+        }
+      }
+    ]
+  },
+  "mixed": {
+    "type": "mixed",
+    "main": [
+      {
+        "type": "infobox",
+        "index": 0,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 0,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 1,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 2,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 3,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 4,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 5,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 6,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 7,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 8,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 9,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 10,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 11,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 12,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 13,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 14,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 15,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 16,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 17,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 18,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 19,
+        "all": false
+      }
+    ],
+    "top": [],
+    "side": []
+  },
+  "web": {
+    "type": "search",
+    "results": [
+      {
+        "title": "r/WaterTreatment on Reddit: Bath ball filter question",
+        "url": "https://www.reddit.com/r/WaterTreatment/comments/16so83g/bath_ball_filter_question/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "For example, you can go with a SpringWell whole house filter where the filter media is catalytic carbon and KDF media which is superior to the traditional activated carbon for chloramine reduction and a host of contaminants - you can see a study here on catalytic vc GAC filters for disinfection byproduct reduction. Most utilities are using more chloramines (chlorine and ammonia) and you can get other disinfection byproducts like trihalomethanes which are carcinogens.",
+        "page_age": "2023-09-26T13:37:37",
+        "profile": {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/WaterTreatment/comments/16so83g/bath_ball_filter_question/",
+          "long_name": "reddit.com",
+          "img": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "qa",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "reddit.com",
+          "hostname": "www.reddit.com",
+          "favicon": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8",
+          "path": "  \u203a r/watertreatment  \u203a bath ball filter question"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/A5H_aQiEBuUODR0lNeU8iDfhrWUvO8oEmRGE_mcS_gM/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVkZGl0c3RhdGlj/LmNvbS9pY29uLnBu/Zw",
+          "original": "https://www.redditstatic.com/icon.png",
+          "logo": true
+        },
+        "age": "September 26, 2023",
+        "qa": {
+          "question": "<p>I am thinking of getting the following bath bath filter and wanted to ask opinion as to how effective it will be at removing chemicals/heavy metals? The company claims greater than 80% reduction. Are there any other good options short of a whole house filtration system? I take long baths each evening and would like to limit chemical and heavy metal exposure. I currently am using a copper/zinc filter which I think is more geared towards removing heavy metals and chlorine but doesn&#39;t do much for removing chemicals. Thank you.</p><p><a rpl class=\"relative pointer-events-auto a cursor-pointer\n  \n  \n  \n  \n  underline\n  \" href=\"https://crystalquest.com/products/bath-ball-filter\" rel=\"noopener nofollow noreferrer ugc\" target=\"_blank\">https://crystalquest.com/products/bath-ball-filter</a></p>",
+          "answer": {
+            "text": "<span>What are the recommendations for someone who lives in an apartment?</span>\n",
+            "upvoteCount": 1
+          }
+        },
+        "article": {
+          "author": [
+            {
+              "type": "person",
+              "name": "adamsdp",
+              "url": "https://www.reddit.com/user/adamsdp/"
+            }
+          ],
+          "date": "Sep 26, 2023",
+          "publisher": {
+            "type": "organization",
+            "name": "Reddit",
+            "url": "https://www.reddit.com",
+            "thumbnail": {
+              "src": "https://imgs.search.brave.com/vwRCTZCyS3UsCGj7HsYLzWpcOMhAEqq9hhxBK8tt7Dw/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVkZGl0c3RhdGlj/LmNvbS9zaHJlZGRp/dC9hc3NldHMvZmF2/aWNvbi82NHg2NC5w/bmc",
+              "original": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png"
+            }
+          }
+        },
+        "extra_snippets": [
+          "But for filters to work super effectively, they need more contact time. That is in general - whether a bath ball or water filter pitcher, etc. So if you want a filter that is going to help with chlorine and some heavy metals, the bath ball is a good start - and is the best option as far as bath filtration that I have found.",
+          "However, if you want more comprehensive protection from chlorine, chloramines, PFAS, VOCs, and other common city water contaminants, a whole house filter is going to be the better choice.",
+          "For example, you can go with a SpringWell whole house filter where the filter media is catalytic carbon and KDF media which is superior to the traditional activated carbon for chloramine reduction and a host of contaminants - you can see a study here on catalytic vc GAC filters for disinfection byproduct reduction. Most utilities are using more chloramines (chlorine and ammonia) and you can get other disinfection byproducts like trihalomethanes which are carcinogens.",
+          "Need help with something water related? We're here to help! Whether it'd be whole house filtration systems, Softeners, under the sink Reverse Osmosis units, Well pumps, Wells, and supporting equipment. Ask away! ... I am thinking of getting the following bath bath filter and wanted to ask opinion as to how effective it will be at removing chemicals/heavy metals?"
+        ]
+      },
+      {
+        "title": "r/moderatelygranolamoms on Reddit: Bath Filter?",
+        "url": "https://www.reddit.com/r/moderatelygranolamoms/comments/1fd0vja/bath_filter/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "It takes away the chlorine smell. And their skin is a little bit softer. They&#x27;re not so dry afterwards, but obviously still use lotion. My baby has pretty dry skin in general. but I definitely noticed an improvement with this. I also use the culligan brand showerhead with the filter in it. ... The bathtub one i&#x27;ve actually had for a couple years and it&#x27;s still going pretty well.",
+        "page_age": "2024-09-09T21:20:36",
+        "profile": {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/moderatelygranolamoms/comments/1fd0vja/bath_filter/",
+          "long_name": "reddit.com",
+          "img": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "qa",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "reddit.com",
+          "hostname": "www.reddit.com",
+          "favicon": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8",
+          "path": "  \u203a r/moderatelygranolamoms  \u203a bath filter?"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/YMvW37tubLTT2Iti7PBp-JgR_7W1PtDHDyso2iDmCqs/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9zaGFy/ZS5yZWRkLml0L3By/ZXZpZXcvcG9zdC8x/ZmQwdmph",
+          "original": "https://share.redd.it/preview/post/1fd0vja",
+          "logo": false
+        },
+        "age": "September 9, 2024",
+        "qa": {
+          "question": "<p>Just went down a bath filter rabbit hole. Bath water was not something I was worried about, but now I am wondering if I should be filtering the water. I have a 6month old and we bathe him every night. He has some mild eczema, we live in a very dry climate and have hard water. I&#39;m not looking to install a whole-home filtration system right now, but I&#39;m considering something like <a rpl class=\"relative pointer-events-auto a cursor-pointer\n  \n  \n  \n  \n  underline\n  \" href=\"https://www.amazon.com/Crystal-Quest-Hundreds-Contaminants-Filtration/dp/B0C67J6P5W/ref=asc_df_B0C67J6P5W/?tag=hyprod-20&amp;linkCode=df0&amp;hvadid=697475421509&amp;hvpos=&amp;hvnetw=g&amp;hvrand=6371687584122938936&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9028793&amp;hvtargid=pla-2309316235149&amp;psc=1&amp;mcid=3c21a12e481c3644935a450ca4f2ebe8\" rel=\"noopener nofollow ugc\" target=\"_blank\">this</a>. From what I&#39;ve read they aren&#39;t the most effective, but they are a good start and better than nothing. Anyone using this or something similar? Are they worthwhile?</p>",
+          "answer": {
+            "text": "<span>We have very hard water in our area and used a shower filter for a while, but removed it a few months ago because we didn't have replacement cartridges for it. I did not notice any difference for my own sensitive skin or hair whether we were using the filter or not. If anything, my hair actually got less frizzy after removing the filter. Honestly, the best thing you could probably do for your son's eczema would be to reduce the baths. Our son also has mild eczema and we bathe him 1-2 times a week. Any more than that and his skin just gets so dry.</span>\n",
+            "upvoteCount": 12
+          }
+        },
+        "extra_snippets": [
+          "It takes away the chlorine smell. And their skin is a little bit softer. They're not so dry afterwards, but obviously still use lotion. My baby has pretty dry skin in general. but I definitely noticed an improvement with this. I also use the culligan brand showerhead with the filter in it. ... The bathtub one i've actually had for a couple years and it's still going pretty well.",
+          "Just went down a bath filter rabbit hole. Bath water was not something I was worried about, but now I am wondering if I should be filtering the\u2026",
+          "I'm not 100% sure it filters out all the nasty stuff but I haven't had any complaints that past year or so I've used it. ... I saw one review on crystal quest that said someone tested the chlorine with and without and it was the same. Literally had it in my cart on Amazon today but then deleted. Maybe worth a shot? ... I\u2019ve used this :) it works pretty well. I find that it gets rid of the chlorine smell and softens the water.",
+          "Oh i see. For the bathtub one, we had a faucet like that before we moved. It worked so long as i set it on there just at the right angle and didnt touch it, but a lot of times i would just put my hand on top to hold it there while the water was running because it did slide off and bang into the tub."
+        ]
+      },
+      {
+        "title": "r/moderatelygranolamoms on Reddit: Bath water filter",
+        "url": "https://www.reddit.com/r/moderatelygranolamoms/comments/1gxkids/bath_water_filter/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "I just never heard chlorine to be good for the skin and if I can limit it as much as possible then I\u2019m all for that. I hate coming out of my shower or bath smelling like I swam in a public pool. I\u2019ve also seen some nasty stuff in my water and since I live in an apartment I have no clue when the last time they changed the water filter was ... Got it - sounds like you need a water filter for all the reasons! In case getting the bathtub one sorted isn\u2019t doable before the baby comes, there are some good shower head ones that could be easy to install- https://nymag.com/strategist/article/best-shower-water-filters.html?utm_source=google&amp;utm_medium=h5d&amp;utm_campaign=h_st_00393&amp;gad_source=1&amp;gbraid=0AAAAA9k5E7BKne6VpktvUIgYEXaJ5ag0O&amp;gclid=CjwKCAiA9IC6BhA3EiwAsbltOB5Svmj_LPm7HZjLeeLw41E201m9gQfTG1ct79Kn8hJnxF-NnG6R_hoC8QgQAvD_BwE",
+        "page_age": "2024-11-22T22:41:51",
+        "profile": {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/moderatelygranolamoms/comments/1gxkids/bath_water_filter/",
+          "long_name": "reddit.com",
+          "img": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "qa",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "reddit.com",
+          "hostname": "www.reddit.com",
+          "favicon": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8",
+          "path": "  \u203a r/moderatelygranolamoms  \u203a bath water filter"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/A5H_aQiEBuUODR0lNeU8iDfhrWUvO8oEmRGE_mcS_gM/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVkZGl0c3RhdGlj/LmNvbS9pY29uLnBu/Zw",
+          "original": "https://www.redditstatic.com/icon.png",
+          "logo": true
+        },
+        "age": "November 22, 2024",
+        "qa": {
+          "question": "<p>I live in an apartment and am trying to be more mindful of things i expose myself to as I enter the life of a granola mom. I\u2019m 37 weeks pregnant as of tomorrow and one thing I have noticed about the water in my apartment is that it smells very chlorinated. I eventually want to invest in a much better/expensive water filter but that will likely have to wait till we get a house. In the meantime what is the best bathtub water filter that\u2019s affordable and affective?</p>",
+          "answer": {
+            "text": "<span>I was totally on the same page recently. I had to find something for my kid\u2019s eczema when we were in a rental with really chlorinated water. For apartments, your best bet is a simple bath ball filter or an inline shower filter you can attach to a hand-held hose for filling the tub. The Crystal Quest bath ball and the AquaBliss shower filters both do a decent job of cutting chlorine and are easy to install/remove without changing plumbing. There\u2019s another redditor who has put a ton of research on another subreddit that lists affordable options like these, along with what they\u2019re actually tested to remove. I\u2019ve been really happy with both the options we got.</span>\n",
+            "upvoteCount": 14
+          }
+        },
+        "article": {
+          "author": [
+            {
+              "type": "person",
+              "name": "Spiritual-Peace-6442",
+              "url": "https://www.reddit.com/user/Spiritual-Peace-6442/"
+            }
+          ],
+          "date": "Nov 22, 2024",
+          "publisher": {
+            "type": "organization",
+            "name": "Reddit",
+            "url": "https://www.reddit.com",
+            "thumbnail": {
+              "src": "https://imgs.search.brave.com/vwRCTZCyS3UsCGj7HsYLzWpcOMhAEqq9hhxBK8tt7Dw/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVkZGl0c3RhdGlj/LmNvbS9zaHJlZGRp/dC9hc3NldHMvZmF2/aWNvbi82NHg2NC5w/bmc",
+              "original": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png"
+            }
+          }
+        },
+        "extra_snippets": [
+          "I\u2019m 37 weeks pregnant as of tomorrow and one thing I have noticed about the water in my apartment is that it smells very chlorinated. I eventually want to invest in a much better/expensive water filter but that will likely have to wait till we get a house. In the meantime what is the best bathtub water filter that\u2019s affordable and affective?",
+          "I just never heard chlorine to be good for the skin and if I can limit it as much as possible then I\u2019m all for that. I hate coming out of my shower or bath smelling like I swam in a public pool. I\u2019ve also seen some nasty stuff in my water and since I live in an apartment I have no clue when the last time they changed the water filter was ... Got it - sounds like you need a water filter for all the reasons! In case getting the bathtub one sorted isn\u2019t doable before the baby comes, there are some good shower head ones that could be easy to install- https://nymag.com/strategist/article/best-shower-water-filters.html?utm_source=google&utm_medium=h5d&utm_campaign=h_st_00393&gad_source=1&gbraid=0AAAAA9k5E7BKne6VpktvUIgYEXaJ5ag0O&gclid=CjwKCAiA9IC6BhA3EiwAsbltOB5Svmj_LPm7HZjLeeLw41E201m9gQfTG1ct79Kn8hJnxF-NnG6R_hoC8QgQAvD_BwE",
+          "19 votes, 31 comments. I live in an apartment and am trying to be more mindful of things i expose myself to as I enter the life of a granola mom. I\u2019m\u2026",
+          "Posted by u/Spiritual-Peace-6442 - 19 votes and 31 comments"
+        ]
+      },
+      {
+        "title": "r/WaterTreatment on Reddit: Bathtub Filter + Chloramine removal/reduction",
+        "url": "https://www.reddit.com/r/WaterTreatment/comments/1k94alk/bathtub_filter_chloramine_removalreduction/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "I&#x27;m looking for an over the faucet Bathtub Filter that uses Catalytic Carbon and KDF 85 to reduce/remove chloramine. I&#x27;m in a rental, so can&#x27;t unfortunately can&#x27;t use a whole house filter. Everything I&#x27;m finding online uses activated carbon. Has anyone come across a solution that uses catalytic carbon? Share ... So it looks like they make this ball thing you can hang on the tub spot, it has charcoal in it and supposedly removes the chlorine...",
+        "page_age": "2025-04-27T13:44:42",
+        "profile": {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/WaterTreatment/comments/1k94alk/bathtub_filter_chloramine_removalreduction/",
+          "long_name": "reddit.com",
+          "img": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "qa",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "reddit.com",
+          "hostname": "www.reddit.com",
+          "favicon": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8",
+          "path": "  \u203a r/watertreatment  \u203a bathtub filter + chloramine removal/reduction"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/A5H_aQiEBuUODR0lNeU8iDfhrWUvO8oEmRGE_mcS_gM/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVkZGl0c3RhdGlj/LmNvbS9pY29uLnBu/Zw",
+          "original": "https://www.redditstatic.com/icon.png",
+          "logo": true
+        },
+        "age": "April 27, 2025",
+        "qa": {
+          "question": "<p>\n      I&#39;m looking for an over the faucet Bathtub Filter that uses Catalytic Carbon and KDF 85 to reduce/remove chloramine.  I&#39;m in a rental, so can&#39;t unfortunately can&#39;t use a whole house filter.   Everything I&#39;m finding online uses activated carbon.  Has anyone come across a solution that uses catalytic carbon?\n    </p>",
+          "answer": {
+            "text": "<span>So it looks like they make this ball thing you can hang on the tub spot, it has charcoal in it and supposedly removes the chlorine. Boutique product, so no idea if it actually works. You could probably make your own with a basket and some media. Realistically you're probably SOL unless your landlord allows you to have a filter installed on the water service.</span>\n",
+            "upvoteCount": 1
+          }
+        },
+        "article": {
+          "author": [
+            {
+              "type": "person",
+              "name": "Significant-Data7639",
+              "url": "https://www.reddit.com/user/Significant-Data7639/"
+            }
+          ],
+          "date": "Apr 27, 2025",
+          "publisher": {
+            "type": "organization",
+            "name": "Reddit",
+            "url": "https://www.reddit.com",
+            "thumbnail": {
+              "src": "https://imgs.search.brave.com/vwRCTZCyS3UsCGj7HsYLzWpcOMhAEqq9hhxBK8tt7Dw/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVkZGl0c3RhdGlj/LmNvbS9zaHJlZGRp/dC9hc3NldHMvZmF2/aWNvbi82NHg2NC5w/bmc",
+              "original": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png"
+            }
+          }
+        },
+        "extra_snippets": [
+          "On Municipal water, wanting to remove chlorine/chloramine for whole house but all the CTO (Catalytic Carbon Filters) are too low flow for peak house usage...",
+          "I'm looking for an over the faucet Bathtub Filter that uses Catalytic Carbon and KDF 85 to reduce/remove chloramine. I'm in a rental, so can't\u2026",
+          "Posted by u/Significant-Data7639 - 1 vote and 2 comments",
+          "I am overwhelmed with trying to figure out a RO system, water softener, filters, etc. ... Need help with something water related? We're here to help! Whether it'd be whole house filtration systems, Softeners, under the sink Reverse Osmosis units, Well pumps, Wells, and supporting equipment. Ask away! ... Need help with something water related?"
+        ]
+      },
+      {
+        "title": "r/WaterTreatment on Reddit: Do Bath tub filters actually do anything?",
+        "url": "https://www.reddit.com/r/WaterTreatment/comments/1omxi7k/do_bath_tub_filters_actually_do_anything/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Water softener removing chlorine? r/WaterTreatment \u2022 \u00b7 r/WaterTreatment \u00b7 Need help with something water related? We&#x27;re here to help! Whether it&#x27;d be whole house filtration systems, Softeners, under the sink Reverse Osmosis units, Well pumps, Wells, and supporting equipment. Ask away! Weekly visitors \u00b7 Weekly contributions \u00b7 upvotes \u00b7 \u00b7 comments \u00b7 best shower head filter for hard water?",
+        "page_age": "2025-11-03T00:23:11",
+        "profile": {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/WaterTreatment/comments/1omxi7k/do_bath_tub_filters_actually_do_anything/",
+          "long_name": "reddit.com",
+          "img": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "reddit.com",
+          "hostname": "www.reddit.com",
+          "favicon": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8",
+          "path": "  \u203a r/watertreatment  \u203a do bath tub filters actually do anything?"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/qeo7eUvNfYyFVlhW-sWV0JmmQm2XnG6zmTw3CSklL2Y/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9leHRl/cm5hbC1wcmV2aWV3/LnJlZGQuaXQvZG8t/YmF0aC10dWItZmls/dGVycy1hY3R1YWxs/eS1kby1hbnl0aGlu/Zy12MC1EMnp3ZjNk/Z0RxU2Z5X1VDSVFR/U2NqSHB2N1QzX3Bw/NnE5Y2UwWTd2R2F3/LmpwZWc_YXV0bz13/ZWJwJnM9ZjQwMTg5/ZGQyYmVkOTdjZGRi/ZWY3Mzg2ZWI5ODk3/OWI0YmU4OWZhYw",
+          "original": "https://external-preview.redd.it/do-bath-tub-filters-actually-do-anything-v0-D2zwf3dgDqSfy_UCIQQScjHpv7T3_pp6q9ce0Y7vGaw.jpeg?auto=webp&s=f40189dd2bed97cddbef7386eb98979b4be89fac",
+          "logo": false
+        },
+        "age": "November 3, 2025",
+        "article": {
+          "author": [
+            {
+              "type": "person",
+              "name": "waterfiltergurus",
+              "url": "https://www.reddit.com/user/waterfiltergurus/"
+            }
+          ],
+          "date": "Nov 03, 2025",
+          "publisher": {
+            "type": "organization",
+            "name": "Reddit",
+            "url": "https://www.reddit.com",
+            "thumbnail": {
+              "src": "https://imgs.search.brave.com/vwRCTZCyS3UsCGj7HsYLzWpcOMhAEqq9hhxBK8tt7Dw/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVkZGl0c3RhdGlj/LmNvbS9zaHJlZGRp/dC9hc3NldHMvZmF2/aWNvbi82NHg2NC5w/bmc",
+              "original": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png"
+            }
+          }
+        },
+        "extra_snippets": [
+          "Posted by u/waterfiltergurus - 2 votes and 0 comments",
+          "Water softener removing chlorine? r/WaterTreatment \u2022 \u00b7 r/WaterTreatment \u00b7 Need help with something water related? We're here to help! Whether it'd be whole house filtration systems, Softeners, under the sink Reverse Osmosis units, Well pumps, Wells, and supporting equipment. Ask away! Weekly visitors \u00b7 Weekly contributions \u00b7 upvotes \u00b7 \u00b7 comments \u00b7 best shower head filter for hard water?",
+          "Ask questions about tap water, drinking water quality, contamination and treatment. -------------------------------------------------- All drinking water sources covered; utility, private wells, spring, rainwater, etc. -------------------------------------------------- Tap Score provide access to certified lab testing, but do not sell or work as affiliates for water treatment products."
+        ]
+      },
+      {
+        "title": "r/homeowners on Reddit: seeking method to filter bath water",
+        "url": "https://www.reddit.com/r/homeowners/comments/jsb6nk/seeking_method_to_filter_bath_water/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "A britta filter pulls out lead so I&#x27;d use one of those for a few months while saving to get a whole house system, as that&#x27;s the only way to filter the bath water without doing an inline filter on the bath line (which would be the same cost as the undersink filter, so $200x2 or look at a small whole house system.",
+        "page_age": "2020-11-11T16:25:51",
+        "profile": {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/homeowners/comments/jsb6nk/seeking_method_to_filter_bath_water/",
+          "long_name": "reddit.com",
+          "img": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "qa",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "reddit.com",
+          "hostname": "www.reddit.com",
+          "favicon": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8",
+          "path": "  \u203a r/homeowners  \u203a seeking method to filter bath water"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/A5H_aQiEBuUODR0lNeU8iDfhrWUvO8oEmRGE_mcS_gM/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVkZGl0c3RhdGlj/LmNvbS9pY29uLnBu/Zw",
+          "original": "https://www.redditstatic.com/icon.png",
+          "logo": true
+        },
+        "age": "November 11, 2020",
+        "qa": {
+          "question": "<p>\n      hello.\n    </p><p>\n      my home is in a lead contamination area and I&#39;m looking at water filtration systems.<br>whole home systems run around $700 and undersink runs $200. As my home is small and I dont have any small children I&#39;m planning on getting an undersink system.\n    </p><p>\n      However I LOVE to take baths and would rather not be soaking in contaminated water. Does anyone have any ideas, suggestions, recommendations for filtering bath water?\n    </p>",
+          "answer": {
+            "text": "<span>Note that not all filtration options will filter lead. Make sure you're researching that as well.</span>\n",
+            "upvoteCount": 2
+          }
+        },
+        "article": {
+          "author": [
+            {
+              "type": "person",
+              "name": "Deleted User"
+            }
+          ],
+          "date": "Nov 11, 2020",
+          "publisher": {
+            "type": "organization",
+            "name": "Reddit",
+            "url": "https://www.reddit.com",
+            "thumbnail": {
+              "src": "https://imgs.search.brave.com/vwRCTZCyS3UsCGj7HsYLzWpcOMhAEqq9hhxBK8tt7Dw/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVkZGl0c3RhdGlj/LmNvbS9zaHJlZGRp/dC9hc3NldHMvZmF2/aWNvbi82NHg2NC5w/bmc",
+              "original": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png"
+            }
+          }
+        },
+        "extra_snippets": [
+          "hello. my home is in a lead contamination area and I'm looking at water filtration systems. whole home systems run around $700 and undersink runs\u2026",
+          "What\u2019s the best type of faucet filter to remove tap water chlorine? r/hydro \u2022 \u00b7 r/hydro \u00b7 A home for hydroponic gardeners, from hobbyist to commercial growers. Post grow journals, questions, and discussions! Members Online \u00b7 upvotes \u00b7 \u00b7 comments \u00b7 Hard water filters for faucets \u00b7",
+          "A britta filter pulls out lead so I'd use one of those for a few months while saving to get a whole house system, as that's the only way to filter the bath water without doing an inline filter on the bath line (which would be the same cost as the undersink filter, so $200x2 or look at a small whole house system.",
+          "Actually.... there is a bath faucet filter, so do a bit of research because some look quite janky and not sure what you need filtered, but there is such a thing. ... Yes I saw one that hangs over the faucet like a small basket but I decided to skip it. I can\u2019t imagine how fast the water comes out that it can filter thru the tiny bucket fast enough."
+        ]
+      },
+      {
+        "title": "r/WaterTreatment on Reddit: Best shower filter for chloramines?",
+        "url": "https://www.reddit.com/r/WaterTreatment/comments/ww69cf/best_shower_filter_for_chloramines/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "This often leads to blogs and influencers say that one works for chlorine and the other does not. But most likely both filters use similar tech (some form of carbon filtration) and work just as well.",
+        "page_age": "2022-08-24T01:33:44",
+        "profile": {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/WaterTreatment/comments/ww69cf/best_shower_filter_for_chloramines/",
+          "long_name": "reddit.com",
+          "img": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "qa",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "reddit.com",
+          "hostname": "www.reddit.com",
+          "favicon": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8",
+          "path": "  \u203a r/watertreatment  \u203a best shower filter for chloramines?"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/T5682iKaojD5USmtm8j5ZH2vJ-xaM0Gb8e1zy9hS_vI/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9zaGFy/ZS5yZWRkLml0L3By/ZXZpZXcvcG9zdC93/dzY5Y2Y",
+          "original": "https://share.redd.it/preview/post/ww69cf",
+          "logo": false
+        },
+        "age": "August 24, 2022",
+        "qa": {
+          "question": "<p>I just bought a new shower filter but realized it doesn\u2019t filter chloramines, just chlorine. Are there any shower head filters that actually filter chloramines?</p><p>I\u2019d like to install a whole house reverse osmosis system, but I live in a condo, so I\u2019m not sure if that\u2019d be possible. I own the condo, but I would think you\u2019d need your own house for a RO</p>",
+          "answer": {
+            "text": "<span>If the filter says total chlorine monochloramines are included</span>\n",
+            "upvoteCount": 4
+          }
+        },
+        "extra_snippets": [
+          "Need help with something water related? We're here to help! Whether it'd be whole house filtration systems, Softeners, under the sink Reverse Osmosis units, Well pumps, Wells, and supporting equipment. Ask away! ... I just bought a new shower filter but realized it doesn\u2019t filter chloramines, just chlorine.",
+          "You may not actually be filtering out the chloramine. Chloramine isn\u2019t so stable so you may actually be breaking the chloramine down through movement of the water with exposure to air/oxygen . Chloramine will break down over time and with exposure to air. Let the water sample sit for 24 hours and test again and I would bet you would be close to 0. Chloramine are more stable than chlorine and it stays in water longer than chlorine but it will still volatilize over time.",
+          "I saw you mention where a generic filter wasn\u2019t claimed to remove chloramines but it ended up removing some after each pass.. I got excited I could test at home for Chloramines. I\u2019m hoping to roughly measure the level ... For what purpose? Chloramines are a result of break point chlorination and targeted specifically for your waters disinfection needs.",
+          "This often leads to blogs and influencers say that one works for chlorine and the other does not. But most likely both filters use similar tech (some form of carbon filtration) and work just as well."
+        ]
+      },
+      {
+        "title": "r/WaterTreatment on Reddit: Any recommendations on a bathtub fluoride filter?",
+        "url": "https://www.reddit.com/r/WaterTreatment/comments/18x4uao/any_recommendations_on_a_bathtub_fluoride_filter/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "I&#x27;ve used the Crystal Quest one, but I don&#x27;t recommend it. I could tell a small difference in the water quality, but overall, I still had scaly white\u2026",
+        "page_age": "2024-01-03T00:09:17",
+        "profile": {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/WaterTreatment/comments/18x4uao/any_recommendations_on_a_bathtub_fluoride_filter/",
+          "long_name": "reddit.com",
+          "img": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "qa",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "reddit.com",
+          "hostname": "www.reddit.com",
+          "favicon": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8",
+          "path": "  \u203a r/watertreatment  \u203a any recommendations on a bathtub fluoride filter?"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/A5H_aQiEBuUODR0lNeU8iDfhrWUvO8oEmRGE_mcS_gM/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVkZGl0c3RhdGlj/LmNvbS9pY29uLnBu/Zw",
+          "original": "https://www.redditstatic.com/icon.png",
+          "logo": true
+        },
+        "age": "January 3, 2024",
+        "qa": {
+          "question": "<p>\n      I&#39;ve used the Crystal Quest one, but I don&#39;t recommend it.  I could tell a small difference in the water quality, but overall, I still had scaly white skin after bathing vs when using my shower filter that I trust. I miss taking baths.\n    </p>",
+          "answer": {
+            "text": "<span>Did you end up finding anything? It\u2019s my understanding that\u2019s fluoride is hard to remove without a reverse osmosis filter. Would love to know if you found something you like, thanks!</span>\n",
+            "upvoteCount": 1
+          }
+        },
+        "article": {
+          "author": [
+            {
+              "type": "person",
+              "name": "Chelz910",
+              "url": "https://www.reddit.com/user/Chelz910/"
+            }
+          ],
+          "date": "Jan 03, 2024",
+          "publisher": {
+            "type": "organization",
+            "name": "Reddit",
+            "url": "https://www.reddit.com",
+            "thumbnail": {
+              "src": "https://imgs.search.brave.com/vwRCTZCyS3UsCGj7HsYLzWpcOMhAEqq9hhxBK8tt7Dw/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVkZGl0c3RhdGlj/LmNvbS9zaHJlZGRp/dC9hc3NldHMvZmF2/aWNvbi82NHg2NC5w/bmc",
+              "original": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png"
+            }
+          }
+        },
+        "extra_snippets": [
+          "I've used the Crystal Quest one, but I don't recommend it. I could tell a small difference in the water quality, but overall, I still had scaly white skin after bathing vs when using my shower filter that I trust. I miss taking baths.",
+          "I would recommend the AquaPearl Bath Ball Filter, its available on amazon for like 20 bucks. Try it out and let me know what you think! ... I mean not really, you can turn the heat on just as much and the water flow is essentially the same, and you don't have this major issue of finding good filters for it",
+          "Thinking about switching into water treatment. Is it realistic? ... Just installed my own whole house filter and whole house water softener.",
+          "Water filter housing Leak need help!!!"
+        ]
+      },
+      {
+        "title": "r/WaterTreatment on Reddit: Tubo bath filter?",
+        "url": "https://www.reddit.com/r/WaterTreatment/comments/1dofnw3/tubo_bath_filter/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Best thing to do would be to test the water with a TDS metre before with some water, then empty and add the filter then re-pour the bath and see how many PPM are in the filter, might at the very least give any kind of change. ... yeah TDS wouldn&#x27;t work at all. Unless you have a meter that somehow tells you for each mineral how much ppm it contains but you&#x27;d need to lab test for that. Unless you have something like a few thousand dollar equipment at your home. If you care about chlorine though you could measure just for that.",
+        "page_age": "2024-06-25T20:17:53",
+        "profile": {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/WaterTreatment/comments/1dofnw3/tubo_bath_filter/",
+          "long_name": "reddit.com",
+          "img": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "qa",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "reddit.com",
+          "hostname": "www.reddit.com",
+          "favicon": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8",
+          "path": "  \u203a r/watertreatment  \u203a tubo bath filter?"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/pShJGDAWWI-6SqEvfAwAFwy2woEg5jT82W--C9QPO4s/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9zaGFy/ZS5yZWRkLml0L3By/ZXZpZXcvcG9zdC8x/ZG9mbncz",
+          "original": "https://share.redd.it/preview/post/1dofnw3",
+          "logo": false
+        },
+        "age": "June 25, 2024",
+        "qa": {
+          "question": "<p>\n      Hi all, has anyone heard of this and have any recommendations as to whether it\u2019d be effective? I searched the sub and found another post for a bath filter but for the a different brand, Crystal Quest. I\u2019m more interested in this Tubo design because I can hang it over the sink faucet for infant baths.\n    </p><p>\n      <a rpl class=\"relative pointer-events-auto a cursor-pointer\n  \n  \n  \n  \n  underline\n  \" href=\"https://trytubo.com/products/tubo-2-0-bath-water-filter\" rel=\"noopener nofollow ugc\" target=\"_blank\">https://trytubo.com/products/tubo-2-0-bath-water-filter</a>\n    </p><p>\n      Thanks for any advice.\n    </p>",
+          "answer": {
+            "text": "<span>That's a lot of water to filter very fast, and it's not cold water, which makes filtration harder. The material that works good for this is KDF to rapidly change the incoming chems into less harmful components. In short, it is better than nothing but don't expect major changes with very little contact time and high flow. It's not a problem of it being a quality product, there are just limitations to what is possible with this form factor.</span>\n",
+            "upvoteCount": 2
+          }
+        },
+        "extra_snippets": [
+          "Posted by u/GroundbreakingPause6 - 6 votes and 23 comments",
+          "Best thing to do would be to test the water with a TDS metre before with some water, then empty and add the filter then re-pour the bath and see how many PPM are in the filter, might at the very least give any kind of change. ... yeah TDS wouldn't work at all. Unless you have a meter that somehow tells you for each mineral how much ppm it contains but you'd need to lab test for that. Unless you have something like a few thousand dollar equipment at your home. If you care about chlorine though you could measure just for that.",
+          "I searched the sub and found another post for a bath filter but for the a different brand, Crystal Quest. I\u2019m more interested in this Tubo design because I can hang it over the sink faucet for infant baths. https://trytubo.com/products/tubo-2-0-bath-water-filter",
+          "That's a lot of water to filter very fast, and it's not cold water, which makes filtration harder. The material that works good for this is KDF to rapidly change the incoming chems into less harmful components."
+        ]
+      },
+      {
+        "title": "r/WaterTreatment on Reddit: Any recommendations for a shower filter (chloride and fluoride)?",
+        "url": "https://www.reddit.com/r/WaterTreatment/comments/it536i/any_recommendations_for_a_shower_filter_chloride/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "I&#x27;ve personally never heard of anyone being told to remove those two chemicals, particularly flouride, for medical reasons, but I&#x27;m a water treatment plant operator, not a doctor. Wow...that was long...sorry... TL;DR - Basic carbon for chlorine, flouride is more difficult but not likely necessary and may not even be there, talk to your supplier. Don&#x27;t be fooled by filter salesman.",
+        "page_age": "2020-09-15T08:56:24",
+        "profile": {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/WaterTreatment/comments/it536i/any_recommendations_for_a_shower_filter_chloride/",
+          "long_name": "reddit.com",
+          "img": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "qa",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "reddit.com",
+          "hostname": "www.reddit.com",
+          "favicon": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8",
+          "path": "  \u203a r/watertreatment  \u203a any recommendations for a shower filter (chloride and fluoride)?"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/A5H_aQiEBuUODR0lNeU8iDfhrWUvO8oEmRGE_mcS_gM/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVkZGl0c3RhdGlj/LmNvbS9pY29uLnBu/Zw",
+          "original": "https://www.redditstatic.com/icon.png",
+          "logo": true
+        },
+        "age": "September 15, 2020",
+        "qa": {
+          "question": "<p>\n      I&#39;m looking for a high quality filter.  There seems to be a lot of cheap ones, but I don&#39;t know if they will be effective or not.\n    </p><p>\n      Are all filters pretty much the same?\n    </p><p>\n      For medical reasons, I need to cut out as much chlorine and fluoride as possible.  A lot seem to cut out chloride, but a lot less seem to mention fluoride.\n    </p><p>\n      I did hear that Propur ProMax shower filters were good, but I really don&#39;t know.\n    </p><p>\n      If anyone knows for absolutely certain which one would be good, I&#39;d love to hear it.\n    </p><p>\n      Thanks for your help.\n    </p>",
+          "answer": {
+            "text": "<span>The thing with removing fluoride is that it's not technically something that can be filtered out. Fluoride is in the water as an ionic charge, and can typically be removed with deionizing media. I'm not sure if any \"point of use\" deionizers are available for your application and if so, how well or poorly they work. Do you know the Fluoride content of the water in question? Is it from a public water system or a personal well (most groundwater typically contain a small amount of \"naturally occurring\" fluoride).</span>\n",
+            "upvoteCount": 3
+          }
+        },
+        "article": {
+          "author": [
+            {
+              "type": "person",
+              "name": "writteninlilac",
+              "url": "https://www.reddit.com/user/writteninlilac/"
+            }
+          ],
+          "date": "Sep 15, 2020",
+          "publisher": {
+            "type": "organization",
+            "name": "Reddit",
+            "url": "https://www.reddit.com",
+            "thumbnail": {
+              "src": "https://imgs.search.brave.com/vwRCTZCyS3UsCGj7HsYLzWpcOMhAEqq9hhxBK8tt7Dw/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVkZGl0c3RhdGlj/LmNvbS9zaHJlZGRp/dC9hc3NldHMvZmF2/aWNvbi82NHg2NC5w/bmc",
+              "original": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png"
+            }
+          }
+        },
+        "extra_snippets": [
+          "Posted by u/writteninlilac - 18 votes and 113 comments",
+          "For medical reasons, I need to cut out as much chlorine and fluoride as possible. A lot seem to cut out chloride, but a lot less seem to mention fluoride. I did hear that Propur ProMax shower filters were good, but I really don't know. If anyone knows for absolutely certain which one would be good, I'd love to hear it. Thanks for your help. Share ... The thing with removing fluoride is that it's not technically something that can be filtered out. Fluoride is in the water as an ionic charge, and can typically be removed with deionizing media.",
+          "I've personally never heard of anyone being told to remove those two chemicals, particularly flouride, for medical reasons, but I'm a water treatment plant operator, not a doctor. Wow...that was long...sorry... TL;DR - Basic carbon for chlorine, flouride is more difficult but not likely necessary and may not even be there, talk to your supplier. Don't be fooled by filter salesman.",
+          "I got a shower head filter that is working to reduce the rash. And dry out the cancer. I'm doing other things too, but the water change was the most obvious assist to my healthier looking skin. It reduces flouride and chlorine. I w I understand post a link, but I received this as a gift."
+        ]
+      }
+    ],
+    "family_friendly": true
+  }
+}

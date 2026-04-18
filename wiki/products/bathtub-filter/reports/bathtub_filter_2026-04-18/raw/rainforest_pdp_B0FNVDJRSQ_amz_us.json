@@ -1,0 +1,825 @@
+{
+  "title": "Filterbaby Titanium Shower Filter Pro - IAPMO Certified to NSF 177 Standard,Doctor Developed,Reduce up to 99% Chlorine/Chloramine/Lead/Certain Heavy Metals,Great Water Pressure,Long Lasting,Chrome.",
+  "search_alias": {
+    "title": "Industrial & Scientific",
+    "value": "search-alias=industrial"
+  },
+  "keywords": "Filterbaby Titanium Shower Filter Pro - IAPMO Certified to NSF 177 Standard,Doctor Developed,Reduce up to 99% Chlorine/Chloramine/Lead/Certain Heavy Metals,Great Water Pressure,Long Lasting,Chrome.",
+  "keywords_list": [
+    "Filterbaby Titanium Shower Filter Pro - IAPMO Certified to NSF 177 Standard",
+    "Doctor Developed",
+    "Reduce up to 99% Chlorine/Chloramine/Lead/Certain Heavy Metals",
+    "Great Water Pressure",
+    "Long Lasting",
+    "Chrome."
+  ],
+  "is_collection": false,
+  "asin": "B0FNVDJRSQ",
+  "parent_asin": "B0G2949WHR",
+  "gtin": "850060572975",
+  "link": "https://www.amazon.com/dp/B0FNVDJRSQ?_encoding=UTF8&psc=1",
+  "brand": "Filterbaby",
+  "protection_plans": [
+    {
+      "name": "3-Year Protection Plan",
+      "duration_months": 36,
+      "price": {
+        "value": "21.99",
+        "billing_type": "one_time"
+      }
+    },
+    {
+      "name": "4-Year Protection Plan",
+      "duration_months": 48,
+      "price": {
+        "value": "29.99",
+        "billing_type": "one_time"
+      }
+    },
+    {
+      "name": "Complete Protect",
+      "description": "One plan covers all eligible past and future purchases",
+      "renewal_policy": "Best Value",
+      "price": {
+        "value": "16.99",
+        "billing_type": "monthly"
+      }
+    }
+  ],
+  "sell_on_amazon": false,
+  "variants": [
+    {
+      "asin": "B0FNVDJRSQ",
+      "title": "Chrome",
+      "is_current_product": true,
+      "link": "https://www.amazon.com/dp/B0FNVDJRSQ?th=1&psc=1",
+      "dimensions": [
+        {
+          "name": "Color",
+          "value": "Chrome"
+        }
+      ],
+      "main_image": "https://m.media-amazon.com/images/I/61O7jPskAzL._AC_SL1500_.jpg",
+      "images": [
+        {
+          "variant": "MAIN",
+          "link": "https://m.media-amazon.com/images/I/61O7jPskAzL._AC_SL1500_.jpg"
+        }
+      ]
+    },
+    {
+      "asin": "B0FNW27DRH",
+      "title": "Black",
+      "is_current_product": false,
+      "link": "https://www.amazon.com/dp/B0FNW27DRH?th=1&psc=1",
+      "dimensions": [
+        {
+          "name": "Color",
+          "value": "Black"
+        }
+      ],
+      "main_image": "https://m.media-amazon.com/images/I/51fj1sz1KpL._AC_SL1500_.jpg",
+      "images": [
+        {
+          "variant": "MAIN",
+          "link": "https://m.media-amazon.com/images/I/51fj1sz1KpL._AC_SL1500_.jpg"
+        }
+      ]
+    },
+    {
+      "asin": "B0FNW52VDH",
+      "title": "Gold",
+      "is_current_product": false,
+      "link": "https://www.amazon.com/dp/B0FNW52VDH?th=1&psc=1",
+      "dimensions": [
+        {
+          "name": "Color",
+          "value": "Gold"
+        }
+      ],
+      "main_image": "https://m.media-amazon.com/images/I/61AEqt4ffeL._AC_SL1500_.jpg",
+      "images": [
+        {
+          "variant": "MAIN",
+          "link": "https://m.media-amazon.com/images/I/61AEqt4ffeL._AC_SL1500_.jpg"
+        }
+      ]
+    }
+  ],
+  "variant_asins_flat": "B0FNVDJRSQ,B0FNW27DRH,B0FNW52VDH",
+  "proposition_65_warning": false,
+  "has_size_guide": true,
+  "add_on_item": {
+    "is_add_on_item": true
+  },
+  "categories": [
+    {
+      "name": "Industrial & Scientific"
+    },
+    {
+      "name": "Tools & Home Improvement",
+      "link": "https://www.amazon.com/Tools-and-Home-Improvement/b/ref=dp_bc_1?ie=UTF8&node=228013",
+      "category_id": "228013"
+    },
+    {
+      "name": "Kitchen & Bath Fixtures",
+      "link": "https://www.amazon.com/Kitchen-26-Bath-Fixtures/b/ref=dp_bc_2?ie=UTF8&node=3754161",
+      "category_id": "3754161"
+    },
+    {
+      "name": "Bathroom Fixtures",
+      "link": "https://www.amazon.com/Bathroom-Fixtures/b/ref=dp_bc_3?ie=UTF8&node=680350011",
+      "category_id": "680350011"
+    },
+    {
+      "name": "Bathtub Faucets & Showerheads",
+      "link": "https://www.amazon.com/Bathtub-Faucets-26-Showerheads/b/ref=dp_bc_4?ie=UTF8&node=6810209011",
+      "category_id": "6810209011"
+    },
+    {
+      "name": "Showerheads",
+      "link": "https://www.amazon.com/Showerheads/b/ref=dp_bc_5?ie=UTF8&node=680352011",
+      "category_id": "680352011"
+    },
+    {
+      "name": "Showerhead Filters",
+      "link": "https://www.amazon.com/showerhead-filters/b/ref=dp_bc_6?ie=UTF8&node=1272504011",
+      "category_id": "1272504011"
+    }
+  ],
+  "categories_flat": "Industrial & Scientific > Tools & Home Improvement > Kitchen & Bath Fixtures > Bathroom Fixtures > Bathtub Faucets & Showerheads > Showerheads > Showerhead Filters",
+  "sub_title": {
+    "text": "Visit the Filterbaby Store",
+    "link": "https://www.amazon.com/stores/Filterbaby/page/1FD7D103-7497-4D5F-A5DF-65E7DC31EF27?lp_asin=B0FNVDJRSQ&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto"
+  },
+  "amazons_choice": {
+    "link": "https://www.amazon.com/Filterbaby-All-Metal-Titanium-Shower-Filter/dp/B0G2949WHR"
+  },
+  "marketplace_id": "ATVPDKIKX0DER",
+  "rating": 4.4,
+  "rating_breakdown": {
+    "five_star": {
+      "percentage": 81,
+      "count": 108
+    },
+    "four_star": {
+      "percentage": 3,
+      "count": 4
+    },
+    "three_star": {
+      "percentage": 5,
+      "count": 7
+    },
+    "two_star": {
+      "percentage": 3,
+      "count": 4
+    },
+    "one_star": {
+      "percentage": 8,
+      "count": 11
+    }
+  },
+  "ratings_total": 133,
+  "main_image": {
+    "link": "https://m.media-amazon.com/images/I/61O7jPskAzL.jpg"
+  },
+  "images": [
+    {
+      "link": "https://m.media-amazon.com/images/I/71D2ju-oUFL._AC_SL1500_.jpg",
+      "variant": "PT01"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/71SmBmLD0WL._AC_SL1500_.jpg",
+      "variant": "PT02"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/71oAjVLGT5L._AC_SL1500_.jpg",
+      "variant": "PT03"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/71Z66HDiqdL._AC_SL1500_.jpg",
+      "variant": "PT04"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/71gP1+nCZ3L._AC_SL1500_.jpg",
+      "variant": "PT05"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/61s7xFcGNoL._AC_SL1500_.jpg",
+      "variant": "PT07"
+    }
+  ],
+  "images_count": 6,
+  "images_flat": "https://m.media-amazon.com/images/I/71D2ju-oUFL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71SmBmLD0WL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71oAjVLGT5L._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71Z66HDiqdL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71gP1+nCZ3L._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/61s7xFcGNoL._AC_SL1500_.jpg",
+  "videos_count": 9,
+  "videos_additional": [
+    {
+      "type": "videos_for_this_product",
+      "id": "amzn1.vse.video.0c1897e679c641e9b5aab49bf3efa735",
+      "product_asin": "B0FNVDJRSQ",
+      "parent_asin": "B0G2949WHR",
+      "related_products": "B0FNVDJRSQ",
+      "title": "Honest Review of Filterbaby",
+      "profile_image_url": "https://m.media-amazon.com/images/I/413T-ctJF-L._CR0,0,262,262_._FMjpg_._SL34_.jpg",
+      "profile_link": "/shop/kelsey.ks",
+      "public_name": "Reviews with Kelsey",
+      "vendor_code": "kelsey.ks:shop",
+      "vendor_name": "Reviews with Kelsey",
+      "vendor_tracking_id": "onamzkels0478-20",
+      "video_image_url": "https://m.media-amazon.com/images/I/91AZ3HqpJ8L._CR2,0,1276,720_SR684,386_.png",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/91AZ3HqpJ8L.png",
+      "video_image_width": "1280",
+      "video_image_height": "720",
+      "video_image_extension": "png",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/748ed752-923f-4d55-be2f-9a2bf6b963be/default.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/13c8088d-fe4e-405b-a001-634e5354ac8c/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/13c8088d-fe4e-405b-a001-634e5354ac8c/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "0:43",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/9f9c788b-47e5-4e6c-8d30-9515e3439ff3.vtt"
+    },
+    {
+      "type": "videos_for_this_product",
+      "id": "amzn1.vse.video.00fcd0b2060a43dfb8d15eb12687ae6d",
+      "product_asin": "B0FNVDJRSQ",
+      "parent_asin": "B0G2949WHR",
+      "related_products": "B0FNVDJRSQ,B0FNW52VDH,B0FNW27DRH",
+      "title": "Filterbaby Pro Series Shower Filter installation video",
+      "public_name": "Filterbaby",
+      "vendor_code": "Z7AX4",
+      "vendor_name": "Filterbaby",
+      "video_image_url": "https://m.media-amazon.com/images/I/61-Dvvgqq-L._CR0,0,640,361_SR342,193_.jpg",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/61-Dvvgqq-L.jpg",
+      "video_image_width": "640",
+      "video_image_height": "1137",
+      "video_image_extension": "jpg",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/d1efaaad-2d98-4eb3-822e-9a54d036bc58/default.vertical.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f4775d8d-cb69-4905-a74f-c272ed01e025/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f4775d8d-cb69-4905-a74f-c272ed01e025/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f4775d8d-cb69-4905-a74f-c272ed01e025/e18a2aca-bce2-447d-9d48-d628ca4d167f/00fcd0b2060a43dfb8d15eb12687ae6d_0-100-0-100_gandalf_preview.m3u8,gandalf,application/x-mpegURL",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "0:25",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/37457c19-3165-47dc-871c-37294a05f168.vtt"
+    },
+    {
+      "type": "videos_for_this_product",
+      "id": "amzn1.vse.video.01f95ad3a46542e39cccc3c37ea656b0",
+      "product_asin": "B0FNVDJRSQ",
+      "parent_asin": "B0G2949WHR",
+      "related_products": "B0FNW27DRH,B0FNW52VDH,B0FNVDJRSQ,B0FZTRTWS6",
+      "title": "Filterbaby Pro Series Shower Filter",
+      "public_name": "Filterbaby",
+      "vendor_code": "Z7AX4",
+      "vendor_name": "Filterbaby",
+      "video_image_url": "https://m.media-amazon.com/images/I/61opKccrJQL._CR0,0,640,361_SR342,193_.jpg",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/61opKccrJQL.jpg",
+      "video_image_width": "640",
+      "video_image_height": "1137",
+      "video_image_extension": "jpg",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/49f257d8-8e45-4f09-b2e3-0c80e2786bd8/default.vertical.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/312d84cc-b264-4447-8922-64aac30d14ab/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/312d84cc-b264-4447-8922-64aac30d14ab/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "0:32",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/f8dc62d2-b09d-4624-be00-1626e0c0951a.vtt"
+    },
+    {
+      "type": "videos_for_this_product",
+      "id": "amzn1.vse.video.0dde2d4ab98448a2a42a720ea4a24869",
+      "product_asin": "B0FNVDJRSQ",
+      "parent_asin": "B0G2949WHR",
+      "related_products": "B0FNVDJRSQ,B07QBZ5XWZ,B0145VC5YS,B0949QY5FX,B0FZ8WDDSP",
+      "title": "Should You Buy? Filterbaby Titanium Shower Filter Pro",
+      "profile_image_url": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/deliciousencounters_1642812309872_original._CR0,63,1365,1365_._FMjpg_._SL34_.jpeg",
+      "profile_link": "/shop/deliciousencounters",
+      "public_name": "Should You Buy?",
+      "vendor_code": "deliciousencounters:shop",
+      "vendor_name": "Should You Buy?",
+      "vendor_tracking_id": "onamzchri0cbe-20",
+      "video_image_url": "https://m.media-amazon.com/images/I/A1Vm+SM2wLL._CR12,0,1421,802_SR684,386_.png",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/A1Vm+SM2wLL.png",
+      "video_image_width": "1446",
+      "video_image_height": "802",
+      "video_image_extension": "png",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/ea40c807-e16c-4c2b-bc82-fe056fdf2440/default.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/5feeeee3-8569-48c3-99f3-2086fc870a5d/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/5feeeee3-8569-48c3-99f3-2086fc870a5d/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "13:12",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/84976d4e-c6e6-4b71-b467-a792440c9ae5.vtt"
+    },
+    {
+      "type": "videos_for_this_product",
+      "id": "amzn1.vse.video.01a706aad1fe4f5a8bb05b6e9145f2bb",
+      "product_asin": "B0FNVDJRSQ",
+      "parent_asin": "B0G2949WHR",
+      "related_products": "B0FNVDJRSQ,B0G2949WHR",
+      "title": "Review- Filterbaby showerhead filter",
+      "profile_image_url": "https://m.media-amazon.com/images/I/7191p1TzocL._CR0,0,582,582_._FMjpg_._SL34_.jpg",
+      "profile_link": "/shop/realfarmmom",
+      "public_name": "Real Farm Mom Reviews",
+      "vendor_code": "realfarmmom:shop",
+      "vendor_name": "Real Farm Mom Reviews",
+      "vendor_tracking_id": "onamzkrys0e11-20",
+      "video_image_url": "https://m.media-amazon.com/images/I/415QJ3KavuL._CR1,0,638,360_SR342,193_.jpg",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/415QJ3KavuL.jpg",
+      "video_image_width": "640",
+      "video_image_height": "360",
+      "video_image_extension": "jpg",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/18d1d8dc-412d-478d-8c1c-0bd405f720b6/default.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/00f6bad9-87d5-498e-b42c-f56fdb94cb8a/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/00f6bad9-87d5-498e-b42c-f56fdb94cb8a/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "1:06",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/ea57a8f9-82d3-4003-b734-2470a3b1af97.vtt"
+    },
+    {
+      "type": "videos_for_this_product",
+      "id": "amzn1.vse.video.02e9ce26c77a4ad798e7a0792244a768",
+      "product_asin": "B0FNVDJRSQ",
+      "parent_asin": "B0G2949WHR",
+      "related_products": "B0FNVDJRSQ",
+      "title": "Installing this shower filter",
+      "profile_image_url": "https://m.media-amazon.com/images/I/61E0Y70efCL._CR2,142,327,327_._FMjpg_._SL34_.jpg",
+      "profile_link": "/shop/1amazonmama",
+      "public_name": "Nicole",
+      "vendor_code": "1amazonmama:shop",
+      "vendor_name": "Nicole",
+      "vendor_tracking_id": "onamznic06484-20",
+      "video_image_url": "https://m.media-amazon.com/images/I/91zkMmGfEsL._CR0,0,4032,2275_SR684,386_.jpg",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/91zkMmGfEsL.jpg",
+      "video_image_width": "4032",
+      "video_image_height": "3024",
+      "video_image_extension": "jpg",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/c2d40cef-fb01-4ad3-8236-a6a34a73ed01/default.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/2401ed61-ca3d-4c58-b6ff-688f6c4e7ed4/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/2401ed61-ca3d-4c58-b6ff-688f6c4e7ed4/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "1:17",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/5b5908bf-206d-4574-a364-f172b1d075b7.vtt"
+    },
+    {
+      "type": "videos_for_this_product",
+      "id": "amzn1.vse.video.0c6148afc6d6461982090ea5ab7f6ed1",
+      "product_asin": "B0FNVDJRSQ",
+      "parent_asin": "B0G2949WHR",
+      "related_products": "B0FNW27DRH,B0FNVDJRSQ",
+      "title": "Installation video-Pro Series Shower Filter-Chrome",
+      "public_name": "Filterbaby",
+      "vendor_code": "Z7AX4",
+      "vendor_name": "Filterbaby",
+      "video_image_url": "https://m.media-amazon.com/images/I/51zpmn8X37L._CR0,0,640,361_SR342,193_.jpg",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/51zpmn8X37L.jpg",
+      "video_image_width": "640",
+      "video_image_height": "1137",
+      "video_image_extension": "jpg",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/61e844d6-33ce-4af3-bba0-6f85ff0663e8/default.vertical.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/408871d7-53e6-4a84-a452-d3492647ab15/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/408871d7-53e6-4a84-a452-d3492647ab15/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "0:10",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/546ba16e-e9d6-4982-959b-4dbb33c4fc84.vtt"
+    },
+    {
+      "type": "videos_for_this_product",
+      "id": "amzn1.vse.video.0e1cc4871c4545b6b8f07d59566e47cc",
+      "product_asin": "B0FNVDJRSQ",
+      "parent_asin": "B0G2949WHR",
+      "related_products": "B0FNVDJRSQ",
+      "title": "TDS still high but so far so good",
+      "profile_image_url": "https://m.media-amazon.com/images/S/amazon-avatars-global/87695270-4696-4972-96cf-0e3b61354f92._CR0%2C7%2C319%2C319_UX460_._SL34_.jpg",
+      "profile_link": "/gp/profile/amzn1.account.AGDZL6CJOJ6XJGBL52VKCUH6QTAQ",
+      "public_name": "Jenniffer",
+      "vendor_code": "AOD60",
+      "vendor_name": "Jenniffer",
+      "video_image_url": "https://m.media-amazon.com/images/I/51sqhj1PLTL._CR0,0,1080,609_SR684,386_.jpg",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/51sqhj1PLTL.jpg",
+      "video_image_width": "1080",
+      "video_image_height": "1920",
+      "video_image_extension": "jpg",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4fe55785-13a3-487d-8ef4-1d3aa43447a3/default.vertical.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/20632f06-b033-49a6-a999-e1c58a482163/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/20632f06-b033-49a6-a999-e1c58a482163/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "0:05"
+    },
+    {
+      "type": "videos_for_this_product",
+      "id": "amzn1.vse.video.0fb7685be56642e6957ceb8728c294f9",
+      "product_asin": "B0FNVDJRSQ",
+      "parent_asin": "B0G2949WHR",
+      "related_products": "B0FNVDJRSQ",
+      "title": "What I noticed about this titanium shower filter",
+      "profile_image_url": "https://m.media-amazon.com/images/I/61E0Y70efCL._CR2,142,327,327_._FMjpg_._SL34_.jpg",
+      "profile_link": "/shop/1amazonmama",
+      "public_name": "Nicole",
+      "vendor_code": "1amazonmama:shop",
+      "vendor_name": "Nicole",
+      "vendor_tracking_id": "onamznic06484-20",
+      "video_image_url": "https://m.media-amazon.com/images/I/B1TefW96o5L._CR0,0,4032,2275_SR684,386_.jpg",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/B1TefW96o5L.jpg",
+      "video_image_width": "4032",
+      "video_image_height": "3024",
+      "video_image_extension": "jpg",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/784f9ab1-e636-4d1b-81ad-8e18db343e8c/default.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/b171897f-103e-4b55-b17d-445c28c4c0ea/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/b171897f-103e-4b55-b17d-445c28c4c0ea/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "1:23",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/cb489b62-46f6-4e53-bb11-e726a82f2a11.vtt"
+    },
+    {
+      "type": "videos_for_this_product",
+      "id": "amzn1.vse.video.0c942d6291d546b18fbf4838b38f26f9",
+      "product_asin": "B0FNVDJRSQ",
+      "parent_asin": "B0G2949WHR",
+      "related_products": "B0FNVDJRSQ,B0G2949WHR",
+      "title": "Review- showerhead filter",
+      "profile_image_url": "https://m.media-amazon.com/images/I/7191p1TzocL._CR0,0,582,582_._FMjpg_._SL34_.jpg",
+      "profile_link": "/shop/realfarmmom",
+      "public_name": "Real Farm Mom Reviews",
+      "vendor_code": "realfarmmom:shop",
+      "vendor_name": "Real Farm Mom Reviews",
+      "vendor_tracking_id": "onamzkrys0e11-20",
+      "video_image_url": "https://m.media-amazon.com/images/I/61ywXRZLn5L._CR0,0,640,361_SR342,193_.jpg",
+      "video_image_url_unchanged": "https://m.media-amazon.com/images/I/61ywXRZLn5L.jpg",
+      "video_image_width": "640",
+      "video_image_height": "1137",
+      "video_image_extension": "jpg",
+      "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/8b76546c-815f-4e10-898d-6484763bfa96/default.vertical.jobtemplate.hls.m3u8",
+      "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/069b797a-fd47-4fdb-85be-cc2f27edcfaf/videopreview.jobtemplate.mp4.default.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/069b797a-fd47-4fdb-85be-cc2f27edcfaf/videopreview.jobtemplate.mp4.default.mp4,default,video/mp4",
+      "video_mime_type": "application/x-mpegURL",
+      "duration": "1:03",
+      "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/34656e76-38b4-4f23-b79e-47992df43edc.vtt"
+    }
+  ],
+  "is_bundle": false,
+  "feature_bullets": [
+    "Healthier Skin & Hair in Weeks – IAPMO Certified to NSF 177 Standard — the gold standard in water filtration testing. Lab certified to reduce up to 99% of chlorine, chloramine, certain heavy metals, and 60+ other tap water contaminants. Users report softer skin, stronger and shinier hair, and less dryness within 2 weeks.",
+    "Consumer Tested Experience – In a study of 115 users, participants reported stronger hair with less shedding, improved shine, and better texture. Designed to support a healthier shower routine.",
+    "Advanced Multi-Stage Filtration – Premium Activated carbon fiber filter targets over 60 contaminants found in tap water, helping protect skin, scalp & hair from dryness, irritation, and long-term water exposure.",
+    "Premium All-Metal Build – Durable titanium-aluminum chrome housing is heat-resistant and microplastic-free (no leaching like plastic filters). Each refill lasts up to 3 months and uses up to 80% less plastic than typical shower filters, delivering sustainable performance with consistent water quality.",
+    "Doctor-Developed & Easy to Install – Co-developed with Beverly Hills hair restoration surgeon Dr. Robert Dorfman. Lightweight, leak-proof design installs in minutes and fits most standard showerheads."
+  ],
+  "feature_bullets_count": 5,
+  "feature_bullets_flat": "Doctor-Developed & Easy to Install – Co-developed with Beverly Hills hair restoration surgeon Dr. Robert Dorfman. Lightweight, leak-proof design installs in minutes and fits most standard showerheads. Premium All-Metal Build – Durable titanium-aluminum chrome housing is heat-resistant and microplastic-free (no leaching like plastic filters). Each refill lasts up to 3 months and uses up to 80% less plastic than typical shower filters, delivering sustainable performance with consistent water quality. Advanced Multi-Stage Filtration – Premium Activated carbon fiber filter targets over 60 contaminants found in tap water, helping protect skin, scalp & hair from dryness, irritation, and long-term water exposure. Consumer Tested Experience – In a study of 115 users, participants reported stronger hair with less shedding, improved shine, and better texture. Designed to support a healthier shower routine. Healthier Skin & Hair in Weeks – IAPMO Certified to NSF 177 Standard — the gold standard in water filtration testing. Lab certified to reduce up to 99% of chlorine, chloramine, certain heavy metals, and 60+ other tap water contaminants. Users report softer skin, stronger and shinier hair, and less dryness within 2 weeks.",
+  "top_reviews": [
+    {
+      "id": "RFYA0CJCQUDC7",
+      "title": "Game Changer for Dry Skin & KP",
+      "body": "I noticed a difference in my hair and skin within just a few showers! My hair and skin feel softer and less dry, and my keratosis pilaris is less inflamed. Installation was super simple; it took me no more than 10 minutes. I was surprised to find that my water pressure wasn't reduced at all, which was a major concern for me. The all-metal design looks sleek, high-quality, and durable, and I love that this product filters out chlorine and other contaminants from my water.",
+      "rating": 5,
+      "date": {
+        "raw": "Reviewed in the United States on February 20, 2026"
+      },
+      "profile": {
+        "name": "Emilee Marten"
+      },
+      "verified_purchase": true,
+      "helpful_votes": null,
+      "link": "https://www.amazon.com/gp/customer-reviews/RFYA0CJCQUDC7/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+    },
+    {
+      "id": "R9PLDAX923MJ0",
+      "title": "I refuse to shower without my filter!!",
+      "body": "This is probably the best filter quality out there. For context, I have had eczema most of my life, and sometimes water can just make it worse, not to mention hot water. My skin is usually very dry when I wake up and flaky, but with Filterbaby I have no complaints.I woke up with clear, effortless skin. I have no more flaky, red, or inflamed skin. Mind you, I hate using ointments on my skin because I do not like the feeling. Filterbaby helps me calm my skin without relying on topicals. My blackheads are even subsiding.The little manual is super helpful (the best part is the pictures showing the action). I did not think it would be that easy to install, but it took only 10 minutes, and my shower feels more luxurious already. I did not need to call anyone for help it is very beginner friendly. Not to mention that there is no leakage at all. The filter is very strong and heavy duty, so even with the shower hose swinging below, the filter still held it up. I like that I did not have to get out a toolbox to install this filter. Everything I needed came in the box.I love the way the gold filter looks in my shower. There are a lot of small accents of gold, so it makes it look even more beautiful. I have been recommending this product to all my friends and family left and right. For the value, you get a truly extraordinary filter for an extraordinary price. It is easily one of the most functional products I have had for my bathroom and is 1000% worth the purchase.I will be purchasing this as gifts because this is one of the best things. It truly has changed my life and my skin.Please do yourself a favor and get this filter. Your mind, heart, and body will thank you!",
+      "rating": 5,
+      "date": {
+        "raw": "Reviewed in the United States on February 11, 2026"
+      },
+      "profile": {
+        "name": "Kate Inspires"
+      },
+      "verified_purchase": true,
+      "helpful_votes": 6,
+      "link": "https://www.amazon.com/gp/customer-reviews/R9PLDAX923MJ0/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+    },
+    {
+      "id": "R1VZNJMKFWS4D2",
+      "title": "Noticeable Improvement",
+      "body": "I noticed a visible difference in my hair and skin within my first few showers! My skin and hair much more hydrated and I have noticed less breakage and brittleness at the ends. I also have noticed my skin feels less sensitive and my acne has stopped flaring up as much. The chrome design looks nice and feels high-quality and durable, and I love that this product filters out contaminants from my water. The installation was also super simple; it took me no more than 15 minutes, and was super easy to figure out.",
+      "rating": 5,
+      "date": {
+        "raw": "Reviewed in the United States on February 25, 2026"
+      },
+      "profile": {
+        "name": "Kate Belson"
+      },
+      "verified_purchase": true,
+      "helpful_votes": 2,
+      "link": "https://www.amazon.com/gp/customer-reviews/R1VZNJMKFWS4D2/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+    },
+    {
+      "id": "R3QMOPZRM0531E",
+      "title": "Great shower filter!",
+      "body": "LOVE this shower filter! I have been using the Filterbaby Pro Series Shower FIlter for a few days now and I can already see a difference! I never thought there was actually a problem with my shower water until I started using this filter. My skin feels cleaner, softer, and less irritated after washing, and my hair feels softer and healthier overall. Installation for this filter was also super simple! If you’re looking to elevate your skin and hair care, this filter is definitely worth it!",
+      "rating": 5,
+      "date": {
+        "raw": "Reviewed in the United States on March 9, 2026"
+      },
+      "profile": {
+        "name": "NG"
+      },
+      "verified_purchase": true,
+      "link": "https://www.amazon.com/gp/customer-reviews/R3QMOPZRM0531E/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+    },
+    {
+      "id": "R3GXIO12DN27WM",
+      "title": "WORTH THE MONEY!",
+      "body": "I’ve only been using this shower filter for a few days, but I’m already obsessed. First of all, the packaging and design are so sleek and bougie — it actually looks beautiful in my shower instead of like a bulky filter. It feels super high-end.Even after just a few showers, my skin already feels softer and less dry (picture of my face with no dry skin!!) I usually get that tight feeling after showering, but I’ve noticed a difference already. My hair also feels a little smoother and lighter.It’s such a small upgrade but it makes my whole shower routine feel way more like a spa moment. Definitely a fun, bougie addition to the bathroom and totally worth it!",
+      "rating": 5,
+      "date": {
+        "raw": "Reviewed in the United States on March 5, 2026"
+      },
+      "profile": {
+        "name": "Chad Carter"
+      },
+      "verified_purchase": true,
+      "helpful_votes": 3,
+      "link": "https://www.amazon.com/gp/customer-reviews/R3GXIO12DN27WM/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+    },
+    {
+      "id": "R3935GEQYC5I4N",
+      "title": "My hair has NEVER felt this good after showering!!",
+      "body": "I genuinely did not realize how much chlorine and hard water were wrecking my hair until I tried the FilterBaby Titanium Shower Filter Pro, and WOW. As someone who's been really intentional about my hair health lately, this felt like a missing piece I didn't know I needed. The multi-stage activated carbon fiber filter reduces up to 99% of chlorine, chloramine, and heavy metals, and within just a couple weeks my hair felt noticeably softer and my scalp less irritated. The all-metal build feels premium (no cheap plastic), and it took maybe five minutes to install. Highly recommend!!",
+      "rating": 5,
+      "date": {
+        "raw": "Reviewed in the United States on March 20, 2026"
+      },
+      "profile": {
+        "name": "Haley"
+      },
+      "verified_purchase": true,
+      "link": "https://www.amazon.com/gp/customer-reviews/R3935GEQYC5I4N/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+    },
+    {
+      "id": "R29ZDX6620L8D6",
+      "title": "TDS still high but so far so good",
+      "rating": 4,
+      "date": {
+        "raw": "Reviewed in the United States on March 13, 2026"
+      },
+      "profile": {
+        "name": "Jenniffer"
+      },
+      "verified_purchase": true,
+      "helpful_votes": 7,
+      "link": "https://www.amazon.com/gp/customer-reviews/R29ZDX6620L8D6/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+    },
+    {
+      "id": "R13E3RW7220DOY",
+      "title": "Disappointed!",
+      "body": "After researching several filters and trying a few less expensive filters, I had high hopes for Filterbaby. Unfortunately, my hopes were dashed. The water pressure in my shower has dropped significantly after only 10 days of use. This product is a “no go” and will have to be removed. Buyer beware!",
+      "rating": 1,
+      "date": {
+        "raw": "Reviewed in the United States on April 10, 2026"
+      },
+      "profile": {
+        "name": "A.P."
+      },
+      "verified_purchase": true,
+      "helpful_votes": null,
+      "link": "https://www.amazon.com/gp/customer-reviews/R13E3RW7220DOY/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8"
+    },
+    {
+      "id": "R11Y02IC51CXFF",
+      "title": "Disappointing",
+      "body": "This filter did nothing at all. The 60 AED one was better",
+      "rating": 1,
+      "date": {
+        "raw": "Reviewed in the United Arab Emirates on February 21, 2026"
+      },
+      "profile": {
+        "name": "Dana D"
+      },
+      "verified_purchase": true
+    }
+  ],
+  "a_plus_content": {
+    "has_a_plus_content": true,
+    "has_brand_story": false,
+    "all_images": [
+      {
+        "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6e9ba4c9-d11e-4b6d-8ed5-1f77102b4b65.__CR0,0,1464,600_PT0_SX1464_V1___.jpg",
+        "name": "Filterbaby Pro Series Shower Filter"
+      },
+      {
+        "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0f65d8a8-4509-4849-a2f6-59b4988af1a5.__CR0,0,1464,600_PT0_SX1464_V1___.png",
+        "name": "Filterbaby Pro Series Shower Filter"
+      },
+      {
+        "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/037544ee-8839-4d18-a7ca-f7cbb59e1bec.__CR0,0,1464,600_PT0_SX1464_V1___.jpg",
+        "name": "Filterbaby Pro Series Shower Filter"
+      },
+      {
+        "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6748cc23-73d6-41e5-8e54-148ccabd1681.__CR0,0,1464,600_PT0_SX1464_V1___.png",
+        "name": "Filterbaby Pro Series Shower Filter"
+      },
+      {
+        "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7a941c23-aafb-43cd-bf3e-682f697d859f.__CR0,0,1464,600_PT0_SX1464_V1___.png",
+        "name": "Filterbaby Pro Series Shower Filter"
+      },
+      {
+        "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0e1cab87-8128-4804-afbb-6ef207eccdee.__CR0,0,1464,600_PT0_SX1464_V1___.jpg",
+        "name": "Filterbaby Titanium Shower Filter Pro"
+      },
+      {
+        "link": "https://m.media-amazon.com/images/I/31y5KAfRoTL.__AC_SR200,225___.jpg",
+        "name": ""
+      },
+      {
+        "link": "https://m.media-amazon.com/images/I/41P%2BhM8XxrL.__AC_SR200,225___.jpg",
+        "name": ""
+      },
+      {
+        "link": "https://m.media-amazon.com/images/I/41h4896CXCL.__AC_SR200,225___.jpg",
+        "name": ""
+      },
+      {
+        "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/163538db-3b26-4973-b2c8-6391b6831c1f.__AC_SR200,225___.jpg",
+        "name": ""
+      },
+      {
+        "link": "https://m.media-amazon.com/images/I/41W1e2j4oRL.__AC_SR200,225___.jpg",
+        "name": ""
+      },
+      {
+        "link": "https://m.media-amazon.com/images/I/31INnmwdSQL.__AC_SR200,225___.jpg",
+        "name": ""
+      },
+      {
+        "link": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0a1c212b-8b10-463e-8a0b-1f0821a007fc.__AC_SR200,225___.jpg",
+        "name": ""
+      }
+    ],
+    "third_party": false
+  },
+  "additional_details": [
+    {
+      "name": "Small Business",
+      "value": "This product is from a small business brand. Support small."
+    }
+  ],
+  "additional_details_flat": "Small Business: This product is from a small business brand. Support small.",
+  "buybox_winner": {
+    "maximum_order_quantity": {
+      "value": 10,
+      "hard_maximum": true
+    },
+    "price_only_available_in_cart": false,
+    "trade_in_and_save": true,
+    "protection_plans": [
+      {
+        "name": "3-Year Protection Plan",
+        "duration_months": 36,
+        "price": {
+          "value": "21.99",
+          "billing_type": "one_time",
+          "currency": "USD"
+        }
+      },
+      {
+        "name": "4-Year Protection Plan",
+        "duration_months": 48,
+        "price": {
+          "value": "29.99",
+          "billing_type": "one_time",
+          "currency": "USD"
+        }
+      },
+      {
+        "name": "Complete Protect",
+        "description": "One plan covers all eligible past and future purchases",
+        "renewal_policy": "Best Value",
+        "price": {
+          "value": "16.99",
+          "billing_type": "monthly",
+          "currency": "USD"
+        }
+      }
+    ],
+    "return_policy": {
+      "duration_days": 30,
+      "type": "refund/replacement"
+    },
+    "is_prime": true,
+    "is_prime_exclusive_deal": false,
+    "is_amazon_fresh": false,
+    "condition": {
+      "is_new": true
+    },
+    "availability": {
+      "type": "in_stock",
+      "raw": "In Stock",
+      "dispatch_days": 1
+    },
+    "fulfillment": {
+      "type": "p2",
+      "standard_delivery": {
+        "date": "Thursday, April 23",
+        "name": "FREE"
+      },
+      "fastest_delivery": {
+        "date": "Tuesday, April 21",
+        "name": "Or fastest delivery Tuesday, April 21"
+      },
+      "is_sold_by_amazon": false,
+      "is_fulfilled_by_amazon": true,
+      "is_fulfilled_by_third_party": false,
+      "is_sold_by_third_party": true,
+      "third_party_seller": {
+        "name": "Filterbaby",
+        "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=AI5063ORHCI6A&asin=B0FNVDJRSQ&ref_=dp_merchant_link&isAmazonFulfilled=1",
+        "id": "AI5063ORHCI6A"
+      }
+    },
+    "price": {
+      "symbol": "$",
+      "value": 112.99,
+      "currency": "USD",
+      "raw": "$112.99"
+    },
+    "rrp": {
+      "symbol": "$",
+      "value": 132.99,
+      "currency": "USD",
+      "raw": "$132.99"
+    },
+    "shipping": {
+      "raw": "FREE"
+    }
+  },
+  "specifications": [
+    {
+      "name": "Brand",
+      "value": "Filterbaby"
+    },
+    {
+      "name": "Special Feature",
+      "value": "IAPMO Certified to NSF 177 Standard, Reduces Chlorine, Reduces Chloramine, Reduces Lead, Reduces Heavy Metals, Heat-Resistant, Leak-Proof, Microplastic-Free See more"
+    },
+    {
+      "name": "Product Dimensions",
+      "value": "3.3\"L x 3.3\"W x 4.7\"H"
+    },
+    {
+      "name": "Material",
+      "value": "Titanium"
+    },
+    {
+      "name": "Capacity",
+      "value": "2650 Gallons"
+    },
+    {
+      "name": "Installation Type",
+      "value": "Easy Install"
+    },
+    {
+      "name": "Purification Method",
+      "value": "Activated Carbon Filtration"
+    },
+    {
+      "name": "UPC",
+      "value": "850060572975"
+    },
+    {
+      "name": "Manufacturer",
+      "value": "Filterbaby"
+    },
+    {
+      "name": "Other Special Features of the Product",
+      "value": "IAPMO Certified to NSF 177 Standard, Reduces Chlorine, Reduces Chloramine, Reduces Lead, Reduces Heavy Metals, Heat-Resistant, Leak-Proof, Microplastic-Free"
+    },
+    {
+      "name": "Item Dimensions L x W x H",
+      "value": "3.3\"L x 3.3\"W x 4.7\"H"
+    },
+    {
+      "name": "Material Type",
+      "value": "Titanium"
+    },
+    {
+      "name": "Brand Name",
+      "value": "Filterbaby"
+    },
+    {
+      "name": "Model Number",
+      "value": "0850060572975"
+    },
+    {
+      "name": "Best Sellers Rank",
+      "value": "#5,211 in Tools & Home Improvement (See Top 100 in Tools & Home Improvement) #28 in Showerhead Filters"
+    },
+    {
+      "name": "ASIN",
+      "value": "B0FNVDJRSQ"
+    },
+    {
+      "name": "Customer Reviews",
+      "value": "4.4    4.4 out of 5 stars         (133)           4.4 out of 5 stars"
+    },
+    {
+      "name": "GTIN",
+      "value": "850060572975"
+    }
+  ],
+  "specifications_flat": "GTIN: 850060572975. Customer Reviews: 4.4    4.4 out of 5 stars         (133)           4.4 out of 5 stars. ASIN: B0FNVDJRSQ. Best Sellers Rank: #5,211 in Tools & Home Improvement (See Top 100 in Tools & Home Improvement) #28 in Showerhead Filters. Model Number: 0850060572975. Brand Name: Filterbaby. Material Type: Titanium. Item Dimensions L x W x H: 3.3\"L x 3.3\"W x 4.7\"H. Other Special Features of the Product: IAPMO Certified to NSF 177 Standard, Reduces Chlorine, Reduces Chloramine, Reduces Lead, Reduces Heavy Metals, Heat-Resistant, Leak-Proof, Microplastic-Free. Manufacturer: Filterbaby. UPC: 850060572975. Purification Method: Activated Carbon Filtration. Installation Type: Easy Install. Capacity: 2650 Gallons. Material: Titanium. Product Dimensions: 3.3\"L x 3.3\"W x 4.7\"H. Special Feature: IAPMO Certified to NSF 177 Standard, Reduces Chlorine, Reduces Chloramine, Reduces Lead, Reduces Heavy Metals, Heat-Resistant, Leak-Proof, Microplastic-Free See more. Brand: Filterbaby.",
+  "recent_sales": "1K+ bought in past month",
+  "gift_guide_badge": {
+    "badge_text": "1K+ bought in past month"
+  },
+  "material": "Titanium",
+  "manufacturer": "Filterbaby",
+  "dimensions": "3.3\"L x 3.3\"W x 4.7\"H",
+  "model_number": "0850060572975"
+}

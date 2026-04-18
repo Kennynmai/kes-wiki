@@ -1,0 +1,373 @@
+{
+  "title": "Bath Filter White",
+  "search_alias": {
+    "title": "Home & Kitchen",
+    "value": "search-alias=kitchen"
+  },
+  "title_excluding_variant_name": "Bath Filter",
+  "keywords": "Bath Filter White",
+  "is_collection": false,
+  "asin": "B0FT7R9ZQ9",
+  "parent_asin": "B0G6LBY1ML",
+  "link": "https://www.amazon.co.uk/JYFJYF-JYFJYF_B0FT7R9ZQ9-Bath-Filter/dp/B0FT7R9ZQ9",
+  "brand": "JYFJYF",
+  "sell_on_amazon": false,
+  "variants": [
+    {
+      "asin": "B0FT7R9ZQ9",
+      "title": "White",
+      "is_current_product": true,
+      "link": "https://www.amazon.co.uk/dp/B0FT7R9ZQ9?th=1&psc=1",
+      "dimensions": [
+        {
+          "name": "Colour Name",
+          "value": "White"
+        }
+      ],
+      "main_image": "https://m.media-amazon.com/images/I/61Brq8yPh2L._AC_SL1500_.jpg",
+      "images": [
+        {
+          "variant": "MAIN",
+          "link": "https://m.media-amazon.com/images/I/61Brq8yPh2L._AC_SL1500_.jpg"
+        },
+        {
+          "variant": "PT01",
+          "link": "https://m.media-amazon.com/images/I/61HqplEqvyL._AC_SL1500_.jpg"
+        },
+        {
+          "variant": "PT02",
+          "link": "https://m.media-amazon.com/images/I/71UuTzj5n0L._AC_SL1500_.jpg"
+        },
+        {
+          "variant": "PT03",
+          "link": "https://m.media-amazon.com/images/I/616PBrwubSL._AC_SL1500_.jpg"
+        },
+        {
+          "variant": "PT04",
+          "link": "https://m.media-amazon.com/images/I/71hEMhY+YfL._AC_SL1500_.jpg"
+        },
+        {
+          "variant": "PT05",
+          "link": "https://m.media-amazon.com/images/I/71aS1K+ZhjL._AC_SL1500_.jpg"
+        },
+        {
+          "variant": "PT06",
+          "link": "https://m.media-amazon.com/images/I/71OEMgMpkUL._AC_SL1500_.jpg"
+        },
+        {
+          "variant": "PT07",
+          "link": "https://m.media-amazon.com/images/I/71rMprALA-L._AC_SL1500_.jpg"
+        }
+      ]
+    }
+  ],
+  "variant_asins_flat": "B0FT7R9ZQ9",
+  "proposition_65_warning": false,
+  "has_size_guide": true,
+  "add_on_item": {
+    "is_add_on_item": true
+  },
+  "categories": [
+    {
+      "name": "Home & Kitchen"
+    },
+    {
+      "name": "DIY & Tools",
+      "link": "https://www.amazon.co.uk/diy-and-tools/b/ref=dp_bc_1?ie=UTF8&node=79903031",
+      "category_id": "79903031"
+    },
+    {
+      "name": "Kitchen & Bath Fixtures",
+      "link": "https://www.amazon.co.uk/Kitchen-Bath-Fixtures/b/ref=dp_bc_2?ie=UTF8&node=1938722031",
+      "category_id": "1938722031"
+    },
+    {
+      "name": "Bathroom Fixtures",
+      "link": "https://www.amazon.co.uk/bathroom/b/ref=dp_bc_3?ie=UTF8&node=1938723031",
+      "category_id": "1938723031"
+    },
+    {
+      "name": "Showers & Shower Parts",
+      "link": "https://www.amazon.co.uk/Showers/b/ref=dp_bc_4?ie=UTF8&node=1938750031",
+      "category_id": "1938750031"
+    },
+    {
+      "name": "Showerheads & Handheld Showers",
+      "link": "https://www.amazon.co.uk/b/ref=dp_bc_5?ie=UTF8&node=14342248031",
+      "category_id": "14342248031"
+    },
+    {
+      "name": "Showerhead Filters",
+      "link": "https://www.amazon.co.uk/Showerhead-Filters/b/ref=dp_bc_6?ie=UTF8&node=1938749031",
+      "category_id": "1938749031"
+    }
+  ],
+  "categories_flat": "Home & Kitchen > DIY & Tools > Kitchen & Bath Fixtures > Bathroom Fixtures > Showers & Shower Parts > Showerheads & Handheld Showers > Showerhead Filters",
+  "description": "Instructions",
+  "sub_title": {
+    "text": "Brand: JYFJYF",
+    "link": "https://www.amazon.co.uk/s/ref=bl_dp_s_web_0?ie=UTF8&search-type=ss&index=kitchen-uk&field-keywords=JYFJYF"
+  },
+  "amazons_choice": {
+    "link": "https://www.amazon.co.uk/JYFJYF-JYFJYF_B0FT7R9ZQ9-Bath-Filter/dp/B0FT7R9ZQ9"
+  },
+  "rating": 4.5,
+  "rating_breakdown": {
+    "five_star": {
+      "percentage": 80,
+      "count": 43
+    },
+    "four_star": {
+      "percentage": 9,
+      "count": 5
+    },
+    "three_star": {
+      "percentage": 3,
+      "count": 2
+    },
+    "two_star": {
+      "percentage": 0,
+      "count": 0
+    },
+    "one_star": {
+      "percentage": 8,
+      "count": 4
+    }
+  },
+  "ratings_total": 54,
+  "main_image": {
+    "link": "https://m.media-amazon.com/images/I/61Brq8yPh2L.jpg"
+  },
+  "images": [
+    {
+      "link": "https://m.media-amazon.com/images/I/61HqplEqvyL._AC_SL1500_.jpg",
+      "variant": "PT01"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/71UuTzj5n0L._AC_SL1500_.jpg",
+      "variant": "PT02"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/616PBrwubSL._AC_SL1500_.jpg",
+      "variant": "PT03"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/71hEMhY+YfL._AC_SL1500_.jpg",
+      "variant": "PT04"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/71aS1K+ZhjL._AC_SL1500_.jpg",
+      "variant": "PT05"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/71OEMgMpkUL._AC_SL1500_.jpg",
+      "variant": "PT06"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/71rMprALA-L._AC_SL1500_.jpg",
+      "variant": "PT07"
+    }
+  ],
+  "images_count": 7,
+  "images_flat": "https://m.media-amazon.com/images/I/61HqplEqvyL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71UuTzj5n0L._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/616PBrwubSL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71hEMhY+YfL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71aS1K+ZhjL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71OEMgMpkUL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71rMprALA-L._AC_SL1500_.jpg",
+  "is_bundle": false,
+  "feature_bullets": [
+    "EASY INSTALLATION"
+  ],
+  "feature_bullets_count": 1,
+  "feature_bullets_flat": "EASY INSTALLATION.",
+  "top_reviews": [
+    {
+      "id": "R3SYO4Y4L7CAXX",
+      "title": "Filter",
+      "body": "This filter is so good and Easy to put on👀🤌",
+      "rating": 5,
+      "date": {
+        "raw": "Reviewed in the United States on 15 March 2026"
+      },
+      "profile": {
+        "name": "Vanessa"
+      },
+      "verified_purchase": true
+    },
+    {
+      "id": "R2KA72F7S7OCKL",
+      "title": "Saved my daughters legs",
+      "body": "after moving to the desert, my entire family skin started breaking out and was constantly dry due to the dry air and climate. My daughter started having eczema patches on her legs and after switching to this purifier, it cleared up we’ve already purchased a second one.",
+      "rating": 5,
+      "date": {
+        "raw": "Reviewed in the United States on 15 April 2026"
+      },
+      "profile": {
+        "name": "Amazon Customer"
+      },
+      "verified_purchase": true
+    },
+    {
+      "id": "R31E603CTT4A1E",
+      "title": "Perfect for Sensitive Skin",
+      "body": "Bought this mainly because I have sensitive skin, and it’s been a game changer. The water feels cleaner, and I’ve noticed less itching and dryness after baths. It also seems to reduce that strong chlorine smell. Great value for the price.",
+      "rating": 5,
+      "date": {
+        "raw": "Reviewed in the United States on 8 April 2026"
+      },
+      "profile": {
+        "name": "Makeyourway25"
+      },
+      "verified_purchase": true
+    },
+    {
+      "id": "R2ZSTX64K7T28R",
+      "title": "Love the design",
+      "body": "I am so glad I came across this filter as I was thinking about the way to get the water filtered. I have received the filter recently and I’ve been using and enjoying the quality and the results thanks a lot!",
+      "rating": 5,
+      "date": {
+        "raw": "Reviewed in the United States on 31 December 2025"
+      },
+      "profile": {
+        "name": "Evgeny"
+      },
+      "verified_purchase": true
+    },
+    {
+      "id": "R275M63M274C9J",
+      "title": "Your not being protected!",
+      "body": "I'M PISSED I bought this new thing to see if it's protecting you from harmful chemicals & it read over 200 which means your just blowing your money on something that's not protecting your family!Never will I buy this ever again!WOW",
+      "rating": 1,
+      "date": {
+        "raw": "Reviewed in the United States on 14 April 2026"
+      },
+      "profile": {
+        "name": "Travelgurl"
+      },
+      "verified_purchase": true
+    }
+  ],
+  "buybox_winner": {
+    "maximum_order_quantity": {
+      "value": 17,
+      "hard_maximum": true
+    },
+    "price_only_available_in_cart": false,
+    "new_offers_count": 9,
+    "new_offers_from": {
+      "raw": "New"
+    },
+    "trade_in_and_save": true,
+    "return_policy": {
+      "duration_days": 30,
+      "type": "refund/replacement"
+    },
+    "is_prime": false,
+    "is_prime_exclusive_deal": false,
+    "is_amazon_fresh": false,
+    "condition": {
+      "is_new": true
+    },
+    "availability": {
+      "type": "in_stock",
+      "raw": "In stock",
+      "dispatch_days": 1
+    },
+    "fulfillment": {
+      "type": "p3",
+      "standard_delivery": {
+        "date": "27 - 29 April",
+        "name": "FREE"
+      },
+      "is_sold_by_amazon": false,
+      "is_fulfilled_by_amazon": false,
+      "is_fulfilled_by_third_party": true,
+      "is_sold_by_third_party": true,
+      "third_party_seller": {
+        "name": "NIHALIX",
+        "link": "https://www.amazon.co.uk/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A1Y8NPLG25F0HR&asin=B0FT7R9ZQ9&ref_=dp_merchant_link",
+        "id": "A1Y8NPLG25F0HR"
+      }
+    },
+    "price": {
+      "symbol": "£",
+      "value": 29.66,
+      "currency": "GBP",
+      "raw": "£29.66"
+    },
+    "shipping": {
+      "raw": "FREE"
+    }
+  },
+  "specifications": [
+    {
+      "name": "Material",
+      "value": "Acrylonitrile Butadiene Styrene (ABS)"
+    },
+    {
+      "name": "Product dimensions",
+      "value": "9D x 11.5W x 11.5H centimetres"
+    },
+    {
+      "name": "Product benefits",
+      "value": "Removes fluoride, chlorine, heavy metals, and rust, balances pH, and adds oxygen and beneficial minerals for improved skin, hair, and nail condition See more"
+    },
+    {
+      "name": "Brand",
+      "value": "JYFJYF"
+    },
+    {
+      "name": "Unit count",
+      "value": "1.0 count"
+    },
+    {
+      "name": "Model Number",
+      "value": "JYFJYF_B0FT7R9ZQ9"
+    },
+    {
+      "name": "Benefits",
+      "value": "Removes fluoride, chlorine, heavy metals, and rust, balances pH, and adds oxygen and beneficial minerals for improved skin, hair, and nail condition"
+    },
+    {
+      "name": "Brand Name",
+      "value": "JYFJYF"
+    },
+    {
+      "name": "Unit Count",
+      "value": "1.0 count"
+    },
+    {
+      "name": "Number of Items",
+      "value": "1"
+    },
+    {
+      "name": "Manufacturer Part Number",
+      "value": "GLQ-1"
+    },
+    {
+      "name": "Manufacturer",
+      "value": "JYFJYF"
+    },
+    {
+      "name": "Included Components",
+      "value": "Filter,1 silicon handles, Velcro strap"
+    },
+    {
+      "name": "ASIN",
+      "value": "B0FT7R9ZQ9"
+    },
+    {
+      "name": "Customer Reviews",
+      "value": "4.5    4.5 out of 5 stars         (54)           4.5 out of 5 stars"
+    },
+    {
+      "name": "Material Type",
+      "value": "Acrylonitrile Butadiene Styrene (ABS)"
+    },
+    {
+      "name": "Item Dimensions D x W x H",
+      "value": "9D x 11.5W x 11.5H centimetres"
+    }
+  ],
+  "specifications_flat": "Item Dimensions D x W x H: 9D x 11.5W x 11.5H centimetres. Material Type: Acrylonitrile Butadiene Styrene (ABS). Customer Reviews: 4.5    4.5 out of 5 stars         (54)           4.5 out of 5 stars. ASIN: B0FT7R9ZQ9. Included Components: Filter,1 silicon handles, Velcro strap. Manufacturer: JYFJYF. Manufacturer Part Number: GLQ-1. Number of Items: 1. Unit Count: 1.0 count. Brand Name: JYFJYF. Benefits: Removes fluoride, chlorine, heavy metals, and rust, balances pH, and adds oxygen and beneficial minerals for improved skin, hair, and nail condition. Model Number: JYFJYF_B0FT7R9ZQ9. Unit count: 1.0 count. Brand: JYFJYF. Product benefits: Removes fluoride, chlorine, heavy metals, and rust, balances pH, and adds oxygen and beneficial minerals for improved skin, hair, and nail condition See more. Product dimensions: 9D x 11.5W x 11.5H centimetres. Material: Acrylonitrile Butadiene Styrene (ABS).",
+  "material": "Acrylonitrile Butadiene Styrene (ABS)",
+  "manufacturer": "JYFJYF",
+  "dimensions": "9D x 11.5W x 11.5H centimetres",
+  "model_number": "GLQ-1"
+}
