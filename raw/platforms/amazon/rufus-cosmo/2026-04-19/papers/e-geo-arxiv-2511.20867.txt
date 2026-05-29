@@ -1,0 +1,1157 @@
+E-GEO: A Testbed for Generative Engine Optimization in
+E-Commerce
+Puneet S. Bagga∗ Vivek F. Farias† Tamar Korkotashvili‡
+
+arXiv:2511.20867v1 [cs.IR] 25 Nov 2025
+
+Tianyi Peng§ Yuhang Wu§
+This version: November 25, 2025
+
+Abstract
+With the rise of large language models (LLMs), generative engines are becoming powerful
+alternatives to traditional search, reshaping retrieval tasks. In e-commerce, for instance, conversational shopping agents now guide consumers to relevant products. This shift has created the
+need for generative engine optimization (GEO)—improving content visibility and relevance for
+generative engines. Yet despite its growing importance, current GEO practices are ad hoc, and
+their impacts remain poorly understood, especially in e-commerce. We address this gap by introducing E-GEO, the first benchmark built specifically for e-commerce GEO. E-GEO contains
+over 7,000 realistic, multi-sentence consumer product queries paired with relevant listings, capturing rich intent, constraints, preferences, and shopping contexts that existing datasets largely
+miss. Using this benchmark, we conduct the first large-scale empirical study of e-commerce
+GEO, evaluating 15 common rewriting heuristics and comparing their empirical performance.
+To move beyond heuristics, we further formulate GEO as a tractable optimization problem
+and develop a lightweight iterative prompt-optimization algorithm that can significantly outperform these baselines. Surprisingly, the optimized prompts reveal a stable, domain-agnostic
+pattern—suggesting the existence of a “universally effective” GEO strategy. Our data and code
+are publicly available at https://github.com/psbagga17/E-GEO.1
+
+Keywords: Generative Engine Optimization, Large Language Models, Benchmark Dataset, Generative AI in E-commerce, Prompt Optimization
+
+1
+
+Introduction
+
+Over the last few decades, search engine optimization (SEO) has shaped how online content is produced, structured, and surfaced to users. By tailoring to the preferences of search engines such as
+Google and Bing, content creators influence where their webpages appear among ranked search results and, in turn, drive traffic and engagement. The landscape is now shifting, as advances in large
+language models (LLMs) have given rise to generative engines—often deployed as chatbots—that
+offer users an alternative way to access information. Recent studies have observed reduced user
+engagement with traditional search platforms (Sommerfeld et al., 2025; Toscano, 2025), especially
+∗
+
+Department of Industrial Engineering and Operations Research, Columbia University
+Sloan School of Management, Massachusetts Institute of Technology
+‡
+Electrical Engineering and Computer Science, Massachusetts Institute of Technology
+§
+Decision, Risk, and Operations Division, Columbia Business School.
+1
+Author names are ordered alphabetically.
+†
+
+1
+
+when generative engines can deliver comparable content (Lyu et al., 2025). This behavioral shift
+raises a new question:
+What properties of online content determine whether a generative engine “likes” it?
+Early findings indicate that these signals may diverge substantially from the classical SEO playbook
+(Aggarwal et al., 2024; Allouah et al., 2025). Consequently, generative engine optimization (GEO),
+the practice of improving the visibility and relevance of content for generative engines, has become
+an emerging concern for creators and businesses (Berry, 2025; Madhavan, 2025).
+Despite this growing interest, current GEO practices are largely heuristic, relying on rules of
+thumb such as the use of quotations, authoritative tone, or FAQ-style structures (Aggarwal et al.,
+2024; Berry, 2025). Yet it remains unclear whether these interventions produce meaningful value,
+in part because existing metrics like the impression score (Aggarwal et al., 2024) do not translate
+directly to economic impact. This gap makes e-commerce a natural testbed, as it provides an
+environment where changes in the product’s ranking can be measured in concrete financial terms.
+Moreover, conversational shopping tools backed by generative engines are gaining traction: Amazon
+has launched its AI-powered shopping assistant (Mehta and Chilimbi, 2024), and other e-commerce
+platforms are following suit (Bellan, 2025). These developments position e-commerce GEO as both
+practically important and understudied.
+In this work, we propose a systematic and data-driven framework for studying GEO in ecommerce. Our contributions include:
+1. Benchmark dataset. We introduce E-GEO, a novel dataset of 7,000+ long-form Reddit
+product queries matched with Amazon listings, providing the first-of-its-kind benchmark that
+captures real-world consumer intent for GEO.
+2. Evaluation of existing heuristics. We assess 15 heuristic rewriting strategies inspired by
+current GEO practices, providing the first empirical comparison of their effectiveness in an
+e-commerce context.
+3. Optimization-based GEO formulation. We cast GEO as an operationalizable optimization problem that aligns naturally with existing prompt-optimization literature. We demonstrate that even a simple optimization algorithm can outperform heuristic methods by a
+substantial margin.
+4. Generalizable rewriting strategy. By examining optimized prompts, we uncover evidence
+of a “universally effective” rewriting strategy that generalizes across queries and domains,
+suggesting that systematic optimization obviates the need for ad hoc heuristics.
+
+2
+
+Literature Review
+
+The concept of generative engine optimization (GEO) was first introduced by Aggarwal et al.
+(2024), who evaluated several heuristics for increasing a source’s visibility within generative engine
+outputs based on a proposed impression score that combines word count, citation position, and
+GPT-3.5-based quality assessments. While foundational, this work centers on heuristics and lacks
+a systematic optimization framework, and the impression score does not translate directly to commercial value in e-commerce settings. A separate line of research examines prompt injection and
+manipulation attacks on LLMs (Kumar and Lakkaraju, 2024; Pfrommer et al., 2024) in a similar
+setting. Although these studies demonstrate that model outputs can be systematically influenced,
+
+2
+
+their objectives are adversarial and exploitative in nature rather than improving legitimate visibility. Overall, the GEO literature remains nascent, with many open questions regarding effective
+strategies and their practical impacts.
+Our work intersects with the literature on prompt optimization. Early work such as Zhou et al.
+(2023) introduced automatic prompt engineering (APE), and many subsequent papers have explored methods for refining or adapting prompts for downstream tasks. The optimization approach
+we adopt is particularly inspired by the reflection module in GEPA (Agrawal et al., 2025). Our
+setting also relates to recent interest in LLM-backed shopping assistants (Allouah et al., 2025) and
+the broader literature on LLM-empowered recommender systems (Wu et al., 2024). These works
+highlight the shift toward conversational, intent-rich interactions in online platforms, precisely the
+prime context for GEO.
+
+3
+
+GEO in E-Commerce
+
+3.1
+
+Generative Engine
+
+On a high level, generative engines in e-commerce settings can be viewed as instances of retrievalaugmented generation (RAG) (Lewis et al., 2020). As illustrated in Figure 1, when a user submits
+a product-related query, the system first performs a retrieval step that gathers a short catalog of
+relevant listings from the platform’s product pool. The generative engine then synthesizes a naturallanguage response that often includes an accompanying ranked list of recommended products,
+effectively functioning as a re-ranker that orders the retrieved items based on their alignment with
+the inferred user intent, preferences, and constraints.
+Retrieval
+
+Query
+Generative
+
+Product
+
+Engine
+
+Pool
+
+Ranked
+products
+
+Retrieved
+products
+
+Figure 1: Generative Engine in E-Commerce.
+
+3.2
+
+The GEO Process
+
+We conceptualize GEO as a mapping that rewrites a product description to improve its ranking
+across user queries, without access to the queries themselves (Figure 2). Similar to GEO in web
+search, it is natural to hypothesize that certain rewriting strategies, such as emphasizing salient
+attributes or adopting particular linguistic styles, can systematically affect downstream exposure.
+In e-commerce, however, this objective is more concrete and operationalizable, as it maps directly
+to observable rankings and measurable commercial outcomes.
+In web search-oriented GEO, generative responses typically consist of free-form text interleaved
+with citations to external sources, where a source’s “visibility” is inherently indirect and difficult
+to quantify. To formalize this notion, Aggarwal et al. (2024) proposed the impression score, which
+combines word count, citation position, and GPT-3.5-based quality assessments. While useful as
+a proxy, this measure does not have a clear behavioral or economic interpretation, and it remains
+unclear, for example, what a marginal improvement implies for user engagement.
+3
+
+By contrast, GEO in e-commerce admits a much cleaner objective: improving a product’s
+rank in the generative engine’s output. This ranking signal is directly observable and reproducible
+through widely available LLM APIs. Moreover, a large empirical literature shows that higher
+rankings translate strongly into increased clicks, conversions, and revenue (e.g., see Baye et al.
+(2009) and references therein), making GEO performance readily interpretable in economic terms.
+
+Query
+“I'm in my 20s,
+and I want to
+find a basic set
+of kitchen
+knives that,
+with proper
+care, will
+outlive me.”
+
+,
+
+Product A
+Product B
+Product C
+Product D
+Product E
+
+Generative
+Engine
+Ranking without GEO
+
+1. Product D
+2. Product B
+3. Product C
+4. Product E
+5. Product A
+
+Product E: Knife set for kitchen…
+
+GEO
+
+Query
+
+,
+
+Product E’: Premium durable knife set
+with minimal upkeep needed
+
+Product A
+Product B
+Product C
+Product D
+Product E’
+
+Generative
+Engine
+Ranking with GEO
+
+1. Product E’
+2. Product D
+3. Product B
+4. Product C
+5. Product A
+
+Figure 2: The GEO process. A GEO module rewrites product descriptions to enhance placement
+in generative-engine rankings.
+Following Aggarwal et al. (2024), we explicitly separate retrieval and re-ranking in both formulation and implementation. This design is motivated by two considerations. First, large-scale
+retrieval is typically handled by highly optimized, specialized systems, while re-ranking benefits
+from the richer contextual reasoning afforded by LLMs. Second, GEO is constrained to preserve
+the semantic content of product descriptions, implying that standard retrieval mechanisms, whether
+embedding-based or keyword-based, should be largely invariant to rewriting. Practically, a product
+needs to make it to the top-listed candidates first before the GEO process can make a meaningful
+impact on its ranking.
+
+4
+
+Dataset: E-GEO
+
+4.1
+
+Queries
+
+E-commerce retrieval datasets are prolific (Papenmeier et al., 2021; Chen et al., 2022; Reddy et al.,
+2022) but not suitable for studying GEO due to fundamental differences in user queries. See
+Table 1 for details. This gap motivates our construction of a new dataset specifically designed
+for e-commerce GEO. To obtain realistic product-seeking requests, we source queries from the
+BuyItForLife subreddit,2 a community that frequently discusses durable, high-quality products to
+purchase. Starting with a comprehensive crawl using publicly available data dumps under the
+2
+
+https://www.reddit.com/r/BuyItForLife/.
+
+4
+
+Table 1: Existing e-commerce retrieval datasets primarily contain short keyword queries, whereas
+our E-GEO dataset consists of rich, context-heavy natural-language requests that better reflect real
+interactions with shopping agents.
+Existing Product Search Datasets
+
+E-GEO (Ours)
+
+• white leather chair (Chen et al., 2022)
+• laundry basket with wheels (Chen
+et al., 2022)
+• self-seal envelopes without window
+(Reddy et al., 2022)
+• #2 pencils not sharpened (Reddy
+et al., 2022)
+• I want a laptop primarily for internet
+use, it needs to be light with a long
+battery life (Papenmeier et al., 2021)
+• A short zipped teddy coat, probably
+in pink or black (Papenmeier et al.,
+2021)
+
+• Request: Sandals. My two most recent pairs lasted
+about two years with frequent use (roughly three
+times a week), but when the last pair broke and I
+bought a new one, it failed within three days due
+to poor strap stitching. Are there any reputable
+brands that make good quality, sturdy sandals?
+Preferably slip-ons, possibly leather? I have a decent budget but nothing in the luxury brand range
+(e.g., Gucci).
+• I’m looking for an alarm clock where I can set
+a different alarm time for each day of the week.
+Other features that would be nice, but not critical, include a projection on the wall or ceiling and
+weather or temperature display. I found American
+Innovative’s Neverlate alarm clock, but it has poor
+build quality according to the comments. Is there
+anything similar?
+
+pushshift subreddit,3 we use GPT-4o-mini to identify 141,105 recommendation-oriented requests
+that include nontrivial intent details and edit them minimally to ensure correct formatting. To
+construct a clean and manageable benchmark for GEO evaluation, we further use GPT-4o to arrive
+at a final set of 7,151 high-quality queries that explicitly ask for recommendations on products to
+purchase. Examples of queries from our dataset and existing datasets are presented in Table 1.
+
+4.2
+
+Products
+
+To obtain product listings, we use the Amazon Reviews dataset (Hou et al., 2024), which contains
+information for over 48 million products across more than 30 categories (e.g., Electronics, Home &
+Kitchen). Beyond product titles, the dataset includes detailed descriptions and feature lists, providing rich textual content for GEO. For each of the 7,151 curated queries, we retrieve relevant products
+from this corpus using the all-MiniLM-L6-v2 sentence encoder for efficient nearest-neighbor search.
+We retain the top 10 products ranked by embedding cosine similarity. The final dataset contains
+52,165 unique products. While more advanced retrieval techniques could further improve candidate
+quality, we leave that to future work as such enhancements are orthogonal to our focus on GEO.
+
+5
+
+Experiments
+
+5.1
+
+Implementation Details
+
+Generative Engine. We use GPT-4o as the generative engine responsible for re-ranking. To
+approximate real-world behavior, we design system and user prompts that mimic typical user
+3
+
+https://www.reddit.com/r/pushshift/.
+
+5
+
+interactions (Appendix A). Specifically, we adopt the CL4R1T4S system prompt4 , which is reported
+to resemble the web interface prompt of GPT-4o. The user prompt is intentionally minimalist,
+asking the model to rank ten candidate products for a given query. Although real users may
+exhibit a diverse range of interaction styles, this setup isolates the core ranking behavior. We
+observe qualitatively similar results when substituting other LLMs such as Claude.
+GEO Module. The GEO procedure is implemented as a rewriting LLM (also GPT-4o) controlled
+via its user prompt, which specifies rewriting behaviors such as adopting an advertisement-like
+style or emphasizing unique advantages. Appendix C.1 provides the fixed system prompt, and
+Appendix C.2 lists the 15 heuristic user prompts (to be optimized). As proprietary models cannot
+be fine-tuned directly, we treat GEO as a prompt meta-optimization problem. This design allows
+the direct integration of alternative prompt-optimization methods (Zhou et al., 2023; Agrawal et al.,
+2025) within our framework.
+Evaluation Metric. We evaluate GEO performance through ranking improvement. For each
+query, we sample a product from the retrieved candidate set and compare its rank before and after
+rewriting its description. The metric is the change in rank position, with positive values indicating
+improved placement. Overall performance is reported as the average rank change across a set of
+queries.
+
+5.2
+
+Prompt Meta-Optimization
+
+We adopt a lightweight optimization method inspired by the reflection module in GEPA (Agrawal
+et al., 2025), shown in Algorithm 1. At each iteration, the current prompt π is evaluated on
+a training batch, and the prompt and its performance are appended to a history H. A metaoptimizer M —implemented as a separate GPT-4o instance (prompts are in Appendix B)—receives
+the current prompt, its batch performance, and the full history, and produces a revised prompt via
+reflective self-critique.
+Because the procedure is zeroth-order and relies on the meta-optimizer’s implicit search, the
+final prompt is not necessarily optimal. We therefore maintain a validation-tracked best prompt
+π ⋆ , initialized as π0 , and updated whenever validation performance improves. Upon completion of
+training, π ⋆ is evaluated on the test set.
+Although more advanced methods could be incorporated, this simple strategy already provides
+a strong, systematic baseline and serves as a modular interface for plugging in alternative promptoptimization algorithms. We use 1,000 queries for training, 1,000 for validation, and 5,151 for
+testing. Each initial prompt is optimized for a single epoch using 10 batches of size 100. Increasing the training set size or number of epochs does not meaningfully affect validation or test
+performance.5
+
+5.3
+
+Initial Prompts and Performance
+
+Inspired by prior GEO heuristics (Aggarwal et al., 2024; Berry, 2025; Madhavan, 2025), we construct
+15 initial prompts spanning diverse rewriting strategies. Table 2 reports their descriptions and
+initial and optimized test performance; full prompts appear in Appendix C.2 and Appendix C.3.
+4
+
+https://github.com/elder-plinius/CL4R1T4S.
+We trained three prompts (advertisement, clickable, and competitive) for five epochs. Their test performances
+(mean ± s.e.) were 1.25 ± 0.04, 0.90 ± 0.04, and 1.25 ± 0.04, respectively, comparable to single-epoch results (1.20
+± 0.04, 1.25 ± 0.04, 1.61 ± 0.04). Validation curves also indicate saturation after approximately 500 training queries.
+5
+
+6
+
+Algorithm 1 Prompt Meta-Optimization for GEO
+Require: Training set Dtrain , validation set Dval , test set Dtest ; epochs E; batches per epoch B;
+batch size m; ranking model R; rewriting model GEO; meta-optimizer model M
+1: Initialize current prompt π ← π0
+2: Initialize best prompt π ⋆ ← π0
+3: Initialize best validation score bestVal ← −∞
+4: Initialize history buffer H ← ∅
+5: for e = 1 to E do
+▷ Outer loop over epochs
+B
+6:
+Randomly partition Dtrain into batches {Bb }b=1 of size m
+7:
+for b = 1 to B do
+▷ Iterate over training batches
+(e,b)
+8:
+Strain ← Eval(GEO, π, Bb , R)
+▷ Evaluate current prompt on training batch
+(e,b)
+9:
+H ← H ∪ {(e, b, π, Strain )}
+▷ Store trajectory for reflection
+10:
+v ← Eval(GEO, π, Dval , R)
+▷ Compute validation performance
+11:
+if v > bestVal then
+12:
+bestVal ← v
+13:
+π⋆ ← π
+▷ Track best-performing prompt on validation set
+14:
+end if
+(e,b)
+15:
+π ← M (π, Strain , H)
+▷ Meta-optimizer proposes revised prompt via reflection
+16:
+end for
+17: end for
+18: return π ⋆
+▷ Output best validated prompt
+
+Most human-written prompts provide little to no benefit, as 10 of the 15 yield negligible or
+even negative changes in ranking, and the best achieves an average improvement of only +0.71. In
+contrast, all optimized prompts produce consistent gains, with 11 out of 15 improving ranking by
+at least +1, and even the weakest optimization achieving a +0.68 improvement. Although these
+differences appear modest, industry estimates indicate that a single-rank increase can translate to
+tens of thousands of dollars in annual revenue for just one product.6 The sharp gap between initial
+and optimized performance highlights the value of systematic prompt optimization over ad hoc
+heuristics.
+As a negative control, the storytelling prompt instructs the model to produce narrative text
+while explicitly suppressing factual product details. As expected, it performs poorly in its initial
+form (−4.03). After optimization, however, it achieves a +1.22 improvement, demonstrating the
+flexibility of the framework and its ability to recover effective strategies from weak starting points.
+
+5.4
+
+Evidence for a Universally Effective Rewriting Strategy
+
+In addition to the overall performance gains, we find that several stylistic patterns consistently
+emerge across the 15 optimized prompts, regardless the initial prompts. A list of 10 features of
+interest are described in Table 3, and their presence in each initial and optimized prompt is summarized in Figure 3. Comparison of the initial and optimized prompts reveals a striking convergence:
+while the initial prompts exhibit diverse and often non-overlapping features, the optimized prompts
+consistently show shared characteristics. Furthermore, these features are emergent: they are not
+explicitly programmed into the meta-optimizer but arise naturally from the optimization process.
+Combined with the fact that even an initial prompt as far-fetched as storytelling can be transformed
+6
+
+https://titannetwork.com/amazon-seo
+
+7
+
+Table 2: Initial Prompts and Initial and Optimized Performance (Mean and Standard Error)
+Prompt
+
+Description
+
+Advertisement
+Authoritative
+Clickable
+Competitive
+Diverse
+FAQ
+Fluent
+Format
+Language
+Minimalist
+Quality
+Storytelling
+Technical
+Trick
+Unique
+
+Advertisement-like style.
+Confident, assertive tone.
+Persuasive & compelling.
+Highlight unique advantages.
+Reflect inclusivity.
+Add an FAQ.
+Improve linguistic flow.
+Use headings & bullets.
+Use foreign expressions.
+Reduce to a single sentence.
+Emphasize product quality.
+Write a creative short story.
+Use technical terminology.
+Format like LLM output.
+Use rare vocabulary.
+
+Init. Prompts
+
+Optimized
+
+−0.43 (0.04)
+−0.06 (0.04)
++0.19 (0.04)
++0.71 (0.04)
++0.15 (0.04)
++0.06 (0.04)
++0.02 (0.04)
+−0.35 (0.04)
++0.07 (0.04)
+−1.66 (0.04)
++0.65 (0.04)
+−4.03 (0.05)
+−0.49 (0.04)
++0.28 (0.05)
+−0.26 (0.04)
+
++1.20 (0.04)
++0.77 (0.04)
++1.25 (0.04)
++1.61 (0.05)
++1.23 (0.04)
++1.20 (0.04)
++0.86 (0.04)
++0.68 (0.04)
++1.10 (0.04)
++1.10 (0.04)
++0.69 (0.04)
++1.22 (0.04)
++1.17 (0.04)
++1.15 (0.04)
++1.10 (0.04)
+
+into an effective rewriting strategy, this convergence provides strong evidence for the existence of
+a broadly effective GEO strategy that transcends specific initial prompts.
+Furthermore, all initial prompts except storytelling enforce factual preservation. After optimization, 12 of 15 prompts retain this constraint, suggesting that the optimizer reliably identifies
+factuality as a beneficial property. This suggests that the improvements produced by our GEO
+procedure reflect genuine, non-adversarial enhancements rather than exploitative manipulations.
+Feature
+Ranking
+User Intent
+Competitiveness
+Reviews Ratings
+Compelling
+Authoritativeness
+Unique Selling Points
+Urgent Call
+Easily Scannable
+Maintains Factuality
+
+Description
+Emphasizes the goal of achieving a higher rank.
+Anticipates and aligns with user intent.
+Compares against other products or competitors.
+Draws on positive customer reviews as external evidence.
+Adopts a compelling and persuasive narrative tone.
+Uses a confident and authoritative voice.
+Focuses on the product’s unique features.
+Includes a sense of urgency or scarcity.
+Uses headings, bullet points, or formatting for easy reading.
+Preserves the original factual content of the description.
+
+Table 3: Features of Interest in Optimized Prompts
+
+6
+
+Discussion
+
+We present the first systematic study of generative engine optimization (GEO) in e-commerce,
+supported by a new dataset of realistic, intent-rich product queries paired with product listings.
+Our results demonstrate that simple, optimization-driven rewriting strategies can reliably improve
+product rankings in generative engine outputs and consistently outperform heuristic baselines.
+8
+
+Figure 3: Feature presence heatmaps: Initial (left) vs. Optimized (right) prompts. Red indicates
+absence; green indicates presence. Optimized prompts consistently incorporate key features such
+as ranking emphasis, user intent alignment, competitiveness, and external evidence, suggesting a
+universally effective rewriting strategy. Notably, most optimized prompts maintain the factuality
+requirement present in the initial prompts, indicating that the meta-optimization process reliably
+identifies factuality as an important feature.
+Beyond performance gains, we identify stable rewriting patterns that generalize across products
+and query types, suggesting that effective GEO is governed by transferable structural principles
+rather than ad hoc prompt engineering.
+Our study opens several promising directions for future research. First, an important next step
+is to study equilibrium dynamics when GEO becomes universally adopted, i.e., when all sellers
+actively optimize their product descriptions, potentially leading to congestion effects, strategic
+arms races, or reduced informativeness of content. Second, extending GEO to multi-modal product
+representations such as images and videos may yield richer optimization strategies. Finally, fairness
+and market-design questions arise naturally: GEO may advantage sophisticated sellers and widen
+platform inequalities, motivating work on regulation, guardrails, and platform-level design.
+Overall, we believe that GEO represents a fertile intersection of LLM capabilities, e-commerce
+dynamics, and optimization theory, with many exciting avenues for future exploration. We hope
+our work serves as a foundation for this emerging area.
+
+9
+
+References
+Aggarwal, P., Murahari, V., Rajpurohit, T., Kalyan, A., Narasimhan, K. and Deshpande, A. (2024). Geo: Generative engine optimization. In Proceedings of the 30th ACM
+SIGKDD Conference on Knowledge Discovery and Data Mining. KDD ’24, Association for Computing Machinery, New York, NY, USA.
+URL https://doi.org/10.1145/3637528.3671900
+Agrawal, L. A., Tan, S., Soylu, D., Ziems, N., Khare, R., Opsahl-Ong, K., Singhvi, A.,
+Shandilya, H., Ryan, M. J., Jiang, M., Potts, C., Sen, K., Dimakis, A. G., Stoica, I.,
+Klein, D., Zaharia, M. and Khattab, O. (2025). Gepa: Reflective prompt evolution can
+outperform reinforcement learning.
+URL https://arxiv.org/abs/2507.19457
+Allouah, A., Besbes, O., Figueroa, J. D., Kanoria, Y. and Kumar, A. (2025). What is
+your ai agent buying? evaluation, implications and emerging questions for agentic e-commerce.
+URL https://arxiv.org/abs/2508.02630
+Baye, M. R., Gatti, J. R. J., Kattuman, P. and Morgan, J. (2009). Clicks, discontinuities,
+and firm demand online. Journal of Economics & Management Strategy 18 935–975.
+Bellan,
+R.
+(2025).
+Openai
+takes
+on
+google,
+amazon
+with
+new
+agentic
+shopping
+system.
+https://techcrunch.com/2025/09/29/
+openai-takes-on-google-amazon-with-new-agentic-shopping-system/.
+Berry, S. (2025). What is answer engine optimization? the seo’s guide to aeo. https://www.
+seo.com/ai/answer-engine-optimization/.
+Chen, Y., Liu, S., Liu, Z., Sun, W., Baltrunas, L. and Schroeder, B. (2022). Wands:
+Dataset for product search relevance assessment. In Advances in Information Retrieval (M. Hagen, S. Verberne, C. Macdonald, C. Seifert, K. Balog, K. Nørvåg and V. Setty, eds.). Springer
+International Publishing, New York, NY, USA.
+Hou, Y., Li, J., He, Z., Yan, A., Chen, X. and McAuley, J. (2024). Bridging language and
+items for retrieval and recommendation.
+URL https://arxiv.org/abs/2403.03952
+Kumar, A. and Lakkaraju, H. (2024). Manipulating large language models to increase product
+visibility.
+URL https://arxiv.org/abs/2404.07981
+Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H.,
+Lewis, M., Yih, W.-t., Rocktäschel, T., Riedel, S. and Kiela, D. (2020). Retrievalaugmented generation for knowledge-intensive nlp tasks. In Proceedings of the 34th International
+Conference on Neural Information Processing Systems. NIPS ’20, Curran Associates Inc., Red
+Hook, NY, USA.
+Lyu, L., Siderius, J., Li, H., Acemoglu, D., Huttenlocher, D. and Ozdaglar, A. (2025).
+Wikipedia contributions in the wake of chatgpt. In Companion Proceedings of the ACM on Web
+Conference 2025. WWW ’25, Association for Computing Machinery, New York, NY, USA.
+URL https://doi.org/10.1145/3701716.3715543
+
+10
+
+Madhavan, K. (2025).
+Optimizing your content for inclusion in ai search
+answers.
+https://about.ads.microsoft.com/en/blog/post/october-2025/
+optimizing-your-content-for-inclusion-in-ai-search-answers.
+Mehta, R. and Chilimbi, T. (2024). Amazon announces rufus, a new generative ai-powered conversational shopping experience. https://www.aboutamazon.com/news/retail/amazon-rufus.
+Papenmeier, A., Kern, D., Hienert, D., Sliwa, A., Aker, A. and Fuhr, N. (2021). Dataset
+of natural language queries for e-commerce. In Proceedings of the 2021 Conference on Human
+Information Interaction and Retrieval. CHIIR ’21, Association for Computing Machinery, New
+York, NY, USA.
+URL https://doi.org/10.1145/3406522.3446043
+Pfrommer, S., Bai, Y., Gautam, T. and Sojoudi, S. (2024). Ranking manipulation for conversational search engines. In Proceedings of the 2024 Conference on Empirical Methods in Natural
+Language Processing (Y. Al-Onaizan, M. Bansal and Y.-N. Chen, eds.). Association for Computational Linguistics, Miami, Florida, USA.
+URL https://aclanthology.org/2024.emnlp-main.534/
+Reddy, C. K., Màrquez, L., Valero, F., Rao, N., Zaragoza, H., Bandyopadhyay, S.,
+Biswas, A., Xing, A. and Subbian, K. (2022). Shopping queries dataset: A large-scale esci
+benchmark for improving product search.
+URL https://arxiv.org/abs/2206.06588
+Sommerfeld, N., McCurry, M. and Harrington, D. (2025).
+Goodbye clicks,
+hello ai:
+Zero-click search redefines marketing.
+https://www.bain.com/insights/
+goodbye-clicks-hello-ai-zero-click-search-redefines-marketing/.
+Toscano, J. (2025).
+Ai is destroying seo. rank now requires answer engine
+optimization.
+https://www.forbes.com/sites/joetoscano1/2025/09/03/
+ai-is-destroying-seo-rank-now-requires-answer-engine-optimization/.
+Wu, L., Zheng, Z., Qiu, Z., Wang, H., Gu, H., Shen, T., Qin, C., Zhu, C., Zhu, H., Liu,
+Q., Xiong, H. and Chen, E. (2024). A survey on large language models for recommendation.
+World Wide Web 27.
+URL https://doi.org/10.1007/s11280-024-01291-2
+Zhou, Y., Muresanu, A. I., Han, Z., Paster, K., Pitis, S., Chan, H. and Ba, J. (2023). Large
+language models are human-level prompt engineers. In The Eleventh International Conference
+on Learning Representations. Kigali, Rwanda.
+URL https://openreview.net/pdf?id=92gvk82DE-
+
+11
+
+A
+
+Re-ranker Prompts
+
+Prompts have been formatted and adapted for presentation. Raw prompts can be found at https:
+//github.com/psbagga17/E-GEO.
+Ranking System Prompt
+You are ChatGPT, a large language model trained by OpenAI, based on the GPT-4o architecture.
+Knowledge cutoff: 2024-06
+Current date: 2025-10-08
+Image input capabilities: Enabled
+Personality: v2
+Engage warmly yet honestly with the user. Be direct; avoid ungrounded or sycophantic flattery.
+Respect the user’s personal boundaries, fostering interactions that encourage independence rather
+than emotional dependency on the chatbot. Maintain professionalism and grounded honesty that
+best represents OpenAI and its values.
+...
+Full prompt available here: CL4R1T4S Extracted System Prompts
+
+Ranking User Prompt
+Here is my query: {query}
+Here are the products: {formatted products}
+Can you rank these products from best to worst based on which one I should buy for my query?
+Make sure to rank EVERY product and include them ALL in your answer. DO NOT leave any out.
+Please provide your answer as a JSON object containing the product numbers in order from best
+(1st) to worst (last).
+Example format: {{“ranking”: [<your ranking here>]}}
+Return ONLY the JSON object, no additional text.
+
+B
+
+Meta-Optimizer Prompts
+Meta-Optimizer System Prompt
+You are an expert in prompt engineering, marketing, and writing.
+Your goal is to improve the rewriting prompt so that when it rewrites a product description, that
+product ranks higher compared to other products.
+
+Meta-Optimizer User Prompt
+I need you to improve a prompt that rewrites product descriptions to make them rank higher in
+product comparisons.
+CONTEXT:
+We have a system where: 1. A product description is rewritten using a prompt (the one we’re
+
+12
+
+optimizing)
+2. The rewritten description is shown to an LLM alongside other products and a user query
+3. The LLM ranks all products from best to worst for the query 4. We measure how much the
+rewritten product’s ranking improved (lower position = better)
+
+CURRENT REWRITING PROMPT:
+{current prompt}
+PERFORMANCE ON {batch size} QUERIES: - Mean ranking improvement: {mean:} positions
+(positive = moved up in ranking)
+- Standard deviation: {std:}
+- Success rate (improved ranking): {improvement rate:}%
+- Median improvement: {median:.3f}
+- Total experiments: {total}
+- Improved (ranked higher): {improved}
+- Degraded (ranked lower): {degraded}
+- No change: {neutral}
+
+HISTOGRAM OF IMPROVEMENTS: (Positive numbers = product ranked higher, negative =
+ranked lower)
+{histogram text}
+{history section}
+YOUR TASK:
+1. Analyze the current prompt’s weaknesses
+2. Explain your meta-reasoning about what makes products rank higher
+3. Suggest specific improvements
+4. Provide a complete new rewriting prompt
+IMPORTANT: - The new prompt must include {{description}} placeholder where the product
+description will be inserted
+- The prompt should instruct the LLM to rewrite the description, not just analyze it
+- Focus on what makes a product description MORE LIKELY TO RANK HIGHER in comparisons
+- Maintain factual accuracy while improving appeal
+
+Return your response in this EXACT format:
+—ANALYSIS— [Explain what the current prompt is doing and its weaknesses]
+—META-REASONING— [Your reasoning about what makes product descriptions rank higher and
+how the prompt should guide that]
+—IMPROVEMENTS— [Specific improvements you’re making to the prompt]
+—NEW REWRITING PROMPT— [The complete new prompt that will rewrite product descriptions. Must include {{description}} placeholder]
+
+13
+
+C
+
+GEO Prompts
+
+C.1
+
+Fixed System Prompt
+
+Optimizer System Prompt
+You are an expert ml researcher having previous background in SEO and search engines in general.
+You are working on novel research ideas for next generation of e-commerce websites.
+These websites will have language models augmented with search engines, with the task of recommending products based on the catalog of products backed by the search engine.
+This new set of systems will be collectively called language engines (generative search engines).
+This will require e-commerce businesses to update their SEO techniques so that the product ranks
+higher in the llm generated answer.
+Specifically they will use GEO (Generative Engine Optimization) techniques to boost their visibility
+in the final rankings outputted by the Language Engine.
+
+C.2
+
+Initial User Prompts
+
+Advertisement
+Transform the following product description into an advertisement format that is engaging and
+persuasive.
+Use catchy phrases, slogans, and a call-to-action to entice potential customers.
+Maintain the core information about the product, but present it in a way that highlights its benefits
+and unique selling points.
+Use marketing techniques to create a sense of urgency or exclusivity.
+You may also research and use popular advertisement styles and formats to guide your rewriting.
+You can find inspiration and tricks from successful ads in similar product categories.
+Description: {description}
+
+Authoritative
+Transform the following product description into an authoritative style without adding or removing
+any core information.
+The revised description should reflect confidence, expertise, and assertiveness, while maintaining the
+original content’s meaning and relevance.
+The description should be assertive in its statements, such that reader believes that this is more
+valuable product than other products.
+End Goal is to increase the ranking of the product, by assertively saying that this is the best product
+for the user.
+However, the content should remain the same. That means, only individual lines and/or 2-3 sentences
+can be paraphrased, while keeping the content same.
+Description: {description}
+Remember to be authoritative, but keep the content of text the same.
+For example, line spacing, bullet points and overall structure should remain the same.
+No addition or deletion of content is allowed.
+Note we have to convince the reader that this is an relevant product by saying it authoritatively in
+
+14
+
+the description itself.
+For example the addition of phrases such as “only we are authentic etc”, “we guarantee”, use of
+second pronouns such as “you will not regret” etc is expected within the content itself.
+
+Clickable
+Enhance the following product description to make it more clickable and engaging, without changing
+the core information.
+Use persuasive language and compelling phrases that encourage users to click on the product when
+they see it among other options.
+Make sure the description highlights the product’s key benefits and unique selling points in an
+appealing way.
+Description: {description}
+
+Competitive
+Rewrite the following product description to highlight what makes this product superior compared
+to others in its category.
+Use confident but factual comparisons, without mentioning specific competitors.
+Emphasize unique features, innovations, and advantages that set it apart, while maintaining factual
+consistency with the original text.
+Do not change the core information, but make it clear why this product is the best choice.
+Description: {description}
+
+Diverse
+Revise the following product description to include and highlight diverse references and perspectives,
+without altering the core information.
+Ensure that the description reflects inclusivity and appeals to a broad audience.
+Highlight features and aspects of the product that are diverse in nature.
+Description: {description}
+
+FAQ
+Revise the following product description by adding FAQ sections that address common questions
+related to the product.
+You should keep as much of the original description as you decide is necessary to accommodate the
+FAQ sections.
+Ensure that the FAQ sections are relevant and provide clear, concise answers to potential customer
+inquiries.
+Your goal is to enhance the description’s informativeness and user-friendliness making it more
+appealing to the user.
+Description: {description}
+
+Fluent
+Rewrite the following product description to make it more fluent without altering the core content.
+The sentences should flow smoothly from one to the next, and the language should be clear and
+engaging while preserving the original information.
+
+15
+
+Description: {description}
+
+Format
+Improve the following product description by implementing best practices for content formatting
+that enhances readability and user engagement.
+Use clear headings and subheadings to organize content logically.
+Incorporate bullet points and numbered lists to break down complex information.
+Rewrite the description in markdown format for better presentation.
+Structure content with headings and lists: Break information into digestible chunks with clear H2s,
+H3s, and bullet points.
+Ensure content accuracy and freshness: Answer engines favor content that is authoritative and
+up-to-date.
+Description: {description}
+
+Language
+Enhance the following product description by incorporating words and phrases from other languages
+that convey unique concepts or emotions.
+Ensure that these additions enrich the content and are relevant to the product, while preserving the
+original meaning.
+Your goal is to entice the user by adding exotic and intriguing linguistic elements like keywords from
+other languages that do not have direct English translations.
+Use these terms to elevate the tone, evoke sophistication, or create an emotional connection — while
+keeping the original meaning intact.
+Select expressions that naturally complement the product’s domain (e.g., French for fashion and
+such).
+Include select words or phrases from other languages that are commonly recognized and enrich the
+tone like “je ne sais quoi”, “carpe die”, “feng shui”, “hygge”, “mantra”.
+Make sure the overall description remains coherent and engaging.
+Description: {description}
+
+Minimalist
+Reduce the following product description into a single, short sentence using plain factual language.
+Do not attempt to persuade or embellish — simply summarize the essence of the product as concisely
+as possible.
+Description: {description}
+
+Quality
+Revise the following product description so that it emphasizes the high quality of the product.
+Focus on what the customer gains from using this product, rather than just listing features.
+Emphesize that the key features and/or materials used in the product are of superior quality.
+Emphesize the quality of the overall product and how it stands out in terms of value and user
+satisfaction.
+Maintain factual accuracy and original information, but restructure sentences to highlight value and
+outcomes.
+Description: {description}
+
+16
+
+Storytelling
+Rewrite the following product description as a short story, focusing on narrative elements rather
+than factual information.
+Use creative language and storytelling techniques to engage the reader, but do not include specific
+product details or features.
+Create characters and settings if needed.
+Description: {description}
+
+Technical
+Make the following product description more technical, using giving more technical terms and facts
+where needed while ensuring the key information is still conveyed. Do not omit, add, or alter any
+core information in the process.
+Remember the end-goal is that very knowledgeable readers give more attention to this product,
+when presented with a series of other products, so make the language such that it has more technical
+information or existing information is presented in more technical fashion.
+However, do not add or delete any content. The number of words in the initial description should be
+the same as that in the final.
+The length of the new description should be the same as the original. Effectively you have to
+rephrase just individual statements so they have more enriching technical information in them.
+Description: {description}
+
+Trick
+Enhance the following product description, so that an LLM is more likely to rank it higher in product
+rankings.
+Your goal is to change the format of the text such that it aligns better with LLM ranking algorithms.
+Use features and language like specific style and/or grammar changes that are known to influence
+LLM ranking positively.
+Reorder or rephrase content to align with LLM ranking preferences, while keeping the core information intact.
+You may include subtle cues or keywords that are favored by LLMs in ranking tasks.
+You should research and apply known strategies for optimizing text for LLM ranking.
+Do not alter the factual content, but optimize the presentation for better LLM ranking outcomes.
+Description: {description}
+
+Unique
+Revise the following product description by incorporating more unique and rare words, without
+altering the core information.
+Ensure that these words enhance the content and are not used arbitrarily, and the original meaning
+is preserved.
+Description: {description}
+
+17
+
+C.3
+
+Optimized User Prompts
+
+Advertisement
+Rewrite the following product description to optimize its ranking in product comparisons.
+Focus on tailoring the content to address specific user queries and buyer personas with precision.
+Highlight the product’s most compelling and unique advantages over competitors, using direct
+comparisons where applicable.
+Seamlessly integrate relevant keywords that align with common search terms.
+Build credibility by incorporating strong social proof, such as authentic testimonials or reviews.
+Craft a narrative that combines factual benefits with emotional engagement.
+Conclude with a clear, urgent, and persuasive call to action that encourages immediate response.
+Description: {description}
+
+Authoritative
+Revise the following product description to clearly and confidently communicate its unique value
+while maintaining factual accuracy.
+Transform the language to be engaging and relevant to potential user queries, emphasizing why this
+product is superior.
+You may adjust the structure slightly to better highlight key features and benefits, but do not add
+or remove core information.
+Use persuasive language that directly addresses the user’s needs and showcases the product’s
+advantages over competitors.
+Description: {description}
+Ensure the revised description is both authoritative and empathetic, appealing directly to the
+reader’s interests and needs.
+Use phrases that convey confidence, such as “experience unmatched quality” or “designed for your
+ultimate satisfaction,” while maintaining the integrity of the original content.
+
+Clickable
+Revise the following product description to maximize its ranking in product comparisons by focusing
+on:
+- Seamlessly integrating relevant keywords and phrases to align with common search queries
+and improve SEO.
+- Highlighting distinctive features and benefits in a way that clearly differentiates the product from
+competitors, using specific, comparative language.
+- Structuring the description with bullet points for clarity and emphasis on critical information.
+- Balancing factual accuracy with a narrative that resonates emotionally with users, addressing both
+their needs and desires.
+- Proactively addressing potential user objections or concerns to enhance trust and credibility.
+- Leveraging user testimonials or expert endorsements to further increase the product’s appeal and
+reliability.
+Description: {description}
+
+18
+
+Competitive
+Rewrite the following product description to position this product as the leading choice in its
+category.
+Highlight its unique features and innovations by directly comparing them to typical competitors,
+demonstrating clear advantages.
+Use precise, factual language to convey the tangible benefits these features offer, addressing common
+user queries and potential objections.
+Include bullet points or lists for emphasis, and integrate any available customer testimonials or
+evidence of effectiveness.
+Ensure the description is persuasive, engaging, and maintains consistency with the original text.
+Description: {description}
+
+Diverse
+Revise the following product description to effectively highlight its unique features and advantages
+over competitors, using clear and specific comparisons.
+Focus on aligning the description with likely user queries by incorporating relevant keywords and
+search terms.
+Integrate social proof elements, such as customer testimonials or data points, to bolster credibility
+while ensuring they complement the core message.
+Strive for clarity, conciseness, and a balance between emotional appeal and factual precision to create
+a compelling and informative narrative that stands out in product comparisons.
+Description: {description}
+
+FAQ
+Revise the following product description to enhance its ranking in product comparisons by focusing
+on user intent and query relevance.
+Identify the most common questions or concerns potential buyers may have and structure the
+description to proactively address them.
+Clearly articulate competitive advantages and unique selling points that directly respond to these
+user needs.
+Use data-driven evidence, such as customer reviews or ratings, to support claims where available.
+Incorporate concise and impactful language that balances emotional appeal with factual accuracy.
+Ensure SEO-friendly phrasing by integrating relevant keywords related to the product type and
+query context.
+Description: {description}
+
+Fluent
+Rewrite the following product description to make it highly relevant to specific user queries and
+intents, incorporating common search terms and phrases.
+Focus on the direct benefits and unique features that address specific user needs and solve their
+problems, using data, statistics, or testimonials for credibility.
+Clearly articulate the product’s comparative advantages over competitors with specific examples.
+Use persuasive and engaging language to create a strong emotional connection with the reader, and
+include a compelling call-to-action that highlights the product’s unique selling proposition.
+Ensure the description remains factual and accurate.
+
+19
+
+Description: {description}
+
+Format
+Rewrite the following product description to maximize its ranking in product comparisons by
+focusing on SEO, user intent, and competitive differentiation.
+Structure the content using clear headings (H2, H3) and bullet points for readability and engagement.
+1. Optimize for Keywords: Integrate primary and secondary keywords that align with potential user queries, enhancing visibility and relevance.
+2. Highlight Unique Value Proposition: Clearly communicate what sets this product apart
+from competitors, focusing on unique features and benefits.
+3. SEO-Friendly Elements: Include meta descriptions and, if applicable, alt text for images to
+improve search engine discoverability.
+4. Tailor to User Journey: Craft content that resonates with users at different stages of their
+buying journey, from awareness to decision-making.
+5. Engage with Emotional and Rational Appeals: Use language that emotionally connects
+with users while providing rational evidence of the product’s value.
+6. Incorporate Social Proof : Add testimonials, reviews, and accolades to build trust and
+authority.
+7. Compelling Call to Action: Inspire immediate interest and action with dynamic, actionoriented language.
+Ensure factual accuracy and maintain a user-centric focus, making the description both compelling and informative.
+Use markdown format for better presentation.
+Description: {description}
+
+Language
+Rewrite the following product description to enhance its ranking in product comparisons.
+Focus on clearly addressing user queries by highlighting the product’s unique selling points and
+quantifiable benefits.
+Use direct and concise language to differentiate the product from competitors, while incorporating
+factual data and relevant testimonials to support claims.
+Ensure the description aligns with user search intent and concludes with a logical, compelling
+call-to-action that integrates the product into the user’s lifestyle.
+Maintain factual accuracy throughout.
+Description: {description}
+
+Minimalist
+Rewrite the following product description to enhance its clarity and direct relevance to common user
+queries.
+Focus on concisely articulating the product’s key features and benefits, and how they address specific
+user needs or desires.
+Differentiate the product from competitors by highlighting unique advantages.
+Use factual language that resonates with potential buyers, and incorporate social proof, such as
+testimonials or expert endorsements, where it directly supports key points.
+
+20
+
+Ensure the description remains factual, easily scannable, and compelling.
+Description: {description}
+
+Quality
+Revise the following product description to maximize its ranking potential in product comparisons.
+Focus on these strategies:
+- Craft a compelling opening narrative that immediately connects with the target audience’s
+desires and aspirations.
+- Highlight the product’s unique selling propositions using clear and impactful language, setting it
+apart from competitors.
+- Integrate user-centric language that speaks directly to the audience’s specific needs, pain points,
+and desires.
+- Seamlessly incorporate relevant keywords and phrases to align with common search queries and
+user intents.
+- Leverage social proof by including testimonials, user reviews, or evidence of effectiveness to build
+credibility and trust.
+- Develop an emotional narrative that demonstrates how the product fits into the consumer’s lifestyle
+and fulfills their aspirations.
+- Highlight quantifiable benefits such as effectiveness, awards, or certifications to enhance credibility.
+- Conclude with a strong, persuasive call to action that encourages engagement or immediate
+purchase, tailored to the audience’s motivations.
+Description: {description}
+
+Storytelling
+Rewrite the following product description to maximize its ranking potential in product comparisons
+by clearly highlighting unique selling propositions and quantifiable benefits.
+Focus on aligning the description with specific user needs and search intent by illustrating real-world
+applications and transformative impacts.
+Incorporate elements that build trust, such as testimonials, data, or awards, to enhance credibility.
+Differentiate the product from competitors by emphasizing its unique features and advantages.
+Ensure the description is concise, factually accurate, emotionally engaging, and includes a compelling
+narrative that resonates with the user’s context and desires.
+Description: {description}
+
+Technical
+Revise the following product description to significantly enhance its ranking potential in product
+comparisons.
+Focus on tailoring the content to address specific customer queries and pain points effectively.
+Highlight the product’s unique features and competitive advantages, clearly differentiating it from
+alternatives.
+Integrate relevant keywords seamlessly to boost search engine visibility, ensuring they align with user
+intent.
+Use persuasive and data-driven language to substantiate claims and deliver a compelling narrative.
+Maintain factual accuracy and engaging storytelling to guide potential buyers confidently toward a
+
+21
+
+purchasing decision.
+Description: {description}
+
+Trick
+Rewrite the following product description to significantly enhance its likelihood of ranking higher in
+product comparisons by an LLM.
+Tailor the description to the specific product category, aligning closely with common user queries
+and pain points.
+Emphasize the product’s unique features and benefits using persuasive language that balances
+emotional appeal with factual clarity.
+Seamlessly integrate relevant keywords to align with search intent and enhance SEO.
+Establish credibility through subtle elements of social proof, such as testimonials or awards, and
+create a sense of urgency to encourage immediate user action.
+Ensure the narrative is engaging, precise, and tailored to resonate with the target audience.
+Description: {description}
+
+Unique
+Revise the following product description to enhance clarity and appeal to potential customers.
+Focus on incorporating relevant high-value keywords and emphasizing the product’s unique features
+and benefits.
+Ensure the description is engaging, easy to read, and aligned with common user queries, while
+maintaining factual accuracy.
+Description: {description}
+
+22
+
+

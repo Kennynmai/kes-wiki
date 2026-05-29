@@ -21,7 +21,7 @@ related:
   - ../../source-summaries/bathtub-filter-onlyzone-supplier-material-evidence-2026-04-17.md
 ---
 
-# Bathtub Filter 媒体在浴缸条件下的效能
+# 浴缸条件下的滤材效能
 
 ## 为什么有这页
 

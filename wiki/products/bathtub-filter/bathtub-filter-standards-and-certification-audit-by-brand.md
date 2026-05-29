@@ -18,7 +18,7 @@ related:
   - ./bathtub-filter-certification-authority-tiers-and-workflow.md
   - ../../syntheses/bathtub-filter-review-and-compliance-landscape.md
 ---
-# 浴缸过滤器（bathtub filter）品牌标准 / 认证审核
+# 浴缸过滤器品牌标准与认证审核
 
 ## 为什么有这页
 这页专门回答一个经常被市场文案混淆的问题：

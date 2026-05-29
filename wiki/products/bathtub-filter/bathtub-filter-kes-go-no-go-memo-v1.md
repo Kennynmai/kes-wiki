@@ -17,7 +17,7 @@ related:
   - ./bathtub-filter-brand-page-pack-audit-v2.md
   - ./bathtub-filter-claim-risk-audit-v2.md
 ---
-# 浴缸过滤器（bathtub filter）KES Go / No-Go 备忘录 — V1
+# 浴缸过滤器 Go / No-Go 备忘录 — V1
 
 ## 决策状态
 **当前答案：conditional GO for continued diligence，不是 product GO。**

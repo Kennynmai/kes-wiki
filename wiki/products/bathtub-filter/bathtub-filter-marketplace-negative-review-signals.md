@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-15
+updated: 2026-04-22
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, marketplace, negative-reviews, complaints]
-source_count: 2
+source_count: 3
 review_cycle: monthly
 verification_status: working
 related:
@@ -17,8 +17,11 @@ related:
   - ./bathtub-filter-review-patterns-and-return-risk.md
   - ./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
   - ./bathtub-filter-installation-risk-matrix-v2.md
+  - ../../source-summaries/bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22.md
 ---
-# 浴缸过滤器（bathtub filter）市场负面评论（review）信号
+# 浴缸过滤器市场负面评论信号
+
+> **2026-04-22 补充：** 本页新增 10 个 Amazon US ASIN、2,562 条评论的项目级统计层，用来给既有 negative-signal scouting 排序。
 
 ## 为什么有这份页面
 这页专门存放 **marketplace-native negative signals（平台原生负面信号）**，
@@ -87,6 +90,17 @@ related:
 一旦叠加，用户很容易把产品总结成：
 **贵、麻烦、还不确定到底有没有用。**
 
+## 10-ASIN 项目级排序补充
+
+| 负面信号 | 提及次数 | 提及率 | 解释 |
+|---|---:|---:|---|
+| 漏水 / 溢水 / 水流异常 | 284 | 11.1% | 结构层第一风险，先于功效被验证 |
+| 寿命短 / 更换成本 / 维护麻烦 | 233 | 9.1% | 使用后阻力比页面想象得更强 |
+| 说明不清 / 使用边界不清 | 50 | 2.0% | 页面没把安装和维护教育讲明白 |
+| 不兼容 / 装不上 / 固定不稳 | 48 | 1.9% | 低频高杀伤，直接导致不可用 |
+| 做工 / 结构不稳 | 41 | 1.6% | 会放大高价带的不值感 |
+| 过滤效果不明显 | 11 | 0.4% | 绝对量不高，但在 baby / sensitive-skin 场景杀伤很大 |
+
 ## 当前已看到的高价值 complaint cluster
 ### A. 功效存疑
 典型语言：
@@ -115,6 +129,13 @@ related:
 - not worth the money
 - mixed functionality and value
 
+### E. 维护负担与长期不值
+这是一类新增被项目盘补强出来的重要 cluster：
+- 更换频繁
+- 发霉 / 有味道
+- 长期不值
+- 维护脏乱感强
+
 ## 为什么这对 KES 很重要
 bathtub filter 这个类目，最危险的不是单点失效，
 而是 **功效争议 + 安装/导流失败** 同时发生。
@@ -137,6 +158,7 @@ bathtub filter 这个类目，最危险的不是单点失效，
 - forced water path（强制过水路径）
 - overflow control（防溢流控制）
 - bounded compatibility（有边界的适配说明）
+- maintenance logic（维护与换芯逻辑）
 
 ### 文案层
 更该避免：
@@ -149,6 +171,7 @@ bathtub filter 这个类目，最危险的不是单点失效，
 - recommended flow guidance
 - compatible / not-compatible clarity
 - why this design avoids slipping / overflow
+- replacement / drying / storage clarity
 
 ## 下一步最值得做的 review 挖掘
 1. 对 3–5 个头部 SKU 手工抽取 20–30 条 review/Q&A fragment
@@ -159,3 +182,4 @@ bathtub filter 这个类目，最危险的不是单点失效，
 ## 来源
 - `../../../raw/products/bathtub-filter/2026-04-13-marketplace-negative-review-signals.md`
 - `../../../raw/products/bathtub-filter/2026-04-15-marketplace-review-mining-pass.md`
+- [Source Summary — Bathtub Filter Amazon 10-ASIN Project Market Survey (2026-04-22)](../../source-summaries/bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22.md)

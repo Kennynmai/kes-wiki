@@ -3,10 +3,13 @@ type: market
 status: active
 owner: strategy
 created: 2026-04-06
-updated: 2026-04-06
+updated: 2026-04-19
 visibility: company
 confidence: medium
 officiality: draft
+aliases: [日本市场, 日本, Japan]
+name_zh: 日本市场
+name_en: Japan
 domain: market
 domains: [japan, strategy, market-entry]
 source_count: 0
@@ -18,7 +21,7 @@ related:
   - ../products/curtains.md
 ---
 
-# Japan
+# 日本市场（Japan）
 
 ## Opportunity thesis
 Japan is a target expansion market that should be evaluated with explicit market-entry assumptions, platform fit analysis, and product/category suitability review.

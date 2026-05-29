@@ -16,7 +16,7 @@ related:
   - ./bathtub-filter.md
   - ../../syntheses/bathtub-filter-competitor-and-demand-scan.md
 ---
-# 浴缸过滤器（bathtub filter）用户细分
+# 浴缸过滤器用户细分
 
 ## 为什么有这份页面
 浴缸过滤器（bathtub filter）似乎不是大众市场通用的公用设施购买品。它看起来更像是一个以问题为主导的类别，其中定位将取决于优先考虑哪个用户群。

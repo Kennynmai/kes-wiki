@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-15
+updated: 2026-04-22
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, review-patterns, return-risk, marketplace]
-source_count: 2
+source_count: 3
 review_cycle: monthly
 verification_status: working
 related:
@@ -18,8 +18,11 @@ related:
   - ./bathtub-filter-claim-risk-audit-v2.md
   - ./bathtub-filter-pricing-refill-flow-fit-table-v2.md
   - ../../source-summaries/bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13.md
+  - ../../source-summaries/bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22.md
 ---
-# 浴缸过滤器（bathtub filter）评论模式与退货风险
+# 浴缸过滤器评论模式与退货风险
+
+> **2026-04-22 补充：** 本页新增一层 10-ASIN / 2,562 条评论的项目级汇总。此前这页更偏 pattern scout；现在可以把“哪些模式存在”往前推进到“哪些模式最影响项目决策”。
 
 ## 为什么有这页
 本页聚焦一个很实际的商业问题：
@@ -30,6 +33,47 @@ related:
 这是一份基于公开 review-style editorial content（评测/导购内容）、品牌页面，以及新增的 marketplace-native snippet / Q&A / Reddit 线索的定向综合。
 
 它适合用于识别 **pattern（模式）**，但不应被当作最终的定量评论挖掘结果。
+
+新增的项目调查进一步补强了这页：
+- 已有 pattern scout：告诉我们问题有哪些
+- 新增项目汇总：告诉我们这些问题在 10 个 ASIN 总盘里谁更靠前
+
+## 10-ASIN 项目级补充判断
+
+### 1. 页面卖的是去氯，评论买的是安心
+从 10 个 ASIN 的总盘看，这个类目的情绪中心不是“10-stage”或“2500 gallons”，而是：
+- 安不安心
+- 稳不稳定
+- 麻不麻烦
+
+### 2. 真实需求不是单线，而是三条线叠加
+
+| 需求主题 | 提及次数 | 提及率 |
+|---|---:|---:|
+| 硬水 / 氯味 / 水质改善 | 1128 | 44.0% |
+| 安装方便 / 不想折腾 | 660 | 25.8% |
+| 敏感肌 / eczema / 干痒相关 | 592 | 23.1% |
+| 宝宝 / 儿童洗澡场景 | 585 | 22.8% |
+
+### 3. 退货风险最强的仍是结构和维护
+
+| 共性痛点 | 提及次数 | 提及率 |
+|---|---:|---:|
+| 漏水 / 溢水 / 水流异常 | 284 | 11.1% |
+| 寿命短 / 更换成本 / 维护麻烦 | 233 | 9.1% |
+| 说明不清 / 使用边界不清 | 50 | 2.0% |
+| 不兼容 / 装不上 / 固定不稳 | 48 | 1.9% |
+| 做工 / 结构不稳 | 41 | 1.6% |
+| 过滤效果不明显 | 11 | 0.4% |
+
+### 4. 页面与评论之间有四个稳定错位
+
+| 页面常讲 | 用户真实验证 | 结果 |
+|---|---|---|
+| 去氯 / 过滤级数 | 会不会漏 / 会不会慢 | 页面与体验错位 |
+| universal fit | 到底能不能装稳 | 页面与安装现实错位 |
+| 多级滤材 | 长期值不值 / 怎么维护 | 页面与使用周期错位 |
+| baby / sensitive skin | 体感是否真实 / 是否更安心 | 页面与信任机制错位 |
 
 ## 早期转化驱动因素
 ### 1. chlorine smell reduction（氯味降低）是最容易被感知的价值点
@@ -168,6 +212,12 @@ related:
 
 评论风险不是边缘问题，而是能否规模化经营的核心变量。
 
+### 2026-04-22 后的路线判断
+基于 10-ASIN 汇总，本页对路线优先级的判断应更明确：
+- 更值得下注：中价专业结构款、母婴安全方案款
+- 只可局部参考：标准参数型、泛“通用升级”型
+- 不建议继续卷：低价白牌挂装过滤款，除非结构、兼容表达或低维护能力能明显领先
+
 ## 下一步应验证什么
 1. 按 SKU 抽取 20–30 条 marketplace-native review / Q&A fragments
 2. 按 product form 聚类 fit failure / slip failure / overflow failure
@@ -188,3 +238,4 @@ related:
 ## Sources
 - [Source Summary — Bathtub Filter Marketplace Review and Editorial Review Pass (2026-04-13)](../../source-summaries/bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13.md)
 - `../../../raw/products/bathtub-filter/2026-04-15-marketplace-review-mining-pass.md`
+- [Source Summary — Bathtub Filter Amazon 10-ASIN Project Market Survey (2026-04-22)](../../source-summaries/bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22.md)

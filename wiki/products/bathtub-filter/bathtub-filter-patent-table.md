@@ -18,7 +18,7 @@ related:
   - ../../syntheses/bathtub-filter-patent-and-technical-landscape.md
   - ../../playbooks/patent-investigation-workflow.md
 ---
-# 浴缸过滤器（bathtub filter）专利表
+# 浴缸过滤器专利表
 
 ## 为什么有这页
 这页把 bathtub filter 相关公开专利线索整理成更可比较的工作表。

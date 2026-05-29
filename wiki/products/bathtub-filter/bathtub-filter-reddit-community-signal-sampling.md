@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-research-coverage-gaps.md
 ---
 
-# Bathtub Filter — Reddit / 社区信号采样
+# 浴缸过滤器 Reddit 与社区信号采样
 
 ## 为什么有这页
 

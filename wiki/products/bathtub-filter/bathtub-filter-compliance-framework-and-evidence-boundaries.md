@@ -18,7 +18,7 @@ related:
   - ./bathtub-filter-certification-authority-tiers-and-workflow.md
   - ./bathtub-filter-claim-risk-audit-v2.md
 ---
-# 浴缸过滤器（bathtub filter）合规框架与证据边界
+# 浴缸过滤器合规框架与证据边界
 
 ## 为什么有这页
 这页不是列品牌，而是建立一个 **判断框架**：

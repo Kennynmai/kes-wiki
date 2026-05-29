@@ -18,7 +18,7 @@ related:
   - ./bathtub-filter.md
   - ../../playbooks/patent-investigation-workflow.md
 ---
-# Bathtub Filter 竞争 IP / 品牌标记深度地图
+# 浴缸过滤器竞争 IP 与品牌标记地图
 
 ## 为什么有这页
 这页不做法律意义上的 FTO，

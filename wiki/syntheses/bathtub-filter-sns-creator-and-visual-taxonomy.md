@@ -19,11 +19,10 @@ related:
 
 # 浴缸过滤器（Bathtub Filter）SNS、创作者与视觉分类法
 
-## Obsidian links
+## 相关页面
 - [[bathtub-filter]]
 - [[bathtub-filter-brand-and-content-landscape]]
 - [[bathtub-filter-operations-channel-and-visual-landscape]]
-- [[bathtub-filter-obsidian-map]]
 
 ## 为什么会有这页
 这页更深入处理所谓的 F-layer：不仅是 social / creator content 的存在本身，而是它**如何把这个品类压缩成可重复的 narratives 与 visual codes（视觉代码）**。

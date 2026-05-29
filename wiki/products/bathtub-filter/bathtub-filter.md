@@ -3,13 +3,16 @@ type: product
 status: active
 owner: product
 created: 2026-04-11
-updated: 2026-04-14
+updated: 2026-04-22
 visibility: company
 confidence: medium
 officiality: draft
+aliases: [浴缸过滤器, 泡澡过滤器, Bathtub Filter]
+name_zh: 浴缸过滤器
+name_en: Bathtub Filter
 domain: product
 domains: [bathtub-filter, water-filtration, bathroom, product-research]
-source_count: 1
+source_count: 2
 review_cycle: monthly
 verification_status: working
 related:
@@ -19,19 +22,24 @@ related:
   - ./bathtub-filter-user-segments.md
   - ./bathtub-filter-product-forms.md
   - ./bathtub-filter-technology-notes.md
+  - ./bathtub-filter-atmospheric-vacuum-breaker-avb.md
+  - ./bathtub-filter-chloramine-media-research.md
+  - ./bathtub-filter-point-of-use-hardness-softening-feasibility.md
+  - ./bathtub-filter-kes-media-stack-options-by-water-type.md
   - ./bathtub-filter-buying-criteria.md
   - ./bathtub-filter-claims-and-certifications.md
   - ./bathtub-filter-certification-and-testing-pathways.md
   - ./bathtub-filter-evidence-bibliography.md
+  - ./bathtub-filter-academic-paper-research-summary.md
   - ./bathtub-filter-evidence-matrix.md
   - ./bathtub-filter-institutional-guidance.md
   - ./bathtub-filter-review-patterns-and-return-risk.md
+  - ./bathtub-filter-competitor-review-corpus-2026-04.md
   - ./bathtub-filter-content-ecosystem-by-layer.md
-  - ./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
   - ../products/curtains.md
 ---
 
-# Bathtub Filter
+# 浴缸过滤器（Bathtub Filter）
 
 ## 页面定位
 这是 bathtub filter 主题的 **canonical page（总页）**。
@@ -87,6 +95,17 @@ related:
 - normal-flow disappointment（正常流速下效果不及营销期待）
 - leak / overflow / maintenance burden（漏水 / 溢流 / 维护负担）
 
+### 4. 2026-04-22 的 10-ASIN 评论总盘进一步确认：页面卖的是去氯，用户买的是安心
+新增项目调查覆盖 Amazon US 10 个 ASIN、2,562 条评论。它把此前 cluster 中的判断进一步量化为：
+- 最高频需求：硬水 / 氯味改善（44.0%）
+- 第二需求：安装省事 / 不想折腾（25.8%）
+- 高价值场景：敏感肌（23.1%）和宝宝 / 儿童（22.8%）
+
+对应的高频负面则不是“完全没效果”，而是：
+- 漏水 / 溢水 / 水流异常（11.1%）
+- 寿命短 / 更换成本 / 维护麻烦（9.1%）
+- 不兼容 / 装不上 / 固定不稳（1.9%，但高杀伤）
+
 ## KES 当前建议姿态
 ### 可以继续
 - concept narrowing（概念收窄）
@@ -106,6 +125,9 @@ related:
 
 - **narrow chlorine-focused / technically disciplined route**  
   以 chlorine reduction、适配边界、测试透明度为核心的技术克制路线
+
+- **mid-price structural route / baby-safe solution route**  
+  10-ASIN 的项目级评论与竞品分组补强了这两条路线：中价专业结构款与母婴安全方案款，是当前最值得继续拆解的两支
 
 ### 仅条件保留
 - soft-hanging ritual route（偏柔和生活方式 / ritual 感的路线）
@@ -130,11 +152,12 @@ related:
 ## 建议阅读顺序
 ### 先看这几页
 1. [[bathtub-filter-final-executive-summary-2026-04-14]]
-2. [[bathtub-filter-kes-go-no-go-memo-v1]]
-3. [[bathtub-filter-kes-route-elimination-memo-v1]]
-4. [[bathtub-filter-kes-concept-brief-v1]]
-5. [[bathtub-filter-test-gating-checklist-for-kes]]
-6. [[bathtub-filter-kes-rd-and-validation-roadmap]]
+2. [[bathtub-filter-competitor-review-corpus-2026-04]]
+3. [[bathtub-filter-kes-go-no-go-memo-v1]]
+4. [[bathtub-filter-kes-route-elimination-memo-v1]]
+5. [[bathtub-filter-kes-concept-brief-v1]]
+6. [[bathtub-filter-test-gating-checklist-for-kes]]
+7. [[bathtub-filter-kes-rd-and-validation-roadmap]]
 
 ### 如果要继续做产品判断，再看
 - [[bathtub-filter-kes-next-step-execution-plan-v1]]
@@ -142,14 +165,18 @@ related:
 - [[bathtub-filter-assumption-register]] — 检查研究假设是否仍然成立
 - [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
 - [[bathtub-filter-review-patterns-and-return-risk]]
+- [[bathtub-filter-competitor-review-corpus-2026-04]]
 - [[bathtub-filter-pricing-refill-flow-fit-table-v2]]
 - [[bathtub-filter-installation-risk-matrix-v2]]
 - [[bathtub-filter-claim-risk-audit-v2]]
 - [[bathtub-filter-kes-product-architecture-hypotheses]]
 - [[bathtub-filter-route-clusters-and-kes-opportunity-spaces]]
 
-## Obsidian links
-### Core bathtub-filter pages
+### 工程部件补充
+- [[bathtub-filter-atmospheric-vacuum-breaker-avb]]：大气式真空破坏器 / AVB，作为 faucet / tub-spout 外接产品的防倒吸与 plumbing-safety 检查点。
+
+## 主题导航
+### 核心判断页
 - [[bathtub-filter]]
 - [[bathtub-filter-final-executive-summary-2026-04-14]]
 - [[bathtub-filter-review-patterns-and-return-risk]]
@@ -158,21 +185,19 @@ related:
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
 - [[bathtub-filter-kes-concept-brief-v1]]
 - [[bathtub-filter-kes-next-step-execution-plan-v1]]
-- [[bathtub-filter-cluster-cleanup-note-2026-04-14]]
 - [[bathtub-filter-test-gating-checklist-for-kes]]
 - [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
-- [[bathtub-filter-structure-audit-and-link-maintenance-2026-04-13]]
 - [[bathtub-filter-review-and-compliance-landscape]]
 - [[bathtub-filter-pricing-refill-flow-fit-table-v2]]
 - [[bathtub-filter-installation-risk-matrix-v2]]
 - [[bathtub-filter-compatibility-engineering-breakpoints]]
+- [[bathtub-filter-atmospheric-vacuum-breaker-avb]]
 - [[bathtub-filter-water-jurisdiction-demand-map]]
 - [[bathtub-filter-ip-depth-and-brand-marker-map]]
 - [[bathtub-filter-visual-merchandising-and-creative-strategy]]
 - [[bathtub-filter-claim-risk-audit-v2]]
 - [[bathtub-filter-compliance-framework-and-evidence-boundaries]]
 - [[bathtub-filter-kes-go-no-go-memo-v1]]
-- [[bathtub-filter-obsidian-map]]
 
 ### 执行追踪页
 - [[bathtub-filter-decision-register]]
@@ -180,15 +205,16 @@ related:
 - [[bathtub-filter-claim-register]]
 - [[bathtub-filter-supported-spout-matrix]]
 
-### Supporting research pages
+### 支撑研究页
 - [[bathtub-filter-research-coverage-gaps]]
-- [[bathtub-filter-research-program-a-to-f]]
+- [[bathtub-filter-academic-paper-research-summary]]
 - [[bathtub-filter-claims-and-certifications]]
 - [[bathtub-filter-certification-and-testing-pathways]]
 - [[bathtub-filter-certification-authority-tiers-and-workflow]]
 - [[bathtub-filter-compliance-framework-and-evidence-boundaries]]
 - [[bathtub-filter-cross-jurisdiction-standards-map]]
 - [[bathtub-filter-us-state-federal-compliance-sidelines]]
+- [[bathtub-filter-california-prop65-investigation-and-response]]
 - [[bathtub-filter-certification-cost-and-timeline-estimates]]
 - [[bathtub-filter-marketplace-claim-policing-layer]]
 - [[bathtub-filter-brand-operating-matrix-v2]]
@@ -196,14 +222,32 @@ related:
 - [[bathtub-filter-kes-route-screening-memo-v2]]
 - [[bathtub-filter-kes-product-architecture-hypotheses]]
 
-### Source-summary pages
+### 研究模块
+- 品牌与路线：[[bathtub-filter-brand-operating-matrix-v2]]
+- 定价与单位经济：[[bathtub-filter-pricing-refill-flow-fit-table-v2]]
+- 渠道与零售：[[bathtub-filter-channel-positioning-table-v2]]
+- 安装与适配：[[bathtub-filter-installation-risk-matrix-v2]]
+- 宣称与合规：[[bathtub-filter-claim-risk-audit-v2]]
+- 内容与视觉：[[bathtub-filter-sns-creator-and-visual-taxonomy]]、[[bathtub-filter-visual-merchandising-and-creative-strategy]]
+
+### 来源摘要页
+- [[bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22]]
 - [[bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13]]
 - [[bathtub-filter-market-scan-2026-04-11]]
 - [[bathtub-filter-academic-and-institutional-evidence-2026-04-11]]
 - [[bathtub-filter-api-backed-academic-and-patent-fetch-2026-04-12]]
+- [[bathtub-filter-paper-seki-2003-bathing-water-chlorine-atopic-skin]]
+- [[bathtub-filter-paper-perkin-2016-water-hardness-chlorine-early-life-ad]]
+- [[bathtub-filter-paper-engebretsen-2020-water-hardness-meta-analysis]]
+- [[bathtub-filter-paper-danby-2018-hard-water-surfactant-irritation]]
+- [[bathtub-filter-paper-jabbar-lopez-2022-softer-pilot-rct]]
+- [[bathtub-filter-paper-lei-2025-water-bathing-ad-review]]
+- [[bathtub-filter-paper-bradshaw-2026-weekly-vs-daily-bathing-rct]]
+- [[bathtub-filter-paper-bergera-2025-hard-vs-chlorinated-water-preprint]]
 
 ## Sources
 - [Bathtub Filter 最终收尾摘要（2026-04-14）](./bathtub-filter-final-executive-summary-2026-04-14.md)
+- [Bathtub Filter 学术论文研究总汇](./bathtub-filter-academic-paper-research-summary.md)
 - [Bathtub Filter KES Go / No-Go Memo — V1](./bathtub-filter-kes-go-no-go-memo-v1.md)
 - [Bathtub Filter KES Route Elimination Memo — V1](./bathtub-filter-kes-route-elimination-memo-v1.md)
 - [Bathtub Filter KES Next-Step Execution Plan — V1](./bathtub-filter-kes-next-step-execution-plan-v1.md)

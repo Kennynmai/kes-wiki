@@ -19,7 +19,7 @@ related:
   - ./bathtub-filter-research-coverage-gaps.md
   - ../../syntheses/bathtub-filter-review-and-compliance-landscape.md
 ---
-# 浴缸过滤器（bathtub filter）宣称证据阶梯
+# 浴缸过滤器宣称证据阶梯
 
 ## 页面定位（与相关页面的分工）
 > **本页关注：** 宣称强度等级的定义框架（"第 1 级宣称需要什么证据，第 5 级意味着什么风险？"）

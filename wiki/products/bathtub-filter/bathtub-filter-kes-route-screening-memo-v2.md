@@ -17,7 +17,7 @@ related:
   - ./bathtub-filter-brand-page-claim-compliance-audit.md
   - ./bathtub-filter-brand-operating-matrix-v2.md
 ---
-# 浴缸过滤器（bathtub filter）KES 路线筛选备忘录 — V2
+# 浴缸过滤器路线筛选备忘录 — V2
 
 ## 页面定位（与相关路线决策页的分工）
 > **本页关注：** 对 6 条路线按多维标准逐一打分筛选（"哪条路线得分更高？"）

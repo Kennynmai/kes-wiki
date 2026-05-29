@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-15
+updated: 2026-04-19
 visibility: team
 confidence: medium
 officiality: draft
@@ -13,14 +13,10 @@ source_count: 9
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ./bathtub-filter-installation-risk-matrix.md
   - ./bathtub-filter-pricing-refill-flow-fit-table-v2.md
   - ./bathtub-filter-compatibility-engineering-breakpoints.md
 ---
-# 浴缸过滤器（bathtub filter）安装风险矩阵 — V2
-
-## 版本链接
-- 早期页面：[[bathtub-filter-installation-risk-matrix]]
+# 浴缸过滤器安装风险矩阵
 
 |风险领域|归一化类别|当前关键判断|风险等级|为什么重要|
 |---|---|---|---|---|

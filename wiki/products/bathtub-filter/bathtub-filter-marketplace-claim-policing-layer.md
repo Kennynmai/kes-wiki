@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-us-state-federal-compliance-sidelines.md
   - ./bathtub-filter-cross-jurisdiction-standards-map.md
 ---
-# 浴缸过滤器（bathtub filter）零售 / 电商平台 claim 审查层
+# 浴缸过滤器零售与电商平台宣称审查层
 
 ## 为什么有这页
 KES 做 claim 合规时，很容易只看**法规 + 第三方认证**这两层，忽略一个事实：

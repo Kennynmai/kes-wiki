@@ -20,12 +20,11 @@ related:
 
 # 浴缸过滤器（Bathtub Filter）运营、渠道与视觉版图
 
-## Obsidian links
+## 相关页面
 - [[bathtub-filter]]
 - [[bathtub-filter-channel-positioning-table-v2]]
 - [[bathtub-filter-brand-and-content-landscape]]
 - [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
-- [[bathtub-filter-obsidian-map]]
 
 ## 为什么会有这页
 这页覆盖的是当一个品类被证明值得进一步关注之后，会变得重要的 second-tier 与 third-tier layers（第二层、第三层研究层）。

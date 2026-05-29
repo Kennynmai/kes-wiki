@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-17
-updated: 2026-04-17
+updated: 2026-04-22
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, competitor-reviews, voice-of-customer, return-risk, complaint-corpus]
-source_count: 11
+source_count: 12
 review_cycle: quarterly
 verification_status: working
 related:
@@ -19,9 +19,10 @@ related:
   - ./bathtub-filter-installation-risk-matrix-v2.md
   - ./bathtub-filter-claim-risk-audit-v2.md
   - ./bathtub-filter-research-coverage-gaps.md
+  - ../../source-summaries/bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22.md
 ---
 
-# Bathtub Filter — 竞品评论 corpus（2026-04 抓取）
+# 浴缸过滤器竞品评论语料（2026-04）
 
 ## 为什么有这页
 
@@ -40,6 +41,74 @@ Gap doc A 层（marketplace review mining）此前是 🟡 框架——只有定
 | 评测站综合 verbatim | 多 |
 
 > ⚠️ Amazon 直接 product-reviews 抓取被 503 阻断（B016M167GG Sprite），多数 Amazon verbatim 经由二次评测站（Water Filter Guru 等）间接捕获。本页 confidence 因此标 medium，不是 high。**人工补充 100+ 直采评论后可升级**。
+
+## 2026-04-22 项目级补充：10 个 ASIN 评论汇总
+
+新增一份用户提供的 Amazon US 10-ASIN 项目调查，把此前偏 verbatim / scout 的 corpus 补成了项目级评论聚合层。它不是替代 verbatim，而是补强：
+- 真正高频的问题是什么
+- 哪些 SKU 值得深拆，哪些不该照搬
+- 页面卖点和评论验证点之间，错位到底在哪里
+
+### 覆盖范围
+- 10 个 Amazon US ASIN
+- 合计 2,562 条评论
+- 页面信息 + 评论 Excel + 竞品状态交叉
+
+### 项目级高频需求
+
+| 需求主题 | 提及次数 | 提及率 |
+|---|---:|---:|
+| 硬水 / 氯味 / 水质改善 | 1128 | 44.0% |
+| 安装方便 / 不想折腾 | 660 | 25.8% |
+| 敏感肌 / eczema / 干痒相关 | 592 | 23.1% |
+| 宝宝 / 儿童洗澡场景 | 585 | 22.8% |
+
+### 项目级高频痛点
+
+| 共性痛点 | 提及次数 | 提及率 | 类型 | 严重度 |
+|---|---:|---:|---|---|
+| 漏水 / 溢水 / 水流异常 | 284 | 11.1% | 结构 | 高 |
+| 寿命短 / 更换成本 / 维护麻烦 | 233 | 9.1% | 维护 | 中 |
+| 说明不清 / 使用边界不清 | 50 | 2.0% | 教育 | 低-中 |
+| 不兼容 / 装不上 / 固定不稳 | 48 | 1.9% | 安装 | 高 |
+| 做工 / 结构不稳 | 41 | 1.6% | 结构 | 高 |
+| 过滤效果不明显 | 11 | 0.4% | 功效 | 高风险 |
+
+### 页面与评论的四个关键错位
+
+| 页面常讲 | 用户真实验证 | 结果 |
+|---|---|---|
+| 去氯 / 过滤级数 | 会不会漏 / 会不会慢 | 页面与体验错位 |
+| universal fit | 到底能不能装稳 | 页面与安装现实错位 |
+| 多级滤材 | 长期值不值 / 怎么维护 | 页面与使用周期错位 |
+| baby / sensitive skin | 体感是否真实 / 是否更安心 | 页面与信任机制错位 |
+
+## 1A. 10-ASIN 竞品分组与拆解优先级
+
+### A 组：建议重点拆解
+
+| ASIN | 类型 | 参考价值 | 为什么值得看 |
+|---|---|---|---|
+| B0GFQ1JRSK | 母婴方案款 | 高 | 最接近完整“安心感方案”表达的一支 |
+| B0DTQ8H23D | 升级结构款 | 高 | 最接近“结构升级 / overflow”路线正确方向的一支 |
+| B0742KFY9R | 传统专业款 | 中高 | 适合对照 old-school 专业表达哪些仍然有效 |
+
+### B 组：可局部参考
+
+| ASIN | 类型 | 可参考点 | 不建议照搬点 |
+|---|---|---|---|
+| B0D3X39378 | 升级防溢款 | 结构升级叙事、材料堆叠 | 承诺容易过满 |
+| B0CXT5KL5Z | 通用升级款 | 页面完整度、理解门槛低 | 同质化明显 |
+| B0G5NZBW6W | 参数型款 | 参数包装能力 | 易掉入“又一个白牌款” |
+| B0FL24SLM5 | 寿命强调款 | 长寿命钩子 | 页面证据不足 |
+
+### C 组：建议避开 / 不建议照搬
+
+| ASIN | 原因 |
+|---|---|
+| B008A4AG2U | old-school 表达过重，更换 / 维护心智不友好 |
+| B0FT7R9ZQ9 | 典型低价参数模板，差异不足 |
+| B0GKT5CHYL | 样本小、信息不完整，不适合作为核心样板 |
 
 ## 1. Verbatim 投诉清单（按品牌 × 投诉模式）
 
@@ -202,3 +271,4 @@ Gap doc A 层（marketplace review mining）此前是 🟡 框架——只有定
 - [[bathtub-filter-marketplace-claim-policing-layer]]
 - [[bathtub-filter-research-coverage-gaps]]
 - [[bathtub-filter-utility-service-map-by-metro]]
+- [[bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22]]

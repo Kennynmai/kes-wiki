@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-17
+updated: 2026-04-19
 visibility: team
 confidence: medium
 officiality: draft
@@ -13,14 +13,10 @@ source_count: 12
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ./bathtub-filter-pricing-refill-flow-fit-table.md
   - ./bathtub-filter-installation-risk-matrix-v2.md
   - ./bathtub-filter-media-efficacy-at-bath-conditions.md
 ---
-# Bathtub Filter 定价 / 换芯 / flow / fit 表 — V2
-
-## 版本链接
-- 早期版本：[[bathtub-filter-pricing-refill-flow-fit-table]]（已归档）
+# 浴缸过滤器定价、换芯与适配表
 
 ## 这页现在重点回答什么
 不是只记录“卖多少钱”，而是回答：

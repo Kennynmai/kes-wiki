@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-research-coverage-gaps.md
 ---
 
-# Bathtub Filter — 渠道准入要求速查（公开文档汇总）
+# 浴缸过滤器渠道准入要求速查
 
 ## 为什么有这页
 

@@ -22,7 +22,7 @@ related:
   - ./bathtub-filter-research-coverage-gaps.md
 ---
 
-# Bathtub Filter — 社区语言压缩 / 情感转换模式
+# 浴缸过滤器社区语言压缩与情感转换模式
 
 ## 为什么有这页
 

@@ -19,7 +19,7 @@ related:
   - ./bathtub-filter-research-coverage-gaps.md
 ---
 
-# Bathtub Filter — Amazon 类目 & 关键词 baseline（2026-04 抓取）
+# 浴缸过滤器 Amazon 类目与关键词基线（2026-04）
 
 ## 为什么有这页
 

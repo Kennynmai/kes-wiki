@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-evidence-matrix.md
 ---
 
-# Bathtub Filter 消毒剂种类与滤材指南
+# 浴缸过滤器消毒剂种类与滤材指南
 
 ## ⚠️ 本页仅覆盖市政供水的消毒剂种类
 > 私人井水用户（约 2,300 万美国家庭）通常**没有氯胺或游离氯**。他们的主要问题是铁、氢硫化物（硫磺臭味）、硬度——与市政用水用户完全不同。详见：[[bathtub-filter-well-water-research]]

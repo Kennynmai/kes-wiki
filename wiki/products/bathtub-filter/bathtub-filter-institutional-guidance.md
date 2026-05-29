@@ -17,7 +17,7 @@ related:
   - ./bathtub-filter-evidence-bibliography.md
   - ./bathtub-filter-claims-and-certifications.md
 ---
-# 浴缸过滤器（bathtub filter）机构指南
+# 浴缸过滤器机构指南
 
 ## 黑曜石链接
 -[[bathtub-filter]]

@@ -18,7 +18,7 @@ related:
   - ./bathtub-filter-brand-page-claim-compliance-audit.md
   - ./bathtub-filter-pricing-refill-flow-fit-table-v2.md
 ---
-# 浴缸过滤器（bathtub filter）KES 路线筛选备忘录 — V1
+# 浴缸过滤器路线筛选备忘录 — V1
 
 ## 版本链接
 - 更新版本：[[bathtub-filter-kes-route-screening-memo-v2]]

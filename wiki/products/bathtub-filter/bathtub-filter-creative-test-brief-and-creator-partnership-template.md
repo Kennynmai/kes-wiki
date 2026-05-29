@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-research-coverage-gaps.md
 ---
 
-# Bathtub Filter — A/B 创意测试 brief + 创作者合作模板
+# 浴缸过滤器 A/B 创意测试与创作者合作模板
 
 ## 为什么有这页
 

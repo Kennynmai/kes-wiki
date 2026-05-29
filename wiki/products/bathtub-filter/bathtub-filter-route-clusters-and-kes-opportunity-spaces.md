@@ -21,7 +21,7 @@ related:
   - ../../playbooks/bathtub-filter-validation-testing-protocol.md
 ---
 
-# Bathtub Filter 路线簇、技术取舍与 KES 机会空间
+# 浴缸过滤器路线簇与 KES 机会空间
 
 ## Why this page exists
 这页不是再重复“市场上有人卖 bathtub filter”。

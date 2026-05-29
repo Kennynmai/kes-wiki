@@ -21,7 +21,7 @@ related:
   - ./bathtub-filter-research-coverage-gaps.md
 ---
 
-# Bathtub Filter — SNS / Creator / 视觉话语 taxonomy
+# 浴缸过滤器 SNS、创作者与视觉话语分类
 
 ## 为什么有这页
 

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-14
-updated: 2026-04-17
+updated: 2026-04-19
 visibility: team
 confidence: high
 officiality: draft
@@ -17,11 +17,12 @@ related:
   - ./bathtub-filter-test-gating-checklist-for-kes.md
   - ./bathtub-filter-kes-next-step-execution-plan-v1.md
   - ./bathtub-filter-product-definition-language.md
+  - ./bathtub-filter-kes-media-stack-options-by-water-type.md
   - ./bathtub-filter-kes-product-architecture-hypotheses.md
   - ../../source-summaries/bathtub-filter-kes-internal-product-materials-2026-04-17.md
 ---
 
-# Bathtub Filter KES Concept Brief — V1
+# 浴缸过滤器概念简报 — V1
 
 ## 📌 Status update 2026-04-17：Version A 已落地
 
@@ -50,6 +51,22 @@ Version A 明确的 **非覆盖范围** 等待 Version B/C 处理：
 - **Well water**（US 约 23M 户）— 需要 KDF-85 + 铁/锰/H₂S 路径，见 [[bathtub-filter-well-water-research]]
 - **软水器下游用户**（14–22M 户）— 最被忽视细分；问题在于"软水器不去氯"
 - **日式高温浸浴**（45°C+）— 未验证
+
+### 2026-04-19：三套水源型媒体方案已形成统一讨论稿
+
+为避免把不同水质问题硬塞进一个“万能滤芯”，KES 现阶段采用三条并行 SKU 讨论框架：
+
+1. **Version A / free-chlorine municipal**
+   - `PP fiber → KDF55 → CaSO3`
+   - 继续作为当前主线
+2. **Version B / chloramine-city**
+   - `PP fiber → catalytic activated carbon → small KDF55 layer`
+   - 配合 **浴缸内抗坏血酸钠 / 维生素 C 浸泡配件**
+3. **Version C / private well**
+   - `sediment layer → KDF85 → catalytic activated carbon`
+   - 面向 low-to-moderate iron / H2S / odor well-water nuisance
+
+详见：[[bathtub-filter-kes-media-stack-options-by-water-type]]
 
 ---
 

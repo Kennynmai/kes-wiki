@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-test-gating-checklist-for-kes.md
 ---
 
-# Bathtub Filter 最终收尾摘要（2026-04-14）
+# 浴缸过滤器收尾摘要（2026-04-14）
 
 ## 这页的目的
 这页用于给 bathtub filter 这一组研究做一个可管理层直接使用的收尾结论。
@@ -155,15 +155,13 @@ related:
 4. update concept brief and go/no-go memo（更新概念简报与 go/no-go 结论）
 5. make explicit continue / pause / archive decision（做明确继续 / 暂停 / 归档决定）
 
-## Obsidian links
+## 相关页面
 - [[bathtub-filter]]
-- [[bathtub-filter-obsidian-map]]
 - [[bathtub-filter-kes-go-no-go-memo-v1]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
 - [[bathtub-filter-kes-concept-brief-v1]]
 - [[bathtub-filter-kes-next-step-execution-plan-v1]]
 - [[bathtub-filter-test-gating-checklist-for-kes]]
-- [[bathtub-filter-cluster-cleanup-note-2026-04-14]]
 
 ## Sources
 - [[bathtub-filter]]

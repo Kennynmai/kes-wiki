@@ -3,10 +3,13 @@ type: platform
 status: active
 owner: amazon-team
 created: 2026-04-06
-updated: 2026-04-06
+updated: 2026-04-19
 visibility: company
 confidence: medium
 officiality: draft
+aliases: [亚马逊日本站, 日本亚马逊, Amazon JP, Amazon Japan]
+name_zh: 亚马逊日本站
+name_en: Amazon JP
 domain: platform
 domains: [amazon, japan, compliance]
 source_count: 0
@@ -18,7 +21,7 @@ related:
   - ../playbooks/market-research-workflow.md
 ---
 
-# Amazon JP
+# 亚马逊日本站（Amazon JP）
 
 ## What it is for KES
 A canonical page for KES knowledge related to Amazon Japan as a platform, including entry requirements, operating constraints, product suitability, and workflow implications.

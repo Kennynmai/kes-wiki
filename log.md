@@ -9,6 +9,69 @@ Example:
 - status: pending-owner-review
 - notes: short summary of what changed
 
+## [2026-04-23] maintain | 补入两份中文模板用于产品开发洞察与测试记录转内容
+- source: wiki/syntheses/kes-offsite-brand-marketing-and-site-acquisition-framework.md
+- updated: templates/product-development-insight-capture.md (new); templates/test-log-to-content.md (new); wiki/syntheses/kes-offsite-brand-marketing-and-site-acquisition-framework.md; dashboards/recent-updates.md; log.md
+- status: done
+- notes: |
+  为了让新增的第 9 个主题 `把产品开发洞察变成品牌资产` 可以直接进入执行，而不是停留在框架层，本轮新增两份中文模板。第一份 `产品开发洞察采集模板` 用于从项目讨论、打样失败、实验测试、供应链限制、结构取舍里，提炼出值得对外表达的原创判断，并明确哪些能讲、哪些不能讲。第二份 `测试记录转内容模板` 用于把原始测试记录转成可发布资产，强制保留测试目的、条件、过程、结果、用户版解释和证据边界，避免团队把内部测试写成夸大宣传。这两份模板也已回链到 `KES 站外品牌营销与官网引流｜AI 内容扩展框架` 对应主题，后续可以直接拿来填。
+
+## [2026-04-23] maintain | 补入产品开发过程洞察作为品牌资产主题
+- source: wiki/syntheses/kes-offsite-brand-marketing-and-site-acquisition-framework.md
+- updated: wiki/syntheses/kes-offsite-brand-marketing-and-site-acquisition-framework.md; dashboards/recent-updates.md; log.md
+- status: done
+- notes: |
+  在原本 8 个子主题的 `站外品牌营销 + 官网引流` 框架里，补入第 9 个主题 `Product Development Insights As Brand Asset`。目的不是再加一个抽象栏目，而是明确 KES 在产品开发过程中自然产生的大量原创判断、失败教训、测试设计、实验结果、材料取舍、结构权衡，本身就是最稀缺的一手内容来源。如果不做结构化转化，这些材料只会停留在内部聊天、测试记录和表格里；如果做对了，它们可以变成 `engineering note`、`test note`、`how we decided`、`evidence / validation hub` 一类既能支持站外 expert-style 分发、也能承接官网信任建立的资产。同步把页内所有 “8 个子主题” 更新成 “9 个子主题”，并把该主题纳入推荐顺序与 90 天输出清单。
+
+## [2026-04-23] maintain | KES 站外品牌营销与官网引流框架扩展为 8 个子主题
+- source: wiki/source-summaries/kes-independent-site-content-ai-visibility-note-2026-04-23.md; wiki/syntheses/kes-geo-experiment-backlog.md; Google / OpenAI / Bing 现有官方 guidance
+- updated: wiki/syntheses/kes-offsite-brand-marketing-and-site-acquisition-framework.md (new); ops/ingestion-registry.md; dashboards/recent-updates.md; log.md
+- status: done
+- notes: |
+  将上一轮偏 operator note 的 AI 可见度判断，扩成一页更接近内容经营框架的 synthesis，目标明确聚焦 `站外品牌营销 + 官网引流`，而不是继续停留在 GEO 原理讨论。新页把最值得延展的方向压成 8 个子主题：`comparison content strategy`、`fit / non-fit strategy`、`review mining to content ops`、`external proof architecture`、`AI visibility measurement`、`question-to-page mapping`、`merchant data and structured data readiness`、`post-purchase content as acquisition asset`。每个子主题都补了四层：为什么重要、该回答什么问题、最适合的外部 surface、最适合承接的官网页型，以及对应的可交付物和 success signals。页尾再补一条 KES 推荐顺序和 90 天首批输出，方便从概念直接过渡到执行。
+
+## [2026-04-23] ingest | KES / 独立站 / 出海内容 AI 可见度操作评注收入与 backlog 回写
+- source: 用户提供文字；raw/strategy/geo/2026-04-23/internal-notes/kes-independent-site-content-ai-visibility-operator-note.md
+- updated: wiki/source-summaries/kes-independent-site-content-ai-visibility-note-2026-04-23.md (new); wiki/syntheses/kes-geo-experiment-backlog.md; ops/ingestion-registry.md; dashboards/recent-updates.md; log.md
+- status: done
+- notes: |
+  将一段面向 `KES / 独立站 / 出海内容` 场景的用户判断收入 wiki，处理原则不是把它升级为平台机制，而是保留为 `operator note`。这段材料最有价值的不是原文案例强度，而是四个执行转向：`关键词 -> 真实问题`、`页面存在 -> 可被引用的答案资产`、`官网自述 -> external signal stack`、`SEO/traffic/CVR -> AI visibility scoreboard`。因此本轮新增 raw capture 与 source-summary，并把可执行部分写回 `KES GEO Experiment Backlog`：新增 `High-Value Question Map`、`Best-Answer Page Template`、`External Signal Stack`、`AI Visibility Scoreboard` 四个实验，同时在 backlog 前部补一段 write-back framing，明确这更像 KES 的 operating layer translation，而不是新理论。
+
+## [2026-04-19] maintain | Amazon / Rufus GEO playbook pass with scorecard, fix mapping, and page archetypes
+- source: 现有 Amazon / GEO / OpenAI shopping 研究页；无新增 raw 本地源文件
+- updated: wiki/playbooks/amazon-rufus-geo-audit-and-corroboration-playbook.md (new); wiki/syntheses/amazon-rufus-cosmo-e-geo-kes-response.md; wiki/syntheses/kes-ai-era-amazon-content-strategy-judgment.md; wiki/syntheses/kes-geo-experiment-backlog.md; index.md; dashboards/recent-updates.md; log.md
+- status: done
+- notes: |
+  在上一轮把三项重点补成原则性操作后，再做一次缺口审视，发现仍缺三类真正会影响执行质量的东西：`打分法`、`symptom -> action surface` 映射、以及 `什么时候该建 FAQ / comparison / fit guide` 的页面选择规则。因此本轮新增独立 playbook，把 Amazon / Rufus GEO 从 synthesis 提炼成执行手册：一是固定 monthly query deck 的最低覆盖和 Rufus 评分卡（6 个维度，12 分制，并映射到 `Level 0-4` 成熟度）；二是把常见观测症状翻译成 first-fix surface，避免团队把所有问题都默认回写到 title；三是加入 off-Amazon corroboration 的 page archetype chooser 与最小结构，明确 FAQ、comparison、fit/non-fit、maintenance、selection guide 各自适用的触发条件。同步把相关 synthesis 和 experiment backlog 链回这页，并更新 index / recent-updates，方便后续直接按 playbook 执行。
+
+## [2026-04-19] maintain | GEO / Rufus operationalization pass for audit, testing, and off-Amazon corroboration
+- source: 现有 Amazon / GEO / OpenAI shopping synthesis pages；无新增 raw 本地源文件
+- updated: wiki/syntheses/amazon-rufus-cosmo-e-geo-kes-response.md; wiki/syntheses/kes-geo-experiment-backlog.md; log.md
+- status: done
+- notes: |
+  将此前偏判断层的 Amazon / GEO 研究，补成更可执行的 operating layer，重点补强三件事。第一，新增 `monthly Rufus query audit` 的固定流程：把 query family、记录字段、最小评分、月度 deliverable 固化，避免团队把 Rufus 观察做成零散截图。第二，明确 `如何利用 Rufus 做 GEO 与测试 GEO 水平`：把 Rufus 定义为 query-mining、answer-gap detection、maturity test 三合一工具，并给出从 `Level 0` 到 `Level 4` 的简化成熟度标尺，帮助区分问题卡在 retrieval、description、comparison、trust 还是 external corroboration。第三，把 `off-Amazon FAQ / comparison pages` 从抽象建议推进到页面类型、写法纪律与效果衡量：优先做 high-objection FAQ、adjacent-alternative comparison、fit/non-fit、maintenance 页面，并把效果从“看流量”改成 `AI citation / answer completeness / cross-surface consistency / assisted click / support deflection` 五类指标。对应 experiment backlog 也新增 monthly Rufus 审计实验，并细化 external corroboration 页的 change 与 metric。
+
+## [2026-04-19] deepen | Amazon / Rufus 研究线补入更强一手材料，并形成 KES 判断页
+- source: Amazon Science / Amazon publications / OpenReview 一手页面；无新增本地 raw 下载
+- updated: wiki/source-summaries/amazon-paper-yu-et-al-2023-folkscope.md (new); wiki/source-summaries/amazon-paper-agrawal-sembium-2025-rtsm.md (new); wiki/source-summaries/amazon-paper-guo-et-al-2025-negation-product-search.md (new); wiki/source-summaries/amazon-paper-jagatap-et-al-2025-cold-start-product-search.md (new); wiki/source-summaries/shoppingcomp-openreview-2025-2026.md (new); wiki/syntheses/amazon-rufus-geo-agentic-commerce-core-reading.md (new); wiki/syntheses/kes-ai-era-amazon-content-strategy-judgment.md (new); wiki/syntheses/amazon-rufus-cosmo-e-geo-kes-response.md; log.md
+- status: done
+- notes: |
+  在已有 `Rufus / COSMO / E-GEO / ACES` 基础上，补了五个更能纠偏 seller 圈叙事的一手来源：`FolkScope` 解释 Amazon intention knowledge 研究线并非从 Rufus 开始；`RTSM` 强化 recall / semantic matching 基础设施仍是核心层；`negation query rewriting` 说明复杂自然语言约束与排除条件已进入 product-search 研究前线；`cold-start product search` 说明新品 / 新类目首先卡在 query-to-category mapping，而不是先卡在 GEO；`ShoppingComp` 则把注意力从“AI 写购物报告”转向“AI 是否真能可靠选品和做安全判断”。基于这些材料，新增一页“8 篇核心材料”作为团队阅读入口，并新增一页“KES 版 AI 时代 Amazon 内容策略判断”，把 KES 的结论明确压成：这不是 `SEO -> GEO` 的单次替代，而是 `recall -> intent -> evidence -> rerank -> agent-choice` 五层叠加；内容策略的核心不是更像 AI 文案，而是把商品与品牌建设成更容易被召回、被理解、被引用、被比较、也更不容易在 agentic 时代被误判的证据系统。现有 Amazon / Rufus synthesis 也已同步回写这些新增判断。
+
+## [2026-04-19] ingest | Amazon Rufus / GEO 微信卖家解读文章收入与研究底稿回写
+- source: 用户提供的微信文章正文；raw/platforms/amazon/rufus-cosmo/2026-04-19/external-pages/wechat-kris-rufus-geo-listing-guide.md
+- updated: wiki/source-summaries/wechat-kris-rufus-geo-listing-guide-2026-04-19.md (new); wiki/syntheses/amazon-rufus-cosmo-e-geo-kes-response.md; raw/platforms/amazon/rufus-cosmo/2026-04-19/raw-capture-log.md; log.md
+- status: done
+- notes: |
+  将一篇以 `Kuzi & Malmasi 2024` 和 `E-GEO 2025` 为论据、面向 Amazon seller 的微信解读文收入 KES。处理原则不是把它当平台事实，而是把它归类为 `seller-side interpretation / discourse layer`：一方面，这篇文章确实把 KES 已有研究中的几个高价值方向压缩成了可操作模板，例如把 PDP 从“关键词页”改写成“答案页”、在 exploration/comparison/final consideration 三阶段分别配置 buying guide / comparison table / FAQ、减少 hype 和 keyword stuffing、提高结构化与事实密度；另一方面，它也明显把方向性论文写得过于确定，包括把 `Kuzi & Malmasi` 近似写成“Rufus 官方完整逻辑披露”、把 `E-GEO` 外部 benchmark 的 uplift/penalty 数值改写成 Amazon listing 实战结论、以及把若干 heuristic 提炼成近似稳定规则。为此，本次新增 source-summary 明确区分“文章做对了什么”和“哪些说法不能写成事实”；同时把现有 synthesis 补了一段 seller-market translation 说明，允许 KES 借鉴其 operational packaging，但不接受其 certainty level。
+
+## [2026-04-19] maintain | bathtub filter — California Prop 65 独立调查与应对页
+- source: 官方公开法规与指引页（OEHHA / Proposition 65 Warnings / California AG），无新增 raw 本地源文件
+- updated: wiki/products/bathtub-filter/bathtub-filter-california-prop65-investigation-and-response.md (new); wiki/products/bathtub-filter/bathtub-filter-us-state-federal-compliance-sidelines.md; wiki/products/bathtub-filter/bathtub-filter.md; dashboards/recent-updates.md; log.md
+- status: done
+- notes: |
+  将原本挂在“美国州级 / 联邦合规副线”里的 Prop 65 段落拆成独立工作面，目标不是重复法规百科，而是把 KES 当前最需要的 `调查路径 + 决策口径 + 执行动作` 单独固化。基于官方页面确认三条时间/执行事实：`2025-01-01` 起新版 short-form warning 规则已生效；旧短版 warning 对 `2028-01-01` 及之后制造并贴标的产品不再适用；OEHHA 当前化学品清单日期为 `2025-12-08`。新页把 bathtub filter 的 Prop 65 问题重构为三个执行门槛：`risk BOM`、warning-ready packaging / PDP、California sell / no-sell 决策。后续补充进一步澄清了两层边界：(1) 法律上并非“某品类天然必须 warning”，而是存在 listed chemical exposure 且无法证明低于 safe harbor 时必须；(2) 行业实务里，`lead/brass`、`DEHP/PVC/soft parts`、加州互联网销售、`BPS` 热敏纸、供应链证据不足等场景通常已接近“effectively must warn”。工作结论收敛为：在缺少整机级成分与暴露评估前，KES 不应默认按“无需 warning”推进；更稳妥的默认应对要么是 `Warning-ready`，要么是 `California-holdout`。此页为运营/上市决策支持，不构成法律意见，后续若进入实际加州销售，应再接外部法务或检测机构复核。
+
 ## [2026-04-17] cleanup | bathtub-filter cluster — MT 噪音重写 + superseded stub + 归档
 - source: 本次 pass 无新来源；基于 cluster 现有内容
 - updated: wiki/products/bathtub-filter/bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md（转为 superseded stub 指向 media-efficacy）；wiki/products/bathtub-filter/bathtub-filter-cluster-cleanup-note-2026-04-14.md（frontmatter 标记 archived）；wiki/products/bathtub-filter/bathtub-filter-brand-operating-matrix-v2.md（MT 噪音整页重写）；wiki/products/bathtub-filter/bathtub-filter-pricing-refill-flow-fit-table-v2.md（targeted 清理标题 + 归档链接指向）；wiki/products/bathtub-filter/bathtub-filter-kes-product-architecture-hypotheses.md（下半"原始假设记录"6 条重写）；wiki/products/bathtub-filter/bathtub-filter-product-forms.md（整页重写）；log.md；dashboards/recent-updates.md

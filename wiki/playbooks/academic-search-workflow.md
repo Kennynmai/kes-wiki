@@ -3,10 +3,13 @@ type: playbook
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-17
+updated: 2026-04-19
 visibility: company
 confidence: medium
 officiality: draft
+aliases: [学术检索工作流, 学术搜索工作流, Academic Search Workflow]
+name_zh: 学术检索工作流
+name_en: Academic Search Workflow
 domain: operations
 domains: [research, academic-search, evidence, product-research]
 review_cycle: quarterly
@@ -16,7 +19,7 @@ related:
   - ../products/bathtub-filter/bathtub-filter.md
 ---
 
-# Academic Search Workflow
+# 学术检索工作流（Academic Search Workflow）
 
 ## Trigger / scope
 Use this workflow when a product/category question starts depending on academic literature, institutional guidance, or manuscript / repository retrieval rather than ordinary web content alone.

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: product
 created: 2026-04-17
-updated: 2026-04-17
+updated: 2026-04-19
 visibility: team
 confidence: medium
 officiality: draft
@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-technology-notes.md
 ---
 
-# Chloramine Removal by Filter Media: Empirical Evidence Review
+# 浴缸过滤器滤材的氯胺去除证据
 
 ## Purpose of This Page
 
@@ -76,7 +76,7 @@ At shower flow rates (~2 gpm through a small cartridge), contact time is under 1
 
 ## 2. Catalytic Activated Carbon and Chloramine Removal
 
-### Summary verdict: Effective for monochloramine, but requires adequate contact time (EBCT ≥ 4–5 min for catalytic; ≥10 min for standard GAC)
+### Summary verdict: Catalytic carbon is the only credible solid media route for inline chloramine reduction, but bath-spout cartridges still face severe contact-time constraints (EBCT ≥ 4–5 min for catalytic; ≥10 min for standard GAC)
 
 **Mechanism:**
 Standard activated carbon removes free chlorine primarily via adsorption and surface reduction. For monochloramine, the mechanism is catalytic decomposition at active surface sites:
@@ -143,6 +143,30 @@ Sources:
 | Bath fill (low flow, large bed) | 0.5–1 gpm | 300–500 mL | 2–5 min |
 
 **Key insight:** Even a bath spout filter at normal bath-fill flow rates falls short of the 4–5 minute EBCT recommended for catalytic carbon to reliably remove chloramines. The contact time advantage of a bath filter over a shower filter is real but may still be insufficient without significant media volume or reduced flow rate.
+
+### Practical design implication for bathtub filters
+
+For KES, the evidence now supports a narrower conclusion than the generic phrase "catalytic carbon removes chloramine":
+
+- **Yes, catalytic activated carbon is the most credible inline media for monochloramine.**
+- **No, a normal small bath-ball / compact spout cartridge should not assume that catalytic carbon alone is enough.**
+
+At bath-fill flows, catalytic carbon becomes plausible only when at least one of the following is true:
+
+1. **Large carbon bed volume** — closer to a mini-canister / external housing than a compact ornament-sized cartridge
+2. **Reduced flow** — roughly the 0.5–1.0 gpm range, not wide-open tub-spout flow
+3. **Hybrid chemistry** — catalytic carbon handles part of the inline load, while a dissolved reductant such as sodium ascorbate finishes the reaction in the tub during the 4–8 minute standing period
+
+### KES-specific verdict
+
+For a chloramine-city bathtub SKU, the most defensible design posture is:
+
+- **Do not rely on KDF or calcium sulfite**
+- **Do not rely on standard GAC**
+- **Treat catalytic carbon as necessary but not automatically sufficient**
+- **Prefer a hybrid route: catalytic carbon inline + bath-compatible vitamin C / sodium ascorbate finishing step**
+
+This is a stronger engineering position than the current shower-filter market pattern of putting a token amount of carbon into a cartridge and broadly claiming "chloramine removal."
 
 ---
 
@@ -322,7 +346,7 @@ NSF/ANSI 61 covers materials and components that contact drinking water and ensu
 ### What is empirically supportable
 
 - "Reduces free chlorine" — supportable with any standard media (KDF, calcium sulfite, GAC, vitamin C)
-- "Reduces monochloramine" using **catalytic activated carbon** — supportable with citation to Kochany (2008) and column test data, subject to adequate EBCT in product design
+- "Reduces monochloramine" using **catalytic activated carbon** — supportable only with citation to Kochany (2008) and column test data **plus product geometry that genuinely delivers adequate EBCT**
 - "Reduces monochloramine" using **ascorbic acid / sodium ascorbate in bath applications** — supportable with SFPUC guidance, AWWA approval, and mechanistic rationale; needs bath-format product (not shower) to satisfy 4–8 min contact time requirement
 
 ### What is not supportable with current evidence
@@ -336,9 +360,10 @@ NSF/ANSI 61 covers materials and components that contact drinking water and ensu
 
 | Product formula | Defensible chloramine claim | Required condition |
 |---|---|---|
-| Catalytic carbon (adequate bed size) | "Reduces combined chlorine (chloramine)" | Must achieve EBCT ≥4–5 min in bath fill flow |
+| Catalytic carbon (adequate bed size) | "Reduces combined chlorine (chloramine)" | Must achieve EBCT ≥4–5 min in bath fill flow; this likely implies a larger canister-style bed, not a compact bath-ball |
 | Ascorbic acid / sodium ascorbate (bath format) | "Neutralizes chloramine in bath water" | Bath application only; note 4+ min contact needed |
-| KDF-55 + catalytic carbon | "Reduces both free and combined chlorine" | Catalytic carbon does the chloramine work; KDF contributes primarily to free chlorine |
+| KDF-55 + catalytic carbon | "Reduces both free and combined chlorine" | Catalytic carbon does the chloramine work; KDF contributes primarily to free chlorine; claim still depends on real catalytic-carbon EBCT |
+| Catalytic carbon + sodium ascorbate | "Reduces chloramine during fill and soak" | Strongest bath-format route; inline reduction plus in-tub completion |
 | KDF-55 alone or + standard GAC | Free chlorine only | Cannot claim chloramine without data |
 | Calcium sulfite alone | Free chlorine only | Cannot claim chloramine without data |
 

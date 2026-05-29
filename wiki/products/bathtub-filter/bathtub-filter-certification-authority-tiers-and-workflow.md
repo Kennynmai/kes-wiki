@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-standards-and-certification-audit-by-brand.md
   - ./bathtub-filter.md
 ---
-# 浴缸过滤器（bathtub filter）认证 authority tiers、常见误用与 KES 实操 workflow
+# 浴缸过滤器认证层级、常见误用与 KES 实操流程
 
 ## 为什么有这页
 前面的研究已经说明：bath / shower filter 市场最大的问题，不是“完全没有标准”，而是**标准、测试、认证、media 资质、logo 氛围**常被写成同一件事。

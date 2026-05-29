@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-complaint-taxonomy-and-risk-by-route.md
 ---
 
-# Bathtub Filter KES Route Elimination Memo — V1
+# 浴缸过滤器路线排除备忘录 — V1
 
 ## 页面定位（与相关路线决策页的分工）
 > **本页关注：** 从筛选结果中明确淘汰哪些路线、条件保留哪些，并给出判断依据（"为什么不走这条路？"）

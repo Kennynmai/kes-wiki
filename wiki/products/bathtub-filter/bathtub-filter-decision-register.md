@@ -18,7 +18,7 @@ related:
   - ./bathtub-filter-test-gating-checklist-for-kes.md
 ---
 
-# Bathtub Filter KES — Decision & Workstream Register
+# 浴缸过滤器决策与工作流台账
 
 ## 这页的用途
 

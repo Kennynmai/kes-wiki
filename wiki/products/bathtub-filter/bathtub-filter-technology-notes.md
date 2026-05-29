@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: product
 created: 2026-04-11
-updated: 2026-04-17
+updated: 2026-04-19
 visibility: team
 confidence: medium
 officiality: draft
@@ -16,9 +16,10 @@ related:
   - ./bathtub-filter.md
   - ./bathtub-filter-claims-and-certifications.md
   - ./bathtub-filter-media-efficacy-at-bath-conditions.md
+  - ./bathtub-filter-point-of-use-hardness-softening-feasibility.md
   - ../../source-summaries/bathtub-filter-kes-internal-product-materials-2026-04-17.md
 ---
-# 浴缸过滤器（bathtub filter）技术说明
+# 浴缸过滤器技术说明
 
 ## Obsidian links
 - [[bathtub-filter]]
@@ -116,6 +117,15 @@ related:
 - 催化活性炭是目前对氯胺最有效的固态滤材，但仍需要充足接触时间
 
 约 35–40% 的美国市政系统使用氯胺；在这些城市，标准 KDF + 亚硫酸钙组合**不足够**。
+
+## ⚠️ 先读这个：如果讨论“软化硬水”，请切换到另一条技术路线
+> 详见：[[bathtub-filter-point-of-use-hardness-softening-feasibility]]
+
+**核心结论：**
+- 真软化硬水的可信路线基本只有 **离子交换树脂**
+- KDF / 活性炭 / 亚硫酸钙 / 维生素 C 都不是硬度去除媒体
+- 如果接受更高换芯频率，POU 软化**理论上可做**，但通常会迅速逼近 **数百 mL 到 1L+ 树脂床** 的设备体量
+- 这更像 **mini softener**，不是常规 compact bathtub filter
 
 ---
 

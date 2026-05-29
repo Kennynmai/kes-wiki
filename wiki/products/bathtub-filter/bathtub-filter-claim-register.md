@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-17
-updated: 2026-04-17
+updated: 2026-04-19
 visibility: team
 confidence: medium
 officiality: draft
@@ -20,7 +20,7 @@ related:
   - ../../source-summaries/bathtub-filter-onlyzone-supplier-material-evidence-2026-04-17.md
 ---
 
-# Bathtub Filter — Claim Register
+# 浴缸过滤器宣称台账
 
 ## Status note
 

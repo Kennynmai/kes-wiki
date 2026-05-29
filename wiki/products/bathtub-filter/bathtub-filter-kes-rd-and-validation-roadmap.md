@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-19
 visibility: team
 confidence: medium
 officiality: draft
@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-route-clusters-and-kes-opportunity-spaces.md
   - ../../playbooks/bathtub-filter-validation-testing-protocol.md
 ---
-# Bathtub Filter KES R&D 与验证 roadmap
+# 浴缸过滤器研发与验证路线图
 
 ## 这页的目的
 这页不是再讨论“这个品类有没有意思”，而是把现有 research package 直接转换成 **KES 接下来 4–8 周该怎么动** 的 roadmap。

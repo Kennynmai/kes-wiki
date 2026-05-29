@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-18
+updated: 2026-04-22
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, complaints, taxonomy, route-risk, return-risk, engineering]
-source_count: 5
+source_count: 6
 review_cycle: monthly
 verification_status: working
 related:
@@ -19,11 +19,14 @@ related:
   - ./bathtub-filter-review-patterns-and-return-risk.md
   - ./bathtub-filter-installation-risk-matrix-v2.md
   - ./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
+  - ../../source-summaries/bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22.md
 ---
 
-# Bathtub Filter — 投诉分类 × 路线风险矩阵（2026-04-18 重写）
+# 浴缸过滤器投诉分类与路线风险矩阵
 
 > **重写说明：** 2026-04-13 原版是机翻占位符，内容过于薄弱。2026-04-18 基于 [[bathtub-filter-competitor-review-corpus-2026-04]]（6 品牌跨平台 50+ verbatim）重新合成为可驱动 KES 工程/文案决策的路线风险矩阵。
+
+> **2026-04-22 补充：** 本页新增 10-ASIN / 2,562 条评论项目调查的统计层。这样路线风险不再只依赖 6 品牌 verbatim，也能对齐更大盘的评论频次。
 
 ## 为什么有这页
 
@@ -49,6 +52,19 @@ related:
 | **8** | **Build quality (flimsy / O-ring leak)** | Crystal Quest | "O rings leak, filters not usable until you buy more o rings"；"2 tubes out of 3 were leaking" |
 | **9** | **Adhesive / velcro retention failure** | Sprite | "sticky pad near the back won't last in a bathtub" |
 | **10** | **长期金属腐蚀** | Sprite（2–3 年）| "faucet corroded under the filter holder" |
+
+## 一A. 10-ASIN 项目级投诉排序补充
+
+| 排名 | 投诉模式 | 提及次数 | 提及率 | 对路线判断的含义 |
+|---|---|---:|---:|---|
+| 1 | 漏水 / 溢水 / 水流异常 | 284 | 11.1% | 结构与水路是所有路线的第一筛选项 |
+| 2 | 寿命短 / 更换成本 / 维护麻烦 | 233 | 9.1% | 维护负担是第二条真实退货路径 |
+| 3 | 说明不清 / 使用边界不清 | 50 | 2.0% | 页面教育不足会放大操作型差评 |
+| 4 | 不兼容 / 装不上 / 固定不稳 | 48 | 1.9% | 低频高杀伤，尤其打击 R3 |
+| 5 | 做工 / 结构不稳 | 41 | 1.6% | 高价路线一旦做工差，会迅速价值坍塌 |
+| 6 | 过滤效果不明显 | 11 | 0.4% | 占比低，但在母婴 / 敏感肌路线中杀伤上升 |
+
+**项目级含义：** route risk 仍然首先由结构、兼容、维护决定，而不是由“滤材级数”决定。
 
 ---
 
@@ -208,4 +224,5 @@ related:
 - [[bathtub-filter-marketplace-negative-review-signals]]（投诉 pattern 分类）
 - [[bathtub-filter-review-patterns-and-return-risk]]（product form 风险分析）
 - [[bathtub-filter-installation-risk-matrix-v2]]（spout 类型 × 安装失败模式）
+- [Source Summary — Bathtub Filter Amazon 10-ASIN Project Market Survey (2026-04-22)](../../source-summaries/bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22.md)
 - `../../../raw/products/bathtub-filter/2026-04-13-complaint-taxonomy-by-route-notes.md`（原始侦察笔记）

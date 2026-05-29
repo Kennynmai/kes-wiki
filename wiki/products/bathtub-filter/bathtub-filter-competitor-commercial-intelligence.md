@@ -20,7 +20,7 @@ related:
   - ../../syntheses/bathtub-filter-competitor-and-demand-scan.md
 ---
 
-# Bathtub Filter 竞品商业情报（Amazon 销量 / BSR / 定价）
+# 浴缸过滤器竞品商业情报
 
 ## 研究说明
 

@@ -21,7 +21,7 @@ related:
   - ./bathtub-filter.md
   - ../../source-summaries/bathtub-filter-onlyzone-supplier-material-evidence-2026-04-17.md
 ---
-# 浴缸过滤器 / shower-filter 邻近认证与测试路径
+# 浴缸过滤器邻近认证与测试路径
 
 ## 为什么有这页
 KES 现在研究的不是一般 drinking water filter，而是 **bathtub filter / shower-filter adjacent** 的浴室场景产品。

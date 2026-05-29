@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-17
-updated: 2026-04-18
+updated: 2026-04-19
 visibility: team
 confidence: low
 officiality: draft
@@ -18,7 +18,7 @@ related:
   - ./bathtub-filter-test-gating-checklist-for-kes.md
 ---
 
-# Bathtub Filter — Supported Tub-Spout Matrix (Stub)
+# 浴缸龙头适配矩阵（待补）
 
 ## Why this page exists
 

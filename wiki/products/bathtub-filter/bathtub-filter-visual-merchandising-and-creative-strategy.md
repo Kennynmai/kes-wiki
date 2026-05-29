@@ -18,7 +18,7 @@ related:
   - ./bathtub-filter-review-patterns-and-return-risk.md
   - ./bathtub-filter.md
 ---
-# Bathtub Filter 视觉营销 / 创意策略
+# 浴缸过滤器视觉营销与创意策略
 
 ## 为什么有这页
 这页回答的是：

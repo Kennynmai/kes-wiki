@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-11
-updated: 2026-04-17
+updated: 2026-04-19
 visibility: team
 confidence: medium
 officiality: draft
@@ -14,11 +14,12 @@ review_cycle: monthly
 verification_status: spot-checked
 related:
   - ./bathtub-filter.md
+  - ./bathtub-filter-academic-paper-research-summary.md
   - ./bathtub-filter-claims-and-certifications.md
   - ./bathtub-filter-category-boundary.md
   - ../../source-summaries/bathtub-filter-onlyzone-supplier-material-evidence-2026-04-17.md
 ---
-# 浴缸过滤器（bathtub filter）证据参考书目
+# 浴缸过滤器证据参考书目
 
 ## 为什么有这页
 这页整理 bathtub filter 类别逻辑背后的证据基础，目的是把两类问题分开：
@@ -32,6 +33,18 @@ related:
 当前最重要的判断是：
 
 **问题相关性的证据，明显强于 finished-product efficacy 的证据。**
+
+## 导航
+- 学术总汇页：[[bathtub-filter-academic-paper-research-summary]]
+- 单篇论文汇总页：
+  - [[bathtub-filter-paper-seki-2003-bathing-water-chlorine-atopic-skin]]
+  - [[bathtub-filter-paper-perkin-2016-water-hardness-chlorine-early-life-ad]]
+  - [[bathtub-filter-paper-engebretsen-2020-water-hardness-meta-analysis]]
+  - [[bathtub-filter-paper-danby-2018-hard-water-surfactant-irritation]]
+  - [[bathtub-filter-paper-jabbar-lopez-2022-softer-pilot-rct]]
+  - [[bathtub-filter-paper-lei-2025-water-bathing-ad-review]]
+  - [[bathtub-filter-paper-bradshaw-2026-weekly-vs-daily-bathing-rct]]
+  - [[bathtub-filter-paper-bergera-2025-hard-vs-chlorinated-water-preprint]]
 
 ## 证据使用规则
 这页适合用于支持：
@@ -536,6 +549,15 @@ Academic-search-workflow 在 2026-04-17 正式纳入 Unpaywall / Europe PMC `SRC
 详细过程与工具级观察记录在 [Source Summary — Bathtub Filter 扩展学术栈检索 (2026-04-17)](../../source-summaries/bathtub-filter-expanded-stack-academic-retrieval-2026-04-17.md)。
 
 ## Sources
+- [Bathtub Filter 学术论文研究总汇](./bathtub-filter-academic-paper-research-summary.md)
+- [来源摘要｜Seki 2003](../../source-summaries/bathtub-filter-paper-seki-2003-bathing-water-chlorine-atopic-skin.md)
+- [来源摘要｜Perkin 2016](../../source-summaries/bathtub-filter-paper-perkin-2016-water-hardness-chlorine-early-life-ad.md)
+- [来源摘要｜Engebretsen 2020](../../source-summaries/bathtub-filter-paper-engebretsen-2020-water-hardness-meta-analysis.md)
+- [来源摘要｜Danby 2018](../../source-summaries/bathtub-filter-paper-danby-2018-hard-water-surfactant-irritation.md)
+- [来源摘要｜Jabbar-Lopez 2022](../../source-summaries/bathtub-filter-paper-jabbar-lopez-2022-softer-pilot-rct.md)
+- [来源摘要｜Lei 2025](../../source-summaries/bathtub-filter-paper-lei-2025-water-bathing-ad-review.md)
+- [来源摘要｜Bradshaw 2026](../../source-summaries/bathtub-filter-paper-bradshaw-2026-weekly-vs-daily-bathing-rct.md)
+- [来源摘要｜Bergera 2025](../../source-summaries/bathtub-filter-paper-bergera-2025-hard-vs-chlorinated-water-preprint.md)
 - [Source Summary — Bathtub Filter Academic and Institutional Evidence (2026-04-11)](../../source-summaries/bathtub-filter-academic-and-institutional-evidence-2026-04-11.md)
 - [Source Summary — Bathtub Filter Academic and Institutional Evidence Deepening (2026-04-11)](../../source-summaries/bathtub-filter-academic-and-institutional-evidence-deepening-2026-04-11.md)
 - [Source Summary — Bathtub Filter Market Research Signals (2026-04-11)](../../source-summaries/bathtub-filter-market-research-signals-2026-04-11.md)

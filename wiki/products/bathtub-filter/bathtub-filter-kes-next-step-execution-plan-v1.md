@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-19
 visibility: team
 confidence: medium
 officiality: draft
@@ -20,7 +20,7 @@ related:
   - ../../playbooks/bathtub-filter-validation-testing-protocol.md
 ---
 
-# Bathtub Filter KES 下一步执行计划 — V1
+# 浴缸过滤器下一步执行计划 — V1
 
 ## 这页的目的
 这页把当前 research package 转成实际可执行的 next-step plan。

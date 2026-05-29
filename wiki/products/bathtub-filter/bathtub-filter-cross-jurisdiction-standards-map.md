@@ -19,7 +19,7 @@ related:
   - ./bathtub-filter-compliance-framework-and-evidence-boundaries.md
   - ./bathtub-filter-claims-and-certifications.md
 ---
-# 浴缸过滤器（bathtub filter）跨辖区标准 / 认证 / 合规对位图
+# 浴缸过滤器跨辖区标准、认证与合规对位图
 
 ## 为什么有这页
 现有 C 层文档（certification-and-testing-pathways / certification-authority-tiers-and-workflow / compliance-framework-and-evidence-boundaries）基本只覆盖北美（NSF / WQA / IAPMO / EPA / FTC）。
@@ -178,14 +178,14 @@ related:
 
 对 KES 当前最常见的 6 类 claim，各辖区风险锚点速查：
 
-| Claim 原型 | 美国 | 加拿大 | 欧盟 | 英国 | 日本 | 澳新 | 中国 |
-|---|---|---|---|---|---|---|---|
-| "reduces free available chlorine" | 低（NSF 177 / 42 / WQA 可对位）| 低（同左）| 中（无对位成品认证；可引 DIN EN / 实验室 protocol）| 中（ASA 可能要 substantiation）| 中（JIS S 3201 是 benchmark 非认证）| 低（AS/NZS 3497 可对位）| 中（广告法要 substantiation）|
-| "removes heavy metals / fluoride / PFAS" | 高（需对应 NSF 53 / 58 / P473 认证；外推会被 FTC 盯）| 高 | 高（需 substantiation；无直接成品认证路径）| 高（ASA 会要 evidence）| 高（景表法）| 高（ACCC）| 高（广告法 + 涉水批件）|
-| "uses NSF-certified media" | 中（object switching 风险；FTC 指引）| 中 | 中（需澄清材料级还是成品级）| 中（ASA）| 中 | 中（ACCC）| 中 |
-| "clinically tested / dermatologically tested" | 高（FTC substantiation 要求严）| 高 | 高（UCPD）| 高（ASA 密集执法）| **很高**（景表法 + 薬機法双触发）| 高（ACCC + TGA 边界）| **很高**（广告法 + 医疗器械边界）|
-| "helps eczema / safe for babies" | **很高**（FDA cosmetic/device 边界 + FTC）| **很高**（Health Canada）| **很高**（可能触发 MDR）| **很高**（MHRA + ASA）| **很高**（薬機法）| **很高**（TGA）| **很高**（广告法 + 医疗器械）|
-| "premium bath ritual / gentler bath water"（软表达）| 低 | 低 | 低 | 低（ASA 仍看是否暗示健康结果）| 低（避免具体医学语）| 低 | 低（避开绝对化用语）|
+| Claim 原型                                        | 美国                                      | 加拿大                   | 欧盟                                  | 英国                        | 日本                            | 澳新                 | 中国                     |
+| ----------------------------------------------- | --------------------------------------- | --------------------- | ----------------------------------- | ------------------------- | ----------------------------- | ------------------ | ---------------------- |
+| "reduces free available chlorine"               | 低（NSF 177 / 42 / WQA 可对位）               | 低（同左）                 | 中（无对位成品认证；可引 DIN EN / 实验室 protocol） | 中（ASA 可能要 substantiation） | 中（JIS S 3201 是 benchmark 非认证） | 低（AS/NZS 3497 可对位） | 中（广告法要 substantiation） |
+| "removes heavy metals / fluoride / PFAS"        | 高（需对应 NSF 53 / 58 / P473 认证；外推会被 FTC 盯） | 高                     | 高（需 substantiation；无直接成品认证路径）       | 高（ASA 会要 evidence）        | 高（景表法）                        | 高（ACCC）            | 高（广告法 + 涉水批件）          |
+| "uses NSF-certified media"                      | 中（object switching 风险；FTC 指引）           | 中                     | 中（需澄清材料级还是成品级）                      | 中（ASA）                    | 中                             | 中（ACCC）            | 中                      |
+| "clinically tested / dermatologically tested"   | 高（FTC substantiation 要求严）               | 高                     | 高（UCPD）                             | 高（ASA 密集执法）               | **很高**（景表法 + 薬機法双触发）          | 高（ACCC + TGA 边界）   | **很高**（广告法 + 医疗器械边界）   |
+| "helps eczema / safe for babies"                | **很高**（FDA cosmetic/device 边界 + FTC）    | **很高**（Health Canada） | **很高**（可能触发 MDR）                    | **很高**（MHRA + ASA）        | **很高**（薬機法）                   | **很高**（TGA）        | **很高**（广告法 + 医疗器械）     |
+| "premium bath ritual / gentler bath water"（软表达） | 低                                       | 低                     | 低                                   | 低（ASA 仍看是否暗示健康结果）         | 低（避免具体医学语）                    | 低                  | 低（避开绝对化用语）             |
 
 **读图规则：** "低"不等于零风险；"高"意味着在该辖区如果没有具体证据，写上去就容易出事。
 

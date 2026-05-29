@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-research-coverage-gaps.md
 ---
 
-# Bathtub Filter — Top 100 美国城市 utility 消毒剂 / 硬度 速查表
+# 美国主要城市消毒剂与硬度速查表
 
 ## 为什么有这页
 

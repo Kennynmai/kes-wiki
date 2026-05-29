@@ -3,10 +3,13 @@ type: project
 status: active
 owner: strategy
 created: 2026-04-06
-updated: 2026-04-06
+updated: 2026-04-19
 visibility: company
 confidence: medium
 officiality: reviewed
+aliases: [日本市场进入, 日本市场进入项目, Japan Market Entry]
+name_zh: 日本市场进入项目
+name_en: Japan Market Entry
 domain: project
 domains: [japan, market-entry, strategy]
 review_cycle: monthly
@@ -17,7 +20,7 @@ related:
   - ../products/curtains.md
 ---
 
-# Japan Market Entry
+# 日本市场进入项目（Japan Market Entry）
 
 ## Objective
 Build a structured knowledge and decision base for evaluating whether and how KES should enter the Japan market.

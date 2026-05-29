@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Unexpected spike in Vercel Edge Requests without traffic increase - Help - Vercel Community</title>
+    <meta name="description" content="Problem
+My website’s Edge Requests has suddenly gone through the roof in the last 6 days, with no visible change in traffic. 
+What I’ve Tried
+I have implemented: 
+
+Caching
+Bot blocking
+ISR (Incremental Static Regeneratio&amp;hellip;">
+    <meta name="generator" content="Discourse 2026.4.0-latest - https://github.com/discourse/discourse version 85043a4b26f82da7db047b0426e4afbfadd0e0d8">
+<link rel="icon" type="image/png" href="https://global.discourse-cdn.com/vercel/optimized/2X/e/e6c4206dd024316182ee3c833caeefb045ad3428_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://global.discourse-cdn.com/vercel/optimized/2X/e/e6c4206dd024316182ee3c833caeefb045ad3428_2_180x180.png">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0a0a0a">
+
+<meta name="color-scheme" content="light dark">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+<link rel="canonical" href="https://community.vercel.com/t/unexpected-spike-in-vercel-edge-requests-without-traffic-increase/33857" />
+
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://community.vercel.com/opensearch.xml" title="Vercel Community Search">
+
+    
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/color_definitions_vercel-light_109_89_28fb84c3874abb416cff63e96b37fb3380c90c8f.css?__ws=community.vercel.com" media="(prefers-color-scheme: light)" rel="stylesheet" class="light-scheme" data-scheme-id="109"/><link href="https://sea1.discourse-cdn.com/vercel/stylesheets/color_definitions_vercel-dark_110_89_c9e4627435924fdcc01d0c08f704d6ce5159d2b6.css?__ws=community.vercel.com" media="(prefers-color-scheme: dark)" rel="stylesheet" class="dark-scheme" data-scheme-id="110"/>
+
+<link href="https://sea1.discourse-cdn.com/vercel/stylesheets/common_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="common"  />
+
+  <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/mobile_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="(max-width: 39.99999rem)" rel="stylesheet" data-target="mobile"  />
+  <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/desktop_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="(min-width: 40rem)" rel="stylesheet" data-target="desktop"  />
+
+
+
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/automation_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="automation"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/checklist_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="checklist"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-ai_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-ai"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-akismet_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-akismet"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-assign_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-assign"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-calendar_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-calendar"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-data-explorer_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-data-explorer"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-details_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-docs_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-docs"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-gamification_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-gamification"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-lazy-videos_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-local-dates_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-narrative-bot_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-policy_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-policy"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-rss-polling_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-rss-polling"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-solved_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-templates_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-templates"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-user-notes_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="discourse-user-notes"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/footnote_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="footnote"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/hosted-site_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="hosted-site"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/poll_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="poll"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/spoiler-alert_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="spoiler-alert"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-ai_mobile_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="(max-width: 39.99999rem)" rel="stylesheet" data-target="discourse-ai_mobile"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-assign_mobile_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="(max-width: 39.99999rem)" rel="stylesheet" data-target="discourse-assign_mobile"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-calendar_mobile_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="(max-width: 39.99999rem)" rel="stylesheet" data-target="discourse-calendar_mobile"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-gamification_mobile_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="(max-width: 39.99999rem)" rel="stylesheet" data-target="discourse-gamification_mobile"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-ai_desktop_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="(min-width: 40rem)" rel="stylesheet" data-target="discourse-ai_desktop"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/discourse-gamification_desktop_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="(min-width: 40rem)" rel="stylesheet" data-target="discourse-gamification_desktop"  />
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/poll_desktop_9f81a61eaeeb66b5ea0e89bbe66408f398047292.css?__ws=community.vercel.com" media="(min-width: 40rem)" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/common_theme_87_f0d2de5158c933acee869dcca4bf0b5037e1c082.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="87" data-theme-name="data explorer sidebar"/>
+<link href="https://sea1.discourse-cdn.com/vercel/stylesheets/common_theme_44_1c5c8db2258aad1df2fbfce2d128c69463fa33eb.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="44" data-theme-name="discotoc"/>
+<link href="https://sea1.discourse-cdn.com/vercel/stylesheets/common_theme_92_9060f3785919533259f3c6069611853808d4e353.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="92" data-theme-name="discourse group menu sections (fork)"/>
+<link href="https://sea1.discourse-cdn.com/vercel/stylesheets/common_theme_73_f05d26f2e4bc212732d525d757fc31017125f480.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="73" data-theme-name="easy responsive footer"/>
+<link href="https://sea1.discourse-cdn.com/vercel/stylesheets/common_theme_85_fdc225e6d8a45bbefa9fa61f999132054f88577d.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="85" data-theme-name="partnerships banner"/>
+<link href="https://sea1.discourse-cdn.com/vercel/stylesheets/common_theme_74_cdd53633df683712b987ffbb8f7e317c44358eec.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="74" data-theme-name="statuspage banner"/>
+<link href="https://sea1.discourse-cdn.com/vercel/stylesheets/common_theme_91_862c86e6795714e3943879b375bcd91b370c0af6.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="91" data-theme-name="vercel category groups"/>
+<link href="https://sea1.discourse-cdn.com/vercel/stylesheets/common_theme_89_04e600face183553da20c5772caccec7633299cf.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="89" data-theme-name="vercel theme"/>
+<link href="https://sea1.discourse-cdn.com/vercel/stylesheets/common_theme_76_a7e98c82d6990fb47072692b8a1dd3ef43018539.css?__ws=community.vercel.com" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="76" data-theme-name="hide image hover in post tables"/>
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/mobile_theme_89_7860fda022d4c7ba937142f040c9b73a69cf8bd7.css?__ws=community.vercel.com" media="(max-width: 39.99999rem)" rel="stylesheet" data-target="mobile_theme" data-theme-id="89" data-theme-name="vercel theme"/>
+    <link href="https://sea1.discourse-cdn.com/vercel/stylesheets/desktop_theme_89_7a0dd2e7f95322925976447e95eaf8c98d57b871.css?__ws=community.vercel.com" media="(min-width: 40rem)" rel="stylesheet" data-target="desktop_theme" data-theme-id="89" data-theme-name="vercel theme"/>
+
+    <script defer="" src="https://sea1.discourse-cdn.com/vercel/theme-javascripts/73d1f544f2380b76e128fec6cd31d0906b6fdb03.js?__ws=community.vercel.com" data-theme-id="89" nonce="U7hrNM6ypwKTLXmyCRrUwfLoh"></script>
+<script defer="" src="https://sea1.discourse-cdn.com/vercel/theme-javascripts/3f2827ab80e5dae624689ac1289de12174400418.js?__ws=community.vercel.com" data-theme-id="89" nonce="U7hrNM6ypwKTLXmyCRrUwfLoh"></script>
+<script defer="" src="/_vercel/insights/script.js" nonce="U7hrNM6ypwKTLXmyCRrUwfLoh"></script>
+
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Unexpected spike in Vercel Edge Requests without traffic increase&#39;" href="https://community.vercel.com/t/unexpected-spike-in-vercel-edge-requests-without-traffic-increase/33857.rss" />
+    <meta property="og:site_name" content="Vercel Community" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://global.discourse-cdn.com/vercel/optimized/3X/5/6/56432aa9ee4d278eb6bb2d7d68e94818fd34a189_2_1024x416.jpeg" />
+<meta property="og:image" content="https://global.discourse-cdn.com/vercel/optimized/3X/5/6/56432aa9ee4d278eb6bb2d7d68e94818fd34a189_2_1024x416.jpeg" />
+<meta property="og:image:width" content="1102" />
+<meta property="og:image:height" content="448" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:url" content="https://community.vercel.com/t/unexpected-spike-in-vercel-edge-requests-without-traffic-increase/33857" />
+<meta name="twitter:url" content="https://community.vercel.com/t/unexpected-spike-in-vercel-edge-requests-without-traffic-increase/33857" />
+<meta property="og:title" content="Unexpected spike in Vercel Edge Requests without traffic increase" />
+<meta name="twitter:title" content="Unexpected spike in Vercel Edge Requests without traffic increase" />
+<meta property="og:description" content="Problem My website’s Edge Requests has suddenly gone through the roof in the last 6 days, with no visible change in traffic.  What I’ve Tried I have implemented:   Caching Bot blocking ISR (Incremental Static Regeneration)  And nothing has worked. As a free tier user, I got an email saying that my project will be paused if Edge Requests exceed 1 million.     Questions What could possibly be causing this sudden surge? And how do I fix it?" />
+<meta name="twitter:description" content="Problem My website’s Edge Requests has suddenly gone through the roof in the last 6 days, with no visible change in traffic.  What I’ve Tried I have implemented:   Caching Bot blocking ISR (Incremental Static Regeneration)  And nothing has worked. As a free tier user, I got an email saying that my project will be paused if Edge Requests exceed 1 million.     Questions What could possibly be causing this sudden surge? And how do I fix it?" />
+<meta property="og:article:section" content="Help" />
+<meta property="og:article:section:color" content="0072F5" />
+<meta property="og:article:tag" content="billing" />
+<meta property="og:article:tag" content="pricing" />
+<meta property="og:article:tag" content="edge-request" />
+<meta property="og:article:tag" content="edge-cache" />
+<meta property="og:article:tag" content="cdn" />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="1 min 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="1 ❤" />
+<meta property="article:published_time" content="2026-02-16T10:05:15+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"QAPage","name":"Unexpected spike in Vercel Edge Requests without traffic increase","mainEntity":{"@type":"Question","name":"Unexpected spike in Vercel Edge Requests without traffic increase","text":"<a name=\"p-102529-problem-1\" class=\"anchor\" href=\"#p-102529-problem-1\" aria-label=\"Heading link\"><\/a>Problem\n\nMy website’s Edge Requests has suddenly gone through the roof in the last 6 days, with no visible change in traffic.\n\n<a name=\"p-102529-what-ive-tried-2\" class=\"anchor\" href=\"#p-102529-what-ive-tried-2\" aria-label=\"Heading link\"><\/a>What I’ve Tried\n\nI have implemented:\n\nCaching\n\nBot blocking\n\nISR (Incremental Static Regeneration)\n\nAnd nothing has worked. As a free tier user, I got an email saying that my p&hellip;","upvoteCount":0,"answerCount":2,"datePublished":"2026-02-16T10:05:15.714Z","author":{"@type":"Person","name":"jonoki67-4086","url":"https://community.vercel.com/u/jonoki67-4086"},"acceptedAnswer":{"@type":"Answer","text":"The requests are all coming from gptbot, which is the official ChatGPT crawler. It is unfortunately pretty heavy in its crawling and we’re looking at solutions to prevent this from taking down Hobby projects\n\nIf you block gptbot from your Firewall tab this will go away, however you also won’t show u&hellip;","upvoteCount":1,"datePublished":"2026-02-16T10:46:19.785Z","url":"https://community.vercel.com/t/unexpected-spike-in-vercel-edge-requests-without-traffic-increase/33857/5","author":{"@type":"Person","name":"jacobparis","url":"https://community.vercel.com/u/jacobparis"}},"suggestedAnswer":[{"@type":"Answer","text":"Thank you! Blocking GPTBot via the firewall stopped the problem. I cannot thank you enough.","upvoteCount":0,"datePublished":"2026-02-17T02:39:28.239Z","url":"https://community.vercel.com/t/unexpected-spike-in-vercel-edge-requests-without-traffic-increase/33857/6","author":{"@type":"Person","name":"jonoki67-4086","url":"https://community.vercel.com/u/jonoki67-4086"}}]}}</script>
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="/">Vercel Community</a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="/t/unexpected-spike-in-vercel-edge-requests-without-traffic-increase/33857">Unexpected spike in Vercel Edge Requests without traffic increase</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="/c/help/9" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #0072F5'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Help</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+      </div>
+
+      <div class="topic-category">
+        <div class='discourse-tags list-tags'>
+            <a href='https://community.vercel.com/tag/billing' class='discourse-tag' rel="tag">billing</a>, 
+            <a href='https://community.vercel.com/tag/pricing' class='discourse-tag' rel="tag">pricing</a>, 
+            <a href='https://community.vercel.com/tag/edge-request' class='discourse-tag' rel="tag">edge-request</a>, 
+            <a href='https://community.vercel.com/tag/edge-cache' class='discourse-tag' rel="tag">edge-cache</a>, 
+            <a href='https://community.vercel.com/tag/cdn' class='discourse-tag' rel="tag">cdn</a>
+        </div>
+      </div>
+  </div>
+
+  
+
+    <div itemscope="itemscope" itemtype="https://schema.org/QAPage">
+      <meta itemprop='name' content='Unexpected spike in Vercel Edge Requests without traffic increase'>
+      <link itemprop='url' href='https://community.vercel.com/t/unexpected-spike-in-vercel-edge-requests-without-traffic-increase/33857'>
+      <meta itemprop='datePublished' content='2026-02-16T10:05:15Z'>
+      <meta itemprop='keywords' content='billing, pricing, edge-request, edge-cache, cdn'>
+
+        <div itemprop="mainEntity" itemscope="itemscope" itemtype="https://schema.org/Question">
+          <meta itemprop='name' content='Unexpected spike in Vercel Edge Requests without traffic increase'><meta itemprop='answerCount' content='2'>
+
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" rel='nofollow' href='https://community.vercel.com/u/jonoki67-4086'><span itemprop='name'>jonoki67-4086</span></a>
+                (Jonoki67 4086)
+              </span>
+
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/vercel/original/3X/5/6/56432aa9ee4d278eb6bb2d7d68e94818fd34a189.jpeg">
+
+              <span class="crawler-post-infos">
+                  <time  datetime='2026-02-16T10:05:15Z' class='post-time'>
+                    February 16, 2026, 10:05am
+                  </time>
+                  <meta itemprop='dateModified' content='2026-02-16T10:05:51Z'>
+              <span itemprop='position'>1</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <h2><a name="p-102529-problem-1" class="anchor" href="#p-102529-problem-1" aria-label="Heading link"></a>Problem</h2>
+<p>My website’s <code>Edge Requests</code> has suddenly gone through the roof in the last 6 days, with no visible change in traffic.</p>
+<h2><a name="p-102529-what-ive-tried-2" class="anchor" href="#p-102529-what-ive-tried-2" aria-label="Heading link"></a>What I’ve Tried</h2>
+<p>I have implemented:</p>
+<ul>
+<li>Caching</li>
+<li>Bot blocking</li>
+<li><code>ISR</code> (Incremental Static Regeneration)</li>
+</ul>
+<p>And nothing has worked. As a free tier user, I got an email saying that my project will be paused if <code>Edge Requests</code> exceed 1 million.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/vercel/original/3X/5/6/56432aa9ee4d278eb6bb2d7d68e94818fd34a189.jpeg" data-download-href="/uploads/short-url/cj6XUFgDLnfxwLum04kgi311v3H.jpeg?dl=1" title="Screenshot 2026-02-16 153344" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/vercel/optimized/3X/5/6/56432aa9ee4d278eb6bb2d7d68e94818fd34a189_2_690x280.jpeg" alt="Screenshot 2026-02-16 153344" width="690" height="280" srcset="https://global.discourse-cdn.com/vercel/optimized/3X/5/6/56432aa9ee4d278eb6bb2d7d68e94818fd34a189_2_690x280.jpeg, https://global.discourse-cdn.com/vercel/optimized/3X/5/6/56432aa9ee4d278eb6bb2d7d68e94818fd34a189_2_1035x420.jpeg 1.5x, https://global.discourse-cdn.com/vercel/original/3X/5/6/56432aa9ee4d278eb6bb2d7d68e94818fd34a189.jpeg 2x" data-dominant-color="0B0F13"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screenshot 2026-02-16 153344</span><span class="informations">1102×448 40.6 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div></p>
+<h2><a name="p-102529-questions-3" class="anchor" href="#p-102529-questions-3" aria-label="Heading link"></a>Questions</h2>
+<p>What could possibly be causing this sudden surge? And how do I fix it?</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+
+            
+          </div>
+          <div id='post_5' itemprop="acceptedAnswer" itemscope="itemscope" itemtype="https://schema.org/Answer" class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" rel='nofollow' href='https://community.vercel.com/u/jacobparis'><span itemprop='name'>jacobparis</span></a>
+                (Jacob Paris)
+              </span>
+
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2026-02-16T10:46:19Z' class='post-time'>
+                    February 16, 2026, 10:46am
+                  </time>
+                  <meta itemprop='dateModified' content='2026-02-16T10:46:19Z'>
+              <span itemprop='position'>5</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>The requests are all coming from <code>gptbot</code>, which is the official ChatGPT crawler. It is unfortunately pretty heavy in its crawling and we’re looking at solutions to prevent this from taking down Hobby projects</p>
+<p>If you block gptbot from your Firewall tab this will go away, however you also won’t show up in ChatGPT searches, so you’ll have to make a judgement call appropriate to your project</p>
+<p>if you go to Observability → Edge Requests → Bot name you can see the identifier</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+
+            
+          </div>
+          <div id='post_6' itemprop="suggestedAnswer" itemscope="itemscope" itemtype="https://schema.org/Answer" class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" rel='nofollow' href='https://community.vercel.com/u/jonoki67-4086'><span itemprop='name'>jonoki67-4086</span></a>
+                (Jonoki67 4086)
+              </span>
+
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2026-02-17T02:39:28Z' class='post-time'>
+                    February 17, 2026,  2:39am
+                  </time>
+                  <meta itemprop='dateModified' content='2026-02-17T02:39:28Z'>
+              <span itemprop='position'>6</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Thank you! Blocking GPTBot via the firewall stopped the problem. I cannot thank you enough.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+
+            
+          </div>
+          <div id='post_7' itemscope="itemscope" class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" rel='nofollow' href='https://community.vercel.com/u/system'><span itemprop='name'>system</span></a>
+                (system)
+                  Closed 
+              </span>
+
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2026-03-03T02:40:16Z' class='post-time'>
+                    March 3, 2026,  2:40am
+                  </time>
+                  <meta itemprop='dateModified' content='2026-03-03T02:40:16Z'>
+              <span itemprop='position'>7</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+
+            
+          </div>
+
+        </div>
+    </div>
+
+
+    <div id="related-topics" class="more-topics__list " role="complementary" aria-labelledby="related-topics-title">
+  <h3 id="related-topics-title" class="more-topics__list-title">
+    Related topics
+  </h3>
+  <div class="topic-list-container" itemscope itemtype='http://schema.org/ItemList'>
+    <meta itemprop='itemListOrder' content='http://schema.org/ItemListOrderDescending'>
+    <table class='topic-list'>
+      <thead>
+        <tr>
+          <th>Topic</th>
+          <th></th>
+          <th class="replies">Replies</th>
+          <th class="views">Views</th>
+          <th>Activity</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="topic-list-item" id="topic-list-item-37253">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='1'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://community.vercel.com/t/vercel-edge-requests-spiked-to-3-million-in-seconds-after-upgrade/37253' class='title raw-link raw-topic-link'>Vercel Edge Requests spiked to 3 million in seconds after upgrade</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/help/9' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #0072F5'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Help</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                      <a href='https://community.vercel.com/tag/usage/77' class='discourse-tag'>usage</a>
+                      ,&nbsp;
+                      <a href='https://community.vercel.com/tag/cdn/96' class='discourse-tag'>cdn</a>
+                      ,&nbsp;
+                      <a href='https://community.vercel.com/tag/billing/100' class='discourse-tag'>billing</a>
+                      ,&nbsp;
+                      <a href='https://community.vercel.com/tag/pricing/155' class='discourse-tag'>pricing</a>
+                      ,&nbsp;
+                      <a href='https://community.vercel.com/tag/edge-request/161' class='discourse-tag'>edge-request</a>
+                      
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>2</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>19</span>
+            </td>
+            <td>
+              March 29, 2026
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-37054">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='2'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://community.vercel.com/t/sudden-increase-in-edge-requests-without-traffic-changes/37054' class='title raw-link raw-topic-link'>Sudden increase in Edge Requests without traffic changes</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/help/9' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #0072F5'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Help</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                      <a href='https://community.vercel.com/tag/observability/69' class='discourse-tag'>observability</a>
+                      ,&nbsp;
+                      <a href='https://community.vercel.com/tag/usage/77' class='discourse-tag'>usage</a>
+                      ,&nbsp;
+                      <a href='https://community.vercel.com/tag/monitoring/78' class='discourse-tag'>monitoring</a>
+                      
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>1</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>31</span>
+            </td>
+            <td>
+              April 7, 2026
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-13288">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='3'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://community.vercel.com/t/weird-spike-of-edge-requests/13288' class='title raw-link raw-topic-link'>Weird spike of Edge requests</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/help/9' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #0072F5'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Help</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>3</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>97</span>
+            </td>
+            <td>
+              November 23, 2025
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-942">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='4'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://community.vercel.com/t/edge-request-usage-is-climbing-and-i-dont-know-why/942' class='title raw-link raw-topic-link'>Edge request usage is climbing and I don&#39;t know why</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/help/9' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #0072F5'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Help</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>10</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>799</span>
+            </td>
+            <td>
+              December 20, 2024
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-275">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='5'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://community.vercel.com/t/suspicious-edge-requests/275' class='title raw-link raw-topic-link'>Suspicious Edge Requests</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/help/9' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #0072F5'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Help</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                      <a href='https://community.vercel.com/tag/firewall/51' class='discourse-tag'>firewall</a>
+                      
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>4</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>149</span>
+            </td>
+            <td>
+              July 24, 2024
+            </td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/guidelines' itemprop="url">Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://vercel.com/legal/terms' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://vercel.com/legal/privacy-policy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    
+    <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0"><defs><symbol id="eye" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path><circle cx="12" cy="12" r="3"></circle></g></symbol><symbol id="message-square" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></symbol></defs></svg>
+
+  </body>
+  
+</html>

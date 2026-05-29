@@ -16,7 +16,7 @@ related:
   - ./bathtub-filter-kes-go-no-go-memo-v1.md
   - ./bathtub-filter-claim-risk-audit-v2.md
 ---
-# 浴缸过滤器（bathtub filter）产品定义语言
+# 浴缸过滤器产品定义语言
 
 ## Obsidian links
 - [[bathtub-filter]]

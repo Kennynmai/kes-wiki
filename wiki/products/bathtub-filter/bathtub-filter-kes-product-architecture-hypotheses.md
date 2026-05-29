@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-media-efficacy-at-bath-conditions.md
   - ../../source-summaries/bathtub-filter-kes-internal-product-materials-2026-04-17.md
 ---
-# Bathtub Filter — KES 产品架构假设 → 确认 log
+# 浴缸过滤器产品架构假设与确认记录
 
 ## 📌 Status update 2026-04-17：Version A 已从假设升级为确认设计
 

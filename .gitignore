@@ -1,0 +1,7 @@
+# IDE / Editor files
+.codebuddy/
+.DS_Store
+.obsidian/
+
+# macOS
+*.base

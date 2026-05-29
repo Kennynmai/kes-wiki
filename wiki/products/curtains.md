@@ -3,10 +3,13 @@ type: product
 status: active
 owner: product
 created: 2026-04-06
-updated: 2026-04-06
+updated: 2026-04-19
 visibility: company
 confidence: medium
 officiality: draft
+aliases: [窗帘, 窗帘品类, Curtains]
+name_zh: 窗帘
+name_en: Curtains
 domain: product
 domains: [curtains, product, expansion]
 source_count: 0
@@ -17,7 +20,7 @@ related:
   - ../projects/japan-market-entry.md
 ---
 
-# Curtains
+# 窗帘（Curtains）
 
 ## Scope and definition
 A canonical page for curtain-related expansion thinking, including potential product adjacency, partner integration, category logic, and channel/market implications.

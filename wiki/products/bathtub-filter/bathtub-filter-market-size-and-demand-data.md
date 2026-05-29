@@ -19,7 +19,7 @@ related:
   - ../../syntheses/bathtub-filter-competitor-and-demand-scan.md
 ---
 
-# Bathtub Filter 市场规模与需求数据
+# 浴缸过滤器市场规模与需求数据
 
 ## 一句话结论
 

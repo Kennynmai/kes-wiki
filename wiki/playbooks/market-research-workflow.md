@@ -3,10 +3,13 @@ type: playbook
 status: active
 owner: strategy
 created: 2026-04-06
-updated: 2026-04-06
+updated: 2026-04-19
 visibility: company
 confidence: high
 officiality: reviewed
+aliases: [市场研究工作流, 市场研究流程, Market Research Workflow]
+name_zh: 市场研究工作流
+name_en: Market Research Workflow
 domain: operations
 domains: [research, strategy, market-entry]
 review_cycle: quarterly
@@ -16,7 +19,7 @@ related:
   - ../projects/japan-market-entry.md
 ---
 
-# Market Research Workflow
+# 市场研究工作流（Market Research Workflow）
 
 ## Trigger / scope
 Use this workflow when evaluating a new market, category expansion, or platform-market combination.

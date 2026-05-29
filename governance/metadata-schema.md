@@ -11,6 +11,9 @@ Recommended fields:
 - `officiality`
 - `domain`
 - `domains`
+- `aliases`
+- `name_zh`
+- `name_en`
 - `source_count`
 - `review_cycle`
 - `verification_status`
@@ -46,3 +49,5 @@ Recommended fields:
 - `officiality` = governance state
 - `verification_status` = evidence-check state
 - use `domain` / `domains` on nearly all maintained pages
+- `aliases` should capture common Chinese and English retrieval variants
+- prefer `name_zh` for broad internal readability and `name_en` for canonical entity matching

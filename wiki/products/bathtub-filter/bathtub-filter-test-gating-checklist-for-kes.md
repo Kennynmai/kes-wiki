@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-15
+updated: 2026-04-19
 visibility: team
 confidence: medium
 officiality: draft
@@ -22,7 +22,7 @@ related:
   - ../../playbooks/bathtub-filter-validation-testing-protocol.md
 ---
 
-# Bathtub Filter Test-Gating Checklist for KES
+# 浴缸过滤器测试闸门清单
 
 ## Why this page exists
 This page turns the research into a practical gate.

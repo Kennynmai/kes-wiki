@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-research-coverage-gaps.md
 ---
 
-# Bathtub Filter — 竞品定价 & KES V1 价格建议（2026-04）
+# 浴缸过滤器竞品定价与 KES V1 价格建议
 
 ## 为什么有这页
 

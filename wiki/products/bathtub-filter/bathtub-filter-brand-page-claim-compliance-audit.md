@@ -16,7 +16,7 @@ related:
   - ./bathtub-filter-claim-risk-audit-v2.md
   - ./bathtub-filter-standards-and-certification-audit-by-brand.md
 ---
-# 浴缸过滤器（bathtub filter）品牌页面宣称 / 合规审核
+# 浴缸过滤器品牌页面宣称与合规审核
 
 ## Obsidian links
 - [[bathtub-filter]]

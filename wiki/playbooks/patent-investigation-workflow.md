@@ -3,10 +3,13 @@ type: playbook
 status: draft
 owner: strategy
 created: 2026-04-17
-updated: 2026-04-17
+updated: 2026-04-19
 visibility: company
 confidence: medium
 officiality: draft
+aliases: [专利调查工作流, 专利检索工作流, Patent Investigation Workflow]
+name_zh: 专利调查工作流
+name_en: Patent Investigation Workflow
 domain: operations
 domains: [research, patents, ip, freedom-to-operate, product-research]
 review_cycle: quarterly
@@ -18,7 +21,7 @@ related:
   - ../products/bathtub-filter/bathtub-filter-ip-depth-and-brand-marker-map.md
 ---
 
-# Patent Investigation Workflow
+# 专利调查工作流（Patent Investigation Workflow）
 
 ## Trigger / scope
 

@@ -18,7 +18,7 @@ related:
   - ../../syntheses/bathtub-filter-competitor-and-demand-scan.md
 ---
 
-# Bathtub Filter 产品形态
+# 浴缸过滤器产品形态
 
 ## 为什么有这页
 bathtub filter 不应被当成单一产品形状来理解。这个品类其实包含**多种物理形态**，每种形态在工程、compatibility、信任负担、支持成本上都有显著不同的含义。

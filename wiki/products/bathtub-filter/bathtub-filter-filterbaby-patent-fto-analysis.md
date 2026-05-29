@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-research-coverage-gaps.md
 ---
 
-# Bathtub Filter — FilterBaby `US12534389B2` FTO 预分析（KES 定位对照）
+# FilterBaby `US12534389B2` FTO 预分析
 
 ## 为什么有这页
 

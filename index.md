@@ -31,6 +31,7 @@
 - [Market Research Workflow](wiki/playbooks/market-research-workflow.md)
 - [Bathtub Filter Validation Testing Protocol](wiki/playbooks/bathtub-filter-validation-testing-protocol.md)
 - [Academic Search Workflow](wiki/playbooks/academic-search-workflow.md)
+- [Amazon / Rufus GEO Audit and Corroboration Playbook](wiki/playbooks/amazon-rufus-geo-audit-and-corroboration-playbook.md)
 
 ### Syntheses
 - [Bathtub Filter Research Map](wiki/syntheses/bathtub-filter-research-map.md)

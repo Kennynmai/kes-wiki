@@ -18,7 +18,7 @@ related:
   - ./bathtub-filter-certification-authority-tiers-and-workflow.md
   - ../../syntheses/bathtub-filter-competitor-and-demand-scan.md
 ---
-# 浴缸过滤器（bathtub filter）宣称与认证
+# 浴缸过滤器宣称与认证
 
 ## 为什么有这页
 bathtub filter 是一个高度受 **health-adjacent / skin-adjacent / contaminant-reduction** 叙事影响的品类。

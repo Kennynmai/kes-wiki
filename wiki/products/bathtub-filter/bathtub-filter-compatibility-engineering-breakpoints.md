@@ -17,8 +17,9 @@ related:
   - ./bathtub-filter-route-clusters-and-kes-opportunity-spaces.md
   - ./bathtub-filter-kes-rd-and-validation-roadmap.md
   - ./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
+  - ./bathtub-filter-atmospheric-vacuum-breaker-avb.md
 ---
-# Bathtub Filter 兼容性（compatibility）工程断点
+# 浴缸过滤器兼容性工程断点
 
 ## 为什么有这页
 这页不再泛泛讨论“安装有风险”，而是回答一个更具体的问题：
@@ -179,6 +180,18 @@ related:
 - unsupported spout types 的前置识别
 - leak taxonomy 级别的内部验证，而不是笼统写 leak test passed
 
+## 10. Backflow / backsiphonage 也是兼容性边界
+新增 AVB 部件调查见 [[bathtub-filter-atmospheric-vacuum-breaker-avb]]。
+
+这不是说 bathtub filter 一定需要内置大气式真空破坏器，而是说 tub-spout / faucet 外接产品不能只看“正常注水路径”。如果产品存在软管、下游关闭点、浸没出口、残水腔或用户可能误接附件，就需要单独评估：
+- 负压倒吸风险
+- 下游阀门是否让 AVB 失效或不适用
+- 出水端是否可能进入污染水面以下
+- 目标市场是否要求 ASSE 1001 或其他 backflow-prevention 相关认证 / listing
+
+因此，backflow review 应进入样机阶段的 compatibility checklist，而不是等到上市包装或售后投诉时再补。
+
 ## Sources
 - [Bathtub Filter 安装风险矩阵 — V2](./bathtub-filter-installation-risk-matrix-v2.md)
 - `../../../raw/products/bathtub-filter/2026-04-15-compatibility-engineering-and-water-jurisdiction-pass.md`
+- [大气式真空破坏器（AVB）](./bathtub-filter-atmospheric-vacuum-breaker-avb.md)

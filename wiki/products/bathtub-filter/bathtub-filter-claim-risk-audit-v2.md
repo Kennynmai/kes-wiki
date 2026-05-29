@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-17
+updated: 2026-04-19
 visibility: team
 confidence: medium
 officiality: draft
@@ -13,12 +13,11 @@ source_count: 12
 review_cycle: monthly
 verification_status: spot-checked
 related:
-  - ./bathtub-filter-claim-risk-audit.md
   - ./bathtub-filter-evidence-matrix.md
   - ./bathtub-filter-content-ecosystem-by-layer.md
   - ../../source-summaries/bathtub-filter-content-ecosystem-url-harvest-2026-04-17.md
 ---
-# 浴缸过滤器（bathtub filter）宣称风险审核 — V2
+# 浴缸过滤器宣称风险审核
 
 ## 页面定位（与相关页面的分工）
 > **本页关注：** 市场上真实出现的宣称措辞的逐条风险评估与 KES 姿势（"这句话能不能用？"）
@@ -26,21 +25,18 @@ related:
 > **Evidence Matrix** 关注：当前已有证据的覆盖范围（"我们有什么证据？"）
 > **Claim Register** 关注：KES 正式批准 / 条件允许 / 禁用宣称清单（最终操作 reference，待竞品调查后完善）
 
-## 版本链接
-- 早期页面：[[bathtub-filter-claim-risk-audit]]
-
-|宣称类别 |出现的措辞示例 |来源主播|证据姿势|风险| KES姿势|
-|---|---|---|---|---|---|
-|游离氯减少 | “有助于去除游离氯” |雪碧/NSF-177-相邻淋浴环境|相对最强|低-中 |可使用精确的措辞|
-|更快的氯性能 | “唯一能够以更快的流量（flow）减少 100% 氯的产品” | Santevia 上的 WaterFilterGuru |如果独立复制的话，比一般的氯声称更强 |中等|如果可重复，则有价值的差异化因素|
-|广泛的污染物堆栈|重金属、VOC、PFAS、农药、数百种污染物 | Crystal Quest / 市场通用内容 |常常是宽泛且不具体的路线 |高|除非经过严格验证，否则应避免 |
-|敏感肌肤舒适 |沐浴更温和，水疗般更舒适| Canopy / 生活方式/社论/产品页面 |商业但间接|中等|如果不接受医疗也可以使用|
-|婴儿安全/家长放心 |婴儿沐浴用品“每个父母都需要的沐浴过滤器”/“价值 89 美元”| Instagram / 母亲 / Canopy |情感强大，证据充足|高|高度谨慎|
-|改善肌肤水合作用 | “经过临床测试，可改善皮肤水合作用” |金德浮出水面副本 |需要比本次传递中出现的更强有力的证据|非常高|视为危险信号语言 |
-|湿疹改善| “缓解……湿疹”/湿疹友好型挂钩 | Kinder / Tubo / 社交挂钩 |最强商业诱惑，最弱清晰验证的成品证明|非常高|避免直接功效声明|
-|临床/已证实的优越性 | “经过临床测试”/“经过验证”|吐博/金德|上下文常常不够明显 |非常高|积极审计|
-|硬水软化|软化硬水/平衡硬水|市场和一些广泛的内容|对紧凑型浴缸过滤系统的支持薄弱高|可能避免 |
-|认证与测试歧义 | “经过 NSF 177 测试”与经过认证 | WaterFilterGuru 谈 Canopy 淋浴环境 |批评性措辞的区别|高|始终将测试与认证分开 |
+| 宣称类别       | 出现的措辞示例                          | 来源主播                          | 证据姿势               | 风险   | KES姿势            |
+| ---------- | -------------------------------- | ----------------------------- | ------------------ | ---- | ---------------- |
+| 游离氯减少      | “有助于去除游离氯”                       | 雪碧/NSF-177-相邻淋浴环境             | 相对最强               | 低-中  | 可使用精确的措辞         |
+| 更快的氯性能     | “唯一能够以更快的流量（flow）减少 100% 氯的产品”   | Santevia 上的 WaterFilterGuru   | 如果独立复制的话，比一般的氯声称更强 | 中等   | 如果可重复，则有价值的差异化因素 |
+| 广泛的污染物堆栈   | 重金属、VOC、PFAS、农药、数百种污染物           | Crystal Quest / 市场通用内容        | 常常是宽泛且不具体的路线       | 高    | 除非经过严格验证，否则应避免   |
+| 敏感肌肤舒适     | 沐浴更温和，水疗般更舒适                     | Canopy / 生活方式/社论/产品页面         | 商业但间接              | 中等   | 如果不接受医疗也可以使用     |
+| 婴儿安全/家长放心  | 婴儿沐浴用品“每个父母都需要的沐浴过滤器”/“价值 89 美元” | Instagram / 母亲 / Canopy       | 情感强大，证据充足          | 高    | 高度谨慎             |
+| 改善肌肤水合作用   | “经过临床测试，可改善皮肤水合作用”               | 金德浮出水面副本                      | 需要比本次传递中出现的更强有力的证据 | 非常高  | 视为危险信号语言         |
+| 湿疹改善       | “缓解……湿疹”/湿疹友好型挂钩                 | Kinder / Tubo / 社交挂钩          | 最强商业诱惑，最弱清晰验证的成品证明 | 非常高  | 避免直接功效声明         |
+| 临床/已证实的优越性 | “经过临床测试”/“经过验证”                  | 吐博/金德                         | 上下文常常不够明显          | 非常高  | 积极审计             |
+| 硬水软化       | 软化硬水/平衡硬水                        | 市场和一些广泛的内容                    | 对紧凑型浴缸过滤系统的支持薄弱高   | 可能避免 |                  |
+| 认证与测试歧义    | “经过 NSF 177 测试”与经过认证             | WaterFilterGuru 谈 Canopy 淋浴环境 | 批评性措辞的区别           | 高    | 始终将测试与认证分开       |
 
 ## 经销商 / 品牌博客层（Layer C）观察到的 claim-stacking 模式
 2026-04-17 新增。单条宣称的风险在上表已评估，但**多条宣称叠加在同一页**才是 Layer C 的真正风险形态。
@@ -101,16 +97,16 @@ related:
 - Tubo 的替代路径：Kinder 用 survey %，Tubo 用 testimonial——**目的相同（未验证 eczema 功效），修辞路径不同。**
 
 #### Kinder vs Tubo 要素对比（全部来自 2026-04-17 verbatim 抽取）
-| 要素 | Kinder | Tubo |
-|---|---|---|
-| "clinically tested" 语言 | ✓（"clinically tested" + "clinically proven"）| ✓（"CLINICALLY TESTED" header）|
-| 支撑研究 | 无；仅 survey % | 无；仅 testimonial |
-| 氯去除 % | "up to 99%" | "up to 99%" |
-| 重金属 | "heavy metals & irritants" | "lead, mercury, arsenic"（更具名）|
-| 细菌 / 病毒 | 未声称 | "99.9% of bacteria and viruses" **(高风险)** |
-| Eczema 功效 | "Clinically proven to calm... eczema-prone skin" | 由 testimonial 承担 |
-| 医疗权威 | "designed by healthcare professionals" | "consult with your pediatrician or dermatologist"（对冲）|
-| 第三方认证 | "certified third-party skin hydration lab measurement testing"（novel phrase）| 无 |
+| 要素                     | Kinder                                                                       | Tubo                                                  |
+| ---------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------- |
+| "clinically tested" 语言 | ✓（"clinically tested" + "clinically proven"）                                 | ✓（"CLINICALLY TESTED" header）                         |
+| 支撑研究                   | 无；仅 survey %                                                                 | 无；仅 testimonial                                       |
+| 氯去除 %                  | "up to 99%"                                                                  | "up to 99%"                                           |
+| 重金属                    | "heavy metals & irritants"                                                   | "lead, mercury, arsenic"（更具名）                         |
+| 细菌 / 病毒                | 未声称                                                                          | "99.9% of bacteria and viruses" **(高风险)**             |
+| Eczema 功效              | "Clinically proven to calm... eczema-prone skin"                             | 由 testimonial 承担                                      |
+| 医疗权威                   | "designed by healthcare professionals"                                       | "consult with your pediatrician or dermatologist"（对冲） |
+| 第三方认证                  | "certified third-party skin hydration lab measurement testing"（novel phrase） | 无                                                     |
 
 #### 为什么危险
 把 **lab-tested**（滤材台架测试）、**clinically tested**（上下文模糊）、**clinically proven**（人体终点结果）
