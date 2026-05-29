@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-review-patterns-and-return-risk.md
   - ./bathtub-filter-visual-merchandising-and-creative-strategy.md
   - ../../syntheses/bathtub-filter-brand-and-content-landscape.md
-  - ../../syntheses/bathtub-filter-sns-creator-and-visual-taxonomy.md
+  - ../../syntheses/bathtub-filter-sns-creator-and-visual-taxonomy-synthesis.md
   - ../../source-summaries/bathtub-filter-content-ecosystem-url-harvest-2026-04-17.md
 ---
 # 浴缸过滤器（bathtub filter）产品相关内容生态系统 — 分层视图

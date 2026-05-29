@@ -103,11 +103,11 @@ related:
 - 某些 SKU 的类型 / 参考价值判断属于策略归纳，不应当作最终 marketplace truth
 
 ## Affected pages
-- [Bathtub Filter](/Users/kennymak/dev/kes-wiki/wiki/products/bathtub-filter/bathtub-filter.md)
-- [Bathtub Filter Competitor Review Corpus 2026-04](/Users/kennymak/dev/kes-wiki/wiki/products/bathtub-filter/bathtub-filter-competitor-review-corpus-2026-04.md)
-- [Bathtub Filter Review Patterns and Return Risk](/Users/kennymak/dev/kes-wiki/wiki/products/bathtub-filter/bathtub-filter-review-patterns-and-return-risk.md)
-- [Bathtub Filter Marketplace Negative Review Signals](/Users/kennymak/dev/kes-wiki/wiki/products/bathtub-filter/bathtub-filter-marketplace-negative-review-signals.md)
-- [Bathtub Filter Complaint Taxonomy and Risk by Route](/Users/kennymak/dev/kes-wiki/wiki/products/bathtub-filter/bathtub-filter-complaint-taxonomy-and-risk-by-route.md)
+- [[bathtub-filter]]
+- [[bathtub-filter-competitor-review-corpus-2026-04]]
+- [[bathtub-filter-review-patterns-and-return-risk]]
+- [[bathtub-filter-marketplace-negative-review-signals]]
+- [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
 
 ## Sources
 - raw/products/bathtub-filter/2026-04-22-amazon-10-asin-project-market-survey.md
