@@ -2,6 +2,7 @@
 .codebuddy/
 .DS_Store
 .obsidian/
+.claude/
 
 # macOS
 *.base
