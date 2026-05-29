@@ -12,6 +12,7 @@ name_zh: 学术检索工作流
 name_en: Academic Search Workflow
 domain: operations
 domains: [research, academic-search, evidence, product-research]
+source_count: 0
 review_cycle: quarterly
 verification_status: spot-checked
 related:

@@ -12,6 +12,7 @@ name_zh: 市场研究工作流
 name_en: Market Research Workflow
 domain: operations
 domains: [research, strategy, market-entry]
+source_count: 0
 review_cycle: quarterly
 verification_status: spot-checked
 related:

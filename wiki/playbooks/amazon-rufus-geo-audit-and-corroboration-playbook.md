@@ -9,6 +9,7 @@ confidence: medium
 officiality: draft
 domain: operations
 domains: [amazon, rufus, geo, ai-search, content-operations]
+source_count: 0
 review_cycle: monthly
 verification_status: spot-checked
 related:

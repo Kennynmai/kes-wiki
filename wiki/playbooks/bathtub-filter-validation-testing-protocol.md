@@ -9,6 +9,7 @@ confidence: medium
 officiality: draft
 domain: operations
 domains: [bathtub-filter, validation, testing, protocol]
+source_count: 0
 review_cycle: monthly
 verification_status: spot-checked
 related:

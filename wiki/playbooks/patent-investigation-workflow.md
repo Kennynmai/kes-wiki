@@ -12,6 +12,7 @@ name_zh: 专利调查工作流
 name_en: Patent Investigation Workflow
 domain: operations
 domains: [research, patents, ip, freedom-to-operate, product-research]
+source_count: 0
 review_cycle: quarterly
 verification_status: spot-checked
 related:
