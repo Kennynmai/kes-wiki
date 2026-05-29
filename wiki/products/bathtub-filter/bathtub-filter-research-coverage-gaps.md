@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-18
+updated: 2026-05-29
 visibility: team
 confidence: medium
 officiality: draft
@@ -29,6 +29,7 @@ related:
 - 硬水与氯的细微差别
 - 游泳+湿疹解释层
 - 证据访问审核
+- 学术论文总汇见 [[bathtub-filter-academic-paper-research-summary]]（8 篇 peer-reviewed + 综述；总判断：**问题存在 ≫ 产品有效**，学术层是 claim guardrail 而非 launch proof）
 
 ### 2. 专利/技术路线图
 覆盖足以支持：
@@ -231,6 +232,27 @@ related:
 3. **D 层 COGS 模型**——BOM 数据 + 渠道 margin 实际谈判结果
 4. **E 层物理测试**——WS2 物理样本采购和测试
 5. **H 层实测 creative**——A/B 测试结果（须 V1 launch 后执行 $3,200 baseline 实验）
+
+## 2026-04-19 → 2026-05-18 桌面研究补足批次
+
+> 来源：bulk wiki update（与 GEO/Rufus 研究包同批次并入）。本批次为**桌面研究深化，未解决任何 field-work 卡点**——4 项硬卡点（A 量化、C3 binding quote、D COGS、E WS2）状态全部不变。
+
+| 层 | 新增页面 | 补入内容 | 评级影响 |
+|---|---|---|---|
+| 学术/机构证据（§1） | [[bathtub-filter-academic-paper-research-summary]] + 8 篇论文摘要（Seki 2003 / Perkin 2016 / Engebretsen 2020 / Danby 2018 / Jabbar-Lopez 2022 / Lei 2025 / Bradshaw 2026 / Bergera 2025） | 学术栈结论收敛为"问题存在 ≫ 产品有效"；硬水线比泛氯线更厚；学术层定位为 claim guardrail | 强化 claim 纪律，**不升级任何功效宣称** |
+| C2. 美国州/联邦合规 | [[bathtub-filter-california-prop65-investigation-and-response]] | Prop 65 清单波动性、safe-harbor 三条路线、典型 BOM 暴露工作假设、KES warning 应对策略 | C2 仍 ✅，Prop 65 维度补齐；**实际化学品测试 + legal review 仍待做** |
+| 产品架构 / 技术 | [[bathtub-filter-kes-media-stack-options-by-water-type]]、[[bathtub-filter-point-of-use-hardness-softening-feasibility]] | 按水源类型（游离氯 / 氯胺 / 高铁井水）的滤材方案；就地软水可行性结论：紧凑挂式 bath-ball **无法真正软化硬水**，真实软化需小型可再生 canister | 杀掉"bath-ball 软化硬水"路线假设；与学术硬水线纪律一致 |
+| E. 安装/兼容性（安全维度） | [[bathtub-filter-atmospheric-vacuum-breaker-avb]] | AVB / 防倒吸 / anti-siphon 设计 review 维度；明确"AVB 不能包装成过滤能力""防倒吸不替代兼容性工程" | **E 仍 🔴**——AVB 不解决 WS2 物理测试卡点，仅增加设计 review 清单项 |
+| B/D. 市场/关键词基线 | [[bathtub-filter-amazon-category-and-keyword-baseline]]、source-summary 10-ASIN 项目市场调查（2026-04-22） | Amazon 类目与关键词基线、10-ASIN 项目级市场调查 | B/D 市场侧加厚；**A 层 100+ verbatim NLP 仍未做** |
+
+### 此批次仍未解决的卡点（与前两批一致，不变）
+
+1. **A 层量化数据**——100+ Amazon 评论直采 + NLP return-risk 频次
+2. **C3 binding quote**——NSF/WQA/IAPMO 实际 RFQ
+3. **D 层 COGS 模型**——BOM + 渠道 margin 实际谈判结果
+4. **E 层物理测试**——WS2 物理样本采购与 spout 兼容性测试
+
+**纪律提醒：** 本批次大量加厚了"问题侧"与"合规/架构纪律侧"证据，但 go/no-go 仍卡在上述 4 项人工执行 / 外部询价 / 物理测试工作上。学术层深化反而进一步**收紧了 claim 边界**（问题存在 ≠ 产品有效），不应被误读成"功效已被证明"。
 
 ---
 
