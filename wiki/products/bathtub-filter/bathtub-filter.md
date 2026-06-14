@@ -37,6 +37,11 @@ related:
   - ./bathtub-filter-competitor-review-corpus-2026-04.md
   - ./bathtub-filter-content-ecosystem-by-layer.md
   - ../products/curtains.md
+  - ./bathtub-filter-competitive-intelligence-filterbaby-bath-haus-2026-06-13.md
+  - ./bathtub-filter-filterbaby-website-deconstruction-2026-06-13.md
+  - ./bathtub-filter-certification-landscape-2026-06-13.md
+  - ./bathtub-filter-filterbaby-deep-dive-patent-agency-awards-2026-06-13.md
+  - ./bathtub-filter-na-water-profile-and-target-market-analysis.md
 ---
 
 # 浴缸过滤器（Bathtub Filter）
@@ -161,6 +166,11 @@ related:
 
 ### 如果要继续做产品判断，再看
 - [[bathtub-filter-kes-next-step-execution-plan-v1]]
+- [[bathtub-filter-competitive-intelligence-filterbaby-bath-haus-2026-06-13]] — Filterbaby/Bath Haus 竞品深度情报
+- [[bathtub-filter-filterbaby-website-deconstruction-2026-06-13]] — Filterbaby 网站拆解与借鉴分析
+- [[bathtub-filter-certification-landscape-2026-06-13]] — 认证全景图（NSF/AHLA/EWG 等）
+- [[bathtub-filter-filterbaby-deep-dive-patent-agency-awards-2026-06-13]] — Filterbaby 专利/HYPE10/奖项深度分析
+- [[bathtub-filter-na-water-profile-and-target-market-analysis]] — 北美水质与目标市场分析
 - [[bathtub-filter-decision-register]] — 开放决策 × workstream 追踪
 - [[bathtub-filter-assumption-register]] — 检查研究假设是否仍然成立
 - [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
@@ -207,6 +217,11 @@ related:
 
 ### 支撑研究页
 - [[bathtub-filter-research-coverage-gaps]]
+- [[bathtub-filter-competitive-intelligence-filterbaby-bath-haus-2026-06-13]]
+- [[bathtub-filter-filterbaby-website-deconstruction-2026-06-13]]
+- [[bathtub-filter-certification-landscape-2026-06-13]]
+- [[bathtub-filter-filterbaby-deep-dive-patent-agency-awards-2026-06-13]]
+- [[bathtub-filter-na-water-profile-and-target-market-analysis]]
 - [[bathtub-filter-academic-paper-research-summary]]
 - [[bathtub-filter-claims-and-certifications]]
 - [[bathtub-filter-certification-and-testing-pathways]]

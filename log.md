@@ -9,6 +9,48 @@ Example:
 - status: pending-owner-review
 - notes: short summary of what changed
 
+## [2026-05-30] synthesize | KES SKU certification mapping table and evidence pack checklist
+- source: KES certifications register; KES certification claim-control matrix; KES official online verification; KES model-pattern inventory; KES DOE / CEC access notes
+- updated: wiki/company/kes-sku-certification-mapping-table.md (new); wiki/company/kes-certification-evidence-pack-checklist.md (new); wiki/company/kes-certification-claim-control-matrix.md; wiki/company/kes-certifications-and-compliance-register.md; index.md; dashboards/recent-updates.md; ops/ingestion-registry.md; log.md
+- status: done
+- notes: |
+  Added two execution assets. The SKU mapping table gives the team a fillable structure for `SKU -> printed model -> normalized public pattern / filing model -> certificate or filing id -> evidence path -> allowed wording`, with statuses such as `source-table-only`, `needs-model-normalization`, and `ready-to-claim`. The evidence-pack checklist defines what must be archived for IAPMO, WaterSense, DOE, CEC, CE, UKCA, and ISO, plus evidence strength tiers and a claim release gate. These pages convert the investigation into a practical control process, but remain draft until internal SKU exports and archived evidence packages are attached.
+
+## [2026-05-30] deepen | KES DOE / CEC public database access
+- source: raw/company/certifications/2026-05-30-kes-doe-cec-public-database-access-notes.md
+- updated: raw/company/certifications/2026-05-30-kes-doe-cec-public-database-access-notes.md (new); wiki/source-summaries/kes-doe-cec-public-database-access-2026-05-30.md (new); wiki/company/kes-certifications-and-compliance-register.md; wiki/source-summaries/kes-official-online-certification-verification-2026-05-30.md; dashboards/recent-updates.md; ops/ingestion-registry.md; log.md
+- status: done
+- notes: |
+  Added a focused DOE / CEC access note. DOE CCMS faucet and showerhead certification-data endpoints still returned HTTP 403, so no KES-specific DOE rows were captured. CEC Advanced Search is publicly accessible and exposes the relevant path `Plumbing Products -> Plumbing Fittings / Plumbing Fixtures`; Quick Search redirects to login in command-line access. A simulated `Plumbing Fittings + Approved` form search timed out before returning results, so CEC remains internal-evidence-only pending browser screenshots, export, or model-level MAEDbS rows.
+
+## [2026-05-30] deepen | KES public certification model-pattern inventory
+- source: raw/company/certifications/2026-05-30-kes-public-model-pattern-inventory-notes.md
+- updated: raw/company/certifications/2026-05-30-kes-public-model-pattern-inventory-notes.md (new); wiki/source-summaries/kes-public-certification-model-pattern-inventory-2026-05-30.md (new); wiki/company/kes-certification-claim-control-matrix.md; wiki/company/kes-certifications-and-compliance-register.md; wiki/source-summaries/kes-official-online-certification-verification-2026-05-30.md; dashboards/recent-updates.md; ops/ingestion-registry.md; log.md
+- status: done
+- notes: |
+  Added a model-pattern inventory layer for public KES certification records. The key operational correction is that exact string matching produces false gaps: all 18 WaterSense rows fail exact cUPC matching, but all 18 align with broader cUPC wildcard patterns after treating `***` / `**` as pattern slots. The 12 WaterSense faucet rows also align with NSF 372 and NSF 61 faucet rows after wildcard and `Q` marker normalization; the 6 WaterSense shower rows align with cUPC only in the public data observed. This gives the next SKU-level matcher clear normalization rules while keeping external claims gated behind SKU mapping and owner review.
+
+## [2026-05-30] synthesize | KES certification claim-control matrix
+- source: KES official online certification verification pass; KES certification / compliance register; internal source-table readout
+- updated: wiki/company/kes-certification-claim-control-matrix.md (new); wiki/company/kes-certifications-and-compliance-register.md; index.md; dashboards/recent-updates.md; ops/ingestion-registry.md; log.md
+- status: done
+- notes: |
+  Added a working claim-control surface for KES certifications. Because no SKU-level mapping export is available in the local wiki, the page is deliberately set at public listing / model-pattern level. It defines safer wording and blocked wording for cUPC, NSF 61, NSF 372, WaterSense, DOE, CEC, CE/UKCA, and ISO 9001; maps product families to current public evidence; lists the exact 12 WaterSense faucet and 6 WaterSense showerhead public model patterns; and defines the minimum SKU-level fields needed next.
+
+## [2026-05-30] deepen | KES official online certification verification
+- source: IAPMO PLD / myPLC public records; IAPMO WaterSense public listings; EPA WaterSense API; DOE / CEC official public database access attempts; public CE/UKCA/ISO issuer search
+- updated: raw/company/certifications/2026-05-30-kes-official-online-certification-verification.md (new); wiki/source-summaries/kes-official-online-certification-verification-2026-05-30.md (new); wiki/company/kes-certifications-and-compliance-register.md; dashboards/recent-updates.md; ops/ingestion-registry.md; log.md
+- status: done
+- notes: |
+  Confirmed public-current issuer evidence for the IAPMO-backed KES records: cUPC file 10664, NSF/ANSI/CAN 372 file 10666, NSF/ANSI/CAN 61 file N-10665, WaterSense lavatory faucet file 16508, and WaterSense showerhead file 16509 are all active under KES HOME (U.S.) LIMITED. Captured current dates and model-pattern counts where available: cUPC 124 patterns, NSF 372 80 patterns, NSF 61 80 patterns, WaterSense 12 faucet + 6 showerhead patterns. EPA WaterSense API independently returns the same 18 KES brand model patterns. DOE/CEC were not publicly retrieved in this pass; CE/UKCA/ISO did not surface KES-specific issuer verification records, so those remain internal-evidence-only pending exports/certificate numbers.
+
+## [2026-05-30] ingest | KES certification / compliance register
+- source: user-provided 2026-05-30 DingTalk Notable source-table readout; targeted public reference scan
+- updated: raw/company/certifications/2026-05-30-kes-certification-source-table-readout.md (new); wiki/source-summaries/kes-certification-source-table-readout-2026-05-30.md (new); wiki/source-summaries/kes-certification-public-reference-scan-2026-05-30.md (new); wiki/company/kes-certifications-and-compliance-register.md (new); index.md; dashboards/recent-updates.md; ops/ingestion-registry.md; log.md
+- status: done
+- notes: |
+  Captured the current KES certification / compliance source-table readout and built a company-level register for cUPC, NSF/ANSI/CAN 61, NSF/ANSI/CAN 372, DOE, CEC, CE, UKCA, WaterSense lavatory faucets, WaterSense showerheads, and ISO 9001. The register separates current internal SKU coverage from external verification routes and claim boundaries. Key caution flags: static certificate PDFs are not current-listing proof; DOE/CEC are legal filings rather than third-party product certificates; NSF 61 and 372 do not support contaminant-removal claims; WaterSense is water-efficiency/performance labeling; ISO 9001 is company-level QMS; CE/UKCA need the underlying regulatory basis, declarations, certificate numbers, and test reports before marketing can safely use broad conformity language.
+
 ## [2026-04-23] maintain | 补入两份中文模板用于产品开发洞察与测试记录转内容
 - source: wiki/syntheses/kes-offsite-brand-marketing-and-site-acquisition-framework.md
 - updated: templates/product-development-insight-capture.md (new); templates/test-log-to-content.md (new); wiki/syntheses/kes-offsite-brand-marketing-and-site-acquisition-framework.md; dashboards/recent-updates.md; log.md

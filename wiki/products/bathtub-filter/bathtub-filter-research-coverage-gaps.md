@@ -256,8 +256,156 @@ related:
 
 ---
 
-## 战略意义
+## 2026-06-13 Filterbaby/Bath Haus 竞品情报深化批次
 
-话题不缺研究材料；缺的是**真实数据替换框架**和**物理测试替换 stub**。
+> 来源：WebSearch + WebFetch（Filterbaby 官网、PRNewswire、Crunchbase、Arctic Shift Reddit API、Bath Haus 官网）
+> 触发：用户要求深入调查 Kickstarter 上的 Filterbaby 类似产品，发现 Bath Haus（Kickstarter 2024-09-24 上线）和 Filterbaby（已上市的市场领导者）
+
+### 本批次新增/更新内容
+
+| 层 | 文件 | 补入内容 | 评级影响 |
+|---|---|---|---|
+| 竞品情报（新增层） | [[bathtub-filter-competitive-intelligence-filterbaby-bath-haus-2026-06-13]] | Filterbaby 深度情报（公司背景、产品线、定价、临床证据、认证、零售渠道、客户反馈）；Bath Haus 深度情报（Kickstarter 产品、规格、定价、与 Filterbaby 对比） | ✅ 新增完整竞品情报层 |
+| 3. 品牌/产品线勘察 | 本页 §3 更新 | Filterbaby 已进 Target（1,800+ 门店）、Ulta、Erewhon、Nordstrom——零售渠道扩张验证需求 | 品牌勘察层加厚 |
+| 4. 内容生态系统（Reddit 信号） | 本页 §4 更新 | Arctic Shift API 搜索 r/eczema、r/Parenting、r/BeyondTheBump、r/SkincareAddiction——结果显示 bathtub filter 几乎零认知度 | ⚠️→✅ Reddit 原帖采样已完成，但结果显示品类认知度极低（品类教育成本会很高）|
+| F. 监管/水质管辖权 | [[bathtub-filter-na-water-profile-and-target-market-analysis]]（2026-06-13 重大更新） | 16 个重点城市水质硬度 + 消毒剂类型 + 实测浓度 + V1 可触达性判断 | ✅ 可决策（但亚特兰大硬度数据异常需核实）|
+| 竞品对比分析（新增） | [[bathtub-filter-competitive-intelligence-filterbaby-bath-haus-2026-06-13]] §4 | 对 KES 产品定义的启示：悬挂式形态验证、KDF-55 是行业标配、NSF-177 认证是门槛、$59–79 MSRP 有价格优势、品类教育成本极高 | ✅ 可直接用于产品定义决策 |
+
+### 本批次关键发现
+
+1. **Filterbaby 是已验证的市场领导者**：
+   - 500K+ 过滤器销量（截至 2026 年）
+   - NSF-177 认证 + AHLA 批准
+   - TIME 最佳发明 2024 + 2025
+   - Target 全国 1,800+ 门店 + Target.com（2026-01）
+   - 8 位数收入（千万美元级）
+
+2. **Bath Haus 是"伪竞品"**：
+   - Kickstarter 众筹产品（2024-09-24 上线）
+   - 售价 $215（过高，是 Filterbaby 的 1.8 倍）
+   - 替换式安装（替换整个 tub spout，比悬挂式更复杂）
+   - 制造合作伙伴仍在最终确定中（预计 2026 年秋季发货）
+   - **不太可能对 KES 构成实质威胁**
+
+3. **品类教育成本极高**：
+   - Reddit 相关社区（r/eczema、r/Parenting、r/BeyondTheBump）中**几乎没有 bathtub filter 的讨论**
+   - 用户讨论 bleach baths、oat baths、Dead Sea salt——他们知道"洗澡水可能影响皮肤"，但不知道"过滤器"是解决方案
+   - **这意味着 KES 需要预算用于品类教育（SEO + 影响者合作 + 临床证据生成）**
+
+4. **Filterbaby 的技术差异化**：
+   - 超滤膜（4000 纳米丝）捕获 0.01 微米的污染物（微塑料、锈、重金属）
+   - 这是 KES 目前计划中没有的——**考虑 V2 加入超滤膜作为高端 SKU**
+
+5. **NSF-177 认证是市场准入门槛**：
+   - Filterbaby 已获 NSF-177 认证
+   - KES 必须将认证纳入 Phase 0-3 计划，否则无法在 claims 上与 Filterbaby 竞争
+
+### 对 KES 产品定义的修正建议（本批次导出）
+
+| 原 V1 计划 | 修正建议 | 理由 |
+|---|---|---|
+| 悬挂式，免工具安装 | ✅ 保持不变 | Filterbaby 已验证这是最优形态（磁吸挂载） |
+| KDF-55 + CaSO₃ | ✅ 保持不变（V1） | 针对游离氯，成本可控；V2 考虑加入超滤膜 |
+| $59–79 MSRP | ✅ 保持不变 | 比 Filterbaby 的 $119 有价格优势 |
+| 滤芯订阅 $24–32 | ⚠️ 对比 Filterbaby 的 $39 | KES 的 refill 定价可能过低，需验证 BOM 成本 |
+| 不声称湿疹改善 | ✅ 保持不变 | 遵循 claim risk audit；Filterbaby 的临床研究 n=35 偏小 |
+| NSF-177 认证路径 | ✅ **优先级提升** | Filterbaby 已获认证——KES 必须跟上 |
+
+### 本批次仍未解决的卡点（不变）
+
+1. **A 层量化数据**——100+ Amazon 评论直采 + NLP return-risk 频次
+2. **C3 binding quote**——NSF/WQA/IAPMO 实际 RFQ（现有数字仍是 order-of-magnitude）
+3. **D 层 COGS 模型**——BOM + 渠道 margin 实际谈判结果（$59–79 MSRP 的利润可行性未验证）
+4. **E 层物理测试**——WS2 物理样本采购和测试（**最高优先级**，go/no-go 核心卡点）
+5. **亚特兰大官方 CCR 核实**（硬度数据异常：TapWater.org 显示 30 ppm 软，但 GA 是硬水州）
+6. **品类教育成本量化**——Filterbaby 的营销支出数据、CAC 估算（新识别缺口）
+
+### 本批次行动建议（导出至 [[bathtub-filter-kes-next-step-execution-plan-v1]]）
+
+**P0（立即执行）**：
+
+1. **锁定供应链 + BOM 成本建模**：
+   - Filterbaby 的 $119 MSRP 和 $39 滤芯价格表明 BOM 成本可能高于 KES 预期
+   - 必须立即建模验证 $59–79 MSRP 的利润可行性
+   - **卡住**：pricing-refill-flow-fit-table-v2 的定价建议是否 commercially viable
+
+2. **WS2 物理样本测试**：
+   - 采购 Filterbaby Bath Filter + Bath Haus Filtered Tub Spout + 其他竞品样本
+   - 实测 8 种 spout 类型的 fit / leak / flow-rate 表现
+   - 验证 A-01 假设（normal-flow 条件下的氯还原效率）
+   - **卡住**：V1 fit scope 定义、安装文档、退货政策、A-01/A-05/A-06/A-07/A-08 假设更新
+
+3. **NSF-177 认证 RFQ**：
+   - 向 NSF / WQA / IAPMO 正式发 RFQ
+   - 明确 KES V1 走哪条认证路径（NSF 42+61？还是 IAPMO 单独列名？）
+   - 拿回 binding quote + 真实周期
+   - **卡住**：认证预算无法锁定，GTM 时间表 Phase 0–3 都是估算
+
+**P1（近期执行）**：
+
+4. **内容营销预算规划**：
+   - Filterbaby 的成功部分归因于品类教育（"水是护肤的第一步"）
+   - KES 需预算用于 SEO + 影响者合作 + 临床证据生成
+   - 考虑生成 KES 自己的临床证据（不一定是 n=35 临床研究，可以是 in vitro 细胞研究）
+
+5. **Google Trends 分区域数据分析**：
+   - 验证硬水 + 游离氯区域是否有更高搜索意图
+   - 需要第三方工具或 Google Trends 数据
+
+---
+
+## 战略意义（2026-06-13 更新）
+
+桌面研究阶段已完成——所有主要维度（学术证据、竞品情报、水质辖区、安装兼容性框架、认证路径、定价建议）都有专页覆盖。
+
+**2026-06-13 关键进展**：
+- ✅ 竞品情报深化完成：Filterbaby（市场领导者，500K+ 销量，NSF-177 认证，Target 全国铺货）和 Bath Haus（Kickstarter 众筹，$215 定价过高）深度调查已完成
+- ✅ Reddit 社区信号采样完成：Arctic Shift API 搜索结果显示 bathtub filter 在社区中几乎零认知度——品类教育成本会很高
+- ✅ 北美水质辖区数据表完成：16 个重点城市水质硬度 + 消毒剂类型 + 实测浓度
+
+**仍未解决的核心卡点（与 2026-04-17 批次一致，不变）**：
+
+1. **A 层量化数据**——100+ Amazon 评论直采 + NLP return-risk 频次
+2. **C3 binding quote**——NSF/WQA/IAPMO 实际 RFQ（Filterbaby 已获认证，KES 必须跟上）
+3. **D 层 COGS 模型**——BOM + 渠道 margin 实际谈判结果（$59–79 MSRP 的利润可行性未验证）
+4. **E 层物理测试**——WS2 物理样本采购和测试（**最高优先级**，go/no-go 核心卡点）
+5. **亚特兰大官方 CCR 核实**（硬度数据异常：30 ppm 软 vs GA 硬水州预期）
+6. **品类教育成本量化**（Filterbaby 的营销支出数据、CAC 估算——新识别缺口）
+
+### 本批次新增深度分析（2026-06-13 补充）
+
+> 来源：WebSearch + WebFetch（USPTO、Justia Patents、HYPE10 官网、TIME Best Inventions 官网、NewBeauty 官网）
+> 触发：用户要求深入调查 Filterbaby 专利布局、HYPE10 代理公司、TIME/NewBeauty 奖项含金量
+
+| 层 | 文件 | 补入内容 | 评级影响 |
+|---|---|---|---|
+| 竞品专利情报（新增） | [[bathtub-filter-filterbaby-deep-dive-patent-agency-awards-2026-06-13]] §1 | Filterbaby 专利布局深度调查（US 12,534,389 详解、专利策略分析、KES FTO 建议） | ✅ 新增专利竞争情报层 |
+| 营销代理情报（新增） | [[bathtub-filter-filterbaby-deep-dive-patent-agency-awards-2026-06-13]] §2 | HYPE10 代理公司深度调查（服务、定价、Filterbaby 合作成果、对 KES 借鉴价值） | ✅ 新增营销代理情报层 |
+| 奖项策略（新增） | [[bathtub-filter-filterbaby-deep-dive-patent-agency-awards-2026-06-13]] §3-4 | TIME 最佳发明奖（报名费 $575-$925、评选标准、适用类别）、NewBeauty NB100（报名费 $299-$499、适合早期品牌、投资/零售对接价值） | ✅ 新增奖项策略情报层 |
+| 认证全景图（新增） | [[bathtub-filter-certification-landscape-2026-06-13]] | NSF 177 / AHLA / EWG / Baby Safety Alliance 等 10+ 认证的详细对比和申请路径 | ✅ 新增完整认证路线图 |
+
+### 本批次关键发现
+
+1. **Filterbaby 已公开专利仅 1 项**（US 12,534,389）：保护水龙头过滤器的水平安装机制和可见滤芯设计——**KES 的垂直悬挂式 bathtub filter 天然避开该专利**
+2. **HYPE10 帮 Filterbaby 实现 41% CVR 提升、60% 销售增长**：核心能力是全漏斗优化（广告 + 落地页 + 定价策略），KES 月广告预算 >$10k 时应考虑类似代理
+3. **TIME 最佳发明奖含金量极高但竞争激烈**：报名费 $575-$925，适合产品上市后 6-12 个月申请， Beauty / Household / Health 类别适合 KES
+4. **NewBeauty NB100 是最适合 KES 的奖项**：专门针对 2020 年后创立的品牌，报名费 $299-$499，有投资/零售买家对接价值，KES  bathtub filter 定位"护肤工具"符合 Beauty Tools 类别
+
+### 对 KES 的修正建议（本批次导出）
+
+| 维度 | 修正建议 | 理由 |
+|---|---|---|
+| 专利策略 | 🔴 **立即启动 FTO 分析 + 核心专利申请** | Filterbaby 有专利壁垒，KES 需确认不侵权并建立自己的专利组合 |
+| 营销代理 | 🟡 **月广告预算 >$10k 时考虑 HYPE10 类代理** | 全漏斗优化能力对 KES 规模化至关重要 |
+| 奖项规划 | 🟡 **2027 年申请 NB100（5-6 月窗口）** | 最适合早期美容品牌，有投资/零售对接价值 |
+| 奖项规划 | 🟢 **2027-2028 年申请 TIME 最佳发明** | 高含金量 PR 效应，产品上市后 6-12 个月申请 |
+
+**纪律提醒**：
+- 本批次大量加厚了竞品情报层（Filterbaby/Bath Haus 深度调查），但 **go/no-go 仍卡在上述 6 项人工执行 / 外部询价 / 物理测试工作上**
+- Filterbaby 的 NSF-177 认证和 Target 全国铺货说明**品类已被市场验证**——KES 进入的不是空白市场，而是已有成功先例的品类
+- Reddit 社区信号显示**品类认知度极低**——KES 需要预算用于品类教育（SEO + 影响者合作 + 临床证据生成）
+- 不要把 🟡（仅框架）当作 ✅（可决策）使用——`research-coverage-gaps` 已做区分，但决策者在读页面时仍可能误读
+
+---
 
 当前最大的风险不是"没有页面"，而是**把 🟡 当作 ✅** 进行决策。 此次重写确保 KES 团队后续看 gap doc 时，能区分"已经能决策了"和"还得做才能决策"。

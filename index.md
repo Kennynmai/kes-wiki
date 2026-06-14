@@ -18,6 +18,12 @@
 ### Markets
 - [Japan](wiki/markets/japan.md)
 
+### Company
+- [KES Certifications and Compliance Register](wiki/company/kes-certifications-and-compliance-register.md)
+- [KES Certification Claim-Control Matrix](wiki/company/kes-certification-claim-control-matrix.md)
+- [KES SKU Certification Mapping Table](wiki/company/kes-sku-certification-mapping-table.md)
+- [KES Certification Evidence Pack Checklist](wiki/company/kes-certification-evidence-pack-checklist.md)
+
 ### Products
 - [Bathtub Filter](wiki/products/bathtub-filter/bathtub-filter.md)
 - [Curtains](wiki/products/curtains.md)
@@ -182,6 +188,14 @@
 - [Amazon / Rufus / GEO 研究包审校 2026-04-19](wiki/syntheses/amazon-rufus-geo-research-audit-2026-04-19.md)
 
 ---
+
+## Source Summaries — Company
+
+- [KES Certification / Compliance Source-Table Readout 2026-05-30](wiki/source-summaries/kes-certification-source-table-readout-2026-05-30.md)
+- [KES Certification Public Reference Scan 2026-05-30](wiki/source-summaries/kes-certification-public-reference-scan-2026-05-30.md)
+- [KES Official Online Certification Verification 2026-05-30](wiki/source-summaries/kes-official-online-certification-verification-2026-05-30.md)
+- [KES Public Certification Model-Pattern Inventory 2026-05-30](wiki/source-summaries/kes-public-certification-model-pattern-inventory-2026-05-30.md)
+- [KES DOE / CEC Public Database Access 2026-05-30](wiki/source-summaries/kes-doe-cec-public-database-access-2026-05-30.md)
 
 ## Source Summaries — Bathtub Filter
 
