@@ -6,3 +6,4 @@
 
 # macOS
 *.base
+.workbuddy/
