@@ -22,6 +22,8 @@ related:
 
 # 浴缸过滤器下一步执行计划 — V1
 
+> ⏩ **已被更新（2026-06-15）**：本页的 5-workstream 尽调框架（WS1 概念收窄、WS4 claim 边界）已完成；当前执行状态与 gate 排期请看 **[V1 执行路线图（控制塔）](./bathtub-filter-kes-v1-execution-roadmap-2026-06-15.md)**。本页保留作尽调阶段的 trail。
+
 ## 这页的目的
 这页把当前 research package 转成实际可执行的 next-step plan。
 
