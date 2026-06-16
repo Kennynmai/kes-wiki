@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: product
 created: 2026-04-17
-updated: 2026-04-19
+updated: 2026-06-15
 visibility: team
 confidence: medium
 officiality: draft
@@ -32,6 +32,26 @@ This page documents quantitative empirical evidence on chloramine (specifically 
 - **Tier 1 — Peer-reviewed:** Published in indexed journal, DOI available, methods described
 - **Tier 2 — Industry/technical:** Manufacturer technical data, trade press with quantitative data, standards bodies
 - **Tier 3 — Secondary/consumer:** Industry blogs, product pages, consumer sources that cite Tier 1 or 2 sources but add no original data
+
+---
+
+## TL;DR — 两个关键结论（2026-06-15 提炼，细节见 §2 / §4）
+
+> 全页核心可压缩成两句，且两句都指向同一个变量——**接触时间（EBCT / soak time）**。
+
+### 结论 1：催化活性炭是固相除氯胺最可信的路线，但氯胺比游离氯「更难、更慢」是有 Tier 1 支持的事实
+- **Tier 1**：Kochany & Lipczynska-Kochany (2008, *Water Environ Res* 80(4):339–345, PMID 18536485) —— 催化炭把单氯胺分解为 N₂；20°C 比 5°C 快得多。
+- **「更慢」是量化的**：除单氯胺所需 EBCT = 标准 GAC ≥10 min / 催化炭 3–7 min，而游离氯几乎瞬时（<1 秒）。慢 2–3 个数量级，机理是「表面活性位的慢催化分解」vs 游离氯的「快速吸附/还原」（Jacobi 柱测：催化炭击穿时间 5×、去除率 +65%）。
+- **设计含义**：单一 compact 滤芯在 bath-fill（更别说 25 L/min）下 EBCT 不够 → 催化炭「必要但不自动充分」。
+
+### 结论 2：维C / 抗坏血酸钠**能**中和氯胺，但**不是「快」**——文献的表面矛盾由「接触时间」化解
+- **表面矛盾**：Basu & De Souza (2011, Tier 1, *Aqua* 60(3):167–177) 测得抗坏血酸对单氯胺**「无效」**；而 SFPUC（Tier 2 政府）+ AWWA C655 认定 1,000 mg 维C 在 40 加仑浴缸里**完全去除**单氯胺。
+- **化解 = 接触时间**：维C 对**游离氯**瞬时；对**氯胺需要 4–8 分钟**。Basu 的「无效」反映**短接触/inline**条件；SFPUC 的「完全去除」靠**浴缸 4–8 分钟停留**。淋浴（<1 秒）实测零效果，浴缸恰好够。
+- **精确表述**：不是「维C 快」，而是「**浴缸 format 提供了维C 需要的 4–8 分钟窗口**」——这正是浴缸相对淋浴的结构性优势。
+- **claim 纪律**：可防守 = 「在注水+浸泡阶段中和氯胺」（SFPUC + AWWA 背书）；**不可说**「快速」或用淋浴/纯 inline 单芯主张。抗坏血酸钠 > 抗坏血酸（中性、不降 pH）。
+
+### 对 KES 的合流结论
+双段方案（**inline 催化炭先降一部分 + 缸内抗坏血酸钠浸泡件利用停留完成**）有 **Tier 1（Kochany）+ Tier 1 机理（Basu/Yiin）+ 政府（SFPUC）+ 标准（AWWA C655）** 多层背书，是氯胺版 V1.5 配置的科学基础。两段都在用「时间换去除率」，而浴缸是唯一天然提供这段时间的 format。
 
 ---
 
@@ -339,6 +359,15 @@ NSF/ANSI 61 covers materials and components that contact drinking water and ensu
 
 5. **Ascorbic acid rate constant data (Peskin & Winterbourn 2001) was for taurine chloramine (an amino acid chloramine), not inorganic NH₂Cl.** The 13 M⁻¹ s⁻¹ figure should not be directly applied to bath filter calculations without caveat.
 
+### 2026-06-15 文献刷新（时效戳）
+- **无推翻性新证据**：针对「催化炭除氯胺 EBCT」与「抗坏血酸/抗坏血酸钠除单氯胺动力学」做了 2024–2026 web 检索，**未发现新的同行评审研究**改变 Kochany (2008) / Basu & De Souza (2011) 的基准结论。本页科学结论仍 current。
+- **「抗坏血酸钠比抗坏血酸省 50×」= 已证伪（2026-06-15 追到一手来源）**：
+  - 网传「50× 更省」只来自 hobbyist 圈循环引用（permies / planted tank / dude grows / LinkedIn）+ 一页无引用的 LibreTexts 教学页（Diablo Valley College, *Chloramine Processing Protocols*，原文 "requires 50x more concentration than Sodium Ascorbate"，**零引用**）。无任何一手研究。
+  - **一手权威反驳**：AWWARF/EBMUD *Guidance Manual for the Disposal of Chlorinated Water*（Tikkanen, Schroeter, Leong & Ganesh）实测化学计量表（@ pH 8.0）：**抗坏血酸 2.48 / 抗坏血酸钠 2.78 份** 中和 1 份氯。抗坏血酸钠按质量需要的反而**略多**（MW 198 vs 176），与「两者活性还原物相同（抗坏血酸根）」一致。**「50× 更省」与一手数据相差约 140×，系网络谣传。**
+  - **选抗坏血酸钠的真正理由 = pH 不是效率**：AWWARF 实测，抗坏血酸粉末过量把 pH 从 8.9 拉到 5.07、现场降 0.3–0.6 单位；抗坏血酸钠 pH≈7.0、降幅 <0.1 单位 → bath comfort 该选中性的抗坏血酸钠。
+  - **一个值得 V1.5 验证、但证据有三条保留的信号**：AWWARF 的 Portland 实测用 combined chlorine（氯胺，~1.05 mg/L）。原文：抗坏血酸/抗坏血酸钠（化学计量、溶液，经 **100 英尺软管**混合——非扩散器，扩散器是 Tacoma 的游离氯测试）把总氯降到 <0.1 mg/L 的首个采样点是「mixing hose 下游 2 英尺（约 2 秒）」。**三条保留**：① 那「2 秒」只是软管**出口后**的 2 英尺，**管内还有未量化的接触时间**（混合与初始反应在管内发生），故非「2 秒总接触」；② 测的是 Hach 比色法总余氯，**抗坏血酸作为还原剂可能干扰比色读数**、使「中和」被高估；③ 单次现场测试、未重复，且与 Basu (2011) Tier 1「对单氯胺无效」冲突。**净结论**：只能说「充分混合下氯胺中和**可能是亚分钟级**、远快于静态浸泡」，**不能说「2 秒」或「充分混合即秒解」**。消费者浴缸（静态浸泡件）仍以 SFPUC **4–8 分钟**为规划值；「混合到底能压到多快」**必须 KES 自己台架定**，不能拿此现场数据当承诺。
+  - **附带**：该 AWWARF 文末点名 **Industrial Test Systems (Rock Hill, SC)** 的「游离氯+总氯」监测试纸（0.02–750 mg/L）——印证 [获客引擎页](./bathtub-filter-kes-water-diagnosis-kit-and-modular-acquisition-engine.md) 的定制试纸 OEM 路径，且总氯试纸正是氯胺版「自己测」所需。
+
 ---
 
 ## 8. Implications for KES Product Design and Claims
@@ -369,6 +398,61 @@ NSF/ANSI 61 covers materials and components that contact drinking water and ensu
 
 ---
 
+## 9. 混合/传质 vs 反应：为什么「氯胺中和要多久」是个工程变量，不是固定值
+
+> 2026-06-15 新增。这节解释 §4 的两个数据点（SFPUC 4–8 分钟 vs AWWARF Portland 亚分钟）为什么差这么多，以及由此引出的氯胺版台架自变量设计。这是把「混合能把氯胺压到多快」变成可测、可设计的问题。
+
+### 9.1 一个反应「实际多快完成」由两个串联环节决定
+
+抗坏血酸钠中和氯胺，**观测到的速度**取决于两个串联步骤，整体由更慢的那个（限速步骤）决定：
+
+1. **化学反应速率**——抗坏血酸根 + NH₂Cl，N–Cl 键被还原。有个固有速率。
+2. **传质 / 混合**——试剂要先溶解、再扩散分布到整缸每一滴水，才能碰到氯胺。
+
+> 固有反应可能很快，但若试剂以固体形式慢慢溶、又在静水里慢慢扩散，**观测速度被传质拖慢**——此时是「传质限速」，不是「反应限速」。
+
+### 9.2 §4 的两个数据点是两个极端，差的主要是混合不是化学
+
+| 场景 | 试剂状态 | 混合 | 观测中和时间 | 限速环节 |
+|---|---|---|---|---|
+| **SFPUC 浴缸**（§4） | 固体药片/浸泡件，慢慢溶 | **静态**，不搅动 | **4–8 分钟** | **传质**（溶解+扩散慢）|
+| **AWWARF Portland**（§4 / §7 保留版） | **已溶成溶液** | **流动 + 100 ft 软管湍流** | 亚分钟级（含未量化的管内接触时间）| 接近**反应**（混合已快）|
+
+**关键洞察**：4–8 分钟 vs 亚分钟，主要不是「化学变快了」，是**试剂被送到水里的方式不同**。静态浸泡件的瓶颈是「药片溶得慢 + 溶出物自己慢慢扩散」；充分混合的溶液让试剂瞬间铺满，反应该多快就多快。
+（注：Portland 那条仍带 §7 的三条保留——管内接触时间未隔离、比色法可能被抗坏血酸干扰、单次未重复且与 Basu 2011 冲突——故只能作「上行信号」，不作承诺。）
+
+### 9.3 对 KES 双段设计的含义（决定第二段形态、UX 与 claim）
+
+氯胺版 = inline 催化炭 + 缸内抗坏血酸钠浸泡件。「混合」直接决定第二段怎么做：
+
+| 方案 | 投放方式 | 规划接触时间 | UX | 可守 claim |
+|---|---|---|---|---|
+| **A 静态浸泡件** | 丢进缸、不搅 | **4–8 分钟**（SFPUC 保守值）| 注水时放入 + 等几分钟再泡 | 「浸泡数分钟中和氯胺」|
+| **B 溶进注水流** | 预溶液/快溶剂型，借注水湍流 | 有望逼近亚分钟 | 注水阶段即处理，少等待 | 「注水时即中和」（**须台架坐实**）|
+
+→ **「混合能把氯胺压到多快」= KES 能否靠剂型/投放设计，把第二段从慢的静态传质区推向快的充分混合区。** 这是可工程争取的性能空间，不是固定值。
+
+### 9.4 安全规划值
+
+KES 自己台架测出前，产品定义与 claim **保守按 4–8 分钟**，不按亚分钟承诺。快的数是**要靠测试挣的上行**，不能默认拥有（呼应 §7 对 Portland 数据的三条保留）。
+
+### 9.5 氯胺版台架自变量设计（把「混合」当自变量）
+
+在浴缸条件下，把**混合/投放方式**作为主自变量，测「到达总氯达标所需时间」：
+
+- **固定条件**：水温 **40±2℃**；进水单氯胺 **1 / 2 / 3 mg/L**；抗坏血酸钠化学计量剂量（参考 AWWARF 2.78 份/份氯，含适度过量）；典型浴缸水量。
+- **自变量（混合/投放）**：
+  1. 静态浸泡件（不搅）—— 复现 SFPUC 基线
+  2. 溶进注水流（出水口处投放 / 预溶液计量入流）—— 湍流混合
+  3. 中间态（浸泡件置于出水口下方，借注水冲刷）
+- **测量**：总氯（total chlorine）随时间曲线；**必须正确处理抗坏血酸对 DPD/比色法的还原干扰**（否则「中和」被高估）——用经验证的方法或扣除空白，必要时第三方。
+- **重复**：每条件 ≥3 次。
+- **输出**：「哪种投放剂型 + 多长接触时间」达标 → 直接决定 ① 浸泡件形态（药片/网袋/出水口套件）；② 用户等待时间（UX）；③ claim 能否从「泡 N 分钟」升级到「注水时中和」。
+
+> 本节为氯胺版（V1.5）专属；游离氯版 V1 的去氯×流量×压降曲线见 [25L/min 去氯特征测试 spec](./bathtub-filter-25lpm-dechlorination-bench-test-spec.md)（该 spec 明确把氯胺排除在范围外，指向本节）。
+
+---
+
 ## Sources
 
 **Tier 1 — Peer-reviewed:**
@@ -390,6 +474,7 @@ NSF/ANSI 61 covers materials and components that contact drinking water and ensu
 14. WCP Online — Activated Carbon Chlorine & Chloramine Removal (EBCT data) — [wcponline.com](https://wcponline.com/2009/06/13/chlorine-chloramine-removal-activated-carbon/)
 15. Alliance Chemical — Sodium Bisulfite Dechlorination Guide (stoichiometry, pH effects) — [alliancechemical.com](https://alliancechemical.com/blogs/articles/an-engineers-guide-to-sodium-bisulfite-for-dechlorination)
 16. SFPUC Chloramine Q&A 2015 (vitamin C bathtub dosing) — [SFPUC via freshwatersystems.com](https://assets.freshwatersystems.com/image/upload/s--be0B3AdP--/iftklwwcuxt6ei8qey6t.pdf)
+16a. **Tikkanen MW, Schroeter JH, Leong LYC, Ganesh R. *Guidance Manual for the Disposal of Chlorinated Water.* AWWARF / EBMUD.** —— 一手脱氯化学计量与 Tacoma/Portland/EBMUD 三地实测（抗坏血酸 2.48 / 抗坏血酸钠 2.78 份/份氯 @ pH 8.0；Portland combined-chlorine 实测；pH 影响）。用于证伪「抗坏血酸钠省 50×」谣传。— [PDF (vita-d-chlor.com)](https://www.vita-d-chlor.com/specs/AWWARFDechlorGuides.pdf)
 17. Inspired Living — Vitamin C Is Best for Chloramines (SFPUC citation, 1,000 mg dosing) — [inspiredliving.com](https://inspiredliving.com/chloramine-filters/vitamin-c-removes-chloramines.htm)
 18. PM Magazine — NSF/ANSI 177: Level Playing Field for Shower Filter Claims — [pmmag.com](https://www.pmmag.com/articles/87589-web-exclusive-br-nsf-ansi-standard-177-a-level-playing-field-for-shower-filter-claims)
 

@@ -1,9 +1,10 @@
-# FilterBaby DTC 品牌案例研究 v2.0
+# FilterBaby DTC 品牌案例研究 v3.1
 
-> **研究日期**: 2026-06-14 | **品类**: 护肤水龙头/淋浴过滤器 | **验证状态**: partially_verified
-> **数据来源**: 官网、Jade Magazine 创始人专访、last30days 社媒数据、Water Filter Guru YouTube 评测、Trustpilot
+> **研究日期**: 2026-06-14（v2.0）/ 2026-06-15（v3.0 深化）| **品类**: 护肤水龙头/淋浴过滤器 | **验证状态**: partially_verified（含 contested claim，见 §九）
+> **数据来源**: 官网、Authority/Jade Magazine 创始人专访、PR Newswire、TIME Best Inventions、Glossy、NewBeauty、Refinery29、Who What Wear、LeafSnap 技术评测、Amazon listing、Google Patents、last30days 社媒数据
 > **研究目的**: 解构 FilterBaby 的 DTC 打法，为 KES 提供可借鉴的方法
 > **v2.0 变更**: 全面重写 — 纠正品类定位（护肤滤水器，非浴缸过滤器）、补充创始人故事、产品矩阵、定价策略、社媒数据、临床验证
+> **v3.0 变更**: 新增 §九「五大核心维度深化」（产品外观/功能、市场定位、USP、媒体策略、EEAT 拆解），并修正 v2.0 多处事实错误（TIME 年份、评价数、认证争议、专利数）。**修正点见 §九.0**。
 
 ---
 
@@ -287,9 +288,9 @@ KES 可借鉴:
 
 ### Layer 11：广告创意
 
-**FilterBaby 的 Meta Ad Library 广告（待系统性抓取）**
+> ⚠️ **更新（2026-06-15，见 §十.1）**：以下推测已被 §十.1「广告/漏斗实拆解」取代。Meta Ad Library 本身 JS 拦截无法直接抓活跃广告，但通过落地页 + 第三方 + 编辑内容重建了漏斗结构。
 
-基于现有数据推测：
+基于现有数据推测（旧）：
 - 可能投放「Before/After 皮肤对比」广告
 - 可能投放「TIME 最佳发明 2024」信任广告
 - 可能投放「14 天皮肤改善临床 study」教育广告
@@ -306,8 +307,8 @@ KES 可借鉴:
 **FilterBaby 的供应链（基于官网信息推测）**
 
 - 制造：与中国制造商合作（Xin Ma 的中国背景可能有助于供应链）
-- 专利：45+ 项全球专利，说明核心技术自研
-- 质量控制：第三方 NSF/ANSI 177 认证
+- 专利：~~45+ 项全球专利~~ → **实为已授权 4 项**（见 §十.3②，「45+」为营销注水）
+- 质量控制：~~第三方 NSF/ANSI 177 认证~~ → **实为未认证**（见 §九.6 / §十.3①）
 
 **KES 对比**:
 - KES 已有中国供应链优势
@@ -381,6 +382,242 @@ KES 可借鉴:
 | **行为** | DIY 能力、关注性价比、看 Amazon 评价 |
 | **购买场景** | 搬家装修、旧五金损坏、租房改造 |
 | **UGC 特征** | 安装视频、Before/After（旧五金 vs KES）|
+
+---
+
+## 九、五大核心维度深化（v3.0）
+
+> 本节是 v3.0 的重点：对「产品外观设计/功能特点、市场定位、USP、媒体曝光/媒体策略、EEAT」做深度拆解。所有结论尽量引到一手来源，未能核实的标注 `[未核实]`，与品牌宣称冲突的标注 `[争议]`。
+
+### 九.0 对 v2.0 的事实修正（重要）
+
+| v2.0 旧说法 | v3.0 修正 | 来源 |
+|------|------|------|
+| TIME 最佳发明 **2024** | 实为 **两次**：2024（Eco-Pro Shower Filter，主打减塑）+ 2025（Bath Filter）。**不存在 2023 入选** | time.com/collections/best-inventions-2024、2025 |
+| 6000+ 5 星评价 | 官网自相矛盾：首页「6,000+」vs 评价页「3,000+」vs 实际 widget **2,007 条 / 4.8★ / 93% 5 星**。「6,000+」**其评价页自身不支持** | filterbaby.com 评价页 |
+| NSF/ANSI 177 认证（醒目展示）| **❌ 已核实为「误导/虚假」** — 见 §九.6 认证核查专节。结论：FilterBaby **不在 NSF 认证名录**；NSF 于 **2025-03-13 发布公开通告**点名其 NSF 42/177 宣称；独立评测者 WaterFilterGuru 被品牌告知认证「in progress」（尚未生效）。官网「NSF-177 Certified」表述**误导**，NSF-42「certified」暗示**虚假** | NSF 公开通告 / NSF 认证库 / WaterFilterGuru |
+| 45+ 项全球专利 | 仅可定位到**少数**已授权专利：实用专利 12,534,389（2026-01-27 授权，发明人 Xin Ma/Aaron Saxton/Matthew Saxton）、外观 D1067376、D1112607。「45+」**无法在该量级证实** | Google Patents |
+| 创始人 Xin Ma | 2022 年 PR 署名 Xin Ma；2025-26 PR 与官网署名 **Xin Shui**（+ 妹妹 Lynn Shui）。同一人，疑似改名/音译变化 | Authority Magazine 2022 / PR Newswire 2025 |
+| Water Filter Guru / Doctorly YouTube 评测（617K 观看）| **[未核实]** 无法确认存在该品牌专属视频或观看量；且 Doctorly 的 Dr. Muneeb Shah 自营竞品，付费背书可能性低。**v2.0 的 617K 数据不可引用** | — |
+| #1 医生推荐 | 基础是**方法学未公开的「第三方盲测消费者调研」**，非临床排名 | 官网 |
+
+---
+
+### 九.1 产品外观设计 & 功能特点
+
+**设计语言定位：把滤水器做成「梳妆台上的化妆品/珠宝」，而非五金/家电。**
+品牌自述：*"100% More Aesthetically Stunning… efficacious, sustainable and gorgeous."*
+
+**产品矩阵与外观（2026-06-15 官网价）**
+
+| 产品 | 价格（原/促）| 外观与材质 | 颜色 |
+|------|------|------|------|
+| Skincare Filter 2.0（水龙头）| $139 / $99 | 紧凑水龙头卡扣式滤芯，**6 色**，刻意做成「化妆品对象」| Chrome / Pink / White / Black / Blue / Shiny Gold |
+| Faucet Filter Essential | $125（Target $69.99）| 入门水龙头款 | — |
+| Pro Series（钛铝）淋浴 | $139 / $99 | **食品级钛铝金属壳体**，主打「All-Metal」对抗竞品塑料；最「高端五金感」的 SKU | Gold / Chrome / Black |
+| Diamond Series 淋浴 | $113 / $79 | 入门管线式，规格未独立核实 `[未核实]` | Pink / Gold / Chrome-Pink |
+| Showerhead Pro | $159 / $126 | **滤芯一体化喷头**（无需额外墙体五金），1/2" NPT 美标 | Chrome / Black / Light Pink / Blue |
+
+**功能与技术参数**
+
+| 维度 | 水龙头款 | 淋浴款 |
+|------|------|------|
+| 滤材 | 日本**活性炭纤维** + 末段 **0.2µm 中空纤维超滤（UF）膜**（"nano-thread"）| 活性炭纤维 + 日本聚乙烯褶皱超滤膜 |
+| 精度 | 营销称 0.01–0.1µm（"比头发细 700x"），UF 段标 0.2µm（**各页数据不一致**）| 同左 |
+| 减氯 | 「up to 99%/99.9%」；「10,000L（~3 月）后仍 98% 有效」| 同左 |
+| 其他去除 | 氯胺、铅、重金属 up to 99%；微塑料/PFAS up to 99.96% | — |
+| 滤芯寿命 | ~10,000L ≈ 90 天，**每 90 天更换** | 60–90 天 |
+| **流量（GPM/LPM）** | **从未披露** — 考虑到 Trustpilot/BBB 有轻微水压下降投诉，这是显著缺口 `[未核实]` | 未披露 |
+| 安装 | **免工具**，含 10 个转接头 + 4 把曝气器扳手 + 3 个硅胶圈；**仅兼容圆形曝气器水龙头** | 3 步（含扳手 + 生料带）；喷头款标准 1/2" NPT |
+| 滤材排除 | **无维生素 C、无 KDF、无陶瓷** | — |
+
+**溢价设计信号**：金属（钛铝）淋浴壳体 vs 竞品塑料；6 色把滤芯当卫浴装饰物；「减塑 80%」可持续叙事；**仅换滤芯不换整机**的耗材模式。包装/开箱细节 `[未核实]`。
+
+**KES 借鉴**：
+1. 「金属壳体 vs 竞品塑料」正是 KES「全金属 vs 塑料」叙事的镜像 — FilterBaby 证明了「金属感」可作为视觉溢价锚点。
+2. **多色 = 把功能件变装饰件**。KES 的 PVD 金/黑/铬可同样定位为「卫浴配色单品」，而非纯五金。
+3. **反面教训**：FilterBaby 全程不披露流量/水压，而水压是淋浴/水龙头品类的核心体验 — KES 应**主动披露流量参数**作为透明度差异点。
+
+---
+
+### 九.2 市场定位
+
+- **核心 Slogan**：*"We clean the water that cleans you."*
+- **支撑语**：*"Elite Filters. Professional Performance."* / *"The most awarded water filters for your skin & hair health."* / *"better water = better skin and hair."*
+- **品类开创**：自称*"the first clinically tested AND dermatologist-approved water filter for skincare"* — 把水从「水管商品」重新定义为**「护肤步骤」**。
+- **最锋利的品类论据（一句话楔子）**：*"Over 80% of Americans filter their tap water for drinking, yet almost no one considers the water we use on our face."* — 整个品类创造论就靠这一句。
+- **价格层级**：高端 DTC（$99–$159），远高于 $20–$50 的商品化滤水器；2026-01 通过 **Target「Essential Collection」（$49.99–$69.99）**下探到大众可及层。
+- **目标人群**：护肤深度参与者（"skincare routine" 人群），偏女性（临床样本 21F/14M）但明确男女通投；心理画像 = wellness 优化者、「找根因」型、clean-beauty/biohacker 邻接（被放进 Santa Monica Proper 酒店「Wellness Rooms」，与 Eight Sleep、Jaspr 同列）。
+
+**KES 借鉴**：FilterBaby 用**一个反差统计**（80% 过滤饮用水，却没人过滤洗脸水）完成品类创造。KES 可找等价楔子：*「你为浴室花几千块装修，却用 5 年就漏水断裂的塑料阀芯」*。
+
+---
+
+### 九.3 USP
+
+**最锋利差异点**：*"第一个临床验证 + 皮肤科认可的护肤滤水器"* —— 由三件套组成：(a) 临床/体外证据栈，(b) 皮肤科科学顾问委员会，(c)「#1 医生推荐」，应用于一个竞品当作「水管」的品类。
+
+**已证实 vs 仅宣称**
+
+| 维度 | 状态 | 说明 |
+|------|------|------|
+| 35 人 2 周临床 | ✅ 较实在 | 独立第三方实验室，客观仪器测量（见 §九.5）— 比同类竞品证据多 |
+| 体外角质细胞研究 | ✅ 存在 | 第三方 2025 |
+| #1 Doctor Recommended | ⚠️ 弱 | 方法学未公开的「盲测消费者调研」，非临床排名 |
+| 45+ 专利 | ⚠️ `[未核实]` | 仅少数授权专利可定位 |
+| 10x More Powerful | ⚠️ 营销框架 | 基线模糊 |
+| NSF/ANSI 177 | ❌ `[争议]` | NSF 公开声明否认（见 §九.0/§九.5）|
+
+**KES 借鉴**：FilterBaby 的 USP 强在「证据栈叠加」（临床 + 专家委员会 + 媒体奖项），但**根基有裂缝**（认证争议、专利数夸大）。KES 的机会是**做一个经得起核查的证据栈**：真实可在线验证的 cUPC/NSF 认证编号 + 真实流量/盐雾测试数据 — 把 FilterBaby 的「叙事强、底座虚」反过来做成「底座实、叙事跟上」。
+
+---
+
+### 九.4 媒体曝光 & 媒体策略
+
+**已证实 earned media**
+
+| 媒体/奖项 | 时间 | 内容 |
+|------|------|------|
+| **TIME Best Inventions**（两次）| 2024 + 2025 | 2024 Eco-Pro Shower Filter（减塑角度）；2025 Bath Filter。品牌打「2x Winner」|
+| **Glossy Pop Awards** | 2025 | **Brand of the Year** |
+| **NewBeauty Beauty Award** | 2025 | **Best Shower Filter**（Pro Series）|
+| Refinery29（K. Hoshikawa）| 2023-06-26 | 谨慎正面 |
+| Who What Wear | 2024-04-04 | *"100% worth it"* |
+| mindbodygreen | 2026 | 评测 |
+| CEW Awards / Vogue / Allure / Byrdie / TV / 播客 | — | `[未核实]` 无确认 URL — **v2.0 中的 CEW 等需降级** |
+
+**KOL 策略**
+- **皮肤科科学顾问委员会**（PR Newswire 2025-08-12）：**Dr. Mamina Turegano（@dr.mamina）、Dr. Lindsay Zubritsky（@dermguru）、Dr. Jenny Liu（@derm.talk）、Dr. Anthony Youn（@tonyyounmd）**，均有实名背书 quote。
+- **社媒主引擎是 TikTok @filter.baby**（一条 tap-water 病毒视频约 836K 赞 `[约值/未核实]`）；IG @thefilterbaby；有 Ambassador / Influencer Collab 项目。
+- **YouTube「Water Filter Guru / Doctorly」= `[未核实]`** — 无法确认，v2.0 的 617K 数据**不可再引用**。
+
+**其他渠道布局**
+- Santa Monica Proper Hotels「Wellness Rooms」（2025-08-27，与 Eight Sleep/Jaspr 同列）。
+- **Target 全国 1,800+ 门店 + Target.com（2026-01-16，Essential Collection）** — 把 2025 全年积累的权威性转化为 2026 大规模铺货。
+
+**PR 叙事主线**：「中医世家 → 自身皮肤问题 → 水的根因论 → 临床证明 → 皮肤科委员会」逐级叠加可信度，最终导流到 2026 的 Target 大规模铺货。
+
+**KES 借鉴**：
+1. **「专家委员会」比「单一创始人」更可扩展** — 4 位实名皮肤科医生 + 实名 quote = 可重复使用的权威资产。KES 可建「建筑师/室内设计师/水管工顾问团」。
+2. **奖项是可买/可投的内容素材** — TIME Best Inventions 是申报制，KES 可主动申报行业设计/创新奖。
+3. **铺货即媒体** — Target 上架本身是信任信号。KES 在 Amazon 之外应争取一个「线下/垂直渠道」背书。
+
+---
+
+### 九.5 EEAT 拆解（如何建 Experience / Expertise / Authoritativeness / Trust）
+
+**Experience（经验）**
+- 创始人 Xin Shui/Ma：**针灸硕士、「治疗 10,000+ 患者」、三代中医世家**；自身干性敏感肌，搬家后发现与自来水相关；妹妹 Lynn 在 NYC 有同样问题。*"从一家针灸诊所、一个水龙头原型起步。"*
+- UGC：「售出 500,000+ 支」、before/after、"2 周皮肤变软"。
+
+**Expertise（专业，临床细节）**
+- **临床 N1（2022/23）**：**N=35（21F/14M），16–65 岁，2 周**，独立第三方认证实验室。工具：Callegari Soft Plus 电容式水合探针（角质层介电常数，**客观测量非问卷**）。控温 20±3°C / 50±10% RH，受试者停用其他保湿。**结果：皮肤水合 +63%、亮度 +61%**。（注：其他页面又写「92% brighter / 89% healthier」，**数据跨页不一致**）
+- **体外 N2（2025）**：第三方角质细胞研究 — 伤口愈合 +69.1%、皮脂 +126.5%、细胞增殖 +20.6% 等。
+- **专利**：宣称「45+」，实可定位少数（见 §九.0）`[未核实]`。
+- **认证 `[争议]`**：宣称 IAPMO 通过 NSF/ANSI 177；但 LeafSnap 引 NSF 公开声明称 FilterBaby「未被列入或授权宣称 NSF 42/177 合规」。**实质性可信度冲突，需直接核实。**
+
+**Authoritativeness（权威）**
+- 「#1 Doctor Recommended」基础是**未公开方法学的盲测消费者调研**（无样本量/竞品集/调研方），与临床功效是两回事。
+- TIME（2x）、Glossy「Brand of the Year」、NewBeauty 奖、4 人皮肤科委员会、酒店布局。
+
+**Trust（信任，含重大矛盾）**
+- **评价数自相矛盾**：首页「6,000+ 5 星」vs 评价页「3,000+」vs 实际 widget **2,007 条 / 4.8★ / 93% 5 星**。「6,000+」**其自身评价页不支持**。
+- Amazon/Trustpilot 精确数 `[未核实]`（JS 渲染/403）；Trustpilot 约 4★、约 454 条，含**订阅取消与客服**投诉。
+- 保证：「30 天无风险」、退款；提及 **3 年质保**（页面存在）`[部分未核实]`。
+- **「American Hair Loss Association approved」= 已证实但被夸大**：FilterBaby 持有 AHLA「Trusted Brand Status」（真实），但 AHLA 自身声明：*该标志「非政府批准、非安全认证、非产品保证…AHLA 不是检测实验室」* — 它是**基于品牌自报文件的透明度/合规营销印章**，非独立检测。
+
+**KES 借鉴 + 警示**：
+1. **正面**：客观仪器临床（Callegari 探针）+ 实名专家 quote + 第三方实验室，是 YMYL 品类建信任的范本。
+2. **反面（KES 必须避开的坑）**：FilterBaby 的信任体系**有多处经不起核查**——认证误导（见 §九.6）、专利数夸大、评价数三个版本互相打架、AHLA「approved」实为自报印章。在 YMYL 品类，**一旦被技术评测者扒出认证问题，整个证据栈会连带崩塌**。KES 的差异化打法应是：**只宣称能在线验证的东西**（cUPC/NSF 证书编号可查、专利号可查、评价数全渠道一致），把「可核查性」本身做成 USP。
+
+---
+
+### 九.6 NSF/ANSI 认证核查专节（2026-06-15 对抗性核实）
+
+> 这是 v3.0 最重要的核实结论。FilterBaby 在官网与 Amazon 大量使用「NSF-177 Certified」「IAPMO Certified to NSF 177」表述，本节给出定论。
+
+**裁定：误导 / 部分虚假（as marketed）。**
+
+**三种「认证」必须区分**：
+- (a) **NSF 自身认证** — ❌ **虚假**。FilterBaby **不在 NSF 官方认证淋浴滤器名录**（info.nsf.org/Certified/DWTU 淋浴滤器类目仅 4 家，无 FilterBaby）。而官网 the-science 页直接写「NSF-177 certified… NSF 是认证机构」，**暗示 NSF 给它发了证 = 不实**。
+- (b) **IAPMO 按 NSF/ANSI 177 认证** — ⚠️ **无法证实，且很可能未生效**。IAPMO R&T 是真实的 ANSI 认可认证机构，「IAPMO 按 NSF 177 认证」本可成立；但 IAPMO 产品名录（pld.iapmo.org）为 JS 渲染、工具无法查询；**且独立评测者 WaterFilterGuru 直接被品牌告知认证「in progress」**（"currently not certified… this is in progress"）。
+- (c) **按标准测试（tested to）** — ✅ 这是唯一有证据支撑的表述（IAPMO 作为**实验室**出具的测试报告）。品牌在 NSF-42 处实际只敢写「tested」。
+
+**关键证据链**：
+| 证据 | 内容 | 来源 |
+|------|------|------|
+| NSF 公开通告 | **2025-03-13**，点名 FilterBaby「产品网页宣称通过 NSF 42 与 NSF 177 要求」，附 NSF 标准免责声明（使用 NSF 咨询/培训不等于获得认证）| nsf.org/about-nsf/public-notices/filterbaby |
+| NSF 认证库 | 淋浴滤器类目无 FilterBaby | info.nsf.org/Certified/DWTU |
+| 独立评测 | 「currently not certified… in progress」| waterfilterguru.com/filterbaby-shower-filter-review |
+| 官网原文 | 「NSF-177 certified」（最松、最误导）| filterbaby.com/pages/the-science-contaminant-removal |
+| Amazon 原文 | 「IAPMO Certified to NSF 177 Standard」（较精确的 (b) 型）| Amazon B0FNVDJRSQ |
+
+**对 LeafSnap 原始说法的校正**：LeafSnap 称「NSF 公开声明 FilterBaby 未被列入或授权宣称合规」——**实质正确**（NSF 通告确实存在、FilterBaby 确实不在库），但**措辞夸大**（NSF 通告并无「未授权」「停止使用」等 cease-and-desist 语言，那是 LeafSnap 的无引用转述），且**遗漏** FilterBaby 可辩护的 IAPMO 路径。
+
+**对 KES 的直接启示**：
+1. 这是 §九.5 「可核查性做成 USP」论点的**铁证**——一个把「NSF Certified」当核心信任锚的品牌，被 NSF 官方挂了公开通告。KES 若宣称 cUPC/NSF/IAPMO，**必须确保证书编号可在对应官方数据库查到**，并在文案中精确区分「certified by X」vs「tested to X standard」。
+2. **机会**：在内容/对比页中，KES 可以诚实地展示「我们的认证编号 + 官方数据库查询链接」，把 FilterBaby/Canopy 普遍存在的「tested-to 当 certified 卖」做成自己的透明度差异点（**不点名攻击，只示范正确做法**）。
+
+---
+
+## 十、深化补充：广告漏斗 / 流量 / 核实定论（2026-06-15）
+
+> 本节补 P0/P1/P2 深挖：Meta 广告漏斗实拆解、流量结构实测、以及 NSF/专利/临床三项核实的最终定论。**研究边界已诚实标注**（Meta Ad Library 与 IAPMO 名录均 JS 拦截）。
+
+### 十.1 广告 / 漏斗实拆解（L11 替代版）
+
+**研究边界**：Meta Ad Library 对自动抓取 100% JS 拦截（2026-06-15），无法直接观测活跃广告数/格式比/投放日期。以下为**落地页 + 第三方 + 编辑内容**重建，verbatim 文案均有引用，**未编造任何广告文案**。活跃广告数/格式比标为「推断」，需人工浏览器打开 Ad Library 确认。
+
+**FilterBaby 漏斗 = 临床数据 + 第一人称软文（advertorial）机器**
+
+| 要素 | 发现 | 来源 |
+|------|------|------|
+| 投放节奏 | 付费社交是核心常年渠道（非季节性）；"sold like gangbusters on Facebook" | Azama Brands 案例 |
+| 专属落地页 | **`/pages/clinical-study` 是独立冷流量 LP** — 与首页完全不同：三层证据架构（N=35 临床 → 体外细胞 → IAPMO「认证」），用显微镜细胞对比图替代首页 hero，CTA「Shop the Faucet Filter」+「30-Day Money-Back」| filterbaby.com/pages/clinical-study |
+| 软文漏斗 | **第一人称软文** 博客 *"How I Discovered Tap Water Quality Was the Root Cause of my Acne"*（抓取时 404 但标题已索引）| filterbaby.com/blogs/skincare/tap-water-causes-acne |
+| 「as seen in」素材 | Who What Wear 真实联盟编辑文（含皮肤科 quote「Hard water can disrupt the skin barrier」）| whowhatwear.com |
+| 角度占比（推断，非实测）| 权威/皮肤科 ~30%、痛点教育 ~25%、社会证明 ~20%、临床 before-after ~15%、促销 ~10% | — |
+
+**最值得 KES 抄的钩子**：
+1. *"We clean the water that cleans you."* → KES 版：*「触碰你皮肤的水，干净程度取决于你的水龙头」*
+2. **第一人称软文**：*「我如何发现自来水是我[皮肤问题]的根因」* — 把无聊的过滤器变成问题解决者
+3. **Stat-card**：「2 周内 88% 报告痤疮泛红减少」— 具体 % + 短周期 + 无需露脸照
+4. **专属临床 LP** 而非首页接冷流量 — KES 可为某 SKU 做独立证据 LP
+
+### 十.2 流量结构实测
+
+| 指标 | 数据 | 置信度 | 来源 |
+|------|------|:----:|------|
+| 月访问 | **~85–90K**（SimilarWeb ~87.5K +13% MoM / HypeStat ~90K，两源吻合）| 中（量级可信）| similarweb.com / hypestat.com |
+| 渠道结构 | **付费搜索是重要渠道**（SimilarWeb 称 36% / HypeStat 称 15%，两源都列为 material）+ 直接访问大；关键词约 51% 付费 / 49% 自然 | 低（精确比例不可得）| 同上 |
+| 关键词 | 品牌词主导（"filterbaby"/"filter baby"+ "shower filter"），625 词 | 高 | SimilarWeb 免费页 |
+| 受众 | 美国 86%、女性 62.7%、25–34 岁为主 | 低 | SimilarWeb |
+| 美元营收 | **公开不可得**（仅自报「500,000+ 支售出」）；HypeStat 的 $23,947 是广告估值伪数据，忽略 | — | — |
+| 品牌搜索趋势 | **不可得**（Google Trends 429 限流）| — | — |
+
+> **修正 v2.0 的 Layer 7**：原表「直接 35% / 自然 30% / 社交 20% / 付费 10%」是无源猜测，**不成立**。可辩护的定性结论：**FilterBaby 偏重付费搜索 + 直接，品牌词依赖高**（与 Canopy 的「直接+自然主导、付费近乎为零」形成对比）。
+
+### 十.3 三项核实定论
+
+**① NSF/IAPMO 认证 — 仍未认证（高置信）**
+- NSF 认证库**可正常访问未被拦**：淋浴滤器类目仅 4 家（ATGENE/Seongill/UBS/Weddell），**无 FilterBaby**；按公司名查「No Matching Products Found」。
+- NSF 公开通告（2025-03-13）**仍在线、未撤回**，称 NSF 42/177 宣称「**unsubstantiated**」。
+- IAPMO PLD（JS 拦截）查无 FilterBaby listing/file number。
+- **定论：截至 2026-06-15 仍未获 NSF 或 IAPMO 认证。** 这巩固 §九.6 裁定。
+
+**② 专利「45+」= 营销注水（高置信）**
+- 实可核实**已授权 4 项**：US 12,534,389（实用，2026-01-27）+ 外观 D1067376、D1112607 + 加拿大 CA 224613S（可能含第 5 项 USD1076003S1）。
+- 待审/公开 ~4–6 项（US20250092650A1、WO2025059672A1 等）。
+- 即便把全球所有 jurisdiction + 设计 + 申请都算上，约 10–13 个 line items，覆盖仅 ~3 个发明族 —— **远达不到 45**。「FilterBaby LLC (250 results)」是被无关专利污染的总命中数，非组合。
+- **定论：「45+ 专利」夸大；真实已授权 4 项。**
+
+**③ 临床研究 — 真实但单薄、来源不透明（中高置信）**
+- N=35、16–65 岁、2 周、Callegari Soft Plus 电容式角质测湿（**合规标准协议**，控温控湿），+63% 水合 / +61% 亮度；2025 体外角质细胞研究。
+- **未具名实验室、无 PDF、未经同行评审**。一处搜索指向 CE.Way Regulatory Consultants（都柏林，真实 CRO）但**无一手来源证实**。
+- **弱点**：把临床仪器数据（+63%）与「92% brighter / 89% healthier」**消费者自报调研**混在一个「clinical」横幅下；同一个「63%」既当仪器读数又当消费者数字。
+- **定论：sponsored-but-real，但呈现方式薄、混淆临床与消费者调研。**
+
+**跨项规律（对 problem/product/claim 分离有用）**：三项都是**「真实但极小的底座 → 放大成超额营销语言」**——一个 in-progress/查无的认证、一项已授权实用专利、一个 N=35 小研究，分别被讲成「IAPMO Certified」「45+ patents」「clinically proven」。**每一项的「已核实事实」都显著小于「宣称」。**
 
 ---
 
@@ -496,10 +733,19 @@ KES 可借鉴:
 2. FilterBaby "Our Story" 页（filterbaby.sg，2026-06-14）
 3. Jade Magazine 创始人专访（2025-02-18）
 4. last30days 社媒研究（Reddit + YouTube + Instagram，2026-06-14）
-5. Water Filter Guru YouTube 评测（2024-10-13，464K 观看）
-6. Doctorly YouTube 评测（2023-12-12，101K 观看）
-7. Trustpilot FilterBaby 评价（2026-02-19 第一条）
+5. ~~Water Filter Guru YouTube 评测（464K 观看）~~ ⚠️ **v3.0 标记为未核实** — 无法确认存在该品牌专属视频/观看量，不可引用
+6. ~~Doctorly YouTube 评测（101K 观看）~~ ⚠️ **v3.0 标记为未核实** — Doctorly 自营竞品，付费背书可能性低
+7. Trustpilot FilterBaby 评价（约 4★、约 454 条，含订阅/客服投诉）
 8. DTC 品牌研究框架 v2.2（`wiki/topics/dtc-brand-product-research-framework.md`）
+
+**v3.0 新增来源**:
+9. TIME Best Inventions 2024（Eco-Pro Shower Filter）+ 2025（Bath Filter）
+10. PR Newswire — 皮肤科顾问委员会（2025-08-12）、Target 铺货（2026-01-16）
+11. Glossy Pop Awards 2025、NewBeauty 2025 Award
+12. Authority Magazine 创始人专访（2022）
+13. Google Patents（US 12,534,389；D1067376；D1112607）
+14. LeafSnap 技术评测（引 NSF 公开声明，认证争议来源）
+15. Refinery29（2023-06-26）、Who What Wear（2024-04-04）评测
 
 ---
 
@@ -509,3 +755,5 @@ KES 可借鉴:
 |------|------|------|
 | v1.0 | 2026-06-14 | 初始版本（品类定位有误：写成浴缸过滤器）|
 | v2.0 | 2026-06-14 | 全面重写 — 纠正品类定位（护肤滤水器）、补充创始人故事（Xin Ma + Lynn Shui）、产品矩阵（$79-$184）、临床验证、社媒数据、16 层完整分析 |
+| v3.0 | 2026-06-15 | 新增 §九 五大维度深化（产品外观/功能、定位、USP、媒体策略、EEAT）；修正 TIME 年份（2024+2025 非 2023）、评价数（实际 2,007）、NSF 认证争议、专利数夸大、创始人署名、撤回未核实的 Water Filter Guru 617K 数据（见 §九.0）|
+| v3.1 | 2026-06-15 | 新增 §九.6 NSF 认证对抗性核查（裁定误导/虚假）+ §十 深化补充（广告漏斗实拆解、流量实测、专利/临床/IAPMO 三项核实定论）；Layer 11/12 标注被取代/修正 |

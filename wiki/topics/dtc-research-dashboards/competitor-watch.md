@@ -1,8 +1,32 @@
-# 竞品监控面板 v1.3 —— FilterBaby 直接竞品对比
-> 更新日期：2026-06-14  
-> 研究框架：DTC 品牌/产品研究分析框架 v2.2  
-> 对标品牌：FilterBaby（KES）  
-> **新增竞品**：Brita（水龙头过滤器老牌巨头）、Coway（韩国净水品牌美国市场打法）
+# 竞品监控面板 v1.4 —— FilterBaby 直接竞品对比
+> 更新日期：2026-06-15（v1.4）
+> 研究框架：DTC 品牌/产品研究分析框架 v2.2
+> 对标品牌：FilterBaby（KES）
+> **v1.3 新增竞品**：Brita、Coway
+> **v1.4 变更**：(1) 纳入 FilterBaby/Canopy 五维深化的核实修正（见 §零·核实告警）；(2) 新增 NSF 认证状态/口碑一致性监控字段；(3) 关联三方对比综述
+
+---
+
+## 零、核实告警（v1.4 新增 — 高优先级）
+
+> 2026-06-15 对 FilterBaby、Canopy 做了五维深化 + 对抗性核实，发现头部品牌的信任宣称存在可核查的裂缝。**这些是 KES 内容/合规与差异化定位的直接弹药。**
+
+| 品牌 | 核实结论 | 影响 |
+|------|---------|------|
+| **FilterBaby NSF 认证** | ❌ **误导/部分虚假**：不在 NSF 认证名录；NSF 于 **2025-03-13 发布公开通告**点名其 NSF 42/177 宣称；评测者被告知认证「in progress」。官网「NSF-177 Certified」误导 | KES 应**精确区分 certified vs tested-to 并附查询链接**，把可核查性做成差异点 |
+| **FilterBaby 评价数** | 自相矛盾：首页 6,000+ / 评价页 3,000+ / 实际 widget **2,007** | 社会证明注水风险案例 |
+| **FilterBaby 奖项** | TIME Best Inventions 实为 **2024+2025 两次**（非 2023）；CEW/Vogue/TV 未核实 | 引用奖项需精确 |
+| **Canopy NSF** | 「Tested to ANSI/NSF-177」= 内部测试**非认证**，不在 NSF 名录 | 与 FilterBaby 同类问题 |
+| **Canopy 口碑** | 站内 ~4.6/5 vs **Trustpilot 2.2 / BBB「F」68 投诉**；加湿器发霉缺陷 | 精选好评掩盖缺陷案例 |
+| **Canopy 名人** | Alli Webb 是**总裁+投资人**非代言；TSC 联名是**加湿器非淋浴头** | v1.3 旧表述已过时 |
+| **FilterBaby NSF（复核）** | ❌ 仍未认证（2026-06-15 复核）：NSF 库无、公开通告仍在线称宣称「unsubstantiated」、IAPMO 查无 | 定论锁定 |
+| **FilterBaby 专利** | 「45+」= 注水；**实为已授权 4 项**（US 12,534,389 + 2 外观 + 1 加拿大）| 引用专利数需修正 |
+| **FilterBaby 临床** | N=35 真实但单薄、实验室未具名、混淆临床仪器与消费者调研 | 「clinically proven」需打折 |
+| **流量结构** | 旧「35%/30%」猜测不成立。FB **买量重**（~85–90K/月），Canopy **品牌自然+季节性**（~150K 夏–430K 冬）| Layer 7 已重写 |
+| **Canopy 资本** | Hyku Home Inc.，**~$3.16M 天使**（SEC Form D，无机构 VC）→ $40M 累计营收；聚合源 $292M 是同名他司 | 轻资本范本 |
+| **广告漏斗** | FB=临床+第一人称软文+专属 LP；Canopy=美妆重构+达人+PDP 直达 | Meta Ad Library JS 拦截，多源重建 |
+
+**详见**：`wiki/syntheses/dtc-filterbaby-vs-canopy-vs-kes-five-dimension-comparison.md`（三方五维对比综述，含广告/流量/资本深挖）
 
 ---
 
@@ -10,7 +34,7 @@
 
 | 品牌 | 主打定位 | 价格（水龙头/淋浴过滤器） | 滤芯周期 | 核心壁垒 |
 |------|---------|--------------------------|-----------|-----------|
-| **Canopy** | 健康家居生态（加湿器+过滤+净化） | $99 | 90 天 | 全渠道零售（Sephora/Target）|
+| **Canopy** | 全屋健康生态（加湿器+过滤+净化+香薰） | $99/水龙头·$150/淋浴 | 90 天 | 全渠道零售（Sephora/Target/Nordstrom）+ 设计语言 + 运营者信用（Drybar 总裁）|
 | **Tapp Water** | 环保 + 矿物返还（Swedish Mineral Rock™） | €89.90（~$99） | 6 个月（宣称） | 欧盟环保认证 + 1.36 亿个塑料瓶成就 |
 | **Qure Skincare** | 临床级家用护肤科技 | 未公开 | 未公开 | 7+ 临床研究 + 7 位皮肤科医生委员会 |
 | **Envig** | 氯胺/硫化氢催化碳过滤（技术科普型） | $59.99（Amazon 订阅 $50.99） | 6 个月 / 8,500 加仑 | 催化碳技术（= 普通活性炭 ×10）+ 氯胺 DBP 科普内容 |
@@ -19,7 +43,7 @@
 | **Bodibeam** | 维生素 C 凝胶注入（韩国工程） | ❌ 数据缺口（Amazon 独占） | 推断 1 个月（沉积过滤器）| 维生素 C 凝胶注入（竞品无此技术）+ NSF 认证 |
 | **Brita** | 品牌认知度极高 + 全渠道覆盖（零售 + Amazon） | $32.49（水龙头系统）+ $12.99/滤芯 | 100 gallons / 4 个月 | **品牌认知度极高**（50+ 年历史，全球领先） |
 | **Coway** | 租赁模式 + Heart Service（免费安装/维护/滤芯更换） | 租赁 $22.99/月起 | 定期更换（免费） | **Heart Service**（服务体验壁垒，竞品无） |
-| **FilterBaby（对标）** | 中医理论 + 皮肤科推荐洗脸水过滤 | $79 | 2-3 个月 | 中医文化背景 + 500,000+ 销量 |
+| **FilterBaby（对标）** | 中医理论 + 皮肤科推荐护肤水过滤（品类开创者）| $99–159（Target Essential $49.99 下探）| 90 天 | 品类开创 + 临床/4 人皮肤科委员会 + TikTok 病毒 + 500,000+ 销量 ⚠️**认证经不起查** |
 
 ---
 
@@ -393,6 +417,10 @@ Tapp Water  ●────────────○
 
 | 监控项 | 频率 | 数据源 |
 |---------|------|---------|
+| **FilterBaby NSF/IAPMO 认证是否转正** | 每季度 | info.nsf.org 认证库 + pld.iapmo.org（需浏览器）+ nsf.org/public-notices |
+| **FilterBaby 评价数一致性**（首页 vs 评价页 vs widget）| 每季度 | filterbaby.com（注水信号）|
+| **Canopy BBB 评级 / Trustpilot 分变化**（当前 F / 2.2★）| 每季度 | bbb.org、Trustpilot |
+| **Canopy 加湿器发霉缺陷舆情** | 每季度 | Reddit、Trustpilot、Amazon 差评 |
 | Canopy 新品发布 | 每月 | Shopify 集合页、Instagram |
 | Tapp Water 滤芯实际寿命用户反馈 | 每季度 | Trustpilot、Reddit |
 | Qure Skincare 临床研究发布 | 每季度 | 官网、PR 新闻 |

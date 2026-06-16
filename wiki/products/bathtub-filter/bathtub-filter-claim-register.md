@@ -3,12 +3,12 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-17
-updated: 2026-04-19
+updated: 2026-06-15
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
-domains: [bathtub-filter, kes, claims, compliance, marketing, version-a]
+domains: [bathtub-filter, kes, claims, compliance, marketing, version-a, clean-formula, diagnosis-kit]
 source_count: 4
 review_cycle: monthly
 verification_status: spot-checked
@@ -16,6 +16,10 @@ related:
   - ./bathtub-filter-claim-risk-audit-v2.md
   - ./bathtub-filter-evidence-matrix.md
   - ./bathtub-filter-compliance-framework-and-evidence-boundaries.md
+  - ./bathtub-filter-kes-positioning-and-problem-layer-decision-2026-06-15.md
+  - ./bathtub-filter-kes-clean-formula-emotional-positioning.md
+  - ./bathtub-filter-kes-water-diagnosis-kit-and-modular-acquisition-engine.md
+  - ./bathtub-filter-chloramine-media-research.md
   - ../../source-summaries/bathtub-filter-kes-internal-product-materials-2026-04-17.md
   - ../../source-summaries/bathtub-filter-onlyzone-supplier-material-evidence-2026-04-17.md
 ---
@@ -27,6 +31,8 @@ related:
 **2026-04-17 更新：Version A 内部产品讲解文档到位后，Allowed / Conditional 区的 example wording 已从占位符填入 Version A 实际语言。**
 
 禁区仍保持不变（非谈判性）。Version B / C（氯胺城市 / 软水器下游 / well water / 仪式浸浴）的 claim wording 仍 pending。Workstream 2 的竞品样品差异化审核，仍可在 Version A 的 wording 上做二次优化（确保不被竞品语言占领），但不再阻塞首次使用。
+
+**2026-06-15 操作化更新**：把本轮战略产出（clean-formula 定位、水质自测套件/模块化获客引擎、氯胺 V1.5 证据）产生的 claim 决策归并进本表——见文末 **「2026-06-15 操作化增补」** 段（透明/clean-formula、自测套件、模块目录、氯胺 V1.5、诚实劝退、**表面→claim 映射**）。两处对既有表的修改：① Banned 区氯胺行从「V1 一律禁」改为「**V1 禁 / V1.5 conditional**」；② Conditional 区 fast-flow 行接上 [25L/min 测试 spec](./bathtub-filter-25lpm-dechlorination-bench-test-spec.md) 的通过门槛。
 
 ---
 
@@ -41,6 +47,9 @@ related:
 5. **Fit / compatibility** — 适配范围宣称，包括支持的 spout types 和明确的不支持说明
 6. **Performance / testing** — 关于测试条件、测试结果和认证的宣称，需要清晰区分 certified vs tested vs media-credibility
 7. **Environmental / sustainability** — 如有可替换滤芯等，可能涉及的环保/可持续相关表达
+8. **Transparency / clean-formula** *(2026-06-15 新增)* — 「看得见真料 / 读得懂配方」透明叙事，及主动 disclaim 疗效的承重句
+9. **Self-diagnosis / test-kit** *(2026-06-15 新增)* — 「测你家的水」自测套件、读卡处方、精度与诚实边界
+10. **Modular media catalog** *(2026-06-15 新增)* — 各滤材模块（阻垢/井水 KDF85/强化物理层/氯胺配置）各自有界的 cross-sell 宣称
 
 ---
 
@@ -72,7 +81,7 @@ related:
 | Skin-comfort framing (sensitive skin) | Must not imply eczema improvement or clinical outcome; must stay in "may be gentler for" or "designed with sensitive-skin users in mind" territory | "Designed with sensitive-skin bathers in mind." / "May be gentler for users who find highly-chlorinated tap water drying." (Never: "improves eczema" / "heals your skin" / "clinical results for sensitive skin") | EPA literature + Seki 2003 + Danby 2018 support that chlorine ≥ 0.5 mg/L affects compromised skin; this supports the problem framing, **not** finished-product efficacy | The distinction between "for sensitive-skin users" vs "improves sensitive skin" is non-negotiable. Doc 1 FAQ verbatim: do not market as eczema product |
 | Baby / infant framing | Only if product has clear scope definition, no medical safety implication, and no "baby-safe" equivalents without substantiation | "Filters the bath-water before it reaches your tub." / "Many families use a bath filter for chlorine-sensitive bathtime routines." (Never: "safe for babies" / "safe for newborns" / "pediatrician-approved") | Doc 2 review evidence: infant / small-child segment is the single largest positive review cluster across 5 ASINs — segment relevance is real, safety-claim burden is not met | Premium pricing will increase scrutiny on any baby-adjacent claim; do not write "baby-safe" without explicit evidence base |
 | Head-to-head with mixed-media competitors | With technical explanation, non-disparaging | "Unlike mixed-bead products, Version A uses strict layered media (PP → KDF → CaSO₃) with an internal flow-diversion module. This prevents channeling, prevents media cross-reaction, and lets you replace each layer separately." | Doc 5 diversion-module test + Doc 4 flow-overflow test + Doc 2 competitor complaint teardown | Safe framing because it explains a technical design choice, not disparages a competitor; do not name specific competitor ASINs in marketing copy |
-| Fast-flow chlorine performance | Only if independently replicated for the specific KES product at the stated flow rate | "Performance at fast fill: system-total chlorine reduction remains ≥90% at 30 L/min / ≥92% at 25 L/min when CaSO₃ is in its 90%-stage (see replacement schedule)." | Internal life model (Version A) + third-party replication still pending — see [[bathtub-filter-validation-testing-protocol]] Validation log | Directionally encouraging but needs third-party DPD replication before this wording goes to public copy |
+| Fast-flow chlorine performance（含 25 L/min 卖点） | Only if independently replicated for the specific KES product at the stated flow rate **per [25L/min 测试 spec](./bathtub-filter-25lpm-dechlorination-bench-test-spec.md) Gate 1** | 公开文案的去氯数字**必须用第三方 DPD 实测值**回填，不得用内部模型的 ≥92%@25 L/min（那是 5 ppm 系统总氯比色单测） | spec §4 通过门槛：25 L/min、真实 2 ppm、新芯 **≥85%** 且 25→27 斜率平缓。**未达门槛前 25 L/min 不上首屏**（[执行路线图](./bathtub-filter-kes-v1-execution-roadmap-2026-06-15.md) Gate 1） | 这是 clean-formula「测得到」首要价值的硬证据来源——口径必须如实，否则就成了我们批 FilterBaby 的放大 |
 | Reduced water irritation | Only with careful framing — comfort framing acceptable, skin-barrier claim is not | "Less chlorine in your bath water means less chlorine contacting your skin — that's the comfort difference many bathers notice." (Never: "restores skin barrier" / "prevents eczema flares") | Chlorine / bathing / skin-barrier evidence supports cautious problem framing; does not support product-level skin outcome promise | Use 3rd-level claim evidence ladder language (education framing), not 5th-level (clinical result language) — see [[bathtub-filter-evidence-matrix]] Section 9 |
 | Supplier material credibility (NSF/ANSI 42) | Only as a media/material-level statement, never as a finished-product certification | "Our KDF55 media comes from a supplier listed under NSF/ANSI 42 (Zibo Onlyzone, Cert# C0843384-01). The finished KES product is not itself NSF-certified." | [[bathtub-filter-evidence-bibliography]] E1 (NSF cert C0843384-01, 2025-04-10) | Must always include the "finished product is not itself NSF-certified" disclaimer — otherwise the claim reads as a product cert |
 | Supplier material safety (EU food-contact) | Only as a media-level statement about extractable heavy metals | "KDF55 media tested compliant with EU food-contact standards (CM/RES 2013/9 + Regulation 1935/2004 Ch. III) — 22 heavy metals below maximum limits, sensory rating 0 / 4 for taste and odor." | [[bathtub-filter-evidence-bibliography]] E2 (TÜV SÜD 721682290C, 2023-07-13) | Supports material-safety credibility; do not transfer this to finished-product food-contact claim without separate testing |
@@ -96,8 +105,55 @@ related:
 | Baby-safety implication without substantiation | "Safe for babies" / "safe for newborns" / "mom-approved for infant bathing" style claims that imply safety from harmful substances without specific evidence | Very high — regulatory and liability exposure |
 | Clinical language without clinical-grade backing | "Clinically proven" / "clinically tested to improve skin" / "doctor-recommended for eczema-prone skin" without the specific clinical evidence base these phrases imply | Very high — FTC / consumer protection risk |
 | Hard-water softening claims | Implying that a compact bath filter meaningfully softens hard water — current evidence does not support compact bath filters achieving clinically or practically meaningful water softening | High — evidence does not support this for compact filter form factors |
-| Chloramine removal claims (for V1 chlorine-media products) | If filtration media is designed for free chlorine, claiming chloramine removal is not defensible without separate validation of chloramine-specific reduction | High — chemistry mismatch, demand/claim mismatch in target markets |
+| Chloramine removal claims **for V1 (free-chlorine media)** | V1 媒体（KDF55+CaSO₃）对氯胺基本无效，宣称氯胺去除不可防守。**注：V1.5 氯胺配置（催化炭+抗坏血酸钠浸泡）有界 claim 已移入 Conditional——见「2026-06-15 操作化增补」§B。** | High — chemistry mismatch；V1 仍为禁区 |
 | Implied medical treatment or disease prevention | Any language that positions the product as treating, preventing, or managing a health condition (including skin conditions, respiratory sensitivity, etc.) | Very high — drug/device regulatory threshold risk |
+
+---
+
+## 2026-06-15 操作化增补
+
+> 本段把本轮战略产出的 claim 决策归并入表，覆盖既有 Version A 表未涵盖的新类别与新表面。优先级规则不变：**先查 Banned，再查 Conditional，最后 Allowed 也要核证据。**
+
+### A. 新增 Allowed（满足证据要求即可用）
+
+| Claim category | Allowed | Example wording | Evidence requirement | Notes |
+|---|---|---|---|---|
+| **Transparency / clean-formula** | Yes — **leading** | "See the media. The amount. The order. Clean is what you can see." / 「看得见的滤料，读得懂的配方。」 / "Copper-zinc you can see. Calcium sulfite you can see. No third thing you can't name." | 透明滤盒为真实可见结构；料名/料量与实物一致 | 这是首要价值的载体；**「可见」不得暗示「更有效」**——可见是 trust 钩子，efficacy 另由去氯实测支撑（防假设4陷阱） |
+| **Clean-formula 承重 disclaim 句** | Yes — **必须保留** | "We won't tell you it 'treats' anything." / 「我们不替你下结论它能治好什么。」 | 无（这是 disclaim，本身降低风险） | **承重合规句**：主动 disclaim 疗效，守 A-10。出现在宣言/About/产品片；**编辑/法务不得为「更顺」删除**（见 [感性定位 §5.4](./bathtub-filter-kes-clean-formula-emotional-positioning.md)） |
+| **Metal-first 料级叙事** | Yes — 料级/工程，非健康 | "Premium copper-zinc alloy media — not the cheap filler hiding behind opaque plastic." | KDF55 料级事实 | **仅料级/质感**；**不得**translate 成「去重金属保护皮肤」健康声称（无经皮证据） |
+| **Self-diagnosis / 「测你家的水」** | Yes — with precision boundary | "Find out what's in your water — so you pick the right media. A quick guide, not a lab test." / 「先测你家的水，帮你选对组合。」 | ZIP→CCR（类型，权威）+ 多垫试纸（浓度/硬度，粗筛） | 精度如实「粗筛指路 ≠ 检测危害」；类型判定以 ZIP 为准，试纸总氯−游离氯只作 flag（见 [获客引擎 §二](./bathtub-filter-kes-water-diagnosis-kit-and-modular-acquisition-engine.md)） |
+| **Honest disqualification（诚实劝退）** | Yes — **必须做** | "Your city uses chloramine — V1 isn't for your water yet. Leave your email and we'll tell you when the chloramine version ships." / 高铁/软化/杀菌等能力外明说不适合 | 水务图谱 + 模块边界 | 不卖错 = clean-formula 信任资产；把能力外坦白做成承诺 |
+
+### B. 新增 Conditional（条件满足 + evidence review 后用）
+
+| Claim category | Condition required | Example wording | Evidence requirement | Notes |
+|---|---|---|---|---|
+| **Chloramine reduction — V1.5 配置 only** | 仅限催化炭芯 + 抗坏血酸钠浸泡件配置；**禁「fast / instant / 秒解」**；按 4–8 分钟规划；须氯胺专属台架 | "Reduces combined chlorine (chloramine) during fill and soak — give it a few minutes." / 「注水+浸泡阶段中和氯胺。」 | Catalytic carbon = Kochany 2008 (Tier 1) + EBCT 数据；ascorbate bath = SFPUC + AWWA C655；接触时间 4–8 min（[氯胺证据页](./bathtub-filter-chloramine-media-research.md)） | **禁**：单芯全除氯胺 / NSF 177 支持氯胺 / 「快速」。验证须用**总氯试纸**，并提示抗坏血酸对比色法干扰的测量时机 |
+| **阻垢 adjunct（anti-scale）** | 仅设备防垢，非软化非护肤 | "Helps protect your tub and fixtures from scale buildup. **It does not soften your water.**" | 阻垢机理（sequestration）；非硬度去除 | **承重 disclaim**「不软化」必须随行；不得侵占去氯主媒体逻辑（媒体方案页边界） |
+| **井水 KDF85 模块** | 仅低中度铁/H₂S/味；高铁(>2–3ppm)劝退 | "Targets iron / sulfur-related bath odor and rust nuisance (low-to-moderate)." | KDF85 机理；nuisance 级 | **禁**：杀菌/除砷/硝酸盐/铀/高铁全屋替代/软化 |
+| **强化物理层（PP）** | 颗粒/沉积，非主过滤 KPI | "Extra sediment layer for particulate-heavy water." | 物理拦截 | 不得当主去污 KPI 讲 |
+| **诊断报告卡 / referral 卡个性化结论** | 继承全部红线 | "Your water: free-chlorine, very hard. Recommended: dechlorination core + anti-scale." | ZIP+试纸诊断 | 报告卡是对外表面，**同样禁 toxin-panic / 健康声称 / 软化承诺** |
+
+### C. 新增 Banned
+
+| Banned claim type | Why banned | Risk |
+|---|---|---|
+| 诊断结果导向 **toxin-panic / 健康恐吓** | 「你的水有毒/伤害你宝宝」——读数只说水的类型/产品适配，不说危害健康 | Very high |
+| **TDS 笔 / 铅试纸**作为验证或卖点 | TDS 非氯非硬度（伪精确）；铅试纸低浓度不可靠且非我们声称 | High（clean-washing 反噬 + 误导） |
+| 氯胺「**快速/秒解**」 | AWWARF/SFPUC 证据为 4–8 分钟（充分混合的亚分钟为单次现场、有比色干扰、未重复，不可作承诺） | High |
+| 「clean / 干净」暗示去有害物=**治皮肤/健康** | clean 讲透明与料级诚实，非 efficacy | High |
+
+### D. 表面 → 适用 claim 映射（按客户表面查护栏）
+
+| 客户表面 | 主用 claim 区 | 必带护栏/承重句 |
+|---|---|---|
+| 首页 Hero / 首屏 | Transparency + Chlorine reduction（数字待 Gate 1） | 25 L/min 数字未坐实不上；「可见≠有效」分开讲 |
+| About / 品牌片 | Clean-formula 宣言 | **「我们不替你下结论它能治什么」承重句必在** |
+| PDP 产品页 | Chlorine reduction（精度）+ Media transparency + Fit + Performance/testing | 「free chlorine」「fresh-filter/best-experience」「15 L/min」限定词不可删；成品不冒认 NSF |
+| 诊断报告卡 / 试纸读卡 | Self-diagnosis + 模块处方 | 精度如实；阻垢「不软化」；toxin-panic 禁 |
+| Referral 卡 | 个性化诊断结论 | 同报告卡红线；不刷屏不绑夸大 |
+| 包装/说明书 | Replacement-trigger + Verification-by-user + 氯胺浸泡时机 | 用 baths/gallons 不用 months；总氯试纸 + 抗坏血酸干扰时机提示 |
+| 广告 | Sensory/comfort + Transparency | 禁 eczema/baby-safe/scarcity；禁 best-value/cheapest |
 
 ---
 
