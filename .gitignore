@@ -7,4 +7,12 @@
 # macOS
 *.base
 .workbuddy/
-raw/products/bathtub-filter/**/*.mp4
+
+# Video files (not tracked in repo)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.flv
+*.webm
