@@ -3,7 +3,7 @@ type: product
 status: active
 owner: product
 created: 2026-04-11
-updated: 2026-04-22
+updated: 2026-06-24
 visibility: company
 confidence: medium
 officiality: draft
@@ -12,7 +12,7 @@ name_zh: 浴缸过滤器
 name_en: Bathtub Filter
 domain: product
 domains: [bathtub-filter, water-filtration, bathroom, product-research]
-source_count: 2
+source_count: 20
 review_cycle: monthly
 verification_status: working
 related:
@@ -35,13 +35,20 @@ related:
   - ./bathtub-filter-institutional-guidance.md
   - ./bathtub-filter-review-patterns-and-return-risk.md
   - ./bathtub-filter-competitor-review-corpus-2026-04.md
+  - ./bathtub-filter-customer-water-quality-test-methods-2026-06-03.md
   - ./bathtub-filter-content-ecosystem-by-layer.md
+  - ./bathtub-filter-2026-06-17-desktop-strategy-doc-import-index.md
+  - ./bathtub-filter-kes-v1-execution-roadmap-2026-06-15.md
+  - ./bathtub-filter-kes-v1-selling-points-and-pack-contents.md
+  - ./bathtub-filter-kes-media-eeat-and-clean-formula-narrative.md
+  - ./bathtub-filter-supplier-report-zongli-calcium-sulfite-chloramine-2023-07.md
+  - ./bathtub-filter-kes-clean-formula-emotional-positioning.md
+  - ./bathtub-filter-kes-water-diagnosis-kit-and-modular-acquisition-engine.md
+  - ./bathtub-filter-kes-acquisition-engine-mvp-spec.md
+  - ./bathtub-filter-acf-supplier-research.md
+  - ./bathtub-filter-north-america-special-water-sources.md
+  - ./bathtub-filter-north-america-canada-asia-europe-water-report-2024-final.md
   - ../products/curtains.md
-  - ./bathtub-filter-competitive-intelligence-filterbaby-bath-haus-2026-06-13.md
-  - ./bathtub-filter-filterbaby-website-deconstruction-2026-06-13.md
-  - ./bathtub-filter-certification-landscape-2026-06-13.md
-  - ./bathtub-filter-filterbaby-deep-dive-patent-agency-awards-2026-06-13.md
-  - ./bathtub-filter-na-water-profile-and-target-market-analysis.md
 ---
 
 # 浴缸过滤器（Bathtub Filter）
@@ -55,7 +62,7 @@ related:
 3. 应该先看哪些页面，才能快速完成决策阅读
 
 ## 当前一句话结论
-**这组研究已经足够完整，可以结束当前 desk research 阶段；若继续推进，应转入样品采购与测试验证，而不是继续无限扩写 wiki。**
+**这组研究已经足够完整，可以结束当前 desk research 阶段；若继续推进，应转入 active bathtub 10 ASIN 公开竞品资料补全、验证测试准备与概念收窄，而不是继续无限扩写 wiki。Filterbaby 已拆到 shower-filter 项目；样品采购不作为本轮任务，实物拆解/测试只在已有样品或人工记录时追加。**
 
 ## 范围与定义
 这里的 bathtub filter，指用于 **浴缸注水 / 泡澡场景**、试图降低某些不希望出现的水中成分，或改善 bathing comfort（水感 / 气味 / 皮肤体感）的产品。
@@ -100,16 +107,31 @@ related:
 - normal-flow disappointment（正常流速下效果不及营销期待）
 - leak / overflow / maintenance burden（漏水 / 溢流 / 维护负担）
 
-### 4. 2026-04-22 的 10-ASIN 评论总盘进一步确认：页面卖的是去氯，用户买的是安心
-新增项目调查覆盖 Amazon US 10 个 ASIN、2,562 条评论。它把此前 cluster 中的判断进一步量化为：
-- 最高频需求：硬水 / 氯味改善（44.0%）
-- 第二需求：安装省事 / 不想折腾（25.8%）
-- 高价值场景：敏感肌（23.1%）和宝宝 / 儿童（22.8%）
+### 4. 2026-06-02 / 2026-06-18 的 10-ASIN / 2562 条逐条标签分析进一步确认：评论风险已从“待量化”变成“可排序”
+新增逐条标签证据链覆盖 Amazon US bathtub active 10 个 ASIN、2562 条评论。2026-06-18 已从 bathtub-filter 评论语料中删除 Filterbaby `B0FNVDJRSQ` 的 99 条评论，因为它属于 shower-filter / showerhead inline 产品；对应数据保留在 `wiki/products/shower-filter/` 和 `raw/products/shower-filter/`。当前 bathtub-filter 竞品、价格、安装对象、图评和 claim 准确率口径均为 10 个 ASIN。该批证据把 2026-04-22 的 10-ASIN 项目级宽口径进一步收紧为可用于产品决策的标签口径。
 
-对应的高频负面则不是“完全没效果”，而是：
-- 漏水 / 溢水 / 水流异常（11.1%）
-- 寿命短 / 更换成本 / 维护麻烦（9.1%）
-- 不兼容 / 装不上 / 固定不稳（1.9%，但高杀伤）
+稳定人群线索：
+- 婴幼儿 / 儿童家庭：601 条（22.6%）
+- 硬水 / 矿物残留困扰用户：556 条（20.9%）
+- 敏感肌 / 干痒 / 湿疹困扰人群：524 条（19.7%）
+- 氯味 / 泳池味困扰用户：479 条（18.0%）
+
+主要购买动机：
+- 改善泡澡后皮肤 / 头发体感：627 条（23.6%）
+- 安装方便 / 挂上就能用：627 条（23.6%）
+- 适合宝宝 / 敏感肌场景：625 条（23.5%）
+- 缓解硬水导致的干涩 / 刺激感：550 条（20.7%）
+
+1-2 星高杀伤投诉排序：
+- 整体无效 / 不符合预期：191 条（占 1-2 星 46.5%）
+- 质量破损 / 做工问题：80 条（19.5%）
+- 绕流 / 溢流 / 过滤路径失效：78 条（19.0%）
+- 敏感肌 / 宝宝场景效果不稳定：76 条（18.5%）
+- 宣传口径争议（重金属 / TDS 等）：71 条（17.3%）
+
+对应的判断修正：
+- 旧的 50+ verbatim 和 10-ASIN 项目统计仍保留为历史证据，但当前评论风险排序以 [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]] 为准。
+- “100+ Amazon 评论直采 / NLP 待做”已关闭；真实 SKU 退货率、退款原因和客服工单属于非公开后台数据，不再作为公开补资料任务。
 
 ## KES 当前建议姿态
 ### 可以继续
@@ -152,30 +174,44 @@ related:
 ## 当前推荐的正式表述
 建议内部将这题定义为：
 
-> **Bathtub filter 研究阶段已完成，可停止继续扩写；若继续推进，仅进入样品采购、测试验证与概念收窄阶段。**
+> **Bathtub filter 研究阶段已完成，可停止继续扩写；若继续推进，仅进入公开竞品资料补全、测试验证准备与概念收窄阶段。样品采购不作为本轮任务。**
+
+## 2026-06-17 桌面资料导入批次
+2026-06-17 已把桌面提供的 10 个 bathtub filter 策略 / 介质 / 水源 / 宣称资料文件导入 wiki，并在 raw 中保留原始文件与旧版备份。详见 [[bathtub-filter-2026-06-17-desktop-strategy-doc-import-index]]。
+
+本批次对现有 wiki 的影响：
+- 新增 V1 执行路线图、clean formula 情绪定位、media E-E-A-T 叙事、水诊断 kit、获客引擎 MVP、ACF 供应商、特殊水源和跨区域水质报告等页面。
+- 升级 [[bathtub-filter-chloramine-media-research]]，补入 2026-06-15 TL;DR、KES V1 介质路线判断和混合 / 传质工程更新。
+- 升级 [[bathtub-filter-claim-register]]，补入 2026-06-15 操作化增补 A-D，包括宣传语拆解、25 LPM test linkage 和 listing / website 口径。
+- 没有发现完全重复可跳过的源文件；部分被导入文档内部引用的相关页面本批次未提供，暂保留引用，不凭标题补造。
 
 ## 建议阅读顺序
 ### 先看这几页
-1. [[bathtub-filter-final-executive-summary-2026-04-14]]
-2. [[bathtub-filter-competitor-review-corpus-2026-04]]
-3. [[bathtub-filter-kes-go-no-go-memo-v1]]
-4. [[bathtub-filter-kes-route-elimination-memo-v1]]
-5. [[bathtub-filter-kes-concept-brief-v1]]
-6. [[bathtub-filter-test-gating-checklist-for-kes]]
-7. [[bathtub-filter-kes-rd-and-validation-roadmap]]
+1. [[bathtub-filter-kes-v1-execution-roadmap-2026-06-15]]
+2. [[bathtub-filter-2026-06-17-desktop-strategy-doc-import-index]]
+3. [[bathtub-filter-final-executive-summary-2026-04-14]]
+4. [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]]
+5. [[bathtub-filter-competitor-review-corpus-2026-04]]（legacy verbatim）
+6. [[bathtub-filter-kes-go-no-go-memo-v1]]
+7. [[bathtub-filter-kes-route-elimination-memo-v1]]
+8. [[bathtub-filter-kes-concept-brief-v1]]
+9. [[bathtub-filter-test-gating-checklist-for-kes]]
+10. [[bathtub-filter-kes-rd-and-validation-roadmap]]
 
 ### 如果要继续做产品判断，再看
 - [[bathtub-filter-kes-next-step-execution-plan-v1]]
-- [[bathtub-filter-competitive-intelligence-filterbaby-bath-haus-2026-06-13]] — Filterbaby/Bath Haus 竞品深度情报
-- [[bathtub-filter-filterbaby-website-deconstruction-2026-06-13]] — Filterbaby 网站拆解与借鉴分析
-- [[bathtub-filter-certification-landscape-2026-06-13]] — 认证全景图（NSF/AHLA/EWG 等）
-- [[bathtub-filter-filterbaby-deep-dive-patent-agency-awards-2026-06-13]] — Filterbaby 专利/HYPE10/奖项深度分析
-- [[bathtub-filter-na-water-profile-and-target-market-analysis]] — 北美水质与目标市场分析
+- [[bathtub-filter-kes-media-eeat-and-clean-formula-narrative]]
+- [[bathtub-filter-supplier-report-zongli-calcium-sulfite-chloramine-2023-07]]
+- [[bathtub-filter-kes-clean-formula-emotional-positioning]]
+- [[bathtub-filter-kes-water-diagnosis-kit-and-modular-acquisition-engine]]
+- [[bathtub-filter-kes-acquisition-engine-mvp-spec]]
 - [[bathtub-filter-decision-register]] — 开放决策 × workstream 追踪
 - [[bathtub-filter-assumption-register]] — 检查研究假设是否仍然成立
 - [[bathtub-filter-normal-flow-vs-reduced-flow-evidence-table]]
 - [[bathtub-filter-review-patterns-and-return-risk]]
-- [[bathtub-filter-competitor-review-corpus-2026-04]]
+- [[bathtub-filter-customer-water-quality-test-methods-2026-06-03]]
+- [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]]
+- [[bathtub-filter-competitor-review-corpus-2026-04]]（legacy verbatim）
 - [[bathtub-filter-pricing-refill-flow-fit-table-v2]]
 - [[bathtub-filter-installation-risk-matrix-v2]]
 - [[bathtub-filter-claim-risk-audit-v2]]
@@ -192,6 +228,8 @@ related:
 - [[bathtub-filter-review-patterns-and-return-risk]]
 - [[bathtub-filter-marketplace-negative-review-signals]]
 - [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
+- [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]]
+- [[bathtub-filter-customer-water-quality-test-methods-2026-06-03]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
 - [[bathtub-filter-kes-concept-brief-v1]]
 - [[bathtub-filter-kes-next-step-execution-plan-v1]]
@@ -210,6 +248,8 @@ related:
 - [[bathtub-filter-kes-go-no-go-memo-v1]]
 
 ### 执行追踪页
+- [[bathtub-filter-2026-06-17-desktop-strategy-doc-import-index]]
+- [[bathtub-filter-kes-v1-execution-roadmap-2026-06-15]]
 - [[bathtub-filter-decision-register]]
 - [[bathtub-filter-assumption-register]]
 - [[bathtub-filter-claim-register]]
@@ -217,12 +257,15 @@ related:
 
 ### 支撑研究页
 - [[bathtub-filter-research-coverage-gaps]]
-- [[bathtub-filter-competitive-intelligence-filterbaby-bath-haus-2026-06-13]]
-- [[bathtub-filter-filterbaby-website-deconstruction-2026-06-13]]
-- [[bathtub-filter-certification-landscape-2026-06-13]]
-- [[bathtub-filter-filterbaby-deep-dive-patent-agency-awards-2026-06-13]]
-- [[bathtub-filter-na-water-profile-and-target-market-analysis]]
+- [[bathtub-filter-kes-media-eeat-and-clean-formula-narrative]]
+- [[bathtub-filter-kes-clean-formula-emotional-positioning]]
+- [[bathtub-filter-kes-water-diagnosis-kit-and-modular-acquisition-engine]]
+- [[bathtub-filter-kes-acquisition-engine-mvp-spec]]
+- [[bathtub-filter-acf-supplier-research]]
+- [[bathtub-filter-north-america-special-water-sources]]
+- [[bathtub-filter-north-america-canada-asia-europe-water-report-2024-final]]
 - [[bathtub-filter-academic-paper-research-summary]]
+- [[bathtub-filter-customer-water-quality-test-methods-2026-06-03]]
 - [[bathtub-filter-claims-and-certifications]]
 - [[bathtub-filter-certification-and-testing-pathways]]
 - [[bathtub-filter-certification-authority-tiers-and-workflow]]
@@ -269,3 +312,15 @@ related:
 - [Bathtub Filter Test-Gating Checklist for KES](./bathtub-filter-test-gating-checklist-for-kes.md)
 - [Bathtub Filter Review Patterns and Return Risk](./bathtub-filter-review-patterns-and-return-risk.md)
 - [Bathtub Filter Competitor and Demand Scan](../../syntheses/bathtub-filter-competitor-and-demand-scan.md)
+- [Bathtub Filter 2026-06-17 Desktop Strategy Doc Import Index](./bathtub-filter-2026-06-17-desktop-strategy-doc-import-index.md)
+- [Bathtub Filter KES V1 Execution Roadmap 2026-06-15](./bathtub-filter-kes-v1-execution-roadmap-2026-06-15.md)
+- [Bathtub Filter KES Media E-E-A-T and Clean Formula Narrative](./bathtub-filter-kes-media-eeat-and-clean-formula-narrative.md)
+- [Bathtub Filter Supplier Report — Zongli Calcium Sulfite Chloramine Test 2023-07](./bathtub-filter-supplier-report-zongli-calcium-sulfite-chloramine-2023-07.md)
+- [Bathtub Filter KES Clean Formula Emotional Positioning](./bathtub-filter-kes-clean-formula-emotional-positioning.md)
+- [Bathtub Filter ACF Supplier Research](./bathtub-filter-acf-supplier-research.md)
+- [Bathtub Filter Chloramine Media Research](./bathtub-filter-chloramine-media-research.md)
+- [Bathtub Filter KES Water Diagnosis Kit and Modular Acquisition Engine](./bathtub-filter-kes-water-diagnosis-kit-and-modular-acquisition-engine.md)
+- [Bathtub Filter North America Special Water Sources](./bathtub-filter-north-america-special-water-sources.md)
+- [Bathtub Filter KES Acquisition Engine MVP Spec](./bathtub-filter-kes-acquisition-engine-mvp-spec.md)
+- [Bathtub Filter Claim Register](./bathtub-filter-claim-register.md)
+- [Bathtub Filter North America / Canada / Asia / Europe Water Report 2024 Final](./bathtub-filter-north-america-canada-asia-europe-water-report-2024-final.md)

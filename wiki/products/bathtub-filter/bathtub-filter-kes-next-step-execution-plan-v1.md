@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-14
-updated: 2026-04-19
+updated: 2026-06-17
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, kes, execution-plan]
-source_count: 5
+source_count: 7
 review_cycle: monthly
 verification_status: working
 related:
@@ -17,12 +17,11 @@ related:
   - ./bathtub-filter-kes-concept-brief-v1.md
   - ./bathtub-filter-test-gating-checklist-for-kes.md
   - ./bathtub-filter-kes-route-elimination-memo-v1.md
+  - ./bathtub-filter-11-asin-public-competitor-evidence-2026-06-02.md
   - ../../playbooks/bathtub-filter-validation-testing-protocol.md
 ---
 
 # 浴缸过滤器下一步执行计划 — V1
-
-> ⏩ **已被更新（2026-06-15）**：本页的 5-workstream 尽调框架（WS1 概念收窄、WS4 claim 边界）已完成；当前执行状态与 gate 排期请看 **[V1 执行路线图（控制塔）](./bathtub-filter-kes-v1-execution-roadmap-2026-06-15.md)**。本页保留作尽调阶段的 trail。
 
 ## 这页的目的
 这页把当前 research package 转成实际可执行的 next-step plan。
@@ -34,7 +33,7 @@ related:
 ## 当前总原则
 当前建议不是 launch，而是：
 - 结束继续扩写型 desk research
-- 进入 concept narrowing + sample acquisition + validation testing
+- 进入 concept narrowing + 公开竞品资料补全 + validation testing 准备
 - 在测试后再做一次明确的 continue / pause / archive decision
 
 ## 目标
@@ -51,7 +50,7 @@ related:
 - 1 个 backup concept（备选概念）
 
 ### 当前建议
-> **注意：** 以下是基于当前 research package 的推荐起点，**不是已锁定的产品决策**。在 Workstream 2（竞品样品采购）和 Workstream 3（验证测试）完成后，需要做一次明确的 concept 确认或重排序。如测试结果不支持当前排序，应重回 concept-brief 修订优先级。
+> **注意：** 以下是基于当前 research package 的推荐起点，**不是已锁定的产品决策**。Workstream 2 现在只做 bathtub active 10 ASIN 公开竞品资料补全，不做样品采购；Filterbaby `B0FNVDJRSQ` 已从 bathtub 评论语料删除并拆到 shower-filter 项目。Workstream 3 已有 S-01 non-diverter 周长边界正向记录、2 组 RV / mobile-home center-set / valve-diverter faucet 正向适配样本，以及 freestanding tub filler 非瀑布出水 2 kg 承重记录，但仍不足以关闭安装/兼容性证据缺口；如后续测试结果不支持当前排序，应重回 concept-brief 修订优先级。
 
 - Lead：[[bathtub-filter-kes-concept-brief-v1|Hybrid premium-but-disciplined tub-spout route]]
 - Backup：[[bathtub-filter-kes-concept-brief-v1|Narrow chlorine-focused technically disciplined route]]
@@ -61,20 +60,32 @@ related:
 - 每条 surviving route 各 1 页简要 concept summary
 - 每条被放弃路线各 1 份 rejection note（可短）
 
-## Workstream 2 — competitor / sample acquisition（竞品与样品采购）
+## Workstream 2 — competitor public evidence integration（竞品公开资料补全）
 ### 目标
-拿到足够诚实的 benchmark samples（对标样品），避免只靠页面想象判断。
+把 bathtub active 10 ASIN 官方页面、Amazon PDP 快照、公开价格/销量信号、公开 claim、可见结构/安装线索整理成可复用的竞品证据层。
 
-### 建议样品结构
-- 1 个 bath-ball benchmark
-- 1 个 soft-hanging benchmark
-- 1 个 premium spout-attach benchmark
-- 1 个 narrow chlorine-focused technical benchmark（如果可获取）
+### 2026-06-02 口径修正
+- 不做样品采购任务，不生成采购优先级或采购预算。
+- 公开网页只能补“页面可见信息”：定位、价格、销量信号、claim、安装描述、公开图片/说明书线索。
+- 实物拆解结论不能由网页补齐；必须来自已有样品、开箱照片、人工拆解记录或测试记录。
+- 真实退货率、退款原因、客服工单、Brand Registry / DTC 后台数据不作为公开补资料任务。
+
+### 2026-06-03 口径修正
+- Filterbaby `B0FNVDJRSQ` 是 shower filter / showerhead inline 产品，已拆到 [[../shower-filter/shower-filter]]。
+- Bathtub-filter active competitor set 改为 10 ASIN；Filterbaby 不再进入 bathtub 的价格均值、安装对象矩阵、claim 准确率排名或 tub-spout fit 判断。
+
+### 覆盖对象
+- Canopy `B0GFQ1JRSK`：premium baby tub-spout / DTC claim benchmark。
+- Crystal Quest `B008A4AG2U`：classic bath-ball / technical legacy benchmark。
+- Santevia `B0742KFY9R`：soft-hanging / cotton bath ritual benchmark。
+- 低价白牌 `B0CXT5KL5Z`、`B0D3X39378`、`B0FL24SLM5`、`B0FT7R9ZQ9`、`B0G5NZBW6W`、`B0GKT5CHYL`：PDP-only claim / price / fit-risk benchmark。
+- Tubo `B0DTQ8H23D`：premium-ish baby/tub positioning benchmark；公开资料不足时只标 PDP 线索。
 
 ### 输出物
-- sample shortlist（样品短名单）
-- priority buy list（优先采购清单）
-- estimated budget（预算估算）
+- [[bathtub-filter-11-asin-public-competitor-evidence-2026-06-02]]（legacy 文件名；bathtub active 10 ASIN 公开竞品资料补充）
+- public claim / installation / structure signal matrix（公开 claim、安装、结构线索矩阵）
+- evidence boundary list（哪些信息不能由网页替代）
+- unresolved teardown/test fields（需要已有实物或人工记录才能补的字段）
 
 ## Workstream 3 — validation test setup（验证测试搭建）
 ### 目标
@@ -109,7 +120,7 @@ related:
 
 ## Workstream 5 — decision checkpoint（决策关口）
 ### 目标
-在早期测试与样品复盘之后，强制做一次明确决策。
+在公开竞品资料复盘与验证测试准备之后，强制做一次明确决策。当前已有 S-01 non-diverter 周长边界正向记录、2 组 RV / mobile-home center-set / valve-diverter faucet 正向适配样本，以及 freestanding tub filler 非瀑布出水 2 kg 承重记录，但 E 层安装/兼容性仍不能关闭，直到更多 spout 类型、动态注水、漏水/溢流和重复使用稳定性记录补齐。
 
 ### 决策选项
 - continue concept development（继续概念开发）
@@ -121,9 +132,9 @@ related:
 
 ## 建议执行顺序
 1. freeze route scope（冻结路线范围）
-2. buy / source competitor samples（采购或获取竞品样品）
+2. integrate active bathtub 10-ASIN public competitor evidence（整理 bathtub active 10 ASIN 公开竞品资料）
 3. set up validation protocol（搭建验证协议）
-4. run flow / fit / leak tests（执行流速 / 适配 / 漏水测试）
+4. run flow / fit / leak tests if real samples or existing records are available（如已有实物或记录，再执行流速 / 适配 / 漏水测试）
 5. compare complaint risk vs observed behavior（把评论风险与真实表现对照）
 6. update concept brief and go/no-go memo（更新概念简报与 go/no-go 结论）
 7. make explicit continue / pause / archive decision（做明确继续 / 暂停 / 归档决策）
@@ -142,6 +153,7 @@ related:
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
 - [[bathtub-filter-validation-testing-protocol]]
 - [[bathtub-filter-kes-go-no-go-memo-v1]]
+- [[bathtub-filter-11-asin-public-competitor-evidence-2026-06-02]]
 
 ## Sources
 - [[bathtub-filter-final-executive-summary-2026-04-14]]
@@ -149,3 +161,4 @@ related:
 - [[bathtub-filter-test-gating-checklist-for-kes]]
 - [[bathtub-filter-kes-route-elimination-memo-v1]]
 - [[bathtub-filter-validation-testing-protocol]]
+- [[bathtub-filter-11-asin-public-competitor-evidence-2026-06-02]]

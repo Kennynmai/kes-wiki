@@ -497,7 +497,7 @@ related:
   - Version A 作为 "lead filter" 的整体定位（成品未做 lead-by-flow-through 测试）
 - 证据角色：**material-level removal capability reference only**
 
-### E5. CaSO₃ 去氯 reference baseline（淄博宗立内部实验室 ZONET20251113001，2025-12-26 完成）
+### E5. CaSO₃ 去游离氯 reference baseline（淄博宗立内部实验室 ZONET20251113001，2025-12-26 完成）
 - 来源：淄博宗立新材料科技有限公司（供应商内部实验室，非独立第三方 CNAS/ilac/NSF）
 - 方法：40g 宗立 0.5–1mm CaSO₃ 球；加标水自由氯 2.0±0.2 mg/L；出水流速 8 L/min；在 12 个累计水量点取样
 - **完整数据表见**：[Onlyzone 供应商材料证据 2026-04-17](../../source-summaries/bathtub-filter-onlyzone-supplier-material-evidence-2026-04-17.md) Section 1

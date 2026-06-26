@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-22
+updated: 2026-06-02
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, marketplace, negative-reviews, complaints]
-source_count: 3
+source_count: 4
 review_cycle: monthly
 verification_status: working
 related:
@@ -18,10 +18,13 @@ related:
   - ./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
   - ./bathtub-filter-installation-risk-matrix-v2.md
   - ../../source-summaries/bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22.md
+  - ../../source-summaries/bathtub-filter-competitor-review-labeling-analysis-2026-06-02.md
 ---
 # 浴缸过滤器市场负面评论信号
 
 > **2026-04-22 补充：** 本页新增 10 个 Amazon US ASIN、2,562 条评论的项目级统计层，用来给既有 negative-signal scouting 排序。
+
+> **2026-06-18 复核：** 10-ASIN 项目级排序保留为历史宽口径；当前高杀伤投诉排序应使用 [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]] 的 active 10 ASIN / 2562 条逐条标签分析。Filterbaby `B0FNVDJRSQ` 已从 bathtub 评论语料删除并迁出到 shower-filter。
 
 ## 为什么有这份页面
 这页专门存放 **marketplace-native negative signals（平台原生负面信号）**，
@@ -90,16 +93,16 @@ related:
 一旦叠加，用户很容易把产品总结成：
 **贵、麻烦、还不确定到底有没有用。**
 
-## 10-ASIN 项目级排序补充
+## 2026-06-02 逐条标签排序补充（当前优先口径）
 
-| 负面信号 | 提及次数 | 提及率 | 解释 |
+| 高杀伤投诉标签（1-2 星） | 命中 | 占 1-2 星评论 | 解释 |
 |---|---:|---:|---|
-| 漏水 / 溢水 / 水流异常 | 284 | 11.1% | 结构层第一风险，先于功效被验证 |
-| 寿命短 / 更换成本 / 维护麻烦 | 233 | 9.1% | 使用后阻力比页面想象得更强 |
-| 说明不清 / 使用边界不清 | 50 | 2.0% | 页面没把安装和维护教育讲明白 |
-| 不兼容 / 装不上 / 固定不稳 | 48 | 1.9% | 低频高杀伤，直接导致不可用 |
-| 做工 / 结构不稳 | 41 | 1.6% | 会放大高价带的不值感 |
-| 过滤效果不明显 | 11 | 0.4% | 绝对量不高，但在 baby / sensitive-skin 场景杀伤很大 |
+| 整体无效 / 不符合预期 | 191 | 46.5% | 用户直接判断产品未达目的，是最高层的差评入口 |
+| 质量破损 / 做工问题 | 80 | 19.5% | 到货、结构、装配、破损会直接摧毁信任 |
+| 绕流 / 溢流 / 过滤路径失效 | 78 | 19.0% | 真实水路是第一工程风险，尤其是 normal-flow 场景 |
+| 敏感肌 / 宝宝场景效果不稳定 | 76 | 18.5% | 情绪价值高，但 outcome 不稳定会快速转差评 |
+| 宣传口径争议（重金属 / TDS 等） | 71 | 17.3% | broad contaminant stack 会制造信任崩塌 |
+| 发霉 / 卫生清洁风险 | 56 | 13.6% | 潮湿存放和维护不清会形成长期差评 |
 
 ## 当前已看到的高价值 complaint cluster
 ### A. 功效存疑
@@ -174,10 +177,10 @@ bathtub filter 这个类目，最危险的不是单点失效，
 - replacement / drying / storage clarity
 
 ## 下一步最值得做的 review 挖掘
-1. 对 3–5 个头部 SKU 手工抽取 20–30 条 review/Q&A fragment
-2. 单独建立 faucet geometry compatibility matrix
-3. 把 slip / overflow / slow-fill / chlorine-skepticism 做成 complaint frequency bucket
-4. 把 complaint cluster 反写进 concept brief 与 fit-matrix 要求
+1. 复核剩余 64 条低星但未命中投诉点的评论，作为人工精修队列
+2. 单独建立 faucet geometry compatibility matrix，并用 WS2 物理测试验证 `绕流/溢流/过滤路径失效`
+3. 真实 SKU 退货率、退款原因与客服工单不作为公开补资料任务；未来若拿到内部后台数据，再验证高杀伤投诉是否对应实际 return rate
+4. 把当前 complaint cluster 反写进 concept brief、fit-matrix、PDP claim boundary 与 RMA 政策
 
 ## 来源
 - `../../../raw/products/bathtub-filter/2026-04-13-marketplace-negative-review-signals.md`

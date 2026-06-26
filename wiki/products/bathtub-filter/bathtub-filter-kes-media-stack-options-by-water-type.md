@@ -54,7 +54,7 @@ related:
 
 - **不把阻垢剂 / 阻垢条当作“软化水”滤材**
 - **不把 antiscale rate 翻译成 hardness reduction**
-- 若未来试验阻垢陶瓷，只能作为 `anti-scale adjunct`，不能侵占主力去氯媒体的逻辑空间
+- 若未来试验阻垢陶瓷，只能作为 `anti-scale adjunct`，不能侵占主力去游离氯媒体的逻辑空间
 
 ### 为什么必须拆成三套
 
@@ -82,11 +82,11 @@ related:
 
 ### 推荐媒体栈
 
-**PP fiber disc → optional loading cavity → KDF55 → CaSO3 → outlet mesh**
+**PP cotton → KDF55 → CaSO3**
 
 按当前 Version A 的已确认架构，核心配比可继续沿用：
 
-- **PP fiber 盘**
+- **PP cotton**
 - **KDF55 110 g**
 - **CaSO3 130 g**
 - **导流模块**
@@ -95,8 +95,8 @@ related:
 
 | 层 | 角色 | 备注 |
 |---|---|---|
-| PP fiber | 截留颗粒 / 稳定水路 | 不是主 KPI |
-| KDF55 | 末端安心层 / 生物膜抑制层 / 寿命稳定层 | 不再当主力去氯层 |
+| PP cotton | 截留颗粒 / 稳定水路 | 不是主 KPI |
+| KDF55 | 末端安心层 / 生物膜抑制层 / 寿命稳定层 | 不再当主力去游离氯层 |
 | CaSO3 | **主力去游离氯 KPI** | 当前 Version A 的主 KPI 所在层 |
 
 ### 这套为什么成立
@@ -140,7 +140,7 @@ related:
 
 ### 推荐媒体栈
 
-**PP fiber disc → catalytic activated carbon → small KDF55 safety layer → outlet**
+**PP cotton → catalytic activated carbon → small KDF55 safety layer**
 
 配合：
 
@@ -150,7 +150,7 @@ related:
 
 | 组件 | 角色 | 备注 |
 |---|---|---|
-| PP fiber | 基础颗粒控制 / 稳定水路 | 非主 KPI |
+| PP cotton | 基础颗粒控制 / 稳定水路 | 非主 KPI |
 | Catalytic activated carbon | **主力 inline chloramine reduction** | 必要但未必充分 |
 | KDF55 小层 | free chlorine residual / media-stability / familiar credibility anchor | 不承担 chloramine 主 KPI |
 | Sodium ascorbate / vitamin C 浸泡配件 | **在浴缸停留阶段完成 chloramine neutralization** | 利用 4–8 分钟接触时间 |
@@ -311,8 +311,8 @@ related:
 
 | SKU 路线 | 内部建议名 | 目标用户 | 主媒体栈 | 主 claim 方向 | 禁止 claim | 推荐验证测试 |
 |---|---|---|---|---|---|---|
-| A | **KES Bath Filter Free-Chlorine** | free-chlorine municipal bathers；希望减少 pool smell / chlorine discomfort 的家庭 | `PP fiber → KDF55 → CaSO3` | `free chlorine reduction` / `bath-water comfort` / `less pool-smell bath fill` | chloramine removal / hard-water softening / broad contaminant removal / well-water treatment | DPD free chlorine in/out；15/20/25/30 L/min curve；寿命曲线；overflow / leak / fit test |
-| B | **KES Bath Filter Chloramine + Soak Kit** | chloramine-city bathers；已知自己所在城市使用 chloramine、且愿意接受额外 bath accessory 的用户 | `PP fiber → catalytic carbon → small KDF55` + `sodium ascorbate soak accessory` | `reduces combined chlorine during fill and soak` / `chloramine-city bath-water comfort` | single-cartridge full chloramine removal / NSF 177 chloramine implication / universal chloramine claim without soak step | total chlorine / monochloramine in/out；with-vs-without soak accessory；不同 fill time 验证；温水 38–42°C 条件测试；用户操作可理解性测试 |
+| A | **KES Bath Filter Free-Chlorine** | free-chlorine municipal bathers；希望减少 pool smell / chlorine discomfort 的家庭 | `PP cotton → KDF55 → CaSO3` | `free chlorine reduction` / `bath-water comfort` / `less pool-smell bath fill` | chloramine removal / hard-water softening / broad contaminant removal / well-water treatment | DPD free chlorine in/out；15/20/25/30 L/min curve；寿命曲线；overflow / leak / fit test |
+| B | **KES Bath Filter Chloramine + Soak Kit** | chloramine-city bathers；已知自己所在城市使用 chloramine、且愿意接受额外 bath accessory 的用户 | `PP cotton → catalytic carbon → small KDF55` + `sodium ascorbate soak accessory` | `reduces combined chlorine during fill and soak` / `chloramine-city bath-water comfort` | single-cartridge full chloramine removal / NSF 177 chloramine implication / universal chloramine claim without soak step | total chlorine / monochloramine in/out；with-vs-without soak accessory；不同 fill time 验证；温水 38–42°C 条件测试；用户操作可理解性测试 |
 | C | **KES Bath Filter Well-Water Nuisance** | private well households with low-to-moderate iron / sulfur smell / rust nuisance | `coarse PP sediment → KDF85 → catalytic carbon` | `targets iron / sulfur-related bath nuisance` / `odor and rust discomfort relief framing` | bacteria treatment / arsenic / nitrate / uranium / high-iron replacement for whole-house / hard-water softening | iron / H2S / manganese challenge test；sediment loading / clogging test；pressure-drop life test；staining / odor panel validation |
 
 ---

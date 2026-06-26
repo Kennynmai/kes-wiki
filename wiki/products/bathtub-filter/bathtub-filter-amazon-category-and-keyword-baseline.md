@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-17
-updated: 2026-04-18
+updated: 2026-06-02
 visibility: team
 confidence: medium
 officiality: draft
@@ -80,7 +80,7 @@ Gap doc C4 层（marketplace claim policing）此前在框架层判定 Amazon �
 | "BPA-free silicone soft cover" | Canopy 独占 | ✅ 若 KES 有类似 cover 可借 |
 | "tested by [lab]" | 多 | ✅ 推荐（具体到 lab name） |
 | "tool-free install" | Canopy / Tubo | ✅ 若 KES 满足可借 |
-| "fits standard tub spout" | 多 | ⚠️ "fits most tubs" 是结构性谎言（见 [[bathtub-filter-competitor-review-corpus-2026-04]]）—— 改用 "tested compatible with [list]" |
+| "fits standard tub spout" | 多 | ⚠️ "fits most tubs" 是结构性谎言（见 [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]] 和 legacy [[bathtub-filter-competitor-review-corpus-2026-04]]）—— 改用 "tested compatible with [list]" |
 
 ### 3.3 KES V1 推荐 listing title 框架
 
@@ -202,7 +202,8 @@ Canopy 2026-01 上市 → 2026-03 末全品类搜索量指数爆发。品类仍�
 - [[bathtub-filter]]
 - [[bathtub-filter-marketplace-claim-policing-layer]]
 - [[bathtub-filter-channel-admission-requirements]]
-- [[bathtub-filter-competitor-review-corpus-2026-04]]
+- [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]]
+- [[bathtub-filter-competitor-review-corpus-2026-04]]（legacy verbatim）
 - [[bathtub-filter-competitor-pricing-and-kes-v1-price-recommendation]]
 - [[bathtub-filter-filterbaby-patent-fto-analysis]]
 - [[bathtub-filter-claim-risk-audit-v2]]

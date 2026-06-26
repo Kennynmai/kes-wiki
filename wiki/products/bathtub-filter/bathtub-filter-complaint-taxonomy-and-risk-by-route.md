@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-22
+updated: 2026-06-02
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, complaints, taxonomy, route-risk, return-risk, engineering]
-source_count: 6
+source_count: 14
 review_cycle: monthly
 verification_status: working
 related:
@@ -20,6 +20,7 @@ related:
   - ./bathtub-filter-installation-risk-matrix-v2.md
   - ./bathtub-filter-normal-flow-vs-reduced-flow-evidence-table.md
   - ../../source-summaries/bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22.md
+  - ../../source-summaries/bathtub-filter-competitor-review-labeling-analysis-2026-06-02.md
 ---
 
 # 浴缸过滤器投诉分类与路线风险矩阵
@@ -27,6 +28,8 @@ related:
 > **重写说明：** 2026-04-13 原版是机翻占位符，内容过于薄弱。2026-04-18 基于 [[bathtub-filter-competitor-review-corpus-2026-04]]（6 品牌跨平台 50+ verbatim）重新合成为可驱动 KES 工程/文案决策的路线风险矩阵。
 
 > **2026-04-22 补充：** 本页新增 10-ASIN / 2,562 条评论项目调查的统计层。这样路线风险不再只依赖 6 品牌 verbatim，也能对齐更大盘的评论频次。
+
+> **2026-06-18 复核：** 2026-04 的 6 品牌 verbatim 与 10-ASIN 项目层保留为历史证据；当前定量优先口径改用 [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]]（bathtub active 10 ASIN / 2562 条评论逐条标签）。旧的 100+ 评论 / NLP 待补说法已被这一批次取代；真实 SKU 退货率属于非公开后台数据，不作为公开补资料任务。
 
 ## 为什么有这页
 
@@ -65,6 +68,27 @@ related:
 | 6 | 过滤效果不明显 | 11 | 0.4% | 占比低，但在母婴 / 敏感肌路线中杀伤上升 |
 
 **项目级含义：** route risk 仍然首先由结构、兼容、维护决定，而不是由“滤材级数”决定。
+
+---
+
+## 一B. 2026-06-02 逐条标签高杀伤投诉排序（当前优先口径）
+
+来源：[[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]]。这张表只看 1-2 星评论，更接近退货 / 差评风险优先级；4-5 星中的轻微吐槽已单独排除。
+
+| 排名 | 高杀伤投诉标签 | 1-2 星命中 | 占 1-2 星评论 | 对路线判断的含义 |
+|---|---|---:|---:|---|
+| 1 | 整体无效 / 不符合预期 | 191 | 46.5% | 任何路线都必须证明真实水路与可感知收益，不能只靠滤材故事 |
+| 2 | 质量破损 / 做工问题 | 80 | 19.5% | QC、装配、包装到货状态会直接放大差评 |
+| 3 | 绕流 / 溢流 / 过滤路径失效 | 78 | 19.0% | R2 / R3 都必须验证 normal-flow 下是否真正过水 |
+| 4 | 敏感肌 / 宝宝场景效果不稳定 | 76 | 18.5% | baby / sensitive-skin 叙事需要更克制，不能承诺 outcome |
+| 5 | 宣传口径争议（重金属 / TDS 等） | 71 | 17.3% | broad contaminant stack 是信任崩塌来源 |
+| 6 | 发霉 / 卫生清洁风险 | 56 | 13.6% | 湿存放、晾干、更换周期必须设计成闭环 |
+| 7 | 掉砂 / 掉屑 / 包装脏污 | 30 | 7.3% | 首开洁净感和滤材封装是基础体验 |
+| 8 | 硬水改善不明显 / 肤感无变化 | 25 | 6.1% | hard-water 叙事只能作为肤感/comfort，不应包装成软水 |
+| 9 | 滤芯更换麻烦 / 寿命不清 | 23 | 5.6% | 维护逻辑必须清楚，否则高星吐槽会变成长期流失 |
+| 10 | 二次销售 / 疑似退货品 | 22 | 5.4% | 售后回仓、二次销售、包装 QC 需管控 |
+
+**当前修正：** 旧的“漏水 / 溢水 / 水流异常 284 次”等数字来自 10-ASIN 关键词/项目级宽口径；当前用于产品决策时，应优先看本节逐条标签后的高杀伤排序。
 
 ---
 
@@ -182,7 +206,7 @@ related:
 
 ## 四、投诉风险 → 退货率定性估算
 
-> ⚠️ 以下是基于 corpus 定性推断的区间估算，**不是统计数据**。真实退货率只能通过 Amazon Brand Registry 或 D2C 后台获取。
+> ⚠️ 以下是基于 corpus 定性推断的区间估算，**不是统计数据**。真实退货率只能通过 Amazon Brand Registry 或 D2C 后台获取；本页不再把它列为公开补资料任务。
 
 | 路线 | 主要退货触发 | 定性退货风险 |
 |---|---|---|
@@ -198,10 +222,10 @@ related:
 
 ## 五、还卡在哪里（不能靠桌面研究填补）
 
-- [ ] 实际退货率数据——需 Amazon Brand Registry 内部数据（上架后）
-- [ ] 单 SKU 级投诉聚类频次——需 100+ 直采 Amazon 评论的 NLP 分析
-- [ ] Canopy 真实 return rate——外部不可见（仅可通过估算 BSR 下降推断）
-- [ ] KES V1 retention 测试结果——需 WS2 物理样本 × 8 种 spout 类型实测
+- [x] 实际退货率数据——非公开后台数据，已移出公开补资料任务；未来若拿到 Amazon Brand Registry / DTC 后台数据再追加
+- [x] 单 SKU / 跨 ASIN 投诉聚类频次——已由 2026-06-18 当前口径的 active 10 ASIN / 2562 条逐条标签分析补上；Filterbaby `B0FNVDJRSQ` 已迁出 shower-filter。
+- [x] Canopy 真实 return rate——外部不可见，已移出公开补资料任务
+- [ ] KES V1 retention 测试结果——需已有实物或人工测试记录；网页不能替代
 
 ---
 
@@ -209,6 +233,7 @@ related:
 
 - [[bathtub-filter]]
 - [[bathtub-filter-competitor-review-corpus-2026-04]]
+- [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]]
 - [[bathtub-filter-marketplace-negative-review-signals]]
 - [[bathtub-filter-review-patterns-and-return-risk]]
 - [[bathtub-filter-installation-risk-matrix-v2]]
@@ -220,7 +245,8 @@ related:
 
 ## Sources
 
-- [[bathtub-filter-competitor-review-corpus-2026-04]]（6 品牌 50+ verbatim，2026-04 抓取）
+- [[bathtub-filter-competitor-review-corpus-2026-04]]（6 品牌 50+ verbatim，2026-04 抓取；legacy evidence）
+- [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]]（active 10 ASIN / 2562 条逐条标签，当前量化优先口径）
 - [[bathtub-filter-marketplace-negative-review-signals]]（投诉 pattern 分类）
 - [[bathtub-filter-review-patterns-and-return-risk]]（product form 风险分析）
 - [[bathtub-filter-installation-risk-matrix-v2]]（spout 类型 × 安装失败模式）

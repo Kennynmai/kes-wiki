@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: product
 created: 2026-04-17
-updated: 2026-06-15
+updated: 2026-06-17
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, chloramine, filtration-media, evidence, research, KDF, catalytic-carbon, ascorbic-acid, NSF]
-source_count: 28
+source_count: 29
 review_cycle: monthly
 verification_status: spot-checked
 related:
@@ -18,6 +18,7 @@ related:
   - ./bathtub-filter-certification-and-testing-pathways.md
   - ./bathtub-filter-claim-register.md
   - ./bathtub-filter-technology-notes.md
+  - ./bathtub-filter-supplier-report-zongli-calcium-sulfite-chloramine-2023-07.md
 ---
 
 # 浴缸过滤器滤材的氯胺去除证据
@@ -224,7 +225,20 @@ No peer-reviewed study found specifically measuring CaSO₃ performance against 
 
 The chemistry inference: CaSO₃ dissolves slowly into Ca²⁺ and SO₃²⁻. The SO₃²⁻ anion faces the same pH-dependent rate limitation against NH₂Cl as sodium sulfite. At the contact times available in a shower filter (<1 second) and at neutral-to-alkaline municipal water pH, calcium sulfite chloramine removal is expected to be negligible.
 
-**No quantitative data found** for CaSO₃ + NH₂Cl removal rate in any peer-reviewed or industry source. The absence is meaningful: if calcium sulfite worked for chloramine, manufacturers would have measured and publicized it.
+**No public peer-reviewed quantitative data found** for CaSO₃ + NH₂Cl removal rate in any peer-reviewed or high-quality industry source. The absence is meaningful: if calcium sulfite worked reliably for chloramine under practical high-flow inline conditions, manufacturers would normally measure and publicize it.
+
+### Supplier-provided test signal added 2026-06-17
+
+New supplier material was archived as [[bathtub-filter-supplier-report-zongli-calcium-sulfite-chloramine-2023-07]]. It reports 50g 宗立 2-3mm 亚硫酸钙球 tested at 3 L/min and 5 L/min with high removal of 一氯胺 and the source document's `三氯铵`.
+
+Extracted results:
+- 5 L/min, 300L: 一氯胺 0.46 -> 0.0184 mg/L, 96% removal; `三氯铵` 1 -> 0 mg/L, 100% removal.
+- 5 L/min, 500L: 一氯胺 0.341 -> 0.023 mg/L, 93.26% removal; `三氯铵` 0.728 -> 0 mg/L, 100% removal.
+- 3 L/min, 300L and 500L: both reported as 100% removal for 一氯胺 and `三氯铵`.
+
+Evidence status: useful supplier screening signal, but not enough to revise the main conclusion or claim boundary yet. The report does not provide full analytical method, detection limit, pH, water temperature, replicate count, contact time, or third-party lab accreditation in the extracted text. It also uses the wording `三氯铵`, which should be confirmed with the supplier before treating it as `三氯胺 / trichloramine`.
+
+KES implication: this result should become a follow-up verification item for KES bench testing, especially against target bathtub-fill flow and contact-time conditions. Until KES reproduces it, do not use it as public proof that calcium sulfite removes chloramine in normal bathtub-fill use.
 
 ---
 
@@ -483,3 +497,6 @@ KES 自己台架测出前，产品定义与 claim **保守按 4–8 分钟**，�
 20. Envig — Can Vitamin C Remove Chloramine in Shower Water? (field colorimeter test: zero effect) — [envig.cc](https://www.envig.cc/blogs/blog/can-vitamin-c-remove-chloramine-in-shower-water)
 21. AquaBliss — Calcium Sulfite and Water Filters (no chloramine claim made) — [aquabliss.com](https://aquabliss.com/blogs/healthy-water/calcium-sulfite-and-water-filters)
 22. Water Filters Australia — Chloramines and Vitamin C (1,000 mg/1 ppm/50 gal dosing; 4–8 min contact) — [waterfiltersaustralia.com.au](https://www.waterfiltersaustralia.com.au/blog/chloramines-and-vitamin-c/)
+
+**Tier 4 — Supplier-provided / imported internal material:**
+23. 淄博宗立新材料科技有限公司 — `宗立测试-一氯胺及三氯铵 50g亚硫酸钙球.docx`，检测报告，样品编号 `ZONET20230707001`，检测完成时间 2023-07-13。Raw archive: `raw/products/bathtub-filter/2026-06-17-zongli-calcium-sulfite-chloramine-test/`.

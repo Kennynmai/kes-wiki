@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-22
+updated: 2026-06-02
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, review-patterns, return-risk, marketplace]
-source_count: 3
+source_count: 4
 review_cycle: monthly
 verification_status: working
 related:
@@ -19,10 +19,13 @@ related:
   - ./bathtub-filter-pricing-refill-flow-fit-table-v2.md
   - ../../source-summaries/bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13.md
   - ../../source-summaries/bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22.md
+  - ../../source-summaries/bathtub-filter-competitor-review-labeling-analysis-2026-06-02.md
 ---
 # 浴缸过滤器评论模式与退货风险
 
 > **2026-04-22 补充：** 本页新增一层 10-ASIN / 2,562 条评论的项目级汇总。此前这页更偏 pattern scout；现在可以把“哪些模式存在”往前推进到“哪些模式最影响项目决策”。
+
+> **2026-06-18 复核：** 本页的 10-ASIN 项目级宽口径已被 active 10 ASIN / 2562 条逐条标签分析补强。Filterbaby `B0FNVDJRSQ` 已从 bathtub 评论语料删除并迁出到 shower-filter。当前高杀伤投诉排序以 [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]] 为准。
 
 ## 为什么有这页
 本页聚焦一个很实际的商业问题：
@@ -38,42 +41,34 @@ related:
 - 已有 pattern scout：告诉我们问题有哪些
 - 新增项目汇总：告诉我们这些问题在 10 个 ASIN 总盘里谁更靠前
 
-## 10-ASIN 项目级补充判断
+## 2026-06-02 逐条标签补充判断
 
-### 1. 页面卖的是去氯，评论买的是安心
-从 10 个 ASIN 的总盘看，这个类目的情绪中心不是“10-stage”或“2500 gallons”，而是：
-- 安不安心
-- 稳不稳定
-- 麻不麻烦
+### 1. 页面卖的是过滤，评论最终裁决的是“是否真的有用、是否可靠”
+从 active 10 ASIN / 2562 条逐条标签看，1-2 星高杀伤投诉的第一位不是单个安装问题，而是“整体无效 / 不符合预期”（185 条，占 1-2 星 46.2%）。这说明 KES 不能只解决页面表达，还必须让用户在正常注水、正常安装和正常维护下感到产品确实工作。
 
-### 2. 真实需求不是单线，而是三条线叠加
+### 2. 真实需求不是单线，而是四条线叠加
 
-| 需求主题 | 提及次数 | 提及率 |
+| 需求主题 | 命中评论数 | 占全部评论 |
 |---|---:|---:|
-| 硬水 / 氯味 / 水质改善 | 1128 | 44.0% |
-| 安装方便 / 不想折腾 | 660 | 25.8% |
-| 敏感肌 / eczema / 干痒相关 | 592 | 23.1% |
-| 宝宝 / 儿童洗澡场景 | 585 | 22.8% |
+| 改善泡澡后皮肤 / 头发体感 | 627 | 23.6% |
+| 安装方便 / 挂上就能用 | 627 | 23.6% |
+| 适合宝宝 / 敏感肌场景 | 625 | 23.5% |
+| 缓解硬水导致的干涩 / 刺激感 | 550 | 20.7% |
+| 降低氯味 / 泳池味 | 453 | 17.0% |
 
-### 3. 退货风险最强的仍是结构和维护
+### 3. 退货风险最强的是无效感、质量、真实水路和高敏场景落差
 
-| 共性痛点 | 提及次数 | 提及率 |
+| 高杀伤投诉标签（1-2 星） | 命中 | 占 1-2 星评论 |
 |---|---:|---:|
-| 漏水 / 溢水 / 水流异常 | 284 | 11.1% |
-| 寿命短 / 更换成本 / 维护麻烦 | 233 | 9.1% |
-| 说明不清 / 使用边界不清 | 50 | 2.0% |
-| 不兼容 / 装不上 / 固定不稳 | 48 | 1.9% |
-| 做工 / 结构不稳 | 41 | 1.6% |
-| 过滤效果不明显 | 11 | 0.4% |
+| 整体无效 / 不符合预期 | 191 | 46.5% |
+| 质量破损 / 做工问题 | 80 | 19.5% |
+| 绕流 / 溢流 / 过滤路径失效 | 78 | 19.0% |
+| 敏感肌 / 宝宝场景效果不稳定 | 76 | 18.5% |
+| 宣传口径争议（重金属 / TDS 等） | 71 | 17.3% |
+| 发霉 / 卫生清洁风险 | 56 | 13.6% |
 
-### 4. 页面与评论之间有四个稳定错位
-
-| 页面常讲 | 用户真实验证 | 结果 |
-|---|---|---|
-| 去氯 / 过滤级数 | 会不会漏 / 会不会慢 | 页面与体验错位 |
-| universal fit | 到底能不能装稳 | 页面与安装现实错位 |
-| 多级滤材 | 长期值不值 / 怎么维护 | 页面与使用周期错位 |
-| baby / sensitive skin | 体感是否真实 / 是否更安心 | 页面与信任机制错位 |
+### 4. 旧 10-ASIN 项目级统计仍保留，但不再作为当前最高优先口径
+10-ASIN 的“漏水 / 溢水 / 水流异常 284 次”等数字来自宽口径项目调查；当前产品决策应优先使用逐条标签后的高杀伤排序，并把高星轻微吐槽与 1-2 星差评分开。
 
 ## 早期转化驱动因素
 ### 1. chlorine smell reduction（氯味降低）是最容易被感知的价值点
@@ -219,12 +214,12 @@ related:
 - 不建议继续卷：低价白牌挂装过滤款，除非结构、兼容表达或低维护能力能明显领先
 
 ## 下一步应验证什么
-1. 按 SKU 抽取 20–30 条 marketplace-native review / Q&A fragments
-2. 按 product form 聚类 fit failure / slip failure / overflow failure
+1. 复核剩余 64 条低星未命中投诉点，完成最后一轮人工精修
+2. 按 product form 聚类 fit failure / slip failure / overflow failure，并对照 WS2 spout 实测
 3. 继续完善 normal-flow vs reduced-flow 证据表
 4. 结合售价带分析 refill cost tolerance（耗材承受度）
 5. 对照公开证据强度继续做 claim-language audit
-6. 单独建立 faucet geometry compatibility matrix（如 curved faucet / short spout / weak lip / high-pressure fill）
+6. 真实 SKU 退货率 / 退款原因 / 客服工单不作为公开补资料任务；未来若拿到内部后台数据，再验证高杀伤投诉是否等于真实 return risk
 
 ## Obsidian links
 - [[bathtub-filter]]
@@ -239,3 +234,4 @@ related:
 - [Source Summary — Bathtub Filter Marketplace Review and Editorial Review Pass (2026-04-13)](../../source-summaries/bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13.md)
 - `../../../raw/products/bathtub-filter/2026-04-15-marketplace-review-mining-pass.md`
 - [Source Summary — Bathtub Filter Amazon 10-ASIN Project Market Survey (2026-04-22)](../../source-summaries/bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22.md)
+- [Source Summary — Bathtub Filter Competitor Review Labeling Analysis (2026-06-02)](../../source-summaries/bathtub-filter-competitor-review-labeling-analysis-2026-06-02.md)

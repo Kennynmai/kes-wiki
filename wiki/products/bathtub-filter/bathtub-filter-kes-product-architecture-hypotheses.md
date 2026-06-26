@@ -29,7 +29,7 @@ related:
 | # | 原假设（2026-04-12）| Version A 状态 | 落地证据 |
 |---|---|---|---|
 | 1 | 不要从最大宣称沐浴球起步 | ✅ **已确认并执行** | Version A 定位语："不是净水器，不以降 TDS 为目标，是末端减害模块"。不声称 heavy metals / VOCs / PFAS 等 broad stack |
-| 2 | 以氯为重点的狭义路径优于广泛皮肤结果路径 | ✅ **已确认并执行** | 主 KPI 绑定"系统总去氯率"（新滤芯 ≥99%）；FAQ 明确拒绝 eczema / baby-safe 类语言 |
+| 2 | 以游离氯为重点的狭义路径优于广泛皮肤结果路径 | ✅ **已确认并执行** | 主 KPI 绑定"系统总游离氯去除率"（新滤芯 ≥99%）；FAQ 明确拒绝 eczema / baby-safe 类语言 |
 | 3 | 浴缸喷嘴兼容性是核心产品问题 | ✅ **已确认；方案不同**于早期猜想 | Version A 选择 **TPU 可调 strap** + 宽入口设计（而非 adapter 矩阵）；overflow envelope 已实测在 35 L/min 内 |
 | 4 | 优质视觉需要更强性能证明 | ✅ **已确认并执行** | Version A 设计 **可视化 filter disc**（让用户看到滤芯在工作）+ chlorine test strip 赠品（让用户自验证）——同时满足视觉可信 + 实测可信 |
 | 5 | 软悬挂/仪式路线有维护摩擦风险 | ⏸ **作为 Version A 非路径**；候选 B/C 留作未来评估 | Version A 选择硬壳 + 可替换腔体；软悬挂路线（如 Santevia 式布袋）的霉变风险（Doc 2 竞品 teardown: B0742KFY9R 16 赞差评）已验证为真 |
@@ -39,11 +39,11 @@ related:
 
 这些是 2026-04-12 假设清单**未预见但已被确认**的设计决策：
 
-- **反 mixed-media 决策**：category default 的混合介质床（bath ball）因 channeling / 介质互干扰 / 无法分段更换 / 无法诊断失效，被 KES 明确拒绝。Version A 采用严格 PP / KDF / CaSO₃ 分层 + 导流模块
-- **媒体职责重分配**：KDF 从"去氯主力"降级为 **安心层 + 生物膜抑制 + 寿命稳定层**；CaSO₃ 上升为 **主力去氯 KPI**。原因是浴缸 EBCT 0.48–0.95 s 对 KDF 太短（详见 [[bathtub-filter-technology-notes]] EBCT 表）
+- **反 mixed-media 决策**：category default 的混合介质床（bath ball）因 channeling / 介质互干扰 / 无法分段更换 / 无法诊断失效，被 KES 明确拒绝。Version A 采用严格 PP cotton / KDF55 / CaSO3 分层 + 导流模块
+- **媒体职责重分配**：KDF 从"去游离氯主力"降级为 **安心层 + 生物膜抑制 + 寿命稳定层**；CaSO₃ 上升为 **主力去游离氯 KPI**。原因是浴缸 EBCT 0.48–0.95 s 对 KDF 太短（详见 [[bathtub-filter-technology-notes]] EBCT 表）
 - **寿命口径反品类默认**：用"累计水量 / 泡澡次数 / 周期"而非"月数"（见 [[bathtub-filter-media-efficacy-at-bath-conditions]] Section 9）
 - **认证口径**：KDF55 继承 NSF/ANSI 42 material-side；CaSO₃ 无第三方认证但内部参照 NSF/ANSI 177 protocol 测试；**成品本身不声称 NSF 认证**
-- **碳选型已决定**：acid-washed coconut-shell 8–10 目，出厂已通过 pre-rinse 验证 → 可宣称 "no pre-rinse required"（反击 B008A4AG2U 类产品的碳粉差评）
+- **V1 不含活性炭**：当前 V1 只包含 PP棉 + KDF55 110g + CaSO3 130g；acid-washed coconut-shell carbon / pre-rinse / no carbon dust 属于其他含碳版本资料，不纳入 V1 卖点
 
 ### 仍未落定的架构问题（待 Version B / C 或后续评估）
 

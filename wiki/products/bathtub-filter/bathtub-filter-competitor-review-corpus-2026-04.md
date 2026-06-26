@@ -1,17 +1,17 @@
 ---
 type: product
-status: draft
+status: legacy
 owner: strategy
 created: 2026-04-17
-updated: 2026-04-22
+updated: 2026-06-02
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, competitor-reviews, voice-of-customer, return-risk, complaint-corpus]
-source_count: 12
+source_count: 14
 review_cycle: quarterly
-verification_status: working
+verification_status: superseded-by-2026-06-02-labeling-analysis
 related:
   - ./bathtub-filter-marketplace-negative-review-signals.md
   - ./bathtub-filter-review-patterns-and-return-risk.md
@@ -20,9 +20,12 @@ related:
   - ./bathtub-filter-claim-risk-audit-v2.md
   - ./bathtub-filter-research-coverage-gaps.md
   - ../../source-summaries/bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22.md
+  - ../../source-summaries/bathtub-filter-competitor-review-labeling-analysis-2026-06-02.md
 ---
 
 # 浴缸过滤器竞品评论语料（2026-04）
+
+> **2026-06-18 复核：** 本页保留为 2026-04 的 legacy verbatim / scout 证据库，不再作为当前量化优先口径。Filterbaby `B0FNVDJRSQ` 已从 bathtub-filter 评论语料中删除并保留到 shower-filter 项目；当前 10 ASIN / 2562 条 bathtub active 评论逐条标签分析见 [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]]。
 
 ## 为什么有这页
 
@@ -40,7 +43,7 @@ Gap doc A 层（marketplace review mining）此前是 🟡 框架——只有定
 | Independent lab review（waterfilterguru.com）verbatim | 多 |
 | 评测站综合 verbatim | 多 |
 
-> ⚠️ Amazon 直接 product-reviews 抓取被 503 阻断（B016M167GG Sprite），多数 Amazon verbatim 经由二次评测站（Water Filter Guru 等）间接捕获。本页 confidence 因此标 medium，不是 high。**人工补充 100+ 直采评论后可升级**。
+> ⚠️ 历史说明：2026-04 初版 Amazon 直接 product-reviews 抓取被 503 阻断（B016M167GG Sprite），多数 Amazon verbatim 经由二次评测站（Water Filter Guru 等）间接捕获。**2026-06-18 当前 bathtub active 口径为 10 ASIN / 2562 条 Amazon 评论逐条标签分析**；本页不再承担量化频次任务。
 
 ## 2026-04-22 项目级补充：10 个 ASIN 评论汇总
 
@@ -247,9 +250,9 @@ Gap doc A 层（marketplace review mining）此前是 🟡 框架——只有定
 
 ## 4. 还卡在哪里（必须人工/外部完成）
 
-- [ ] 直接 Amazon API / scraping 抓取 100+ 评论（Bezos blocking 较严，可能需要付费工具如 Helium 10 / JungleScout 或第三方）
+- [x] 直接 Amazon 评论语料与标签频次——2026-06-18 当前 bathtub active 口径为 10 ASIN / 2562 条逐条标签分析
 - [ ] 退货率（return rate）数据——Amazon Brand Analytics 或 SKU-level Brand Registry 才能拿到，**外部不可见**
-- [ ] NLP 投诉聚类频次量化（拿到 100+ 评论后做）
+- [x] NLP / 标签式投诉聚类频次量化——见 [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]]
 - [ ] 跨语言扩展（如 KES 进 EU/JP/UK，本地 marketplace 评论需另行采样）
 
 ## 5. 复查节奏
@@ -265,6 +268,7 @@ Gap doc A 层（marketplace review mining）此前是 🟡 框架——只有定
 - [[bathtub-filter-marketplace-negative-review-signals]]
 - [[bathtub-filter-review-patterns-and-return-risk]]
 - [[bathtub-filter-complaint-taxonomy-and-risk-by-route]]
+- [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]]
 - [[bathtub-filter-installation-risk-matrix-v2]]
 - [[bathtub-filter-claim-risk-audit-v2]]
 - [[bathtub-filter-pricing-refill-flow-fit-table-v2]]

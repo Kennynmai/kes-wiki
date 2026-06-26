@@ -36,8 +36,8 @@ related:
 
 Version A 的核心 commit：
 - **定位**：不是净水器，不以 TDS 为目标；是**浴缸注水场景的末端减害模块**
-- **主 KPI**：新滤芯 · 最佳体验段 **系统总去氯 ≥99%**；寿命口径按累计水量 / 泡澡次数 / 周期（不用月数）
-- **媒体栈**：PP fiber 盘 → optional 240 mL cavity → KDF55 110 g → CaSO₃ 130 g → PP mesh 盘；内置导流模块
+- **主 KPI**：新滤芯 · 最佳体验段 **系统总游离氯去除 ≥99%**；寿命口径按累计水量 / 泡澡次数 / 周期（不用月数）
+- **媒体栈**：PP cotton → KDF55 110 g → CaSO3 130 g；内置导流模块
 - **Claim discipline**：无 eczema / broad-contaminant / universal-fit / baby-safe / clinical 类语言；第三方 finished-product 认证暂不声称
 - **Compatibility**：TPU 可调 strap；no-overflow envelope 35 L/min（US 典型 18–25 L/min 有充足余量）
 
@@ -57,10 +57,10 @@ Version A 明确的 **非覆盖范围** 等待 Version B/C 处理：
 为避免把不同水质问题硬塞进一个“万能滤芯”，KES 现阶段采用三条并行 SKU 讨论框架：
 
 1. **Version A / free-chlorine municipal**
-   - `PP fiber → KDF55 → CaSO3`
+   - `PP cotton → KDF55 → CaSO3`
    - 继续作为当前主线
 2. **Version B / chloramine-city**
-   - `PP fiber → catalytic activated carbon → small KDF55 layer`
+   - `PP cotton → catalytic activated carbon → small KDF55 layer`
    - 配合 **浴缸内抗坏血酸钠 / 维生素 C 浸泡配件**
 3. **Version C / private well**
    - `sediment layer → KDF85 → catalytic activated carbon`

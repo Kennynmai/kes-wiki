@@ -61,7 +61,7 @@ Gate 1 第三方去氯测试 ──→ Gate 2 龙头兼容矩阵 ──→ Gate 
 ## 2. 三道 Gate（详述）
 
 ### Gate 1 — 25L/min 第三方 DPD 去氯测试 ★总开关
-- **测什么**：[25L/min 去氯特征 spec](./bathtub-filter-25lpm-dechlorination-bench-test-spec.md)——去氯率 × 流量 × 压降 × 床体积，真实 1–2ppm、第三方 DPD、≥3 重复、寿命坐标。
+- **测什么**：[25L/min 游离氯去除特征 spec](./bathtub-filter-25lpm-dechlorination-bench-test-spec.md)——游离氯去除率 × 流量 × 压降 × 床体积，真实 1–2ppm、第三方 DPD、≥3 重复、寿命坐标。
 - **谁做**：实验室/第三方（非比色自测）。
 - **通过标准**：25L/min、2ppm、新芯 ≥85% 且 25→27 斜率平缓（spec §4）。
 - **解锁**：①「测得到」首屏数字；② 25L/min 形态是否成立 / 床要多大；③ A-01 从 weak→实测；④ claim register「指定流量去氯 X%」的外部证据。

@@ -1,0 +1,86 @@
+{
+  "generated": "2026-06-02",
+  "cutoff": "2026-04-20",
+  "source_dir": "C:\\Users\\KEVIN\\Desktop\\浴缸过滤\\浴缸过滤器_竞品评论原始资料",
+  "target_raw_path": "raw/products/bathtub-filter/2026-04-20-competitor-review-corpus",
+  "xlsx_count": 10,
+  "review_count": 2562,
+  "asin_count": 10,
+  "avg_rating": 4.3,
+  "positive_4_5": 2086,
+  "neutral_3": 76,
+  "negative_1_2": 400,
+  "excel_asins": [
+    "B008A4AG2U",
+    "B0742KFY9R",
+    "B0CXT5KL5Z",
+    "B0D3X39378",
+    "B0DTQ8H23D",
+    "B0FL24SLM5",
+    "B0FT7R9ZQ9",
+    "B0G5NZBW6W",
+    "B0GFQ1JRSK",
+    "B0GKT5CHYL"
+  ],
+  "analysis_md_asins": [
+    "B0012045EO",
+    "B008A4AG2U",
+    "B0742KFY9R",
+    "B08Y8GSVJS",
+    "B0C5D7NLC7"
+  ],
+  "extra_in_md": [
+    "B0012045EO",
+    "B08Y8GSVJS",
+    "B0C5D7NLC7"
+  ],
+  "missing_in_md": [
+    "B0CXT5KL5Z",
+    "B0D3X39378",
+    "B0DTQ8H23D",
+    "B0FL24SLM5",
+    "B0FT7R9ZQ9",
+    "B0G5NZBW6W",
+    "B0GFQ1JRSK",
+    "B0GKT5CHYL"
+  ],
+  "files": {
+    "normalized_csv": "C:\\Users\\KEVIN\\Documents\\bathtub filter\\outputs\\kes-wiki-staging\\raw\\products\\bathtub-filter\\2026-04-20-competitor-review-corpus\\bathtub-filter-competitor-review-corpus-2026-04-20.normalized.csv",
+    "asin_summary_csv": "C:\\Users\\KEVIN\\Documents\\bathtub filter\\outputs\\kes-wiki-staging\\raw\\products\\bathtub-filter\\2026-04-20-competitor-review-corpus\\bathtub-filter-competitor-review-asin-summary-2026-04-20.csv",
+    "topic_counts_csv": "C:\\Users\\KEVIN\\Documents\\bathtub filter\\outputs\\kes-wiki-staging\\raw\\products\\bathtub-filter\\2026-04-20-competitor-review-corpus\\bathtub-filter-competitor-review-topic-counts-2026-04-20.csv",
+    "topic_examples_md": "C:\\Users\\KEVIN\\Documents\\bathtub filter\\outputs\\kes-wiki-staging\\raw\\products\\bathtub-filter\\2026-04-20-competitor-review-corpus\\bathtub-filter-competitor-review-topic-examples-2026-04-20.md",
+    "readme": "C:\\Users\\KEVIN\\Documents\\bathtub filter\\outputs\\kes-wiki-staging\\raw\\products\\bathtub-filter\\2026-04-20-competitor-review-corpus\\README.md",
+    "source_summary": "C:\\Users\\KEVIN\\Documents\\bathtub filter\\outputs\\kes-wiki-staging\\wiki\\source-summaries\\bathtub-filter-competitor-review-corpus-2026-04-20.md",
+    "wiki_update_note": "C:\\Users\\KEVIN\\Documents\\bathtub filter\\outputs\\kes-wiki-staging\\wiki\\products\\bathtub-filter\\bathtub-filter-review-corpus-wiki-update-note-2026-04-20.md"
+  },
+  "latest_labeling_update": {
+    "date": "2026-06-02",
+    "evidence_chain_csv": "C:\\Users\\KEVIN\\Desktop\\kes-wiki\\raw\\products\\bathtub-filter\\2026-04-20-competitor-review-corpus\\bathtub-filter-competitor-review-labeling-evidence-chain-2026-06-02.csv",
+    "method_note_md": "C:\\Users\\KEVIN\\Desktop\\kes-wiki\\raw\\products\\bathtub-filter\\2026-04-20-competitor-review-corpus\\bathtub-filter-competitor-review-labeling-method-note-2026-06-02.md",
+    "insight_report_md": "C:\\Users\\KEVIN\\Desktop\\kes-wiki\\raw\\products\\bathtub-filter\\2026-04-20-competitor-review-corpus\\bathtub-filter-competitor-review-labeling-insight-report-2026-06-02.md",
+    "source_summary_md": "C:\\Users\\KEVIN\\Desktop\\kes-wiki\\wiki\\source-summaries\\bathtub-filter-competitor-review-labeling-analysis-2026-06-02.md",
+    "review_count": 2562,
+    "low_star_unlabeled_remaining": 0,
+    "high_star_minor_complaints": 197,
+    "correction_note": "B0FNVDJRSQ rows removed from bathtub evidence chain on 2026-06-18.",
+    "severity_counts_after_b0fnvdjrsq_removal": {
+      "none": 2010,
+      "minor_mixed_positive_review": 197,
+      "high_kill_low_confidence_title_only": 12,
+      "high_kill_negative_review": 325,
+      "medium_mixed_review": 18
+    }
+  },
+  "updated": "2026-06-18",
+  "correction_note": "Removed Filterbaby B0FNVDJRSQ from bathtub-filter review corpus because it is a shower filter / showerhead inline product; shower-filter archive retained.",
+  "removed_asins": [
+    {
+      "asin": "B0FNVDJRSQ",
+      "reason": "shower filter / showerhead inline product, not bathtub filter",
+      "removed_review_rows": 99,
+      "removed_labeling_rows": 99,
+      "removed_summary_rows": 1,
+      "retained_under": "raw/products/shower-filter/2026-04-20-filterbaby-review-corpus/"
+    }
+  ]
+}

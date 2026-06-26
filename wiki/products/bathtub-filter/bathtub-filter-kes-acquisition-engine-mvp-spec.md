@@ -104,7 +104,7 @@ verification_status: working
 
 ### 3.2 结果页（轻量，可分享，带码）
 - 模板化页（非动态图）：城市/类型/硬度 + 推荐组合 + 「为什么」一句 + 加购 CTA。
-- **多条件一键加购**：游离氯+极硬 → 推荐「去氯主芯 + 阻垢」，**一键把推荐组合整套加入购物车**（接 stack_mapping，cross-sell 入口）。
+- **多条件一键加购**：游离氯+极硬 → 推荐「去游离氯主芯 + 阻垢」，**一键把推荐组合整套加入购物车**（接 stack_mapping，cross-sell 入口）。
 - **分享分两层**：① 结果页**任何人可分享**（自然流量/SEO，无奖励）；② **referral 奖励链接**仅已购客有（app 生成），防刷。
 - 文案照 [website-copy](./bathtub-filter-kes-website-copy-v1.md) 区块 6 + claim register「诊断报告卡」行：精度如实「a quick guide, not a lab test」；硬度推荐阻垢必带「does not soften your water」。
 
@@ -129,7 +129,7 @@ verification_status: working
 
 ```
 zip_water_lookup:  zip_prefix(PK) → disinfectant_type, hardness_band, metro, serviceable
-stack_mapping:     {type, hardness} → recommended_sku[]   # 游离氯→去氯主芯; +极硬→加阻垢; 氯胺→不可售(留邮箱)
+stack_mapping:     {type, hardness} → recommended_sku[]   # 游离氯→去游离氯主芯; +极硬→加阻垢; 氯胺→不可售(留邮箱)
 referral:          由 app 托管(referrer_id, code, friend_order, reward_status)
 email_capture:     email, zip, reason(out_of_coverage | chloramine_wait)  # 诚实劝退收集
 ```

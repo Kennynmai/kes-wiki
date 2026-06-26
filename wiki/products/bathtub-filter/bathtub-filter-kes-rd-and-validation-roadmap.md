@@ -63,17 +63,17 @@ related:
 #### 输出物
 - 1 页 route priority note
 - 1 页 out-of-scope note
-- 1 份 sample acquisition shortlist
+- 1 份 active 10 ASIN 公开竞品资料矩阵
 
 #### Kill criteria
 如果团队连“先测哪条路线”都定不下来，就不应继续进入开发阶段。
 
 ---
 
-### Phase 1 — benchmark sample acquisition（第 1–2 周）
-**目标：把判断从“页面感觉”转成“样品现实”。**
+### Phase 1 — public benchmark evidence integration（第 1–2 周）
+**目标：把判断从“页面感觉”转成可追溯的公开证据；样品采购不作为本轮任务。**
 
-#### 建议采购结构
+#### 公开资料覆盖结构
 至少覆盖 4 类：
 1. **premium spout-attach benchmark**
    - 代表 design-first inline route
@@ -84,19 +84,19 @@ related:
 4. **bath-ball / immersion benchmark**
    - 代表 Crystal Quest-like route
 
-#### 采购时必须记录
+#### 公开资料必须记录
 - SKU 名称
 - 当前页面 claims
 - 页面 authority language（certified / tested / media / clinical）
 - 价格、refill 节奏、适配说明
 
 #### 输出物
-- sample tracker
-- buy list + budget
+- active 10 ASIN public evidence matrix
+- evidence boundary list
 - competitor-claim snapshot
 
 #### Kill criteria
-如果连能代表主流路线的 benchmark 都买不到或信息残缺严重，说明这类目标准化程度太低，后续开发要进一步降预期。
+如果连能代表主流路线的公开 benchmark 都无法确认，说明这类目标准化程度太低，后续开发要进一步降预期。
 
 ---
 
@@ -297,12 +297,12 @@ related:
 ## 建议组织方式
 ### 建议 owner
 - Strategy：总 roadmap owner
-- Product / sourcing：样品采购
+- Product / sourcing：公开竞品资料与已有实物记录归档
 - Engineering：fit / leak / flow / teardown
 - QA / compliance：claim-evidence register + authority map
 
 ### 建议每周节奏
-- 周初：决定测试包 / 采购 / 本周验证目标
+- 周初：决定测试包 / 公开资料补充 / 本周验证目标
 - 周中：实测 / 记录 / 拆解
 - 周末：出 route scorecard + 下周 go / no-go
 

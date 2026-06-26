@@ -36,7 +36,7 @@ related:
 更准确地说：
 - **可以结束当前一轮桌面研究（desk research）与结构补充**
 - **不建议继续无上限扩写资料页**
-- **下一阶段若继续，应进入样品采购（sample acquisition）与测试验证（validation testing）**
+- **下一阶段若继续，应进入 active 10 ASIN 公开竞品资料补全、测试验证准备与概念收窄；样品采购不作为本轮任务**
 
 因此，这不是 **product GO**，而是：
 
@@ -146,12 +146,12 @@ related:
 ## 建议的正式状态表达
 建议把这一题在内部表述为：
 
-> **Bathtub filter 研究阶段已完成，可停止继续扩写；若继续推进，仅进入样品采购、测试验证与概念收窄阶段。**
+> **Bathtub filter 研究阶段已完成，可停止继续扩写；若继续推进，仅进入公开竞品资料补全、测试验证准备与概念收窄阶段。样品采购不作为本轮任务。**
 
 ## 下一步（如果继续）
 1. freeze route scope（冻结路线范围）
-2. buy competitor samples（采购竞品样品）
-3. run validation protocol（执行验证协议）
+2. integrate active 10-ASIN public competitor evidence（整理 active 10 ASIN 公开竞品资料）
+3. prepare validation protocol；run tests only if real samples or existing records are available（准备验证协议；如已有实物或记录再执行测试）
 4. update concept brief and go/no-go memo（更新概念简报与 go/no-go 结论）
 5. make explicit continue / pause / archive decision（做明确继续 / 暂停 / 归档决定）
 

@@ -43,7 +43,7 @@ related:
 以下为 KES 自己的 Version A（urban municipal tap water，38–42°C）架构内部测试数据。这是本页第一次载入 **first-party empirical data**（此前只有外部 literature 与 marketplace 信号）。
 
 ### Version A 媒体栈（已确认架构，非候选）
-沿水流方向顶 → 底：**PP fiber 盘（顶 2 张 + 底 1 张 mesh）→ 可选 loading cavity（240 mL）→ KDF55 层（110 g，5–10 目，15 mm 高腔，60-mesh 304 网夹）→ CaSO₃ 层（130 g，3–4 mm 粒，15 mm 高腔，40-mesh 304 网夹）→ outlet**。顶部设 overflow trough + 宽入口；内腔带 **导流模块**（已验证必要性，见下）。
+沿水流方向：**PP cotton → KDF55 层（110 g，5–10 目，15 mm 高腔，60-mesh 304 网夹）→ CaSO3 层（130 g，3–4 mm 粒，15 mm 高腔，40-mesh 304 网夹）**。顶部设 overflow trough + 宽入口；内腔带 **导流模块**（已验证必要性，见下）。
 
 ### EBCT 与 KDF 去氯贡献（内部经验系数，38–42°C）
 | 注水流速 | 单层 EBCT | KDF 去氯贡献 |
@@ -53,10 +53,10 @@ related:
 | 25 L/min | 0.57 s | 26% |
 | 30 L/min | 0.48 s | 21% |
 
-**关键含义**：浴缸注水的 EBCT（<1 秒）对 KDF 来说太短，**KDF 不可能做主力去氯**。这直接推翻了市场上"KDF = 核心去氯"的叙事，并把 **CaSO₃ 正式定位为主力去氯 KPI**，KDF 定位为 **末端风险兜底层 + 寿命稳定层 + 生物膜抑制层**。
+**关键含义**：浴缸注水的 EBCT（<1 秒）对 KDF 来说太短，**KDF 不可能做主力去游离氯**。这直接推翻了市场上"KDF = 核心去游离氯"的叙事，并把 **CaSO3 正式定位为主力去游离氯 KPI**，KDF 定位为 **末端风险兜底层 + 寿命稳定层 + 生物膜抑制层**。
 
-### 系统总去氯链式公式
-> **总去氯 = 1 − (1 − KDF) × (1 − CaSO₃)**
+### 系统总游离氯去除链式公式
+> **系统总游离氯去除 = 1 − (1 − KDF) × (1 − CaSO3)**
 
 | 注水流速 | CaSO₃ @ 99% 段 | CaSO₃ @ 95% 段 | CaSO₃ @ 90% 段 | CaSO₃ @ 50% 段 |
 |---|---|---|---|---|
@@ -92,8 +92,10 @@ related:
 - 在 **CaSO₃ 层**：**无导流时中心形成冲蚀 crater**；加导流后水流均匀铺开
 - → 导流模块是 **CaSO₃ 层的 operational requirement**，不是可选项
 
-### 流速 / 溢水 envelope（2024-11-07 内部实测）
-204 g KDF（10–40 目）+ 45 g acid-washed coconut-shell carbon（8–10 目），0.5 MPa，瞬时 38–40 L/min，目标 178 L：
+### 流速 / 溢水 envelope（2024-11-07 内部实测，非 V1 滤材条件）
+该测试使用 204 g KDF（10–40 目）+ 45 g acid-washed coconut-shell carbon（8–10 目），不是当前 V1 的 CaSO3 130g + KDF55 110g + PP棉配置。它只能作为结构/溢水 envelope 的历史参考，不能作为 V1 含碳、no-pre-rinse 或 no-carbon-dust 卖点依据。
+
+测试条件：0.5 MPa，瞬时 38–40 L/min，目标 178 L：
 - **无顶部 fiber 盘**：35 L/min 即溢水；多次冲击后床压实 → 间歇性溢水
 - **1 mesh + 1 非织造 fiber 盘**：35 L/min **不溢水**
 - **1 mesh + 2 非织造 fiber 盘**：35 L/min **不溢水**（已达 envelope 上限）
@@ -101,10 +103,12 @@ related:
 
 美国典型浴缸龙头出水 18–25 L/min，**2-盘配置在 no-overflow envelope 内有显著余量**。
 
-### 活性碳选型（2024-07–08 commissioning 验证）
+### 非 V1 资料：活性碳选型（2024-07–08 commissioning 验证）
+当前 V1 不含活性炭；本段仅保留为其他含碳版本的历史资料，不能纳入 V1 卖点。
+
 - 选择：**acid-washed coconut shell 8–10 目**（ash ≤0.5%，hardness ≥95%，iodine 1,000–1,200 mg/g）
 - 验证：2-min pre-rinse 后，0.3 MPa / 29 L/min 穿 200 L 水已无粉末溢出；干燥一天后复测仍无粉末
-- → 对标 B008A4AG2U 差评 "carbon powder all over tub"（10 赞），KES 出厂即通过 pre-rinse 验证，**可在 onboarding 写 "no pre-rinse required"**
+- 适用边界：仅适用于未来含碳版本；V1 不写 "no pre-rinse required" / "no carbon dust" / "acid-washed coconut-shell carbon"
 
 ---
 

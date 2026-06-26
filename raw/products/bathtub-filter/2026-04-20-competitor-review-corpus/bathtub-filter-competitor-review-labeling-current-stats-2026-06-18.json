@@ -1,0 +1,436 @@
+{
+  "review_count": 2562,
+  "body_nonempty": 2433,
+  "body_empty_title_available": 129,
+  "star_counts": {
+    "1": 319,
+    "2": 81,
+    "3": 76,
+    "4": 132,
+    "5": 1954
+  },
+  "positive_4_5": 2086,
+  "neutral_3": 76,
+  "negative_1_2": 400,
+  "negative_rows": 552,
+  "negative_mentions": 894,
+  "high_kill": [
+    {
+      "field": "negative__整体无效/不符合预期",
+      "label": "整体无效/不符合预期",
+      "count": 185,
+      "pct_all": 46.2,
+      "low": 185,
+      "mid3": 3,
+      "high": 0,
+      "pct_low": 46.2
+    },
+    {
+      "field": "negative__质量破损/做工问题",
+      "label": "质量破损/做工问题",
+      "count": 79,
+      "pct_all": 19.8,
+      "low": 79,
+      "mid3": 4,
+      "high": 0,
+      "pct_low": 19.8
+    },
+    {
+      "field": "negative__绕流/溢流/过滤路径失效",
+      "label": "绕流/溢流/过滤路径失效",
+      "count": 73,
+      "pct_all": 18.2,
+      "low": 73,
+      "mid3": 6,
+      "high": 32,
+      "pct_low": 18.2
+    },
+    {
+      "field": "negative__敏感肌/宝宝场景效果不稳定",
+      "label": "敏感肌/宝宝场景效果不稳定",
+      "count": 71,
+      "pct_all": 17.8,
+      "low": 71,
+      "mid3": 1,
+      "high": 2,
+      "pct_low": 17.8
+    },
+    {
+      "field": "negative__宣传口径争议（重金属/TDS等）",
+      "label": "宣传口径争议（重金属/TDS等）",
+      "count": 69,
+      "pct_all": 17.2,
+      "low": 69,
+      "mid3": 4,
+      "high": 37,
+      "pct_low": 17.2
+    },
+    {
+      "field": "negative__发霉/卫生清洁风险",
+      "label": "发霉/卫生清洁风险",
+      "count": 56,
+      "pct_all": 14.0,
+      "low": 56,
+      "mid3": 8,
+      "high": 16,
+      "pct_low": 14.0
+    },
+    {
+      "field": "negative__掉砂/掉屑/包装脏污",
+      "label": "掉砂/掉屑/包装脏污",
+      "count": 30,
+      "pct_all": 7.5,
+      "low": 30,
+      "mid3": 1,
+      "high": 20,
+      "pct_low": 7.5
+    },
+    {
+      "field": "negative__硬水改善不明显/肤感无变化",
+      "label": "硬水改善不明显/肤感无变化",
+      "count": 24,
+      "pct_all": 6.0,
+      "low": 24,
+      "mid3": 0,
+      "high": 1,
+      "pct_low": 6.0
+    },
+    {
+      "field": "negative__二次销售/疑似退货品",
+      "label": "二次销售/疑似退货品",
+      "count": 22,
+      "pct_all": 5.5,
+      "low": 22,
+      "mid3": 0,
+      "high": 0,
+      "pct_low": 5.5
+    },
+    {
+      "field": "negative__滤芯更换麻烦/寿命不清",
+      "label": "滤芯更换麻烦/寿命不清",
+      "count": 21,
+      "pct_all": 5.2,
+      "low": 21,
+      "mid3": 5,
+      "high": 95,
+      "pct_low": 5.2
+    },
+    {
+      "field": "negative__安装不稳/固定带打滑",
+      "label": "安装不稳/固定带打滑",
+      "count": 13,
+      "pct_all": 3.2,
+      "low": 13,
+      "mid3": 0,
+      "high": 5,
+      "pct_low": 3.2
+    },
+    {
+      "field": "negative__去氯效果不明显/气味仍重",
+      "label": "去氯效果不明显/气味仍重",
+      "count": 10,
+      "pct_all": 2.5,
+      "low": 10,
+      "mid3": 1,
+      "high": 0,
+      "pct_low": 2.5
+    }
+  ],
+  "negative": [
+    {
+      "field": "negative__整体无效/不符合预期",
+      "label": "整体无效/不符合预期",
+      "count": 188,
+      "pct_all": 7.3,
+      "low": 185,
+      "mid3": 3,
+      "high": 0,
+      "pct_low": 46.2
+    },
+    {
+      "field": "negative__滤芯更换麻烦/寿命不清",
+      "label": "滤芯更换麻烦/寿命不清",
+      "count": 121,
+      "pct_all": 4.7,
+      "low": 21,
+      "mid3": 5,
+      "high": 95,
+      "pct_low": 5.2
+    },
+    {
+      "field": "negative__绕流/溢流/过滤路径失效",
+      "label": "绕流/溢流/过滤路径失效",
+      "count": 111,
+      "pct_all": 4.3,
+      "low": 73,
+      "mid3": 6,
+      "high": 32,
+      "pct_low": 18.2
+    },
+    {
+      "field": "negative__宣传口径争议（重金属/TDS等）",
+      "label": "宣传口径争议（重金属/TDS等）",
+      "count": 110,
+      "pct_all": 4.3,
+      "low": 69,
+      "mid3": 4,
+      "high": 37,
+      "pct_low": 17.2
+    },
+    {
+      "field": "negative__质量破损/做工问题",
+      "label": "质量破损/做工问题",
+      "count": 83,
+      "pct_all": 3.2,
+      "low": 79,
+      "mid3": 4,
+      "high": 0,
+      "pct_low": 19.8
+    },
+    {
+      "field": "negative__发霉/卫生清洁风险",
+      "label": "发霉/卫生清洁风险",
+      "count": 80,
+      "pct_all": 3.1,
+      "low": 56,
+      "mid3": 8,
+      "high": 16,
+      "pct_low": 14.0
+    },
+    {
+      "field": "negative__敏感肌/宝宝场景效果不稳定",
+      "label": "敏感肌/宝宝场景效果不稳定",
+      "count": 74,
+      "pct_all": 2.9,
+      "low": 71,
+      "mid3": 1,
+      "high": 2,
+      "pct_low": 17.8
+    },
+    {
+      "field": "negative__掉砂/掉屑/包装脏污",
+      "label": "掉砂/掉屑/包装脏污",
+      "count": 51,
+      "pct_all": 2.0,
+      "low": 30,
+      "mid3": 1,
+      "high": 20,
+      "pct_low": 7.5
+    },
+    {
+      "field": "negative__硬水改善不明显/肤感无变化",
+      "label": "硬水改善不明显/肤感无变化",
+      "count": 25,
+      "pct_all": 1.0,
+      "low": 24,
+      "mid3": 0,
+      "high": 1,
+      "pct_low": 6.0
+    },
+    {
+      "field": "negative__二次销售/疑似退货品",
+      "label": "二次销售/疑似退货品",
+      "count": 22,
+      "pct_all": 0.9,
+      "low": 22,
+      "mid3": 0,
+      "high": 0,
+      "pct_low": 5.5
+    },
+    {
+      "field": "negative__安装不稳/固定带打滑",
+      "label": "安装不稳/固定带打滑",
+      "count": 18,
+      "pct_all": 0.7,
+      "low": 13,
+      "mid3": 0,
+      "high": 5,
+      "pct_low": 3.2
+    },
+    {
+      "field": "negative__去氯效果不明显/气味仍重",
+      "label": "去氯效果不明显/气味仍重",
+      "count": 11,
+      "pct_all": 0.4,
+      "low": 10,
+      "mid3": 1,
+      "high": 0,
+      "pct_low": 2.5
+    }
+  ],
+  "positive": [
+    {
+      "field": "positive__安装方便/适配性强",
+      "label": "安装方便/适配性强",
+      "count": 498,
+      "pct_all": 19.4,
+      "low": 0,
+      "mid3": 3,
+      "high": 495,
+      "pct_low": 0.0
+    },
+    {
+      "field": "positive__改善皮肤/头发感受",
+      "label": "改善皮肤/头发感受",
+      "count": 254,
+      "pct_all": 9.9,
+      "low": 0,
+      "mid3": 1,
+      "high": 253,
+      "pct_low": 0.0
+    },
+    {
+      "field": "positive__宝宝/敏感肌场景友好",
+      "label": "宝宝/敏感肌场景友好",
+      "count": 251,
+      "pct_all": 9.8,
+      "low": 0,
+      "mid3": 2,
+      "high": 249,
+      "pct_low": 0.0
+    },
+    {
+      "field": "positive__减少氯味/泳池味",
+      "label": "减少氯味/泳池味",
+      "count": 59,
+      "pct_all": 2.3,
+      "low": 1,
+      "mid3": 0,
+      "high": 58,
+      "pct_low": 0.2
+    },
+    {
+      "field": "positive__水流稳定/不易飞溅",
+      "label": "水流稳定/不易飞溅",
+      "count": 20,
+      "pct_all": 0.8,
+      "low": 0,
+      "mid3": 0,
+      "high": 20,
+      "pct_low": 0.0
+    }
+  ],
+  "persona": [
+    {
+      "field": "persona__婴幼儿/儿童家庭",
+      "label": "婴幼儿/儿童家庭",
+      "count": 592,
+      "pct_all": 23.1,
+      "low": 41,
+      "mid3": 11,
+      "high": 540,
+      "pct_low": 10.2
+    },
+    {
+      "field": "persona__硬水/矿物残留困扰用户",
+      "label": "硬水/矿物残留困扰用户",
+      "count": 538,
+      "pct_all": 21.0,
+      "low": 37,
+      "mid3": 8,
+      "high": 493,
+      "pct_low": 9.2
+    },
+    {
+      "field": "persona__敏感肌/干痒/湿疹困扰人群",
+      "label": "敏感肌/干痒/湿疹困扰人群",
+      "count": 512,
+      "pct_all": 20.0,
+      "low": 25,
+      "mid3": 4,
+      "high": 483,
+      "pct_low": 6.2
+    },
+    {
+      "field": "persona__氯味/泳池味困扰用户",
+      "label": "氯味/泳池味困扰用户",
+      "count": 462,
+      "pct_all": 18.0,
+      "low": 37,
+      "mid3": 11,
+      "high": 414,
+      "pct_low": 9.2
+    },
+    {
+      "field": "persona__泡澡护理/放松型用户",
+      "label": "泡澡护理/放松型用户",
+      "count": 452,
+      "pct_all": 17.6,
+      "low": 8,
+      "mid3": 4,
+      "high": 440,
+      "pct_low": 2.0
+    }
+  ],
+  "motivation": [
+    {
+      "field": "motivation__适合宝宝/敏感肌场景",
+      "label": "适合宝宝/敏感肌场景",
+      "count": 617,
+      "pct_all": 24.1,
+      "low": 40,
+      "mid3": 12,
+      "high": 565,
+      "pct_low": 10.0
+    },
+    {
+      "field": "motivation__安装方便、挂上就能用",
+      "label": "安装方便、挂上就能用",
+      "count": 610,
+      "pct_all": 23.8,
+      "low": 16,
+      "mid3": 10,
+      "high": 584,
+      "pct_low": 4.0
+    },
+    {
+      "field": "motivation__改善泡澡后皮肤/头发体感",
+      "label": "改善泡澡后皮肤/头发体感",
+      "count": 605,
+      "pct_all": 23.6,
+      "low": 14,
+      "mid3": 4,
+      "high": 587,
+      "pct_low": 3.5
+    },
+    {
+      "field": "motivation__缓解硬水导致的干涩/刺激感",
+      "label": "缓解硬水导致的干涩/刺激感",
+      "count": 533,
+      "pct_all": 20.8,
+      "low": 34,
+      "mid3": 6,
+      "high": 493,
+      "pct_low": 8.5
+    },
+    {
+      "field": "motivation__降低氯味/泳池味",
+      "label": "降低氯味/泳池味",
+      "count": 437,
+      "pct_all": 17.1,
+      "low": 35,
+      "mid3": 10,
+      "high": 392,
+      "pct_low": 8.8
+    },
+    {
+      "field": "motivation__高频使用下也要好维护",
+      "label": "高频使用下也要好维护",
+      "count": 351,
+      "pct_all": 13.7,
+      "low": 54,
+      "mid3": 12,
+      "high": 285,
+      "pct_low": 13.5
+    }
+  ],
+  "severity": {
+    "none": 2010,
+    "minor_mixed_positive_review": 197,
+    "high_kill_low_confidence_title_only": 12,
+    "high_kill_negative_review": 325,
+    "medium_mixed_review": 18
+  },
+  "title_low_conf": 12,
+  "high_star_minor": 197
+}

@@ -1,0 +1,42 @@
+{
+  "type": "raw-data-package",
+  "product": "bathtub-filter",
+  "source_type": "competitor-material",
+  "source_date": "2026-06-18",
+  "import_date": "2026-06-18",
+  "source_folder": "C:\\Users\\KEVIN\\Desktop\\浴缸过滤\\竞品资料",
+  "raw_path": "raw/products/bathtub-filter/2026-06-18-competitor-listing-sales/",
+  "compiled_workbook": "bathtub-filter-competitor-listing-sales-2026-06-18.xlsx",
+  "asin_scope": [
+    "B0CXT5KL5Z",
+    "B0D3X39378",
+    "B0742KFY9R",
+    "B0GFQ1JRSK",
+    "B0FT7R9ZQ9",
+    "B0DTQ8H23D",
+    "B008A4AG2U",
+    "B0G5NZBW6W",
+    "B0FL24SLM5",
+    "B0GKT5CHYL"
+  ],
+  "excluded_asins": [
+    {
+      "asin": "B0FNVDJRSQ",
+      "reason": "Filterbaby shower filter / showerhead inline product, not bathtub filter",
+      "canonical_location": "raw/products/shower-filter/2026-04-20-filterbaby-review-corpus/"
+    }
+  ],
+  "metrics": {
+    "asin_count": 10,
+    "listing_monthly_sales_sum": 15347,
+    "listing_monthly_revenue_sum_usd": 609805,
+    "history_2026_06_sales_sum": 15330,
+    "history_2026_06_revenue_sum_usd": 617149,
+    "trailing_12_sales_sum": 176739,
+    "trailing_12_revenue_sum_usd": 6315297,
+    "average_2026_06_price_usd": 42.73,
+    "monthly_long_rows": 270
+  },
+  "verification_status": "spot-checked"
+}
+
