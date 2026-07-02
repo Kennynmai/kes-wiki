@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-07-02
 visibility: team
 confidence: medium
 officiality: draft
@@ -49,7 +49,7 @@ verification_status: working
 
 ### 区块 4 — See Inside（成分美学）
 - `This is KDF55 copper-zinc. This is calcium sulfite. No third thing you can't name.`
-- 逐层：`① PP fiber catches particles → ② KDF55 copper-zinc → ③ calcium sulfite reduces free chlorine`（水流向标注）
+- 逐层：`① Polyester (PET) fiber catches particles → ② KDF55 copper-zinc → ③ calcium sulfite reduces free chlorine`（水流向标注）（2026-07-02 按 [V1 BOM 表](./bathtub-filter-v1-free-chlorine-removal-dimensions-materials.md) 裁定更正：滤棉 PET、克数互换、寿命数字重算）
 - `No cheap filler hiding behind opaque plastic.`
 - *护栏*：metal-first 仅料级叙事，非去重金属健康。
 
@@ -95,7 +95,7 @@ verification_status: working
 - *护栏*：每条兼容声明都带「不支持」边界。
 
 ### What's inside（媒体透明）
-`Layered, never mixed: PP fiber disc → KDF55 (110 g) → calcium sulfite (130 g), with an internal flow-diversion module. Each layer is replaceable separately. KDF55 is the visible safety/biofilm-stability layer; calcium sulfite is the primary dechlorination workhorse.`
+`Layered, never mixed: polyester (PET) fiber disc → KDF55 (130 g) → calcium sulfite (110 g), with an internal flow-diversion module. Each layer is replaceable separately. KDF55 is the visible safety/biofilm-stability layer; calcium sulfite is the primary dechlorination workhorse.`
 
 ### How it works（防沟槽叙事）
 `Unlike mixed-bead products, KES uses strict layered media with a flow-diversion module — so water passes through each layer in order instead of channeling around it. That's why we can show you the layers and let you replace them one at a time.`
@@ -106,7 +106,7 @@ verification_status: working
 - *承重句*："The finished product is not NSF-certified."
 
 ### Replacement & verification
-`Replace based on baths, not months. At 2 ppm tap chlorine, ~3 baths/week: soft trigger ≈ 113 baths; replace by ≈ 143 baths (~1 year). Lower tap chlorine ≈ longer life. Your local tap chlorine affects lifespan — verify with the strip.`
+`Replace based on baths, not months. At 2 ppm tap chlorine, ~3 baths/week: soft trigger ≈ 96 baths; replace by ≈ 121 baths (~9–10 months). Lower tap chlorine ≈ longer life. Your local tap chlorine affects lifespan — verify with the strip.`
 - *护栏*：baths/gallons 不用 months。
 
 ### FAQ（技术级，照 register）

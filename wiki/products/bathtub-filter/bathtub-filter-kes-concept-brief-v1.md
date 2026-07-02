@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-14
-updated: 2026-04-19
+updated: 2026-07-02
 visibility: team
 confidence: high
 officiality: draft
@@ -39,7 +39,7 @@ Version A 的核心 commit：
 - **主 KPI**：新滤芯 · 最佳体验段 **系统总游离氯去除 ≥99%**；寿命口径按累计水量 / 泡澡次数 / 周期（不用月数）
 - **媒体栈**：PP cotton → KDF55 110 g → CaSO3 130 g；内置导流模块
 - **Claim discipline**：无 eczema / broad-contaminant / universal-fit / baby-safe / clinical 类语言；第三方 finished-product 认证暂不声称
-- **Compatibility**：TPU 可调 strap；no-overflow envelope 35 L/min（US 典型 18–25 L/min 有充足余量）
+- **Compatibility**：硅胶（silicone）可调挂带（2026-07-02 按 V1 BOM 表更正，原记 TPU）；no-overflow envelope 35 L/min（US 典型 18–25 L/min 有充足余量）
 
 ### Candidate A / C 的当前状态
 - **Candidate A（premium-but-disciplined hybrid）**：Version A 已吸收其"视觉可信 + 性能证明"主张（可视化 filter disc + chlorine strip 赠品），**无需独立 A 产品线**

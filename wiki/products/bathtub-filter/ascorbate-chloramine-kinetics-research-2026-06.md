@@ -4,7 +4,7 @@
 
 **核心论文：**
 - Title: "Kinetics of the reactions of hypochlorous acid and amino acid chloramines with thiols, methionine, and ascorbate"
-- Authors: Tikkanen et al.
+- Authors: Peskin & Winterbourn（2026-07-02 更正：原误署为 "Tikkanen et al."。对照 [[bathtub-filter-chloramine-media-research]] 的一手引用，此论文作者为 Peskin AV & Winterbourn CC；"Tikkanen" 系另一份 AWWARF/EBMUD *Guidance Manual* 的作者，与本动力学论文无关）
 - Journal: Free Radical Biology & Medicine
 - Year: 2001
 - DOI: 10.1016/S0891-5849(00)00506-2
@@ -172,7 +172,7 @@ t₀.₉₉（99% 完成）= ln(100) / 0.91 = 5.1 秒
 
 ## 参考资料
 
-1. Tikkanen et al. (2001). "Kinetics of the reactions of hypochlorous acid and amino acid chloramines with thiols, methionine, and ascorbate." *Free Radical Biology & Medicine*, 30(5), 519-530.
+1. Peskin AV & Winterbourn CC (2001). "Kinetics of the reactions of hypochlorous acid and amino acid chloramines with thiols, methionine, and ascorbate." *Free Radical Biology & Medicine*, 30(5), 519-530.（2026-07-02 更正：原误署为 "Tikkanen et al."）
 2. USDA Forest Service (2005). "Using Vitamin C To Neutralize Chlorine in Water Systems." Technical Document 0523-1301.
 3. Factually.co fact-check (2023). "Ascorbic acid dose to neutralize chloramine water."
 

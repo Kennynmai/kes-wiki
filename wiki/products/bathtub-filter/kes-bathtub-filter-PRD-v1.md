@@ -10,7 +10,7 @@
 | **产品名称** | KES Bathtub Filter（浴缸过滤器）|
 | **版本** | Version A（游离氯城市版）|
 | **文档状态** | v1.1（已纳入 v2.1 竞品深度批判分析建议）|
-| **更新日期** | 2026-06-15 |
+| **更新日期** | 2026-07-02 |
 | **基于报告** | `kes-bathtub-filter-deep-competitive-analysis-v2.md` |
 | **负责人** | 产品策略 / KES 团队 |
 | **Confidence** | 高（High）|
@@ -39,7 +39,7 @@ KES Bathtub Filter 是**浴缸注水场景的末端减害模块**，不是全功
 
 - 安装在浴缸龙头出水口
 - 水在注水过程中穿过滤芯
-- TPU 可调 strap 适配多种 tub-spout 类型
+- 硅胶（silicone）可调挂带适配多种 tub-spout 类型（2026-07-02 按 V1 BOM 表更正，原记 TPU）
 
 ### 1.3 市场范围（V1）
 
@@ -111,7 +111,7 @@ KES Bathtub Filter 是**浴缸注水场景的末端减害模块**，不是全功
 |---------|---------|------|---------|
 | F-01 | 氯去除 | 系统总去氯 ≥99%（新滤芯，最佳体验段）| P0 |
 | F-02 | 可更换滤芯 | replaceable filtration media | P0 |
-| F-03 | 龙头兼容性 | TPU 可调 strap，适配多种 tub-spout | P0 |
+| F-03 | 龙头兼容性 | 硅胶（silicone）可调挂带，适配多种 tub-spout（2026-07-02 按 V1 BOM 表更正，原记 TPU）| P0 |
 | F-04 | 防溢水设计 | no-overflow envelope 35 L/min | P0 |
 | F-05 | 导流模块 | 确保水真穿过滤材，避免 bypass | P0 |
 | F-06 | 可视化滤芯 | 让用户看到滤芯在工作（**v1.1 升级：P1 → P0**）| **P0** |
@@ -158,7 +158,7 @@ outlet mesh
 | 需求编号 | 描述 | 优先级 |
 |---------|------|---------|
 | C-01 | 支持主流直管龙头（straight spout）| P0 |
-| C-02 | 支持 TPU 可调 strap 适配多种几何 | P0 |
+| C-02 | 支持硅胶（silicone）可调挂带适配多种几何（2026-07-02 按 V1 BOM 表更正，原记 TPU）| P0 |
 | C-03 | 明确不支持列表（diverter / curved / decorative spout）| P0 |
 | C-04 | 提供兼容性矩阵页面 | P1 |
 
@@ -261,7 +261,7 @@ outlet mesh
 ```
 [浴缸龙头] 
     ↓
-[TPU 可调 strap 接口]
+[硅胶（silicone）可调挂带接口]
     ↓
 [外壳（no-overflow envelope 35 L/min）]
     ↓

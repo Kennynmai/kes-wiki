@@ -3,12 +3,12 @@ type: product
 status: draft
 owner: product
 created: 2026-04-19
-updated: 2026-04-20
+updated: 2026-06-30
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
-domains: [bathtub-filter, hard-water, softening, ion-exchange, hardness, resin, evidence]
+domains: [bathtub-filter, hard-water, softening, ion-exchange, hardness, resin, antiscale, scale-inhibitor, tds, evidence]
 source_count: 8
 review_cycle: monthly
 verification_status: spot-checked
@@ -229,6 +229,16 @@ ResinTech 对住宅软化树脂的应用说明明确写到：
 
 如果这些问题答不上来，就不应把阻垢条当成 softening media。
 
+### 补充：这款阻垢料的「涉水卫生安全报告」（2026-06-30 登记）
+
+上面的阻垢**条**（1.2–1.5mm，阻垢率）与阻垢**颗粒**（0.5–5mm）经供应商确认**是同一款料**的不同粒径档。颗粒档另有一份第三方检测报告（青岛环湾 CMA，青环检字 CP210620，2021-07-01；原件见 [2026-06-30 宗立阻垢颗粒涉水检测报告](../../../raw/products/bathtub-filter/2026-06-30-zongli-antiscale-granule-hygiene-report.md)）。要点：
+
+- **性质是卫生安全，不是功效**：23 项涉水析出全部合格（重金属、酚、消毒副产物均 < 检出限），只证明材料**接触饮用水安全**。
+- **TDS 增量仅 +5–6 mg/L**（220 → 225/226），再次印证阻垢材料**几乎不动 TDS/硬度**——TDS 笔测不出变化是正常的，恰证「没在软化」。
+- **合规红线**：报告说明第 8 条明写「**不得用于各类广告宣传**」，且系自送样仅对来样负责——只能作内部供应商合规存档，不得进任何营销语境。
+
+**证据配对现状（同一款料）**：这款料现有第三方**安全**背书（颗粒报告 ✅）+ 供应商自测**阻垢率**（条 ~85%）。比"各缺一半"强，但**两份都没测硬度**——「泡澡水会不会真变软」答案不变：**不会**（与同料无关，纯因无人测 Ca/Mg）。另注：阻垢率测的是 1.2–1.5mm 档、安全测的是 0.5–5mm 档，粒径影响接触动力学，效能须按实际出货粒径复核；阻垢率亦为供应商自测、非第三方。
+
 ---
 
 ## 6. 对 KES 的产品判断
@@ -276,6 +286,51 @@ ResinTech 对住宅软化树脂的应用说明明确写到：
 - "anti-scale media softens water"
 - "works like a whole-house softener"
 - "supports eczema prevention"（SOFTER 证据不能外推）
+
+---
+
+## 8. 技术路线对照表（软化 / 阻垢 / 过滤）
+
+前面几节把三条路线的边界分散讲了，这里把它们并排放，**严格按 problem → product → claim 三层拆开**，方便做 SKU 决策和 copy 审查时直接查。
+
+### 8a. 一句话区分
+
+- **软化**：把 Ca²⁺ / Mg²⁺ **从水里拿走** → 硬度真下降
+- **阻垢**：钙镁**留在水里**，只是不让它结垢/挂垢 → 硬度基本不变
+- **过滤**：处理的是**别的东西**（消毒剂、异味、有机物、部分重金属、颗粒），**不碰硬度**
+
+三者解决的是三个不同 problem，任何一条都不能替另一条背书。
+
+### 8b. 对照表
+
+| 维度 | 软化（离子交换） | 阻垢（防垢） | 过滤（除消毒剂/杂质/重金属） |
+|---|---|---|---|
+| **解决的 problem** | 硬水本身（起皮、皂感差、真实硬度高） | 结垢 / 挂垢 / 水渍白斑 | 游离氯·氯胺、异味、部分重金属、颗粒物 |
+| **作用机理** | Na 型强酸阳树脂 2R-Na + Ca²⁺ → R₂-Ca + 2Na⁺，真实去除 | 阈值效应 + 晶格畸变 + 分散 + 螯合，抑制结晶与附着 | 吸附（活性炭/ACF）、氧化还原（KDF）、化学还原（亚硫酸钙/维C） |
+| **常见 media** | 离子交换树脂 | 聚磷酸盐晶球（Siliphos）、有机膦酸、陶瓷阻垢条 | GAC / 炭块 / ACF、KDF-55/85、亚硫酸钙、维C |
+| **硬度变化** | ↓ 真下降 | ≈ 不变 | ≈ 不变 |
+| **TDS 变化** | ↓（钙镁换成钠，略降或持平） | ≈ 不变 | ≈ 不变（可能因 media 溶出略动） |
+| **可行 product 形态** | 数百 mL–1.5 L 树脂、最好可再生 canister（不是 compact bath-ball） | 微量晶球可塞进滤芯，属**消耗型添加层** | compact bath-ball / spout 滤芯的主力路线 |
+| **可以 claim** | "ion-exchange resin to reduce hardness minerals"、"partial hardness reduction" | "抑制水垢生成 / 减少水垢附着 / anti-scale" | "reduces free chlorine / chloramine / odor"（按 finished-product 测试口径） |
+| **不能 claim** | "softens hard water"（除非成品测试到接近软水）；"works like whole-house softener" | "软化水质 / softens water"；"降低硬度"；"除已生成的老垢" | 任何"软化""降硬度""除垢"表述 |
+| **本页对应** | §2 / §3 / §6 Route B | §5.5 / §6 Route C | §6 Route A（详见 [[bathtub-filter-technology-notes]]） |
+
+### 8c. 阻垢机理补充（为什么"阻垢 ≠ 软化"在化学上成立）
+
+阻垢剂靠**亚化学计量**起效——用远少于钙镁等比例的量就能防垢，因为它并不"锁走"钙镁，而是干预结晶过程：
+
+1. **阈值效应**：吸附在晶核上阻止其长大，让过饱和水保持稳定（聚磷酸盐、有机膦酸主打）
+2. **晶格畸变**：把致密硬垢搅成松散、易冲走的形态
+3. **分散作用**：给微粒带同种电荷，静电排斥使其悬浮不沉积（聚羧酸主打）
+4. **螯合**：把 Ca/Mg 络合成可溶物，但等比例消耗、只作辅助
+
+关键推论：以上四条**没有一条会让 Ca²⁺/Mg²⁺ 离开水相**，所以出水硬度和 TDS 基本不变。用 TDS 笔测阻垢滤芯前后读数几乎不变是**正常现象**，不代表无效——它证明的恰恰是"没在软化"。这也是为什么宗立那份阻垢条报告只给"阻垢率"、给不出"硬度下降值"（见 §5.5）。
+
+### 8d. 对 KES 的直接含义
+
+- 三条路线 = 三个 problem = **三种独立 claim**，不可混用背书
+- V1 bath filter 的主力仍是**过滤路线**（去氯/氯胺/comfort）；阻垢晶球最多作为**防垢附加层**、且只能挂"anti-scale"口径的 claim；真软化必须走独立 SKU（Route B）
+- Copy 审查红线：任何把阻垢层或过滤层说成"软化/降硬度"的表述，直接判不合规
 
 ---
 

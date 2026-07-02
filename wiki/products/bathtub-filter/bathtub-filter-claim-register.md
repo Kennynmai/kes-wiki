@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-17
-updated: 2026-06-15
+updated: 2026-07-02
 visibility: team
 confidence: medium
 officiality: draft
@@ -50,22 +50,25 @@ related:
 8. **Transparency / clean-formula** *(2026-06-15 新增)* — 「看得见真料 / 读得懂配方」透明叙事，及主动 disclaim 疗效的承重句
 9. **Self-diagnosis / test-kit** *(2026-06-15 新增)* — 「测你家的水」自测套件、读卡处方、精度与诚实边界
 10. **Modular media catalog** *(2026-06-15 新增)* — 各滤材模块（阻垢/井水 KDF85/强化物理层/氯胺配置）各自有界的 cross-sell 宣称
+11. **Structure / industrial-design / IP** *(2026-07-01 新增)* — 产品结构与工业设计（透明滤仓、导流模块、分层不混、挂带适配）+ 专利/IP 措辞。**patent-pending 边界为承重红线**，真理源见 [[bathtub-filter-kes-structure-ip-and-patent-governance]]
 
 ---
 
 ## Allowed claim zone (structure)
+
+> （2026-07-02 按 [V1 BOM 表](./bathtub-filter-v1-free-chlorine-removal-dimensions-materials.md) 裁定更正：KDF55 130g / CaSO₃ 110g 克数互换、滤棉 PET、寿命模型缩放 2.75× → ~21,550 L @2ppm、soft ≈96 / mandatory ≈121 baths（~9–10 months）。证据等级不变，寿命数字仍为内部模型 🟡 待 Gate 1 DPD。）
 
 这些宣称类别在满足对应证据要求后可以使用。**"Example wording" 列当前为占位符，等待 Workstream 2 竞品研究后填入。**
 
 | Claim category | Allowed | Example wording (Version A) | Evidence requirement | Notes |
 |---|---|---|---|---|
 | Positioning (category-level) | Yes — **leading** with this | "This is not a water purifier. It does not target TDS reduction. It is an end-stage harm-reduction module for the bath-fill scenario." | Verbatim from Doc 1 positioning statement; no efficacy claim embedded | Must appear on every customer-facing surface (page, pack, manual, rep script) to pre-empt "does it drop TDS?" objection |
-| Chlorine reduction | Yes — with precision | "Fresh-filter, best-experience segment: **≥99% system-total chlorine reduction** at 15 L/min bath-fill flow." / "System-total chlorine reduction follows a posted curve over the filter life (99% → 95% → 90% → 80% → <50% replacement trigger)." | Internal life model at 130 g CaSO₃ + η=0.9 scaling (see [[bathtub-filter-media-efficacy-at-bath-conditions]] Section 9); **"free chlorine" must be specified — NOT "total chlorine" or "chloramine"**; flow rate and "fresh-filter / best-experience segment" qualifiers are non-optional | KPI is system-total (KDF × CaSO₃ chain), not single-media; must not re-use this wording for chloramine markets |
+| Chlorine reduction | Yes — with precision | "Fresh-filter, best-experience segment: **≥99% system-total chlorine reduction** at 15 L/min bath-fill flow." / "System-total chlorine reduction follows a posted curve over the filter life (99% → 95% → 90% → 80% → <50% replacement trigger)." | Internal life model at 110 g CaSO₃ + η=0.9 scaling (see [[bathtub-filter-media-efficacy-at-bath-conditions]] Section 9); **"free chlorine" must be specified — NOT "total chlorine" or "chloramine"**; flow rate and "fresh-filter / best-experience segment" qualifiers are non-optional | KPI is system-total (KDF × CaSO₃ chain), not single-media; must not re-use this wording for chloramine markets |
 | Verification-by-user | Yes — with physical tool | "Verify with the included chlorine test strip: compare before- and after-filter water. Do not use a TDS pen — this product does not target TDS." | Test strip included in pack; FAQ explicitly steers user away from TDS pen as verification tool | This is a trust-building anchor unique to Version A vs. competitors who avoid user verification |
-| Replacement-trigger language | Yes — with posted schedule | "Replace when system-total chlorine reduction drops to ~90% (soft trigger) / ~80% (strong trigger) / ~50% (mandatory)." / "At 2 ppm tap chlorine, 3 baths/week: soft trigger ≈ 113 baths; mandatory ≈ 143 baths (~1 year). At 1 ppm tap: approximately 2× lifespan." | Internal life model (see [[bathtub-filter-media-efficacy-at-bath-conditions]] Section 9) | Use gallons / baths / weeks — **do not convert to months** (per Doc 1 口径决策); add "your local tap chlorine affects lifespan — verify with test strip" |
+| Replacement-trigger language | Yes — with posted schedule | "Replace when system-total chlorine reduction drops to ~90% (soft trigger) / ~80% (strong trigger) / ~50% (mandatory)." / "At 2 ppm tap chlorine, 3 baths/week: soft trigger ≈ 96 baths; mandatory ≈ 121 baths (~9–10 months). At 1 ppm tap: approximately 2× lifespan." | Internal life model (see [[bathtub-filter-media-efficacy-at-bath-conditions]] Section 9) | Use gallons / baths / weeks — **do not convert to months** (per Doc 1 口径决策); add "your local tap chlorine affects lifespan — verify with test strip" |
 | Sensory / comfort benefit | Yes — with non-medical framing | "Bath-water without the pool smell." / "Gentler-feeling bath-fill." / "A cleaner bath starting experience." | Stays in sensory/comfort language; no therapeutic outcome implied | Verbatim guardrail from Doc 1 sales script: "feels different" OK; "improves your skin" NOT OK |
-| Media transparency | Yes — with specific framing | "Layered media: PP cotton → KDF55 (110 g) → CaSO3 (130 g). Each layer replaceable separately." / "KDF55 as end-stage safety layer and biofilm-inhibition layer. CaSO3 as primary free-chlorine reduction KPI." | Doc 1 media stack spec | Explicitly reframes KDF as safety-layer, not "free-chlorine reduction main media" — reduces "KDF = cure-all" misread |
-| Fit / compatibility | Yes — with explicit scope | "Designed for standard US tub spouts 18–25 L/min; adjustable TPU strap fits most spout diameters; no-overflow envelope up to 35 L/min." | Internal flow-overflow test Doc 4; supported-spout matrix needs external sample sweep before launch (see [[bathtub-filter-supported-spout-matrix]]) | Every compatibility claim must ship with a "not supported" boundary (e.g., "swan-neck spouts without a pull-diverter may need aftermarket strap") |
+| Media transparency | Yes — with specific framing | "Layered media: polyester (PET) fiber → KDF55 (130 g) → CaSO3 (110 g). Each layer replaceable separately." / "KDF55 as end-stage safety layer and biofilm-inhibition layer. CaSO3 as primary free-chlorine reduction KPI." | Doc 1 media stack spec | Explicitly reframes KDF as safety-layer, not "free-chlorine reduction main media" — reduces "KDF = cure-all" misread |
+| Fit / compatibility | Yes — with explicit scope | "Designed for standard US tub spouts 18–25 L/min; adjustable silicone strap fits most spout diameters; no-overflow envelope up to 35 L/min."（2026-07-02 按 V1 BOM 表更正，原记 adjustable TPU strap） | Internal flow-overflow test Doc 4; supported-spout matrix needs external sample sweep before launch (see [[bathtub-filter-supported-spout-matrix]]) | Every compatibility claim must ship with a "not supported" boundary (e.g., "swan-neck spouts without a pull-diverter may need aftermarket strap") |
 | Performance / testing | Yes — with test/certified distinction | "KDF55 media is backed by supplier NSF/ANSI 42 material-level listing. CaSO3 has NSF/ANSI 177-protocol free-chlorine reference testing, but CaSO3 itself is not NSF-certified and the finished product is not NSF-certified. Verify with the included free-chlorine test strip." | Doc 1 standards-口径; supplier cert docs on hand | See compliance-framework-and-evidence-boundaries for the 5 common misreads to avoid; this wording is **deliberately conservative** — it does not claim NSF certification of CaSO3 or the finished product |
 | Environmental / sustainability | Conditional — only if substantiated | TBD — pending replaceable-cartridge final design + supply-chain sourcing verification | Requires specific data on cartridge lifespan, material composition, and disposal or recycling pathway | Do not use vague "eco" language without specific backing |
 
@@ -79,14 +82,14 @@ related:
 |---|---|---|---|---|
 | Skin-comfort framing (sensitive skin) | Must not imply eczema improvement or clinical outcome; must stay in "may be gentler for" or "designed with sensitive-skin users in mind" territory | "Designed with sensitive-skin bathers in mind." / "May be gentler for users who find highly-chlorinated tap water drying." (Never: "improves eczema" / "heals your skin" / "clinical results for sensitive skin") | EPA literature + Seki 2003 + Danby 2018 support that chlorine ≥ 0.5 mg/L affects compromised skin; this supports the problem framing, **not** finished-product efficacy | The distinction between "for sensitive-skin users" vs "improves sensitive skin" is non-negotiable. Doc 1 FAQ verbatim: do not market as eczema product |
 | Baby / infant framing | Only if product has clear scope definition, no medical safety implication, and no "baby-safe" equivalents without substantiation | "Filters the bath-water before it reaches your tub." / "Many families use a bath filter for chlorine-sensitive bathtime routines." (Never: "safe for babies" / "safe for newborns" / "pediatrician-approved") | Doc 2 review evidence: infant / small-child segment is the single largest positive review cluster across 5 ASINs — segment relevance is real, safety-claim burden is not met | Premium pricing will increase scrutiny on any baby-adjacent claim; do not write "baby-safe" without explicit evidence base |
-| Head-to-head with mixed-media competitors | With technical explanation, non-disparaging | "Unlike mixed-bead products, Version A uses strict layered media (PP cotton → KDF55 → CaSO3) with an internal flow-diversion module. This prevents channeling, prevents media cross-reaction, and lets you replace each layer separately." | Doc 5 diversion-module test + Doc 4 flow-overflow test + Doc 2 competitor complaint teardown | Safe framing because it explains a technical design choice, not disparages a competitor; do not name specific competitor ASINs in marketing copy |
+| Head-to-head with mixed-media competitors | With technical explanation, non-disparaging | "Unlike mixed-bead products, Version A uses strict layered media (polyester (PET) fiber → KDF55 → CaSO3) with an internal flow-diversion module. This prevents channeling, prevents media cross-reaction, and lets you replace each layer separately." | Doc 5 diversion-module test + Doc 4 flow-overflow test + Doc 2 competitor complaint teardown | Safe framing because it explains a technical design choice, not disparages a competitor; do not name specific competitor ASINs in marketing copy |
 | Fast-flow chlorine performance（含 25 L/min 卖点） | Only if independently replicated for the specific KES product at the stated flow rate **per [25L/min 测试 spec](./bathtub-filter-25lpm-dechlorination-bench-test-spec.md) Gate 1** | 公开文案的去氯数字**必须用第三方 DPD 实测值**回填，不得用内部模型的 ≥92%@25 L/min（那是 5 ppm 系统总氯比色单测） | spec §4 通过门槛：25 L/min、真实 2 ppm、新芯 **≥85%** 且 25→27 斜率平缓。**未达门槛前 25 L/min 不上首屏**（[执行路线图](./bathtub-filter-kes-v1-execution-roadmap-2026-06-15.md) Gate 1） | 这是 clean-formula「测得到」首要价值的硬证据来源——口径必须如实，否则就成了我们批 FilterBaby 的放大 |
 | Reduced water irritation | Only with careful framing — comfort framing acceptable, skin-barrier claim is not | "Less chlorine in your bath water means less chlorine contacting your skin — that's the comfort difference many bathers notice." (Never: "restores skin barrier" / "prevents eczema flares") | Chlorine / bathing / skin-barrier evidence supports cautious problem framing; does not support product-level skin outcome promise | Use 3rd-level claim evidence ladder language (education framing), not 5th-level (clinical result language) — see [[bathtub-filter-evidence-matrix]] Section 9 |
 | Supplier material credibility (NSF/ANSI 42) | Only as a media/material-level statement, never as a finished-product certification | "KDF55 has supplier-side NSF/ANSI 42 support via Zibo Onlyzone, Cert# C0843384-01. The finished KES product is not itself NSF-certified." | [[bathtub-filter-evidence-bibliography]] E1 (NSF cert C0843384-01, 2025-04-10) | Must always include the "finished product is not itself NSF-certified" disclaimer — otherwise the claim reads as a product cert |
 | Supplier material safety (EU food-contact) | Only as a media-level statement about extractable heavy metals | "KDF55 media tested compliant with EU food-contact standards (CM/RES 2013/9 + Regulation 1935/2004 Ch. III) — 22 heavy metals below maximum limits, sensory rating 0 / 4 for taste and odor." | [[bathtub-filter-evidence-bibliography]] E2 (TÜV SÜD 721682290C, 2023-07-13) | Supports material-safety credibility; do not transfer this to finished-product food-contact claim without separate testing |
 | KDF bacteriostatic property (biofilm inhibition) | Only as an internal-column property, never as a bath-water kill claim | "KDF media supports biofilm inhibition inside the filter column. In a 24-hour dynamic-contact test (ASTM E 2149-2020) against *S. aureus*, reduction exceeded 99.99%." | [[bathtub-filter-evidence-bibliography]] E3 (Guangzhou Institute of Microbiology WJ20221264, 2022-04-20; CNAS L0823) | **Must NOT claim** "kills bacteria in your bath water" — the test is 24h static; bath EBCT is 0.48–0.95 s (5-6 orders of magnitude shorter). Positioning must stay column-internal |
 | KDF lead-reduction capability | Only as a material-level static-test reference; never as a "product removes X% lead" claim | "KDF55 media documented 92.6% lead reduction in a 24-hour static soak test (FSDA M250616-30, 2025-06-23)." | [[bathtub-filter-evidence-bibliography]] E4 (Zhejiang Fries FSDA M250616-30) | **High misread risk** — customers may assume this applies to bath-fill conditions. Recommend avoiding this claim in marketing copy entirely for V1; keep it as a specification-sheet line only |
-| Life-model / free-chlorine reduction claim traceability | Only with full caveat chain | "Version A life model (system-total free-chlorine reduction ≥99% → ≥50% over ~25,467 L at 2 ppm free chlorine) scales from a supplier reference report (40g / 0.5-1mm CaSO3 / 8 L/min / 2 ppm; ZONET20251113001, 2025-12-26) by a factor of 3.25× (mass ratio) × 0.9 (efficiency)." | [[bathtub-filter-evidence-bibliography]] E5 + [[bathtub-filter-media-efficacy-at-bath-conditions]] Section 9 | Supplier internal lab; particle-size delta (0.5–1 mm reference → 3–4 mm production) not separately resolved. For external marketing copy, prefer the user-facing language "verify with included free-chlorine test strip" rather than quoting the numeric curve directly |
+| Life-model / free-chlorine reduction claim traceability | Only with full caveat chain | "Version A life model (system-total free-chlorine reduction ≥99% → ≥50% over ~21,550 L at 2 ppm free chlorine) scales from a supplier reference report (40g / 0.5-1mm CaSO3 / 8 L/min / 2 ppm; ZONET20251113001, 2025-12-26) by a factor of 2.75× (mass ratio) × 0.9 (efficiency)." | [[bathtub-filter-evidence-bibliography]] E5 + [[bathtub-filter-media-efficacy-at-bath-conditions]] Section 9 | Supplier internal lab; particle-size delta (0.5–1 mm reference → 3–4 mm production) not separately resolved. For external marketing copy, prefer the user-facing language "verify with included free-chlorine test strip" rather than quoting the numeric curve directly |
 
 ---
 
@@ -100,12 +103,13 @@ related:
 |---|---|---|
 | Eczema improvement / eczema benefit | "改善湿疹" / "缓解湿疹症状" / "减少湿疹发作" — finished-product efficacy for eczema has no credible evidence base in this category at realistic conditions | Very high — trust collapse + regulatory exposure |
 | Broad contaminant stack without proof | Claiming removal of heavy metals, VOCs, PFAS, pesticides, bacteria, viruses, or "hundreds of contaminants" without specific, independent test data per contaminant | Very high — false advertising risk |
+| "Catalytic carbon removes PFAS" (mechanism-misleading) | 「催化」对 PFAS **零贡献**——除 PFAS 纯靠吸附，催化炭 ≈ 普通 GAC；短链几乎无效，浴缸端短 EBCT 最不利，认证水平（~20 ppt）也达不到 EPA 4 ppt MCL。即便有部分吸附数据，把「催化」说成除 PFAS 仍属机理误导。可行性与证据见 [PFAS 除去可行性页](./bathtub-filter-point-of-use-pfas-removal-feasibility.md) | Very high — 机理误导 + false advertising；PFAS 属独立 RO/IX 路线 |
 | Universal-fit / "fits all tubs" | Any claim that implies compatibility with all or virtually all tub types without a tested and bounded spout matrix | High — support burden, return volume, review collapse |
 | Baby-safety implication without substantiation | "Safe for babies" / "safe for newborns" / "mom-approved for infant bathing" style claims that imply safety from harmful substances without specific evidence | Very high — regulatory and liability exposure |
 | Clinical language without clinical-grade backing | "Clinically proven" / "clinically tested to improve skin" / "doctor-recommended for eczema-prone skin" without the specific clinical evidence base these phrases imply | Very high — FTC / consumer protection risk |
-| Hard-water softening claims | Implying that a compact bath filter meaningfully softens hard water — current evidence does not support compact bath filters achieving clinically or practically meaningful water softening | High — evidence does not support this for compact filter form factors |
+| Hard-water softening claims | Implying that a compact bath filter meaningfully softens hard water — current evidence does not support this. **产品决策（2026-07-01）：本产品不做软化，硬水只提供阻垢剂选项；不夸大、不留"软化版 SKU 留邮箱"钩子；真软化属全屋软水器品类（非本产品）。** | High — evidence does not support softening for compact filters |
 | Chloramine removal claims **for V1 (free-chlorine media)** | V1 媒体（KDF55+CaSO₃）对氯胺基本无效，宣称氯胺去除不可防守。**注：V1.5 氯胺配置（催化炭+抗坏血酸钠浸泡）有界 claim 已移入 Conditional——见「2026-06-15 操作化增补」§B。** | High — chemistry mismatch；V1 仍为禁区 |
-| Carbon / no-pre-rinse / no-carbon-dust claims for V1 | V1 当前滤材为 PP棉 + KDF55 110g + CaSO3 130g，不含活性炭；"no pre-rinse required"、"no carbon dust"、"acid-washed coconut-shell carbon" 属于其他含碳版本资料，不纳入 V1 卖点 | Medium-high — wrong-version claim / material mismatch |
+| Carbon / no-pre-rinse / no-carbon-dust claims for V1 | V1 当前滤材为 过滤棉（PET）+ KDF55 130g + CaSO3 110g，不含活性炭；"no pre-rinse required"、"no carbon dust"、"acid-washed coconut-shell carbon" 属于其他含碳版本资料，不纳入 V1 卖点 | Medium-high — wrong-version claim / material mismatch |
 | Implied medical treatment or disease prevention | Any language that positions the product as treating, preventing, or managing a health condition (including skin conditions, respiratory sensitivity, etc.) | Very high — drug/device regulatory threshold risk |
 
 ---
@@ -129,7 +133,7 @@ related:
 | Claim category | Condition required | Example wording | Evidence requirement | Notes |
 |---|---|---|---|---|
 | **Chloramine reduction — V1.5 配置 only** | 仅限催化炭芯 + 抗坏血酸钠浸泡件配置；**禁「fast / instant / 秒解」**；按 4–8 分钟规划；须氯胺专属台架 | "Reduces combined chlorine (chloramine) during fill and soak — give it a few minutes." / 「注水+浸泡阶段中和氯胺。」 | Catalytic carbon = Kochany 2008 (Tier 1) + EBCT 数据；ascorbate bath = SFPUC + AWWA C655；接触时间 4–8 min（[氯胺证据页](./bathtub-filter-chloramine-media-research.md)） | **禁**：单芯全除氯胺 / NSF 177 支持氯胺 / 「快速」。验证须用**总氯试纸**，并提示抗坏血酸对比色法干扰的测量时机 |
-| **阻垢 adjunct（anti-scale）** | 仅设备防垢，非软化非护肤 | "Helps protect your tub and fixtures from scale buildup. **It does not soften your water.**" | 阻垢机理（sequestration）；非硬度去除 | **承重 disclaim**「不软化」必须随行；不得侵占去游离氯主媒体逻辑（媒体方案页边界） |
+| **阻垢 adjunct（anti-scale）** | 仅设备防垢，非软化非护肤 | "Helps protect your tub and fixtures from scale buildup. **It does not soften your water.**" | 阻垢机理（sequestration）；非硬度去除。**证据现状（2026-06-30）**：宗立阻垢颗粒/条为**同一款料**，现有第三方卫生安全报告（[CP210620](../../../raw/products/bathtub-filter/2026-06-30-zongli-antiscale-granule-hygiene-report.md)，23 项合格、TDS 仅+5–6mg/L）**+** 供应商自测「阻垢率~85%」；即**安全有第三方背书、功效仅供应商自测**，**仍无硬度/Ca·Mg 去除、无 finished-product 数据**——软化 claim 不成立 | **承重 disclaim**「不软化」必须随行；不得侵占去游离氯主媒体逻辑（媒体方案页边界）。**注：宗立卫生报告禁止用于广告宣传（说明第 8 条）+ 自送样，只能内部合规存档，不得引作功效背书** |
 | **井水 KDF85 模块** | 仅低中度铁/H₂S/味；高铁(>2–3ppm)劝退 | "Targets iron / sulfur-related bath odor and rust nuisance (low-to-moderate)." | KDF85 机理；nuisance 级 | **禁**：杀菌/除砷/硝酸盐/铀/高铁全屋替代/软化 |
 | **强化物理层（PP）** | 颗粒/沉积，非主过滤 KPI | "Extra sediment layer for particulate-heavy water." | 物理拦截 | 不得当主去污 KPI 讲 |
 | **诊断报告卡 / referral 卡个性化结论** | 继承全部红线 | "Your water: free-chlorine, very hard. Recommended: free-chlorine reduction core + anti-scale." | ZIP+试纸诊断 | 报告卡是对外表面，**同样禁 toxin-panic / 健康声称 / 软化承诺** |
@@ -154,6 +158,37 @@ related:
 | Referral 卡 | 个性化诊断结论 | 同报告卡红线；不刷屏不绑夸大 |
 | 包装/说明书 | Replacement-trigger + Verification-by-user + 氯胺浸泡时机 | 用 baths/gallons 不用 months；总氯试纸 + 抗坏血酸干扰时机提示 |
 | 广告 | Sensory/comfort + Transparency | 禁 eczema/baby-safe/scarcity；禁 best-value/cheapest |
+| **产品结构页 D1–D4** | Structure/industrial-design + Fit + Transparency | patent-pending 只以受理文件为准；🔴禁 patented/专利技术/通用适配；每条兼容带「不支持」边界 |
+
+---
+
+## 2026-07-01 结构 / IP 增补
+
+> 补入 Category 11（结构/工业设计/IP）的 claim 决策。措辞规则真理源在 [[bathtub-filter-kes-structure-ip-and-patent-governance]]（内部治理页）；本段是护栏摘要，优先级规则不变：先查 Banned。
+
+### 新增 Allowed（满足证据即用）
+
+| Claim category | Allowed | Example wording | Evidence requirement | Notes |
+|---|---|---|---|---|
+| **结构透明 / 可视化滤仓** | Yes | "A clear cartridge — see the real media, the amount, the order." | 透明硬壳滤仓为真实结构（[[bathtub-filter-kes-structure-transparent-housing]]） | **可见≠更有效**：透明是 trust 钩子，efficacy 另由去氯实测支撑 |
+| **导流 / 分层不混结构** | Yes — 讲设计选择 | "Strict layered media with an internal flow-diversion module — water passes each layer in order instead of channeling around it." | 内部导流实测（[[bathtub-filter-kes-structure-flow-diversion-module]]）；CaSO₃ 层 operational requirement | 解释技术选择，**非贬竞品、不点名 ASIN** |
+| **挂带适配（有界）** | Yes — 带不支持边界 | "21 mm flat silicone strap for standard US tub spouts; adjustable; no-overflow envelope up to 35 L/min." | 挂带设计 + spout 矩阵（[[bathtub-filter-kes-structure-flat-strap-fit]]，部分实测🟡） | **每条兼容 claim 必带「不支持」边界**；见 [[bathtub-filter-supported-spout-matrix]] |
+
+### 新增 Conditional
+
+| Claim category | Condition required | Example wording | Evidence requirement | Notes |
+|---|---|---|---|---|
+| **Patent pending** ✅ 已坐实（App# 19/281,644，申请日 2025-07-26） | 受理文件已确认 → **现可对外用**（从 Conditional 升为可用）；引用可写 "Patent pending (U.S. App. 19/281,644)" | "Patent pending (U.S. Application 19/281,644)." | [[bathtub-filter-kes-patent-19-281644-modular-terminal-water-treatment]]（primary source）；[[bathtub-filter-kes-structure-ip-and-patent-governance]] | 🔴 **仍禁**升级为 "patented / granted / 专利技术 / 获得专利 / 专利保护"（pending 非授权）。**⚠️ 专利说明书含软化/除重金属/UV 宽 claim，🔴 不得据此扩营销** |
+
+### 新增 Banned
+
+| Banned claim type | Why banned | Risk |
+|---|---|---|
+| "patented / 专利技术 / 获得专利" | KES 仅 1 项 **pending** 申请，未授权；pending ≠ patented | High（虚假宣传） |
+| "专利去氯技术" 等把 CaSO₃/KDF 说成 KES 专有 | 基础专利 2015 已过期，属公有领域、非 KES 专有 | Medium-high |
+| "universal fit / 所有浴缸 / 通用适配" | 实测有兼容边界；无 workaround 前提 | High（支持负担 + 退货） |
+| 引用竞品 "45+ 专利" 或据此对比 | FilterBaby 实际仅 1 项授权；夸大数据不可作对比基准 | Medium |
+| 未做正式 FTO 前的 "不侵权 / 行业首创" 声明 | draft FTO≠正式意见；prior-art 未检索 | ⚠️ 需律师，非营销可决 |
 
 ---
 
