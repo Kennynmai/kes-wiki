@@ -303,3 +303,9 @@ Example:
 - updated: raw/products/bathtub-filter/2026-04-15-ip-depth-and-visual-strategy-pass.md; wiki/products/bathtub-filter/bathtub-filter-ip-depth-and-brand-marker-map.md; wiki/products/bathtub-filter/bathtub-filter-visual-merchandising-and-creative-strategy.md; wiki/products/bathtub-filter/bathtub-filter.md
 - status: working
 - notes: clarified which brands appear more technically anchored versus marketing-led, and mapped the recurring visual worlds that seem to drive bathtub-filter conversion.
+
+## [2026-07-04] deepen | 淋浴螺纹标准调查（G1/2 vs NPT/NPSM）与美站文案口径
+- source: Amazon bullet 回写试点（PSAN204-BK-RE）文案质疑 → 三轮外部查证（Delta/High Sierra/Trausch NPSM 尺寸表/Kingston Brass/Terry Love）+ 内部工程履历与产品负责人确认
+- updated: wiki/products/kes-product-knowledge-base/products/bathroom-hardware/thread-standards-us-market.md
+- status: verified
+- notes: 最终结论=墙端 1/2" NPT 锥牙（螺纹密封）、花洒端 1/2"-14 直牙+垫圈密封（G1/2 与 NPSM 同 14 TPI、外径差 0.38mm 可直配）；"G 转 NPT 需转接头"的警告只适用锥牙场景不适用花洒端；文案规则（本地化标记打头/工程标记括号/禁跨标准改标/两端分开写）已固化进 ops 平台两个内容生成器 prompt；遗留待办=产品规格中台补录墙端 NPT。
