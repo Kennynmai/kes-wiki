@@ -48,6 +48,7 @@ related:
   - ./bathtub-filter-acf-supplier-research.md
   - ./bathtub-filter-north-america-special-water-sources.md
   - ./bathtub-filter-north-america-canada-asia-europe-water-report-2024-final.md
+  - ./bathtub-filter-v1-full-chain-critical-review-2026-09-05.md
   - ./bathtub-filter-kes-patent-19-281644-modular-terminal-water-treatment.md
   - ./bathtub-filter-v1-free-chlorine-removal-dimensions-materials.md
   - ./bathtub-filter-kes-positioning-and-problem-layer-decision-2026-06-15.md
@@ -202,6 +203,7 @@ related:
 | 资料导入索引 | [[bathtub-filter-2026-06-17-desktop-strategy-doc-import-index]]、[[bathtub-filter-2026-06-18-source-import-index]] | 桌面策略文档 10 份、桌面源文件夹 42 份、10-ASIN listing + 销量包（近 12 月合计 176,739 件 / $6.3M） | source-index |
 
 ## 已知缺口（2026-09-05 lint）
+- **全链路审查发现 5 项 P0**：Gate 1 spec 仍用裁定前配置；KDF 仓按 BOM 尺寸只能装约四成满；35 L/min 溢流包络来自非 V1 配置；试纸分辨率支撑不了 90/80/50% 三档触发；90 天订阅节奏约为寿命模型消耗量的 3 倍。详见 [[bathtub-filter-v1-full-chain-critical-review-2026-09-05]]。
 - **Filterbaby 剥离资料不在任何 repo（2026-09-05 已改口径）**：此前多页写"已迁到 `wiki/products/shower-filter/`"，经查 kes-wiki 与 kenny-wiki 及各自 git 历史都没有该目录。现统一口径为：已从 bathtub 语料剔除。其 99 条评论原文、客户图、scorecard 子集与 competitor brief **未保留在任何 repo**（源头为 ops-platform `dev_competitor_review` 库，可按需重新导出）；Filterbaby 品牌研究见 kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md` 与本 repo [[kes-shower-filter-positioning-patent-analysis]]。
 - **COGS 仍缺**：BOM 已有部件 / 尺寸 / 材质，但没有单价与渠道 margin，D 层 COGS 侧仍 🟡。
 - **寿命 / 去氯数字全部是内部模型或内部比色**：在 Gate 1 第三方 DPD 完成前不得作为 label claim。
@@ -217,6 +219,7 @@ related:
 
 ## 建议阅读顺序
 ### 先看这几页
+-1. [[bathtub-filter-v1-full-chain-critical-review-2026-09-05]]（2026-09-05 全链路批判审查：配置 / 参数 / 包装 / 营销 / 文案的交叉一致性问题与修复清单）
 0. [[bathtub-filter-kes-patent-19-281644-modular-terminal-water-treatment]] 与 [[bathtub-filter-v1-free-chlorine-removal-dimensions-materials]]（V1 产品事实真理源）
 1. [[bathtub-filter-kes-v1-execution-roadmap-2026-06-15]]
 2. [[bathtub-filter-2026-06-17-desktop-strategy-doc-import-index]]
@@ -422,6 +425,7 @@ related:
 - [Bathtub Filter KES Acquisition Engine MVP Spec](./bathtub-filter-kes-acquisition-engine-mvp-spec.md)
 - [Bathtub Filter Claim Register](./bathtub-filter-claim-register.md)
 - [Bathtub Filter North America / Canada / Asia / Europe Water Report 2024 Final](./bathtub-filter-north-america-canada-asia-europe-water-report-2024-final.md)
+- [V1 全链路批判审查 2026-09-05](./bathtub-filter-v1-full-chain-critical-review-2026-09-05.md)
 - [KES 专利申请 19/281,644](./bathtub-filter-kes-patent-19-281644-modular-terminal-water-treatment.md)
 - [V1 除游离氯版尺寸与材质表（BOM）](./bathtub-filter-v1-free-chlorine-removal-dimensions-materials.md)
 - [KES 定位与问题层决策 2026-06-15](./bathtub-filter-kes-positioning-and-problem-layer-decision-2026-06-15.md)

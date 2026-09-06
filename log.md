@@ -9,6 +9,13 @@ Example:
 - status: pending-owner-review
 - notes: short summary of what changed
 
+## [2026-09-05] review | bathtub filter V1 — 配置 / 参数 / 包装 / 营销 / 文案 全链路批判审查
+- source: wiki/products/bathtub-filter/（BOM、专利、efficacy §9/9.5、25lpm spec、卖点页、GTM、website copy、claim register）+ site/（P1/P2/P5/T2/T3/CH1/CH2/P4/SVC 订阅/维护）
+- updated: wiki/products/bathtub-filter/bathtub-filter-v1-full-chain-critical-review-2026-09-05.md (new); bathtub-filter.md; bathtub-filter-research-coverage-gaps.md; index.md; dashboards/recent-updates.md; log.md
+- status: pending-owner-review
+- notes: |
+  交叉审查发现 5 项 P0：① Gate 1 台架 spec 仍以裁定前配置（KDF 110 / CaSO₃ 130 / PP / 3,481 L / 143 baths）为基准；② 按 BOM 几何核算 KDF55 130 g 在 Ø117×14 mm 环形仓内只能装 36–44%（摊平床厚 5–6 mm，P1/P2 写 15 mm），透明仓会显得半空；③ 35 L/min 无溢流包络来自 204 g KDF + 45 g 炭配置，非 V1；④ 试纸粗档分辨率下 90/80% 触发在 1–2 ppm 进水时不可见，只有 50% 点可见，T3 与 skip-if-still-good 不可执行；⑤ GTM 90 天订阅 = 寿命模型消耗量约 3 倍，per-bath 与 TCO 数字不自洽。另有 P1：BOM 裁定只做了寿命重算未做性能重算、T2 ≥99% 与其它表面状态不一、承重定位句 harm-reduction 自带健康框架、首屏透明主张未回应四大购买动机、维护指令与"挂上就能用"冲突、refill 整仓/介质未拍板、Maker note 占位。已写成修复清单（§6），不改动被审查页面。
+
 ## [2026-09-05] maintain | bathtub filter — Filterbaby 剥离资料口径统一（shower-filter 目录不存在）
 - source: 跨 kes-wiki / kenny-wiki 排查（含 git 历史）
 - updated: wiki/products/bathtub-filter/bathtub-filter.md; bathtub-filter-research-coverage-gaps.md; bathtub-filter-2026-06-18-source-import-index.md; bathtub-filter-kes-next-step-execution-plan-v1.md; bathtub-filter-11-asin-public-competitor-evidence-2026-06-02.md; bathtub-filter-amazon-review-image-installation-packaging-leads-2026-06-02.md; bathtub-filter-competitor-claim-review-accuracy-scorecard-2026-06-02.md; bathtub-filter-competitor-customer-installation-target-matrix-2026-06-02.md; 另修 4 处 related 相对路径错误（pfas → site/catalytic-carbon、curtains、validation-protocol、labeling-analysis）

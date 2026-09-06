@@ -303,6 +303,10 @@ related:
 - 此前 8 个页面把 Filterbaby `B0FNVDJRSQ` 资料标记为"已迁到 `wiki/products/shower-filter/`"，经查 kes-wiki 与 kenny-wiki 均无该目录。**2026-09-05 已统一改口径**：已从 bathtub 语料剔除。其 99 条评论原文、客户图、scorecard 子集与 competitor brief **未保留在任何 repo**（源头为 ops-platform `dev_competitor_review` 库，可按需重新导出）；Filterbaby 品牌研究见 kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md` 与本 repo [[kes-shower-filter-positioning-patent-analysis]]。
 - 已清理：`acf-supplier-research.md` 无 frontmatter重复副本已删；inbox 中 3 份已入库的 bathtub 文档已删；5 页补齐 frontmatter；3 页去除 UTF-8 BOM；3 处断链修复；~95 页补进 `index.md`。
 
+### 2026-09-05 全链路审查（新增卡点）
+
+[[bathtub-filter-v1-full-chain-critical-review-2026-09-05]] 对 BOM、寿命模型、台架 spec、包装、GTM、文案做了交叉核算，新增 5 项 P0：Gate 1 spec 配置过期（F1）、KDF 仓填充率约 36–44%（F3）、溢流包络来自非 V1 配置（F4）、试纸分辨率不支持三档触发（F6）、订阅节奏与寿命模型矛盾（M3）。这些在 Gate 1 送测前必须先关闭，否则测的不是出货配置。
+
 ## 战略意义
 
 话题不缺研究材料；V1 BOM、自有专利申请与内容体系也已入库。当前仍缺的是**Gate 1 第三方 DPD 测试、外部 RFQ、COGS / margin 模型、以及把扁挂带方案变成 supported / conditional / not-supported 的实物验证记录**。真实退货/售后后台数据不再作为公开补资料任务。
