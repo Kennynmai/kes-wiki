@@ -9,7 +9,7 @@ confidence: medium
 officiality: draft
 domain: market
 domains: [market, product-strategy, bathroom-hardware, metal-storage, north-america, europe, manufacturing, ai-commerce]
-source_count: 5
+source_count: 9
 review_cycle: quarterly
 verification_status: spot-checked
 related:
@@ -17,13 +17,14 @@ related:
   - north-america-growth-marketplace-opportunity-research
   - kes-ai-era-amazon-content-strategy-judgment
   - amazon-rufus-cosmo-e-geo-kes-response
+  - kes-certifications-and-compliance-register
 ---
 
 # 美欧家装五金 Mass Customization 机会评估 — AI 接单 / 参数化设计 / 在地加工 / 快速交付
 
 **调研日期**：2026-09-06
 **调研范围**：US + EU（DE / UK / FR / NL / DK / IT）；亚马逊 US / DE / UK 站关键词实测 + 4 路桌面调研（美国供给、欧洲供给、技术与运营底座、市场规模与需求信号）
-**结论**：**整体模式不做；窄切片有条件试点。** "AI 接单 → 在地加工成品 → 天级交付"在装饰五金上不成立，卡在饰面工艺而非 AI。KES 可切入的是两层更窄的东西：① 零固定成本的"尺寸阶梯 + AI 选配助手"（现有平台内做）；② 哑光黑粉末涂层的平板/折弯钣金品类走美国按需激光网络试点（通风口盖、搁架支架）。毛巾杆 / 扶手的切长定制只在 ① 验证出信号后，以 Emtek 式"中国预饰面 + 美国组装"进入。**EU 不作为首发市场。**
+**结论**：**整体模式不做；窄切片有条件试点。** "AI 接单 → 在地加工成品 → 天级交付"在装饰五金上不成立，卡在饰面工艺而非 AI。KES 可切入的是两层更窄的东西：① 零固定成本的"尺寸阶梯 + AI 选配助手"（现有平台内做）；② 哑光黑粉末涂层的平板/折弯钣金品类走美国按需激光网络试点（通风口盖、搁架支架）。毛巾杆 / 扶手的切长定制只在 ① 验证出信号后，以 Emtek 式"中国预饰面 + 美国组装"进入。**EU 不作为首发市场。** 功能件追问（§9）：切入点不是定制地漏主体，而是**替换地漏盖板 / 格栅的尺寸匹配**——平板 304 激光件绕开饰面墙，AI 用于拍照识别尺寸而非设计。
 
 ---
 
@@ -215,6 +216,68 @@ AI 接单 ──→ 参数化设计 ──→ 在地加工 ──→ 饰面 ─�
 
 ---
 
+## 9. 追问：地漏与其他功能五金件 — 尺寸硬约束品类有没有切入点
+
+**追问日期**：2026-09-06（同日）。功能件与装饰件的根本差别：尺寸不合就装不上，不是审美偏好。因此单独评估。
+
+### 9.1 结论先行
+
+**有，但切入点不是"定制地漏"，而是"替换盖板 / 格栅的尺寸匹配"。** 三个理由：
+
+1. **地漏主体的定制供给并不弱。** 欧洲现场裁切（Viega Advantix Vario 300–1200 mm、Geberit CleanLine 30–90 cm、Schlüter VARIO）已是成熟品类；慕尼黑小厂 Combia 用"统一价 €369 + 5 mm 步进 + 3–5 天"把定制长度做成了标准商品。美国 Infinity Drain Site Sizable 现场切割、Goof Proof 可调 6 档、Lauxes 阶梯价。**主体不是缺口**，且主体是涉水排水件，落在 IAPMO / DIN EN 1253 认证范围。
+2. **替换盖板 / 格栅是所有品类里"痛点最硬 + 定制供给最弱"的一档，且两边一致。** 美国：圆 3.25 / 4 / 4.25 / 5" × 螺孔距 2-5/8" / 2-7/8" / 3-1/4" / 3-3/8" 双重组合，品牌不互换（Oatey vs Sioux Chief），论坛求助无解；唯一定制方 Designer Drains 要手工测两项、定制价不公开、装饰款 $85–340。欧洲：100 / 115 / 143 / 150 mm 品牌专属，定制供给只有 deckelrost（表单、无价）和 made-custom.com（奥地利，€159，2–3 周），**无一家有即时配置器，无一家有拍照识别**。
+3. **盖板是平板 304 激光件，天然绕开了 §3 的饰面墙。** 拉丝不锈钢是 #4 板材的原生表面，不需要电镀 / PVD；哑光黑可粉末。这正是 SendCutSend（2–4 天）/ 247TailorSteel（48 h）能即时报价的工艺。§3 判定"KES 核心饰面在地不可做"的约束，在这个品类里不成立。
+
+### 9.2 亚马逊需求形态（一手 ABA，2026-08-23 ~ 08-29 周）
+
+| 站 | 大词（周搜索量 / 转化率） | 尺寸词 | 头部 ASIN 怎么解决尺寸 |
+|---|---|---|---|
+| US | shower drain cover **13,994 / 0.260**；floor drain cover 719 / 0.168；sink grid 759；linear shower drain 1,077；shower niche 3,561 | 4 / 4.25 / 5 / 6 inch 全部无排名；但 "shower drain cover replacement" 转化 0.288、"4 inch" 转化 0.297 | OXO "Fits Standard"、ShowerShroom "No Size" —— **通用 hair catcher 吃掉大词**；真正做适配的是 6.5" garage drain replacement（$17.99，208 评论）；水槽底格头部是**按水槽型号出的尺寸矩阵**（26-1/16" × 14-1/16"，$34，2,851 评论） |
+| DE | lichtschachtabdeckung **2,800**；übergangsprofil 1,747；duschrinne 999；bodenablauf 455 | 全部无排名 | 采光井盖头部 = **"kürzbar" DIY 套件** €29.99；€99.9 Made in Germany 不锈钢版 119 评论 |
+| UK | drain cover 3,202；shower drain cover 2,347；manhole cover 617（CPC £2.51） | 全部无排名 | HNNHOME 90 / 115 mm 双规格替换盖；Joseph Joseph **Adjustable** 水槽垫 6,080 评论 |
+
+**读法**：功能件替换大词比装饰件大（shower drain cover 是 towel bar 的 2 倍），转化率是装饰件的 1.7 倍，带尺寸 / 替换意图的词转化更高但量落到无排名。亚马逊用四种方式消化尺寸问题：**通用 / 可调 / 可裁 / 型号矩阵**，四种都不需要在地加工。用户的真问题是"我的旧地漏是什么尺寸"，不是"我要定制"。
+
+### 9.3 功能件子品类矩阵
+
+| 子品类 | 尺寸痛点 | 现有定制供给 | 在地工艺 | 认证暴露 | KES 复用 | **判断** |
+|---|---|---|---|---|---|---|
+| **替换地漏盖 / 格栅（圆 / 方，US + EU）** | 硬：尺寸 × 螺孔距双重组合，品牌不互换 | 极弱：Designer Drains 手工测量无价；deckelrost 表单；made-custom €159 / 2–3 周；无配置器、无拍照识别 | ✓ 平板 304 激光，拉丝原生，粉末可选 | 低：替换盖板非排水主体（EU 格栅有 EN 1253-1 荷载等级 K3，待核） | ✓ 304 平台、浴室品类 | **切入点 #1** |
+| **线性地漏替换盖板（tile-insert / 格栅）** | 硬：槽体长宽 mm 级 | 极弱：只有 made-custom（AT） | ✓ 同上，最长 1.2–1.5 m 平板 | 低 | ✓ | **切入点 #1 的延伸** |
+| **水槽底格** | 硬：型号绑定，Ruvati "不兼容任何其他"；HD 多起不合退货；Houzz 求助无供应商 | 空白：Create Good Sinks 仅限自家，Matrix 仅 B2B | ✗ 线材成形 + 焊接，非平板 | 无 | ○ 厨房 304 相邻 | **做"型号矩阵 + AI 识别"，不做定制** |
+| 线性地漏主体 | 中：4" 档位 vs 墙到墙 | 强：现场裁切（Viega / Geberit / Infinity S）、Combia 3–5 天统一价、Lauxes 阶梯 | ✗ 需焊接 + 存水弯 | **高**：IAPMO / ASME A112.6.3 / DIN EN 1253 | ○ | **不做定制；亚马逊 US 缺 $100–150 的 304 现场裁切套件，作为标准品课题另议** |
+| 不锈钢淋浴壁龛定制 | 中 | 弱：Pamper Haus $280 / 6–7 周；Saxoboard €149 | ✗ 折弯 + 焊接盒体 | 无 | ○ | **不做**：现货 $39–90 密集便宜 |
+| 采光井盖 / 钣金 / 窗台板 / 厨房后挡板（DE） | 硬 | **极强**：≥6 家采光井盖配置器 €72 起 3–5 天"量错免费重做"；≥8 家钣金配置器 €2 起 | ✓ | 无 | 低 | **不做**：红海 |
+| 窗井盖（US，1,328/周） | 硬 | 弱：三家全电话估价、无即时价 | ✓ 聚碳酸酯 / 网 + 铝框 | 无 | ✗ 非 KES 材料 | **观察**：德国采光井盖模式在美国的空位，非 KES 品类 |
+| UK 隐藏式井盖 bespoke | 中 | 报价制 24h，DE 已有配置器 | ✓ 但重型钢 | B125 荷载 | ✗ | **不做**：B2B / 工程 |
+| 收边条 / 楼梯防滑条切长 | 弱（现场自切） | UK ClickMetal 在线切长；US 无 | ✓ | 无 | ✗ | **不做**：单价 / 英尺太低 |
+| 衣柜挂杆 / 定制玻璃 / 石材门槛 / 宠物门 | — | 已成熟（即时价、1–2 天） | — | — | ✗ | **不做** |
+
+### 9.4 切入形态：识别优先，定制兜底
+
+这是整份研究里 **AI 唯一真正有增量价值的位置**：不是设计，是**识别**。Designer Drains 要客户手工测跨距和螺孔距；made-custom 只给文字量尺说明；欧洲所有配置器都是手动输入 mm。没有人做"拍一张旧盖板照片 → 识别尺寸 / 螺孔距 / 品牌 → 给出匹配 SKU 或定制报价"。
+
+```
+用户拍旧盖板 ──→ AI 识别（直径 / 方边 / 螺孔距 / snap-in vs screw-in / 品牌族）
+                    ├─ 命中矩阵 → 现货 304 替换盖（Amazon 变体，1–2 天）      ← 80% 场景，评论飞轮
+                    └─ 未命中   → 参数化模板 → 在地激光 304 #4 平板（US 2–4 天 / EU 48 h）→ 直发  ← 长尾，不可退
+```
+
+- **Tier 0（现有平台）**：把 US 尺寸 × 螺孔距网格（4" × 3-3/8"、4.25" × 2-5/8"、4-3/16" × 3-1/4"、5"、6.5" garage）和 EU 网格（100 / 115 / 143 / 150 mm；线性槽 60 / 70 / 80 / 90 / 100 / 120 cm 盖板）做成 304 替换盖板矩阵，父 ASIN 变体。这与 [[unlacquered-brass-finish-gonogo-2026]] §7 的"复古造型加在现有 304 平台"是同一逻辑：**在 KES 已有的材料 + 渠道上加尺寸维度**。
+- **AI 识别助手**放在 listing A+ / 官网 / Rufus 问答：解决"我的是哪个尺寸"。这是 [[kes-ai-era-amazon-content-strategy-judgment]] 路线的直接应用场景，且有可量化 KPI（尺寸不合退货率）。
+- **Tier 1（在地定制兜底）**：矩阵未命中的长尾走 SendCutSend / 247TailorSteel 激光 304 #4 平板，参数化模板 5 个参数（外径 / 方边、孔距、孔径、开孔图案、厚度），2–3 周对手（made-custom）→ 一周。不可退（Amazon 定制品政策 + Art.16(c)），用 Jarolift 式"量错一次免费重做"替代。
+- **Gate**：Tier 0 上线 6 个月，替换盖板矩阵中"非主流尺寸"变体销量占比与客服"没有我的尺寸"频次；AI 助手使用率与尺寸不合退货率变化。Tier 1 单件毛利 ≥ 40%、交付准时 ≥ 95%。
+
+### 9.5 本节不确定性与待字段工作
+
+1. **EN 1253-1 荷载等级（K3）是否适用于替换格栅零售**，以及美国替换盖板是否触及 ASME A112.6.3 —— 需对照 [[kes-certifications-and-compliance-register]] 核；本节假设"盖板 ≠ 排水主体"，未验证。
+2. **拍照识别的可行精度**：螺孔距 2-5/8" vs 2-7/8" 差 1/4"，需参照物（硬币）或已知直径校准；未做原型。
+3. **需求规模**：地漏盖尺寸痛点只有个案（AskMeHelpDesk、Terry Love、Printables 3D 打印、Amazon.de 评论片段），无退货率 / 搜索量数据。ABA 大词被通用 hair catcher 占据，替换格栅的真实份额未知。
+4. **Amazon.de 上 €10–13 的中国产通用盖**说明低端已被覆盖；KES 304 矩阵的定价空间（$18–35）需实测。
+5. **水槽底格型号矩阵**：Elkay 约 150 型号，做全矩阵的 SKU 成本未估。
+
+---
+
 ## Related pages
 
 - [[unlacquered-brass-finish-gonogo-2026]] — 同一方法论坑（用亚马逊判断站外品类）与"KES 是不锈钢平台"的材料约束
@@ -228,3 +291,6 @@ AI 接单 ──→ 参数化设计 ──→ 在地加工 ──→ 饰面 ─�
 - `raw/strategy/custom-hardware/2026-09-06-eu-custom-hardware-supply-scan.md` — 欧洲供给侧 + 法规（Directive 2011/83/EU Art.16(c)、IOSS / €3 关税、PPWR、EN 1906、DIN 18040）
 - `raw/strategy/custom-hardware/2026-09-06-ai-configurator-and-local-fab-stack.md` — Tylko / Emtek / SendCutSend / PVD 瓶颈 / Shapeways 等失败案例
 - `raw/strategy/custom-hardware/2026-09-06-market-size-and-demand-signals.md` — Etsy 10-K、Masco / Hillman / ASSA 财报、Houzz 2025、NAHB 房龄、Lowe's Mylow / Home Depot Magic Apron
+- `raw/strategy/custom-hardware/2026-09-06-amazon-keyword-functional-hardware-signal.md` — §9 功能件 US / DE / UK ABA 数据 + 头部 ASIN 尺寸解法
+- `raw/strategy/custom-hardware/2026-09-06-us-functional-hardware-custom-supply.md` — §9 美国：线性地漏 / 替换盖板 / 水槽底格 / 壁龛 / 窗井盖等
+- `raw/strategy/custom-hardware/2026-09-06-eu-functional-hardware-custom-supply.md` — §9 欧洲：Duschrinne 现场裁切与定制 / Lichtschacht / 井盖 / Ablaufrost / 钣金红海
