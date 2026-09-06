@@ -9,6 +9,13 @@ Example:
 - status: pending-owner-review
 - notes: short summary of what changed
 
+## [2026-09-06] synthesize | bathtub filter — 营销版本分层与故事版规则
+- source: 2026-09-06 策略讨论（理性版 / clean material 版 / 故事版）；审查页 M2；评论标签购买动机占比
+- updated: wiki/products/bathtub-filter/bathtub-filter-kes-marketing-layers-and-story-format-2026-09-06.md (new); bathtub-filter-kes-clean-formula-emotional-positioning.md §十一; bathtub-filter-kes-website-copy-v1.md（Hero 场景句槽位）; bathtub-filter.md; index.md; dashboards/recent-updates.md; log.md
+- status: done（框架）/ pending-ab-test（主次由上市后 A/B 定）
+- notes: |
+  决策：不新增第三个定位版本。理性版 = 证据层（register / T2 / T3），clean material = 品牌故事层（情感定位页），故事版 = 用户故事格式层，只做 Hero 轮换、社媒前 3 秒、邮件开头与包装内卡片，不新开页面。页面固定顺序 场景 → 转折 → 证明。故事版六条规则（同一套 claim、只讲 routine 不讲结果、婴幼儿只作场景、硬水以诊断为转折、真人前不叫证言、不新开页面）与三条人群脚本模板（城市敏感肌 / 幼儿家庭 / 硬水城市）附逐句护栏。创始人故事、恐惧型、成就型、"We clean the water that cleans you" 式口号明确不做。验证用 H 层 $3,200 A/B：证据 / 品牌故事 / 用户故事三种 Hero 开场，退货率为主指标。
+
 ## [2026-09-05] fix | bathtub filter V1 — 全链路审查修复批次（28 页）
 - source: wiki/products/bathtub-filter/bathtub-filter-v1-full-chain-critical-review-2026-09-05.md §6 修复清单
 - updated: 25lpm bench spec（基准配置改 BOM、新增 §2.5 装填 / 溢流 / 起泡复核）; media-efficacy §9.5（旧配置标注）; T2（≥99% 降 🟡、35 L/min 降 🟡）; website-copy-v1（Hero 改 收益→机制→证明、tagline / 对照语气、key facts 拆流量、更换句改试纸触发、Maker note 团队署名）; Amazon listing spec（B4 去 35、B5 去 96/121）; P1 / P2（床厚→仓有效高 14 mm、#8/#9 升 🟢、125 mm、试纸量程要求、refill 决策挂链）; T3（新增 §〇 试纸可执行触发）; post-purchase / IFU / packaging §三 #2 同步; care guide §一 改在位滴干 + 每周深晾（🟡 待 Module 4）; claim register（Positioning 行去 harm-reduction、Fit 行去 35、新增 2026-09-05 增补段）; FAQ / 结构总览 / 挂带页 / 技术笔记 同步; 卖点页 §5 浴盐卖点降 🟡; GTM（订阅按寿命分档、per-bath 与 TCO 重算）; 订阅页默认周期; decision register 新增 D-09～D-12; validation protocol Module 3 / 4 新增 5 项; 挂带设计页 / 支持龙头矩阵 / 安装指南 124→125 mm; hub / gap doc / 审查页 §8 处理记录; log.md; dashboards/recent-updates.md

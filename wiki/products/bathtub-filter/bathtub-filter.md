@@ -3,7 +3,7 @@ type: product
 status: active
 owner: product
 created: 2026-04-11
-updated: 2026-09-05
+updated: 2026-09-06
 visibility: company
 confidence: medium
 officiality: draft
@@ -49,6 +49,7 @@ related:
   - ./bathtub-filter-north-america-special-water-sources.md
   - ./bathtub-filter-north-america-canada-asia-europe-water-report-2024-final.md
   - ./bathtub-filter-v1-full-chain-critical-review-2026-09-05.md
+  - ./bathtub-filter-kes-marketing-layers-and-story-format-2026-09-06.md
   - ./bathtub-filter-kes-patent-19-281644-modular-terminal-water-treatment.md
   - ./bathtub-filter-v1-free-chlorine-removal-dimensions-materials.md
   - ./bathtub-filter-kes-positioning-and-problem-layer-decision-2026-06-15.md
@@ -323,6 +324,7 @@ related:
 - 内容与视觉：[[bathtub-filter-sns-creator-and-visual-taxonomy]]、[[bathtub-filter-visual-merchandising-and-creative-strategy]]
 
 ### V1 产品事实与 GTM（2026-06/07）
+- [[bathtub-filter-kes-marketing-layers-and-story-format-2026-09-06]] — 营销三层模型与故事版规则（2026-09-06）
 - [[bathtub-filter-kes-patent-19-281644-modular-terminal-water-treatment]]
 - [[bathtub-filter-v1-free-chlorine-removal-dimensions-materials]]
 - [[bathtub-filter-kes-positioning-and-problem-layer-decision-2026-06-15]]

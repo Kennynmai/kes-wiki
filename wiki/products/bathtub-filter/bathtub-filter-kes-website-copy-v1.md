@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-15
-updated: 2026-09-05
+updated: 2026-09-06
 visibility: team
 confidence: medium
 officiality: draft
@@ -32,6 +32,7 @@ verification_status: working
 ### 区块 1 — Hero
 - **Eyebrow**：`Filter media you can see. A formula you can read.`（CN：看得见的滤料，读得懂的配方。）
 - **H1**：`Less chlorine in your bath. See the media that does it. Test it yourself.`（2026-09-05 改：首屏顺序改为 收益 → 机制 → 证明；原 H1 `You read your food labels…` 移作区块 2 的引子）
+- **场景句槽位（🟡 待 A/B）**：H1 之上可放一句用户故事开场，默认 S-A：`I take a bath most nights. For years the first thing I noticed was the smell.`（模板与逐句护栏见 [[bathtub-filter-kes-marketing-layers-and-story-format-2026-09-06]] §三；A/B 变体见 §五）
 - **收益句护栏**："less chlorine" = 游离氯去除的事实陈述，属 register Allowed；不写 softer skin / healthier；感官表达只在区块 2 用 Conditional sensory 行措辞（"less chlorine smell, a bath that feels different"）
 - **Sub**：`A clear cartridge — the media, the amount, the order, all visible.`（2026-09-05 删除 "Clean is what you can see."：clean 会被读成水更干净，与「可见 ≠ 更有效」护栏冲突）
 - **CTA 主**：`Find your water →`　**CTA 次**：`See what's inside`

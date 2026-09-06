@@ -168,6 +168,7 @@
 - [Assumption & Hypothesis Register](wiki/products/bathtub-filter/bathtub-filter-assumption-register.md)
 
 ### V1 Product Facts, IP & GTM (2026-06 / 07)
+- [营销版本分层与故事版规则 2026-09-06](wiki/products/bathtub-filter/bathtub-filter-kes-marketing-layers-and-story-format-2026-09-06.md)
 - [V1 全链路批判审查（配置 / 参数 / 包装 / 营销 / 文案）2026-09-05](wiki/products/bathtub-filter/bathtub-filter-v1-full-chain-critical-review-2026-09-05.md)
 - [KES Bathtub Filter · 获客引擎 MVP 规格（可交付 build）](wiki/products/bathtub-filter/bathtub-filter-kes-acquisition-engine-mvp-spec.md)
 - [KES Bathtub Filter · Clean-Formula 感性定位（深化）](wiki/products/bathtub-filter/bathtub-filter-kes-clean-formula-emotional-positioning.md)

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-09-06
 visibility: team
 confidence: medium
 officiality: draft
@@ -281,6 +281,8 @@ KES 的英雄动作只有一个：**把盒子做成透明的。** 把「看不�
 ---
 
 ## 十一、和理性版的接缝（别让两版打架）
+
+> 2026-09-06 更新：三层模型（证据层 / 品牌故事层 / 用户故事层）与"故事版"规则已固化在 [[bathtub-filter-kes-marketing-layers-and-story-format-2026-09-06]]。本页是品牌故事层的真理源；用户故事只作格式层，不产生新 claim。
 
 - **感性版负责「停下 + 在乎」**：首屏、社媒、视觉、宣言。
 - **理性版负责「相信 + 复购」**：产品页证据模块、第三方 DPD、EEAT/GEO、teardown。
