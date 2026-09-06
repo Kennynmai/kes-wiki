@@ -9,6 +9,13 @@ Example:
 - status: pending-owner-review
 - notes: short summary of what changed
 
+## [2026-09-06] write | bathtub filter — 三条人群故事完整版
+- source: bathtub-filter-kes-marketing-layers-and-story-format-2026-09-06.md §三 模板
+- updated: 同页新增 §三A（三条完整版 + CN 对齐 + Hero / 社媒 / 邮件 / 包装内卡切片 + 逐段护栏 + 永不说清单 + 共同七节拍结构 + 上线检查表）; log.md
+- status: draft（Illustrative scenario，待 UGC 替换）
+- notes: |
+  S-A 城市敏感肌（"The water smells like water"）、S-B 幼儿家庭（"Sunday night is bath night"，内嵌 "nobody can honestly tell you that" 承重句）、S-C 硬水城市（"The scale is still my problem. The chlorine isn't."，内嵌 "does not soften"）。三条共用七节拍：日常 → 注意到 → 旧答案 → 诚实边界 → 自测 → 看见 → 现在的 routine；每条必有一句承重 disclaim，读数只描述不给百分比，收束句宾语只能是水 / 气味 / 流程。
+
 ## [2026-09-06] synthesize | bathtub filter — 营销版本分层与故事版规则
 - source: 2026-09-06 策略讨论（理性版 / clean material 版 / 故事版）；审查页 M2；评论标签购买动机占比
 - updated: wiki/products/bathtub-filter/bathtub-filter-kes-marketing-layers-and-story-format-2026-09-06.md (new); bathtub-filter-kes-clean-formula-emotional-positioning.md §十一; bathtub-filter-kes-website-copy-v1.md（Hero 场景句槽位）; bathtub-filter.md; index.md; dashboards/recent-updates.md; log.md
