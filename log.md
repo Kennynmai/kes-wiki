@@ -9,6 +9,13 @@ Example:
 - status: pending-owner-review
 - notes: short summary of what changed
 
+## [2026-09-05] fix | bathtub filter V1 — 全链路审查修复批次（28 页）
+- source: wiki/products/bathtub-filter/bathtub-filter-v1-full-chain-critical-review-2026-09-05.md §6 修复清单
+- updated: 25lpm bench spec（基准配置改 BOM、新增 §2.5 装填 / 溢流 / 起泡复核）; media-efficacy §9.5（旧配置标注）; T2（≥99% 降 🟡、35 L/min 降 🟡）; website-copy-v1（Hero 改 收益→机制→证明、tagline / 对照语气、key facts 拆流量、更换句改试纸触发、Maker note 团队署名）; Amazon listing spec（B4 去 35、B5 去 96/121）; P1 / P2（床厚→仓有效高 14 mm、#8/#9 升 🟢、125 mm、试纸量程要求、refill 决策挂链）; T3（新增 §〇 试纸可执行触发）; post-purchase / IFU / packaging §三 #2 同步; care guide §一 改在位滴干 + 每周深晾（🟡 待 Module 4）; claim register（Positioning 行去 harm-reduction、Fit 行去 35、新增 2026-09-05 增补段）; FAQ / 结构总览 / 挂带页 / 技术笔记 同步; 卖点页 §5 浴盐卖点降 🟡; GTM（订阅按寿命分档、per-bath 与 TCO 重算）; 订阅页默认周期; decision register 新增 D-09～D-12; validation protocol Module 3 / 4 新增 5 项; 挂带设计页 / 支持龙头矩阵 / 安装指南 124→125 mm; hub / gap doc / 审查页 §8 处理记录; log.md; dashboards/recent-updates.md
+- status: done（桌面侧）/ pending-engineering（D-10 KDF 仓装填、V1 溢流复测、在位滴干霉变观察、D-11 试纸量程、D-09 refill 形态、D-12 LTV 重跑）
+- notes: |
+  按审查页 §6 清单执行。原则：凡数字口径与 BOM 或寿命模型冲突的，改到 BOM / T3；凡对外数字来源于旧配置或内部模型的，降 🟡 并从 Amazon 与盒面撤出；凡需要物理验证才能定的（KDF 仓装填、溢流包络、在位滴干霉变、试纸量程），写成测试项与决策项而不是直接改结论。对外承重定位句由 "harm-reduction module" 改为 "free-chlorine reduction module"，中文「减害」改「除游离氯」；历史页（concept brief、PRD、架构假设、批判分析）保留原句不改。订阅从 90 天改为按水型分档（9 / 12 个月），TCO 由 $161 修正为约 $99（2 ppm），同时 refill 收入预期缩到原估算 1/3，需 finance 重跑 LTV。
+
 ## [2026-09-05] review | bathtub filter V1 — 配置 / 参数 / 包装 / 营销 / 文案 全链路批判审查
 - source: wiki/products/bathtub-filter/（BOM、专利、efficacy §9/9.5、25lpm spec、卖点页、GTM、website copy、claim register）+ site/（P1/P2/P5/T2/T3/CH1/CH2/P4/SVC 订阅/维护）
 - updated: wiki/products/bathtub-filter/bathtub-filter-v1-full-chain-critical-review-2026-09-05.md (new); bathtub-filter.md; bathtub-filter-research-coverage-gaps.md; index.md; dashboards/recent-updates.md; log.md

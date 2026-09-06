@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -71,7 +71,7 @@ related:
 
 复购不靠黑箱倒计时，靠**你自己测到该换了**。🟢
 
-- 游离氯试纸「后」水档位回升、接近「前」水 → 去氯效力在衰减 → 该换芯。
+- 游离氯试纸「后」水**第一次显出零以上的色阶** → 该换芯（这是试纸能读出的唯一可靠触发；不要等它接近「前」水）。
 - 具体更换触发口径（soft / strong / mandatory 门槛、baths / gallons 换算）**不在本页新造**——见 [T3 更换与寿命页](./bathtub-filter-kes-page-replacement-and-lifespan.md)。
 - 寿命受你家 tap 游离氯浓度影响，随行「your local tap chlorine affects lifespan — verify with test strip」。
 

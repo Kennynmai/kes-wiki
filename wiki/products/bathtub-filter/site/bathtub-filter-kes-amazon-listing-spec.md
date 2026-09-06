@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -84,14 +84,14 @@ KES V1（游离氯版）Amazon listing 的**渠道规格页**：title 公式、�
 > *出处：register Allowed「Verification-by-user」行原文改写；🔴 TDS 笔禁作验证（Banned §C）。*
 
 **B4 · 有边界的适配**
-> `TOOL-FREE, BOUNDED FIT — Adjustable 21 mm silicone strap fits standard US tub spouts (18–25 L/min; no-overflow envelope up to 35 L/min). Three install routes cover pull-diverter, straight, and curved spouts. Not for loose/wobbly spouts or wide waterfall spouts — see the fit guide before you buy.`
+> `TOOL-FREE, BOUNDED FIT — Adjustable 21 mm silicone strap fits standard US tub spouts. Three install routes cover pull-diverter, straight, and curved spouts. Designed for typical US fill rates (18–25 L/min); slow the fill if it splashes. Not for loose/wobbly spouts or wide waterfall spouts — see the fit guide before you buy.`
 > *出处：register Allowed「Fit / compatibility」行（每条兼容必带「不支持」边界）+ [P4 安装指南](./bathtub-filter-kes-install-and-compatibility-guide.md) S-05/S-06 不支持行。*
 
 **B5 · 更换口径（baths 不用月）**
-> `REPLACE BY BATHS, NOT MONTHS — At 2 ppm tap free chlorine, about 3 baths/week: soft trigger ≈ 96 baths, replace by ≈ 121 baths. Lower tap chlorine ≈ longer life. Your local tap chlorine affects lifespan — verify with the included strip.`
+> `REPLACE WHEN THE STRIP SAYS SO — Test your after-filter water with the included free-chlorine strips. Replace when the strip starts showing chlorine again. Lifespan depends on your tap chlorine and how often you bathe — the typical range is printed in the manual.`
 > *出处：register Allowed「Replacement-trigger」行；寿命数字口径唯一来源 [T3](./bathtub-filter-kes-page-replacement-and-lifespan.md)，本页不另造。*
 
-> ⚠️ 五点全域自检：无 chloramine / universal / eczema / baby-safe / softener / 99% / clinically；「(~9–10 months)」换算参照**不进 bullets**（Amazon 表面从严，只用 baths——月份换算留给 PDP 网页版 T3 的带限定语境）。
+> ⚠️ 五点全域自检（2026-09-05 更新）：B4 去掉 35 L/min（非 V1 配置数据）；B5 去掉 96 / 121 baths（内部模型 🟡，Amazon 表面不承载），改为试纸可执行触发，数字留说明书与 PDP 网页版。无 chloramine / universal / eczema / baby-safe / softener / 99% / clinically；「(~9–10 months)」换算参照**不进 bullets**（Amazon 表面从严，只用 baths——月份换算留给 PDP 网页版 T3 的带限定语境）。
 
 ---
 
@@ -170,7 +170,7 @@ KES V1（游离氯版）Amazon listing 的**渠道规格页**：title 公式、�
 |---|---|
 | 整体无效 / "doesn't work as advertised"（46.5%） | B1 只认领 free chlorine + 限定词全带；M-A4 防买错分流把氯胺/井水/RO 用户在购买前劝走；B3/M-A2 给试纸客观验证路径（体感不明显 ≠ 无效） |
 | 质量破损 / 做工（19.5%） | FFP 简装规格照 P5 §六 #4（跌落测试 `[____ 待供应链]`）；图 6 套装实拍与 P2 清单一致，杜绝「到货少件/与图不符」 |
-| 绕流 / 溢流 / 过滤路径失效（19.0%） | B4 + M-A3 写明 no-overflow envelope（35 L/min）与放慢注水指引；图 3 展示正确水路；不支持类型明示 |
+| 绕流 / 溢流 / 过滤路径失效（19.0%） | B4 + M-A3 写明设计流量（18–25 L/min 典型）与放慢注水指引（35 L/min 数字待 V1 复测，不上 listing）；图 3 展示正确水路；不支持类型明示 |
 | 敏感肌 / 宝宝场景效果不稳（18.5%） | 全 listing 零 baby/eczema 承诺——sensory framing 封顶；期望管理写在 claim 而非售后 |
 | 宣传口径争议（重金属 / TDS 等，17.3%） | 不列 broad contaminant stack；B3 主动写 "does not target TDS"；重金属只答 Q&A 且不作健康声称 |
 | 发霉 / 卫生（13.6%） | M-A5 排水晾干闭环上 A+；随盒防霉护理卡（P5 §六 #3）形成图文双触达 |

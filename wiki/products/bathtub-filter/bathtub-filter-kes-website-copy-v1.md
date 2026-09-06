@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-15
-updated: 2026-07-02
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -31,26 +31,28 @@ verification_status: working
 
 ### 区块 1 — Hero
 - **Eyebrow**：`Filter media you can see. A formula you can read.`（CN：看得见的滤料，读得懂的配方。）
-- **H1**：`You read your food labels. You read your skincare. What about your bath water?`
-- **Sub**：`A clear cartridge — the media, the amount, the order, all visible. Clean is what you can see.`
+- **H1**：`Less chlorine in your bath. See the media that does it. Test it yourself.`（2026-09-05 改：首屏顺序改为 收益 → 机制 → 证明；原 H1 `You read your food labels…` 移作区块 2 的引子）
+- **收益句护栏**："less chlorine" = 游离氯去除的事实陈述，属 register Allowed；不写 softer skin / healthier；感官表达只在区块 2 用 Conditional sensory 行措辞（"less chlorine smell, a bath that feels different"）
+- **Sub**：`A clear cartridge — the media, the amount, the order, all visible.`（2026-09-05 删除 "Clean is what you can see."：clean 会被读成水更干净，与「可见 ≠ 更有效」护栏冲突）
 - **CTA 主**：`Find your water →`　**CTA 次**：`See what's inside`
 - *护栏*：不放未坐实数字；「可见」不暗示「更有效」。
 
 ### 区块 2 — The Reframe
+> `You read your food labels. You read your skincare. What about your bath water?`
 > `You've always read the label.`
 > `The back of the food. The actives in the serum — if you can't read it, you put it back.`
 > `But there's one thing you use every day and never turn around: your bath water.`
 
 ### 区块 3 — The Villain（黑箱对照）
-- 左（不透明竞品）：`Most bath filters: a handful of beads you can't see, a few claims you can't check.`
+- 左（不透明竞品）：`Most bath filters: media you can't see, claims you can't check.`
 - 右（KES 透明盒）：`KES: turn it around. Look inside.`
-- 一句：`They're betting you won't look. We made the box clear.`
+- 一句：`We made the box clear, so you don't have to take our word for it.`（2026-09-05 去掉 "They're betting you won't look" 的动机归因，守「讲设计选择、不贬竞品」）
 - *护栏*：villain = 不透明，**不得**出现脏水/毒水画面。
 
 ### 区块 4 — See Inside（成分美学）
 - `This is KDF55 copper-zinc. This is calcium sulfite. No third thing you can't name.`
 - 逐层：`① Polyester (PET) fiber catches particles → ② KDF55 copper-zinc → ③ calcium sulfite reduces free chlorine`（水流向标注）（2026-07-02 按 [V1 BOM 表](./bathtub-filter-v1-free-chlorine-removal-dimensions-materials.md) 裁定更正：滤棉 PET、克数互换、寿命数字重算）
-- `No cheap filler hiding behind opaque plastic.`
+- `Nothing hidden behind opaque plastic.`（2026-09-05 去掉 "cheap filler"）
 - *护栏*：metal-first 仅料级叙事，非去重金属健康。
 
 ### 区块 5 — Test It Yourself
@@ -91,7 +93,8 @@ verification_status: working
 - `Reduces free chlorine` （**不是** total chlorine / chloramine）
 - `Clear cartridge — see the real media and amount`
 - `Includes a free-chlorine test strip`
-- `Fits standard US tub spouts (18–25 L/min); no-overflow envelope up to 35 L/min`
+- `Fits standard US tub spouts — check the fit guide`
+- `Designed for typical US fill rates (18–25 L/min); slow the fill if it splashes`（2026-09-05 拆开适配与流量；35 L/min 来自非 V1 配置，V1 复测前不写）
 - *护栏*：每条兼容声明都带「不支持」边界。
 
 ### What's inside（媒体透明）
@@ -106,7 +109,7 @@ verification_status: working
 - *承重句*："The finished product is not NSF-certified."
 
 ### Replacement & verification
-`Replace based on baths, not months. At 2 ppm tap chlorine, ~3 baths/week: soft trigger ≈ 96 baths; replace by ≈ 121 baths (~9–10 months). Lower tap chlorine ≈ longer life. Your local tap chlorine affects lifespan — verify with the strip.`
+`Replace when your after-filter strip starts showing chlorine again — the first color step above zero. At 2 ppm tap free chlorine and about 3 baths/week that is typically around 100–120 baths; your local tap chlorine changes this, so trust the strip, not the calendar.`（2026-09-05 改为试纸可执行触发；96 / 121 三档曲线留内部 T3）
 - *护栏*：baths/gallons 不用 months。
 
 ### FAQ（技术级，照 register）
@@ -130,7 +133,7 @@ verification_status: working
 `We won't say it improves eczema. We won't say it's baby-safe in a medical sense. We won't say it softens your water. We won't say it removes heavy metals to protect your health. We won't scare you about your water to sell you something. We'll show you what's in it, and what it does — free-chlorine reduction — and let you test the rest.`
 
 ### 4. Maker note（署名，强化 Experience）
-`Designed and tested by [Name], [N]-year water-filtration engineer, in the KES lab.`（*待填真实署名/资历*）
+`Designed and bench-tested by the KES water-filtration team in our own lab. Third-party test reports are published on the How We Test page as they complete.`（2026-09-05：占位署名删除；若后续有可署名工程师再改回个人署名）
 
 ---
 

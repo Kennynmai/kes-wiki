@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-17
-updated: 2026-06-17
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -48,6 +48,10 @@ related:
 | D-06 | Decide whether chlorine/comfort story converts without eczema-forward language — is the disciplined claim set commercially sufficient | strategy | Content testing or competitive signal review (WS2+WS4) | After WS2+WS4 | not-started |
 | D-07 | Select primary geo / water-profile for V1 launch targeting — confirm free-chlorine North America as primary, or refine sub-geo further | strategy | Water jurisdiction demand map review + WS2 competitive observation | Before concept finalization | not-started |
 | D-08 | Final continue / pause / archive decision after early validation | strategy | All WS1–WS4 outputs; gate checklist passage | After WS5 | not-started |
+| D-09 | **Refill 形态**：补芯是整个 Tritan 透明滤仓，还是散装介质自行装填（专利腔体可重复开启、BOM 上下盖 33° 卡扣）——决定 refill COGS / 价格 / 包装体积 / 可持续措辞 / "看得见的料"是否延伸为"自己装的料" | product | BOM + COGS；建议倾向散装介质 + 可重开仓，Tritan 仓作耐用件 | Before refill SKU pricing | open（2026-09-05 登记） |
+| D-10 | **KDF55 仓装填与壳体**：按 BOM 几何 130 g KDF55 只占床容积 36–44%（摊平 5–6 mm），透明仓会显得半空且床层易位移。选项：改 KDF 仓有效高度 / 加透明填充隔板 / 增加 KDF 用量 / 可视化主张只落 CaSO₃ 仓。同时确认 2026-07-02 克数互换是否为装配驱动（130 g CaSO₃ 装不进 123 cm³ 仓） | engineering | 实机装填高度实测（25lpm spec §2.5） | Before Gate 1 | open（2026-09-05 登记） |
+| D-11 | **试纸规格**：随盒游离氯试纸须能读出更换触发。市售 0/0.5/1/2 ppm 粗档在 1–2 ppm 进水下只能看到 ~50% 失效点。选项：低量程细分试纸（0/0.1/0.25/0.5/1）/ DPD 滴剂 / 接受"首次显色即换"单触发 | product + ops | 试纸供应商量程规格；T3 §〇 | Before P2 定稿 | open（2026-09-05 登记） |
+| D-12 | **订阅周期**：原 90 天与寿命模型（2 ppm ≈ 40 周）矛盾；改为按 ZIP 水型分档（9 / 12 个月）+ 耗材包 90 天档。需 finance 按 1.3 次/年重跑 LTV | ops + finance | T3 寿命口径；GTM §4.2 | Before subscription launch | open（2026-09-05 登记） |
 
 ---
 
@@ -89,7 +93,7 @@ _Format:_ `YYYY-MM-DD | Decision ID or topic | What was decided | Why | Who`
 | 2026-04-14 | Market scope | V1 primary target: North America, free-chlorine-dominant regions | Chloramine and hard-water markets are harder to defend with current claim set | strategy |
 | 2026-06-17 | D-02 supported spout scope | Added first V1 installation scenario GO/NO-GO matrix with 8 spout scenarios; S-01 <=18 cm and S-02 pull-up diverter are current GO cores; S-06 wobble and untested S-05 wide-body are NO-GO; S-08 low-clearance was later corrected to GO with off-center install for 40-60 mm wall distance | Combines KES flat-strap design, S-01 circumference evidence, RV/mobile-home S-02 evidence, and existing spout taxonomy estimates | strategy |
 | 2026-06-17 | Wall-distance boundary correction | Changed outlet center-to-wall distance from a <60 mm NO-GO rule to a usability/aesthetics rule: >=60 mm centered/aesthetic, 40-60 mm off-center usable, <40 mm theoretical edge case | User clarified the water outlet need not be perfectly centered; KES can tolerate about 20 mm offset and typical bathtub spouts are not under 40 mm from wall | strategy |
-| 2026-06-17 | Freestanding tub filler fit evidence | Updated freestanding tub filler from default NO-GO to GO for curved / special-shaped / non-waterfall outlets when the tie is installed 60 mm from the outlet end; waterfall / wide-body outlets remain NO-GO | User-provided photo and 2 kg load-bearing test using included 5-hole 124 mm x 20 mm tie + 3M hook | strategy |
+| 2026-06-17 | Freestanding tub filler fit evidence | Updated freestanding tub filler from default NO-GO to GO for curved / special-shaped / non-waterfall outlets when the tie is installed 60 mm from the outlet end; waterfall / wide-body outlets remain NO-GO | User-provided photo and 2 kg load-bearing test using included 5-hole 125 mm x 20 mm tie + 3M hook | strategy |
 
 ---
 

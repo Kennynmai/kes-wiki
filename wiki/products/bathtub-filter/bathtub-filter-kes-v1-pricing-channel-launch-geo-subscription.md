@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -29,7 +29,7 @@ verification_status: working
 
 ## 0. 一句话 GTM
 
-> **V1 = 游离氯版单 SKU，进「faucet_mount × multi-stage」当前完全空白的市场格，MSRP $59–79，DTC 首发 + Amazon 引流，地理聚焦拉斯维加斯/凤凰城/圣安东尼奥，90 天诚实订阅。溢价来自「透明可核查」，不来自婴儿医疗声称。**
+> **V1 = 游离氯版单 SKU，进「faucet_mount × multi-stage」当前完全空白的市场格，MSRP $59–79，DTC 首发 + Amazon 引流，地理聚焦拉斯维加斯/凤凰城/圣安东尼奥，按寿命分档的诚实订阅（2026-09-05 由「90 天」改；见 §4.2）。溢价来自「透明可核查」，不来自婴儿医疗声称。**
 
 ---
 
@@ -50,7 +50,7 @@ verification_status: working
 ```
 Starter Kit          $59–79     壳体 + 1 滤芯（游离氯版）
 Refill 1-pack        $24–32
-Refill 订阅          $19–27 / 90 天   auto-ship
+Refill 订阅          $19–27 / 期，期长按水型分档（2 ppm 城市约 9 个月、1 ppm 城市 12 个月+；2026-09-05 由 90 天改）
 Refill 4-pack        $79–99     (~22% bulk，对标 Tubo bundle)
 ```
 
@@ -60,7 +60,7 @@ Refill 4-pack        $79–99     (~22% bulk，对标 Tubo bundle)
 - $59–79 = 「**比 Canopy 便宜，但比谁都更透明**」——把价格锚点从「便宜/贵」换成「**藏 vs 透**」，绕开纯价格比较（也避开定价页禁止的 "best value/cheapest" 触发 Water Filter Guru 比价）。
 
 ### 1.4 价格 messaging（守红线）
-- ✅ `$0.27/bath when you subscribe — about a coffee a week`（透明 TCO，呼应「干净=可核查」延伸到价格诚实）
+- 🟡 `$X/bath when you subscribe`——per-bath 数字待按 T3 寿命重算（2026-09-05：原 $0.27 按 90 天 / 39 baths 算不出来，$23 ÷ 39 ≈ $0.59；按 121 baths 才是 ~$0.19）
 - ✅ `$59 — 看得见每一种料，附氯试纸自己测`
 - ❌ 不 "best value/cheapest premium"（触发比价）；❌ 不 "limited time/while supplies last"（FTC scarcity）
 
@@ -103,7 +103,9 @@ Refill 4-pack        $79–99     (~22% bulk，对标 Tubo bundle)
 
 ---
 
-## 4. 订阅经济学：90 天诚实订阅 = 品牌一致的 LTV 工具
+## 4. 订阅经济学：按寿命分档的诚实订阅 = 品牌一致的 LTV 工具
+
+> ⚠️ **2026-09-05 更正**：原 90 天周期与 T3 寿命模型矛盾——2 ppm、3 次/周下 mandatory ≈121 baths ≈ 40 周，1 ppm 下约 80 周。90 天 = 模型消耗量的 3–6 倍；若 skip-if-still-good 真实执行，用户会跳过 2/3 以上发货，LTV 与 TCO 对比全部失效；若不执行，就是在"诚实订阅"名义下多卖 3 倍。以下 §4.2 与 §5 已按寿命分档重写；原 90 天口径作废。
 
 ### 4.1 机会
 订阅在此品类**未饱和**——只有 Canopy/FilterBaby 跑通。它是 V1 的核心 LTV 工具，但**要求产品足够诚实**（用户不会订阅让自己失望的东西）——这和我们的定位天生契合。
@@ -111,9 +113,9 @@ Refill 4-pack        $79–99     (~22% bulk，对标 Tubo bundle)
 ### 4.2 KES 订阅设计
 | 维度 | 设定 | 依据 / 纪律 |
 |---|---|---|
-| 周期 | **90 天**（持平 Canopy/Santevia 最诚实档）| **不做 long-cycle 故事**（Crystal Quest/Tubo 的长寿命已被 lab 证伪）|
-| 订阅价 | **$19–27 / 90 天**（标准 $24–32）| 持平或低于 Canopy 订阅 $27；折扣 baseline ~27% off |
-| Per-bath | **$0.27–0.35（订阅）** | 与 Canopy 订阅持平；messaging「约一周一杯咖啡」|
+| 周期 | **按 ZIP 诊断分档**：2 ppm 城市默认 **9 个月**、1 ppm 城市默认 **12 个月**（可调）；PET 滤棉 + 试纸耗材包可另设 90 天档 | 周期必须与 T3 寿命口径一致；**不做 long-cycle 故事**，也不做 short-cycle 多卖（原 90 天已作废）|
+| 订阅价 | **$19–27 / 期**（标准 $24–32）| 持平或低于 Canopy 订阅 $27；折扣 baseline ~27% off；期长见上 |
+| Per-bath | 🟡 待重算：$23 ÷ 121 baths ≈ **$0.19**（2 ppm）；1 ppm 约 $0.10 | 原 $0.27–0.35 按 90 天算不出来；messaging 待 T3 数字第三方回填后定 |
 | 寿命口径 | bath-count range + 家庭用量假设 + 提前更换边界 + 大缸/高压免责 | 不只写「90 天/2,500 gal」（[refill-flow-fit 表](./bathtub-filter-pricing-refill-flow-fit-table-v2.md)）|
 | **诚实复购触发** | **氯试纸告诉你该换了**（不是黑箱倒计时）| 把「自己测」从卖点延伸成**订阅机制**——透明品牌的订阅不靠 lock-in，靠「你自己看到该换」|
 
@@ -126,7 +128,9 @@ Refill 4-pack        $79–99     (~22% bulk，对标 Tubo bundle)
 12 个月总持有成本（TCO）打破「MSRP 贵」的错觉：
 - Sprite 表面 $33 便宜，但 30 天 cycle → 12 月 refill >$190。
 - Canopy 表面 $89 贵，但 12 月（订阅）≈ $89+$108=$197。
-- **KES**（$69 + 4×$23 订阅 ≈ $161）→ **更低 TCO + 唯一全透明** = 双重锚点。
+- **KES**（$69 + 约 1.3×$23 ≈ $99 @2 ppm；1 ppm 城市 ≈ $69 + 0.65×$23 ≈ $84）→ **更低 TCO + 唯一全透明** = 双重锚点。（2026-09-05 由 4×$23 ≈ $161 更正；旧数按 90 天周期算，与寿命模型不符）
+
+> ⚠️ 修正后的 TCO 优势变大，但**refill 收入也同步缩到原估算的 1/3**——LTV 模型（§6）需要按 1.3 次/年重跑，DTC 首年 payback 假设要重看。
 > messaging 用 TCO 不用 MSRP，且把「透明」做成同价位无法比较的维度。
 
 ---

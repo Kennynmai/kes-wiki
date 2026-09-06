@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-02
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -39,11 +39,11 @@ related:
 ## 一、一句话定位（承重定位句）
 
 > **这不是净水器，不以降低 TDS 为目标。**
-> 这是「浴缸注水场景的末端净化 / 减害模块」，解决泡澡体验的核心问题。
+> 这是「浴缸注水场景的末端除游离氯模块」，解决泡澡体验的核心问题。（2026-09-05 改：原「净化 / 减害」自带健康框架）
 
 🟢 对外可用措辞（照 register Positioning 行原文保留英文）：
 
-> "This is not a water purifier. It does not target TDS reduction. It is an end-stage harm-reduction module for the bath-fill scenario."
+> "This is not a water purifier. It does not target TDS reduction. It is an end-stage free-chlorine reduction module for the bath-fill scenario."
 
 来源：讲解件 §0「一句话定位」。register 要求这句**出现在每个客户可见表面**（页面 / 包装 / 说明书 / 客服话术），用来先手挡掉「它能降 TDS 吗」的异议。
 
@@ -110,8 +110,8 @@ related:
 |---|---|---|---|
 | 防溢接水仓（白壳，含主挂带） | — | 承接龙头出水、引导入滤仓；目标 ≤30 L/min 不溢出（讲解件 §3.11）| 🟢 |
 | 过滤棉（PET 聚酯纤维） | 20 块随盒 | 物理拦截、可视化变色 | 🟢 |
-| KDF55 环形滤床（透明壳）| **130g**，5–10 目，床厚 15mm，上下 60 目 304 网夹持 | 末端把关 + 抑膜 + 寿命稳定 | 🟢 |
-| CaSO₃ 亚硫酸钙球（透明壳）| **110g**，3–4mm 球，床厚 15mm，上下 40 目 304 网夹持 | **主力去游离氯 KPI** | 🟢 |
+| KDF55 环形滤床（透明壳）| **130g**，5–10 目，仓有效高 14 mm（BOM）；🟡 **实际装填高度待工程确认**（按几何核算约 5–6 mm），上下 60 目 304 网夹持 | 末端把关 + 抑膜 + 寿命稳定 | 🟢 |
+| CaSO₃ 亚硫酸钙球（透明壳）| **110g**，3–4mm 球，仓有效高 14 mm（BOM，约 11–14 mm 装填），上下 40 目 304 网夹持 | **主力去游离氯 KPI** | 🟢 |
 | 多功能装载仓（白壳）| 方案A 浴盐 250ml / 方案B 阻垢剂 | 浴盐溶解 / 阻垢 | 🟢 溶解 / 🔴 软化 |
 
 > V1 **不含活性炭**。「no pre-rinse / no carbon dust / 酸洗椰壳炭」属其它含碳版本资料，不纳入 V1（🔴 register banned：wrong-version claim）。

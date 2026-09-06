@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-30
-updated: 2026-07-02
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -34,7 +34,17 @@ related:
 
 ---
 
-## 一、更换触发曲线（贴一条明示曲线）
+## 〇、用户实际能执行的触发（2026-09-05 新增，对外主口径）
+
+三档曲线（§一）是内部口径。市售游离氯试纸色阶多为 0 / 0.5 / 1 / 2 / 4 ppm，在 1–2 ppm 进水下，90% 与 80% 触发的出水（0.1–0.4 ppm）都落在「0 与 0.5 之间」，用户看不出差别；只有接近 50% 点时试纸才显色。所以对外只给一条**试纸可执行**的触发：
+
+> "Replace when your after-filter strip starts showing chlorine again — the first color step above zero. At 2 ppm tap free chlorine and about 3 baths/week that is typically around 100–120 baths; your local tap chlorine changes this, so trust the strip, not the calendar."
+
+（当「滤后」试纸第一次显出零以上的色阶时更换（2 ppm、每周约 3 次泡澡下通常约 100–120 次；以试纸为准，不看日历）。）
+
+- 若 P2 最终选用 0–1 ppm 低量程细分试纸（0 / 0.1 / 0.25 / 0.5 / 1），可把"强触发"也做成可读档；在此之前，§一 §二 的 96 / 121 只出现在说明书「典型范围」与 PDP 网页版带限定语境，**不进 Amazon 五点、不进包装盒面**。
+
+## 一、更换触发曲线（内部口径，贴一条明示曲线）
 
 系统总**游离氯**去除率随滤芯寿命衰减；我们不用黑箱倒计时，用一条明示的衰减曲线 + 你自己用试纸看到的读数。
 

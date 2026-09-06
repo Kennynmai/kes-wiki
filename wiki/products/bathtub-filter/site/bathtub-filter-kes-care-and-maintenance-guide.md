@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: product
 created: 2026-07-01
-updated: 2026-07-02
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -37,13 +37,15 @@ related:
 
 > **为什么这条最重要**：湿 + 温 + 有机负荷 = 霉菌天堂，是竞品（尤其软挂 / 织物型）最高频差评来源之一（complaint-taxonomy 投诉 #4 mold/odor 60–90 天；逐条标签发霉 / 卫生 13.6%）。KES 靠**排水晾干闭环**把霉菌窗口关掉。
 
-1. **每次注水结束后取下滤仓**，把仓内残水**倒尽 / 排空**。
-2. **晾干**：置于通风处自然晾干，不要密封收进潮湿角落。
+1. **每次注水结束后让它留在龙头上滴干**（各仓底部有出水孔 / 筛网，残水靠重力排出）；不要把它收进柜子或塑料袋。
+2. **每周一次 / 或超过 3 天不用时**：取下滤仓，倒尽残水，通风处晾干后干存。
+
+> 2026-09-05 改：原口径「每次注水后取下、倒水、晾干」与第一购买动机「挂上就能用」直接冲突，且四段叠层每次拆装是真实负担。改为"在位滴干 + 每周深晾"两级。🟡 **此两级口径需 Module 4 霉变观察（在位滴干 30 天）验证后才能定稿**；若观察失败，回到每次取下。结构上优先考虑底部排水口 / 快拆卡扣。
 3. **不要长期泡在浴缸水里**（V1 是注水路径产品，不是泡在缸里的 floating filter）。
 
 🟢 对外可用（照 register 包装/说明书表面口径，用 baths/gallons 不用月；防霉走操作闭环）：
 
-> "After each fill, remove the cartridge, drain it, and let it air-dry. Do not store it wet."
+> "After each bath, leave it on the spout to drip-dry — don't pack it away wet. Once a week, or before any break of a few days, take it down, drain it and let it dry fully."（🟡 待 Module 4 验证；原句 "After each fill, remove the cartridge, drain it, and let it air-dry." 保留为备选）
 
 ---
 
@@ -127,7 +129,7 @@ related:
 
 ### 症状 C：装不稳 / 从出水嘴滑落
 - **原因**：出水嘴几何不匹配——curved / swan-neck / 短出水 / 会晃的出水嘴，clamp 难稳定（complaint-taxonomy R3 spout retention 极高风险）。
-- **处理**：① 用扁硅胶主挂带贴合固定（宽约 21mm）；② 异形 / 无提拉头出水嘴改用 3M 挂钩 + 短硅胶带（5孔 / 124mm / 20mm）；③ 主固定力来自硅胶带拉力 + 摩擦力。
+- **处理**：① 用扁硅胶主挂带贴合固定（宽约 21mm）；② 异形 / 无提拉头出水嘴改用 3M 挂钩 + 短硅胶带（5孔 / 125 mm / 20mm）；③ 主固定力来自硅胶带拉力 + 摩擦力。
 - 🔴 **不要**承诺 universal fit；对不支持的出水嘴类型要提前明示（见 [[bathtub-filter-supported-spout-matrix]]）。**不建议**用胶带 / 发圈 workaround（那是退货前兆）。
 
 ### 症状 D：闻不到 / 感觉不到差别（「看不到效果」）

@@ -28,7 +28,7 @@ KES 已有一套针对 bathtub spout 安装稳定性的设计方案，不是空�
 - 左右各 4 个长度调节孔
 - 中央圆形挂位孔，用于套过提拉分水器的提拉头
 - 无提拉分水器 spout 使用 3M 贴挂钩模拟挂位
-- 弧面 / 异形 spout 使用附赠的5孔总长124mm，宽20mm的扎带固定 3M 贴挂钩
+- 弧面 / 异形 spout 使用附赠的5孔总长 125 mm，宽20mm的扎带固定 3M 贴挂钩
 
 这套方案可以把 `supported spout matrix` 从“无方案 TBD”推进到“有设计覆盖，待实测验证”。2026-06-17 已补入 2 组 RV / mobile-home center-set / valve-diverter faucet 正向适配样本、S-01 non-diverter 周长边界实测记录，以及 freestanding tub filler 弧形/异型管非瀑布出水 2 kg 承重记录；但它还不是完整的 `supported / conditional / not-supported` 结论。
 
@@ -83,11 +83,11 @@ KES 的扁硅胶挂带宽 21 mm，与 bathtub spout 接触面积更大。设计�
 
 此处的附件组合为：
 
-- 附赠的5孔总长124mm，宽20mm的扎带
+- 附赠的5孔总长 125 mm，宽20mm的扎带
 - 附赠 3M 贴挂钩
 - 21 mm 扁硅胶挂带
 
-结构逻辑：附赠的 124mm 硅胶扎带可拉伸到 22 cm，与 3M 贴挂钩组合后，可在 non-diverter spout 上模拟 diverter 的悬挂位置。这里的主固定力来自 **5 孔硅胶扎带的拉力与硅胶对 spout 表面的摩擦力**；3M 胶不是主要承重件，主要作用是防止 ABS 挂钩与金属浴缸嘴接触面之间发生硬碰硬滑移。
+结构逻辑：附赠的 125 mm 硅胶扎带可拉伸到 22 cm，与 3M 贴挂钩组合后，可在 non-diverter spout 上模拟 diverter 的悬挂位置。这里的主固定力来自 **5 孔硅胶扎带的拉力与硅胶对 spout 表面的摩擦力**；3M 胶不是主要承重件，主要作用是防止 ABS 挂钩与金属浴缸嘴接触面之间发生硬碰硬滑移。
 
 ![[raw/products/bathtub-filter/2026-06-17-s01-non-diverter-fit-evidence/01-round-black-downturned-non-diverter-spout.png]]
 
@@ -110,7 +110,7 @@ KES 的扁硅胶挂带宽 21 mm，与 bathtub spout 接触面积更大。设计�
 
 ### 4. 弧面 / 异形 spout
 
-对于弧面或异形 spout，KES 配附赠的5孔总长124mm，宽20mm的扎带，用来扎住 3M 贴挂钩。固定逻辑是硅胶扎带的拉力与摩擦力把挂钩压紧在 spout 上；3M 胶只作为辅助防滑层，避免 ABS 挂钩直接接触金属浴缸嘴时滑动。
+对于弧面或异形 spout，KES 配附赠的5孔总长 125 mm，宽20mm的扎带，用来扎住 3M 贴挂钩。固定逻辑是硅胶扎带的拉力与摩擦力把挂钩压紧在 spout 上；3M 胶只作为辅助防滑层，避免 ABS 挂钩直接接触金属浴缸嘴时滑动。
 
 ![[raw/products/bathtub-filter/2026-06-03-kes-flat-strap-spout-fit-design/02-curved-spout-hook-and-short-tie-render.png]]
 
@@ -122,7 +122,7 @@ KES 的扁硅胶挂带宽 21 mm，与 bathtub spout 接触面积更大。设计�
 
 安装方式：
 
-- 使用附赠的5孔总长124mm，宽20mm的扎带 + 附赠 3M 贴挂钩。
+- 使用附赠的5孔总长 125 mm，宽20mm的扎带 + 附赠 3M 贴挂钩。
 - 扎带只扎到倒数第二个孔时，常规可通过拉扯扎带完成安装。
 - 扎到倒数第三个孔会更紧，但需要较大拉力组装，对女性用户不太友好，不宜作为默认要求。
 - 扎带需要扎在距离出水嘴末端 **60 mm** 处；重力会拉扯扎带向下变形，如果太靠近末端会滑落。
@@ -151,9 +151,9 @@ KES 的扁硅胶挂带宽 21 mm，与 bathtub spout 接触面积更大。设计�
 
 | Spout type | 设计覆盖 | 仍需验证 |
 |---|---|---|
-| S-01 straight non-diverter | 附赠的5孔总长124mm，宽20mm的扎带 + 3M 贴挂钩模拟挂位；主固定力来自硅胶扎带拉力和摩擦力，3M 胶仅辅助防滑；末端折弯位置周长 <=18 cm 已实测可用，常规约 15-17 cm | 具体 spout 的实测周长、扎带孔位、挂钩是否位移、动态注水冲击、20 次 fill-cycle 后稳定性 |
+| S-01 straight non-diverter | 附赠的5孔总长 125 mm，宽20mm的扎带 + 3M 贴挂钩模拟挂位；主固定力来自硅胶扎带拉力和摩擦力，3M 胶仅辅助防滑；末端折弯位置周长 <=18 cm 已实测可用，常规约 15-17 cm | 具体 spout 的实测周长、扎带孔位、挂钩是否位移、动态注水冲击、20 次 fill-cycle 后稳定性 |
 | S-02 straight with diverter knob | 中央圆孔套过提拉头，是当前最强覆盖场景；2026-06-17 已有 2 组 RV / mobile-home center-set / valve-diverter faucet 样本实测可用 | 不同提拉头直径、硅胶撕裂、偏心、diverter 可操作性、动态注水表现 |
-| S-03 curved / gooseneck-like | 3M 贴挂钩 + 附赠的5孔总长124mm，宽20mm的扎带；主固定力来自硅胶扎带拉力和摩擦力；freestanding tub filler 弧形/异型管非瀑布出水已实测 2 kg 承重，扎带位置为距离出水嘴末端 60 mm | 其他曲面形态、动态注水、溅水/绕流、重复注水后扎带变形或挂钩位移 |
+| S-03 curved / gooseneck-like | 3M 贴挂钩 + 附赠的5孔总长 125 mm，宽20mm的扎带；主固定力来自硅胶扎带拉力和摩擦力；freestanding tub filler 弧形/异型管非瀑布出水已实测 2 kg 承重，扎带位置为距离出水嘴末端 60 mm | 其他曲面形态、动态注水、溅水/绕流、重复注水后扎带变形或挂钩位移 |
 | S-04 short projection | 出水嘴中心到墙面 >=60 mm 可居中安装；40-60 mm 可偏心使用 | 偏心量、溅水/绕流、安装手部空间、视觉接受度 |
 | S-05 wide-body decorative | 有潜在风险 | 宽体表面是否能稳定贴钩或挂带是否偏移 |
 | S-06 wobbling slip-fit | 设计不能消除 spout 本体晃动 | 即使挂住，spout base wobble 仍可能放大滤体摆动 |
@@ -182,8 +182,8 @@ KES 的扁硅胶挂带宽 21 mm，与 bathtub spout 接触面积更大。设计�
 最小测试集：
 
 - S-02 straight pull-up diverter：至少 3 个不同提拉头直径
-- S-01 straight non-diverter：末端折弯位置周长 <=18 cm 的样本，附赠的5孔总长124mm，宽20mm的扎带 + 3M 贴挂钩；记录扎带孔位、拉紧难度、挂钩是否位移和 20 次 fill-cycle
-- S-03 curved / gooseneck-like：3M 贴挂钩 + 附赠的5孔总长124mm，宽20mm的扎带；freestanding tub filler 非瀑布出水需要记录扎带距出水嘴末端 60 mm、扎带孔位、2 kg 承重和动态注水表现
+- S-01 straight non-diverter：末端折弯位置周长 <=18 cm 的样本，附赠的5孔总长 125 mm，宽20mm的扎带 + 3M 贴挂钩；记录扎带孔位、拉紧难度、挂钩是否位移和 20 次 fill-cycle
+- S-03 curved / gooseneck-like：3M 贴挂钩 + 附赠的5孔总长 125 mm，宽20mm的扎带；freestanding tub filler 非瀑布出水需要记录扎带距出水嘴末端 60 mm、扎带孔位、2 kg 承重和动态注水表现
 - S-04 short projection：确认出水嘴中心到墙面 40-60 mm 时偏心安装的稳定性、溅水/绕流和视觉接受度
 - S-08 low-clearance：验证 40-60 mm 偏心安装；<40 mm 仅作为理论极端记录
 - S-06 wobbling slip-fit：确认是否明确排除

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -38,7 +38,7 @@ related:
 
 **承重定位句（照 register Positioning 行原文保留英文，出现在页顶）：**
 
-> "This is not a water purifier. It does not target TDS reduction. It is an end-stage harm-reduction module for the bath-fill scenario."
+> "This is not a water purifier. It does not target TDS reduction. It is an end-stage free-chlorine reduction module for the bath-fill scenario."
 
 ---
 

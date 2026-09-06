@@ -25,7 +25,7 @@ related:
 
 这是 **Gate 2 必须完成的 artifact**，在安装/兼容性测试范围锁定前必须填充完整。
 
-当前状态：**partial-sample validated / broader test-pending matrix**。2026-06-03 已补入 KES 扁硅胶挂带、中央提拉头挂孔、3M 贴挂钩和附赠的5孔总长124mm，宽20mm的扎带方案；2026-06-17 已补入 2 组 RV / mobile-home center-set / valve-diverter faucet 正向适配样本、S-01 non-diverter 周长边界实测记录，以及 freestanding tub filler 弧形/异型管非瀑布出水的 2 kg 承重正向记录。但 spout type support status 仍未经完整动态注水测试确认。
+当前状态：**partial-sample validated / broader test-pending matrix**。2026-06-03 已补入 KES 扁硅胶挂带、中央提拉头挂孔、3M 贴挂钩和附赠的5孔总长 125 mm，宽20mm的扎带方案；2026-06-17 已补入 2 组 RV / mobile-home center-set / valve-diverter faucet 正向适配样本、S-01 non-diverter 周长边界实测记录，以及 freestanding tub filler 弧形/异型管非瀑布出水的 2 kg 承重正向记录。但 spout type support status 仍未经完整动态注水测试确认。
 
 **不得在完成以下工作前将此页用于产品决策：**
 1. 获得各类 spout 的实物样本
@@ -41,7 +41,7 @@ related:
 - 主挂带为 21 mm 宽扁硅胶带，左右各 4 个长度调节孔。
 - 对带提拉分水器的 tub spout，挂带中央圆孔可拉伸套过提拉头，使滤体中心线对准 spout 出水口。
 - 对无提拉分水器的 straight spout，附赠 3M 贴挂钩，模拟提拉头挂位。
-- 对弧面 / 异形 spout，使用附赠的5孔总长124mm，宽20mm的扎带扎住 3M 贴挂钩；主固定力来自硅胶扎带的拉力与摩擦力，3M 胶只作为辅助防滑层，避免 ABS 挂钩与金属浴缸嘴硬接触时滑动。
+- 对弧面 / 异形 spout，使用附赠的5孔总长 125 mm，宽20mm的扎带扎住 3M 贴挂钩；主固定力来自硅胶扎带的拉力与摩擦力，3M 胶只作为辅助防滑层，避免 ABS 挂钩与金属浴缸嘴硬接触时滑动。
 - 墙距边界修正为：**出水嘴中心到墙面距离 ≥60 mm 是居中美观线，不是功能限制线**。KES 产品横向包络尺寸为 120 mm；居中安装需要 60 mm 半宽空间，但滤体允许偏心安装约 20 mm，因此 **40-60 mm 可用，只是不完全居中 / 不完美美观**。用户观察为：实际浴缸出水嘴基本没有少于 40 mm 的墙距。
 
 证据边界：这是 KES 设计意图和结构方案，不是最终实测通过记录。它能关闭“没有安装方案”的缺口，但不能关闭“不同 spout 类型已支持”的验证缺口。
@@ -99,8 +99,8 @@ Raw：`raw/products/bathtub-filter/2026-06-17-rv-center-set-faucet-fit-evidence/
 - taxonomy：S-01 straight non-diverter, stable
 - fit boundary：末端折弯位置周长 <=18 cm
 - common range：常规末端折弯位置周长约 15-17 cm
-- accessory：附赠的5孔总长124mm，宽20mm的扎带 + 附赠 3M 贴挂钩
-- accessory stretch：124mm 硅胶扎带可拉伸到 22 cm
+- accessory：附赠的5孔总长 125 mm，宽20mm的扎带 + 附赠 3M 贴挂钩
+- accessory stretch：125 mm 硅胶扎带可拉伸到 22 cm
 - fit logic：扎带 + 3M 贴挂钩组合可模拟 diverter 的悬挂位置；主固定力来自硅胶扎带拉力与摩擦力，3M 胶只作为辅助防滑，不作为承重粘接结构
 - fit result：该边界内已实测可用
 
@@ -126,7 +126,7 @@ Raw：`raw/products/bathtub-filter/2026-06-17-s01-non-diverter-fit-evidence/`
 - geometry：弧形管 / 异型管
 - outlet type：非瀑布出水
 - taxonomy：S-03 curved / gooseneck-like spout 的 freestanding tub filler 子场景
-- accessory：附赠的5孔总长124mm，宽20mm的扎带 + 附赠 3M 贴挂钩
+- accessory：附赠的5孔总长 125 mm，宽20mm的扎带 + 附赠 3M 贴挂钩
 - load result：2 kg static load-bearing tested
 - fit result：该子场景已实测可用
 
@@ -153,9 +153,9 @@ Raw：`raw/products/bathtub-filter/2026-06-17-freestanding-tub-filler-fit-eviden
 
 | # | Spout type | Description | Diverter? | Attachment method | KES support status | Notes |
 |---|---|---|---|---|---|---|
-| S-01 | Straight non-diverter, stable underside / lip | 最常见的无提拉头喷嘴，底面或末端折弯位置可形成稳定支撑 | No | 附赠的5孔总长124mm，宽20mm的扎带 + 3M 贴挂钩模拟提拉头挂位 + 21 mm 扁硅胶挂带 | Circumference-bounded validated / broader S-01 test pending | 2026-06-17 用户补充：末端折弯位置周长 <=18 cm 已实测可用，常规约 15-17 cm；124mm 硅胶扎带可拉伸到 22 cm；主固定力来自硅胶扎带拉力和摩擦力，3M 胶仅辅助防滑；仍需记录扎带孔位、挂钩是否位移、动态注水和 20 次 fill-cycle 后稳定性 |
+| S-01 | Straight non-diverter, stable underside / lip | 最常见的无提拉头喷嘴，底面或末端折弯位置可形成稳定支撑 | No | 附赠的5孔总长 125 mm，宽20mm的扎带 + 3M 贴挂钩模拟提拉头挂位 + 21 mm 扁硅胶挂带 | Circumference-bounded validated / broader S-01 test pending | 2026-06-17 用户补充：末端折弯位置周长 <=18 cm 已实测可用，常规约 15-17 cm；125 mm 硅胶扎带可拉伸到 22 cm；主固定力来自硅胶扎带拉力和摩擦力，3M 胶仅辅助防滑；仍需记录扎带孔位、挂钩是否位移、动态注水和 20 次 fill-cycle 后稳定性 |
 | S-02 | Straight spout with diverter knob | 顶部有换向拨杆（用于切换到 showerhead）的直型喷嘴；含 RV / mobile-home center-set / valve-diverter faucet 变体 | Yes | 中央圆孔套过提拉头 + 21 mm 扁硅胶挂带 | 2 RV / mobile-home sample groups validated / broader S-02 test pending | 2026-06-17 用户补充 Mobile Home RV Tub Shower Center-Set Faucet、RV Tub & Shower Faucet Valve Diverter 已实测可用；仍需测不同提拉头直径、硅胶拉伸疲劳、diverter 可操作性、居中稳定性和动态注水表现 |
-| S-03 | Curved / gooseneck-like spout | 弯曲出水口，出水方向非水平向前；含 freestanding tub filler 弧形/异型管非瀑布出水子场景 | Varies | 3M 贴挂钩 + 附赠的5孔总长124mm，宽20mm的扎带 + 扁挂带 | Freestanding non-waterfall 2 kg load-bearing validated / broader S-03 test pending | 2026-06-17 用户补充：freestanding tub filler 弧形管、异型管、非瀑布出水已实测可用，2 kg 承重；扎带需扎在距离出水嘴末端 60 mm 处，默认扎倒数第二孔；主固定力来自硅胶扎带拉力和摩擦力，3M 胶仅辅助防滑；仍需验证动态注水、溅水/绕流、扎带长期变形和挂钩位移 |
+| S-03 | Curved / gooseneck-like spout | 弯曲出水口，出水方向非水平向前；含 freestanding tub filler 弧形/异型管非瀑布出水子场景 | Varies | 3M 贴挂钩 + 附赠的5孔总长 125 mm，宽20mm的扎带 + 扁挂带 | Freestanding non-waterfall 2 kg load-bearing validated / broader S-03 test pending | 2026-06-17 用户补充：freestanding tub filler 弧形管、异型管、非瀑布出水已实测可用，2 kg 承重；扎带需扎在距离出水嘴末端 60 mm 处，默认扎倒数第二孔；主固定力来自硅胶扎带拉力和摩擦力，3M 胶仅辅助防滑；仍需验证动态注水、溅水/绕流、扎带长期变形和挂钩位移 |
 | S-04 | Short-projection spout close to wall | 喷嘴出水口距离墙面较近，tile clearance 偏小 | Varies | 可使用 S-01/S-02 方案；40-60 mm 允许偏心安装 | GO if center-to-wall >=40 mm; >=60 mm is centered/aesthetic | 出水嘴中心到墙面 >=60 mm 可居中安装；40-60 mm 可偏心安装，功能可用但不完美/不美观；仍需验证动态注水、用户手部安装空间和视觉接受度 |
 | S-05 | Wide-body decorative spout | 装饰型宽体喷嘴（常见于 modern / designer 浴室）| Varies | 可能使用贴挂钩，但不保证挂带居中 | High-risk conditional / likely exclude unless tested | 宽体表面会影响贴钩、挂带路径和居中；不应默认支持 |
 | S-06 | Slip-fit spout with wobble / lower confidence | 套装固定（无螺纹），本体已有轻微松动 | Varies | 挂带无法消除 spout base wobble | Likely not-supported if wobble is visible | 即便挂住，spout 本体晃动仍会放大滤体摆动；应作为排除项测试 |
@@ -177,8 +177,8 @@ Raw：`raw/products/bathtub-filter/2026-06-17-freestanding-tub-filler-fit-eviden
 | Wall-mounted tub spout / tub-shower combo spout | S-02 为主，叠加 S-04/S-07/S-08 | 美国主流家庭浴缸+淋浴一体 | ~55-65% 目标安装场景 | GO / GO（偏心） | 带提拉分水器时 GO；出水嘴中心到墙面 >=60 mm 可居中安装，40-60 mm 可偏心安装但不完美/不美观；本体晃动时 NO-GO |
 | Wall-mounted tub spout / tub-only non-diverter | S-01，部分 S-07 | 纯浴缸、酒店、公寓、部分 RV | ~10-15% | GO | 末端折弯位置周长 <=18 cm 时 GO；>22 cm 或无贴钩/扎带路径时 NO-GO |
 | RV / mobile-home tub shower center-set faucet | S-02 子场景 | 房车、mobile home、轻量化塑料或金属 center-set faucet | S-02 内部子集，不单独累加 | GO | 已有 2 组样本实测可用；仍按提拉头直径、墙距、动态注水复核 |
-| Deck-mounted widespread / Roman tub faucet | 多数落入 S-03 或 S-05，少量可按 S-01/S-07 判断 | 独立浴缸、主卧浴室、翻新浴室 | ~8-12% | GO（条件）/ NO-GO | 圆弧或常规窄 spout 可用 3M 贴挂钩 + 附赠的5孔总长124mm，宽20mm的扎带进入条件 GO；宽体/瀑布式默认 NO-GO |
-| Freestanding tub filler | S-03（弧形/异型管/非瀑布）或 S-05（瀑布/宽体） | 独立浴缸、现代高端浴室 | ~3-5% | GO（非瀑布）/ NO-GO（瀑布/宽体） | 弧形管、异型管、非瀑布出水可用；使用附赠的5孔总长124mm，宽20mm的扎带 + 3M 贴挂钩，扎带扎在距离出水嘴末端 60 mm 处；已测 2 kg 承重。瀑布口/宽体片状出水仍 NO-GO |
+| Deck-mounted widespread / Roman tub faucet | 多数落入 S-03 或 S-05，少量可按 S-01/S-07 判断 | 独立浴缸、主卧浴室、翻新浴室 | ~8-12% | GO（条件）/ NO-GO | 圆弧或常规窄 spout 可用 3M 贴挂钩 + 附赠的5孔总长 125 mm，宽20mm的扎带进入条件 GO；宽体/瀑布式默认 NO-GO |
+| Freestanding tub filler | S-03（弧形/异型管/非瀑布）或 S-05（瀑布/宽体） | 独立浴缸、现代高端浴室 | ~3-5% | GO（非瀑布）/ NO-GO（瀑布/宽体） | 弧形管、异型管、非瀑布出水可用；使用附赠的5孔总长 125 mm，宽20mm的扎带 + 3M 贴挂钩，扎带扎在距离出水嘴末端 60 mm 处；已测 2 kg 承重。瀑布口/宽体片状出水仍 NO-GO |
 | Wide waterfall / decorative tub faucet | S-05 | 现代装饰型、宽体瀑布口 | ~5-10% | NO-GO（默认） | 水流是片状或宽面，挂带路径和滤体居中不可控；不应写入 V1 support |
 | Aged loose slip-fit / low-clearance exception | S-06/S-08 | 老旧安装、维修质量不稳定、墙距不足 | ~5-10% | S-06 NO-GO；S-08 GO（偏心） | 可见晃动直接 NO-GO；低墙距本身不是限制条件，>=40 mm 可偏心使用，40-60 mm 只是美观折中 |
 
@@ -192,10 +192,10 @@ Raw：`raw/products/bathtub-filter/2026-06-17-freestanding-tub-filler-fit-eviden
 | 场景ID | 龙头 / 出水嘴场景 | 典型空间 | 估算占比 | KES status | GO / NO-GO 判定条件 | 当前证据 |
 |---|---|---|---|---|---|---|
 | S-02 | Straight spout with pull-up diverter knob，包括 RV / mobile-home center-set / valve-diverter 变体 | 主流 tub+shower combo、家庭浴室、RV / mobile-home | ~35-45% | GO | 中央圆孔可套过提拉头；21 mm 扁硅胶挂带可让滤体中心线对准出水口；>=60 mm 可居中安装，40-60 mm 可偏心安装；spout 本体无明显松动 | 已有 2 组 RV / mobile-home center-set / valve-diverter 样本正向通过；仍需补不同提拉头直径和动态注水记录 |
-| S-01 | Straight non-diverter, stable underside / lip | 纯浴缸、无 shower 切换结构、部分酒店/公寓/RV 场景 | ~10-15% | GO | 末端折弯位置周长 <=18 cm；常规 15-17 cm；附赠的5孔总长124mm，宽20mm的扎带 + 3M 贴挂钩可模拟 diverter 挂位；124mm 硅胶扎带可拉伸到 22 cm | 用户补充 S-01 已实测可用；仍需补每个样本的实测周长、贴钩照片和重复注水稳定性 |
+| S-01 | Straight non-diverter, stable underside / lip | 纯浴缸、无 shower 切换结构、部分酒店/公寓/RV 场景 | ~10-15% | GO | 末端折弯位置周长 <=18 cm；常规 15-17 cm；附赠的5孔总长 125 mm，宽20mm的扎带 + 3M 贴挂钩可模拟 diverter 挂位；125 mm 硅胶扎带可拉伸到 22 cm | 用户补充 S-01 已实测可用；仍需补每个样本的实测周长、贴钩照片和重复注水稳定性 |
 | S-07 | Threaded / IPS stable base with varied outlet geometry | 主流 OEM 替换件、较稳固的旧房/翻新浴室 | ~15-20% | GO（按子类型） | threaded base 本身是正向因素；若外形落入 S-01 或 S-02，按对应 GO 条件执行；若落入 S-03，则按 S-03 条件执行 | 当前是结构判断，未形成独立全量实测；不应单独写成 universal fit |
 | S-04 | Short-projection / close-to-wall spout | 老建筑、城市公寓、墙面瓷砖较厚或 spout 较短的浴室 | ~10-15% | GO / GO（偏心） | 出水嘴中心到墙面距离 >=60 mm 时居中 GO；40-60 mm 时偏心 GO，功能可用但不完美/不美观；还需确认用户手部安装空间、动态注水和视觉接受度 | 60 mm 是居中美观线；偏心最多约 20 mm，因此 40 mm 是当前实际可用下限；用户观察为浴缸嘴基本没有少于 40 mm |
-| S-03 | Curved / gooseneck-like / pull-down diverter / freestanding non-waterfall spout | 现代翻新浴室、弧面出水嘴、非标准水流方向、独立浴缸 | ~10-15% | GO（条件）/ NO-GO | 弧面可通过 3M 贴挂钩 + 附赠的5孔总长124mm，宽20mm的扎带固定，且水流能居中进入滤体时为 GO（条件）；freestanding 弧形管/异型管/非瀑布出水已实测可用，扎带需扎在距离出水嘴末端 60 mm 处；若曲面导致贴钩滑移、滤体偏心、水流打到滤体侧壁或为瀑布片状出水，则 NO-GO | freestanding 非瀑布出水已有 2 kg 承重正向记录；其他 S-03 仍缺动态注水记录 |
+| S-03 | Curved / gooseneck-like / pull-down diverter / freestanding non-waterfall spout | 现代翻新浴室、弧面出水嘴、非标准水流方向、独立浴缸 | ~10-15% | GO（条件）/ NO-GO | 弧面可通过 3M 贴挂钩 + 附赠的5孔总长 125 mm，宽20mm的扎带固定，且水流能居中进入滤体时为 GO（条件）；freestanding 弧形管/异型管/非瀑布出水已实测可用，扎带需扎在距离出水嘴末端 60 mm 处；若曲面导致贴钩滑移、滤体偏心、水流打到滤体侧壁或为瀑布片状出水，则 NO-GO | freestanding 非瀑布出水已有 2 kg 承重正向记录；其他 S-03 仍缺动态注水记录 |
 | S-05 | Wide-body decorative / oversized designer spout | 高端或装饰型 modern 浴室 | ~5-10% | NO-GO（默认） | 宽体外形会让贴钩位置、挂带路径和滤体居中不可控；除非单独实测通过，否则 V1 不承诺适配 | 当前无正向实测；应作为排除或个案确认场景 |
 | S-06 | Slip-fit spout with visible wobble / loose setscrew | 老旧 CC / slip-fit 安装、租房维修质量不稳定场景 | ~5-10% | NO-GO | KES 挂带无法消除 spout base wobble；水流冲击会放大滤体摆动和偏心，容易触发漏水/绕流/脱落投诉 | 结构性排除判断；即使外形可挂，也不应承诺支持 |
 | S-08 | Low-clearance / off-center install scenario | 出水嘴中心到墙面约 40-60 mm 的低墙距场景 | ~3-5% | GO（偏心） | 40-60 mm 不是限制条件，偏心最多约 20 mm 后仍可用，只是不完全居中/不完美美观；<40 mm 作为理论极端记录，不作为当前主动限制 | 旧版 60 mm 是居中美观线而非硬边界；用户观察为实际浴缸嘴基本没有少于 40 mm |
@@ -283,7 +283,7 @@ Based on the installation risk matrix and compatibility engineering breakpoints.
 基于上面的安装场景矩阵，**KES V1 推荐 fit scope 起手包**（后续由更多实物和动态注水记录覆写）：
 
 - **GO**：S-01（末端折弯位置周长 <=18 cm）、S-02（pull-up diverter；含已测 RV / mobile-home center-set / valve-diverter 样本）、S-03 中 freestanding tub filler 弧形管/异型管/非瀑布出水（扎带距离出水嘴末端 60 mm，2 kg 承重已测）、S-07 中可明确归入 S-01/S-02 的稳定 threaded 场景。
-- **GO（条件）**：S-03 其他弧面/异形场景（3M 贴挂钩 + 附赠的5孔总长124mm，宽20mm的扎带能稳定固定且水流居中）、S-04/S-08 中出水嘴中心到墙面距离 40-60 mm 的偏心安装场景。
+- **GO（条件）**：S-03 其他弧面/异形场景（3M 贴挂钩 + 附赠的5孔总长 125 mm，宽20mm的扎带能稳定固定且水流居中）、S-04/S-08 中出水嘴中心到墙面距离 40-60 mm 的偏心安装场景。
 - **NO-GO**：S-06 visible wobble；S-05 wide-body decorative 未单独实测；S-01 末端折弯位置周长 >22 cm 或无稳定贴钩/扎带路径。出水嘴中心到墙面 <40 mm 仅作为理论极端记录。
 
 这意味着 KES V1 的 marketing 应该写：

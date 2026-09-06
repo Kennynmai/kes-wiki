@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -37,7 +37,7 @@ related:
 
 | 项 | 设定 | 状态 |
 |---|---|---|
-| 默认周期 | `[____ 建议 90 天]`（GTM 页 §4.2 参照 Canopy/Santevia 最诚实档；**具体天数待运营定**） | 🟡 |
+| 默认周期 | `[____ 建议：2 ppm 城市 9 个月 / 1 ppm 城市 12 个月，由 ZIP 诊断分档]`（2026-09-05 由「建议 90 天」改——90 天为 T3 寿命模型消耗量的 3–6 倍；**具体档位待运营定**） | 🟡 |
 | 可调周期 | 用户可自选档位 `[____ 待补]`（建议至少提供长于默认的档——低氯地区寿命更长，见 §四） | 🟡 |
 | 订阅价 | `[____ 待补]`（vs 单件 `[____]`，折扣 `[____]`） | 🟡 |
 | 寿命口径依据 | 以 [T3 页](./bathtub-filter-kes-page-replacement-and-lifespan.md) baths/gallons 口径为准，**不用「月」承诺**；周期档位须与真实用量假设一致 | 🟢 结构 |

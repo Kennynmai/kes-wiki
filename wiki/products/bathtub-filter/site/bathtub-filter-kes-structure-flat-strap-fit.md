@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -36,7 +36,7 @@ related:
 - **21mm 宽**扁硅胶主挂带；左右各 **4 个长度调节孔**；**中央圆形提拉头挂孔**（拉开后套过提拉分水器的提拉头，形成天然定位点，让滤体中心线对准出水口）。
 - **vs 圆线带的稳定性优势**：圆线带与 spout 接触面积小，浴缸高流量注水时水流冲击会放大滤体摇晃；扁带 21mm 宽 → 接触面积更大、摩擦更稳，设计意图是降低高流量下的摆动（[扁挂带适配设计](../bathtub-filter-kes-flat-strap-spout-fit-design-2026-06-03.md)）。
 - 无提拉头的直型 spout：配 **3M 贴挂钩** 模拟挂位。
-- 弧面 / 异形 spout：配**短硅胶扎带（5 孔、总长 124mm、宽 20mm）**扎住 3M 贴挂钩；主固定力来自**硅胶扎带的拉力与摩擦力**，3M 胶只作辅助防滑层（🔴 不得写成主要承重 / 长期粘接结构）。
+- 弧面 / 异形 spout：配**短硅胶扎带（5 孔、总长 125 mm、宽 20mm）**扎住 3M 贴挂钩；主固定力来自**硅胶扎带的拉力与摩擦力**，3M 胶只作辅助防滑层（🔴 不得写成主要承重 / 长期粘接结构）。
 
 ---
 
@@ -66,7 +66,7 @@ related:
 
 | # | Spout 类型 | 固定方案 | 状态 | 已测边界 / 「不支持」边界 |
 |---|---|---|---|---|
-| S-01 | Straight non-diverter | 短硅胶扎带 + 3M 贴挂钩模拟挂位 + 21mm 扁带 | 🟢周长边界内已实测 / 🟡动态注水待验 | 末端折弯位置周长 **≤18cm** 已实测可用（常规 15–17cm；124mm 扎带可拉伸到 22cm）。**不支持**：周长 >22cm 或无稳定贴钩/扎带路径 |
+| S-01 | Straight non-diverter | 短硅胶扎带 + 3M 贴挂钩模拟挂位 + 21mm 扁带 | 🟢周长边界内已实测 / 🟡动态注水待验 | 末端折弯位置周长 **≤18cm** 已实测可用（常规 15–17cm；125 mm 扎带可拉伸到 22cm）。**不支持**：周长 >22cm 或无稳定贴钩/扎带路径 |
 | S-02 | Straight + 提拉分水器 knob | 中央圆孔套过提拉头 + 21mm 扁带 | 🟢2 组 RV/mobile-home 样本已实测 / 🟡广测待验 | 已测 Mobile Home RV center-set faucet、RV valve-diverter faucet。**不支持外推**：不等于所有 RV/center-set/S-02 都已支持；不同提拉头直径待测 |
 | S-03 | Curved / gooseneck / freestanding | 3M 贴挂钩 + 短硅胶扎带 + 扁带 | 🟢freestanding 非瀑布 2kg 承重已实测 / 🟡动态注水待验 | freestanding tub filler 弧形/异型管**非瀑布出水**已测 2kg 静态承重；扎带需扎在**距出水嘴末端 60mm**处。**不支持**：waterfall / 宽体片状出水 |
 | S-04 | Short-projection（近墙） | S-01/S-02 方案 + 偏心 | 🟡偏心待验 | 墙距 ≥60mm 居中 / 40–60mm 偏心可用。**不支持**：需先确认偏心量/溅水/手部空间/视觉接受度 |
@@ -92,7 +92,7 @@ related:
 | S-03 freestanding 非瀑布 2kg 承重已实测 | 🟢（子集） | 扁挂带适配设计 2026-06-17 | 必带「waterfall/宽体不支持」边界 |
 | S-05 wide-body / S-06 wobble | 🔴不支持 | supported-spout-matrix | 诚实劝退，不硬卖 |
 | S-04/S-07/S-08 动态注水稳定性 | 🟡待验 | supported-spout-matrix | 未完成动态注水前标黄 |
-| 无溢水 35 L/min envelope | 🟢结构 | 2024-11-07 内部实测（非 V1 滤材） | 作结构 envelope 参考 |
+| 无溢水 35 L/min envelope | 🟡 待 V1 复测 | 2024-11-07 内部实测（204 g KDF + 45 g 炭，非 V1 滤材） | 对外只写设计目标 ≤30 L/min |
 | 通用适配 / fits all tubs | 🔴禁 | claim-register Banned 区 | 每条兼容 claim 必带「不支持」边界 |
 
 ---

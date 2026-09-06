@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-02
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -71,7 +71,7 @@ KES V1（游离氯版）零售包装的**设计 spec**：盒型主张、开箱�
 | # | 印刷项 | 措辞 / 规则（印刷文案为英文） | 来源 |
 |---|---|---|---|
 | 1 | **去氯 claim** | 必须写 "**free chlorine**"（🔴 不写 "total chlorine" / chloramine / 泛 "chlorine removal"）；限定词 "fresh-filter, best-experience" + 流速（15 L/min）**不可删** | register Chlorine reduction 行 |
-| 2 | **容量 / 寿命** | 只用 **baths / gallons**，🔴 **不换算成月**。例："At 2 ppm tap free chlorine, about 3 baths/week: replace around 96–121 baths." 随行必带："Your local tap chlorine affects lifespan — verify with the included test strip."（2026-07-02 按 [V1 BOM 表](../bathtub-filter-v1-free-chlorine-removal-dimensions-materials.md) 裁定：寿命数字随模型重算更正） | register Replacement-trigger 行；数字口径唯一来源 T3，本页不另造 |
+| 2 | **容量 / 寿命** | 只用 **baths / gallons**，🔴 **不换算成月**。例（2026-09-05 改为试纸触发主句）："Replace when your after-filter strip shows chlorine again. Typical range: see manual." 盒面**不印 96–121 数字**（内部模型 🟡）。随行必带："Your local tap chlorine affects lifespan — verify with the included test strip."（2026-07-02 按 [V1 BOM 表](../bathtub-filter-v1-free-chlorine-removal-dimensions-materials.md) 裁定：寿命数字随模型重算更正） | register Replacement-trigger 行；数字口径唯一来源 T3，本页不另造 |
 | 3 | **NSF 二选一** | 要么印**完整料级口径**："KDF55 media is backed by supplier NSF/ANSI 42 material-level listing. **The finished product is not itself NSF-certified.**"——要么**完全不印** NSF 字样/标。🔴 禁只印 "NSF" logo / 缩略暗示成品认证 | register Performance/testing + Supplier material credibility 行 |
 | 4 | **专利** | 只可印 "**Patent pending (U.S. App. 19/281,644)**"。🔴 禁 "patented / 专利技术 / 获得专利"；🔴 不得据专利说明书的宽 claim（软化/重金属/UV）扩印任何字样 | [专利 primary source](../bathtub-filter-kes-patent-19-281644-modular-terminal-water-treatment.md) |
 | 5 | **Prop 65** | 措辞 `[____ 待法务]` 🟡。执行默认 **Warning-ready**：包装**预留 warning 区**；按 2025-01-01 生效新规设计；2028-01-01 起短版须列至少一个化学品名，新包材直接按此准备；🔴 **warning 不得只靠 QR 呈现**（QR 非 safe harbor 自动呈现方式） | [Prop65 调查页 §1.2 / §3.2 / §七](../bathtub-filter-california-prop65-investigation-and-response.md) |

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-02
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -36,7 +36,7 @@ related:
 
 本页只做总览与规格收编，不重复子页正文。规格数字口径以真理源页为准（去氯数字→[更换/寿命页 T3](./bathtub-filter-kes-page-replacement-and-lifespan.md) 与 T2；结构/IP claim→[IP 治理页](./bathtub-filter-kes-structure-ip-and-patent-governance.md)）。
 
-> **承重护栏（本页每次出现结构叙事都随行）**：这不是净水器，不以降低 TDS 为目标。它是浴缸注水场景的**末端减害模块**，主 KPI 是游离氯去除。结构设计讲的是「水怎么走、料怎么放、怎么装稳」，不代表任何健康疗效。
+> **承重护栏（本页每次出现结构叙事都随行）**：这不是净水器，不以降低 TDS 为目标。它是浴缸注水场景的**末端除游离氯模块**，主 KPI 是游离氯去除。结构设计讲的是「水怎么走、料怎么放、怎么装稳」，不代表任何健康疗效。
 
 ---
 
@@ -129,7 +129,7 @@ related:
 | 分层不混结构 过滤棉（PET）→KDF55 130g→CaSO₃ 110g | 🟢 | [V1 BOM 表](../bathtub-filter-v1-free-chlorine-removal-dimensions-materials.md)、[V1 卖点页](../bathtub-filter-kes-v1-selling-points-and-pack-contents.md) | 料级/工程叙事；不译成健康结果 |
 | 内置导流模块（CaSO₃ 层 operational requirement） | 🟢 | 2025-10-22 内部测试（[技术说明](../bathtub-filter-technology-notes.md)） | 讲机理，不作疗效背书 |
 | 横向包络 ~120mm、免工具安装 | 🟢结构 | 扁挂带适配设计 | 兼容 claim 必带「不支持」边界（见 D4） |
-| 无溢水 35 L/min envelope | 🟢结构 | 2024-11-07 内部实测（非 V1 滤材） | 作结构 envelope，不作 V1 含碳/no-carbon-dust 卖点 |
+| 无溢水 35 L/min envelope | 🟡 待 V1 复测 | 2024-11-07 内部实测（204 g KDF + 45 g 炭 + 两层纤维盘，非 V1 滤材） | 对外只写设计目标 ≤30 L/min；35 数字 V1 复测前不上表面 |
 | 15 L/min 性能 / up to 25 L/min 最大通过 | 🟢结构 / 数字🟡 | T2/T3 | 25 L/min 去氯数字未坐实不上首屏 |
 | `Patent pending`（U.S. App. 19/281,644，申请日 2025-07-26） | 🟢 可用 | [专利参考页](../bathtub-filter-kes-patent-19-281644-modular-terminal-water-treatment.md)、[IP 治理页](./bathtub-filter-kes-structure-ip-and-patent-governance.md) | 现可对外写 "Patent pending"（有申请号背书）。🔴 仍禁 patented / granted / 专利技术（是 pending 非授权） |
 | 固定方式 = 挂在出水口下（非螺纹接口） | 🟢结构 | [D4](./bathtub-filter-kes-structure-flat-strap-fit.md)、[supported-spout-matrix](../bathtub-filter-supported-spout-matrix.md) | 无 NPT/IPS；每条兼容 claim 必带「不支持」边界 |
@@ -140,7 +140,7 @@ related:
 
 ## 承重护栏（必带）
 
-> **This is not a water purifier. It does not target TDS reduction.** 它是浴缸注水场景的末端减害模块，主 KPI 是**游离氯**去除。看得见的料是 trust 钩子，不等于更有效——efficacy 由去氯实测支撑。任何结构叙事都不得暗示治疗皮肤 / 健康结果。
+> **This is not a water purifier. It does not target TDS reduction.** 它是浴缸注水场景的末端除游离氯模块，主 KPI 是**游离氯**去除。看得见的料是 trust 钩子，不等于更有效——efficacy 由去氯实测支撑。任何结构叙事都不得暗示治疗皮肤 / 健康结果。
 
 ---
 

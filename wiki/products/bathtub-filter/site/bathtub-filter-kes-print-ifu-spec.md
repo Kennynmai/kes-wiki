@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -76,8 +76,8 @@ related:
 
 - 源：[T3 更换与寿命页](./bathtub-filter-kes-page-replacement-and-lifespan.md)（唯一数字源）。
 - 取用：滤棉「变色即换」一图；滤仓更换印：
-  > `Replace by baths, not months. At 2 ppm tap free chlorine, ~3 baths/week: soft trigger ≈ 96 baths; replace by ≈ 121 baths. Your local tap chlorine affects lifespan — verify with the included strip.`
-- 🔴 **baths/gallons 口径，不换算成月**（register 包装/说明书行）。
+  > `Replace when your after-filter strip starts showing chlorine again — the first color step above zero. At 2 ppm tap free chlorine and about 3 baths/week that is typically around 100–120 baths; your local tap chlorine changes this, so trust the strip, not the calendar.`
+- 🔴 **baths/gallons 口径，不换算成月**（register 包装/说明书行）；2026-09-05 起以试纸触发为主句，baths 只作"typically around"参照。
 
 ### ⑤ 排查（P3 五支排查树精简版）
 

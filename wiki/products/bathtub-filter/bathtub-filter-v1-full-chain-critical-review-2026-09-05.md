@@ -254,6 +254,29 @@ About 页 `Designed and tested by [Name], [N]-year water-filtration engineer` �
 
 ---
 
+## 8. 2026-09-05 处理记录
+
+| 项 | 处理 | 状态 |
+|---|---|---|
+| F1 | 25lpm spec §0 / §2.1 / §2.2 / §2.3 / §4 / §5 改到 BOM 配置；新增 §2.5 装填与溢流复核 | ✅ 桌面完成 |
+| F2 | efficacy §9.5、spec §0 / §4 标注"旧配置、幅度不可沿用" | ✅ |
+| F3 | 登记 D-10；P1 / P2 床厚改为"仓有效高 14 mm、装填待确认"；测试项进 spec §2.5 与 validation protocol Module 3 | ⏳ 待工程实测 |
+| F4 | T2、PDP key facts、Amazon B4、claim register Fit 行、结构总览、挂带页、技术笔记全部把 35 L/min 降 🟡；对外改写设计目标 ≤30 L/min；复测进 protocol | ⏳ 待 V1 复测 |
+| F5 | T2 §一 / §七 的 ≥99% 数字降 🟡，与 website / Amazon 占位统一 | ✅ |
+| F6 | T3 新增 §〇 试纸可执行触发；post-purchase、IFU、包装 §三 #2、Amazon B5、website PDP 全部改为该主句；96 / 121 只留说明书典型范围与 PDP 网页版；登记 D-11 试纸量程；P2 #7 加量程要求 | ✅ 文案 / ⏳ 试纸选型 |
+| F7 | P2 #8 / #9 升 🟢；124 → 125 mm 按 BOM 全站统一；床厚 15 → 有效高 14 | ✅ |
+| F8 | 登记 D-09，P2 §三 挂链 | ⏳ 待产品拍板 |
+| K1 | 维护指南 §一 改为"在位滴干 + 每周深晾"两级（🟡 待 Module 4 霉变观察）；EN 句同步；IFU 引用 P3 自动跟随 | ⏳ 待观察验证 |
+| K2 / C4 | 卖点页 §5 三条浴盐卖点降 🟡；起泡顶溢进 spec §2.5 | ✅ 降级 / ⏳ 测试 |
+| M1 | register Positioning 行、P1、FAQ、结构总览：harm-reduction → free-chlorine reduction；「减害」→「除游离氯」 | ✅ |
+| M2 | website copy Hero 改为 收益 → 机制 → 证明；原 H1 移入区块 2 | ✅（版式页需跟随） |
+| M3 | GTM §0 / §1.2 / §4.2 / §5 按寿命分档重写；订阅页默认周期改；登记 D-12 让 finance 重跑 LTV | ✅ 口径 / ⏳ LTV |
+| M6 | Amazon B5 去内部模型数字 | ✅ |
+| C1 / C2 | tagline 删 "Clean is what you can see"；去 "betting you won't look" 与 "cheap filler" | ✅ |
+| C5 | Maker note 改团队署名 | ✅ |
+
+未处理：M4（15 L/min 锚点，等 Gate 1 三点曲线）、M5（产品线展开节奏，策略决定）、K3（分享卡 / 对比卡进 BOM，产品拍板）、K4（动态挂重，E 层既有卡点）。
+
 ## 7. 本页的边界
 
 - 所有填充率、出水浓度、订阅消耗量都是**桌面核算**，输入来自 BOM 页、efficacy §9、T3、GTM 页；KDF55 堆积密度取公开规格 2.4–2.9 g/cm³，试纸色阶取市售常见规格。工程侧任何一个输入不同，F3 / F6 的结论要重算。

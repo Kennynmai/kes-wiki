@@ -68,7 +68,7 @@ Gate 1 第三方去氯测试 ──→ Gate 2 龙头兼容矩阵 ──→ Gate 
 - **不过怎么办**：CONDITIONAL→加大床或降流量标注；FAIL→首屏改「合理流量+高实测去氯」，25 仅作峰值。
 
 ### Gate 2 — 龙头兼容矩阵 ★launch blocker
-- **测什么**：[validation protocol](./bathtub-filter-validation-testing-protocol.md) Module 2——diverter/non-diverter/swan-neck/slip-fit 真实龙头矩阵 + leak taxonomy（bypass/overflow/seam/retention 分开报）+ TPU strap 耐久。
+- **测什么**：[validation protocol](../../playbooks/bathtub-filter-validation-testing-protocol.md) Module 2——diverter/non-diverter/swan-neck/slip-fit 真实龙头矩阵 + leak taxonomy（bypass/overflow/seam/retention 分开报）+ TPU strap 耐久。
 - **谁做**：产品/工程 + 真实样机。
 - **通过标准**：明确 supported / unsupported spout 清单（bounded-fit，非 universal-fit）；重复装卸无 retention/seam 失败。
 - **解锁**：兼容性承诺文案、客服规则、退货风险控制。
@@ -85,7 +85,7 @@ Gate 1 第三方去氯测试 ──→ Gate 2 龙头兼容矩阵 ──→ Gate 
 
 | 工作流 | 现状 | 下一步 | 归属 | doc |
 |---|---|---|---|---|
-| **① 产品/测试** | Version A 确认；内部单测正向 | 跑 Gate 1（第三方 DPD）+ Gate 2（兼容矩阵） | 产品/实验室 | [测试 spec](./bathtub-filter-25lpm-dechlorination-bench-test-spec.md) / [validation protocol](./bathtub-filter-validation-testing-protocol.md) |
+| **① 产品/测试** | Version A 确认；内部单测正向 | 跑 Gate 1（第三方 DPD）+ Gate 2（兼容矩阵） | 产品/实验室 | [测试 spec](./bathtub-filter-25lpm-dechlorination-bench-test-spec.md) / [validation protocol](../../playbooks/bathtub-filter-validation-testing-protocol.md) |
 | **② 合规/Claim** | claim 决策散落本轮各 doc | **归并进操作级 claim register**（allowed/conditional/banned）+ Gate 3 认证 | 法务/合规 | [claim register](./bathtub-filter-claim-register.md)（待更新） |
 | **③ 品牌/创意** | 定位/宣言/版式/镜头脚本已定 | 写**完整网站文案** + 拍透明盒英雄镜头 | 品牌/创意 | [定位决策](./bathtub-filter-kes-positioning-and-problem-layer-decision-2026-06-15.md) / [感性定位](./bathtub-filter-kes-clean-formula-emotional-positioning.md) / [版式](./bathtub-filter-kes-homepage-and-about-page-layout.md) / [镜头脚本](./bathtub-filter-kes-transparent-box-hero-shot-script.md) |
 | **④ GTM/渠道/定价** | $59–79、DTC 首发、P1 三城、90 天订阅已定 | 等 Gate 1 数字回填首屏；建 DTC + Amazon listing | 增长/GTM | [定价/渠道/地理/订阅](./bathtub-filter-kes-v1-pricing-channel-launch-geo-subscription.md) |
@@ -135,7 +135,7 @@ Gate 1 第三方去氯测试 ──→ Gate 2 龙头兼容矩阵 ──→ Gate 
 - 本轮 8 份 doc（定位决策 / 感性定位 / 媒体EEAT / 版式 / 镜头脚本 / 定价渠道地理订阅 / 获客引擎 / 25L/min spec）
 - [next-step-execution-plan-v1](./bathtub-filter-kes-next-step-execution-plan-v1.md)（被本页更新）
 - [go-no-go-memo-v1](./bathtub-filter-kes-go-no-go-memo-v1.md)（kill-criteria 继承）
-- [validation testing protocol](./bathtub-filter-validation-testing-protocol.md)（Gate 2）
+- [validation testing protocol](../../playbooks/bathtub-filter-validation-testing-protocol.md)（Gate 2）
 - [氯胺证据页 §9](./bathtub-filter-chloramine-media-research.md)（V1.5 gate）
 
 ## Obsidian links

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: product
 created: 2026-04-11
-updated: 2026-04-19
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -99,6 +99,8 @@ related:
 - **无顶部 fiber 盘**：35 L/min 即溢水；多次冲击后床压实 → 间歇性溢水
 - **1 mesh + 1 非织造 fiber 盘**：35 L/min **不溢水**
 - **1 mesh + 2 非织造 fiber 盘**：35 L/min **不溢水**（已达 envelope 上限）
+
+> ⚠️ 2026-09-05：以上溢流测试配置为 204 g KDF + 45 g 炭 + 网 + 纤维盘，**不是 V1（单片 PET 盘 + KDF55 130 g + CaSO₃ 110 g）**。35 L/min 只作结构参考，V1 复测见 [[bathtub-filter-25lpm-dechlorination-bench-test-spec]] §2.5。
 - **1 mesh + 3 非织造 fiber 盘**：开始溢水（流阻过大）
 
 美国典型浴缸龙头出水 18–25 L/min，**2-盘配置在 no-overflow envelope 内有显著余量**。

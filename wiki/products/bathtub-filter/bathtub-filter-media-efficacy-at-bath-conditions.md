@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: product
 created: 2026-04-17
-updated: 2026-07-02
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -267,7 +267,7 @@ Version A 的寿命口径使用 **累计水量 / 泡澡次数 / 周期**，**不
 
 Section 9 的寿命模型是由 KDF 经验系数 + CaSO₃ 供应商 reference report（2 ppm / 40 g / 0.5–1 mm）缩放 + 链式公式推出的 **推算曲线**。下表是 KES 2026-03-20 内部 bench test 给出的 **系统级直接测量**——首次把 "X ppm 进 → Y ppm 出" 的端到端结果接到同一架构上。
 
-**被测架构**：35 孔 PP 棉盘 15 mm + KDF55 110 g + CaSO₃ 130 g（与 Version A 一致）
+**被测架构**：35 孔 PP 棉盘 15 mm + KDF55 110 g + CaSO₃ 130 g（与 2026-04 Version A 一致；⚠️ **2026-09-05 注：2026-07-02 BOM 裁定后 V1 出货配置为 PET 盘 + KDF55 130 g + CaSO₃ 110 g，主力介质少 15%。本表只证明方向，绝对值不可套到 V1；V1 的流量-去氯曲线以 Gate 1 第三方 DPD 为准**）
 **压力条件**：原水自由氯 **5 mg/L**（约为 Section 9 寿命模型 2 ppm 基线的 2.5×；属压力测试，而非名义工况）
 **测量方法**：**氯试纸比色法**（非 DPD；5 条试纸照片存档 + 3 段 `20260320.mp4` 视频存档）
 **独立变量**：**进水压力**（0.2 / 0.3 / 0.4 / ~0.5 MPa）；流速为 downstream 响应

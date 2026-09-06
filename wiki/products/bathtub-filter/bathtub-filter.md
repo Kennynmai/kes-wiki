@@ -203,7 +203,7 @@ related:
 | 资料导入索引 | [[bathtub-filter-2026-06-17-desktop-strategy-doc-import-index]]、[[bathtub-filter-2026-06-18-source-import-index]] | 桌面策略文档 10 份、桌面源文件夹 42 份、10-ASIN listing + 销量包（近 12 月合计 176,739 件 / $6.3M） | source-index |
 
 ## 已知缺口（2026-09-05 lint）
-- **全链路审查发现 5 项 P0**：Gate 1 spec 仍用裁定前配置；KDF 仓按 BOM 尺寸只能装约四成满；35 L/min 溢流包络来自非 V1 配置；试纸分辨率支撑不了 90/80/50% 三档触发；90 天订阅节奏约为寿命模型消耗量的 3 倍。详见 [[bathtub-filter-v1-full-chain-critical-review-2026-09-05]]。
+- **全链路审查 5 项 P0 的桌面侧已处理（2026-09-05）**：Gate 1 spec 已改到 BOM 配置；35 L/min 溢流数字全站降 🟡；试纸触发改为可执行单触发；订阅周期改为按水型分档。**仍开放的是工程侧**：KDF 仓装填高度（D-10）、V1 溢流复测、在位滴干霉变观察、试纸量程（D-11）、refill 形态（D-09）。详见 [[bathtub-filter-v1-full-chain-critical-review-2026-09-05]] §8。
 - **Filterbaby 剥离资料不在任何 repo（2026-09-05 已改口径）**：此前多页写"已迁到 `wiki/products/shower-filter/`"，经查 kes-wiki 与 kenny-wiki 及各自 git 历史都没有该目录。现统一口径为：已从 bathtub 语料剔除。其 99 条评论原文、客户图、scorecard 子集与 competitor brief **未保留在任何 repo**（源头为 ops-platform `dev_competitor_review` 库，可按需重新导出）；Filterbaby 品牌研究见 kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md` 与本 repo [[kes-shower-filter-positioning-patent-analysis]]。
 - **COGS 仍缺**：BOM 已有部件 / 尺寸 / 材质，但没有单价与渠道 margin，D 层 COGS 侧仍 🟡。
 - **寿命 / 去氯数字全部是内部模型或内部比色**：在 Gate 1 第三方 DPD 完成前不得作为 label claim。

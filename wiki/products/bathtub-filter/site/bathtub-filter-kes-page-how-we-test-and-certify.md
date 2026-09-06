@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-30
-updated: 2026-07-02
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -38,6 +38,8 @@ related:
 **对外可用措辞（照 register Allowed 原文保留英文）：**
 
 > "Fresh-filter, best-experience segment: **≥99% system-total chlorine reduction** at 15 L/min bath-fill flow."
+>
+> ⚠️ 2026-09-05：这句的数字部分在 Gate 1 前为 🟡，对外表面一律用 `[去氯率·待第三方实测]` 占位（与 website-copy / Amazon 一致）；只有"free chlorine / fresh-filter / 15 L/min"三个限定词是 🟢 结构。
 
 两个限定词**不可删**：
 
@@ -50,7 +52,7 @@ related:
 
 ## 二、25 L/min 只是「最大通过流量」，不上性能承诺
 
-很多美式龙头出水在 18–25 L/min。我们的壳体**能通过 25 L/min**（并有 35 L/min 无溢流包络的内部流量测试支撑），但**25 L/min 只作为「最大通过流量 / 兼容性说明」**，**不承载去氯性能承诺**。
+很多美式龙头出水在 18–25 L/min。我们的壳体**能通过 25 L/min**（V1 设计防溢目标 ≤30 L/min；曾有 35 L/min 无溢流的内部测试，但那是 204 g KDF + 45 g 炭 + 两层纤维盘的旧配置，🟡 V1 配置复测待做），但**25 L/min 只作为「最大通过流量 / 兼容性说明」**，**不承载去氯性能承诺**。
 
 **25 L/min 下的具体去氯率 = 🟡 待验证**，pending Gate 1 第三方 DPD 实测。在实测通过门槛之前，**25 L/min 的任何去氯数字都不上首屏、不作对外承诺**。
 
@@ -132,9 +134,9 @@ DPD 报告到位前，这一节的所有 25 L/min 具体数字保持 🟡。
 
 | Claim | 状态 | 证据 | 护栏 |
 |---|---|---|---|
-| "≥99% system-total **free chlorine** reduction @ **15 L/min** bath-fill, fresh-filter" | 🟢 结构 | register Allowed · Chlorine reduction；内部 life model（E5 缩放） | 三个限定词（free chlorine / fresh-filter / 15 L/min）不可删；数字对外引导试纸自测 |
+| "≥99% system-total **free chlorine** reduction @ **15 L/min** bath-fill, fresh-filter" | 🟡 待验证（2026-09-05 由 🟢 降级：99% 来自寿命模型对最佳体验段的定义，非 15 L/min 实测；唯一近似实测 16.5 L/min / 5 ppm / 旧配置为 ~90%）| register Allowed · Chlorine reduction；内部 life model（E5 缩放） | 三个限定词（free chlorine / fresh-filter / 15 L/min）不可删；数字对外引导试纸自测 |
 | 25 L/min 下具体去氯率（%） | 🟡 待验证 | pending Gate 1 第三方 DPD（真实 2 ppm、新芯 **≥85%**、25→27 斜率平缓）；[25 L/min spec §4](../bathtub-filter-25lpm-dechlorination-bench-test-spec.md) | 门槛前不上首屏；不用内部 5 ppm 比色单测数字 |
-| "25 L/min max pass-through flow / 35 L/min no-overflow" | 🟢 兼容性 | 内部流量-溢流测试；作兼容说明 | 只作最大通过流量，**不**当性能承诺 |
+| "25 L/min max pass-through flow / 设计防溢 ≤30 L/min" | 🟢 结构 / 🟡 35 L/min 数字 | 35 L/min 来自非 V1 配置（204 g KDF + 45 g 炭）内部测试；V1 复测前不对外写 35 | 只作最大通过流量，**不**当性能承诺 |
 | KDF55 = NSF/ANSI 42 **material-level** listing | 🟢 料级 | E1（NSF Cert# C0843384-01, 2025-04-10） | **每处必带**「成品未 NSF 认证、CaSO₃ 未认证」；禁读成整机认证 |
 | 成品 / CaSO₃ 通过 NSF 认证 | 🔴 禁 | 无——只有 KDF55 料级 listing | 禁 "certification for safety and performance" 等成品认证误读措辞 |
 | KDF55 EU food-contact 料级合规 | 🟢 料级 | E2（TÜV SÜD 721682290C） | 料级，不转成品 food-contact claim |

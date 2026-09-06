@@ -3,7 +3,7 @@ type: playbook
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-17
+updated: 2026-09-05
 visibility: company
 confidence: medium
 officiality: draft
@@ -146,6 +146,9 @@ related:
 |---|---|---|---|
 | ⏳ 外部待补 | 完整压测 | 重复 mount / bath-fill 循环，seam / seal / 悬挂稳定性 | Doc 2 B008A4AG2U "外壳漏水" 7 赞差评，B0012045EO "安装问题" 67 赞差评 |
 | ⏳ 外部待补 | 高水压测试 | US 高楼层 70+ PSI 条件 | 需要验证 Version A 在非典型高水压下不爆 |
+| ⏳ 内部待补（2026-09-05 新增） | **V1 配置溢流包络复测** | 单片 PET 盘 + KDF55 130 g + CaSO₃ 110 g，20 / 25 / 30 / 35 L/min | 现有 35 L/min 数据来自 204 g KDF + 45 g 炭配置；V1 复测前 PDP / Amazon 不写 35 |
+| ⏳ 内部待补（2026-09-05 新增） | **KDF 仓装填高度 / 床层位移** | 实测装填高度；25 L/min 下透明仓观察床层是否位移 | 几何核算填充率 36–44%，见 [[bathtub-filter-decision-register]] D-10 |
+| ⏳ 内部待补（2026-09-05 新增） | **泡泡浴 / bath bomb 通过浴盐仓** | 0.7 mm × 3,846 孔板起泡与顶溢观察 | 卖点页 §5 三条浴盐卖点无测试记录 |
 
 ### Module 4 — Maintenance / refill economics
 | 状态 | 测试项 | 方法 / 条件 | 结果 / 依赖 |
@@ -154,6 +157,9 @@ related:
 | ✅ 内部已完成 | 导流模块必要性 | KDF 层 vs CaSO₃ 层 有无导流的冲蚀对比 | KDF 层无差异；CaSO₃ 层无导流则中心冲蚀形成 crater → 导流模块为 CaSO₃ 层 operational requirement |
 | ⏳ 外部待补 | 订阅节奏与家庭经济 | 1 child / 2 child / family mixed-use 场景下的 refill cadence 与年度成本 | 阻塞订阅方案设计；与寿命口径（水量/次数/周）直接挂钩 |
 | ⏳ 外部待补 | 长期霉变测试 | Version A 在湿润浴室环境 4–8 周存放下的内部霉变倾向 | Doc 2 B0742KFY9R 布袋霉变 16 赞差评——Version A 硬壳方案需要验证同类风险已消除 |
+
+| ⏳ 内部待补（2026-09-05 新增） | **在位滴干防霉观察** | V1 挂在龙头上、每日一次注水、不取下，观察 30 天霉变 / 异味 | 决定维护指令能否从"每次取下晾干"降级为"在位滴干 + 每周深晾"（维护指南 §一）|
+| ⏳ 内部待补（2026-09-05 新增） | **试纸触发可读性** | 用候选试纸在 1 / 2 ppm 进水、滤芯 90 / 80 / 50% 三档出水下盲读 | 决定 D-11；粗档试纸预期只能读出 50% 点 |
 
 ### Module 5 — Claims validation
 | 状态 | 测试项 | 方法 / 条件 | 结果 / 依赖 |

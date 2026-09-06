@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-17
-updated: 2026-07-02
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -62,13 +62,13 @@ related:
 
 | Claim category | Allowed | Example wording (Version A) | Evidence requirement | Notes |
 |---|---|---|---|---|
-| Positioning (category-level) | Yes — **leading** with this | "This is not a water purifier. It does not target TDS reduction. It is an end-stage harm-reduction module for the bath-fill scenario." | Verbatim from Doc 1 positioning statement; no efficacy claim embedded | Must appear on every customer-facing surface (page, pack, manual, rep script) to pre-empt "does it drop TDS?" objection |
+| Positioning (category-level) | Yes — **leading** with this | "This is not a water purifier. It does not target TDS reduction. It is an end-stage free-chlorine reduction module for the bath-fill scenario."（2026-09-05 改：原 "harm-reduction module" 自带公共卫生 / 水有害框架，与禁 toxin-panic 方向相反；改后仍是纯功能陈述。原句：It is an end-stage harm-reduction module for the bath-fill scenario.）"" | Verbatim from Doc 1 positioning statement; no efficacy claim embedded | Must appear on every customer-facing surface (page, pack, manual, rep script) to pre-empt "does it drop TDS?" objection |
 | Chlorine reduction | Yes — with precision | "Fresh-filter, best-experience segment: **≥99% system-total chlorine reduction** at 15 L/min bath-fill flow." / "System-total chlorine reduction follows a posted curve over the filter life (99% → 95% → 90% → 80% → <50% replacement trigger)." | Internal life model at 110 g CaSO₃ + η=0.9 scaling (see [[bathtub-filter-media-efficacy-at-bath-conditions]] Section 9); **"free chlorine" must be specified — NOT "total chlorine" or "chloramine"**; flow rate and "fresh-filter / best-experience segment" qualifiers are non-optional | KPI is system-total (KDF × CaSO₃ chain), not single-media; must not re-use this wording for chloramine markets |
 | Verification-by-user | Yes — with physical tool | "Verify with the included chlorine test strip: compare before- and after-filter water. Do not use a TDS pen — this product does not target TDS." | Test strip included in pack; FAQ explicitly steers user away from TDS pen as verification tool | This is a trust-building anchor unique to Version A vs. competitors who avoid user verification |
 | Replacement-trigger language | Yes — with posted schedule | "Replace when system-total chlorine reduction drops to ~90% (soft trigger) / ~80% (strong trigger) / ~50% (mandatory)." / "At 2 ppm tap chlorine, 3 baths/week: soft trigger ≈ 96 baths; mandatory ≈ 121 baths (~9–10 months). At 1 ppm tap: approximately 2× lifespan." | Internal life model (see [[bathtub-filter-media-efficacy-at-bath-conditions]] Section 9) | Use gallons / baths / weeks — **do not convert to months** (per Doc 1 口径决策); add "your local tap chlorine affects lifespan — verify with test strip" |
 | Sensory / comfort benefit | Yes — with non-medical framing | "Bath-water without the pool smell." / "Gentler-feeling bath-fill." / "A cleaner bath starting experience." | Stays in sensory/comfort language; no therapeutic outcome implied | Verbatim guardrail from Doc 1 sales script: "feels different" OK; "improves your skin" NOT OK |
 | Media transparency | Yes — with specific framing | "Layered media: polyester (PET) fiber → KDF55 (130 g) → CaSO3 (110 g). Each layer replaceable separately." / "KDF55 as end-stage safety layer and biofilm-inhibition layer. CaSO3 as primary free-chlorine reduction KPI." | Doc 1 media stack spec | Explicitly reframes KDF as safety-layer, not "free-chlorine reduction main media" — reduces "KDF = cure-all" misread |
-| Fit / compatibility | Yes — with explicit scope | "Designed for standard US tub spouts 18–25 L/min; adjustable silicone strap fits most spout diameters; no-overflow envelope up to 35 L/min."（2026-07-02 按 V1 BOM 表更正，原记 adjustable TPU strap） | Internal flow-overflow test Doc 4; supported-spout matrix needs external sample sweep before launch (see [[bathtub-filter-supported-spout-matrix]]) | Every compatibility claim must ship with a "not supported" boundary (e.g., "swan-neck spouts without a pull-diverter may need aftermarket strap") |
+| Fit / compatibility | Yes — with explicit scope | "Designed for standard US tub spouts 18–25 L/min; adjustable silicone strap fits most spout diameters."（2026-09-05 去掉 "no-overflow envelope 🟡 pending V1 retest（35 L/min 为旧配置数据）"：该数据来自 204 g KDF + 45 g 炭旧配置，🟡 待 V1 复测）（2026-07-02 按 V1 BOM 表更正，原记 adjustable TPU strap） | Internal flow-overflow test Doc 4; supported-spout matrix needs external sample sweep before launch (see [[bathtub-filter-supported-spout-matrix]]) | Every compatibility claim must ship with a "not supported" boundary (e.g., "swan-neck spouts without a pull-diverter may need aftermarket strap") |
 | Performance / testing | Yes — with test/certified distinction | "KDF55 media is backed by supplier NSF/ANSI 42 material-level listing. CaSO3 has NSF/ANSI 177-protocol free-chlorine reference testing, but CaSO3 itself is not NSF-certified and the finished product is not NSF-certified. Verify with the included free-chlorine test strip." | Doc 1 standards-口径; supplier cert docs on hand | See compliance-framework-and-evidence-boundaries for the 5 common misreads to avoid; this wording is **deliberately conservative** — it does not claim NSF certification of CaSO3 or the finished product |
 | Environmental / sustainability | Conditional — only if substantiated | TBD — pending replaceable-cartridge final design + supply-chain sourcing verification | Requires specific data on cartridge lifespan, material composition, and disposal or recycling pathway | Do not use vague "eco" language without specific backing |
 
@@ -172,7 +172,7 @@ related:
 |---|---|---|---|---|
 | **结构透明 / 可视化滤仓** | Yes | "A clear cartridge — see the real media, the amount, the order." | 透明硬壳滤仓为真实结构（[[bathtub-filter-kes-structure-transparent-housing]]） | **可见≠更有效**：透明是 trust 钩子，efficacy 另由去氯实测支撑 |
 | **导流 / 分层不混结构** | Yes — 讲设计选择 | "Strict layered media with an internal flow-diversion module — water passes each layer in order instead of channeling around it." | 内部导流实测（[[bathtub-filter-kes-structure-flow-diversion-module]]）；CaSO₃ 层 operational requirement | 解释技术选择，**非贬竞品、不点名 ASIN** |
-| **挂带适配（有界）** | Yes — 带不支持边界 | "21 mm flat silicone strap for standard US tub spouts; adjustable; no-overflow envelope up to 35 L/min." | 挂带设计 + spout 矩阵（[[bathtub-filter-kes-structure-flat-strap-fit]]，部分实测🟡） | **每条兼容 claim 必带「不支持」边界**；见 [[bathtub-filter-supported-spout-matrix]] |
+| **挂带适配（有界）** | Yes — 带不支持边界 | "21 mm flat silicone strap for standard US tub spouts; adjustable; no-overflow envelope 🟡 pending V1 retest（35 L/min 为旧配置数据）." | 挂带设计 + spout 矩阵（[[bathtub-filter-kes-structure-flat-strap-fit]]，部分实测🟡） | **每条兼容 claim 必带「不支持」边界**；见 [[bathtub-filter-supported-spout-matrix]] |
 
 ### 新增 Conditional
 
@@ -191,6 +191,19 @@ related:
 | 未做正式 FTO 前的 "不侵权 / 行业首创" 声明 | draft FTO≠正式意见；prior-art 未检索 | ⚠️ 需律师，非营销可决 |
 
 ---
+
+## 2026-09-05 全链路审查增补
+
+> 来源：[[bathtub-filter-v1-full-chain-critical-review-2026-09-05]]。以下为对既有行的修改与新增，优先级规则不变。
+
+| 变更 | 内容 | 影响表面 |
+|---|---|---|
+| Positioning 行改写 | "harm-reduction module" → "free-chlorine reduction module"；中文「减害模块」→「除游离氯模块」 | P1、FAQ、结构总览、IFU、包装 |
+| Replacement-trigger 行加"试纸可执行触发" | 对外主句改为 "Replace when your after-filter strip starts showing chlorine again — the first color step above zero. At 2 ppm tap free chlorine and about 3 baths/week that is typically around 100–120 baths; your local tap chlorine changes this, so trust the strip, not the calendar."；96 / 121 baths 与 90/80/50% 三档曲线降为内部口径，只在说明书「典型范围」与 PDP 网页版带限定语境出现；**不进 Amazon 五点、不进盒面** | T3、IFU、包装、Amazon B5、website PDP |
+| Fit 行去掉 35 L/min | 溢流包络数字来自非 V1 配置，V1 复测前 🟡 | PDP key facts、Amazon B4、T2 |
+| Chlorine-reduction 行数字降级 | "≥99% @15 L/min" 数字部分 🟡，Gate 1 前一律占位；限定词仍 🟢 | T2、P1 |
+| 新增 Conditional：浴盐仓功能 | "无需搅拌 / 减少沉底 / 减少堵塞" 三条无测试记录，降 🟡；🟢 只保留 "250 mL loading cup" 结构事实 | 卖点页 §5、S5 |
+| Maker note | 无真实署名前不用个人署名句 | About |
 
 ## How to use this register
 
