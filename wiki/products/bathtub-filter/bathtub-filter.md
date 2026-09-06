@@ -58,6 +58,8 @@ related:
   - ./bathtub-filter-point-of-use-pfas-removal-feasibility.md
   - ./site/bathtub-filter-kes-marketing-site-content-map.md
   - ./bathtub-filter-2026-06-18-source-import-index.md
+  - ./bathtub-filter-sensing-strategy.md
+  - ./bathtub-filter-app-functional-plan.md
   - ../curtains.md
 ---
 
@@ -209,6 +211,18 @@ related:
 - **Filterbaby 剥离资料不在任何 repo（2026-09-05 已改口径）**：此前多页写"已迁到 `wiki/products/shower-filter/`"，经查 kes-wiki 与 kenny-wiki 及各自 git 历史都没有该目录。现统一口径为：已从 bathtub 语料剔除。其 99 条评论原文、客户图、scorecard 子集与 competitor brief **未保留在任何 repo**（源头为 ops-platform `dev_competitor_review` 库，可按需重新导出）；Filterbaby 品牌研究见 kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md` 与本 repo [[kes-shower-filter-positioning-patent-analysis]]。
 - **COGS 仍缺**：BOM 已有部件 / 尺寸 / 材质，但没有单价与渠道 margin，D 层 COGS 侧仍 🟡。
 - **寿命 / 去氯数字全部是内部模型或内部比色**：在 Gate 1 第三方 DPD 完成前不得作为 label claim。
+
+## 2026-09-06 感知 / 智能化层（新建）
+
+新增两页，回答「能否做出硬件+数据驱动的护城河」：[[bathtub-filter-sensing-strategy]]、[[bathtub-filter-app-functional-plan]]。
+
+**三条结论**：
+
+1. **TDS 传感器选型作废**——去氯会把硫酸根/锌溶进水里（TDS 反而上升），软化是 Ca²⁺⇄2Na⁺（TDS 不变）。两份概念稿已就地标注作废，与[[bathtub-filter-kes-water-diagnosis-kit-and-modular-acquisition-engine]] §八「不用 TDS 笔」红线归一。
+2. **在线测出水不可行**——[[bathtub-filter-25lpm-dechlorination-bench-test-spec]] 的 ≥85% 阈值换算后，「还能用 vs 该换了」只差 **0.1 mg/L**，低于消费级方法分辨率；且衰减是连续曲线，无穿透阶跃可报警。**正解是剂量积分。**
+3. **进水才是主误差项，且 $0 可测**——寿命模型压在「进水 2 ppm」单一假设上，一户 0.8 vs 3.5 ppm 寿命差 4 倍且系统性偏。进水浓度高、基质干净、±0.3 够用 → **手机比色读已在包装里的试纸即可**，并反哺 [[bathtub-filter-utility-service-map-by-metro]]。
+
+**方案**：进水试纸手机比色（全量, P0）+ 流量 + 压差（500–1000 台样本盘）。[[bathtub-filter-kes-patent-19-281644-modular-terminal-water-treatment]] 的模块化连接与「可选加热/UV」条款**已为带电模块开好插槽，V1 出货硬件不用改**。App 走 **Web PWA**，卡在 **D-11 试纸量程**（与全链路审查 F6 同源，应合并决策）与 **D-15 卡片进 BOM**。
 
 ## 2026-06-17 桌面资料导入批次
 2026-06-17 已把桌面提供的 10 个 bathtub filter 策略 / 介质 / 水源 / 宣称资料文件导入 wiki，并在 raw 中保留原始文件与旧版备份。详见 [[bathtub-filter-2026-06-17-desktop-strategy-doc-import-index]]。

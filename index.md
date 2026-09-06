@@ -207,6 +207,10 @@
 - [竞品客户实际安装对象矩阵（2026-06-02）](wiki/products/bathtub-filter/bathtub-filter-competitor-customer-installation-target-matrix-2026-06-02.md)
 - [客户如何判断 bathtub filter 是否改善水质（2026-06-03）](wiki/products/bathtub-filter/bathtub-filter-customer-water-quality-test-methods-2026-06-03.md)
 
+### Sensing & App（感知 / 智能化层）
+- [浴缸过滤器感知策略（测什么 / 不测什么；TDS 选型作废）](wiki/products/bathtub-filter/bathtub-filter-sensing-strategy.md)
+- [浴缸过滤器 App 功能规划（Web PWA 优先 / 试纸相机读数 / 可解释寿命）](wiki/products/bathtub-filter/bathtub-filter-app-functional-plan.md)
+
 ### Technology, Media & Water (additions)
 - [抗坏血酸钠与氯胺反应动力学数据分析](wiki/products/bathtub-filter/ascorbate-chloramine-kinetics-research-2026-06.md)
 - [浴缸过滤器 25L/min 去氯特征测试 spec（去氯率 × 流量 × 压降 × 床体积）](wiki/products/bathtub-filter/bathtub-filter-25lpm-dechlorination-bench-test-spec.md)
