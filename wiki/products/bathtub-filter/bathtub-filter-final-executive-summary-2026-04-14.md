@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-09-06
 visibility: team
 confidence: medium
 officiality: draft
@@ -21,6 +21,10 @@ related:
 ---
 
 # 浴缸过滤器收尾摘要（2026-04-14）
+
+> **2026-09-06 状态更新（V1 定义锁定后）**：本页写于 diligence 阶段，正文保留为历史判断。2026-07-02 之后的权威事实见 [[bathtub-filter]]「V1 真理源」表：专利申请 19/281,644（patent pending）、27 项 BOM 裁定（KDF55 130 g / CaSO₃ 110 g / PET）、53 页 site/ 内容体系、氯胺版与井水版 GO、不做软化、PFAS 禁写。2026-09-05 全链路审查（[[bathtub-filter-v1-full-chain-critical-review-2026-09-05]]）把剩余卡点收敛为：Gate 1 第三方 DPD（[[bathtub-filter-25lpm-dechlorination-bench-test-spec]]）、KDF 仓装填（D-10）、V1 溢流复测、试纸量程（D-11）、refill 形态（D-09）、订阅 LTV 重跑（D-12）、COGS。
+>
+> **对本页的影响**：「研究阶段已完成、可停止扩写」仍成立；「若继续推进，仅进入公开竞品资料补全、测试验证准备与概念收窄」这一句已被实际工作超越——概念已收窄为「一个壳体三套配方」，V1 已定义。本页不再作为"先看这几页"第一入口，入口改为 hub 页 V1 真理源表。
 
 ## 这页的目的
 这页用于给 bathtub filter 这一组研究做一个可管理层直接使用的收尾结论。

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-04-15
+updated: 2026-09-06
 visibility: team
 confidence: medium
 officiality: draft
@@ -18,6 +18,10 @@ related:
   - ./bathtub-filter-claim-risk-audit-v2.md
 ---
 # 浴缸过滤器 Go / No-Go 备忘录 — V1
+
+> **2026-09-06 状态更新（V1 定义锁定后）**：本页写于 diligence 阶段，正文保留为历史判断。2026-07-02 之后的权威事实见 [[bathtub-filter]]「V1 真理源」表：专利申请 19/281,644（patent pending）、27 项 BOM 裁定（KDF55 130 g / CaSO₃ 110 g / PET）、53 页 site/ 内容体系、氯胺版与井水版 GO、不做软化、PFAS 禁写。2026-09-05 全链路审查（[[bathtub-filter-v1-full-chain-critical-review-2026-09-05]]）把剩余卡点收敛为：Gate 1 第三方 DPD（[[bathtub-filter-25lpm-dechlorination-bench-test-spec]]）、KDF 仓装填（D-10）、V1 溢流复测、试纸量程（D-11）、refill 形态（D-09）、订阅 LTV 重跑（D-12）、COGS。
+>
+> **对本页结论的影响**：「conditional GO for continued diligence，不是 product GO」在 2026-09 仍然成立，但含义变了——不再是"要不要继续研究"，而是"V1 已定义、内容已建，product GO 只差 Gate 1 与三项工程复核"。§「在任何真正的 product GO 之前，必须完成的验证」应读作当前的 [[bathtub-filter-test-gating-checklist-for-kes]] + validation protocol Module 1/3/4 新增项。§「什么情况会把 conditional GO 拉回 NO-GO」新增一条：Gate 1 在 V1 配置（CaSO₃ 110 g）下 25 L/min < 70%，或 KDF 仓装填确认为半空且无结构修正方案。
 
 ## 决策状态
 **当前答案：conditional GO for continued diligence，不是 product GO。**

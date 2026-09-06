@@ -3,7 +3,7 @@ type: playbook
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-09-05
+updated: 2026-09-06
 visibility: company
 confidence: medium
 officiality: draft
@@ -148,6 +148,7 @@ related:
 | ⏳ 外部待补 | 高水压测试 | US 高楼层 70+ PSI 条件 | 需要验证 Version A 在非典型高水压下不爆 |
 | ⏳ 内部待补（2026-09-05 新增） | **V1 配置溢流包络复测** | 单片 PET 盘 + KDF55 130 g + CaSO₃ 110 g，20 / 25 / 30 / 35 L/min | 现有 35 L/min 数据来自 204 g KDF + 45 g 炭配置；V1 复测前 PDP / Amazon 不写 35 |
 | ⏳ 内部待补（2026-09-05 新增） | **KDF 仓装填高度 / 床层位移** | 实测装填高度；25 L/min 下透明仓观察床层是否位移 | 几何核算填充率 36–44%，见 [[bathtub-filter-decision-register]] D-10 |
+| ⏳ 内部待补（2026-09-06 新增） | **动态挂重与挂点位移** | V1 整机 + 介质 + 防溢仓满水（~0.6 L）称重；25 L/min 注水下路线 A（提拉头）/ B（3M 挂钩）/ C（扎带）各记录位移与回弹 | 估计湿重 1.5–2 kg 全经硅胶挂带落在挂点；现有只有 freestanding 静态 2 kg |
 | ⏳ 内部待补（2026-09-05 新增） | **泡泡浴 / bath bomb 通过浴盐仓** | 0.7 mm × 3,846 孔板起泡与顶溢观察 | 卖点页 §5 三条浴盐卖点无测试记录 |
 
 ### Module 4 — Maintenance / refill economics

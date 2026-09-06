@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-17
-updated: 2026-04-19
+updated: 2026-09-06
 visibility: team
 confidence: medium
 officiality: draft
@@ -64,6 +64,24 @@ related:
 - A new geo / water-profile screen is completed (A-02, A-14)
 
 ---
+
+## 2026-09-06 重评（V1 定义锁定 + 全链路审查后）
+
+| 假设 | 2026-09-06 状态 | 依据 |
+|---|---|---|
+| A-01 normal-flow 可达 | 🟡 方向支持 / 幅度未定 | 2026-03-20 直测为旧配置（CaSO₃ 130 g），V1 为 110 g；Gate 1 未送测 |
+| A-02 游离氯 NA 为 V1 目标 | ✅ 已决策 | 2026-06-15 定位决策；首发 Las Vegas / Phoenix / San Antonio |
+| A-03 游离氯 claim 最可防守 | ✅ | register Allowed 行；site/ 全站以此为唯一功效 claim |
+| A-05 bounded fit 而非 universal | ✅ 已执行 | P4 三路线 + S-01～S-08 矩阵 |
+| A-06 四类漏水分开测 | ⏳ 未测 | protocol Module 3；V1 溢流复测新增 |
+| A-07 renter-friendly vs 稳固张力 | 🟡 新增维度 | 维护指令"每次取下晾干"与"挂上就能用"冲突，已改两级口径待验证 |
+| A-08 真实注水流速构成挑战 | ✅ 确认 | 27→30 L/min 断崖；T2 性能口径退到 15 L/min |
+| A-11 refill 节奏是真实决策因素 | ✅ 且已暴露矛盾 | 90 天订阅与 121 baths 寿命冲突，已改按水型分档（D-12） |
+| A-13 紧凑滤芯不能软化 | ✅ 已决策 | 2026-07-01 不做软化，阻垢仅 adjunct |
+| A-14 氯胺市场 V1 不优先 | ✅ 且氯胺版已 GO 为 V1.5 | 催化炭 + 抗坏血酸双段；内容页已建但 SKU 未定 |
+| **A-17（新）KDF55 130 g 能在 Ø117×14 mm 环形仓内形成稳定床层** | 🔴 存疑 | 几何核算填充率 36–44%；D-10 |
+| **A-18（新）随盒试纸能读出更换触发** | 🔴 存疑 | 粗档试纸在 1–2 ppm 进水下只能读 50% 点；D-11 |
+| **A-19（新）35 L/min 无溢流适用于 V1 配置** | 🟡 未验证 | 数据来自 204 g KDF + 45 g 炭配置 |
 
 ## Obsidian links
 

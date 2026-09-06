@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-13
-updated: 2026-04-19
+updated: 2026-09-06
 visibility: team
 confidence: medium
 officiality: draft
@@ -23,6 +23,20 @@ related:
 ---
 
 # 浴缸过滤器测试闸门清单
+
+> **2026-09-06 状态更新（V1 定义锁定后）**：本页写于 diligence 阶段，正文保留为历史判断。2026-07-02 之后的权威事实见 [[bathtub-filter]]「V1 真理源」表：专利申请 19/281,644（patent pending）、27 项 BOM 裁定（KDF55 130 g / CaSO₃ 110 g / PET）、53 页 site/ 内容体系、氯胺版与井水版 GO、不做软化、PFAS 禁写。2026-09-05 全链路审查（[[bathtub-filter-v1-full-chain-critical-review-2026-09-05]]）把剩余卡点收敛为：Gate 1 第三方 DPD（[[bathtub-filter-25lpm-dechlorination-bench-test-spec]]）、KDF 仓装填（D-10）、V1 溢流复测、试纸量程（D-11）、refill 形态（D-09）、订阅 LTV 重跑（D-12）、COGS。
+>
+> **Gate 与新登记测试项的映射（2026-09-06）**：
+>
+> | Gate | 对应 spec / protocol 项 | 状态 |
+> |---|---|---|
+> | Gate 1 normal-flow proof | 25lpm spec §2.1 主矩阵（V1 配置）+ §2.5 KDF 仓装填复核 | spec 已按 BOM 更正，未送测 |
+> | Gate 2 fit realism | supported-spout-matrix S-01～S-08；protocol Module 2 | partial-sample validated |
+> | Gate 3 leak / overflow / stability | protocol Module 3：V1 溢流复测、KDF 床层位移、**动态挂重**（新增）、在位滴干霉变 | 全部待做 |
+> | Gate 4 complaint-pattern survivability | 2562 条标签分析已给排序；维护指令已改两级 | 评论侧 ✅ / 维护口径 🟡 待 Module 4 |
+> | Gate 5 refill economics | GTM §4.2 按寿命分档；D-09 refill 形态；D-12 LTV 重跑 | 口径 ✅ / 数字 🟡 |
+> | Gate 6 claim discipline | register + 2026-09-05 增补；三条故事逐句护栏 | ✅ |
+> | Gate 7 certification route | NSF 42+61 / WQA 路径已定；RFQ 未发 | 🟡 |
 
 ## Why this page exists
 This page turns the research into a practical gate.

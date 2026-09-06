@@ -9,6 +9,13 @@ Example:
 - status: pending-owner-review
 - notes: short summary of what changed
 
+## [2026-09-06] maintain | bathtub filter — 决策链刷新、provenance 补全、视觉稿对齐、占位登记
+- source: 2026-09-06 缺口盘点（决策链停在 4 月、6 个 raw 包无 source summary、视觉稿与新文案漂移、审查页 M4/M5/K3/K4 未落地、326 个占位无清单）
+- updated: 决策链 5 页加「2026-09-06 状态更新」（go-no-go memo、最终执行摘要、R&D roadmap Phase 映射、test-gating Gate 映射、assumption register 重评 + A-17～A-19）; wiki/source-summaries/ 新增 6 页（06-17 策略文档、宗立氯胺测试、06-18 源文件夹、宗立阻垢卫生报告、专利申请、V1 BOM xlsx）; ops/ingestion-registry.md 补 9 行; homepage-and-about-page-layout Hero 改 场景→收益→机制→证明、PET / 130 / 110 口径、去「赌」「便宜填料」; hero-film storyboard 镜 1 改场景开场、镜 2 并入 reframe; decision register D-13～D-15; validation protocol Module 3 新增动态挂重; 新页 bathtub-filter-site-placeholder-register-2026-09-06.md（326 项按页面 / 负责方）; gap doc 顶部「当前状态速览」; hub / index / log / dashboards
+- status: done（桌面侧）/ pending-user（专利 7 份原件、BOM xlsx 未入 raw）
+- notes: |
+  决策链五页正文保留为历史判断，只在 H1 下加状态块，把 conditional GO 的含义从"要不要继续研究"改为"V1 已定义，product GO 只差 Gate 1 与三项工程复核"。source summary 补记时核查发现专利与 BOM 两个 primary source 的 raw 目录只有 README，原件未入库，已在 summary、hub 已知缺口、registry 三处标出。占位登记显示 326 项中 114 项未标负责方，运营 65、法务 41、工程 29 为前三；法务项阻塞包装开印与 DTC 上线，列为第一优先。
+
 ## [2026-09-06] write | bathtub filter — 三条人群故事完整版
 - source: bathtub-filter-kes-marketing-layers-and-story-format-2026-09-06.md §三 模板
 - updated: 同页新增 §三A（三条完整版 + CN 对齐 + Hero / 社媒 / 邮件 / 包装内卡切片 + 逐段护栏 + 永不说清单 + 共同七节拍结构 + 上线检查表）; log.md

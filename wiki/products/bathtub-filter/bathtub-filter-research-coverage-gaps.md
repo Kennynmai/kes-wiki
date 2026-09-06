@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-09-05
+updated: 2026-09-06
 visibility: team
 confidence: medium
 officiality: draft
@@ -18,6 +18,25 @@ related:
   - ../../syntheses/bathtub-filter-brand-and-content-landscape.md
 ---
 # 浴缸过滤器研究覆盖差距
+
+## 当前状态速览（2026-09-06）
+
+> 本节是唯一需要读的部分；下面的分层说明与批次记录是历史归档。
+
+| 类别 | 项 | 状态 | 负责 |
+|---|---|---|---|
+| 硬卡点 | Gate 1 第三方 DPD（V1 配置 25 L/min 特征曲线） | spec 已按 BOM 更正，未送测 | 产品 |
+| 硬卡点 | COGS / 渠道 margin 模型 | 部件 BOM 有，无单价 | 供应链 + finance |
+| 硬卡点 | C3 认证 binding quote（NSF/WQA/IAPMO RFQ） | 未发 | 产品 |
+| 工程复核 | KDF 仓装填高度 / 床层位移（D-10） | 待实测 | 工程 |
+| 工程复核 | V1 配置溢流包络复测 | 待实测 | 工程 |
+| 工程复核 | 动态挂重与挂点位移 | 待实测 | 工程 |
+| 工程复核 | 在位滴干 30 天霉变观察 | 待观察 | 工程 |
+| 工程复核 | 三个 O 圈线径 / 压缩量 | BOM 待确认 | 工程 |
+| 决策 | D-09 refill 形态 / D-11 试纸量程 / D-12 订阅 LTV / D-13 性能锚点 / D-14 产品线节奏 / D-15 卡片进 BOM | open | 见 [[bathtub-filter-decision-register]] |
+| 内容 | site/ 326 个占位（法务 / 运营 / 供应链输入） | 见 [[bathtub-filter-site-placeholder-register-2026-09-06]] | 各负责方 |
+| 归档 | 专利 7 份原件、BOM xlsx 未入 raw | 待用户提供 | strategy |
+| 已关闭 | A 层评论量化、B 渠道、C/C1/C2/C4 合规、F 水质辖区、G IP、H 视觉结构、D 市场侧与 BOM 部件表、site/ 内容体系、三层营销模型与故事版 | ✅ | — |
 
 ## 为什么有这份页面
 本页回答了一个实际问题：**现在涵盖了哪些类别的研究，以及可能仍然缺少哪些？**

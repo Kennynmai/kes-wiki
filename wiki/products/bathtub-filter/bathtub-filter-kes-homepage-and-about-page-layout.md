@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-09-06
 visibility: team
 confidence: medium
 officiality: draft
@@ -33,17 +33,21 @@ verification_status: working
 ### 区块 1 — Hero（首屏，above the fold）　✅必须达成：3 秒内让冷访客认出「这说的是我」
 **版式**：左文右图（移动端图上文下）。右侧**透明滤盒英雄镜头**为绝对主角（见 [镜头脚本](./bathtub-filter-kes-transparent-box-hero-shot-script.md)）。
 **文案**：
+> ⚠️ **2026-09-06 结构更正**：首屏顺序改为 **场景 → 收益 → 机制 → 证明**（见 [[bathtub-filter-kes-marketing-layers-and-story-format-2026-09-06]] §一、§四）。原「读标签」reframe 钩子**下移到区块 2**，不再是 H1。以下文案与 [[bathtub-filter-kes-website-copy-v1]] 2026-09-05 版同源，视觉稿以文案页为准。
+
+- 场景句（🟡 待 A/B，默认 S-A）：`I take a bath most nights. For years the first thing I noticed was the smell.`（CN：`我几乎每晚泡澡。很多年里，注水时第一个注意到的是那股味道。`）
 - Eyebrow（小字）：`看得见的滤料。读得懂的配方。`（EN：`Filter media you can see. A formula you can read.`）
-- H1（钩子）：`你读食品的配料表，你读护肤的成分表。你的洗澡水呢？`
-  （EN：`You read your food labels. You read your skincare. What about your bath water?`）
-- Sub：`透明滤盒——料、量、层序，全看得见。干净，是你看得见的事实。`
-  （EN：`A clear cartridge — the media, the amount, the order, all visible. Clean is what you can see.`）
+- H1：`泡澡水里少一点氯。看见做这件事的滤料。自己测。`
+  （EN：`Less chlorine in your bath. See the media that does it. Test it yourself.`）
+- Sub：`透明滤盒——料、量、层序，全看得见。`
+  （EN：`A clear cartridge — the media, the amount, the order, all visible.`；2026-09-05 删去 "Clean is what you can see"）
 - CTA 主：`找到你家的水`（EN：`Find your water`）→ 区块 6　｜　CTA 次：`看看盒子里有什么`（EN：`See what's inside`）→ 区块 4
 **注**：首屏不放未实测数字；25L/min 去氯率待 [台架 spec](./bathtub-filter-25lpm-dechlorination-bench-test-spec.md) 坐实后才进 Hero。
 
 ### 区块 2 — The Reframe（识别瞬间）　✅必须达成：把「读标签」这个已认同的自己，迁移到洗澡水
 **版式**：全宽，大字、留白，像一句被读出来的话（逐行入场动效，慢节奏）。
-**文案**：
+**文案**（reframe 钩子自 2026-09-06 起从 Hero 移到本区块开头）：
+> `你读食品的配料表，你读护肤的成分表。你的洗澡水呢？`
 > `你本来就是个会读标签的人。`
 > `食品翻背面，护肤查成分——读不懂、藏起来的，你放回货架。`
 > `可有一样你天天用，从没翻过来看：你的洗澡水。`
@@ -52,17 +56,17 @@ verification_status: working
 ### 区块 3 — The Villain（黑箱）
 **版式**：左右对照——左「不透明竞品滤芯（黑箱）」，右「KES 透明盒」。
 **文案**：
-- 左标签：`别人的滤芯：一把你看不见的杂豆，几行你查不到的承诺。`
+- 左标签：`别人的滤芯：看不见的滤料，查不到的承诺。`
 - 右标签：`KES：翻过来，看进去。`
-- 一句：`它们赌你不会去看。我们把盒子做成透明的。`
+- 一句：`我们把盒子做成透明的，你不用只听我们说。`（2026-09-05 去掉「赌你不会去看」动机归因）
 **红线**：对照图**不得**出现「脏水/毒水」恐吓画面；villain 是「看不见」，不是「有毒」。
 
 ### 区块 4 — See Inside（透明盒揭示 · 成分美学）
 **版式**：滤料 macro 特写横滑 / 逐层拆解图，标签式排版（真名真量）。
 **文案**：
 - `这是 KDF 铜锌合金。这是亚硫酸钙。没有第三种你叫不出名字的东西。`
-- 逐层注释：`① PP 棉先拦颗粒 → ② KDF 铜锌合金 → ③ 亚硫酸钙去游离氯`（水流向标注）
-- `没有躲在不透明塑料背后的便宜填料。`
+- 逐层注释：`① PET 聚酯纤维棉先拦颗粒 → ② KDF55 铜锌合金 130 g → ③ 亚硫酸钙 110 g 去游离氯`（水流向标注；2026-07-02 BOM 口径）
+- `不透明塑料背后没有藏东西。`（2026-09-05 去掉「便宜填料」）
 **注**：metal-first 在此是**料级/工程叙事**（看得见的好料），**非去重金属健康声称**。
 
 ### 区块 5 — Test It Yourself（证据 · 理性接缝）

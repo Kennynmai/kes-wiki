@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-14
-updated: 2026-04-19
+updated: 2026-09-06
 visibility: team
 confidence: medium
 officiality: draft
@@ -21,6 +21,10 @@ related:
   - ../../playbooks/bathtub-filter-validation-testing-protocol.md
 ---
 # 浴缸过滤器研发与验证路线图
+
+> **2026-09-06 状态更新（V1 定义锁定后）**：本页写于 diligence 阶段，正文保留为历史判断。2026-07-02 之后的权威事实见 [[bathtub-filter]]「V1 真理源」表：专利申请 19/281,644（patent pending）、27 项 BOM 裁定（KDF55 130 g / CaSO₃ 110 g / PET）、53 页 site/ 内容体系、氯胺版与井水版 GO、不做软化、PFAS 禁写。2026-09-05 全链路审查（[[bathtub-filter-v1-full-chain-critical-review-2026-09-05]]）把剩余卡点收敛为：Gate 1 第三方 DPD（[[bathtub-filter-25lpm-dechlorination-bench-test-spec]]）、KDF 仓装填（D-10）、V1 溢流复测、试纸量程（D-11）、refill 形态（D-09）、订阅 LTV 重跑（D-12）、COGS。
+>
+> **Phase 映射（2026-09-06）**：Phase 0 scope freeze ✅（2026-06-15 定位决策 + 07-02 BOM）；Phase 1 公开竞品证据 ✅（10-ASIN 标签分析、06-18 销量快照）；Phase 2 工程基线 ✅ 部件级（BOM）/ ⏳ 装填与 O 圈；Phase 3 teardown + water-path ⏳（KDF 仓装填、V1 溢流复测、床层位移）；Phase 4 核心验证 ⏳ = Gate 1 spec 已写未送测；Phase 5 claim architecture ✅（register + site/ 证据标签）；Phase 6 认证路径 ⏳（RFQ 未发）；Phase 7 prototype go/no-go ⏳。当前阻塞点在 Phase 3 → 4 之间，不在 Phase 5。
 
 ## 这页的目的
 这页不是再讨论“这个品类有没有意思”，而是把现有 research package 直接转换成 **KES 接下来 4–8 周该怎么动** 的 roadmap。

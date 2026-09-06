@@ -168,6 +168,7 @@
 - [Assumption & Hypothesis Register](wiki/products/bathtub-filter/bathtub-filter-assumption-register.md)
 
 ### V1 Product Facts, IP & GTM (2026-06 / 07)
+- [site/ 占位项登记 2026-09-06](wiki/products/bathtub-filter/bathtub-filter-site-placeholder-register-2026-09-06.md)
 - [营销版本分层与故事版规则 2026-09-06](wiki/products/bathtub-filter/bathtub-filter-kes-marketing-layers-and-story-format-2026-09-06.md)
 - [V1 全链路批判审查（配置 / 参数 / 包装 / 营销 / 文案）2026-09-05](wiki/products/bathtub-filter/bathtub-filter-v1-full-chain-critical-review-2026-09-05.md)
 - [KES Bathtub Filter · 获客引擎 MVP 规格（可交付 build）](wiki/products/bathtub-filter/bathtub-filter-kes-acquisition-engine-mvp-spec.md)
@@ -306,6 +307,12 @@
 - [KES DOE / CEC Public Database Access 2026-05-30](wiki/source-summaries/kes-doe-cec-public-database-access-2026-05-30.md)
 
 ## Source Summaries — Bathtub Filter
+- [Source Summary - 桌面策略文档导入（2026-06-17）](wiki/source-summaries/bathtub-filter-desktop-strategy-doc-import-2026-06-17.md)
+- [Source Summary - 宗立 50 g 亚硫酸钙球氯胺加标测试（2023-07，归档 2026-06-17）](wiki/source-summaries/bathtub-filter-zongli-calcium-sulfite-chloramine-test-2023-07.md)
+- [Source Summary - 桌面「浴缸过滤」源文件夹快照（2026-06-18）](wiki/source-summaries/bathtub-filter-desktop-source-folder-import-2026-06-18.md)
+- [Source Summary - 宗立阻垢颗粒涉水卫生检测报告 CP210620（2021-07，登记 2026-06-30）](wiki/source-summaries/bathtub-filter-zongli-antiscale-granule-hygiene-report-2021-07.md)
+- [Source Summary - KES 专利申请 19/281,644 USPTO 提交件（申请日 2025-07-26，登记 2026-07-01）](wiki/source-summaries/bathtub-filter-kes-patent-application-19-281644-2026-07-01.md)
+- [Source Summary - V1 除游离氯版尺寸与材质表（xlsx 2026-07-01，登记 2026-07-02）](wiki/source-summaries/bathtub-filter-v1-free-chlorine-bom-xlsx-2026-07-02.md)
 - [来源摘要 - Bathtub Filter 竞品评论逐条标签分析（2026-06-02）](wiki/source-summaries/bathtub-filter-competitor-review-labeling-analysis-2026-06-02.md)
 - [来源摘要 - Bathtub Filter 竞品评论语料（2026-04-20）](wiki/source-summaries/bathtub-filter-competitor-review-corpus-2026-04-20.md)
 - [Source Summary - Bathtub Filter Competitor Listing + Sales（2026-06-18）](wiki/source-summaries/bathtub-filter-competitor-listing-sales-2026-06-18.md)

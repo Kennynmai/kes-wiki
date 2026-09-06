@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-17
-updated: 2026-09-05
+updated: 2026-09-06
 visibility: team
 confidence: medium
 officiality: draft
@@ -51,6 +51,9 @@ related:
 | D-09 | **Refill 形态**：补芯是整个 Tritan 透明滤仓，还是散装介质自行装填（专利腔体可重复开启、BOM 上下盖 33° 卡扣）——决定 refill COGS / 价格 / 包装体积 / 可持续措辞 / "看得见的料"是否延伸为"自己装的料" | product | BOM + COGS；建议倾向散装介质 + 可重开仓，Tritan 仓作耐用件 | Before refill SKU pricing | open（2026-09-05 登记） |
 | D-10 | **KDF55 仓装填与壳体**：按 BOM 几何 130 g KDF55 只占床容积 36–44%（摊平 5–6 mm），透明仓会显得半空且床层易位移。选项：改 KDF 仓有效高度 / 加透明填充隔板 / 增加 KDF 用量 / 可视化主张只落 CaSO₃ 仓。同时确认 2026-07-02 克数互换是否为装配驱动（130 g CaSO₃ 装不进 123 cm³ 仓） | engineering | 实机装填高度实测（25lpm spec §2.5） | Before Gate 1 | open（2026-09-05 登记） |
 | D-11 | **试纸规格**：随盒游离氯试纸须能读出更换触发。市售 0/0.5/1/2 ppm 粗档在 1–2 ppm 进水下只能看到 ~50% 失效点。选项：低量程细分试纸（0/0.1/0.25/0.5/1）/ DPD 滴剂 / 接受"首次显色即换"单触发 | product + ops | 试纸供应商量程规格；T3 §〇 | Before P2 定稿 | open（2026-09-05 登记） |
+| D-13 | **性能锚点流量**：T2 以 15 L/min 为性能主口径，低于美国典型 18–25 L/min。Gate 1 出三点曲线（15 / 20 / 25）后，对外是否直接发布曲线而非单点 | product + marketing | Gate 1 结果 | After Gate 1 | open（2026-09-06 登记） |
+| D-14 | **产品线展开节奏**：氯胺版 / 井水版已 GO 且 site/ 有 S2 / S3 / M3–M6 页，但 V1 未过 Gate 1；是否冻结这两条线的内容维护与 SKU 定义直到 V1 Gate 1 通过。氯胺版的抗坏血酸浸泡步骤用户负担未评估 | strategy | Gate 1；K1 维护负担验证 | Before V1.5 spec | open（2026-09-06 登记） |
+| D-15 | **分享试纸卡 ×3 与 Before/After 对比卡进 BOM**：P5 包装层序 L3 已依赖两者，P2 仍为提案；不批则刀模要改 | product + supply chain | 成本核算；referral 机制是否上线 | Before packaging die | open（2026-09-06 登记） |
 | D-12 | **订阅周期**：原 90 天与寿命模型（2 ppm ≈ 40 周）矛盾；改为按 ZIP 水型分档（9 / 12 个月）+ 耗材包 90 天档。需 finance 按 1.3 次/年重跑 LTV | ops + finance | T3 寿命口径；GTM §4.2 | Before subscription launch | open（2026-09-05 登记） |
 
 ---
