@@ -183,7 +183,7 @@ BOM 表把滤料克数互换（KDF55 110g/CaSO₃ 130g → **KDF55 130g / CaSO�
 grep -rEho '\]\(\.{1,2}/[^)]+\.md' wiki/products/bathtub-filter/ | sed 's/](//'
 ```
 
-对每个目标 `ls` 验证存在；[[obsidian]] 反链同理核对目标页真在。目标：0 broken。
+对每个目标 `ls` 验证存在；Obsidian 反链同理核对目标页真在。目标：0 broken。
 
 ### 5.2 禁词扫描（找 claim 漂移/违禁措辞）
 

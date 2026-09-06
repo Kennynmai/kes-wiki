@@ -1,11 +1,26 @@
 ---
-verification_status: "需验证"
-evidence_backing: "web_scrape_partial"
-research_date: "2026-06-13"
-authors: "WorkBuddy"
-tags: [bathtub-filter, competitive-intelligence, filterbaby, bath-haus, market-research]
+type: product
+status: draft
+owner: strategy
+created: 2026-06-13
+updated: 2026-09-05
+visibility: team
+confidence: low
+officiality: draft
+domain: product
+domains: [bathtub-filter, competitive-intelligence, filterbaby, bath-haus, market-research]
+source_count: 6
+review_cycle: quarterly
+verification_status: unverified
+evidence_backing: web_scrape_partial
+research_date: 2026-06-13
+authors: WorkBuddy
+related:
+  - ./bathtub-filter-filterbaby-deep-dive-patent-agency-awards-2026-06-13.md
+  - ./bathtub-filter-filterbaby-website-deconstruction-2026-06-13.md
+  - ./bathtub-filter-filterbaby-patent-fto-analysis.md
+  - ./bathtub-filter-competitor-commercial-intelligence.md
 ---
-
 # Bathtub Filter 竞品情报：Filterbaby & Bath Haus 深度调查
 
 **调查日期**：2026-06-13
@@ -295,7 +310,7 @@ tags: [bathtub-filter, competitive-intelligence, filterbaby, bath-haus, market-r
 ## 7. Obsidian 内部链接
 
 - [[bathtub-filter]]
-- [[bathtub-filter-competitive-intelligence]]
+- [[bathtub-filter-competitor-commercial-intelligence]]
 - [[bathtub-filter-user-segments]]
 - [[bathtub-filter-assumption-register]]
 - [[bathtub-filter-claim-register]]

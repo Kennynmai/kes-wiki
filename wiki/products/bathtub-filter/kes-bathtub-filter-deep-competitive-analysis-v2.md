@@ -1,3 +1,23 @@
+---
+type: product
+status: draft
+owner: strategy
+created: 2026-06-14
+updated: 2026-06-14
+visibility: team
+confidence: medium
+officiality: draft
+domain: product
+domains: [bathtub-filter, kes, competitive-analysis, voice-of-customer, product-definition]
+source_count: 9
+review_cycle: quarterly
+verification_status: working
+related:
+  - ./kes-bathtub-filter-critical-analysis-v1.md
+  - ./kes-bathtub-filter-PRD-v1.md
+  - ./bathtub-filter-competitive-intelligence-filterbaby-bath-haus-2026-06-13.md
+  - ./envig-competitor-intelligence-2026-06.md
+---
 # KES Bathtub Filter 竞品深度对比与批判分析 v2.1
 
 > **分析日期**: 2026-06-14  

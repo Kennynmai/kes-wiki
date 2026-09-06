@@ -1,3 +1,23 @@
+---
+type: note
+status: archived
+owner: strategy
+created: 2026-04-20
+updated: 2026-09-05
+visibility: team
+confidence: medium
+officiality: draft
+domain: product
+domains: [bathtub-filter, maintenance-note, review-corpus]
+source_count: 0
+review_cycle: none
+verification_status: working
+related:
+  - ./bathtub-filter-research-coverage-gaps.md
+  - ./bathtub-filter-complaint-taxonomy-and-risk-by-route.md
+---
+> **已归档（2026-09-05）**：本页是 2026-04-20 的一次性写入指引，三项建议已在 2026-04-20 → 2026-06-18 批次执行完毕（当前口径见 [[bathtub-filter-research-coverage-gaps]]）。保留仅作流程留痕。
+
 # Bathtub Filter 评论语料 wiki 更新说明（2026-04-20）
 
 ## 建议写入位置

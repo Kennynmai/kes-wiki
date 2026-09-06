@@ -71,7 +71,7 @@ related:
 - 真实退货率、退款原因、客服工单、Brand Registry / DTC 后台数据不作为公开补资料任务。
 
 ### 2026-06-03 口径修正
-- Filterbaby `B0FNVDJRSQ` 是 shower filter / showerhead inline 产品，已拆到 [[../shower-filter/shower-filter]]。
+- Filterbaby `B0FNVDJRSQ` 是 shower filter / showerhead inline 产品，已拆出 bathtub-filter 口径（目标 `wiki/products/shower-filter/` 目前不在本 repo 中，见 hub 页「已知缺口」）。
 - Bathtub-filter active competitor set 改为 10 ASIN；Filterbaby 不再进入 bathtub 的价格均值、安装对象矩阵、claim 准确率排名或 tub-spout fit 判断。
 
 ### 覆盖对象

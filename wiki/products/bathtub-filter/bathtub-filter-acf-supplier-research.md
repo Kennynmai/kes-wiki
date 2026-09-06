@@ -1,4 +1,4 @@
-﻿---
+---
 type: product
 status: draft
 owner: product

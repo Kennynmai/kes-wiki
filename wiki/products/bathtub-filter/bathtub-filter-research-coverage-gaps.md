@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-06-17
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -152,10 +152,10 @@ related:
 | C2. 美国州/联邦副线      | us-state-federal-compliance-sidelines                                                                                                     | ✅ 决策可用                                                               | 缺：legal review 已对 KES 实际文案执行                                                                                                                                                                                                                            |
 | C3. 认证成本/周期       | certification-cost-and-timeline-estimates                                                                                                 | 🟡→✅ 接近可决策                                                           | 2026-04-18 补：4 阶段合规时间表（Phase 0–3）、KES V1 最小可行路径（$7k–$22k）、认证路径 × 渠道门槛矩阵、Target 2027 RFQ 启动截止。**数字仍是 order-of-magnitude，binding quote 须实际 RFQ**                                                                                                          |
 | C4. 平台 claim 审查   | marketplace-claim-policing-layer                                                                                                          | ✅ 决策可用                                                               | 缺：Amazon Seller Central 当前类目分配                                                                                                                                                                                                                          |
-| D. 定价/单位经济        | pricing-refill-flow-fit-table-v2、competitor-pricing-and-kes-v1-price-recommendation                                                       | ✅ 决策可用（市场侧）/ 🟡 COGS 侧                                               | 2026-04-18 状态：KES V1 MSRP 建议 $59–$79 + refill $24–32 已有充分市场依据；13 ASIN × 5 站点价格矩阵、BSR、月销已覆盖。**仍缺：BOM / COGS 模型（供应链提供）**                                                                                                                                  |
+| D. 定价/单位经济        | pricing-refill-flow-fit-table-v2、competitor-pricing-and-kes-v1-price-recommendation、kes-v1-pricing-channel-launch-geo-subscription、v1-free-chlorine-removal-dimensions-materials | ✅ 决策可用（市场侧 + GTM）/ ✅ BOM 部件表 / 🟡 COGS 侧 | 2026-04-18：MSRP $59–$79 + refill $24–32 有市场依据；13 ASIN × 5 站点矩阵。2026-06-15：V1 GTM（单 SKU、DTC 首发、首发地理、订阅）已收敛。**2026-07-02：27 项 BOM（部件 / 尺寸 / 材质 / 水接触）已裁定为真理源，"全 BOM 待补"关闭；但表内无单价，COGS / 渠道 margin 模型仍缺（供应链 + finance 提供）** |
 | E. 安装/兼容性         | compatibility-engineering-breakpoints、installation-risk-matrix-v2、supported-spout-matrix、kes-flat-strap-spout-fit-design-2026-06-03        | 🟡 partial-sample validated / broader test-pending                        | 2026-06-03 已补入 KES 扁硅胶挂带、中央提拉头挂孔、3M 贴挂钩、附赠的5孔总长124mm，宽20mm的扎带方案；墙距口径已修正为出水嘴中心到墙面 >=60 mm 是居中美观线，40-60 mm 可偏心使用，<40 mm 为理论极端。2026-06-17 已补 S-01 non-diverter 末端折弯位置周长 <=18 cm 的实测边界、2 组 RV / mobile-home center-set / valve-diverter faucet 正向适配样本，以及 freestanding tub filler 弧形/异型管非瀑布出水 2 kg 承重记录。freestanding waterfall / wide-body outlet 仍按 NO-GO 处理。**仍卡住：不同 spout 类型覆盖、动态注水稳定性、泄漏/溢流、流量冲击、滤材可见形态记录。** |
 | F. 水质辖区           | water-jurisdiction-demand-map、kes-concept-brief-v1                                                                                        | ✅ 决策可用（NA scope 已声明）                                                 | 缺：top-50 metro 的 utility 消毒剂/硬度查表 → 见新增 [[bathtub-filter-utility-service-map-by-metro]]                                                                                                                                                                 |
-| G. 竞争 IP / 品牌标记   | ip-depth-and-brand-marker-map、patent-table                                                                                                | ✅ 决策可用（含重大发现）                                                        | 2026-04-17 法律状态扫描：Sprite Chlorgon (`US5914043A` `US6056875A`) 2015 expired；`US6145670A` `US6096197A` 2012 lapsed。**KES 在经典 spout-mount + KDF/CaSO₃ 架构上 freedom-to-operate**。但 `US12534389B2` (FilterBaby) 到期 2044，KES 若做 skincare DTC 定位有 blocking risk |
+| G. 竞争 IP / 品牌标记   | ip-depth-and-brand-marker-map、patent-table、filterbaby-patent-fto-analysis、kes-patent-19-281644-modular-terminal-water-treatment | ✅ 决策可用（含自有专利申请） | 2026-04-17 法律状态扫描：Sprite Chlorgon (`US5914043A` `US6056875A`) 2015 expired；`US6145670A` `US6096197A` 2012 lapsed。**KES 在经典 spout-mount + KDF/CaSO₃ 架构上 freedom-to-operate**。`US12534389B2` (FilterBaby) 到期 2044，skincare DTC 定位有 blocking risk。**2026-07-01：KES 自有申请 `19/281,644`（2025-07-26 提交，patent pending）已作为 primary source 入库，可对外写 "Patent pending"，禁写 "patented"** |
 | H. 视觉营销/创意策略      | visual-merchandising-and-creative-strategy；sns-creator-and-visual-taxonomy；creative-test-brief                                            | 🟡→✅ 结构完整，无实测 creative                                               | 2026-04-18 补：竞品视觉坐标图、Amazon PDP 8 槽位蓝图、DTC hero 结构、TikTok 视频格式规范、视觉合规边界表。**仍缺：真实 A/B 测试结果（需 launch 后执行）**                                                                                                                                               |
 | Tier 3 #9. 社区语言压缩 | （之前未列入表）                                                                                                                                  | ❌ 未建 → 已建 [[bathtub-filter-community-language-compression-patterns]] |                                                                                                                                                                                                                                                         |
 | Reddit 原帖采样       | （第 4 节标 ⚠️）                                                                                                                               | ❌ 未做 → 已建 [[bathtub-filter-reddit-community-signal-sampling]]        |                                                                                                                                                                                                                                                         |
@@ -163,7 +163,7 @@ related:
 ## 决策可用性总览
 
 - **11 层 ✅ 可决策**：C / C1 / C2 / C4 / F / G / D（市场侧）/ A（pattern 层）/ B（接近）/ C3（接近）/ H（结构完整）
-- **1 层 🟡 仍框架**：D（COGS/BOM 模型——供应链提供）
+- **1 层 🟡 仍框架**：D（COGS / 渠道 margin 模型——供应链 + finance 提供；BOM 部件表已于 2026-07-02 关闭）
 - **1 层 🟡 partial-sample validated / broader test-pending**：E（spout matrix）——2026-06-03 已补入 KES 扁硅胶挂带、中央提拉头挂孔、3M 贴挂钩、附赠的5孔总长124mm，宽20mm的扎带方案；墙距口径已修正为 >=60 mm 居中、40-60 mm 偏心可用、<40 mm 理论极端；2026-06-17 已有 S-01 non-diverter 周长边界实测记录、2 组 RV / mobile-home center-set / valve-diverter faucet 正向适配样本，以及 freestanding tub filler 非瀑布出水 2 kg 承重记录；仍必须用更多 spout 实物安装/动态注水/稳定性/泄漏/溢流测试关闭
 - **3 项原本 ❌**：sns-creator / community-language / reddit-sampling——**2026-04-17 已补**
 - **4 项 2026-04-18 升级**：B / C3 / H / A + complaint-taxonomy 重写——见下方批次记录
@@ -278,8 +278,33 @@ related:
 | 实物拆解/测试记录 | 保留为证据边界，不由网页代替 | KES 扁挂带适配方案已补入 [[bathtub-filter-kes-flat-strap-spout-fit-design-2026-06-03]]；墙距口径已修正为 >=60 mm 居中、40-60 mm 偏心可用、<40 mm 理论极端；若已有样品或人工记录，再补开箱、结构、滤材可见形态、安装方式、包装文案、说明书和测试方法。 |
 | active bathtub 10 ASIN 公开竞品资料 | 保留为可补资料 | 原始 11 ASIN 中的 Filterbaby 已迁出 shower-filter；剩余 bathtub active 10 ASIN 的官方页、Amazon PDP、公开价格/销量信号、公开 claim、可见结构/安装线索可整理到 [[bathtub-filter-11-asin-public-competitor-evidence-2026-06-02]]。 |
 
+## 2026-06-18 → 2026-07-02 V1 定义锁定批次
+
+> 来源：`raw/products/bathtub-filter/2026-06-18-desktop-source-folder-import/`、`2026-06-18-competitor-listing-sales/`、`2026-06-30-zongli-antiscale-granule-hygiene-report.md`、`2026-07-01-patent-application-19-281644/`、`2026-07-02-v1-free-chlorine-removal-dimensions-materials/`。本批次为 **first-party 产品事实入库 + 内容体系建设**，属于把 wiki 从研究层推进到产品层，不新增 desk research。
+
+| 层 | 更新前 | 更新后 | 说明 |
+|---|---|---|---|
+| D. BOM | 🟡 全 BOM 待补 | ✅ 部件表已裁定 | [[bathtub-filter-v1-free-chlorine-removal-dimensions-materials]]：27 项、24 确认 / 3 待确认；2026-07-02 裁定 KDF55 130g / CaSO₃ 110g、PET 滤棉、NBR O 圈、250 mL 浴盐仓；寿命模型连锁重算 ~21,550 L @2ppm。**COGS 仍 🟡**（表内无单价） |
+| G. 自有 IP | ❌ 无自有专利记录 | ✅ primary source | [[bathtub-filter-kes-patent-19-281644-modular-terminal-water-treatment]]：patent pending；红线「专利宽 ≠ 营销宽」写入 claim register |
+| C2. Prop 65 | 🟡 缺水接触 BOM | 🟡→✅ 输入齐 | 水接触部件全清单已有，可启动整机成分 / 暴露评估；**实际化学品测试 + legal review 仍待做** |
+| 技术边界 | PFAS 仅在 Banned 区 | ✅ 工程口径闭环 | [[bathtub-filter-point-of-use-pfas-removal-feasibility]]：催化炭对 PFAS 无贡献；PFAS 归 RO / IX 路线，浴缸端不写 |
+| 产品线 | A/B/C 三 SKU 假设 | ✅ 一壳体三配方 | 氯胺版（催化炭）与井水版 GO；不做软化，硬水只给阻垢剂选项（[[bathtub-filter-point-of-use-hardness-softening-feasibility]] §8） |
+| 内容层（新） | ❌ 无自有站内容 | ✅ 53 页内容规格 | `site/` 目录，入口 [[bathtub-filter-kes-marketing-site-content-map]]；每条 claim 挂 🟢/🟡/🔴 证据标签；🟡 不上 Hub 首屏 |
+| B/D. 竞品销量 | 2026-04 估算 | ✅ 2026-06 快照 | [[bathtub-filter-competitor-listing-sales-2026-06-18]]：10 ASIN 近 12 月 176,739 件 / $6.3M |
+
+### 此批次后仍未解决的卡点（收敛为三项）
+
+1. **Gate 1 第三方 DPD 去氯测试**——[[bathtub-filter-25lpm-dechlorination-bench-test-spec]] 已写，未执行；在此之前所有去氯率与寿命数字都是内部模型 / 内部比色，不得作 label claim。C3 binding quote 与之并行（NSF/WQA/IAPMO RFQ 未发）。
+2. **COGS / 渠道 margin 模型**——BOM 部件表已有，缺单价、模具摊销、渠道 margin，MSRP $59–79 的利润可行性仍未验证。
+3. **E 层实物安装 / 泄漏 / 溢流记录**——扁挂带、S-01 周长边界、RV center-set、freestanding 承重已有部分记录；仍需更多 spout 类型的动态注水与泄漏/溢流记录。不新开样品采购任务。
+
+### 本次 lint 发现的结构性缺口（2026-09-05）
+
+- `wiki/products/shower-filter/` 与 `raw/products/shower-filter/` 在本 repo 中不存在（git 历史也无），但 6 个 bathtub 页面把 Filterbaby `B0FNVDJRSQ` 资料标记为"已迁到那里"。需从外部仓库同步或把口径改为"已剥离、资料存于 X"。
+- 已清理：`acf-supplier-research.md` 无 frontmatter重复副本已删；inbox 中 3 份已入库的 bathtub 文档已删；5 页补齐 frontmatter；3 页去除 UTF-8 BOM；3 处断链修复；~95 页补进 `index.md`。
+
 ## 战略意义
 
-话题不缺研究材料；KES 安装方案和 40-60 mm 偏心安装口径也已补入。当前仍缺的是**外部 RFQ、COGS/BOM、以及把扁挂带方案变成 supported / conditional / not-supported 的实物验证记录**。真实退货/售后后台数据不再作为公开补资料任务。
+话题不缺研究材料；V1 BOM、自有专利申请与内容体系也已入库。当前仍缺的是**Gate 1 第三方 DPD 测试、外部 RFQ、COGS / margin 模型、以及把扁挂带方案变成 supported / conditional / not-supported 的实物验证记录**。真实退货/售后后台数据不再作为公开补资料任务。
 
 当前最大的风险不是"没有页面"，而是**把 🟡 当作 ✅** 进行决策。 此次重写确保 KES 团队后续看 gap doc 时，能区分"已经能决策了"和"还得做才能决策"。

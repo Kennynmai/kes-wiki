@@ -1,3 +1,24 @@
+---
+type: product
+status: draft
+owner: product
+created: 2026-06-15
+updated: 2026-07-02
+visibility: team
+confidence: medium
+officiality: draft
+domain: product
+domains: [bathtub-filter, kes, prd, version-a, product-requirements]
+source_count: 9
+review_cycle: monthly
+verification_status: working
+related:
+  - ./bathtub-filter-kes-concept-brief-v1.md
+  - ./bathtub-filter-v1-free-chlorine-removal-dimensions-materials.md
+  - ./bathtub-filter-kes-v1-selling-points-and-pack-contents.md
+  - ./kes-bathtub-filter-deep-competitive-analysis-v2.md
+  - ./bathtub-filter-claim-register.md
+---
 # 产品需求文档（PRD）
 ## KES Bathtub Filter（浴缸过滤器）— Version A
 

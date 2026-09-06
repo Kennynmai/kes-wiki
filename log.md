@@ -9,6 +9,13 @@ Example:
 - status: pending-owner-review
 - notes: short summary of what changed
 
+## [2026-09-05] maintain | bathtub filter cluster — 结构 lint、hub / gap doc 刷新到 V1 定义阶段
+- source: wiki/products/bathtub-filter/（117 + 53 页全量扫描）
+- updated: wiki/products/bathtub-filter/bathtub-filter.md; wiki/products/bathtub-filter/bathtub-filter-research-coverage-gaps.md; index.md; 5 页补 frontmatter（ascorbate-chloramine-kinetics、kes-bathtub-filter-PRD-v1、critical-analysis-v1、deep-competitive-analysis-v2、review-corpus-wiki-update-note 归档）；competitive-intelligence-filterbaby-bath-haus 规范化 frontmatter；3 页去 UTF-8 BOM；3 处断链修复；删除 acf-supplier-research.md 重复副本与 inbox 中 3 份已入库文档；dashboards/recent-updates.md；log.md
+- status: done
+- notes: |
+  hub 页此前停在 2026-06-24 口径（"研究已完成，可停止扩写"），而 2026-06-18 → 07-02 已入库自有专利申请 19/281,644（patent pending）、V1 27 项 BOM 裁定（KDF55 130g / CaSO₃ 110g、PET 滤棉、寿命模型重算 ~21,550 L @2ppm）、53 页 site/ 内容体系、产品线决策（氯胺版 / 井水版 GO、不做软化、PFAS 禁写）。hub 现以「V1 真理源」表把这些页面标为 single source of truth，并把"可以继续 benchmark sample buying"与"样品采购不作为本轮任务"的自相矛盾统一为后者。gap doc 新增本批次表，D 层 BOM 部件表关闭（COGS 仍 🟡），G 层加入自有专利，剩余卡点收敛为三项：Gate 1 第三方 DPD、COGS / margin、spout 实物泄漏 / 溢流记录。index.md 补入约 95 页（含整个 site/ 目录）。结构性缺口：6 个页面引用的 `wiki/products/shower-filter/` 在本 repo 与 git 历史中都不存在，Filterbaby 剥离资料需从外部仓库同步或改口径。
+
 ## [2026-05-30] synthesize | KES SKU certification mapping table and evidence pack checklist
 - source: KES certifications register; KES certification claim-control matrix; KES official online verification; KES model-pattern inventory; KES DOE / CEC access notes
 - updated: wiki/company/kes-sku-certification-mapping-table.md (new); wiki/company/kes-certification-evidence-pack-checklist.md (new); wiki/company/kes-certification-claim-control-matrix.md; wiki/company/kes-certifications-and-compliance-register.md; index.md; dashboards/recent-updates.md; ops/ingestion-registry.md; log.md

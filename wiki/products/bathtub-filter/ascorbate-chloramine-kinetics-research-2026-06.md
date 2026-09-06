@@ -1,3 +1,22 @@
+---
+type: product
+status: draft
+owner: product
+created: 2026-06-14
+updated: 2026-07-02
+visibility: team
+confidence: medium
+officiality: draft
+domain: product
+domains: [bathtub-filter, chloramine, sodium-ascorbate, kinetics, media-research]
+source_count: 3
+review_cycle: quarterly
+verification_status: spot-checked
+related:
+  - ./bathtub-filter-chloramine-media-research.md
+  - ./site/bathtub-filter-kes-media-sodium-ascorbate-soak.md
+  - ./bathtub-filter-kes-media-stack-options-by-water-type.md
+---
 # 抗坏血酸钠与氯胺反应动力学数据分析
 
 ## 学术来源

@@ -1,3 +1,22 @@
+---
+type: product
+status: draft
+owner: strategy
+created: 2026-06-14
+updated: 2026-06-14
+visibility: team
+confidence: medium
+officiality: draft
+domain: product
+domains: [bathtub-filter, kes, critical-analysis, product-definition, competitor-benchmark]
+source_count: 9
+review_cycle: quarterly
+verification_status: working
+related:
+  - ./kes-bathtub-filter-deep-competitive-analysis-v2.md
+  - ./kes-bathtub-filter-PRD-v1.md
+  - ./bathtub-filter-kes-positioning-and-problem-layer-decision-2026-06-15.md
+---
 # KES Bathtub Filter 产品定义批判分析报告
 ## 基于 9 份竞品研究的批判性分析
 

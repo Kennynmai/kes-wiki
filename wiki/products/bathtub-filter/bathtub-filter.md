@@ -3,7 +3,7 @@ type: product
 status: active
 owner: product
 created: 2026-04-11
-updated: 2026-06-24
+updated: 2026-09-05
 visibility: company
 confidence: medium
 officiality: draft
@@ -12,7 +12,7 @@ name_zh: 浴缸过滤器
 name_en: Bathtub Filter
 domain: product
 domains: [bathtub-filter, water-filtration, bathroom, product-research]
-source_count: 20
+source_count: 28
 review_cycle: monthly
 verification_status: working
 related:
@@ -48,6 +48,14 @@ related:
   - ./bathtub-filter-acf-supplier-research.md
   - ./bathtub-filter-north-america-special-water-sources.md
   - ./bathtub-filter-north-america-canada-asia-europe-water-report-2024-final.md
+  - ./bathtub-filter-kes-patent-19-281644-modular-terminal-water-treatment.md
+  - ./bathtub-filter-v1-free-chlorine-removal-dimensions-materials.md
+  - ./bathtub-filter-kes-positioning-and-problem-layer-decision-2026-06-15.md
+  - ./bathtub-filter-kes-v1-pricing-channel-launch-geo-subscription.md
+  - ./bathtub-filter-25lpm-dechlorination-bench-test-spec.md
+  - ./bathtub-filter-point-of-use-pfas-removal-feasibility.md
+  - ./site/bathtub-filter-kes-marketing-site-content-map.md
+  - ./bathtub-filter-2026-06-18-source-import-index.md
   - ../products/curtains.md
 ---
 
@@ -61,8 +69,10 @@ related:
 2. KES 当前对这个品类的主判断是什么
 3. 应该先看哪些页面，才能快速完成决策阅读
 
-## 当前一句话结论
-**这组研究已经足够完整，可以结束当前 desk research 阶段；若继续推进，应转入 active bathtub 10 ASIN 公开竞品资料补全、验证测试准备与概念收窄，而不是继续无限扩写 wiki。Filterbaby 已拆到 shower-filter 项目；样品采购不作为本轮任务，实物拆解/测试只在已有样品或人工记录时追加。**
+## 当前一句话结论（2026-09-05 刷新）
+**这题已经从"desk research / go-no-go 评估"进入"V1 定义已锁、内容体系已建、等待物理验证与成本闭环"阶段。** 2026-07-02 之后的权威事实是：KES 自有专利申请 `19/281,644` 已提交（patent pending，未授权）；V1 除游离氯版 27 项 BOM 已裁定为全站真理源；自有营销站 53 页内容体系已按 claim 证据标签建好。**仍未闭环的只剩三件外部事**：Gate 1 第三方 DPD 去氯测试（25 L/min 特征曲线）、COGS / 渠道 margin 模型、更多 spout 实物安装与泄漏/溢流记录。desk research 不再扩写；Filterbaby 已按 shower-filter 口径剥离（但对应页面目前不在本 repo，见「已知缺口」）。
+
+> 历史口径（2026-06-24 前）："研究阶段已完成，可停止扩写；若推进，仅进入公开竞品资料补全、测试验证准备与概念收窄。" 该判断仍成立，只是后续工作已实际推进到 V1 定义与内容层。
 
 ## 范围与定义
 这里的 bathtub filter，指用于 **浴缸注水 / 泡澡场景**、试图降低某些不希望出现的水中成分，或改善 bathing comfort（水感 / 气味 / 皮肤体感）的产品。
@@ -135,10 +145,10 @@ related:
 
 ## KES 当前建议姿态
 ### 可以继续
-- concept narrowing（概念收窄）
-- benchmark sample buying（采购对标样品）
-- validation testing（验证测试）
-- claim-boundary design（宣称边界设计）
+- concept narrowing（概念收窄）——2026-06-15 已收敛为「一个壳体三套配方」，见 [[bathtub-filter-kes-positioning-and-problem-layer-decision-2026-06-15]]
+- validation testing（验证测试）——以 [[bathtub-filter-25lpm-dechlorination-bench-test-spec]] 为 Gate 1
+- claim-boundary design（宣称边界设计）——以 [[bathtub-filter-claim-register]] 为唯一口径
+- 已有样品 / 人工记录的实物拆解、安装与泄漏/溢流记录追加（不新开样品采购任务）
 
 ### 不建议继续
 - 无上限追加 desk research 页面
@@ -174,7 +184,27 @@ related:
 ## 当前推荐的正式表述
 建议内部将这题定义为：
 
-> **Bathtub filter 研究阶段已完成，可停止继续扩写；若继续推进，仅进入公开竞品资料补全、测试验证准备与概念收窄阶段。样品采购不作为本轮任务。**
+> **Bathtub filter 研究阶段已完成，V1（除游离氯版）产品定义与内容体系已建立；当前工作只剩三项外部闭环：第三方 DPD 去氯测试、COGS / margin 模型、spout 实物安装与泄漏/溢流记录。不再扩写 desk research，不新开样品采购任务。**
+
+## 2026-06-18 → 2026-07-02 状态更新（V1 定义锁定批次）
+这一批把 wiki 从"研究结论"推进到"产品事实"，以下页面是 **V1 的真理源（single source of truth）**，其他页面与之冲突时以这些页为准：
+
+| 主题 | 真理源页面 | 关键事实 | 证据等级 |
+|---|---|---|---|
+| 自有专利 | [[bathtub-filter-kes-patent-19-281644-modular-terminal-water-treatment]] | 申请号 19/281,644，申请日 2025-07-26，Modular Terminal Water Treatment System；**patent pending，未授权**。红线：专利写得宽（软化 / 重金属 / UV / 护肤活性物）≠ V1 营销可以写宽 | primary-source-verified |
+| V1 BOM | [[bathtub-filter-v1-free-chlorine-removal-dimensions-materials]] | 27 项部件（24 确认 / 3 待确认）；结构顺序 挂带 → 防溢水仓 → KDF55 仓 → CaSO₃ 仓 → 浴盐仓；**2026-07-02 裁定 KDF55 130g / CaSO₃ 110g、滤棉 PET、O 圈 NBR、浴盐仓 250 mL**；寿命模型连锁重算为 ~21,550 L @2ppm（soft ≈96 / mandatory ≈121 baths） | xlsx-imported；寿命数字仍是内部模型 🟡 |
+| 定位与问题层 | [[bathtub-filter-kes-positioning-and-problem-layer-decision-2026-06-15]] | 游离氯城市为主战场；氯胺走双段式；井水 / RV 复用配方；首要价值「看得见·测得到的诚实过滤」 | working |
+| V1 GTM | [[bathtub-filter-kes-v1-pricing-channel-launch-geo-subscription]] | 单 SKU、MSRP $59–79、DTC 首发 + Amazon 引流、首发地理 Las Vegas / Phoenix / San Antonio、90 天诚实订阅；**非 COGS 模型** | working |
+| Gate 1 测试 | [[bathtub-filter-25lpm-dechlorination-bench-test-spec]] | 把 2026-03-20 内部比色单测硬化为第三方 DPD 特征曲线（去氯率 × 流量 × 压降 × 床体积） | spec，未执行 |
+| 产品线决策 | [[bathtub-filter-kes-media-stack-options-by-water-type]]、[[bathtub-filter-point-of-use-hardness-softening-feasibility]]、[[bathtub-filter-point-of-use-pfas-removal-feasibility]] | 氯胺版（催化炭）与井水版 GO；**不做软化**，硬水只给阻垢剂选项；**PFAS 禁写**（催化炭对 PFAS 无贡献，浴缸端短 EBCT 是最差工况） | spot-checked / deep-research-verified |
+| 卖点与套装 | [[bathtub-filter-kes-v1-selling-points-and-pack-contents]] | V1 = PET 滤棉 + KDF55 130g + CaSO₃ 110g；不含活性炭；不写氯胺去除 | working |
+| 自有营销站内容体系 | [[bathtub-filter-kes-marketing-site-content-map]]（`site/` 目录 53 页入口） | Hub-and-Spoke IA，9 层（T/M/S/D/E/P/SVC/CH/OPS）；每条 claim 挂 🟢/🟡/🔴 证据标签；滤材页是唯一真理源，场景页只引用 | draft，内容先行 |
+| 资料导入索引 | [[bathtub-filter-2026-06-17-desktop-strategy-doc-import-index]]、[[bathtub-filter-2026-06-18-source-import-index]] | 桌面策略文档 10 份、桌面源文件夹 42 份、10-ASIN listing + 销量包（近 12 月合计 176,739 件 / $6.3M） | source-index |
+
+## 已知缺口（2026-09-05 lint）
+- **shower-filter 页面不在本 repo**：多处页面写 Filterbaby `B0FNVDJRSQ` 资料"已迁到 `wiki/products/shower-filter/` 与 `raw/products/shower-filter/`"，但这两个目录在本 repo 及其 git 历史中都不存在。该资料可能留在外部 kenny-wiki 仓库，需要同步或改口径。
+- **COGS 仍缺**：BOM 已有部件 / 尺寸 / 材质，但没有单价与渠道 margin，D 层 COGS 侧仍 🟡。
+- **寿命 / 去氯数字全部是内部模型或内部比色**：在 Gate 1 第三方 DPD 完成前不得作为 label claim。
 
 ## 2026-06-17 桌面资料导入批次
 2026-06-17 已把桌面提供的 10 个 bathtub filter 策略 / 介质 / 水源 / 宣称资料文件导入 wiki，并在 raw 中保留原始文件与旧版备份。详见 [[bathtub-filter-2026-06-17-desktop-strategy-doc-import-index]]。
@@ -187,6 +217,7 @@ related:
 
 ## 建议阅读顺序
 ### 先看这几页
+0. [[bathtub-filter-kes-patent-19-281644-modular-terminal-water-treatment]] 与 [[bathtub-filter-v1-free-chlorine-removal-dimensions-materials]]（V1 产品事实真理源）
 1. [[bathtub-filter-kes-v1-execution-roadmap-2026-06-15]]
 2. [[bathtub-filter-2026-06-17-desktop-strategy-doc-import-index]]
 3. [[bathtub-filter-final-executive-summary-2026-04-14]]
@@ -288,7 +319,74 @@ related:
 - 宣称与合规：[[bathtub-filter-claim-risk-audit-v2]]
 - 内容与视觉：[[bathtub-filter-sns-creator-and-visual-taxonomy]]、[[bathtub-filter-visual-merchandising-and-creative-strategy]]
 
+### V1 产品事实与 GTM（2026-06/07）
+- [[bathtub-filter-kes-patent-19-281644-modular-terminal-water-treatment]]
+- [[bathtub-filter-v1-free-chlorine-removal-dimensions-materials]]
+- [[bathtub-filter-kes-positioning-and-problem-layer-decision-2026-06-15]]
+- [[bathtub-filter-kes-v1-pricing-channel-launch-geo-subscription]]
+- [[bathtub-filter-25lpm-dechlorination-bench-test-spec]]
+- [[bathtub-filter-kes-v1-selling-points-and-pack-contents]]
+- [[bathtub-filter-kes-website-copy-v1]]
+- [[bathtub-filter-kes-homepage-and-about-page-layout]]
+- [[bathtub-filter-kes-hero-film-storyboard-and-shooting-brief]]
+- [[bathtub-filter-kes-transparent-box-hero-shot-script]]
+- [[kes-bathtub-filter-PRD-v1]]
+- [[bathtub-filter-kes-flat-strap-spout-fit-design-2026-06-03]]
+
+### 自有营销站内容体系（`site/`，入口）
+- [[bathtub-filter-kes-marketing-site-content-map]] — 总图与治理原则
+- [[bathtub-filter-kes-content-ops-sop]] — 页面模板、claim 审批链、数字传播检查表
+- [[bathtub-filter-kes-v1-definition-and-not-for-list]] — V1 定义与「不适合谁」清单
+- [[bathtub-filter-kes-structure-overview]] / [[bathtub-filter-kes-structure-ip-and-patent-governance]]
+- [[bathtub-filter-kes-page-how-we-test-and-certify]] / [[bathtub-filter-kes-page-replacement-and-lifespan]]
+- 其余 media / scenario / edu / service / channel 页见内容地图与 `index.md` 的 `Marketing Site Content System` 小节
+
+### 介质与技术补充
+- [[bathtub-filter-media-efficacy-at-bath-conditions]]
+- [[bathtub-filter-disinfectant-types-and-media-guide]]
+- [[bathtub-filter-water-source-types-guide]]
+- [[bathtub-filter-well-water-research]]
+- [[bathtub-filter-utility-service-map-by-metro]]
+- [[bathtub-filter-na-water-profile-and-target-market-analysis]]
+- [[bathtub-filter-point-of-use-pfas-removal-feasibility]]
+- [[ascorbate-chloramine-kinetics-research-2026-06]]
+- [[bathtub-filter-market-size-and-demand-data]]
+- [[bathtub-filter-amazon-category-and-keyword-baseline]]
+- [[bathtub-filter-competitor-pricing-and-kes-v1-price-recommendation]]
+- [[bathtub-filter-channel-admission-requirements]]
+
+### 竞品情报（2026-06 批次）
+- [[bathtub-filter-competitive-intelligence-filterbaby-bath-haus-2026-06-13]]
+- [[bathtub-filter-filterbaby-deep-dive-patent-agency-awards-2026-06-13]]
+- [[bathtub-filter-filterbaby-website-deconstruction-2026-06-13]]
+- [[bathtub-filter-filterbaby-patent-fto-analysis]]
+- [[envig-competitor-intelligence-2026-06]] / [[envig-deep-research-2026-06]]
+- [[bathtub-filter-shower-bath-softener-competitive-landscape-2026-06]]
+- [[bathtub-filter-certification-landscape-2026-06-13]]
+- [[bathtub-filter-competitor-commercial-intelligence]]
+- [[bathtub-filter-11-asin-public-competitor-evidence-2026-06-02]]
+- [[bathtub-filter-competitor-claim-review-accuracy-scorecard-2026-06-02]]
+- [[bathtub-filter-competitor-customer-installation-target-matrix-2026-06-02]]
+- [[bathtub-filter-amazon-review-image-installation-packaging-leads-2026-06-02]]
+- [[kes-bathtub-filter-critical-analysis-v1]] / [[kes-bathtub-filter-deep-competitive-analysis-v2]]
+- [[bathtub-filter-standards-and-certification-audit-by-brand]]
+- [[bathtub-filter-brand-page-claim-compliance-audit]] / [[bathtub-filter-brand-page-pack-audit-v2]]
+- [[bathtub-filter-patent-table]]
+
+### 内容、社区与创意补充
+- [[bathtub-filter-reddit-community-signal-sampling]]
+- [[bathtub-filter-community-language-compression-patterns]]
+- [[bathtub-filter-creative-test-brief-and-creator-partnership-template]]
+- [[bathtub-filter-product-definition-language]] / [[bathtub-filter-category-boundary]]
+
+### 历史 / 归档
+- [[bathtub-filter-kes-route-screening-memo-v1]]（archived）
+- [[bathtub-filter-claim-evidence-ladder]]（archived，已并入 evidence-matrix）
+- [[bathtub-filter-review-corpus-wiki-update-note-2026-04-20]]（archived 流程留痕）
+
 ### 来源摘要页
+- [[bathtub-filter-competitor-listing-sales-2026-06-18]]
+- [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]]
 - [[bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22]]
 - [[bathtub-filter-marketplace-review-and-editorial-review-pass-2026-04-13]]
 - [[bathtub-filter-market-scan-2026-04-11]]
@@ -324,3 +422,11 @@ related:
 - [Bathtub Filter KES Acquisition Engine MVP Spec](./bathtub-filter-kes-acquisition-engine-mvp-spec.md)
 - [Bathtub Filter Claim Register](./bathtub-filter-claim-register.md)
 - [Bathtub Filter North America / Canada / Asia / Europe Water Report 2024 Final](./bathtub-filter-north-america-canada-asia-europe-water-report-2024-final.md)
+- [KES 专利申请 19/281,644](./bathtub-filter-kes-patent-19-281644-modular-terminal-water-treatment.md)
+- [V1 除游离氯版尺寸与材质表（BOM）](./bathtub-filter-v1-free-chlorine-removal-dimensions-materials.md)
+- [KES 定位与问题层决策 2026-06-15](./bathtub-filter-kes-positioning-and-problem-layer-decision-2026-06-15.md)
+- [KES V1 定价 / 渠道 / 首发地理 / 订阅](./bathtub-filter-kes-v1-pricing-channel-launch-geo-subscription.md)
+- [25 L/min 去氯特征测试 spec](./bathtub-filter-25lpm-dechlorination-bench-test-spec.md)
+- [就地除 PFAS 可行性](./bathtub-filter-point-of-use-pfas-removal-feasibility.md)
+- [自有营销站内容地图](./site/bathtub-filter-kes-marketing-site-content-map.md)
+- [2026-06-18 资料写入索引](./bathtub-filter-2026-06-18-source-import-index.md)
