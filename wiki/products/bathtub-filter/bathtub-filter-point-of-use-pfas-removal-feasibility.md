@@ -13,7 +13,7 @@ source_count: 10
 review_cycle: monthly
 verification_status: deep-research-verified
 related:
-  - ./bathtub-filter-kes-media-catalytic-carbon.md
+  - ./site/bathtub-filter-kes-media-catalytic-carbon.md
   - ./bathtub-filter-point-of-use-hardness-softening-feasibility.md
   - ./bathtub-filter-claim-register.md
   - ./bathtub-filter-water-source-types-guide.md

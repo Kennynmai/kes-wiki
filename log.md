@@ -9,6 +9,13 @@ Example:
 - status: pending-owner-review
 - notes: short summary of what changed
 
+## [2026-09-05] maintain | bathtub filter — Filterbaby 剥离资料口径统一（shower-filter 目录不存在）
+- source: 跨 kes-wiki / kenny-wiki 排查（含 git 历史）
+- updated: wiki/products/bathtub-filter/bathtub-filter.md; bathtub-filter-research-coverage-gaps.md; bathtub-filter-2026-06-18-source-import-index.md; bathtub-filter-kes-next-step-execution-plan-v1.md; bathtub-filter-11-asin-public-competitor-evidence-2026-06-02.md; bathtub-filter-amazon-review-image-installation-packaging-leads-2026-06-02.md; bathtub-filter-competitor-claim-review-accuracy-scorecard-2026-06-02.md; bathtub-filter-competitor-customer-installation-target-matrix-2026-06-02.md; 另修 4 处 related 相对路径错误（pfas → site/catalytic-carbon、curtains、validation-protocol、labeling-analysis）
+- status: done（用户确认口径）
+- notes: |
+  8 个页面此前写 Filterbaby `B0FNVDJRSQ` 资料"已迁到 wiki/products/shower-filter/ 与 raw/products/shower-filter/"。经查两个 repo 及其 git 历史都没有该目录；99 条评论原文、客户图、scorecard 子集与 competitor brief 未保留在任何 repo，源头是 ops-platform `dev_competitor_review` 库。统一改为"已从 bathtub 语料剔除、资料未保留在 repo、可按需从 ops-platform 重新导出"，品牌研究落点指向 kenny-wiki brand-studies 与本 repo market-research 的 shower-filter 定位/专利页。
+
 ## [2026-09-05] maintain | bathtub filter cluster — 结构 lint、hub / gap doc 刷新到 V1 定义阶段
 - source: wiki/products/bathtub-filter/（117 + 53 页全量扫描）
 - updated: wiki/products/bathtub-filter/bathtub-filter.md; wiki/products/bathtub-filter/bathtub-filter-research-coverage-gaps.md; index.md; 5 页补 frontmatter（ascorbate-chloramine-kinetics、kes-bathtub-filter-PRD-v1、critical-analysis-v1、deep-competitive-analysis-v2、review-corpus-wiki-update-note 归档）；competitive-intelligence-filterbaby-bath-haus 规范化 frontmatter；3 页去 UTF-8 BOM；3 处断链修复；删除 acf-supplier-research.md 重复副本与 inbox 中 3 份已入库文档；dashboards/recent-updates.md；log.md

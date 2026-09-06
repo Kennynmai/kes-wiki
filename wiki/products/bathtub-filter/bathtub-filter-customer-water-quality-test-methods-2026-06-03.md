@@ -14,7 +14,7 @@ review_cycle: monthly
 verification_status: keyword_coded_review_analysis
 related:
   - ./bathtub-filter.md
-  - ./bathtub-filter-competitor-review-labeling-analysis-2026-06-02.md
+  - ../../source-summaries/bathtub-filter-competitor-review-labeling-analysis-2026-06-02.md
   - ./bathtub-filter-review-patterns-and-return-risk.md
   - ./bathtub-filter-test-gating-checklist-for-kes.md
 ---

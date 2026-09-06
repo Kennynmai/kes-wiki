@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-14
-updated: 2026-06-17
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -50,7 +50,7 @@ related:
 - 1 个 backup concept（备选概念）
 
 ### 当前建议
-> **注意：** 以下是基于当前 research package 的推荐起点，**不是已锁定的产品决策**。Workstream 2 现在只做 bathtub active 10 ASIN 公开竞品资料补全，不做样品采购；Filterbaby `B0FNVDJRSQ` 已从 bathtub 评论语料删除并拆到 shower-filter 项目。Workstream 3 已有 S-01 non-diverter 周长边界正向记录、2 组 RV / mobile-home center-set / valve-diverter faucet 正向适配样本，以及 freestanding tub filler 非瀑布出水 2 kg 承重记录，但仍不足以关闭安装/兼容性证据缺口；如后续测试结果不支持当前排序，应重回 concept-brief 修订优先级。
+> **注意：** 以下是基于当前 research package 的推荐起点，**不是已锁定的产品决策**。Workstream 2 现在只做 bathtub active 10 ASIN 公开竞品资料补全，不做样品采购；Filterbaby `B0FNVDJRSQ` 已从 bathtub 评论语料剔除（资料未保留在 repo）。Workstream 3 已有 S-01 non-diverter 周长边界正向记录、2 组 RV / mobile-home center-set / valve-diverter faucet 正向适配样本，以及 freestanding tub filler 非瀑布出水 2 kg 承重记录，但仍不足以关闭安装/兼容性证据缺口；如后续测试结果不支持当前排序，应重回 concept-brief 修订优先级。
 
 - Lead：[[bathtub-filter-kes-concept-brief-v1|Hybrid premium-but-disciplined tub-spout route]]
 - Backup：[[bathtub-filter-kes-concept-brief-v1|Narrow chlorine-focused technically disciplined route]]
@@ -71,7 +71,7 @@ related:
 - 真实退货率、退款原因、客服工单、Brand Registry / DTC 后台数据不作为公开补资料任务。
 
 ### 2026-06-03 口径修正
-- Filterbaby `B0FNVDJRSQ` 是 shower filter / showerhead inline 产品，已拆出 bathtub-filter 口径（目标 `wiki/products/shower-filter/` 目前不在本 repo 中，见 hub 页「已知缺口」）。
+- Filterbaby `B0FNVDJRSQ` 是 shower filter / showerhead inline 产品，已从 bathtub 语料剔除。其 99 条评论原文、客户图、scorecard 子集与 competitor brief **未保留在任何 repo**（源头为 ops-platform `dev_competitor_review` 库，可按需重新导出）；Filterbaby 品牌研究见 kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md` 与本 repo [[kes-shower-filter-positioning-patent-analysis]]。
 - Bathtub-filter active competitor set 改为 10 ASIN；Filterbaby 不再进入 bathtub 的价格均值、安装对象矩阵、claim 准确率排名或 tub-spout fit 判断。
 
 ### 覆盖对象

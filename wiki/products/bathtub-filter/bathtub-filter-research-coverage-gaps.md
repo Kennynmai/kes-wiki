@@ -145,7 +145,7 @@ related:
 
 | 层                 | 对应页面                                                                                                                                      | 真实状态                                                                 | 缺口（用来卡住哪类决策）                                                                                                                                                                                                                                            |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| A. 市场评论挖掘 | marketplace-negative-review-signals、review-patterns-and-return-risk、complaint-taxonomy-and-risk-by-route、competitor-review-corpus-2026-04、source-summary 逐条标签分析（2026-06-02） | ✅ 决策可用（评论 taxonomy）/ 🚫 退货率非公开补资料 | 2026-06-18：当前口径为 active 10 ASIN / 2562 条 Amazon 评论逐条标签证据链；Filterbaby `B0FNVDJRSQ` 已删除并迁出到 shower-filter。含 1-2 星高杀伤投诉排序、QA 复核列、严重度/置信度。**口径修正：真实 SKU 退货率、退款原因、客服工单 / Brand Registry / DTC 后台数据属于平台或内部后台数据，不列入公开补资料任务；未来仅在拿到内部数据时追加。** |
+| A. 市场评论挖掘 | marketplace-negative-review-signals、review-patterns-and-return-risk、complaint-taxonomy-and-risk-by-route、competitor-review-corpus-2026-04、source-summary 逐条标签分析（2026-06-02） | ✅ 决策可用（评论 taxonomy）/ 🚫 退货率非公开补资料 | 2026-06-18：当前口径为 active 10 ASIN / 2562 条 Amazon 评论逐条标签证据链；Filterbaby `B0FNVDJRSQ` 已剔除（资料未保留在 repo，见 hub「已知缺口」）。含 1-2 星高杀伤投诉排序、QA 复核列、严重度/置信度。**口径修正：真实 SKU 退货率、退款原因、客服工单 / Brand Registry / DTC 后台数据属于平台或内部后台数据，不列入公开补资料任务；未来仅在拿到内部数据时追加。** |
 | B. 渠道/零售商格局       | channel-positioning-table-v2、channel-admission-requirements                                                                               | 🟡→✅ 接近可决策                                                           | 2026-04-18 补：Canopy 多渠道定价反推 margin 结构、MOQ 估算、category reset 窗口、buyer 期望矩阵。**仍缺：真实 buyer outreach 结果（margin / promo cadence 非公开）**                                                                                                                       |
 | C. NA 合规          | certification-and-testing-pathways、certification-authority-tiers-and-workflow、compliance-framework-and-evidence-boundaries                | ✅ 决策可用                                                               | 关键发现：NSF 177 不适用 spout-mount，需 NSF 42+61 路径。Action：实际 RFQ                                                                                                                                                                                               |
 | C1. 跨辖区           | cross-jurisdiction-standards-map                                                                                                          | ✅ 决策可用                                                               | 缺 V1 是否进 EU/JP 的市场范围决策                                                                                                                                                                                                                                  |
@@ -189,7 +189,7 @@ related:
 |---|---|---|---|
 | A. 市场评论挖掘 | 🟡 仅框架 | 🟡 仅框架（历史状态） | 2026-04-18 Rainforest reviews 返回为空；**2026-06-18 当前口径已由 active 10 ASIN / 2562 条评论语料与逐条标签分析补上。** |
 | B. 渠道/零售商格局 | 🟡 仅框架 | 🟡→✅ 接近可决策 | 确认 Canopy 多渠道：Target $69.99 / Sephora $89 / Babylist $89；Google Shopping 40 条价格带完整 |
-| D. 定价/单位经济 | 🟡 仅框架 | ✅ 决策可用 | 13 ASIN 跨 5 站点价格矩阵、BSR、月销估算；2026-06-03 已将 Filterbaby 迁出 shower-filter，bathtub active pricing 不再使用其 $113 / 1K+ 数据；Canopy $89 是当前 premium tub-spout 主要锚点 |
+| D. 定价/单位经济 | 🟡 仅框架 | ✅ 决策可用 | 13 ASIN 跨 5 站点价格矩阵、BSR、月销估算；2026-06-03 已将 Filterbaby 剔除出 bathtub 口径，bathtub active pricing 不再使用其 $113 / 1K+ 数据；Canopy $89 是当前 premium tub-spout 主要锚点 |
 | F. 水质辖区 | ✅ | ✅ | 无变化 |
 | 关键词 / BA | 🟡 推断 | ✅ 实测 | BA SFR 2026-03-22 窗口数据：`bathtub filter` 105,780；Canopy 垄断全词 Top-1 click share 14–76% |
 | Google Trends | ❌ 未做 | ✅ 5 年数据 | 2026-03-29 历史峰 100/100（= 2022 峰值 11 倍）；2026-04-12 仍在 43/100 |
@@ -235,7 +235,7 @@ related:
 
 ## 2026-04-19 → 2026-05-18 桌面研究补足批次
 
-> 来源：bulk wiki update（与 GEO/Rufus 研究包同批次并入）。本批次为**桌面研究深化，未解决任何 field-work 卡点**。2026-06-18 口径修正：A 层评论量化已由 active 10 ASIN / 2562 条逐条标签补上，Filterbaby `B0FNVDJRSQ` 已迁出 shower-filter；真实退货/售后数据移出公开补资料任务。剩余硬卡点为 C3 binding quote、D COGS/BOM、E 实物拆解/测试记录。
+> 来源：bulk wiki update（与 GEO/Rufus 研究包同批次并入）。本批次为**桌面研究深化，未解决任何 field-work 卡点**。2026-06-18 口径修正：A 层评论量化已由 active 10 ASIN / 2562 条逐条标签补上，Filterbaby `B0FNVDJRSQ` 已剔除；真实退货/售后数据移出公开补资料任务。剩余硬卡点为 C3 binding quote、D COGS/BOM、E 实物拆解/测试记录。
 
 | 层 | 新增页面 | 补入内容 | 评级影响 |
 |---|---|---|---|
@@ -260,7 +260,7 @@ related:
 
 > 来源：用户提供的 11 个 Excel 评论表，已归档到 `raw/products/bathtub-filter/2026-04-20-competitor-review-corpus/`，并生成 [[bathtub-filter-competitor-review-labeling-analysis-2026-06-02]]。
 
-> 2026-06-18 口径修正：Filterbaby `B0FNVDJRSQ` 是 shower filter / showerhead inline 产品，已从 bathtub-filter 评论语料删除并保留到 `wiki/products/shower-filter/` 和 `raw/products/shower-filter/`。当前 bathtub-filter 评论语料为 active 10 ASIN / 2562 条；竞品、价格、安装对象、图评和 claim 准确率口径均为 10 个 ASIN。
+> 2026-06-18 口径修正：Filterbaby `B0FNVDJRSQ` 是 shower filter / showerhead inline 产品，已从 bathtub 语料剔除。其 99 条评论原文、客户图、scorecard 子集与 competitor brief **未保留在任何 repo**（源头为 ops-platform `dev_competitor_review` 库，可按需重新导出）；Filterbaby 品牌研究见 kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md` 与本 repo [[kes-shower-filter-positioning-patent-analysis]]。当前 bathtub-filter 评论语料为 active 10 ASIN / 2562 条；竞品、价格、安装对象、图评和 claim 准确率口径均为 10 个 ASIN。
 
 | 层 | 更新前 | 更新后 | 说明 |
 |---|---|---|---|
@@ -276,7 +276,7 @@ related:
 | 真实 SKU 退货率、退款原因、客服工单、Brand Registry / DTC 后台数据 | 移出公开补资料任务 | 这些数据不靠网页获取；未来只有拿到内部后台数据时才追加为运营证据。 |
 | 样品采购 | 移出本轮补资料任务 | 不再生成采购优先级或预算清单。 |
 | 实物拆解/测试记录 | 保留为证据边界，不由网页代替 | KES 扁挂带适配方案已补入 [[bathtub-filter-kes-flat-strap-spout-fit-design-2026-06-03]]；墙距口径已修正为 >=60 mm 居中、40-60 mm 偏心可用、<40 mm 理论极端；若已有样品或人工记录，再补开箱、结构、滤材可见形态、安装方式、包装文案、说明书和测试方法。 |
-| active bathtub 10 ASIN 公开竞品资料 | 保留为可补资料 | 原始 11 ASIN 中的 Filterbaby 已迁出 shower-filter；剩余 bathtub active 10 ASIN 的官方页、Amazon PDP、公开价格/销量信号、公开 claim、可见结构/安装线索可整理到 [[bathtub-filter-11-asin-public-competitor-evidence-2026-06-02]]。 |
+| active bathtub 10 ASIN 公开竞品资料 | 保留为可补资料 | 原始 11 ASIN 中的 Filterbaby 已剔除；剩余 bathtub active 10 ASIN 的官方页、Amazon PDP、公开价格/销量信号、公开 claim、可见结构/安装线索可整理到 [[bathtub-filter-11-asin-public-competitor-evidence-2026-06-02]]。 |
 
 ## 2026-06-18 → 2026-07-02 V1 定义锁定批次
 
@@ -300,7 +300,7 @@ related:
 
 ### 本次 lint 发现的结构性缺口（2026-09-05）
 
-- `wiki/products/shower-filter/` 与 `raw/products/shower-filter/` 在本 repo 中不存在（git 历史也无），但 6 个 bathtub 页面把 Filterbaby `B0FNVDJRSQ` 资料标记为"已迁到那里"。需从外部仓库同步或把口径改为"已剥离、资料存于 X"。
+- 此前 8 个页面把 Filterbaby `B0FNVDJRSQ` 资料标记为"已迁到 `wiki/products/shower-filter/`"，经查 kes-wiki 与 kenny-wiki 均无该目录。**2026-09-05 已统一改口径**：已从 bathtub 语料剔除。其 99 条评论原文、客户图、scorecard 子集与 competitor brief **未保留在任何 repo**（源头为 ops-platform `dev_competitor_review` 库，可按需重新导出）；Filterbaby 品牌研究见 kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md` 与本 repo [[kes-shower-filter-positioning-patent-analysis]]。
 - 已清理：`acf-supplier-research.md` 无 frontmatter重复副本已删；inbox 中 3 份已入库的 bathtub 文档已删；5 页补齐 frontmatter；3 页去除 UTF-8 BOM；3 处断链修复；~95 页补进 `index.md`。
 
 ## 战略意义

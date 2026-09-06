@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-02
-updated: 2026-06-03
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -17,7 +17,7 @@ related:
   - ./bathtub-filter-amazon-review-image-installation-packaging-leads-2026-06-02.md
   - ./bathtub-filter-supported-spout-matrix.md
   - ./bathtub-filter-installation-risk-matrix-v2.md
-  - ../shower-filter/shower-filter-filterbaby-b0fnvdjrsq-competitor-brief-2026-06-03.md
+  - ../../market-research/kes-shower-filter-positioning-patent-analysis.md
 ---
 
 # 竞品客户实际安装对象矩阵（2026-06-02）
@@ -33,7 +33,7 @@ related:
 - **widespread faucet / deck-mounted faucet**：双把/三孔/宽距或台面式浴缸龙头。本批没有足够证据证明任何竞品稳定支持这类安装。
 - **with overflow**：很多低价产品标题里的 `with overflow` 更像“防溢流/防飞溅结构”，不是安装在浴缸 overflow drain 口。
 
-**2026-06-03 口径修正：** Filterbaby `B0FNVDJRSQ` 是 shower filter / showerhead inline 产品，已拆到 shower-filter 项目。下表只保留 active bathtub-filter 竞品；Filterbaby 的安装对象为 shower arm / wall pipe / showerhead / hose，不再计入 bathtub fit 判断。
+**2026-06-03 口径修正：** Filterbaby `B0FNVDJRSQ` 是 shower filter / showerhead inline 产品，已从 bathtub 语料剔除。其 99 条评论原文、客户图、scorecard 子集与 competitor brief **未保留在任何 repo**（源头为 ops-platform `dev_competitor_review` 库，可按需重新导出）；Filterbaby 品牌研究见 kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md` 与本 repo [[kes-shower-filter-positioning-patent-analysis]]。下表只保留 active bathtub-filter 竞品；Filterbaby 的安装对象为 shower arm / wall pipe / showerhead / hose，不再计入 bathtub fit 判断。
 
 ## 总表
 
@@ -78,7 +78,7 @@ related:
 
 ### 4. 已迁出：shower inline
 
-Filterbaby 的客户图确认其安装对象是 shower arm / wall pipe / showerhead / hose。该资料已迁入 `wiki/products/shower-filter/` 和 `raw/products/shower-filter/`，不再作为 bathtub tub-spout 适配证据。
+Filterbaby 的客户图确认其安装对象是 shower arm / wall pipe / showerhead / hose。该资料已剔除（未保留在 repo），不再作为 bathtub tub-spout 适配证据。
 
 ## wide / widespread faucet 判断
 
@@ -103,4 +103,4 @@ Filterbaby 的客户图确认其安装对象是 shower arm / wall pipe / showerh
 - Amazon customer image archive：`raw/products/bathtub-filter/2026-06-02-amazon-review-images/README.md`
 - Review evidence chain：`raw/products/bathtub-filter/2026-04-20-competitor-review-corpus/bathtub-filter-competitor-review-labeling-evidence-chain-2026-06-02.csv`
 - PDP snapshots：`raw/products/bathtub-filter/reports/bathtub_filter_2026-04-18/raw/rainforest_pdp_{ASIN}_amz_us.json`
-- Filterbaby moved-out installation matrix：`raw/products/shower-filter/filterbaby-customer-installation-target-matrix-2026-06-02.csv`
+- Filterbaby 安装对象子集：已剔除，未保留在 repo

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-02
-updated: 2026-06-03
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -20,7 +20,7 @@ related:
   - ./bathtub-filter-amazon-review-image-installation-packaging-leads-2026-06-02.md
   - ./bathtub-filter-competitor-claim-review-accuracy-scorecard-2026-06-02.md
   - ./bathtub-filter-competitor-customer-installation-target-matrix-2026-06-02.md
-  - ../shower-filter/shower-filter-filterbaby-b0fnvdjrsq-competitor-brief-2026-06-03.md
+  - ../../market-research/kes-shower-filter-positioning-patent-analysis.md
 ---
 
 # Bathtub Filter Active 10 ASIN 公开竞品资料补充（2026-06-02）
@@ -29,7 +29,7 @@ related:
 
 本页不是样品采购清单，也不是实物拆解结论。它只把当前 bathtub active 10 个 ASIN 的现有评论语料、Amazon PDP 快照、品牌官网和公开页面能确认的信息整理成竞品证据层。
 
-**2026-06-18 口径修正：** `B0FNVDJRSQ` Filterbaby 是 shower filter / showerhead inline 产品，不属于 bathtub filter。它已从 bathtub 评论语料中删除，并保留到 `wiki/products/shower-filter/` 和 `raw/products/shower-filter/`；本页 active bathtub-filter 竞品口径为 10 个 ASIN。
+**2026-06-18 口径修正：** `B0FNVDJRSQ` Filterbaby 是 shower filter / showerhead inline 产品，不属于 bathtub filter。它已从 bathtub 语料剔除。其 99 条评论原文、客户图、scorecard 子集与 competitor brief **未保留在任何 repo**（源头为 ops-platform `dev_competitor_review` 库，可按需重新导出）；Filterbaby 品牌研究见 kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md` 与本 repo [[kes-shower-filter-positioning-patent-analysis]]；本页 active bathtub-filter 竞品口径为 10 个 ASIN。
 
 **公开网页能补：** 产品定位、价格、公开销量信号、页面 claim、安装描述、可见结构/图片线索、官网是否存在。
 
@@ -41,7 +41,7 @@ related:
 |---|---|---|
 | 官方可核验 | 有品牌官网或官方产品页可对照 | 可用于定位、claim、价格/订阅/配件线索；仍不能替代拆解。 |
 | PDP-only | 目前只在 Amazon PDP / Rainforest 快照中有较完整信息 | 只能作为公开页面话术和市场线索，不能写成官方事实。 |
-| 已迁出 shower-filter | 产品曾出现在原始资料中，但实际不是 bathtub filter | 不再用于 bathtub fit、价格、图评、claim 准确率或安装对象矩阵；详见 shower-filter 项目。 |
+| 已剔除（非 bathtub） | 产品曾出现在原始资料中，但实际不是 bathtub filter | 不再用于 bathtub fit、价格、图评、claim 准确率或安装对象矩阵；剔除资料未保留在 repo。 |
 
 ## 10 ASIN 公开资料矩阵
 
@@ -80,7 +80,7 @@ Raw 图片目录：`raw/products/bathtub-filter/2026-06-02-amazon-review-images/
 - Santevia：4 张。可见 cloth/mesh hanging route、cotton bag、loofah-like mesh、drawstring pouch。
 - Crystal Quest：12 张。可见 bath-ball 挂绳安装、顶部 grille / 可见滤体区域、水流路径、refill / hard-handle packets 和盒子。
 
-Filterbaby 的 6 张客户图已迁出到 `raw/products/shower-filter/2026-06-02-amazon-review-images/filterbaby/`，不计入 bathtub-filter 图片证据。
+Filterbaby 的 6 张客户图已剔除且未保留在 repo，不计入 bathtub-filter 图片证据。
 
 仍未归档：Tubo、SHLLKTTRY、JYFJYF、Beati、Yolycen、Syvahome、Uiuaquas 等 PDP-only / 低价路线的真实图评图片。它们目前仍只保留评论语料中的 `image_count`、review link 和正文线索。
 
@@ -89,7 +89,7 @@ Filterbaby 的 6 张客户图已迁出到 `raw/products/shower-filter/2026-06-02
 | 品牌/路线 | 是否已整理到 wiki | raw 状态 | 还缺什么 |
 |---|---|---|---|
 | Canopy | 已整理：本页、claim/visual/channel/keyword 多页均有覆盖；2026-06-02 已补 Amazon 客户图评 | 有 Amazon/Rainforest PDP 与历史 raw 摘录；已归档 Amazon 客户图评 11 张；当前官网页未保存为完整 raw HTML | 官方官网页若需要审计级留档，需单独保存页面截图或 HTML；实物拆解/测试仍缺 |
-| Filterbaby | 已迁出：不属于 bathtub filter；详见 `wiki/products/shower-filter/` | PDP、评论语料、图评图片和 scorecard 子集已拆到 `raw/products/shower-filter/` | 不再作为 bathtub active competitor、fit benchmark、claim scorecard 或图评证据 |
+| Filterbaby | 已剔除：不属于 bathtub filter | PDP、评论语料、图评图片和 scorecard 子集已剔除，未保留在 repo（可从 ops-platform 重新导出） | 不再作为 bathtub active competitor、fit benchmark、claim scorecard 或图评证据 |
 | Crystal Quest | 已整理：本页、brand-page audit、technology / visual / standards 多页均有覆盖；2026-06-02 已补 Amazon 客户图评 | 有 Amazon/Rainforest PDP；早期 raw 中有官方/评测页面摘录与 HTML；已归档 Amazon 客户图评 12 张 | 实际滤材配比、流速、寿命仍需实物/测试 |
 | Santevia | 已整理：本页、brand-page audit、technology / visual / standards 多页均有覆盖；2026-06-02 已补 Amazon 客户图评 | 有 Amazon/Rainforest PDP；早期 raw 中有页面摘录；已归档 Amazon 客户图评 4 张 | 滤袋结构、湿态维护、矿物释放量仍需实物/测试 |
 | Tubo | 已整理：本页标为 premium-ish baby/tub positioning benchmark | 有 Amazon/Rainforest PDP；未确认可靠官网 | 只能作为 PDP-only 线索；official manual / packaging / certification anchor 缺 |
@@ -97,10 +97,10 @@ Filterbaby 的 6 张客户图已迁出到 `raw/products/shower-filter/2026-06-02
 
 ## 已迁出：Filterbaby
 
-Filterbaby `B0FNVDJRSQ` 的包装、说明书、客户图、PDP 快照和评论语料已归入 shower-filter 项目，不再保留在 bathtub 评论语料中：
+Filterbaby `B0FNVDJRSQ` 的包装、说明书、客户图、PDP 快照和评论语料已从 bathtub 语料剔除，且未保留在任何 repo：
 
-- Wiki：`wiki/products/shower-filter/shower-filter-filterbaby-b0fnvdjrsq-competitor-brief-2026-06-03.md`
-- Raw：`raw/products/shower-filter/`
+- 品牌研究落点：kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md`；本 repo [[kes-shower-filter-positioning-patent-analysis]]
+- 原始评论：ops-platform `dev_competitor_review` 库（按需重新导出）
 
 本页不再把它作为 bathtub filter 的安装、定价、评分或图评证据。
 
@@ -148,7 +148,7 @@ Filterbaby `B0FNVDJRSQ` 的包装、说明书、客户图、PDP 快照和评论�
 - Raw actual image archive：`raw/products/bathtub-filter/2026-06-02-amazon-review-images/`
 - Raw image manifest：`raw/products/bathtub-filter/2026-06-02-amazon-review-images/download-manifest.csv`
 - Raw image index：`raw/products/bathtub-filter/2026-06-02-amazon-review-images/README.md`
-- Filterbaby moved-out brief：`wiki/products/shower-filter/shower-filter-filterbaby-b0fnvdjrsq-competitor-brief-2026-06-03.md`
+- Filterbaby 相关页：[[kes-shower-filter-positioning-patent-analysis]]（剔除的 brief 未保留在 repo）
 - Canopy official: [Canopy Bath Tub Filter](https://getcanopy.co/products/bath-tub-filter)
 - Crystal Quest official: [Bath Ball Filter for Bathtub Faucet](https://crystalquest.com/products/bath-ball-filter)
 - Santevia official: [Bath Filter](https://santevia.com/products/bath-filter)

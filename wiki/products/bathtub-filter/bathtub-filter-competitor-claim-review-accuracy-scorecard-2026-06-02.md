@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-02
-updated: 2026-06-03
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -16,7 +16,7 @@ related:
   - ./bathtub-filter-11-asin-public-competitor-evidence-2026-06-02.md
   - ./bathtub-filter-amazon-review-image-installation-packaging-leads-2026-06-02.md
   - ./bathtub-filter-competitor-review-corpus-2026-04.md
-  - ../shower-filter/shower-filter-filterbaby-b0fnvdjrsq-competitor-brief-2026-06-03.md
+  - ../../market-research/kes-shower-filter-positioning-patent-analysis.md
 ---
 
 # 竞品卖点 vs 实际评论准确率评分（2026-06-02）
@@ -28,12 +28,12 @@ related:
 评分使用三类本地证据：
 
 - Amazon PDP 快照：标题、feature bullets、价格和公开销量信号。
-- 2562 条 bathtub active 评论语料：星级、正文、图片数、review link。Filterbaby `B0FNVDJRSQ` 已从 bathtub 评论语料删除并保留在 shower-filter 项目。
+- 2562 条 bathtub active 评论语料：星级、正文、图片数、review link。Filterbaby `B0FNVDJRSQ` 已从 bathtub 评论语料剔除（资料未保留在 repo）。
 - 第二轮评论标签：正向证据、1-2 星高杀伤投诉、高星轻微吐槽、claim dispute、overflow、mold、refill 等。
 
 不纳入评分：真实退货率、退款原因、客服工单、实测氯/硬度/TDS/流速、真实滤材配比。这些目前没有公开可核验证据。
 
-**2026-06-03 口径修正：** Filterbaby `B0FNVDJRSQ` 是 shower filter / showerhead inline 产品，已拆到 shower-filter 项目。下表只保留 active bathtub-filter 竞品，Filterbaby 的评分子集见 `raw/products/shower-filter/filterbaby-claim-review-accuracy-scorecard-2026-06-02.csv` 和 `wiki/products/shower-filter/`。
+**2026-06-03 口径修正：** Filterbaby `B0FNVDJRSQ` 是 shower filter / showerhead inline 产品，已从 bathtub 语料剔除。其 99 条评论原文、客户图、scorecard 子集与 competitor brief **未保留在任何 repo**（源头为 ops-platform `dev_competitor_review` 库，可按需重新导出）；Filterbaby 品牌研究见 kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md` 与本 repo [[kes-shower-filter-positioning-patent-analysis]]。下表只保留 active bathtub-filter 竞品。
 
 ## 评分方法
 
@@ -89,4 +89,4 @@ related:
 - Review evidence chain：`raw/products/bathtub-filter/2026-04-20-competitor-review-corpus/bathtub-filter-competitor-review-labeling-evidence-chain-2026-06-02.csv`
 - ASIN review summary：`raw/products/bathtub-filter/2026-04-20-competitor-review-corpus/bathtub-filter-competitor-review-asin-summary-2026-04-20.csv`
 - Amazon review image archive：`raw/products/bathtub-filter/2026-06-02-amazon-review-images/`
-- Filterbaby moved-out scorecard：`raw/products/shower-filter/filterbaby-claim-review-accuracy-scorecard-2026-06-02.csv`
+- Filterbaby scorecard 子集：已剔除，未保留在 repo

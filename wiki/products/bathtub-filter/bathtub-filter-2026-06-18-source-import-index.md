@@ -3,7 +3,7 @@ type: source-index
 status: draft
 owner: strategy
 created: 2026-06-18
-updated: 2026-06-18
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -27,7 +27,7 @@ verification_status: spot-checked
 
 - 不纳入 2026-06-18 bathtub competitor listing/sales 10-ASIN 口径。
 - 不保留在 bathtub filter 的 2026-04-20 评论语料 source-files 中。
-- 对应资料保留在 `raw/products/shower-filter/2026-04-20-filterbaby-review-corpus/` 和 `wiki/products/shower-filter/`。
+- 该 ASIN 已从 bathtub 语料剔除。其 99 条评论原文、客户图、scorecard 子集与 competitor brief **未保留在任何 repo**（源头为 ops-platform `dev_competitor_review` 库，可按需重新导出）；Filterbaby 品牌研究见 kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md` 与本 repo [[kes-shower-filter-positioning-patent-analysis]]。
 
 ## Raw 包说明
 | Raw package | 用途 | 文件数 | 备注 |

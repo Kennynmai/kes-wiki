@@ -17,7 +17,7 @@ related:
   - ./bathtub-filter-kes-water-diagnosis-kit-and-modular-acquisition-engine.md
   - ./bathtub-filter-kes-next-step-execution-plan-v1.md
   - ./bathtub-filter-kes-go-no-go-memo-v1.md
-  - ./bathtub-filter-validation-testing-protocol.md
+  - ../../playbooks/bathtub-filter-validation-testing-protocol.md
   - ./bathtub-filter-chloramine-media-research.md
 review_cycle: monthly
 verification_status: working

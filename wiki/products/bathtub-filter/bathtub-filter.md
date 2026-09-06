@@ -56,7 +56,7 @@ related:
   - ./bathtub-filter-point-of-use-pfas-removal-feasibility.md
   - ./site/bathtub-filter-kes-marketing-site-content-map.md
   - ./bathtub-filter-2026-06-18-source-import-index.md
-  - ../products/curtains.md
+  - ../curtains.md
 ---
 
 # 浴缸过滤器（Bathtub Filter）
@@ -70,7 +70,7 @@ related:
 3. 应该先看哪些页面，才能快速完成决策阅读
 
 ## 当前一句话结论（2026-09-05 刷新）
-**这题已经从"desk research / go-no-go 评估"进入"V1 定义已锁、内容体系已建、等待物理验证与成本闭环"阶段。** 2026-07-02 之后的权威事实是：KES 自有专利申请 `19/281,644` 已提交（patent pending，未授权）；V1 除游离氯版 27 项 BOM 已裁定为全站真理源；自有营销站 53 页内容体系已按 claim 证据标签建好。**仍未闭环的只剩三件外部事**：Gate 1 第三方 DPD 去氯测试（25 L/min 特征曲线）、COGS / 渠道 margin 模型、更多 spout 实物安装与泄漏/溢流记录。desk research 不再扩写；Filterbaby 已按 shower-filter 口径剥离（但对应页面目前不在本 repo，见「已知缺口」）。
+**这题已经从"desk research / go-no-go 评估"进入"V1 定义已锁、内容体系已建、等待物理验证与成本闭环"阶段。** 2026-07-02 之后的权威事实是：KES 自有专利申请 `19/281,644` 已提交（patent pending，未授权）；V1 除游离氯版 27 项 BOM 已裁定为全站真理源；自有营销站 53 页内容体系已按 claim 证据标签建好。**仍未闭环的只剩三件外部事**：Gate 1 第三方 DPD 去氯测试（25 L/min 特征曲线）、COGS / 渠道 margin 模型、更多 spout 实物安装与泄漏/溢流记录。desk research 不再扩写；Filterbaby `B0FNVDJRSQ` 已从 bathtub 语料剔除。其 99 条评论原文、客户图、scorecard 子集与 competitor brief **未保留在任何 repo**（源头为 ops-platform `dev_competitor_review` 库，可按需重新导出）；Filterbaby 品牌研究见 kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md` 与本 repo [[kes-shower-filter-positioning-patent-analysis]]。
 
 > 历史口径（2026-06-24 前）："研究阶段已完成，可停止扩写；若推进，仅进入公开竞品资料补全、测试验证准备与概念收窄。" 该判断仍成立，只是后续工作已实际推进到 V1 定义与内容层。
 
@@ -118,7 +118,7 @@ related:
 - leak / overflow / maintenance burden（漏水 / 溢流 / 维护负担）
 
 ### 4. 2026-06-02 / 2026-06-18 的 10-ASIN / 2562 条逐条标签分析进一步确认：评论风险已从“待量化”变成“可排序”
-新增逐条标签证据链覆盖 Amazon US bathtub active 10 个 ASIN、2562 条评论。2026-06-18 已从 bathtub-filter 评论语料中删除 Filterbaby `B0FNVDJRSQ` 的 99 条评论，因为它属于 shower-filter / showerhead inline 产品；对应数据保留在 `wiki/products/shower-filter/` 和 `raw/products/shower-filter/`。当前 bathtub-filter 竞品、价格、安装对象、图评和 claim 准确率口径均为 10 个 ASIN。该批证据把 2026-04-22 的 10-ASIN 项目级宽口径进一步收紧为可用于产品决策的标签口径。
+新增逐条标签证据链覆盖 Amazon US bathtub active 10 个 ASIN、2562 条评论。2026-06-18 已从 bathtub-filter 评论语料中删除 Filterbaby `B0FNVDJRSQ` 的 99 条评论，因为它属于 shower-filter / showerhead inline 产品；该 ASIN 已从 bathtub 语料剔除。其 99 条评论原文、客户图、scorecard 子集与 competitor brief **未保留在任何 repo**（源头为 ops-platform `dev_competitor_review` 库，可按需重新导出）；Filterbaby 品牌研究见 kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md` 与本 repo [[kes-shower-filter-positioning-patent-analysis]]。当前 bathtub-filter 竞品、价格、安装对象、图评和 claim 准确率口径均为 10 个 ASIN。该批证据把 2026-04-22 的 10-ASIN 项目级宽口径进一步收紧为可用于产品决策的标签口径。
 
 稳定人群线索：
 - 婴幼儿 / 儿童家庭：601 条（22.6%）
@@ -202,7 +202,7 @@ related:
 | 资料导入索引 | [[bathtub-filter-2026-06-17-desktop-strategy-doc-import-index]]、[[bathtub-filter-2026-06-18-source-import-index]] | 桌面策略文档 10 份、桌面源文件夹 42 份、10-ASIN listing + 销量包（近 12 月合计 176,739 件 / $6.3M） | source-index |
 
 ## 已知缺口（2026-09-05 lint）
-- **shower-filter 页面不在本 repo**：多处页面写 Filterbaby `B0FNVDJRSQ` 资料"已迁到 `wiki/products/shower-filter/` 与 `raw/products/shower-filter/`"，但这两个目录在本 repo 及其 git 历史中都不存在。该资料可能留在外部 kenny-wiki 仓库，需要同步或改口径。
+- **Filterbaby 剥离资料不在任何 repo（2026-09-05 已改口径）**：此前多页写"已迁到 `wiki/products/shower-filter/`"，经查 kes-wiki 与 kenny-wiki 及各自 git 历史都没有该目录。现统一口径为：已从 bathtub 语料剔除。其 99 条评论原文、客户图、scorecard 子集与 competitor brief **未保留在任何 repo**（源头为 ops-platform `dev_competitor_review` 库，可按需重新导出）；Filterbaby 品牌研究见 kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md` 与本 repo [[kes-shower-filter-positioning-patent-analysis]]。
 - **COGS 仍缺**：BOM 已有部件 / 尺寸 / 材质，但没有单价与渠道 margin，D 层 COGS 侧仍 🟡。
 - **寿命 / 去氯数字全部是内部模型或内部比色**：在 Gate 1 第三方 DPD 完成前不得作为 label claim。
 

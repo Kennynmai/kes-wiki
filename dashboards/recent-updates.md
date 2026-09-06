@@ -1,5 +1,6 @@
 # Recent Updates
 
+- 2026-09-05 — Bathtub-filter: unified the Filterbaby `B0FNVDJRSQ` wording across 8 pages after confirming no `shower-filter/` directory exists in kes-wiki or kenny-wiki; the excluded 99 reviews / images / scorecard subset are not kept in any repo (source: ops-platform review DB). Also fixed 4 wrong `related` relative paths.
 - 2026-09-05 — Bathtub-filter cluster lint: hub and gap doc refreshed to the V1-definition stage (patent application 19/281,644 pending, 27-part V1 BOM ruling, 53-page `site/` content system, chloramine / well-water GO, no softening, PFAS banned); ~95 pages added to `index.md`; 5 pages given frontmatter, duplicates and ingested inbox copies removed, 3 broken wikilinks fixed. Open structural gap: referenced `wiki/products/shower-filter/` does not exist in this repo.
 - 2026-05-30 — Added two execution assets for KES certification governance: a SKU-level certification mapping table skeleton and an evidence-pack checklist covering IAPMO, WaterSense, DOE, CEC, CE, UKCA, and ISO evidence requirements.
 - 2026-05-30 — Added a DOE / CEC public-database access note: DOE faucet/showerhead CCMS endpoints still returned HTTP 403; CEC Advanced Search publicly exposes `Plumbing Products -> Plumbing Fittings / Plumbing Fixtures`, but simulated `Plumbing Fittings + Approved` search timed out before returning KES-specific rows.

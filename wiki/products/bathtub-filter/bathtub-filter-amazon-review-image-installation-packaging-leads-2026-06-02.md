@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-02
-updated: 2026-06-03
+updated: 2026-09-05
 visibility: team
 confidence: medium
 officiality: draft
@@ -17,7 +17,7 @@ related:
   - ./bathtub-filter-supported-spout-matrix.md
   - ./bathtub-filter-installation-risk-matrix-v2.md
   - ./bathtub-filter-complaint-taxonomy-and-risk-by-route.md
-  - ../shower-filter/shower-filter-filterbaby-b0fnvdjrsq-competitor-brief-2026-06-03.md
+  - ../../market-research/kes-shower-filter-positioning-patent-analysis.md
 ---
 
 # Amazon 带图评论：实际图片归档与剩余线索（2026-06-02）
@@ -29,7 +29,7 @@ related:
 - **已归档图片证据**：2026-06-02 已从 Amazon `Reviews with images` 保存真实客户图片，bathtub-filter 当前覆盖 Canopy、Santevia、Crystal Quest。
 - **剩余图评线索**：active 10 ASIN 评论语料中仍有若干带图评论只保存了 `image_count`、正文和 review link，尚未做实际图片归档。
 
-**2026-06-18 口径修正：** Filterbaby `B0FNVDJRSQ` 是 shower filter / showerhead inline 产品，已从 bathtub-filter 评论语料删除并保留到 `wiki/products/shower-filter/` 与 `raw/products/shower-filter/`。本页不再把 Filterbaby 图片计入 bathtub-filter 图片证据。
+**2026-06-18 口径修正：** Filterbaby `B0FNVDJRSQ` 是 shower filter / showerhead inline 产品，已从 bathtub 语料剔除。其 99 条评论原文、客户图、scorecard 子集与 competitor brief **未保留在任何 repo**（源头为 ops-platform `dev_competitor_review` 库，可按需重新导出）；Filterbaby 品牌研究见 kenny-wiki `wiki/brand-studies/filterbaby-dtc-case-study.md` 与本 repo [[kes-shower-filter-positioning-patent-analysis]]。本页不再把 Filterbaby 图片计入 bathtub-filter 图片证据。
 
 本页不是样品采购清单、不是实物拆解结论、不是实验测试，也不包含真实退货率/售后原因。图片来自 Amazon 客户上传内容；已排除明显人物脸部/身体/皮肤特写，只保留安装、挂法、包装、说明书/盒内物、滤体、滤材可见形态和水流路径相关图。
 
@@ -65,7 +65,7 @@ Crystal Quest 顶部 grille / 可见滤体区域：
 
 ![[raw/products/bathtub-filter/2026-06-02-amazon-review-images/crystal-quest/06-top-filter-media-view.jpg]]
 
-Filterbaby 的 6 张 shower inline 客户图已迁出：`raw/products/shower-filter/2026-06-02-amazon-review-images/filterbaby/`
+Filterbaby 的 6 张 shower inline 客户图已剔除，未保留在 repo
 
 ## active bathtub ASIN 图评重点优先级（含未归档）
 
@@ -117,7 +117,7 @@ Filterbaby 的 6 张 shower inline 客户图已迁出：`raw/products/shower-fil
 3. **包装 claim 会被用户拿来对照。** SHLLKTTRY 的“box shows 3 ingredients vs listing 8-stage”是典型反噬点。
 4. **Santevia 是拆开后最容易产生信任崩塌的形态。** 用户把内部描述为 loofah / small bag / white stuff，说明 soft-hanging route 必须非常小心地解释内部结构。
 5. **Canopy 的强项是形态差异，不是拆解透明。** 图评优先看它如何包住 spout、是否挡 diverter、温度条是否可读、是否拖慢 fill speed。
-6. **Filterbaby 不再纳入本页设计启发。** 它的包装和说明书线索已迁入 shower-filter 项目，不能用于 bathtub tub-spout fit 判断。
+6. **Filterbaby 不再纳入本页设计启发。** 它的包装和说明书线索已剔除（未保留在 repo），不能用于 bathtub tub-spout fit 判断。
 
 ## Sources
 
@@ -131,5 +131,5 @@ Filterbaby 的 6 张 shower inline 客户图已迁出：`raw/products/shower-fil
 - Amazon Santevia customer image source page: [B0742KFY9R](https://www.amazon.com/dp/B0742KFY9R)
 - Amazon Crystal Quest customer image source page: [B008A4AG2U](https://www.amazon.com/dp/B008A4AG2U)
 - Santevia instruction PDF: [Amazon-hosted user instructions](https://m.media-amazon.com/images/I/61MT9Yc%2BZ-L.pdf)
-- Filterbaby moved-out brief：`wiki/products/shower-filter/shower-filter-filterbaby-b0fnvdjrsq-competitor-brief-2026-06-03.md`
+- Filterbaby 相关页：[[kes-shower-filter-positioning-patent-analysis]]（剔除的 brief 未保留在 repo）
 - Sprite harness PDF: [Amazon-hosted harness instructions](https://m.media-amazon.com/images/I/91YTjoAxPsL.pdf)
