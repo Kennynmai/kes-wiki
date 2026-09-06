@@ -9,7 +9,7 @@ confidence: medium
 officiality: draft
 domain: market
 domains: [market, product-strategy, bathroom-hardware, metal-storage, north-america, europe, manufacturing, ai-commerce]
-source_count: 9
+source_count: 16
 review_cycle: quarterly
 verification_status: spot-checked
 related:
@@ -24,7 +24,7 @@ related:
 
 **调研日期**：2026-09-06
 **调研范围**：US + EU（DE / UK / FR / NL / DK / IT）；亚马逊 US / DE / UK 站关键词实测 + 4 路桌面调研（美国供给、欧洲供给、技术与运营底座、市场规模与需求信号）
-**结论**：**整体模式不做；窄切片有条件试点。** "AI 接单 → 在地加工成品 → 天级交付"在装饰五金上不成立，卡在饰面工艺而非 AI。KES 可切入的是两层更窄的东西：① 零固定成本的"尺寸阶梯 + AI 选配助手"（现有平台内做）；② 哑光黑粉末涂层的平板/折弯钣金品类走美国按需激光网络试点（通风口盖、搁架支架）。毛巾杆 / 扶手的切长定制只在 ① 验证出信号后，以 Emtek 式"中国预饰面 + 美国组装"进入。**EU 不作为首发市场。** 功能件追问（§9）：切入点不是定制地漏主体，而是**替换地漏盖板 / 格栅的尺寸匹配**——平板 304 激光件绕开饰面墙，AI 用于拍照识别尺寸而非设计。
+**结论**：**整体模式不做；窄切片有条件试点。** "AI 接单 → 在地加工成品 → 天级交付"在装饰五金上不成立，卡在饰面工艺而非 AI。KES 可切入的是两层更窄的东西：① 零固定成本的"尺寸阶梯 + AI 选配助手"（现有平台内做）；② 哑光黑粉末涂层的平板/折弯钣金品类走美国按需激光网络试点（通风口盖、搁架支架）。毛巾杆 / 扶手的切长定制只在 ① 验证出信号后，以 Emtek 式"中国预饰面 + 美国组装"进入。**EU 不作为首发市场。** 功能件追问（§9）：切入点不是定制地漏主体，而是**替换地漏盖板 / 格栅的尺寸匹配**——平板 304 激光件绕开饰面墙，AI 用于拍照识别尺寸而非设计。美国首发（§10）：**替换地漏盖板（按 OD × 螺孔距）+ W×H 即时报价格栅**，官网 Fit Finder 获客，304 拉丝 / 哑光黑，中国矩阵备货 + 在地激光兜底；扶手作第二阶段标准线。
 
 ---
 
@@ -305,6 +305,110 @@ AI 接单 ──→ 参数化设计 ──→ 在地加工 ──→ 饰面 ─�
 
 **⚠️ 一个不能忽略的差异**：浴缸滤芯的参照物是 KES 自印色卡（受控、已知、随货）；而地漏识别发生在**购前**，用户手里没有 KES 的卡，只能用硬币 / 银行卡——**参照物不受控**。这一段风险 L2 验证不了，需单独原型。
 
+## 10. 美国首发：品类确定、竞品与供给、利润空间
+
+**追问日期**：2026-09-06。前提修正（用户）：定制品的获客与接单入口是 **Google → KES 官网（WooCommerce）**，不是亚马逊。亚马逊 ABA 上"定制词全空"因此是预期结果，不是反证；本节需求侧以 Google 自动补全生态 + SERP 结构为主，亚马逊数据只用作标准品价格天花板。
+
+### 10.1 品类决定
+
+| 优先级 | 品类 | 决定 | 一句话理由 |
+|---|---|---|---|
+| **#1** | **按尺寸匹配的替换地漏盖板（OD × 螺孔距），304 #4 拉丝 / 哑光黑** | **首发** | 痛点硬、Google 有独立尺寸生态（"4.25"、"how to measure"）、唯一 DTC 在位者弱且下滑、亚马逊 $40–80 真空、平板 304 激光不需要电镀、按需 qty 1 就有 50% 毛利 |
+| **#2** | **W×H 即时报价的定制格栅 / 回风格栅 + 现代线型标准尺寸矩阵** | **首发（与 #1 并行，形态不同）** | Google 定制意图最密（27 条全产品意图）、SERP 零 Amazon/HD、全美无即时报价、在位者 4–6 周不可退且薄钢投诉；但按需 qty 1 在 $149 以下亏损 → 标准尺寸中国备货 + 定制 ≥$149 / 回风 ≥$299 |
+| #3 | 装饰扶手（尺寸 × 饰面阶梯） | **第二阶段，作标准品线** | Google 把 "custom towel bar" 直接关联到 grab bar，CPC $3.63 最高；但管材 + 焊接 + PVD 需组装节点，全美无人做到任意长度 + 天级；先以 7 档长度 × 3 饰面标准线进入（Harney 模式 $20–40，KES 在亚马逊该类目为零） |
+| — | 线性地漏主体、水槽底格定制、壁龛、门牌、窗井盖、柜门拉手任意孔距 | 不做 | 见 §6 / §9 |
+
+### 10.2 需求侧证据（Google 为主）
+
+| 品类 | Google 自动补全（US） | SERP 谁在接单 | 亚马逊参照 |
+|---|---|---|---|
+| 地漏盖板 | "shower drain cover 4.25" 补出 hair catcher / black / square / round 细分 + "how do you measure"；"replacement shower drain cover" 10 条；"custom shower drain cover" 补出 sizes / how to measure | Designer Drains 一家占 "4.25" SERP 5/8；其余 Amazon 通用件 | shower drain cover 13,994/周、转化 0.26；自然位 Top 20 几乎全是 $5–15 毛发网；唯一硬盖 Artiwell $9.99 |
+| 格栅 | custom register cover / vent cover size / size vent cover / floor register 三组 seed 共 27 条全产品意图，含 "are vent covers standard size"、"near me"、"canada" | Reggio、Vent Covers Unlimited、Registers & Hardware、Vent and Cover、Etsy —— **零 Amazon / Home Depot** | floor register 4x10 1,450/周（尺寸词有量，用户知道自己的尺寸）；Decor Grates 4x10 $15.34 22,872 评；Buildmart 现代 10x6 **$46.99 2,315 评** |
+| 扶手 | "custom towel bar" → custom grab bars / fabrication / length；"custom grab bar length" | grabbars.com 指南、Ocelco、Harbor City（机构采购） | grab bars for bathroom 4,210/周 CPC $3.63；头部 $8–35 多只装；KES 无 listing |
+
+**搜索起点的品类差异**：全品类 US 产品搜索 Amazon 50–57% / Google 31–42%（PowerReviews 2023、Jungle Scout 2024），Gen Z 已 Google 38% > Amazon 36%。"需要测量"的品类 Google 占比大概率高于均值，自动补全里 how-to-measure 问句密集即证据，但无任何调研直接证明。**绝对搜索量本次未获取**（Trends 429、量工具全需登录）——需用 Google Ads Keyword Planner 补一次。
+
+### 10.3 竞品与供给结构
+
+**地漏盖板**
+
+| 层 | 玩家 | 价格 | 交期 / 退货 | 弱点 |
+|---|---|---|---|---|
+| 通用 snap-in / 可调爪 | Danco、Westbrass D3191、Oatey Universal、Artiwell | $6–16 | 1–3 天 | "fits most" 不解决螺孔距；listing 自写 "do NOT fit 4"/4.5"" |
+| 装饰库存 OEM | Ebbe 4" 格栅 11 表面、Westbrass 实心黄铜、Sioux Chief ORB | $18–39 | 现货 | 仅适配自家排水体 |
+| **按品牌适配（美产）** | **Designer Drains**（Montclair CA，950 件 SKU，16 品牌子类） | **$85–250**；定制 $100 起 **+$200 setup**；6" $280–480 | 黄铜 2 周、定制 4–6 周、定制不可退 | 6.2K 月访问且 −20%；单品零评论；同款 $80–180 靠饰面跳价；用户须先自判排水体品牌 |
+| 空档 | — | **$40–80** | — | 亚马逊无产品；DD 只有 clearance 落此 |
+
+**格栅**
+
+| 层 | 玩家 | 4x10 / 6x12 / 14x30 回风 | 交期 / 退货 | 弱点 |
+|---|---|---|---|---|
+| 大卖场 / 亚马逊冲压钢 | Decor Grates（加）、Empire、Hart & Cooley、Accord | $15–31 / $62 / — | 现货 | 无定制；18 ga |
+| DTC 现货装饰 | Kul（加，挤压铝）、Reggio（MA，1978，Renovation Brands）、VCU（AL，同集团）、Pacific（CA）、Fittes（加）、R&H（加） | Kul 10x4 $80.84 / 12x6 $131.24 / 30x8 $311.84；Reggio $34.95 起至 $980；R&H 6x12 $95 CAD | 现货 2–7 天；Reggio ≥$399 免运 | Reggio Google 评 "$1,000 grille 18-gauge visible dent"；站内交期自相矛盾 |
+| 定制 | 全部表单报价 | Kul 5.5–6 周；Reggio 24–48h 报价 → 4–6 周（加急 2 周 +25%）；SteelCrest 3–4 周；Pacific ~4+1–2 周；**R&H 平方英寸档位 ≤70 sq in 160 CAD、1–7 天** | 全部不可退 | **全美无 W×H 即时报价**；最接近的 R&H 在加拿大 |
+
+规模信号：Reggio 11–50 人、43K 月访问、**34.8% 付费搜索**；Kul 9.3K 月访问；R&H 1,090 评；Decor Grates 亚马逊单 ASIN 22,872 评。**这是一个有中型 DTC 存活、靠 Google 付费获客、被 PE 整合中的品类**——说明官网获客路径已被验证，但也说明 CPC 会被抬高。
+
+**供给底座**：OSH Cut 有 304 #4 拉丝带膜（SendCutSend 无 #4，仅 mill finish）；两家均 2–4 天、qty 1、粉末在线；论坛实报同件 SCS 与 OSH Cut 差 2.8 倍，必须上传 DXF 实报。中国备货：304 地漏盖 FOB $3–10（MOQ 500），关税叠加 MFN 3.4% + Section 232 金属 50%（Annex I-A，2026-04 起按全额）+ 301 25% ≈ **78%**，落地约 $8.6。
+
+### 10.4 利润空间（全部为 ESTIMATE，见 raw 单位经济文件）
+
+**地漏盖板 4.25"（P1）**
+
+| 路线 | 成本栈 | $39 | $59 | $89 |
+|---|---|---|---|---|
+| 在地按需 qty 1（OSH Cut 304 #4，加工 $15）| 加工 + 包装 $1.14 + USPS $8.74 + 支付 + 4% 重做 | 29% | **50%** | 65% |
+| 在地按需 qty 25 批（加工 $7.50） | 同上 | 48% | 63% | 73% |
+| 中国备货矩阵（落地 $8.63）官网发货 + 19.4% 退货 | | 40% | **59%** | 72% |
+| 中国备货 FBA（$5.22 + 15% referral） | | 46% | 59% | 68% |
+
+**格栅 6x12 哑光黑（P2）**
+
+| 路线 | $69 | $99 | $149 |
+|---|---|---|---|
+| 在地按需 qty 1（加工 $85） | **−$37** | **−$10** | 25% |
+| 在地按需 qty 25（加工 $42） | 8% | 34% | 54% |
+| 中国备货（落地 $13.35）官网 | 46% | 62% | 74% |
+
+**回风格栅 14x30 拉丝 304（P3，qty 1，加工 $190，运费 ~$20 且 8 lb 可能触发 dim weight）**：$199 → −$31；$299 → 21%；$349–399 才到 30%+。市场参照 Kul 30x8 $312、Beaux-Arts 12x36 $539–599、Reggio 铸铁至 $980，$349–449 在带内。
+
+**CAC 是决定项**：Home & Home Improvement 类 Google Ads 平均 CPC $8.33（2026）÷ Home & Garden 电商 CVR 1.4–2.5% → **纯付费搜索 CAC $333–595/单**，任何价位都亏；混合 CAC 基准 $25–85（含自然 / 内容 / 复购）下 $59 地漏盖首单才为正。**结论：官网获客必须以"尺寸识别工具 + 品牌适配页 + how-to-measure 内容"的自然流量为主，付费只做品牌词与再营销；亚马逊上的标准矩阵 SKU 是低 CAC 的获客入口而非利润中心。**
+
+### 10.5 首发形态
+
+```
+官网 Fit Finder（拍照 / 输入 OD + CTC 或 W×H）
+   ├─ 命中矩阵 → 现货 304 盖板 $39–59 / 现代格栅 $69–99（中国备货，KES 仓 3–5 天；同 SKU 上 Amazon 作入口）
+   ├─ 品牌适配页（Sioux Chief 821 / Oatey 42320 / Ebbe E4400 / Schluter / Kohler …）→ $59–79
+   └─ 未命中 → 参数化 DXF → OSH Cut / SendCutSend → 直发 5–7 天
+         地漏盖 $89–119（无 setup 费，对手 $100 + $200）
+         格栅 ≥$149 / 回风 ≥$349（对手 4–6 周不可退；我方 7–10 天 + 量错一次免费重做）
+```
+
+- **材料 / 饰面**：304 #4 拉丝（原生，不电镀）+ 哑光黑粉末两档，不做拉丝金 / 镍等 PVD（§3 饰面墙）。格栅厚度公开 11 ga（1/8"）钢或 3/16" 铝，直接打 Reggio "18 ga 凹陷"投诉。
+- **差异化三件**：① 即时价（全美无）；② 一周交付（对手 4–6 周）；③ 可退 / 量错重做（对手全不可退）。
+- **KES 复用**：304 供应链与品控、亚马逊运营（矩阵 SKU）、WooCommerce 官网与 GEO 内容体系（[[kes-offsite-brand-marketing-and-site-acquisition-framework]]）、浴室品类品牌。**不复用**：龙头 / 淋浴的涉水认证体系（盖板不在 ASME A112.6.3 强制范围，但 strainer 自由面积 ≥ tailpiece 是验收员可引用规则，须在设计里满足并写明）。
+
+### 10.6 Gate 与前置字段工作
+
+**上线前必须拿到的 5 个真实数字**（桌面研究已到极限）：
+1. OSH Cut 上传 P1 / P3 DXF（304 #4 16 ga）qty 1 / 25 即时报价；SendCutSend / Fabworks 报 P2（CRS 14 ga 或 5052 1/8" + 哑光黑）qty 1 / 25。
+2. Alibaba / 现有供应商 RFQ：4.25" 304 拉丝盖 5 种 CTC 组合、现代线型格栅 4x10 / 6x12 / 14x30，各 500 件。
+3. 报关行核 HTS 7324.90 / 7326.90 的 Section 232 Annex（50% vs 25%）。
+4. Google Ads Keyword Planner 拉 30 个 seed 词的 US 月量与 CPC（本次全部未获取）。
+5. Pirate Ship 报 16x32x4" 8 lb 到 Z2 / Z5 / Z8。
+
+**Gate 1（上线 90 天）**：Fit Finder 使用 → 下单转化 ≥ 3%；矩阵命中率 ≥ 70%（否则矩阵设计错）；定制单毛利 ≥ 40%、准时 ≥ 95%、量错重做 ≤ 5%；混合 CAC ≤ $60。
+**Gate 2（180 天）**：自然流量占官网订单 ≥ 50%；Amazon 矩阵 SKU 评论 ≥ 50 条且"didn't fit"占比 < 5%。通过后再启动 #3 扶手标准线。
+
+### 10.7 本节不确定性
+
+1. 所有毛利数字建立在加工估算上（P1 $15 / P2 $85 / P3 $190），论坛显示同件不同厂差 2.8 倍、旋转 45° 差 50%；真实报价可能把 P2 定制拉回可行区，也可能把 P1 推出。
+2. 无绝对 Google 搜索量；品类是"有中型 DTC 存活"级别（Reggio 43K 访问/月），不是大盘。
+3. Etsy 供给与销量完全不可见（全 403），乌克兰 5–7 天 made-to-order 钢格栅店可能已在低价段占位。
+4. 替换盖板认证为灰区推断；地漏盖 free area 与 IPC 412.2 需工程确认。
+5. Designer Drains 已在 Etsy + Amazon 分销，其亚马逊店未抓到，$40–80 真空可能被其部分填补。
+
 ---
 
 ## Related pages
@@ -324,3 +428,10 @@ AI 接单 ──→ 参数化设计 ──→ 在地加工 ──→ 饰面 ─�
 - `raw/strategy/custom-hardware/2026-09-06-amazon-keyword-functional-hardware-signal.md` — §9 功能件 US / DE / UK ABA 数据 + 头部 ASIN 尺寸解法
 - `raw/strategy/custom-hardware/2026-09-06-us-functional-hardware-custom-supply.md` — §9 美国：线性地漏 / 替换盖板 / 水槽底格 / 壁龛 / 窗井盖等
 - `raw/strategy/custom-hardware/2026-09-06-eu-functional-hardware-custom-supply.md` — §9 欧洲：Duschrinne 现场裁切与定制 / Lichtschacht / 井盖 / Ablaufrost / 钣金红海
+- `raw/strategy/custom-hardware/2026-09-06-amazon-keyword-remaining-niches-signal.md` — 老房替换件 / 开关面板 / 药柜 / 扶手 / 马桶盖 US / DE / UK ABA
+- `raw/strategy/custom-hardware/2026-09-06-us-uk-remaining-niches-supply-scan.md` — 美英其余品类：老房复刻、Kyle Switch Plates、药柜、IKEA 生态、切长扶手、马桶盖
+- `raw/strategy/custom-hardware/2026-09-06-google-search-demand-custom-hardware.md` — §10 Google 自动补全（US / UK / DE 全 seed verbatim）、SERP 构成、搜索起点调研
+- `raw/strategy/custom-hardware/2026-09-06-amazon-us-register-drain-grabbar-market.md` — §10 亚马逊标准品价格带（格栅 / 地漏盖 / 扶手头部 ASIN）
+- `raw/strategy/custom-hardware/2026-09-06-us-register-cover-competitor-teardown.md` — §10 格栅在位者逐家拆解（Kul / SteelCrest / Reggio / VCU / R&H / Pacific …）+ 法规 + 价格带
+- `raw/strategy/custom-hardware/2026-09-06-us-drain-cover-and-grab-bar-teardown.md` — §10 Designer Drains 全拆 + 亚马逊替换盖板 listing + 扶手价格梯 + ADA
+- `raw/strategy/custom-hardware/2026-09-06-us-unit-economics-on-demand-vs-china-stocked.md` — §10 成本栈：OSH Cut / SCS / MetalsCut4U / 原材料 / 粉末 / USPS / Stripe / 退货率 / CPC / 关税 232+301 / FBA
