@@ -17,6 +17,7 @@
 
 ### Markets
 - [Japan](wiki/markets/japan.md)
+- [美欧家装五金 Mass Customization 机会评估 2026](wiki/market-research/us-eu-home-hardware-mass-customization-2026.md)
 
 ### Company
 - [KES Certifications and Compliance Register](wiki/company/kes-certifications-and-compliance-register.md)
