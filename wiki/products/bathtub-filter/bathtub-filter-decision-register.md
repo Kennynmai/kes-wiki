@@ -78,7 +78,23 @@ _这个区域目前为空。随着决策被关闭，将逐条移入此处。_
 
 | # | Decision | Resolution | Date | Notes |
 |---|---|---|---|---|
-| — | — | — | — | — |
+| **D-16** | **参比色卡是否进包装 BOM**（手机比色读试纸的物理前提：无同框参比，无法在未知光源下校正色彩） | ✅ **进 BOM** | 2026-09-06 | 用户裁定。解锁 [[bathtub-filter-app-functional-plan]] L2 全部功能。**工艺约束见下方 §参比色卡规格要求**——不是普通印刷卡，误做会让读数不可用。**应与 D-15 合并出一张卡 / 一套刀模** |
+
+### 参比色卡规格要求（D-16 配套，供应链执行口径）
+
+> ⚠️ **这不是一张普通印刷卡。** 下列每条都直接决定手机比色读数能否用；做错任一条，卡片仍会被印出来，但读数不可用且不会报错。
+
+| # | 要求 | 为什么 |
+|---|---|---|
+| 1 | **必须哑光（matte）**，禁止覆亮膜 / UV 上光 | 亮面产生镜面高光，直接毁掉色度读数 |
+| 2 | **含中性灰 + 白色块** | 未知光源下做白平衡 / 光源校正的锚点 |
+| 3 | **含该配方 DPD 色阶**（游离氯版 / 总氯版分开） | 机读的比对基准；同时保留肉眼可读的降级路径 |
+| 4 | **色彩批次一致性须进 QC** | 印刷批间漂移会让模型标定跟着漂 |
+| 5 | ★ **卡面印批次 / 版本码**（小字或 QR） | 后端据此套用对应标定档；**没有它，一旦换印刷批次，历史读数无法追溯校正** |
+| 6 | **防潮**（哑光覆膜或合成纸） | 浴室环境；受潮变色即失效 |
+| 7 | 尺寸须能与试纸**同框入镜** | 手机单张拍摄同时含试纸与参比 |
+
+**待办**：① 该卡尚未进 [[bathtub-filter-v1-free-chlorine-removal-dimensions-materials]] 部件表（该表源自 2026-07-01 最终版 xlsx，需供应链在下一版 BOM 增列）；② 与 D-15 的分享试纸卡 ×3 / Before-After 卡**合并刀模**核算；③ 色卡打样后须**与目标机型实拍验证**，不能只看印刷稿。
 
 ---
 
@@ -96,6 +112,7 @@ _Format:_ `YYYY-MM-DD | Decision ID or topic | What was decided | Why | Who`
 | 2026-04-14 | Market scope | V1 primary target: North America, free-chlorine-dominant regions | Chloramine and hard-water markets are harder to defend with current claim set | strategy |
 | 2026-06-17 | D-02 supported spout scope | Added first V1 installation scenario GO/NO-GO matrix with 8 spout scenarios; S-01 <=18 cm and S-02 pull-up diverter are current GO cores; S-06 wobble and untested S-05 wide-body are NO-GO; S-08 low-clearance was later corrected to GO with off-center install for 40-60 mm wall distance | Combines KES flat-strap design, S-01 circumference evidence, RV/mobile-home S-02 evidence, and existing spout taxonomy estimates | strategy |
 | 2026-06-17 | Wall-distance boundary correction | Changed outlet center-to-wall distance from a <60 mm NO-GO rule to a usability/aesthetics rule: >=60 mm centered/aesthetic, 40-60 mm off-center usable, <40 mm theoretical edge case | User clarified the water outlet need not be perfectly centered; KES can tolerate about 20 mm offset and typical bathtub spouts are not under 40 mm from wall | strategy |
+| 2026-09-06 | D-16 参比色卡进 BOM | 参比色卡进包装 BOM；规格按「哑光 + 中性灰/白块 + DPD 色阶 + 批次码 + 防潮 + 可同框」执行 | 手机比色读试纸是[[bathtub-filter-sensing-strategy]]中唯一零硬件成本、覆盖全量客户、且修复寿命模型主误差项（进水浓度）的手段；无同框参比则未知光源下无法校正，该功能不成立 | user / strategy |
 | 2026-06-17 | Freestanding tub filler fit evidence | Updated freestanding tub filler from default NO-GO to GO for curved / special-shaped / non-waterfall outlets when the tie is installed 60 mm from the outlet end; waterfall / wide-body outlets remain NO-GO | User-provided photo and 2 kg load-bearing test using included 5-hole 125 mm x 20 mm tie + 3M hook | strategy |
 
 ---
