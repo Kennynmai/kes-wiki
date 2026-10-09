@@ -372,3 +372,22 @@ Example:
 - updated: wiki/products/kes-product-knowledge-base/products/bathroom-hardware/thread-standards-us-market.md
 - status: verified
 - notes: 最终结论=墙端 1/2" NPT 锥牙（螺纹密封）、花洒端 1/2"-14 直牙+垫圈密封（G1/2 与 NPSM 同 14 TPI、外径差 0.38mm 可直配）；"G 转 NPT 需转接头"的警告只适用锥牙场景不适用花洒端；文案规则（本地化标记打头/工程标记括号/禁跨标准改标/两端分开写）已固化进 ops 平台两个内容生成器 prompt；遗留待办=产品规格中台补录墙端 NPT。
+## [2026-10-09] capture | WF US / WF CA promo task dispatch and activation check cancellation (张艳娟 request)
+- source: raw/company/2026-10-09-wayfair-us-ca-promo-task-cancellation-request.md (internal request, dialogue channel)
+- updated: raw/company/2026-10-09-wayfair-us-ca-promo-task-cancellation-request.md (new); wiki/protocols/wayfair-us-ca-promo-task-scope-change-2026-10-09.md (new); dashboards/recent-decisions.md; dashboards/recent-updates.md; ops/verification-queue.md; index.md; log.md
+- status: pending-owner-review
+- notes: |
+  Two operational scope changes requested by 张艳娟: (1) cancel dispatch and notification of the 【新任务分配——促销开始前 24h】 task for Wayfair US and Wayfair CA; (2) stop checking coupon / Deal correct activation after a Wayfair promotion starts.
+
+  Recorded as a decision page rather than silently dropped, because it removes an existing supervision step and future Wayfair promo SOP work will contradict it if it is not written down. Other platforms (Amazon / Home Depot / Walmart / DTC) are explicitly unchanged.
+
+  Two points are unverified and queued: that `WF` means Wayfair (inferred from `dashboards/company-overview.md` and the WF / HD platform pairing in the North America research page — no wiki record of the task type itself exists), and whether "cancel dispatch and notification" also retires the task itself and whether any spot-check remains. Risks recorded: promo mis-configuration and wrong price will no longer be caught proactively, and promo start timing now relies entirely on operator scheduling. A data-side exception signal (price / conversion / order anomaly) is noted as the suggested compensating control, not as an approved decision.
+
+## [2026-10-09] maintain | WF US / WF CA promo push cancellation — scope corrected after requester clarification
+- source: raw/company/2026-10-09-wayfair-us-ca-promo-task-cancellation-request.md (clarification by 张艳娟, same day)
+- updated: raw/company/2026-10-09-wayfair-us-ca-promo-task-cancellation-request.md; wiki/protocols/wayfair-us-ca-promo-task-scope-change-2026-10-09.md (title, Decision, Alternatives, Risks, Implementation implications, verification_status unverified → spot-checked); dashboards/recent-decisions.md; dashboards/recent-updates.md; ops/ingestion-registry.md; ops/verification-queue.md; index.md; log.md
+- status: pending-owner-review
+- notes: |
+  Same-day clarification by 张艳娟 corrected the recorded scope of the 2026-10-09 Wayfair change. Three corrections: (1) `WF` is confirmed to mean Wayfair, no longer an inference; (2) what is cancelled is the **DingTalk push** for 【新任务分配——促销开始前 24h】, not the task or the operator action itself; (3) the coupon / Deal activation check after promo start is **retained** as an optional manual spot-check, not removed.
+
+  This materially lowers the risk profile of the change versus the first capture, which had read as a removal of promo activation supervision. The page was rewritten rather than patched in place at the decision level, because the alternatives and risk sections had been written against the wrong scope: the remaining exposure is that promo start timing now has no system reminder (operator scheduling only) and that a spot-check with no agreed frequency or owner is effectively unobservable and may decay to zero.

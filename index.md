@@ -33,7 +33,7 @@
 - [Japan Market Entry](wiki/projects/japan-market-entry.md)
 
 ### Decisions
-- _(add decision pages here)_
+- [Wayfair US / CA 取消促销前 24h 任务钉钉推送](wiki/protocols/wayfair-us-ca-promo-task-scope-change-2026-10-09.md)
 
 ### Playbooks
 - [Market Research Workflow](wiki/playbooks/market-research-workflow.md)
