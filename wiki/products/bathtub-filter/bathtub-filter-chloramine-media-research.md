@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: product
 created: 2026-04-17
-updated: 2026-06-17
+updated: 2026-10-09
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
-domains: [bathtub-filter, chloramine, filtration-media, evidence, research, KDF, catalytic-carbon, ascorbic-acid, NSF]
-source_count: 29
+domains: [bathtub-filter, chloramine, filtration-media, evidence, research, KDF, catalytic-carbon, ascorbic-acid, NSF, contradiction-event]
+source_count: 31
 review_cycle: monthly
 verification_status: spot-checked
 related:
@@ -19,6 +19,7 @@ related:
   - ./bathtub-filter-claim-register.md
   - ./bathtub-filter-technology-notes.md
   - ./bathtub-filter-supplier-report-zongli-calcium-sulfite-chloramine-2023-07.md
+  - ../../source-summaries/bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09.md
 ---
 
 # 浴缸过滤器滤材的氯胺去除证据
@@ -193,7 +194,9 @@ This is a stronger engineering position than the current shower-filter market pa
 
 ## 3. Calcium Sulfite (Bisulfite) and Chloramine Removal
 
-### Summary verdict: Effective for free chlorine; not chemically suited for monochloramine at neutral-to-alkaline pH
+### Summary verdict: Effective for free chlorine; not chemically suited for monochloramine at neutral-to-alkaline pH — **but see Section 3.5. This verdict's stated basis has been challenged as of 2026-10-09.**
+
+> ⚠️ **2026-10-09 status change.** The verdict above was reached partly on an inference from absence of data (see Section 7, Gap 2). Two new uncontrolled observations — a supplier report and a KES first-party bench test — both point the other way. The verdict may still be correct, but it is no longer supported by a clean evidence base. Read Section 3.5 before relying on this section.
 
 **Mechanism for free chlorine:**
 Calcium sulfite (CaSO₃) reacts with free chlorine via direct chemical reduction: CaSO₃ + Cl₂ + H₂O → CaSO₄ + 2HCl. This is fast, efficient, and effective at all shower temperatures. It is the mechanism behind Sprite's Chlorgon media and most calcium sulfite shower filters.
@@ -239,6 +242,101 @@ Extracted results:
 Evidence status: useful supplier screening signal, but not enough to revise the main conclusion or claim boundary yet. The report does not provide full analytical method, detection limit, pH, water temperature, replicate count, contact time, or third-party lab accreditation in the extracted text. It also uses the wording `三氯铵`, which should be confirmed with the supplier before treating it as `三氯胺 / trichloramine`.
 
 KES implication: this result should become a follow-up verification item for KES bench testing, especially against target bathtub-fill flow and contact-time conditions. Until KES reproduces it, do not use it as public proof that calcium sulfite removes chloramine in normal bathtub-fill use.
+
+> **2026-10-09 correction to the paragraph above.** The inference in the bolded sentence — "the absence is meaningful" — is the specific logical step that Section 3.5 invalidates. A manufacturer not having publicized a result is not evidence that the result is negative; it is only evidence that the supplier chose not to run or not to disclose the test. Two data points now exist, and they point the other way. Treat the Tier-1 Yiin (1987) chemistry as the load-bearing evidence for this section, and **not** the argument-from-silence.
+
+---
+
+## 3.5 Contradiction event (2026-10-09): two uncontrolled observations against the Section 3 verdict
+
+> Source: [来源摘要｜亚硫酸钙 × 氯胺 矛盾事件（2026-10-09）](../../source-summaries/bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09.md)
+> Raw extraction: [2026-10-09-caso3-chloramine-contradiction-pass.md](../../../raw/products/bathtub-filter/2026-10-09-caso3-chloramine-contradiction-pass.md)
+
+### What arrived
+
+> Note: data point 1 was already archived on 2026-06-17 ([[bathtub-filter-supplier-report-zongli-calcium-sulfite-chloramine-2023-07]]) and assessed there as a *signal worth validating*. What is new on 2026-10-09 is data point 2, the quantitative critique of both, and the contradiction-event framing.
+
+**1. Supplier report `ZONET20230707001`** — 淄博宗立 internal lab, sample received 2023-07-07, completed 2023-07-13. Sample: 沐浴过滤器 with 内置滤料为50g宗立（2-3mm）亚硫酸钙球. Test: 加标测试(氯胺), outlet flow 5 L/min and 3 L/min.
+
+| Cumulative L | Flow | Species | In (mg/L) | Out (mg/L) | Removal % |
+|---|---|---|---|---|---|
+| 300 | 5 L/min | 一氯胺 | 0.46 | 0.0184 | 96 |
+| | | 三氯铵 | 1 | 0 | 100 |
+| 500 | | 一氯胺 | 0.341 | 0.023 | 93.26 |
+| | | 三氯铵 | 0.728 | 0 | 100 |
+| 300 | 3 L/min | 一氯胺 | 0.43 | 0 | 100 |
+| | | 三氯铵 | 1 | 0 | 100 |
+| 500 | | 一氯胺 | 0.341 | 0 | 100 |
+| | | 三氯铵 | 0.728 | 0 | 100 |
+
+**2. KES first-party bench test (2026-10-09)** — 4 ppm chloramine water through **130 g CaSO₃** (Version A loading), **24 L/min**, **60 s**, **38 °C**, read near-zero on a 总氯比色卡 (0.1–10 mg/L).
+
+### Why these two do not overturn the verdict — and why they still matter
+
+Neither test is capable of supporting a chloramine claim. Four disqualifying properties:
+
+| Property | ZONET20230707001 | KES bench test |
+|---|---|---|
+| **pH not reported** | ✗ | ✗ |
+| **No influent-only decay control** | ✗ | ✗ |
+| **Species-specific method** | ✗ not stated | ✗ total-chlorine strip, not chloramine-specific |
+| **Detection limit stated** | ✗ | ✗ (card low end 0.1 mg/L) |
+| **Capacity utilization** | **0.61%** | **0.13%** |
+| **EBCT** | ≈0.60 s @5 L/min; ≈1.00 s @3 L/min | **≈0.33 s** |
+| **Replicates** | none | n = 1 |
+
+The capacity-utilization figures are computed from the disclosed media mass, the CaSO₃ bulk density of 0.9–1.1 g/cm³ from the Onlyzone brochure, and the stoichiometry 1 mol SO₃ per mol NH₂Cl (1.19 g SO₃ / g NH₂Cl). **Both tests consume well under 1% of the media's theoretical capacity.** They are existence proofs at large reagent excess — the weakest available form of efficacy evidence, and unscaleable into any life model.
+
+**Sharpest defect in the supplier report — the decay confound.** The influent is not constant:
+
+| Species | 300 L | 500 L | Change |
+|---|---|---|---|
+| 一氯胺 | 0.46 | 0.341 | **−25.9%** |
+| 三氯铵 | 1.0 | 0.728 | **−27.2%** |
+
+Both species decayed ~26% over the run, with no influent-only blank at matched timestamps. A self-decaying spiked solution produces exactly this signature — and also produces `0` effluent readings. Nothing in the report separates media removal from spike decay.
+
+**Sharpest defect in the KES test — method non-specificity.** A 总氯比色卡 responds to total chlorine. Free chlorine was never measured. If the 4 ppm challenge carried co-existing free chlorine, CaSO₃ would have consumed that first and the strip would read near-zero regardless of what happened to the chloramine. "接近 0" therefore means **≤0.1–0.2 mg/L, i.e. >95–97.5% removal** — not 100%, and not a measured zero.
+
+**One additional caution on the KES photographic record.** The three photos are internally inconsistent: the second is captioned 原水 ("raw water") but reads *clearer* than the first, which is captioned 4 ppm 绿氨水. Both captions cannot describe the same water. Only the reported protocol numbers should be relied upon, not the photo sequence.
+
+### The one point that genuinely favours the hypothesis
+
+The KES bench test ran at roughly **one-third** the contact time of the supplier's slowest point (≈0.33 s vs ≈1.00 s), at **production media mass**, at **production bath-fill flow**, and at **bath temperature**. If the supplier's result is real, the KES result is the harder case to explain. This should not be discarded — it is the strongest pro-evidence argument available.
+
+### Why the Section 3 verdict is nonetheless no longer adequately grounded
+
+Section 7 Gap 2 states the basis plainly: *"No peer-reviewed study measuring CaSO₃ + NH₂Cl reaction rate. **The expected ineffectiveness is inferred.**"* Two independent observations now run against that inference, one of them under genuinely adverse production conditions.
+
+Neither Tier 1 anchor was retracted:
+- **Yiin et al. (1987)** — sulfite/bisulfite + NH₂Cl is general-acid-assisted and strongly pH-dependent; ineffective at pH 8.5, fast at pH 4.0. **Neither new data point reports pH**, so the report cannot distinguish (a) an acidic-pH test that is real chemistry and irrelevant to pH 7.5–8.5 municipal water, from (b) a genuinely effective result at municipal pH that contradicts the Tier-1 anchor for CaSO₃ specifically.
+- **Basu & De Souza (2011)** — ascorbic acid ineffective for monochloramine under short-contact conditions. Unaffected by this event.
+
+### Species-naming risk that must be resolved before any citation
+
+**三氯铵 (nitrogen trichloride, NCl₃) at 0.728–1.0 mg/L is not a realistic drinking-water species.** NCl₃ is a trace chlorination byproduct reported at ng/L–µg/L in distribution systems — roughly three orders of magnitude below the challenge concentrations here — and is unstable in concentrated form. Either the supplier means **二氯铵 (dichloramine, NCl₂H)** and has mislabeled it, or the challenge is unrepresentative.
+
+This matters because [[bathtub-filter-disinfectant-types-and-media-guide]] has already scoped dichloramine and trichloramine out of the product model. If the label is wrong, the four `100%` results in this report belong to a species KES has never modeled. **Written clarification from the supplier is required before this report is cited anywhere.**
+
+### Position adopted (2026-10-09)
+
+| Item | Decision |
+|---|---|
+| Section 3 conclusion "not chemically suited for monochloramine" | **Not reversed.** Retained provisionally, now flagged as resting on Tier-1 chemistry alone rather than on any KES- or supplier-held evidence. |
+| Summary table CaSO₃ row (Section 6) | **Re-labelled** ❌ → ⚠️ with explicit "uncontrolled, unresolved" wording |
+| Section 7 Gap 2 | **Reframed** from "no data exists" to "no *controlled* data exists" |
+| Claim-register banned zone | **Unchanged — stays banned.** Reason recorded against it is updated. |
+| Version A life model | **Unchanged.** Free-chlorine model only. |
+| Assumption A-14 (chloramine geos deferred) | **Unchanged.** It was never a chemistry assumption. |
+| New R&D item | **Opened** — see below |
+
+### The control that would settle it
+
+Both tests fail on the same root cause: they measure the species they are trying to remove, using a method that the same species can independently degrade.
+
+> **Chloride mass balance.** If chloramine is genuinely reduced, every mole of NH₂Cl destroyed releases one mole of Cl⁻. Ion chromatography for chloride is cheap, mature, species-blind, and completely immune to the spike-decay confound — it measures the **product** of the reaction, not the substrate. Measure Cl⁻ in, Cl⁻ in the media-free blank at matched time/temperature, and Cl⁻ out. If effluent chloride rises by exactly the amount the color card implies was removed, the claim is real. If not, the colour drop was decay or interference.
+
+Minimum decisive protocol: 4 arms (media + challenge / challenge without media at matched time and temperature / inert media of matched bed volume and ΔP / production-spec 3–4 mm `ZONE-CL-A02 Gen-3` at 130 g), pH controlled and reported at 7.0 / 7.8 / 8.5, temperature at 20 / 38 / 42 °C, a **throughput series run to breakthrough** rather than single points, n ≥ 3, and DPD amperometric free/combined differentiation in addition to IC chloride. Full specification in [[bathtub-filter-validation-testing-protocol]].
 
 ---
 
@@ -355,7 +453,7 @@ NSF/ANSI 61 covers materials and components that contact drinking water and ensu
 | KDF-85 | ✅ Excellent | ❌ ~1.4% in test | Tier 2 (industry) | Worse than KDF-55 for chloramine |
 | Standard GAC | ✅ Good | ⚠️ Poor-to-marginal | Tier 2 (trade press) | Requires EBCT ≥10 min; typical shower EBCT <0.1 min |
 | Catalytic activated carbon | ✅ Excellent | ✅ Good-to-excellent | Tier 1 (Kochany 2008) + Tier 2 | EBCT 4–5 min adequate; 5× longer breakthrough than standard GAC; 65% better than standard coal GAC |
-| Calcium sulfite | ✅ Excellent (hot water) | ❌ No removal expected | Tier 1 chemistry (Yiin 1987) | Sulfite-chloramine reaction negligible at neutral-alkaline pH; no quantitative data for CaSO₃ specifically |
+| Calcium sulfite | ✅ Excellent (hot water) | ⚠️ **Untested — unresolved** (was ❌ "No removal expected" prior to 2026-10-09) | Tier 1 chemistry (Yiin 1987), **contested** by two uncontrolled observations | Sulfite-chloramine reaction is pH-dependent and ineffective above pH 7.5; no controlled CaSO₃-specific data exists. A supplier spike test (2023) and a KES bench test (2026) both report near-total removal, neither with pH, controls, or a stated LOD — see Section 3.5 |
 | Ascorbic acid (bath) | ✅ Instantaneous | ✅ Complete in 4–8 min | Tier 2 (SFPUC) + Tier 1 partial | 1,000 mg per 40–50 gal removes all NH₂Cl; 4–8 min contact required |
 | Ascorbic acid (shower) | ✅ Instantaneous | ❌ ~0% in shower | Tier 3 (field test) + logic | Contact time <1 sec vs. 4–8 min required; field test showed "ZERO effects" |
 
@@ -365,13 +463,18 @@ NSF/ANSI 61 covers materials and components that contact drinking water and ensu
 
 1. **No peer-reviewed study measuring KDF-55 or KDF-85 chloramine removal in consumer-filter conditions.** The 18.2% figure is Tier 2 only.
 
-2. **No peer-reviewed study measuring CaSO₃ + NH₂Cl reaction rate.** The expected ineffectiveness is inferred from Tier 1 bisulfite chemistry (Yiin 1987) and the CaSO₃ → SO₃²⁻ dissolution pathway.
+2. **No peer-reviewed study measuring CaSO₃ + NH₂Cl reaction rate. The expected ineffectiveness is inferred.**
+   > **2026-10-09 update.** This gap no longer reads "no data exists anywhere" — a supplier spike test (`ZONET20230707001`) and a KES first-party bench test now exist, and both report near-total removal. The gap has changed character from **no data** to **no controlled data**. Neither new data point reports pH, includes a decay control, uses a species-specific method, or states a detection limit, and both consumed under 1% of media capacity. See Section 3.5. The Tier-1 anchor (Yiin 1987) is unretracted; what has been withdrawn is the argument-from-silence that sat on top of it.
 
 3. **Basu & De Souza (2011) finding that ascorbic acid is "ineffective" for monochloramine** is Tier 1 but may describe short-contact or inline conditions. No peer-reviewed study specifically validates the SFPUC's bathtub finding (1,000 mg/40 gal, 4–8 min = complete removal) with controlled methodology.
 
 4. **No published catalytic carbon EBCT data at bath-water temperature (~40°C).** Kochany (2008) showed faster rates at 20°C vs 5°C; extrapolation to 40°C suggests favorable kinetics but is not measured.
 
 5. **Ascorbic acid rate constant data (Peskin & Winterbourn 2001) was for taurine chloramine (an amino acid chloramine), not inorganic NH₂Cl.** The 13 M⁻¹ s⁻¹ figure should not be directly applied to bath filter calculations without caveat.
+
+6. **No controlled CaSO₃ + chloramine test exists at any pH, temperature, flow rate, or throughput.** Newly named 2026-10-09. The decisive design is a chloride mass balance with a media-free decay control — see Section 3.5 and [[bathtub-filter-validation-testing-protocol]]. Until this is run, CaSO₃ × chloramine is genuinely unknown rather than known-negative.
+
+7. **No supplier report on CaSO₃ + chloramine discloses pH, analytical method, or detection limit.** `ZONET20230707001` is the only such report on file and omits all three. This is a recurring supplier-reporting gap, not a one-off omission, and should be raised with the vendor as a documentation requirement for any future CaSO₃ testing.
 
 ### 2026-06-15 文献刷新（时效戳）
 - **无推翻性新证据**：针对「催化炭除氯胺 EBCT」与「抗坏血酸/抗坏血酸钠除单氯胺动力学」做了 2024–2026 web 检索，**未发现新的同行评审研究**改变 Kochany (2008) / Basu & De Souza (2011) 的基准结论。本页科学结论仍 current。
@@ -395,7 +498,7 @@ NSF/ANSI 61 covers materials and components that contact drinking water and ensu
 ### What is not supportable with current evidence
 
 - "Reduces chloramine" for KDF-only or KDF-55-based shower/bath filters — 18.2% removal is insufficient to claim "reduction"
-- "Reduces chloramine" for calcium sulfite–based products — no mechanism or data supports this
+- "Reduces chloramine" for calcium sulfite–based products — **still not supportable.** The 2026-10-09 contradiction event (Section 3.5) changed the *reasoning* behind this exclusion, not the exclusion itself: it is no longer "the chemistry does not work" but "no controlled evidence exists in either direction, and the two uncontrolled observations we do have are not capable of supporting a claim." See also [[bathtub-filter-claim-register]] banned zone.
 - "NSF/ANSI 177 certified for chloramine removal" — 177 explicitly does not test chloramine
 - Vitamin C shower filter claiming chloramine removal — contact time is 2–3 orders of magnitude too short
 
@@ -408,7 +511,7 @@ NSF/ANSI 61 covers materials and components that contact drinking water and ensu
 | KDF-55 + catalytic carbon | "Reduces both free and combined chlorine" | Catalytic carbon does the chloramine work; KDF contributes primarily to free chlorine; claim still depends on real catalytic-carbon EBCT |
 | Catalytic carbon + sodium ascorbate | "Reduces chloramine during fill and soak" | Strongest bath-format route; inline reduction plus in-tub completion |
 | KDF-55 alone or + standard GAC | Free chlorine only | Cannot claim chloramine without data |
-| Calcium sulfite alone | Free chlorine only | Cannot claim chloramine without data |
+| Calcium sulfite alone | Free chlorine only | Cannot claim chloramine without data. **2026-10-09:** a supplier spike test and a KES bench test now report near-total chloramine removal, but neither reports pH, includes a control, or states a detection limit. This row is unchanged — the evidence still cannot carry a claim — but the rationale is now "unresolved" rather than "chemically implausible". |
 
 ---
 
@@ -499,4 +602,6 @@ KES 自己台架测出前，产品定义与 claim **保守按 4–8 分钟**，�
 22. Water Filters Australia — Chloramines and Vitamin C (1,000 mg/1 ppm/50 gal dosing; 4–8 min contact) — [waterfiltersaustralia.com.au](https://www.waterfiltersaustralia.com.au/blog/chloramines-and-vitamin-c/)
 
 **Tier 4 — Supplier-provided / imported internal material:**
-23. 淄博宗立新材料科技有限公司 — `宗立测试-一氯胺及三氯铵 50g亚硫酸钙球.docx`，检测报告，样品编号 `ZONET20230707001`，检测完成时间 2023-07-13。Raw archive: `raw/products/bathtub-filter/2026-06-17-zongli-calcium-sulfite-chloramine-test/`.
+23. 淄博宗立新材料科技有限公司 — `宗立测试-一氯胺及三氯铵 50g亚硫酸钙球.docx`，检测报告，样品编号 `ZONET20230707001`，检测完成时间 2023-07-13。Raw archive: `raw/products/bathtub-filter/2026-06-17-zongli-calcium-sulfite-chloramine-test/`；报告归档页 [[bathtub-filter-supplier-report-zongli-calcium-sulfite-chloramine-2023-07]]
+24. [来源摘要｜亚硫酸钙 × 氯胺 矛盾事件（2026-10-09）](../../source-summaries/bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09.md) — 对 #23 的定量批判（进水衰减混淆 / 容量利用率 0.61% / 三氯铵物种存疑）与矛盾事件裁定
+25. KES first-party chloramine bench test (2026-10-09) — 130 g CaSO₃ / 4 ppm chloramine / 24 L/min / 60 s / 38 °C, 总氯比色卡 readout — see source-summary #24 and [[bathtub-filter-evidence-bibliography]] E7

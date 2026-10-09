@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-17
-updated: 2026-09-05
+updated: 2026-10-09
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
-domains: [bathtub-filter, kes, claims, compliance, marketing, version-a, clean-formula, diagnosis-kit]
-source_count: 4
+domains: [bathtub-filter, kes, claims, compliance, marketing, version-a, clean-formula, diagnosis-kit, chloramine, contradiction-event]
+source_count: 9
 review_cycle: monthly
 verification_status: spot-checked
 related:
@@ -22,6 +22,7 @@ related:
   - ./bathtub-filter-chloramine-media-research.md
   - ../../source-summaries/bathtub-filter-kes-internal-product-materials-2026-04-17.md
   - ../../source-summaries/bathtub-filter-onlyzone-supplier-material-evidence-2026-04-17.md
+  - ../../source-summaries/bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09.md
 ---
 
 # 浴缸过滤器宣称台账
@@ -33,6 +34,36 @@ related:
 禁区仍保持不变（非谈判性）。Version B / C（氯胺城市 / 软水器下游 / well water / 仪式浸浴）的 claim wording 仍 pending。Workstream 2 的竞品样品差异化审核，仍可在 Version A 的 wording 上做二次优化（确保不被竞品语言占领），但不再阻塞首次使用。
 
 **2026-06-15 操作化更新**：把本轮战略产出（clean-formula 定位、水质自测套件/模块化获客引擎、氯胺 V1.5 证据）产生的 claim 决策归并进本表——见文末 **「2026-06-15 操作化增补」** 段（透明/clean-formula、自测套件、模块目录、氯胺 V1.5、诚实劝退、**表面→claim 映射**）。两处对既有表的修改：① Banned 区氯胺行从「V1 一律禁」改为「**V1 禁 / V1.5 conditional**」；② Conditional 区 fast-flow 行接上 [25L/min 测试 spec](./bathtub-filter-25lpm-dechlorination-bench-test-spec.md) 的通过门槛。
+
+---
+
+## Status note — 2026-10-09：chloramine 禁区条目理由更新（结论不变）
+
+一份供应商报告（`ZONET20230707001`，2023-07）与一份 KES 一方 bench test（2026-10-09）都报告**亚硫酸钙**对氯胺接近完全去除。这与本台账 V1 chloramine 禁区条目所依据的「chemistry mismatch」理由**直接冲突**。
+
+**V1 禁区的结论没有改变。** 这两份数据都**无法支撑任何宣称**，原因逐条如下：
+
+| 缺陷 | ZONET20230707001 | KES bench test |
+|---|---|---|
+| 未报告 pH（Yiin 1987 的控制变量）| ✗ | ✗ |
+| 无纯进水衰减对照 | ✗ | ✗ |
+| 非氯胺特异性分析方法 | ✗ | ✗（总氯比色卡）|
+| 未声明检出限 | ✗ | ✗ |
+| 容量利用率 | 0.61% | 0.13% |
+| 复测次数 | 无 | n = 1 |
+
+**改变的是理由，不是结论：**
+
+- **旧理由**：「chemistry mismatch」——即化学上不成立
+- **新理由**：「chemistry mismatch 存在争议且未解决；**两个方向都没有受控证据**」
+
+一个供应商加标测试（未报 pH、无对照、无检出限、消耗 0.6% 容量）与一个用总氯比色卡读数的一次性 bench test，**在任何 claim 评审标准下都不构成证据**。它们的作用是暴露一个真实的知识缺口，而不是打开一扇门。
+
+**这不构成重新考虑 V1 禁区的理由。** 按本台账 "How to use" 第 2 条，禁区只有在有**具体的、有文档记录的**理由时才重新审议。要满足这个条件，需要：受控测试（氯离子质量平衡 + 无介质衰减空白）、pH 受控并报告、氯胺特异性分析方法（IC 或 DPD 自由/化合区分）并声明检出限、以及到突破点的连续通水量序列。规格见 [[bathtub-filter-validation-testing-protocol]] Module 7。
+
+**对 V1.5 的影响：无。** 2026-06-15 增补引入的 V1.5 氯胺配置（催化炭芯 + 抗坏血酸钠浸泡件）走的是 Kochany 2008 + SFPUC/AWWA 证据线，**不以亚硫酸钙为依据**，其 Conditional 地位不受本次事件影响。本次事件反而强化了 V1.5 架构选择的合理性——正因为 CaSO₃ × 氯胺存疑，氯胺场景才不应依赖 CaSO₃。
+
+**当前授权状态**：V1（KDF55 + CaSO₃ 基础）的氯胺对外表述**全部禁止**；V1.5 的有界 claim 按 2026-06-15 增补的 Conditional 条件执行，与本次事件无关。
 
 ---
 
@@ -108,7 +139,7 @@ related:
 | Baby-safety implication without substantiation | "Safe for babies" / "safe for newborns" / "mom-approved for infant bathing" style claims that imply safety from harmful substances without specific evidence | Very high — regulatory and liability exposure |
 | Clinical language without clinical-grade backing | "Clinically proven" / "clinically tested to improve skin" / "doctor-recommended for eczema-prone skin" without the specific clinical evidence base these phrases imply | Very high — FTC / consumer protection risk |
 | Hard-water softening claims | Implying that a compact bath filter meaningfully softens hard water — current evidence does not support this. **产品决策（2026-07-01）：本产品不做软化，硬水只提供阻垢剂选项；不夸大、不留"软化版 SKU 留邮箱"钩子；真软化属全屋软水器品类（非本产品）。** | High — evidence does not support softening for compact filters |
-| Chloramine removal claims **for V1 (free-chlorine media)** | V1 媒体（KDF55+CaSO₃）对氯胺基本无效，宣称氯胺去除不可防守。**注：V1.5 氯胺配置（催化炭+抗坏血酸钠浸泡）有界 claim 已移入 Conditional——见「2026-06-15 操作化增补」§B。** | High — chemistry mismatch；V1 仍为禁区 |
+| Chloramine removal claims **for V1 (free-chlorine media)** | V1 媒体（KDF55+CaSO₃）对氯胺去除无可防守依据。**注：V1.5 氯胺配置（催化炭+抗坏血酸钠浸泡）有界 claim 已移入 Conditional——见「2026-06-15 操作化增补」§B。** **理由更新（2026-10-09）**：「对氯胺基本无效」表述过强——两份无对照观测（供应商 `ZONET20230707001` + KES bench test）与 Tier-1 化学冲突，当前状态是「未验证、存在争议」而非「已知无效」；V1 禁区不变，本条只改理由。见 [[bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09]] | High — chemistry mismatch **contested but unresolved**；V1 仍为禁区 |
 | Carbon / no-pre-rinse / no-carbon-dust claims for V1 | V1 当前滤材为 过滤棉（PET）+ KDF55 130g + CaSO3 110g，不含活性炭；"no pre-rinse required"、"no carbon dust"、"acid-washed coconut-shell carbon" 属于其他含碳版本资料，不纳入 V1 卖点 | Medium-high — wrong-version claim / material mismatch |
 | Implied medical treatment or disease prevention | Any language that positions the product as treating, preventing, or managing a health condition (including skin conditions, respiratory sensitivity, etc.) | Very high — drug/device regulatory threshold risk |
 

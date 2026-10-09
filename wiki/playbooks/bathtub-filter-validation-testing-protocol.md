@@ -3,20 +3,22 @@ type: playbook
 status: draft
 owner: strategy
 created: 2026-04-12
-updated: 2026-09-06
+updated: 2026-10-09
 visibility: company
 confidence: medium
 officiality: draft
 domain: operations
-domains: [bathtub-filter, validation, testing, protocol]
-source_count: 0
+domains: [bathtub-filter, validation, testing, protocol, chloramine]
+source_count: 1
 review_cycle: monthly
 verification_status: spot-checked
 related:
   - ../products/bathtub-filter/bathtub-filter-kes-go-no-go-memo-v1.md
   - ../products/bathtub-filter/bathtub-filter-kes-route-screening-memo-v2.md
+  - ../products/bathtub-filter/bathtub-filter-chloramine-media-research.md
   - ../source-summaries/bathtub-filter-kes-internal-product-materials-2026-04-17.md
   - ../source-summaries/bathtub-filter-onlyzone-supplier-material-evidence-2026-04-17.md
+  - ../source-summaries/bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09.md
 ---
 
 # Bathtub Filter 验证 / 测试协议
@@ -173,10 +175,36 @@ related:
 ### Module 6 — Version A scope boundary verification（新增）
 | 状态 | 测试项 | 方法 / 条件 | 结果 / 依赖 |
 |---|---|---|---|
-| ❌ 明确不覆盖 | 氯胺城市去除率 | Version A 媒体对 NH₂Cl 效率 | CaSO₃ 对氯胺基本无效；Version A 不声称氯胺去除。Version B 待规划 |
+| ❌ 明确不覆盖 | 氯胺城市去除率 | Version A 媒体对 NH₂Cl 效率 | Version A 不声称氯胺去除，Version B 待规划。**2026-10-09 措辞修订**：本行原写「CaSO₃ 对氯胺基本无效」——该表述过强。CaSO₃ 在氯胺场景下的表现目前是**未知**，不是已知为零；两份无对照观测（供应商 `ZONET20230707001` + KES 一方 bench test）指向相反方向但均不足以支撑延展。**边界本身不变**——Version A 依然不覆盖氯胺场景；变的是理由。见 [[bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09]] |
+| ⏳ 外部待补 | **受控 CaSO₃ × 氯胺测试**（2026-10-09 新开）| 见下方 Module 7 规格 | **不阻塞 Version A launch**，但它是决定 KES 是否具备氯胺城市能力的唯一未解问题。若结果为阳性，将影响 Version B 架构与 A-14 地区优先级假设 |
 | ❌ 明确不覆盖 | Well water iron / H₂S / hardness | Version A 媒体对 Fe²⁺ / Mn²⁺ / H₂S | KDF55 + CaSO₃ 非此路径；需要 KDF85 + 催化炭。见 [[bathtub-filter-well-water-research]] |
 | ❌ 明确不覆盖 | 日式 45°C+ 高温浸浴 | Version A 媒体在 >42°C 下的稳定性 | 测试覆盖 38–42°C；偏离此范围未验证 |
 | ⏳ 外部待补 | 软水器下游用户（14–22M US 户）| 对软水器处理后水的去氯效果 | 软水器不去氯，标称 chlorine 含量应与 untreated tap 相近，理论上 Version A 适用，但未实测 |
+
+### Module 7 — CaSO₃ × 氯胺受控测试规格（2026-10-09 新开）
+
+> 触发来源：亚硫酸钙 × 氯胺矛盾事件。完整分析见 [[bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09]]。
+
+**这个测试要解决的问题**：现有的两份数据（供应商 `ZONET20230707001`、KES bench test）都**无法区分「介质去除了氯胺」与「氯胺自己降解了」**。因为两者测的都是待去除物本身，而该物种在温水中本就不稳定。
+
+**决定性对照 — 氯离子质量平衡**：氯胺若被真实还原为氨，每 1 mol NH₂Cl 破坏释放 1 mol Cl⁻。离子色谱测氯离子成熟、廉价、且**对物种不敏感，完全免疫于加标衰减这个混淆因素**——它测的是反应的**产物**，不是底物。测进水 Cl⁻、无介质空白在配对时间/温度下的 Cl⁻、出水 Cl⁻。若出水氯离子增量恰好等于比色所隐含的去除量 → 结论成立；若无增量 → 颜色下降是衰减或干扰。
+
+**最小规格：**
+
+| 要求 | 规格 |
+|---|---|
+| 分析方法 | DPD 电流滴定区分游离/化合氯 **+ 离子色谱测氯离子**。声明 LOD 与 LOQ |
+| 实验臂（≥4）| (a) 介质 + 挑战水；(b) 无介质挑战水，时间/温度配对（衰减空白）；(c) 惰性介质，床体积与 ΔP 配对（水力空白）；(d) **量产规格 3–4 mm `ZONE-CL-A02 Gen-3`，130 g** |
+| pH | 受控并报告 7.0 / 7.8 / 8.5。Yiin 1987 预测该区间出现分化；只测单一 pH 无法区分化学与假象 |
+| 温度 | 20 / 38 / 42 °C |
+| 通水量 | **做连续序列直到突破**，不是单点。这是唯一能产出与寿命模型兼容结果的方式 |
+| 复测 | 每个条件 n ≥ 3 |
+| 物种定义 | 测试前**先书面澄清**供应商报告中的「三氯铵」实为一氯胺、二氯铵还是三氯胺 |
+| 介质规格 | 用 3–4 mm 生产规格，不用 2–3 mm（后者是 Gen-4 旧代 SKU）|
+
+**通过标准（建议，待 owner 确认）**：出水氯离子增量与 DPD 测得的化合氯去除量在分析不确定度内闭合，且该结果在**有介质臂**与**无介质衰减空白臂**之间有统计显著差异。
+
+**不通过怎么办**：CaSO₃ × 氯胺 这一格从「⚠️ 未验证」改回「❌ 无效」，且此次是**基于受控数据**——这才是它原本就应该有的证据基础。
 
 ### Summary — Version A 测试缺口排序（按阻塞度）
 1. **Supported spout matrix**（Module 2）：阻塞 launch，必须在 shipping 前完成
@@ -185,3 +213,4 @@ related:
 4. **长期霉变测试**（Module 4）：阻塞硬壳方案的 trust 外部验证（竞品痛点）
 5. **寿命曲线末段验证**（Module 1）：阻塞 "143 次 / 1 年" 寿命承诺的 late-stage 行为
 6. **TPU strap 长期耐用**（Module 2）：次级阻塞，但直接关系差评风险
+7. **受控 CaSO₃ × 氯胺测试**（Module 7，2026-10-09 新开）：**不阻塞 Version A**，但它是 Version B 氯胺架构与假设 A-14 地区优先级的唯一前置条件。成本低、有明确规格，应尽早排期

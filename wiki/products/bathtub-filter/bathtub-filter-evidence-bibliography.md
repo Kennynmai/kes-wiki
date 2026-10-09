@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-11
-updated: 2026-04-19
+updated: 2026-10-09
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
-domains: [bathtub-filter, evidence, bibliography, supplier-evidence]
-source_count: 31
+domains: [bathtub-filter, evidence, bibliography, supplier-evidence, contradiction-event]
+source_count: 33
 review_cycle: monthly
 verification_status: spot-checked
 related:
@@ -17,7 +17,9 @@ related:
   - ./bathtub-filter-academic-paper-research-summary.md
   - ./bathtub-filter-claims-and-certifications.md
   - ./bathtub-filter-category-boundary.md
+  - ./bathtub-filter-chloramine-media-research.md
   - ../../source-summaries/bathtub-filter-onlyzone-supplier-material-evidence-2026-04-17.md
+  - ../../source-summaries/bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09.md
 ---
 # 浴缸过滤器证据参考书目
 
@@ -459,7 +461,11 @@ related:
 
 > 来源：[Onlyzone 供应商材料证据 2026-04-17](../../source-summaries/bathtub-filter-onlyzone-supplier-material-evidence-2026-04-17.md)
 >
+> 2026-10-09 补充：[亚硫酸钙 × 氯胺 矛盾事件（2026-10-09）](../../source-summaries/bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09.md)（E6、E7）
+>
 > **范围声明**：本节所有条目都停留在**介质级**（material-level），不代表 finished-KES-product 级证据。供应商测试条件（静态浸泡 / 特定流速 / 特定粒径）与浴缸注水真实场景差距显著。在引用时必须保持"材料通过 X → 产品尚未通过 X"的清晰分层。
+>
+> **E6 / E7 的额外声明**：这两条**不构成效能证据**。它们均未报告 pH、均无对照组、均无检出限、均未触及 1% 的介质容量，且两者的分析物都是"待去除物本身"——而该物种可自行降解。本节记录它们的目的是保留矛盾事件，而不是授权引用。
 
 ### E1. Zibo Onlyzone NSF/ANSI 42 组织列名
 - 来源：NSF International Certificate# C0843384-01（2025-04-10 签发，Theresa Bellish 签署）
@@ -507,6 +513,50 @@ related:
   - 由于是供应商内部实验室出具，非独立第三方；若对外发布寿命曲线需补第三方复测
   - 测试使用 **0.5–1 mm** 粒径，Version A 生产使用 **3–4 mm**；粒径差异对动力学的影响未在本测试中处理
 - 证据角色：**life-model numerical baseline**（key Version A evidence）
+
+### E6. CaSO₃ 氯胺去除报告（淄博宗立内部实验室 ZONET20230707001，2023-07-13 完成）— ⚠️ 矛盾事件，未采信为效能证据
+- 来源：淄博宗立新材料科技有限公司，**检验专用章**（供应商内部实验室，非独立第三方 CNAS/ilac/NSF）；无机器可读的检测/批准人姓名
+- 方法：**仅写「加标测试(氯胺)」**；样品为 沐浴过滤器，内置滤料 50 g 宗立 2–3 mm 亚硫酸钙球；出水流速 5 L/min 与 3 L/min；两个累计水量点位（300 L / 500 L）
+- 结果：
+
+  | 累计 L | 流速 | 物种 | 进水 mg/L | 出水 mg/L | 去除率 % |
+  |---|---|---|---|---|---|
+  | 300 | 5 L/min | 一氯胺 | 0.46 | 0.0184 | 96 |
+  | | | 三氯铵 | 1 | 0 | 100 |
+  | 500 | | 一氯胺 | 0.341 | 0.023 | 93.26 |
+  | | | 三氯铵 | 0.728 | 0 | 100 |
+  | 300 | 3 L/min | 一氯胺 | 0.43 | 0 | 100 |
+  | | | 三氯铵 | 1 | 0 | 100 |
+  | 500 | | 一氯胺 | 0.341 | 0 | 100 |
+  | | | 三氯铵 | 0.728 | 0 | 100 |
+
+- **报告未披露**：分析方法、检出限/定量限、**pH**、水温、TDS、氯物种确认、复测、**对照组**、突破曲线
+- **关键缺陷 — 衰减混淆**：进水本身不恒定（一氯胺 0.46→0.341，−25.9%；三氯铵 1.0→0.728，−27.2%），且**无配对时间点的纯进水空白**。自衰减的加标液会产生完全相同的模式，也会产生「0」出水读数
+- **关键缺陷 — 容量未触及**：50 g CaSO₃（SO₃ 质量分数 66.6%）理论容量约 28 g NH₂Cl，实际负荷 170.5 mg → **容量利用率 0.61%**
+- **关键缺陷 — 物种命名存疑**：三氯铵（NCl₃）在 0.728–1.0 mg/L 不是现实饮用水物种（实际为 ng/L–µg/L 级副产物）。可能实为二氯铵（NCl₂H）误标。**引用前须向供应商书面澄清**
+- 能支撑：**nothing at the efficacy or claim level.** 唯一作用是构成一次矛盾事件，证明「CaSO₃ 对氯胺完全无效」这一 wiki 立场并非建立在受控证据上
+- **不能支撑**：
+  - 任何氯胺去除宣称（无论 media 级还是 product 级）
+  - Version A 寿命模型向氯胺场景的任何延展
+  - 三氯铵的任何产品级讨论（KES 已在 [[bathtub-filter-disinfectant-types-and-media-guide]] 中将二氯胺/三氯胺排除出产品模型）
+- 证据角色：**contradiction-event trigger only** — 详见 [[bathtub-filter-chloramine-media-research]] Section 3.5
+
+### E7. KES 一方氯胺 bench test（2026-10-09，130 g CaSO₃ / 4 ppm / 24 L/min / 60 s / 38 °C）
+- 来源：KES product side，一方测试；总氯比色卡（0.1–10 mg/L）读数 + 三张照片
+- 条件：亚硫酸钙 **130 g**（= Version A 装填量）；流速 **24 L/min**；接触时间 60 s；水温 **38 °C**；进水 4 ppm 氯胺
+- 结果：读数**接近 0**
+- **方法学限制（决定了这份数据不能支撑任何宣称）**：
+  - **总氯比色卡不是氯胺特异性方法**。从未测过游离氯；若挑战液中并存游离氯，亚硫酸钙会优先消耗它，比色卡照样读近零
+  - 「接近 0」= **≤0.1–0.2 mg/L**，即去除 **>95–97.5%**，非 100%、非测得的零
+  - **无纯进水对照**：38 °C 下氯胺自衰减无法与介质作用分离
+  - **无惰性介质对照**：床层压降/流阻未受控
+  - **无 pH**（恰是 Yiin 1987 所识别的控制变量）；单点单次；无氯离子质量平衡
+  - **容量利用率 0.13%**（130 g → 理论容量约 73 g NH₂Cl；实际负荷 96 mg）
+  - **照片序列内部矛盾**：第二张标注「原水」却比标注「4 ppm 绿氨水」的第一张更清澈，两者不可能描述同一份水；**只有报告的数值参数可用，照片顺序不可作为 before/after 证据**
+- **支持假设的最强一点**：该次接触时间 ≈0.33 s（按 130 cm³ 床层 / 24 L/min 估），约为供应商最慢点位（≈1.00 s）的**三分之一**，且是量产装填量 + 量产浴缸流速 + 浴缸水温。若 E6 成立，E7 反而是更难解释的那一个
+- 能支撑：**nothing at the claim level.** 支持「该假设值得做一次受控测试」这一判断
+- **不能支撑**：任何氯胺宣称；任何效率/寿命推算；与 E5 寿命模型合并使用
+- 证据角色：**first-party existence probe → R&D trigger only**（evidence tier：**internal-experience**，与 KDF 经验系数表同级）
 
 ---
 

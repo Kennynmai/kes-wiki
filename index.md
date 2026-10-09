@@ -340,6 +340,7 @@
 - [Onlyzone Antiscale Strip 2025-08](wiki/source-summaries/bathtub-filter-onlyzone-antiscale-strip-2025-08.md)
 - [Amazon 10-ASIN Project Market Survey 2026-04-22](wiki/source-summaries/bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22.md)
 - [Atmospheric Vacuum Breaker (AVB) Component Scan 2026-05-18](wiki/source-summaries/atmospheric-vacuum-breaker-avb-component-scan-2026-05-18.md)
+- [CaSO₃ × Chloramine Contradiction Event 2026-10-09](wiki/source-summaries/bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09.md)
 
 ### Academic Paper Summaries — Water / Skin / Eczema
 - [Bergera 2025 — Hard vs Chlorinated Water (preprint)](wiki/source-summaries/bathtub-filter-paper-bergera-2025-hard-vs-chlorinated-water-preprint.md)

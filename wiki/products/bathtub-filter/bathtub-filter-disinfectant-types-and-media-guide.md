@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: product
 created: 2026-04-17
-updated: 2026-04-17
+updated: 2026-10-09
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
-domains: [bathtub-filter, disinfectant, chlorine, chloramine, filtration-media, technology, claims]
-source_count: 14
+domains: [bathtub-filter, disinfectant, chlorine, chloramine, filtration-media, technology, claims, contradiction-event]
+source_count: 16
 review_cycle: monthly
 verification_status: spot-checked
 related:
@@ -18,6 +18,8 @@ related:
   - ./bathtub-filter-certification-and-testing-pathways.md
   - ./bathtub-filter-claim-register.md
   - ./bathtub-filter-evidence-matrix.md
+  - ./bathtub-filter-chloramine-media-research.md
+  - ../../source-summaries/bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09.md
 ---
 
 # 浴缸过滤器消毒剂种类与滤材指南
@@ -65,6 +67,12 @@ NH₃ + HOCl → NH₂Cl（一氯胺）+ H₂O — 反应在投加后约 1 分�
 
 > 二氯胺（NHCl₂）和三氯胺（NCl₃）在 pH > 8 且 Cl:N 比例正常的系统中极少出现，不构成龙头端的主要问题。产品层面假设氯胺 = 一氯胺即可。
 
+> ⚠️ **2026-10-09 命名风险提示。** 上述假设现在有一个必须处理的压力点：供应商报告 `ZONET20230707001` 声称对**三氯铵**去除率 100%，挑战浓度 0.728–1.0 mg/L。**NCl₃ 在饮用水中的实际水平是 ng/L–µg/L 量级**（氯化副产物），比该挑战浓度低约三个数量级，且浓态不稳定。两种可能：(a) 供应商实指**二氯铵**（NHCl₂）而误标；(b) 挑战液不具代表性。
+>
+> 若为 (a)，则该报告最亮眼的一组数字（100%×4）对应的物种是 KES **已明确排除出产品模型**的（见上段）。若为 (b)，则该报告的氯胺分支整体不可用。
+>
+> **结论：在供应商书面澄清之前，该报告的「三氯铵」分支不得用于任何内部分析或对外表述。** 一氯胺分支不受此影响，可单独评估。详见 [[bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09]]（source-summary）。
+
 **为什么水厂要用氯胺？**
 - 减少消毒副产物（三卤甲烷 THMs、卤乙酸 HAAs）——这些物质受 EPA 法规限制
 - 氯胺更稳定，在配水管网中衰减更慢，可维持更长距离的余氯
@@ -92,7 +100,7 @@ NH₃ + HOCl → NH₂Cl（一氯胺）+ H₂O — 反应在投加后约 1 分�
 |------|------|------|------|------|
 | **标准活性炭（GAC）** | ✅ 优秀 | ⚠️ 差至中等 | ✅ 有效 | 对氯胺的去除需要 3–4× 更长接触时间；热水下吸附容量下降 40–60% |
 | **催化活性炭** | ✅ 优秀 | ✅ 较好至优秀 | ✅ 有效 | 专为化学降解一氯胺改性；最好的氯胺去除媒体；仍需充足接触时间 |
-| **亚硫酸钙（Calcium Sulfite）** | ✅ 优秀（热水稳定）| ❌ 无效 | ❓ 可能有效（无数据）| 氧化还原机制专门针对游离氯；不能断裂 N–Cl 键 |
+| **亚硫酸钙（Calcium Sulfite）** | ✅ 优秀（热水稳定）| ⚠️ **未验证 — 存在争议**（原为 ❌ 无效）| ❓ 可能有效（无数据）| 氧化还原机制专门针对游离氯；N–Cl 键能否被 SO₃²⁻ 断裂取决于 pH。**2026-10-09**：一份供应商加标测试与一份 KES bench test 均报告接近完全去除，但两者均未报 pH、无对照组、无检出限、容量利用率 <1%。结论待受控测试——见 [[bathtub-filter-chloramine-media-research]] Section 3.5 |
 | **KDF-55（铜锌合金）** | ✅ 优秀 | ❌ 无效（实测 18.2%）| ❓ 部分有效（无数据）| 同上；实测氯胺去除率极低 |
 | **KDF-85** | ✅ 优秀 | ❌ 无效（实测 1.4%）| ❓ 部分有效 | 比 KDF-55 对氯胺更差 |
 | **维生素 C（抗坏血酸）** | ✅ 极速（瞬时）| ✅ 有效（需 4+ 分钟接触）| ✅ 有效 | 与一氯胺反应半衰期约 4 分钟；1,000 mg 可中和一整缸浴水中的氯胺（SFPUC 建议量）|
@@ -160,7 +168,7 @@ NH₃ + HOCl → NH₂Cl（一氯胺）+ H₂O — 反应在投加后约 1 分�
 | "KDF removes chloramine" | KDF-55 实测去除率 18.2%、KDF-85 仅 1.4%——此宣称无据 |
 | "tested to NSF/ANSI 177" for a bath spout filter | 177 范围仅限淋浴产品；对浴缸水龙头产品属于超范围引用 |
 | "tested to NSF/ANSI 177" for chloramine removal | 177 测试水中氯胺 <0.1 mg/L，标准明确不评估氯胺性能，并要求产品附带此免责声明 |
-| calcium sulfite + "removes chloramine" | 亚硫酸钙不与一氯胺反应，此宣称无化学机制支撑 |
+| calcium sulfite + "removes chloramine" | 亚硫酸钙与一氯胺的反应速率强烈依赖 pH（Yiin 1987），中性–碱性条件下无可靠效能证据。**2026-10-09 更新**：不再表述为"不与一氯胺反应"（该表述过强），改为"无受控证据支持，且存在两份指向相反方向的无对照观测"。在受控测试完成前，此宣称**仍然不成立** |
 | vitamin C in shower filter + "removes chloramine" | 维生素 C 与一氯胺的反应半衰期 ~4 分钟，淋浴接触时间 < 1 秒，去除率无法保证 |
 
 ---
