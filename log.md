@@ -435,7 +435,7 @@ Example:
   **自省**：我在第一轮把一条「看起来不依赖 ROI」的结论主动标成「稳健」，这比不做标注更危险 —— 它把一个未验证的定量结果包装成了可靠论据。**标注「稳健」本身需要比结论更强的证据。**
 
 ## [2026-10-28] maintain | 氯胺 T 物种辨析节表述口径复核 —— 一处引语撤回、一处数值收紧、配比补引
-- source: ops/verification-queue.md 第 17 行工单（disinfectant-types-and-media-guide §1b-bis 表述口径确认）
+- source: ops/verification-queue.md `VQ-0011`（disinfectant-types-and-media-guide §1b-bis 表述口径确认；原引用：第 17 行工单）
 - updated: wiki/products/bathtub-filter/bathtub-filter-disinfectant-types-and-media-guide.md (§1b-bis 表 + 规则 + 复核记录 + Sources); wiki/products/bathtub-filter/bathtub-filter-chloramine-media-research.md (第三数据点表 + 引语 + Tier 2 新增来源 #26–#33); wiki/source-summaries/bathtub-filter-chloramine-T-measurement-2026-10-15.md (§2 表 + 更正记录 + pH 表述 + Sources); raw/products/bathtub-filter/2026-10-15-chloramine-T-measurement/pass.md (§2 表 + 2026-10-28 更正记录 + 来源分级); wiki/playbooks/bathtub-filter-validation-testing-protocol.md (Module 7 加标试剂身份行 + 来源补录); ops/verification-queue.md
 - status: working
 - notes: |
@@ -461,7 +461,7 @@ Example:
   **剩余**：§1b-bis 的**最终表述口径仍待产品负责人 sign-off**（本轮只能做到"事实层核到一手来源 + 措辞收紧"，agent 不能替代 owner 确认）→ 保留在 ops/verification-queue.md。
 
 ## [2026-10-28] maintain | 照片比色数值降级的全库生效核查 —— 降级当时并没有全库生效
-- source: ops/verification-queue.md 第 16 行工单（2026-10-15 pass.md 自查降级复核）
+- source: ops/verification-queue.md `VQ-0010`（2026-10-15 pass.md 自查降级复核；原引用：第 16 行工单）
 - updated: wiki/products/bathtub-filter/bathtub-filter-chloramine-media-research.md (§3.5 正文段落); wiki/source-summaries/bathtub-filter-chloramine-T-measurement-2026-10-15.md (§3.1 / §3.2 / TL;DR 第 3 条 / §5 缺口表第 9 行); wiki/playbooks/bathtub-filter-validation-testing-protocol.md (Module 7 附带发现); raw/products/bathtub-filter/2026-10-15-chloramine-T-measurement/pass.md (§3.1 表头 / §3.2 / 自查修正记录第 1 条 / §5 缺口表第 9 行); ops/ingestion-registry.md (bf-2026-10-15-chloramine-T 行 officiality_impact); ops/verification-queue.md
 - status: working
 - notes: |
@@ -483,7 +483,7 @@ Example:
   **产品结论零变化**（本工单只涉及方法学表述，不触及任何化学结论）。
 
 ## [2026-10-28] maintain | 2026-10-09 bench test 试剂身份回查结案 —— 一份数据点退出氯胺证据，两处旧结论纠错
-- source: ops/verification-queue.md 第 18 行工单（高优先级：「（跨页）2026-10-09 KES bench test 试剂身份」）
+- source: ops/verification-queue.md `VQ-0012`（高优先级：「（跨页）2026-10-09 KES bench test 试剂身份」；原引用：第 18 行工单）
 - updated: raw/products/bathtub-filter/2026-10-28-caso3-2026-10-09-reagent-identity-check.md (new); raw/products/bathtub-filter/2026-10-09-caso3-chloramine-bench-test-photos/ (new — 3 张一手照片 + 溯源 README); raw/products/bathtub-filter/2026-10-09-caso3-chloramine-contradiction-pass.md (2026-10-28 更正记录); wiki/source-summaries/bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09.md (顶部状态框 + §2 表补物种/日期行 + 照片说明更正 + 2026-10-28 追记 + Affected pages); wiki/products/bathtub-filter/bathtub-filter-chloramine-media-research.md (§3 状态框 / §3.5 标题与正文 / 2026-10-28 立场表 / §6 汇总表 / §7 Gap 2 与 Gap 6 / §8 / Sources); wiki/products/bathtub-filter/bathtub-filter-evidence-bibliography.md (E7 重新定性 + E6 补注); wiki/products/bathtub-filter/bathtub-filter-claim-register.md (2026-10-28 status note + 禁区行理由第三次收紧); wiki/playbooks/bathtub-filter-validation-testing-protocol.md (Module 7 前提修正 + 三条新硬门槛 + 报价锚点 + 优先级上调); ops/verification-queue.md; ops/ingestion-registry.md; index.md; dashboards/recent-updates.md
 - status: pending-owner-review
 - notes: |
@@ -515,3 +515,11 @@ Example:
   **合规巡检结果**：wiki 内对外页面与 claim 台账当前口径均为**禁止氯胺宣称**，本次裁定反而**加强**了这条禁令的依据，**无需改动任何对外文案**。
 
   **owner 答复（2026-10-28，当日）**：**① 接受** —— 裁定生效，10-09 台架正式退出氯胺证据，「KES 物种确认氯胺数据点 = 0」成为后续一切氯胺讨论的事实前提。**② 确认** —— 包装与电商页面**无「除氯胺 / chloramine removal / 秒去」字样在流通**。**仍开放三项**：09-24「直接亚硫酸钙即可、无需 ACF」架构结论是否重审（产品判断，证据基础已空，本次未改架构页）；10-12「亚硫酸钙只有 20g 左右」的取数口径（不据此改任何计算）；Module 7 排期与询价（规格已更新，排期决定待 strategy）。
+
+## [2026-10-28] maintain | Verification queue 增加永久事项 ID
+- source: Kenny 要求执行队列 ID 列与行号引用修复；ops/verification-queue.md；本日志三处历史行号引用
+- updated: ops/verification-queue.md; log.md
+- status: completed
+- notes: |
+  为现有 15 条审核事项按迁移时顺序一次性分配 VQ-0001～VQ-0015；后续新增从 VQ-0016 起分配。ID 代表审核事项，同页不同事项分别编号；编辑、排序、结案和归档均保留 ID，不重新编号、不复用，合并并发改动时检查唯一性。
+  历史日志原第 16 / 17 / 18 行引用分别补为 VQ-0010 / VQ-0011 / VQ-0012，并保留原行号及事项描述供审计。原 15 条记录的页面、审核原因、级别与责任人均保留；本次不改变业务审核结论或状态。
