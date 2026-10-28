@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: product
 created: 2026-04-17
-updated: 2026-10-09
+updated: 2026-10-28
 visibility: team
 confidence: medium
 officiality: draft
@@ -257,7 +257,7 @@ Version A 的寿命口径使用 **累计水量 / 泡澡次数 / 周期**，**不
 - **粒径差异**：供应商参考报告用 **0.5–1 mm** CaSO₃；Version A 生产使用 **3–4 mm**（ZONE-CL-A02 Gen-3 3–4mm）。更大粒径 = 更少比表面 = 动力学更慢。η=0.9 是否已隐式吸收此差异是**未知的**——需要用 3–4 mm 生产规格复测一轮（见 [[bathtub-filter-validation-testing-protocol]] Module 1）
 - KDF 贡献系数（43/32/26/21%）标注为"内部经验值"，无附带原始实验条件
 - 模型假设 2 ppm / 1 ppm 自由氯线性响应；超出此范围或氯胺场景下**不可外推**
-  > **2026-10-09 措辞修订**：本条原写作「CaSO₃ 对氯胺基本无效」。该措辞**过强**——它把「无受控数据」表述成了「已验证无效」。现更正为：**氯胺场景下本模型不可外推，且 CaSO₃ 在氯胺场景下的实际表现目前是未知而非已知为零**。两份无对照观测（供应商 `ZONET20230707001` + KES bench test）指向相反方向但均不足以支撑延展。专控测试规格见 [[bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09]] 与 [[bathtub-filter-validation-testing-protocol]]。**本 Section 9 模型本身、其寿命表、其 2 ppm / 1 ppm 基线一律不变。**
+  > **2026-10-09 措辞修订**：本条原写作「CaSO₃ 对氯胺基本无效」。该措辞**过强**——它把「无受控数据」表述成了「已验证无效」。现更正为：**氯胺场景下本模型不可外推，且 CaSO₃ 在氯胺场景下的实际表现目前是未知而非已知为零**。无对照观测（供应商 `ZONET20230707001`）指向相反方向但不足以支撑延展。**2026-10-28 再更新**：KES bench test 因加标物种从未确认而退出该证据（推定为游离氯路径），KES 自有的物种确认氯胺数据点为 **0**。专控测试规格见 [[bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09]] 与 [[bathtub-filter-validation-testing-protocol]]。**本 Section 9 模型本身、其寿命表、其 2 ppm / 1 ppm 基线一律不变。**
 - 水温假设 38–42°C；偏离此范围（如日式 45°C+ 浸浴）未覆盖
 - 供应商 reference report 由 **供应商内部实验室** 出具（非独立第三方 CNAS/ilac/NSF 实验室）；KES 如果要对外公开寿命曲线，建议再补一轮独立第三方复测
 - 验证待补充项见 [[bathtub-filter-validation-testing-protocol]] Module 1

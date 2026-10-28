@@ -3,7 +3,7 @@ type: source-summary
 status: draft
 owner: strategy
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-10-28
 visibility: team
 confidence: medium
 officiality: draft
@@ -39,9 +39,11 @@ related:
 
 ## Why this source matters
 
-> **与前次 ingest 的关系。** 供应商报告本体已于 **2026-06-17** 从另一台工作站 ingest 过：raw 归档 `raw/products/bathtub-filter/2026-06-17-zongli-calcium-sulfite-chloramine-test/`、归档页 [[bathtub-filter-supplier-report-zongli-calcium-sulfite-chloramine-2023-07]]、来源摘要 `./bathtub-filter-zongli-calcium-sulfite-chloramine-test-2023-07.md`。那次评估的结论是「值得验证的供应商信号」，并起草了待供应商澄清清单（含三氯铵命名问题）。**本页的新增量**：① KES 一方 bench test 这个第二数据点；② 对供应商报告的定量批判（进水衰减混淆、容量利用率 0.61%、EBCT 测算、去除率反算）；③ 把两个数据点合起来裁定为矛盾事件；④ playbook Module 7 受控测试规格。
+> **与前次 ingest 的关系。** 供应商报告本体已于 **2026-06-17** 从另一台工作站 ingest 过：raw 归档 `raw/products/bathtub-filter/2026-06-17-zongli-calcium-sulfite-chloramine-test/`、归档页 [[bathtub-filter-supplier-report-zongli-calcium-sulfite-chloramine-2023-07]]、来源摘要 `./bathtub-filter-zongli-calcium-sulfite-chloramine-test-2023-07.md`。那次评估的结论是「值得验证的供应商信号」，并起草了待供应商澄清清单（含三氯铵命名问题）。**本页的新增量（2026-10-28 注：第 ① 项已退出氯胺证据）**：① KES 一方 bench test 这个第二数据点；② 对供应商报告的定量批判（进水衰减混淆、容量利用率 0.61%、EBCT 测算、去除率反算）；③ 把两个数据点合起来裁定为矛盾事件；④ playbook Module 7 受控测试规格。
 
 两份新材料同时指向一个与 wiki 现有结论**相反**的方向，因此这是一次 **contradiction event**，不是 gap fill：
+
+> ⚠️ **2026-10-28 追记（先行提示）**：第 2 项（KES 一方 bench test）的加标物种**不可确认**，**已退出氯胺证据**。下面的「两份」应读作「一份」。详见文末 2026-10-28 追记。
 
 1. **供应商报告** `ZONET20230707001`（淄博宗立内部实验室，2023-07-13 完成）：50 g 2–3 mm 亚硫酸钙球沐浴过滤器，对**一氯胺**报告 93.26%–100% 去除，对**三氯铵**报告 100% 去除。
 2. **KES 一方 bench test**（2026-10-09）：4 ppm 氯胺水经 130 g 亚硫酸钙，流速 24 L/min，60 s，38 °C，测得**接近 0**。
@@ -49,6 +51,9 @@ related:
 现有 wiki 立场（[[bathtub-filter-chloramine-media-research]] Section 3）是 CaSO₃ 对一氯胺 `❌ No removal expected`，且 [[bathtub-filter-claim-register]] 把 chloramine claim 列入**禁区**。
 
 **这份摘要的立场是：现有结论可能仍然正确，但它的论证基础已经站不住。** 详见「这次真正改变了什么」。
+
+> ⚠️ **2026-10-28 状态更新 —— 本页的一半证据已退场。**
+> 工单「2026-10-09 KES bench test 试剂身份」回查完成：第 2 项（KES 一方 bench test）的**加标液物种身份不可确认**，推定为游离氯路径，**已退出氯胺证据**。因此上面「两份新材料同时指向相反方向」的表述现在**只剩第 1 项（供应商报告）成立**；KES 自有的氯胺数据点为 **0**。本页的裁定（⚠️ 未验证 / 禁区 / A-14）**不变**，但支撑基础变窄。详见文末「2026-10-28 追记」与 [raw pass](../../raw/products/bathtub-filter/2026-10-28-caso3-2026-10-09-reagent-identity-check.md)。
 
 ---
 
@@ -85,8 +90,10 @@ related:
 | 进水 | 4 ppm 氯胺 |
 | 读数方式 | 总氯比色卡（0.1–10 mg/L）|
 | 结果 | 氯胺**接近 0** |
+| **加标试剂身份** | **未记录 —— 2026-10-28 回查后确认「不可确认」，该数据点已退出氯胺证据**（见下文 2026-10-28 追记）|
+| **实测日期** | **≤2026-09-24**（同一批照片于 2026-09-24 已在群内发出，md5 逐张相同）；2026-10-09 是**汇报日** |
 
-> **照片序列警告**：第二张照片标注「原水」，但显示的比第一张（标注「4 ppm 绿氨水」）**更清澈**。两个标签不可能描述同一份水。照片顺序存在歧义，不应作为 before/after 证据使用；只有报告的数值参数可用。
+> **照片序列说明（2026-10-28 已更正）**：原注记称「第二张标注『原水』却比标注『4 ppm 绿氨水』的第一张更清澈，两个标签不可能描述同一份水」——**该判断是误判，已撤回**。原水是未加标的自来水（本来就该无色），4 ppm 加标液为粉红，出水为无色，**三张照片与所述协议逐张对应，不存在矛盾**。保留的真实限制：第 2、3 张均为无色，**目视无法分辨哪张是原水、哪张是出水**，因此照片仍不能单独证明 before/after（但原因是「分不出来」，不是「标注自相矛盾」）。详见 raw pass 的 2026-10-28 更正记录。
 
 ### 3）本轮计算出的定量交叉核对
 
@@ -97,7 +104,7 @@ related:
 | ZONET20230707001 | 50 g → ~28 g NH₂Cl | 500 L × 0.341 mg/L = 170.5 mg | **0.61%** |
 | KES bench test | 130 g → ~73 g NH₂Cl | 24 L × 4 mg/L = 96 mg | **0.13%** |
 
-**两份测试都没有触及容量。** 它们都是「大试剂过量下的存在性证明」，是效能类证据中最弱的一种形式，也是两者都不能被放大成寿命模型的原因。
+**两份测试都没有触及容量。**（2026-10-28：KES 一方那份已退出氯胺证据；这一条对**剩余**的供应商报告依然成立）它们都是「大试剂过量下的存在性证明」，是效能类证据中最弱的一种形式，也是两者都不能被放大成寿命模型的原因。
 
 **接触时间 EBCT**：
 
@@ -119,7 +126,7 @@ related:
 
 ### 1）化学上的三方不可判定
 
-Tier-1 锚点 Yiin / Walker / Margerum (1987) 报告 NH₂Cl + 亚硫酸根的反应为 general-acid-assisted 且**强烈依赖 pH**：pH 8.5 时亚硫酸氢钠「无效」，pH 4.0 时很快。**两份新数据都没有报告 pH。** 报告无法区分三种情形：
+Tier-1 锚点 Yiin / Walker / Margerum (1987) 报告 NH₂Cl + 亚硫酸根的反应为 general-acid-assisted 且**强烈依赖 pH**：pH 8.5 时亚硫酸氢钠「无效」，pH 4.0 时很快。**两份新数据都没有报告 pH**（2026-10-28：KES 一方那份已退出氯胺证据；供应商那份的这一缺陷依然成立）。报告无法区分三种情形：
 
 1. **测试在酸性 pH 下进行** → 化学真实，与 Yiin 1987 完全一致，但对 pH 7.5–8.5 的市政水**零信息量**。
 2. **测试在中性–碱性 pH 下进行且效应真实** → 这将真实地与 Yiin 1987 在 CaSO₃ 层面冲突（可能源于多孔球体表面催化或微量金属催化），但未获证明。
@@ -183,6 +190,99 @@ Tier-1 锚点 Yiin / Walker / Margerum (1987) 报告 NH₂Cl + 亚硫酸根的�
 
 ---
 
+## 2026-10-15 追记：第三个数据点，且挑战物身份错误
+
+> 增量来源：[来源摘要｜氯胺T 实测报告评估（2026-10-15）](./bathtub-filter-chloramine-T-measurement-2026-10-15.md)｜[raw pass](../../raw/products/bathtub-filter/2026-10-15-chloramine-T-measurement/pass.md)
+
+2026-10-15 又做了一次 KES 一方 bench test，报告**无氯胺去除**（读数不降：0.5–1 ppm 起，356 L / 712 L / 1068 L 均为 1 ppm；19 L/min，29 °C，总氯比色卡）。
+
+**但这个数据点不能算作「第三次观测」，因为挑战物身份错了。** 试剂是**氯胺 T**（CAS 127-65-1，N-氯对甲苯磺酰胺钠，**固体缓释消毒剂**，水中水解生成 HOCl），**不是一氯胺**（CAS 10599-90-3，NH₂Cl）。它测的是**游离氯去除**——而那件事 KES 已在 2026-03-20 测得 84–90%，本次「无下降」反而与自有数据冲突（指向旁通/取样/读数错误）。
+
+### 因此，本页第 2 项数据点的物种身份需要回查
+
+上文 §2 记录的 2026-10-09 KES bench test，挑战液口径写的是「4 ppm 氯胺」，**未写明物种**。
+
+> ⚠️ **待办（2026-10-15 新开）**：向该次测试的操作者书面确认所用试剂是**一氯胺标准液**，还是**氯胺 T**。若是后者，则该次「接近 0」的结果同样是游离氯去除，而非氯胺去除 —— 那么本页的「矛盾事件」就**根本不是矛盾事件**，而是**两次同向的自由氯观测**，且氯胺方向上至今零数据。
+
+这一条不改变本页的任何裁定（Section 6 立场、禁区、A-14 全部不变），但它可能**抽掉矛盾事件本身的事实基础**。在试剂身份确认前，「两个方向相反的观测」这个表述应视为**待验证**。
+
+### 状态小结（2026-10-15）
+
+| 项 | 状态 |
+|---|---|
+| 本页裁定（CaSO₃ 保持 ⚠️ 未验证、禁区、A-14） | **全部不变** |
+| 「两个方向相反的观测」 | **待验证** — 10-09 的试剂身份未确认 |
+| 可解释的受控 CaSO₃ × 氯胺数据点 | **仍为 0 个** |
+| 新增方法学要求 | 加标试剂身份须书面确认；照片比色数据不得跨图比较（见 [[bathtub-filter-validation-testing-protocol]] Module 7）|
+
+> **状态更新：本节列出的待办已于 2026-10-28 结案** —— 试剂身份回查结论为「不可确认」，该数据点退出氯胺证据。见下节「2026-10-28 追记」。
+
+---
+
+## 2026-10-28 追记：试剂身份回查完成 —— 本页的一半证据退场
+
+> 增量来源：[raw pass｜2026-10-09 KES bench test 加标试剂身份回查](../../raw/products/bathtub-filter/2026-10-28-caso3-2026-10-09-reagent-identity-check.md)｜[照片归档](../../raw/products/bathtub-filter/2026-10-09-caso3-chloramine-bench-test-photos/README.md)
+>
+> 工单来源：`ops/verification-queue.md` 中 2026-10-15 开出的**高优先级**条目「（跨页）2026-10-09 KES bench test 试剂身份」。
+
+### 答案不是「是氯胺 T」或「是一氯胺」，而是「不可确认」
+
+2026-10-28 按工单做了三件事：① 找回 2026-10-09 的**原始钉钉会话**；② 把三张一手照片**首次归档进 raw**；③ 检索 2026-08→10 全部 IM 中关于挑战液配制、试剂、标液的记录。
+
+**结论：没有任何记录能确认那次挑战液是什么物种。**
+
+| 证据 | 内容 | 来源 |
+|---|---|---|
+| 操作者自述（10-12 14:15） | 「我们自己测试氯胺是可以过滤的（**用其他方法配比出来的，没有实验室氯胺标液准，也有可能我们配出来的是错误**）」| 单聊 Kenny Mai ↔ 麦家浚 |
+| KES 内部唯一有记录的「氯胺」试剂 | 「氯胺（**用氯胺T去配2ppm**）」——10-14 测试方案 | 同上 |
+| 操作者自述（10-14 11:17） | 「**这个氯胺是无法确认是一氯胺还是什么**」，并把对外口径收缩为 free chlorine only | 同上 |
+| 物证 | 三张照片中**无试剂瓶 / 无 CAS / 无配比**；试管手写只有容量标记 | 照片归档 |
+| 10-15 测试 | 试剂写明为**氯胺 T** | 同上 |
+
+### 裁定
+
+> **2026-10-09 的 KES 台架是一次「未确认物种的加标氯测试」。按 KES 内部唯一有记录的氯胺试剂（氯胺 T）与操作者自述，其去除去向推定为游离氯，而非氯胺。该数据点不得再作为氯胺证据引用。**
+
+**不说「已证明是氯胺 T」** —— 记录不支持这个强度。
+
+### 这一裁定改了什么
+
+| 之前 | 之后 |
+|---|---|
+| 「两个方向相反的观测」 | **该表述撤回**：只剩供应商报告一条 |
+| KES 一方 bench test =「最难解释的那一点」「支持假设的最强单点论据」 | **撤回**：它描述的若是游离氯去除，本就该近零——KES 2026-03-20 已自测 84–90%，**不构成任何稀罕性** |
+| KES 氯胺数据点 = 2 条观测 | **= 0 条**（唯一物种写明的是供应商报告，但其自带衰减混淆、无 pH、去除率反算） |
+| 「照片序列内部矛盾」 | **撤回**（是误判；照片与协议逐张对应）——见上文 §2 的更正 |
+| 「KES 一方 bench test（2026-10-09）」 | **实测 ≤2026-09-24**，10-09 是汇报日（同一批照片 md5 逐张相同）|
+
+### 没有改什么
+
+**本页裁定全部不变**：CaSO₃ × 氯胺格维持 **⚠️ 未验证**；claim **禁区维持**；假设 **A-14** 不变；Version A 寿命模型不变；Tier-1 化学（Yiin 1987）未被推翻。
+
+**为什么 ⚠️ 仍然成立（而不是退回 ❌）**：Gap 2 原文承认「The expected ineffectiveness is **inferred**」——把「没找到数据」当反面证据，这一步确实无效。而供应商 `ZONET20230707001` 仍是一条**物种写明**（一氯胺 / `三氯铵`）的正向观测，尽管它无 pH、无对照、无方法、无检出限、进水自衰减 −26%、去除率列为反算。**一条不足以支撑宣称，但足以说明「不是已知无效」。**
+
+### 顺带回答了组织一直在问的第三方检测问题
+
+10-12 11:57 麦家浚给出实验室报价与口径：**广州微生物研究所按国标 `GB/T 5750.11-2023` 执行，「只能给出总氯胺，没有细分到一氯胺、二氯胺、三氯化氮」**；游离氯 800 元/点位、氯胺 1000 元/点位（另有全程加标 9000 / 10000 元、点加标 4000 / 5000 元两档）。
+
+**含义**：**国标路线给的是「总氯胺」，不物种拆分** —— 即便花钱做国标氯胺测试，**依然无法证明测的是一氯胺**。Module 7 所需的 **DPD 自由/化合区分 + 离子色谱测 Cl⁻ 是国标之外的加项**，询价时必须单独写明，否则会拿到一份「总氯胺」数字而误当作物种确认。已写入 [[bathtub-filter-validation-testing-protocol]] Module 7。
+
+### owner 答复（2026-10-28，当日）
+
+**① 接受裁定。** 10-09 台架**正式退出氯胺证据**；本裁定（CaSO₃ 氯胺格 ⚠️ 未验证、claim 禁区、A-14 不变）生效。**KES 自有的物种确认氯胺数据点 = 0**，作为后续一切氯胺讨论的事实前提。
+
+**② 包装与电商页面确认无「除氯胺 / chloramine removal / 秒去」字样在流通。** 配合本轮 wiki 内巡检（`site/` 页面与 claim 台账口径为**禁**）—— **对外文案无改动需求**，本次裁定反而**加强**了这条禁令的依据。
+
+**仍开放的两项事实性问题**（不是裁定的一部分，需补事实而非补判断）：
+
+| # | 事项 | 归属 |
+|---|---|---|
+| ③ | 2026-09-24「可以讲，直接亚硫酸钙即可，无需要 ACF」这个架构结论是否重审 —— 其唯一支撑即被降级的照片，**证据基础已空** | 产品侧（本次未改任何架构页）|
+| ④ | 2026-10-12「亚硫酸钙量只有 20g 左右（拆样板所见）」与台架 130 g、V1 BOM 110 g 是否同一对象（取数口径问题，**本次不据此改动任何计算**）| 产品侧 |
+| ⑤ | Module 7 排期与询价口径（规格已更新，含「物种拆分是加项」提示与 2026-10 报价锚点）| strategy |
+
+---
+
 ## Affected pages
 
 | 页面 | 本次处理 |
@@ -198,11 +298,27 @@ Tier-1 锚点 Yiin / Walker / Margerum (1987) 报告 NH₂Cl + 亚硫酸根的�
 | `ops/verification-queue.md` | 新增矛盾事件条目（high stakes）|
 | `index.md` / `log.md` | 索引与日志 |
 
+### 2026-10-28 试剂身份回查的受影响页面
+
+| 页面 | 本次处理 |
+|---|---|
+| `raw/products/bathtub-filter/2026-10-28-caso3-2026-10-09-reagent-identity-check.md` | **新建** —— 证据链、裁定、影响面、留给 owner 的问题 |
+| `raw/products/bathtub-filter/2026-10-09-caso3-chloramine-bench-test-photos/` | **新建** —— 三张一手照片首次入 raw + 溯源 README（md5 显示与 09-24 群内同发图逐张相同）|
+| `raw/products/bathtub-filter/2026-10-09-caso3-chloramine-contradiction-pass.md` | 加「更正记录（2026-10-28）」：数据点退出氯胺证据、照片误判撤回、实测日期口径修正 |
+| `wiki/products/bathtub-filter/bathtub-filter-chloramine-media-research.md` | §3.5 标题与正文（「两个观测」→「一条」+ 撤回最强论据）、§6 汇总表 CaSO₃ 行、§7 Gap 2 / Gap 6、§8、Sources |
+| `wiki/products/bathtub-filter/bathtub-filter-evidence-bibliography.md` | E7 重新定性（氯胺证据 → 物种不可确认的自由氯路径推定）；E6 补注 |
+| `wiki/products/bathtub-filter/bathtub-filter-claim-register.md` | status note 加 2026-10-28 追记；禁区行理由同步收紧 |
+| `wiki/playbooks/bathtub-filter-validation-testing-protocol.md` | Module 7：前提修正（只剩一份数据）、新增「国标只给总氯胺」的加项提示与成本锚点、新增「标称浓度必须由物种特异性方法读出」现场纪律 |
+| `ops/verification-queue.md` | 高优先级工单结案 + 遗留条目重写 |
+| `ops/ingestion-registry.md` | 新增本次回查行；10-15 行 next_action 更新 |
+| `index.md` / `log.md` / `dashboards/recent-updates.md` | 索引、日志、看板 |
+
 ---
 
 ## Sources
 
 - 原始提取：[2026-10-09-caso3-chloramine-contradiction-pass.md](../../raw/products/bathtub-filter/2026-10-09-caso3-chloramine-contradiction-pass.md)
+- **2026-10-28 试剂身份回查**：[2026-10-28-caso3-2026-10-09-reagent-identity-check.md](../../raw/products/bathtub-filter/2026-10-28-caso3-2026-10-09-reagent-identity-check.md)｜[照片归档与溯源](../../raw/products/bathtub-filter/2026-10-09-caso3-chloramine-bench-test-photos/README.md)
 - 供应商报告 `ZONET20230707001`，淄博宗立新材料科技有限公司，2023-07-13 完成 — 本地文件 `/Users/moltbot/Downloads/宗立测试-一氯胺及三氯铵 50g亚硫酸钙球.docx`
 - [Onlyzone 供应商材料证据 2026-04-17](./bathtub-filter-onlyzone-supplier-material-evidence-2026-04-17.md) — 供应商实验室身份、CaSO₃ 堆积密度 0.9–1.1 g/cm³、SKU 映射、`ZONET20251113001`
 - Yiin BS, Walker DM, Margerum DW. "Nonmetal redox kinetics: general-acid-assisted reactions of chloramine with sulfite and hydrogen sulfite." *Inorganic Chemistry.* 1987;26(21):3435–3441 — DOI 10.1021/ic00268a006

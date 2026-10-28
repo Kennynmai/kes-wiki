@@ -100,7 +100,7 @@ Reported by KES product side with three photographs of a 总氯比色卡 (total 
 2. **"原水" (raw water, pre-filter)** — sample tube reads essentially colourless / faint, against the card; caption "原水" (raw water).
 3. **Effluent** — sample tube reads colourless against the card; caption "经过亚硫酸钙130g, 24L/min, 60s".
 
-> **Caution on photo 2:** the second photo is captioned 原水 ("raw water") yet shows a *clearer* sample than the first, which is captioned 4 ppm 绿氨水. These two captions cannot both describe the same water. The photograph order is ambiguous and should not be relied on as before/after evidence. Treat only the reported protocol numbers as usable, not the photo sequence.
+> **Caution on photo 2 (2026-10-28 已撤回并改写，见文末「更正记录」）:** the second photo is captioned 原水 ("raw water") yet shows a *clearer* sample than the first, which is captioned 4 ppm 绿氨水. These two captions cannot both describe the same water. The photograph order is ambiguous and should not be relied on as before/after evidence. Treat only the reported protocol numbers as usable, not the photo sequence.
 
 ### What the test does and does not establish
 
@@ -247,6 +247,43 @@ That is an **inference from absence of data presented as a measured negative**. 
 - **SKU mismatch:** 50 g at **2–3 mm** is the `ZONE-CL-A01 Gen-4` size band. KES Version A uses `ZONE-CL-A02 Gen-3` **3–4 mm** at 130 g. Different generation, different size band, different mass, different SKU.
 - **Flow regime mismatch:** the vendor test is a shower/handheld regime (3–5 L/min). KES Version A is a bath-fill device (15–30 L/min, 18–25 L/min typical). The vendor's slower, longer-contact regime is **more favorable** than KES's design point.
 - **Analyst traceability:** ZONET20230707001 has no machine-readable 测试 / 批准 names. ZONET20251113001 does (马艳华 / 陈加森). Traceability for this report is weaker.
+
+---
+
+## 更正记录（2026-10-28）— 试剂身份回查结果
+
+> 触发：`ops/verification-queue.md` 中 2026-10-15 开出的高优先级工单「2026-10-09 KES bench test 试剂身份」。
+> 完整证据链与裁定：[2026-10-28-caso3-2026-10-09-reagent-identity-check.md](./2026-10-28-caso3-2026-10-09-reagent-identity-check.md)
+
+### 一、本 pass 的两个数据点之一（KES 一方 bench test）**退出氯胺证据**
+
+原记录只写「4 ppm 氯胺」，未写物种。2026-10-28 回查结论：
+
+| 项 | 结论 |
+|---|---|
+| 试剂身份 | **不可确认**。全库与钉钉会话均无试剂名 / CAS / 配比 / 采购记录；操作者 2026-10-12 自述「用其他方法配比出来的，没有实验室氯胺标液准，**也有可能我们配出来的是错误**」 |
+| 推定 | KES 内部唯一有记录的「氯胺」试剂是**氯胺 T**（2026-10-14 方案 + 10-15 报告）；操作者 10-14 亦自述「这个氯胺是无法确认是一氯胺还是什么」。故该次去除去向**推定为游离氯** |
+| 结论 | 该结果**不得再作为氯胺证据引用**；对氯胺**零信息量**。本 pass 中「这是最难解释的一点」「是支持假设的最强单点论据」等表述**一并撤回** |
+
+**连带撤回**：本页「This is a contradiction event, not a gap fill」与「两个独立观测指向与 wiki 立场相反的方向」中，属于 KES 一方 bench test 的那一半**不再成立**；矛盾事件现在**只剩供应商报告一条**支撑。
+
+### 二、「照片序列内部矛盾」是误判，予以撤回
+
+原判断（第二张标「原水」却比第一张「4 ppm 绿氨水」更清澈 → 「两个标签不可能描述同一份水」）**推理错误**：原水是未加标的自来水（操作者 10-14 自述「我们这边的自来水是 0.几，基本上不显色」），本来就该无色；4 ppm 加标液为粉红；出水为无色。**三张照片与所述协议逐张对应，不存在矛盾。**
+
+保留的真实限制（第 2、3 张均无色，目视分不出哪张是原水、哪张是出水）：**照片仍不能单独证明 before/after**——但原因是「分不出来」，不是「标注自相矛盾」。
+
+### 三、测试日期口径修正
+
+三张照片与 2026-09-24「花洒过滤芯开发项目组」发出的三张**md5 逐张相同**，且当日结论为「亚硫酸钙对氯胺效果非常明显」「可以讲，直接亚硫酸钙即可，无需要 ACF」。故：**本台架实测发生在 ≤2026-09-24；「2026-10-09」是汇报日，不是测试日。**
+
+### 四、原始照片首次入库
+
+`raw/products/bathtub-filter/2026-10-09-caso3-chloramine-bench-test-photos/`（三张原图 + 溯源 README）。
+
+### 五、本页未被推翻的部分
+
+Tier-1 化学（Yiin 1987）未被推翻；供应商报告的衰减混淆、去除率反算、`三氯铵` 命名风险、Module 7 受控测试规格**全部独立成立**。**产品结论零变化**：CaSO₃ 氯胺格维持 ⚠️ 未验证、claim 禁区维持、假设 A-14 不变。
 
 ---
 

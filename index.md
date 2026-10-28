@@ -341,6 +341,12 @@
 - [Amazon 10-ASIN Project Market Survey 2026-04-22](wiki/source-summaries/bathtub-filter-amazon-10-asin-project-market-survey-2026-04-22.md)
 - [Atmospheric Vacuum Breaker (AVB) Component Scan 2026-05-18](wiki/source-summaries/atmospheric-vacuum-breaker-avb-component-scan-2026-05-18.md)
 - [CaSO₃ × Chloramine Contradiction Event 2026-10-09](wiki/source-summaries/bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09.md)
+- [Chloramine-T Measurement Assessment 2026-10-15](wiki/source-summaries/bathtub-filter-chloramine-T-measurement-2026-10-15.md)
+
+### Raw Passes — Bathtub Filter Chloramine Line
+- [2026-10-09 — CaSO₃ × chloramine contradiction pass](raw/products/bathtub-filter/2026-10-09-caso3-chloramine-contradiction-pass.md) — 含 2026-10-28 更正记录
+- [2026-10-15 — chloramine-T measurement pass](raw/products/bathtub-filter/2026-10-15-chloramine-T-measurement/pass.md)
+- [2026-10-28 — 2026-10-09 bench test 加标试剂身份回查](raw/products/bathtub-filter/2026-10-28-caso3-2026-10-09-reagent-identity-check.md) — 裁定：物种不可确认 → 该数据点退出氯胺证据｜[三张一手照片归档](raw/products/bathtub-filter/2026-10-09-caso3-chloramine-bench-test-photos/README.md)
 
 ### Academic Paper Summaries — Water / Skin / Eczema
 - [Bergera 2025 — Hard vs Chlorinated Water (preprint)](wiki/source-summaries/bathtub-filter-paper-bergera-2025-hard-vs-chlorinated-water-preprint.md)

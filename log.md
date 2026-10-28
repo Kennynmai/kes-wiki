@@ -391,3 +391,127 @@ Example:
   Same-day clarification by 张艳娟 corrected the recorded scope of the 2026-10-09 Wayfair change. Three corrections: (1) `WF` is confirmed to mean Wayfair, no longer an inference; (2) what is cancelled is the **DingTalk push** for 【新任务分配——促销开始前 24h】, not the task or the operator action itself; (3) the coupon / Deal activation check after promo start is **retained** as an optional manual spot-check, not removed.
 
   This materially lowers the risk profile of the change versus the first capture, which had read as a removal of promo activation supervision. The page was rewritten rather than patched in place at the decision level, because the alternatives and risk sections had been written against the wrong scope: the remaining exposure is that promo start timing now has no system reminder (operator scheduling only) and that a spot-check with no agreed frequency or owner is effectively unobservable and may decay to zero.
+## [2026-10-15] capture | 氯胺T 实测报告（实测氯胺20261015.pdf）收入与评估
+- source: raw/products/bathtub-filter/2026-10-15-chloramine-T-measurement/（原始 PDF + 9 张提取图 + 2 个分析脚本）
+- updated: raw/products/bathtub-filter/2026-10-15-chloramine-T-measurement/pass.md (new); wiki/source-summaries/bathtub-filter-chloramine-T-measurement-2026-10-15.md (new); wiki/products/bathtub-filter/bathtub-filter-chloramine-media-research.md (§3.5 第三数据点、§7 Gap 6 补注、§8 新增不可支撑项); wiki/products/bathtub-filter/bathtub-filter-disinfectant-types-and-media-guide.md (§1b-bis 新增「氯胺 T ≠ 一氯胺」物种辨析); wiki/source-summaries/bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09.md (2026-10-15 追记节); wiki/playbooks/bathtub-filter-validation-testing-protocol.md (Module 7 加标试剂身份前置项 + 照片比色禁跨图); ops/ingestion-registry.md; ops/verification-queue.md
+- status: unverified
+- notes: |
+  用户任务：收入该 PDF 并评估过滤氯胺的有效程度。
+
+  **结论：这份报告无法评估氯胺去除，且挑战物身份很可能就错了。** 三条定性：
+  1. 读数**不降反升** —— 初始 0.5~1 ppm，356L / 712L / 1068L 均为 1 ppm。零净去除证据。
+  2. **试剂是「氯胺 T」不是「一氯胺」。** 氯胺 T（CAS 127-65-1，N-氯对甲苯磺酰胺钠）是**固体缓释消毒剂**，在水中缓慢水解生成**次氯酸 HOCl**；一氯胺（CAS 10599-90-3，NH₂Cl）才是市政水真实结合氯。西语维基明确警告「no debe ser confundida con monocloramina」。据此推断：本次实际测的是**游离氯去除**，而亚硫酸钙对游离氯 KES 已自测 84–90%（2026-03-20，5 ppm，16.5–30 L/min）——「无下降」反而与自有数据冲突，指向旁通/取样/读数错误。
+  3. **照片比色数据跨图不可用。** 我对 9 张内嵌图做了 CIE-Lab 分析：同一块印刷标准色块（0.1 mg/L 格）跨 5 张照片 ΔE 达 3–30（人眼可辨阈值 ΔE≈2.3，明显不同色 >5）。五张照片分别在室内灯/室外阴影/直射日光下拍摄，曝光与白平衡严重不一致 —— 所谓「上升趋势」很可能只是光照差异。此项不依赖 ROI 标定，稳健。
+
+  **工程量级**：19 L/min，1,068 L 全程仅 56 分钟。EBCT ≈ 0.37–0.46 s（假设 CaSO₃ 130 g），约为催化炭固相除氯胺门槛（EBCT ≥ 4–5 min）的 **1/600–1/800** —— 即便介质有活性，此工况也天然倾向「无净去除」，属证明力弱的设计选择。容量利用率 2.9–3.5%，仍是「存在性证明」而非寿命数据。
+
+  **口径矛盾**：报告称配制 2 ppm，自来水总氯 0.1 ppm，但首个读数即 0.5–1 ppm，差 2–4 倍。无论怎么解释，五点若全为出水则缺配对进水，若「初始」为进水则与标称矛盾 —— **算不出有意义的去除率**。
+
+  **这次真正变了什么**：产品结论零变化（CaSO₃ 氯胺格维持 ⚠️ Untested、claim 禁区维持、A-14 不变）。变化的是方法学层面新增一条要求 —— **加标试剂的物种身份必须在投加前书面确认 CAS**。并引出一个**高优先级回查项**：2026-10-09 那次 KES bench test 记录为「4 ppm 氯胺」未写明物种，若同为氯胺 T，则那份「矛盾事件」的判定可能根本不是矛盾，而是两次同向的自由氯观测 —— 氯胺方向上至今为零数据。确认前「两个方向相反的观测」应视为待验证。
+
+  **自我标注**：逐点 Lab 反推浓度（0.50/2.00/1.94/1.00/0.50 mg/L）与报告标注不一致，但 ROI 为目视标定、像素精度有限，**该组数值不可单独引用**；页面已标注。稳健的只有跨图同色块色差与色卡区间分辨率不足两条结构性事实。
+
+## [2026-10-15] maintain | 氯胺T 摘要自查降级 — 撤回「最稳健」标注
+- source: 对 2026-10-15 本人 ingest 产物的复核（同事转述原结论要求评价）
+- updated: wiki/source-summaries/bathtub-filter-chloramine-T-measurement-2026-10-15.md (§3.1 加自查修正记录 + 降级标题); raw/products/bathtub-filter/2026-10-15-chloramine-T-measurement/pass.md (§3.1 同上 + 方法学教训); wiki/products/bathtub-filter/bathtub-filter-chloramine-media-research.md (§3.5 加 correction 框); ops/verification-queue.md; raw 目录追加 cea_audit.py / cea_audit3.py / card_712L.png
+- status: working
+- notes: |
+  同事转述了我 19:00 那轮结论并要求评价。复核中发现**我自己标注为「最稳健」的那一条是错的**，现予撤回。
+
+  **错误内容**：我曾称「同一标准色块跨 5 图 ΔE 达 3–30，此条不依赖 ROI，最稳健」。这个「不依赖 ROI」的判断是错的 —— 它只是看起来不依赖。
+
+  **四个系统性缺陷**（全部由复核发现）：
+  1. p2_2 色卡 ROI **落在手的阴影里** → ΔE=30 主要反映阴影几何，不是白平衡。
+  2. 印刷色块是**倾斜的平行四边形**（卡片有透视），而我的采样框是固定矩形 → 固定 x 带随 y 漂移出块外。
+  3. 采样 y 带**跨到色块下方的数字标签**，黑字拉低 L* → 造出「阶梯非单调」假象。
+  4. **重做两版修正均失败**。v2：全部 5 图非单调，连肉眼最清晰的 712L 也失败。v3：掩膜本身有效（63,245 px）但**分组只得 4 组而非 7 组** —— 透视倾斜使相邻色块在列投影上连成一片。**这不是可修的 bug，是照片比色的根本困难。**
+
+  **仍然成立的是什么**：在肉眼最清晰的 712L 图上，「跨图同一色块 L* 差 3–30」对「同图内相邻色块 L* 差 0.13–5.88」—— **跨图扰动比相邻色阶差大一个量级，误差远大于信号**。这条量级关系才是依据；**具体 ΔE 数值不再引用**。定性结论（五张照片不同光源 + 明显透视 → 不可跨图比色）不需要数字也成立。
+
+  **纪律教训（比原结论更重要）**：用手机照片做定量比色，需同时满足「固定光源 + 固定色温 + 正对拍摄消透视 + 同帧含标准卡」，本测试一条都不满足。**照片比色只能作现场预读，不能作证据** —— 这与 2026-03-20 内部比色被判定「不可作第三方可核查证据」是同一条纪律，这次连预读都不可靠。
+
+  **三条主结论未变**：① 读数不降反升（此条引自报告自身标注，不依赖我的像素分析）；② 氯胺 T ≠ 一氯胺，对氯胺零信息量（化学事实，三个独立来源）；③ EBCT ≈ 0.4 s 属证明力弱工况。**产品结论依旧零变化**：CaSO₃ 氯胺格维持 ⚠️ 未验证、禁区维持、A-14 不变。
+
+  **自省**：我在第一轮把一条「看起来不依赖 ROI」的结论主动标成「稳健」，这比不做标注更危险 —— 它把一个未验证的定量结果包装成了可靠论据。**标注「稳健」本身需要比结论更强的证据。**
+
+## [2026-10-28] maintain | 氯胺 T 物种辨析节表述口径复核 —— 一处引语撤回、一处数值收紧、配比补引
+- source: ops/verification-queue.md 第 17 行工单（disinfectant-types-and-media-guide §1b-bis 表述口径确认）
+- updated: wiki/products/bathtub-filter/bathtub-filter-disinfectant-types-and-media-guide.md (§1b-bis 表 + 规则 + 复核记录 + Sources); wiki/products/bathtub-filter/bathtub-filter-chloramine-media-research.md (第三数据点表 + 引语 + Tier 2 新增来源 #26–#33); wiki/source-summaries/bathtub-filter-chloramine-T-measurement-2026-10-15.md (§2 表 + 更正记录 + pH 表述 + Sources); raw/products/bathtub-filter/2026-10-15-chloramine-T-measurement/pass.md (§2 表 + 2026-10-28 更正记录 + 来源分级); wiki/playbooks/bathtub-filter-validation-testing-protocol.md (Module 7 加标试剂身份行 + 来源补录); ops/verification-queue.md
+- status: working
+- notes: |
+  工单性质：§1b-bis 是 2026-10-15 新增的领域知识条目，此前只记录了「CAS / 水解 / pH 8–10 三项来自公开来源」，**没有逐项核过来源**。本轮逐项核，结论是「**物种身份结论成立，但三条支撑表述里有两条不能用**」。
+
+  **一、撤回一条无法归属的引语（最严重）**
+  原文引用西班牙语维基：*「como antiséptico — no debe ser confundida con monocloramina」*，并当作「西语维基直接警告」写入 4 个页面（media guide、chloramine-media-research、source-summary、raw pass.md）。2026-10-28 复核：es.wikipedia MediaWiki `insource` 全文检索 0 命中，**全网精确短语检索同样 0 命中** —— 该句在 es.wikipedia 上不存在，来源无法归属。已删除，替换为该条目实际表述：*«La Cloramina-T se denomina cloramina, pero es realmente una sal (CH₃C₆H₄SO₂NClNa) derivada de una cloramina.»*（氯胺 T 虽名为氯胺，实为氯胺衍生盐）。**这条引语承载的结论方向没错，但它证明不了任何事 —— 一句查不到的引语比没有引语更糟。**
+
+  **二、pH「8–10」收紧为「pH 通常约 8.5」**
+  en.wikipedia 原文是 "slightly basic (pH typically 8.5)"；「8–10」来自科普中国（二级来源），**本次未能核到原文**。两处（media guide 表、media research 表、source-summary 表、raw pass.md 表、playbook Module 7、source-summary 缺口表第 4 行）统一改为 pH ≈ 8.5，并注明 8–10 属未核原文的二级来源。
+
+  **三、CAS 与分子式补一手登记**
+  PubChem PUG REST 核到：CID 3641960 = Chloramine-T（CAS 127-65-1，C₇H₇ClNNaO₂S，MW 227.64，三水合物 7080-50-4）；CID 25423 = Monochloramine（CAS 10599-90-3，ClH₂N，MW 51.47）。「水中水解生成次氯酸」改引 de.wikipedia（"In wässriger Lösung entsteht Hypochlorit durch Hydrolyse"）+ BenchChem 厂商协议，删去一句并非英文维基现行表述的伪引文（"In water, it breaks down to the disinfectant hypochlorite."）。
+
+  **四、配比核完发现是对的 —— 但当时没有引用**
+  「Cl₂:NH₃-N = 4.5:1~5:1 现场配比」我一开始判定方向反了（准备改写），**复核后确认它是正确的**：In-Situ / ChemScan 给出最优 Cl₂:NH₃-N = 4.5:1、水厂常规 3:1–5:1、> 5:1 才向二氯胺/三氯胺偏移；Snoeyink & Jenkins（经 Curry & Associates 2015/2023 引用）给出化学计量 5.06 mg Cl₂ : 1 mg NH₃-N；Halogen Systems 给出配比 4.5:1–5:1 与 pH 窗口（6.5–8.5 一氯胺占优，< 7 偏向二氯胺/三氯胺）。**教训：几乎要"修"掉一个正确的操作指引，只因为它当时没有引用。** 现已补引用，并加一条硬要求：配好后必须用 DPD 法分别测游离氯与一氯胺确认物种，配比、pH、读数写入测试记录。
+
+  **五、撤回一个夸大措辞**
+  raw pass.md 原写「由 3 个独立来源交叉确认」——实际是 1 个英文维基 + 1 个中文科普二级来源 + 2 个镜像/AI 百科（11467、grokipedia）。**物种身份结论不变**（氯胺 T ≠ 一氯胺，且现在有 PubChem 一手登记支撑），但"交叉确认"的措辞撤回。这是 2026-10-15 19:20 那次自查之后**第二类**同类错误：把"引用了若干网页"说成"独立交叉验证"。
+
+  **产品结论零变化**：CaSO₃ 氯胺格维持 ⚠️ Untested、claim 禁区维持、A-14～A-19 不变。**2026-10-09 bench test 试剂身份回查工单不在本条范围内**（那是队列里更新的另一条，单独处理）。
+
+  **剩余**：§1b-bis 的**最终表述口径仍待产品负责人 sign-off**（本轮只能做到"事实层核到一手来源 + 措辞收紧"，agent 不能替代 owner 确认）→ 保留在 ops/verification-queue.md。
+
+## [2026-10-28] maintain | 照片比色数值降级的全库生效核查 —— 降级当时并没有全库生效
+- source: ops/verification-queue.md 第 16 行工单（2026-10-15 pass.md 自查降级复核）
+- updated: wiki/products/bathtub-filter/bathtub-filter-chloramine-media-research.md (§3.5 正文段落); wiki/source-summaries/bathtub-filter-chloramine-T-measurement-2026-10-15.md (§3.1 / §3.2 / TL;DR 第 3 条 / §5 缺口表第 9 行); wiki/playbooks/bathtub-filter-validation-testing-protocol.md (Module 7 附带发现); raw/products/bathtub-filter/2026-10-15-chloramine-T-measurement/pass.md (§3.1 表头 / §3.2 / 自查修正记录第 1 条 / §5 缺口表第 9 行); ops/ingestion-registry.md (bf-2026-10-15-chloramine-T 行 officiality_impact); ops/verification-queue.md
+- status: working
+- notes: |
+  工单问的是：2026-10-15 19:20 那次自查把像素级 Lab 比对降级、宣布「具体 ΔE 数值不应引用」之后，**这个撤回到底在全库生效了吗？**
+
+  **结论：没有生效。** 降级声明只写在 raw pass.md 与 source-summary §3.1 内部，**4 处仍在把已撤回的具体数值当证据用**：
+  1. `bathtub-filter-chloramine-media-research.md` §3.5 正文（"differs across the five photographs by ΔE 3–30"）—— 而它自己下一段的更正框写着"The specific ΔE numbers should not be cited"，**同一页内自相矛盾**；
+  2. `source-summaries/...-2026-10-15.md` TL;DR 第 3 条（「跨图 ΔE 达 30」）；
+  3. 同页 §5 方法学缺口表第 9 行（「ΔE 达 30」）；
+  4. `playbooks/bathtub-filter-validation-testing-protocol.md` Module 7 附带发现（「跨图 ΔE 达 3–30」）；
+  5. 另加 `ops/ingestion-registry.md` 该行 officiality_impact 也写着「ΔE 达 3–30」—— **登记表是最容易被下游当成事实引用的地方**。
+
+  **处理**：逐处改为只保留两条结构性事实 —— ① 跨图差异量级远大于同图相邻色阶差（约一个量级）；② 色卡 0.1–1 ppm 区间分辨率不足。raw 归档里的数值表**保留但加「已撤回数值·仅供审计，不得引用」抬头**，并保留撤回原因记录（审计需要看到撤回过程，但不让数字继续流通）。§3.2 的逐点 Lab 反推值同样标注撤回。
+
+  **顺手补一条来源**：人眼辨色阈值原文写「ΔE ≈ 2.3 刚好可辨；> 5 明显不同色；> 10–20 须并置」——其中 **2.3 = JND 是有出处的**（CIE76 ΔE\*ab ≈ 2.3，Wikipedia《Color difference》§CIE76），但 **"> 5 明显不同 / > 10–20 须并置"是无出处的经验阶梯**，已删除。现在只保留 2.3 这一个有源阈值，并明确标注它**与本次测量无关**（本次跨图差异的数值已撤回）。
+
+  **这次真正的问题不是数值错，而是「撤回」被当成了局部声明。** 撤回一个数字和撤回一个数字的**全部引用**是两件事：只在自己那页写一句「不应引用」，等于把风险外包给读者的自觉。**方法学纪律追加一条：撤回动作必须包含一次全库引用扫描（grep 级别），并把被撤回的值在登记表中一并替换。**
+
+  **产品结论零变化**（本工单只涉及方法学表述，不触及任何化学结论）。
+
+## [2026-10-28] maintain | 2026-10-09 bench test 试剂身份回查结案 —— 一份数据点退出氯胺证据，两处旧结论纠错
+- source: ops/verification-queue.md 第 18 行工单（高优先级：「（跨页）2026-10-09 KES bench test 试剂身份」）
+- updated: raw/products/bathtub-filter/2026-10-28-caso3-2026-10-09-reagent-identity-check.md (new); raw/products/bathtub-filter/2026-10-09-caso3-chloramine-bench-test-photos/ (new — 3 张一手照片 + 溯源 README); raw/products/bathtub-filter/2026-10-09-caso3-chloramine-contradiction-pass.md (2026-10-28 更正记录); wiki/source-summaries/bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09.md (顶部状态框 + §2 表补物种/日期行 + 照片说明更正 + 2026-10-28 追记 + Affected pages); wiki/products/bathtub-filter/bathtub-filter-chloramine-media-research.md (§3 状态框 / §3.5 标题与正文 / 2026-10-28 立场表 / §6 汇总表 / §7 Gap 2 与 Gap 6 / §8 / Sources); wiki/products/bathtub-filter/bathtub-filter-evidence-bibliography.md (E7 重新定性 + E6 补注); wiki/products/bathtub-filter/bathtub-filter-claim-register.md (2026-10-28 status note + 禁区行理由第三次收紧); wiki/playbooks/bathtub-filter-validation-testing-protocol.md (Module 7 前提修正 + 三条新硬门槛 + 报价锚点 + 优先级上调); ops/verification-queue.md; ops/ingestion-registry.md; index.md; dashboards/recent-updates.md
+- status: pending-owner-review
+- notes: |
+  工单问的是一件很具体的事：2026-10-09 那次 KES 台架记的是「4 ppm 氯胺」，**没写物种**。如果它用的是氯胺 T，那 2026-10-09 判定的「矛盾事件」就不成立，氯胺方向上至今零数据。
+
+  **答案不是「是氯胺 T」，也不是「是一氯胺」，而是第三种：不可确认。**
+
+  取证三步：① 找回 2026-10-09 的**原始钉钉会话**（11 条消息 + 3 张图）；② 把三张一手照片**首次归档进 raw**（此前只记了「verbal + photographic」，图根本没入库）；③ 检索 2026-08→10 全部 IM 中关于挑战液配制 / 试剂 / 标液的记录。
+
+  **决定性证据是执行人自己的话。** 麦家浚 2026-10-12 14:15：「我们自己测试氯胺是可以过滤的（**用其他方法配比出来的，没有实验室氯胺标液准，也有可能我们配出来的是错误**）」；2026-10-14 10:54：KES 的「氯胺」试剂就是「**用氯胺T去配2ppm**」；2026-10-14 11:17：「**这个氯胺是无法确认是一氯胺还是什么**」——并把对外口径收缩成 free chlorine only。
+
+  **裁定**：该台架是一次「未确认物种的加标氯测试」，按 KES 内部唯一有记录的氯胺试剂与执行人自述，**去除去向推定为游离氯**；**不得再作为氯胺证据引用**。措辞上刻意**不写**「已证明是氯胺 T」——记录不支持这个强度。
+
+  **连带三件事**
+  1. 「两个方向相反的观测」**撤回**；「KES 最难解释的那一点 / 支持假设的最强单点论据」**撤回** —— 若挑战物是游离氯，近零本就是 KES 自有数据（2026-03-20，5 ppm，16.5–30 L/min，**84–90%**）所预期的，**不构成稀罕性**。KES 物种确认氯胺数据点 = **0**。
+  2. **「照片序列内部矛盾」是误判，撤回。** 旧推理错在把「原水」和「4 ppm 加标液」当成必须同源的一份水 —— 原水是没加标的自来水（本来就该无色，执行人自己也说「我们这边的自来水是 0.几，基本上不显色」）。**三张照片与所述协议逐张对应。** 保留的真实限制更窄也更准：第 2、3 张都是无色、**目视分不出哪张是原水哪张是出水**，所以照片仍不能单独证明 before/after —— 但原因是「分不出来」，不是「标注自相矛盾」。
+  3. **实测日期口径修正**：三张图与 2026-09-24 群内同发图 **md5 逐张相同**，当日结论是「亚硫酸钙对氯胺效果非常明显」「**可以讲，直接亚硫酸钙即可，无需要 ACF**」。故实测发生在 **≤2026-09-24**，**10-09 是汇报日不是测试日**。
+
+  **顺手回答了组织一直在问的第三方检测问题**：实验室按国标 `GB/T 5750.11-2023` 执行，**只给总氯胺、不拆一氯胺/二氯铵/NCl₃** → **花钱做国标氯胺测试依然无法证明测的是一氯胺**，Module 7 需要的 DPD 自由/化合区分 + IC 测 Cl⁻ 是**国标之外的加项**，询价必须写明。报价锚点（2026-10）：游离氯 800 元/点位、氯胺 1000 元/点位；全程加标 9000/10000 元、点加标 4000/5000 元。
+
+  **产品结论零变化**：CaSO₃ 氯胺格维持 ⚠️ Untested、claim 禁区维持、A-14 不变、Version A 寿命模型不变、Tier-1 化学（Yiin 1987）未被推翻。**变化的是证据基数的清点与两处此前写错的表述。**
+
+  **⚠️ 为什么 ⚠️ 不退回 ❌**：Gap 2 原文承认「The expected ineffectiveness is **inferred**」—— 把「没找到数据」当反面证据，这一步确实无效；而供应商 2023 那份报告仍是一条**物种写明**的正向观测（尽管无 pH、无对照、无方法、无检出限、去除率反算）。**一条不足以支撑宣称，但足以说明「不是已知无效」。** 变的是支持假设的证据**条数**，不是它**是否存在**。
+
+  **方法学纪律再收紧一条**：原先写「投加前必须书面确认试剂 CAS」，现在升级为**准入门槛** —— 物种未经物种特异性方法确认的加标测试，**数据点直接作废**，不是「事后补个记录」。KES 三次自测（≤09-24 / 10-15 / 至今无）无一次确认过物种。另外新增一条现场纪律：**标称浓度必须由方法读出**——两次挑战液的标称值都比色卡读数高 2–4 倍（4 vs 1–2 区；2 vs 0.5–1 ppm），而稀释误差、配液后衰减、色卡读低三者均未排除。
+
+  **留给 owner（agent 不代答）**：① 是否接受「10-09 数据点正式退出氯胺证据」；② 09-24「直接亚硫酸钙即可、无需 ACF」这个架构结论（唯一支撑就是被降级的照片）是否重审；③ 10-12 所提「亚硫酸钙量只有 20g 左右」与台架 130 g / V1 BOM 110 g 是否同一对象；④ 运营确认包装与电商页无「除氯胺 / chloramine removal / 秒去」字样在流通（wiki 内 `site/` 与 claim 台账本轮已巡检，口径为禁、无冲突）；⑤ strategy 按 Module 7 新口径排期与询价。
+
+  **合规巡检结果**：wiki 内对外页面与 claim 台账当前口径均为**禁止氯胺宣称**，本次裁定反而**加强**了这条禁令的依据，**无需改动任何对外文案**。
+
+  **owner 答复（2026-10-28，当日）**：**① 接受** —— 裁定生效，10-09 台架正式退出氯胺证据，「KES 物种确认氯胺数据点 = 0」成为后续一切氯胺讨论的事实前提。**② 确认** —— 包装与电商页面**无「除氯胺 / chloramine removal / 秒去」字样在流通**。**仍开放三项**：09-24「直接亚硫酸钙即可、无需 ACF」架构结论是否重审（产品判断，证据基础已空，本次未改架构页）；10-12「亚硫酸钙只有 20g 左右」的取数口径（不据此改任何计算）；Module 7 排期与询价（规格已更新，排期决定待 strategy）。

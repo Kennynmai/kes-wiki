@@ -3,13 +3,13 @@ type: product
 status: draft
 owner: product
 created: 2026-04-17
-updated: 2026-10-09
+updated: 2026-10-28
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
 domains: [bathtub-filter, disinfectant, chlorine, chloramine, filtration-media, technology, claims, contradiction-event]
-source_count: 16
+source_count: 25
 review_cycle: monthly
 verification_status: spot-checked
 related:
@@ -72,6 +72,44 @@ NH₃ + HOCl → NH₂Cl（一氯胺）+ H₂O — 反应在投加后约 1 分�
 > 若为 (a)，则该报告最亮眼的一组数字（100%×4）对应的物种是 KES **已明确排除出产品模型**的（见上段）。若为 (b)，则该报告的氯胺分支整体不可用。
 >
 > **结论：在供应商书面澄清之前，该报告的「三氯铵」分支不得用于任何内部分析或对外表述。** 一氯胺分支不受此影响，可单独评估。详见 [[bathtub-filter-caso3-chloramine-contradiction-event-2026-10-09]]（source-summary）。
+
+### 1b-bis. ⚠️ 氯胺 T（Chloramine-T）**不是**一氯胺（2026-10-15 新增）
+
+中文语境下极易混淆的两个东西。**做加标测试时必须先分清。**
+
+| | **氯胺 T（Chloramine-T）** | **一氯胺（Monochloramine）** |
+|---|---|---|
+| CAS | **127-65-1**（无水盐；三水合物 7080-50-4） | **10599-90-3** |
+| 化学式 | C₇H₇ClNNaO₂S（MW 227.64） | NH₂Cl（MW 51.47） |
+| 本质 | N-氯对甲苯磺酰胺钠：**固体有机氯胺衍生物**（对甲苯磺酰胺的氯取代钠盐） | 氯 + 氨反应生成的**水中物种** |
+| 水中行为 | 溶于水后**水解生成次氯酸 HOCl / 次氯酸根**（反应性与次氯酸钠相近），以「活性氯 / 有效氯」形式缓释 | 本身即配水系统真实结合氯 |
+| 水溶液 pH | **弱碱性：pH 通常约 8.5** | 随配水条件 |
+| 用途 | 医疗 / 器械表面消毒（antiseptic / disinfectant）；饮用水与泳池消毒属供应商与行业口径 | 市政水二次消毒 |
+
+> 西班牙语维基百科《Cloraminas》条目的实际表述：*«La Cloramina-T se denomina cloramina, pero es realmente una sal (CH₃C₆H₄SO₂NClNa) derivada de una cloramina.»* —— 氯胺 T 虽名为「氯胺」，实为**由氯胺衍生的盐**。
+
+**为什么这页要专门写一节**：2026-10-15 的 KES bench test 投加的是**氯胺 T**，因此实际测的是「氯胺 T 缓释出的 HOCl 被亚硫酸钙还原」，即**游离氯去除**，而非一氯胺去除。而亚硫酸钙对游离氯的效果 KES 已自测为 84–90%，与该次「无下降」的读数直接冲突。
+
+**规则**：任何加标测试，**投加前必须书面确认试剂 CAS 号**。若目标是市政水氯胺，用一氯胺标准液，或次氯酸+氨按 **Cl₂:NH₃-N ≈ 4.5:1（质量比）** 现场配比，并**立即测 pH**：
+- 水厂常规投加区间 3:1–5:1；化学计量界限约 **5.06:1 Cl₂:NH₃-N**（低于 1:1 摩尔比时不应出现游离有效氯，即氨必须过量）。
+- **> 5:1 才向二氯胺 / 三氯胺偏移**；低于 4.5:1 会留下游离氨（带来硝化风险）。
+- pH **6.5–8.5** 为一氯胺优势区；**< 7 有利于二氯胺 / 三氯胺生成**，> 8 强烈偏向一氯胺。
+- 配好后必须用 DPD 法分别测**游离氯与一氯胺**确认物种，并把配比、pH、读数写进测试记录。
+
+详见 [[bathtub-filter-chloramine-T-measurement-2026-10-15]]（source-summary）。
+
+> ⚠️ **2026-10-28 表述口径复核（本节）**
+>
+> | 原表述 | 复核结果 | 处理 |
+> |---|---|---|
+> | CAS 127-65-1 / 10599-90-3 | ✅ 已核到一手登记：PubChem CID 3641960 = 127-65-1；CID 25423 = 10599-90-3 | 补录来源，并把三水合物 CAS 7080-50-4 写明 |
+> | 水溶液 pH「8–10（碱性）」 | ⚠️ **区间无来源支撑**：en.wikipedia 原文为 "slightly basic (**pH typically 8.5**)";「8–10」来自中文科普二级来源，未核到原文 | 改为「弱碱性：pH 通常约 8.5」，8–10 不再作为主口径 |
+> | 水中行为「缓慢水解 → HOCl」 | ✅ de.wikipedia：「In wässriger Lösung entsteht Hypochlorit durch Hydrolyse」；BenchChem 厂商协议：溶于水释放 HOCl | 保留，并补来源 |
+> | 引西语维基 *"como antiséptico — no debe ser confundida con monocloramina"* | ❌ **该句在 es.wikipedia 中检索不到**（API `insource` 检索 0 命中；全网精确短语检索 0 命中），来源无法归属 | 删除该引语，替换为 es.wikipedia 实际表述 |
+> | 「Cl₂:NH₃-N = 4.5:1~5:1 现场配比」 | ✅ **数字方向与量级正确**，但当时无引用：In-Situ 给出最优 Cl₂:NH₃-N = 4.5:1、常规 3:1–5:1；Snoeyink & Jenkins（经 Curry & Associates 引用）给出化学计量 5.06:1 | 补引用，并补 pH 区间与 DPD 物种确认要求 |
+> | 「3 个独立来源交叉确认」（原始 pass.md 措辞） | ⚠️ **夸大**：实际是 1 个 Wikipedia（en）+ 1 个中文科普二级来源 + 2 个镜像/AI 百科（11467、grokipedia） | 见 [[bathtub-filter-chloramine-T-measurement-2026-10-15]] 的更正记录 |
+>
+> **本节事实层已核到一手来源；产品负责人对表述口径的最终 sign-off 仍待办（见 `ops/verification-queue.md`）。**
 
 **为什么水厂要用氯胺？**
 - 减少消毒副产物（三卤甲烷 THMs、卤乙酸 HAAs）——这些物质受 EPA 法规限制
@@ -168,7 +206,7 @@ NH₃ + HOCl → NH₂Cl（一氯胺）+ H₂O — 反应在投加后约 1 分�
 | "KDF removes chloramine" | KDF-55 实测去除率 18.2%、KDF-85 仅 1.4%——此宣称无据 |
 | "tested to NSF/ANSI 177" for a bath spout filter | 177 范围仅限淋浴产品；对浴缸水龙头产品属于超范围引用 |
 | "tested to NSF/ANSI 177" for chloramine removal | 177 测试水中氯胺 <0.1 mg/L，标准明确不评估氯胺性能，并要求产品附带此免责声明 |
-| calcium sulfite + "removes chloramine" | 亚硫酸钙与一氯胺的反应速率强烈依赖 pH（Yiin 1987），中性–碱性条件下无可靠效能证据。**2026-10-09 更新**：不再表述为"不与一氯胺反应"（该表述过强），改为"无受控证据支持，且存在两份指向相反方向的无对照观测"。在受控测试完成前，此宣称**仍然不成立** |
+| calcium sulfite + "removes chloramine" | 亚硫酸钙与一氯胺的反应速率强烈依赖 pH（Yiin 1987），中性–碱性条件下无可靠效能证据。**2026-10-09 更新**：不再表述为"不与一氯胺反应"（该表述过强），改为"无受控证据支持，且存在指向相反方向的无对照观测"。**2026-10-28 再更新**：KES 一方台架因**加标物种从未确认**而退出该证据（推定为游离氯路径）→ 现存正向观测**只剩一条**供应商报告，且**KES 自有的物种确认氯胺数据点为 0**；"无受控证据"的结论**不变且依据更硬**。在受控测试完成前，此宣称**仍然不成立** |
 | vitamin C in shower filter + "removes chloramine" | 维生素 C 与一氯胺的反应半衰期 ~4 分钟，淋浴接触时间 < 1 秒，去除率无法保证 |
 
 ---
@@ -209,3 +247,21 @@ NH₃ + HOCl → NH₂Cl（一氯胺）+ H₂O — 反应在投加后约 1 分�
 - [Pure Water Products — Removing Chloramines](https://www.purewaterproducts.com/articles/removing-chloramines)
 - [Inspired Living — Vitamin C Removes Chloramines (SFPUC 1,000mg recommendation)](https://inspiredliving.com/chloramine-filters/vitamin-c-removes-chloramines.htm)
 - [AquaBliss — Calcium Sulfite and Water Filters](https://aquabliss.com/blogs/healthy-water/calcium-sulfite-and-water-filters)
+
+### §1b-bis 物种辨析新增来源（2026-10-28 复核补录）
+
+**一手登记 / 权威百科**
+- [PubChem CID 3641960 — Chloramine-T（CAS 127-65-1，分子式 C₇H₇ClNNaO₂S）](https://pubchem.ncbi.nlm.nih.gov/compound/3641960)
+- [PubChem CID 25423 — Monochloramine（CAS 10599-90-3，分子式 ClH₂N）](https://pubchem.ncbi.nlm.nih.gov/compound/25423)
+- [Wikipedia (EN) — Chloramine-T](https://en.wikipedia.org/wiki/Chloramine-T) —— CAS、分子式、"slightly basic (pH typically 8.5)"、水溶液反应性与次氯酸钠相近
+- [Wikipedia (DE) — Chloramin T](https://de.wikipedia.org/wiki/Chloramin_T) —— 「In wässriger Lösung entsteht Hypochlorit durch Hydrolyse」
+- [Wikipedia (ES) — Cloraminas](https://es.wikipedia.org/wiki/Cloraminas) —— 氯胺 T 实为氯胺衍生盐
+
+**氯胺配比与 pH 窗口（行业一手技术文件）**
+- [In-Situ / ChemScan — Water Chloramination Process Control（应用摘要 PDF）](https://in-situ.com/pub/media/support/documents/water-chloramination.pdf) —— 最优 Cl₂:NH₃-N = 4.5:1，常规 3:1–5:1
+- [Curry & Associates — Using the Correct Arithmetic to Form Monochloramine（PDF，ILRWA 发布）](https://www.ilrwa.org/Downloads/ChloraminationMath.pdf) —— 引 Snoeyink & Jenkins 1980：化学计量 5.06 mg Cl₂ : 1 mg NH₃-N
+- [Halogen Systems — Measuring Monochloramine Without Reagents（技术白皮书 PDF）](https://halogensys.com/docs/White%20Papers/monochloramine-whitepaper.pdf) —— 配比 4.5:1–5:1；pH 6.5–8.5 一氯胺占优，< 7 偏向二氯胺/三氯胺
+
+**厂商技术资料（二级，非标准）**
+- [BenchChem — Application Notes and Protocols for Chloramine-T Hydrate in Disinfection Assays（PDF）](https://pdf.benchchem.com/10820/Application_Notes_and_Protocols_for_ChloraMine_T_Hydrate_in_Disinfection_Assays.pdf) —— 溶于水释放 HOCl；母液配制 4.00 g/1000 mL ≈ 1000 mg/L 总氯
+
