@@ -523,3 +523,108 @@ Example:
 - notes: |
   为现有 15 条审核事项按迁移时顺序一次性分配 VQ-0001～VQ-0015；后续新增从 VQ-0016 起分配。ID 代表审核事项，同页不同事项分别编号；编辑、排序、结案和归档均保留 ID，不重新编号、不复用，合并并发改动时检查唯一性。
   历史日志原第 16 / 17 / 18 行引用分别补为 VQ-0010 / VQ-0011 / VQ-0012，并保留原行号及事项描述供审计。原 15 条记录的页面、审核原因、级别与责任人均保留；本次不改变业务审核结论或状态。
+
+## [2026-11-08] maintain | 新增 Bathroom Caddy 研究簇（市场速判 + metal-first 混合结构）
+- source: Kenny 门店实拍 2 张（Crate&Barrel Caddies 价签与凹槽近景）+ 公开检索；Kenny 追问"加入金属材质解决差评、提高价值感、契合 metal first"
+- updated: raw/products/bathroom-caddy/2026-11-08-crateandbarrel-caddy-store-observation.md; wiki/products/bathroom-caddy/bathroom-caddy-marble-market-scan-2026-11-08.md; wiki/products/bathroom-caddy/bathroom-caddy-metal-first-hybrid-design-2026-11-08.md; index.md; log.md
+- status: completed
+- notes: |
+  按 capture → extract → update 落地三份：原始价签逐字与竞品／PVD／FBA 数据；市场速判（研究 ✓ / 立项 ✗）；metal-first 混合结构设计简报（升级为有条件的概念 GO，仍非产品 GO）。
+  设计结论：金属承担结构、定位、排水、饰面与跌落保护，石材退为 3–4mm 可拆换薄嵌片；不采用"整石 + 金属装饰条"。对齐品牌资料 Metal-First Definition（不等于全金属；非金属材料须有意选择、透明说明、按用途测试），并接上"水龙头→柜拉手→门把手同色同店"这一既有定位，把 caddy 作为第 4 个同色触点。
+  已记录 FTO 先例：DDBESSIC/CNCEST 201 不锈钢电镀 + 可拆大理石板浴缸托盘、Ruhe 304 PVD 大理石嵌片地漏、C&B 凹槽 + 材质分层；不宣称首创，检索范围收窄到卡扣／磁吸定位、微排水坡、同色 PVD 套系。
+  方法学纪律沿用本库既有撤回记录：ΔE 只认分光光度计对实物签样与批次留样，不用照片跨图比色，不引用具体 ΔE 数值。
+  全部重量、成本、退货率改善均标为方向性估算；未做样品实测、搜索量验证、FTO 检索与毛利模型。页面 officiality 均为 draft，未写入高信任正式面。
+
+## [2026-11-08] correct | Caddy 差评机理二次核验，撤回过度承诺并补新失效模式
+- source: Kenny 追问「引入金属能否解决多孔渗色／酸蚀／硬水水垢／皂垢／发霉 + 太重／砸台面／运输崩边」；8 组公开检索（BSSA、Natural Stone 资料、PVD care 指南、soap scum 化学、霉菌资料、pH 表）
+- updated: raw/products/bathroom-caddy/2026-11-08-material-failure-mechanisms-research.md (new); wiki/products/bathroom-caddy/bathroom-caddy-metal-first-hybrid-design-2026-11-08.md; log.md
+- status: completed
+- notes: |
+  撤回上一版「A 六项均改善」「C 六项全部消除」。按机理重判：仅金属面渗色与方解石酸蚀为真消除；硬水水垢与皂垢由水质与蒸发决定、与基材无关，金属完全不解决；发霉靠装配纪律且混合结构界面更多、设计不当会反噬；太重／砸台面／崩边靠减重与结构细节。
+  关键新发现：哑黑 PVD 上白色 CaCO3 对比度最高、最显水垢，而 PVD 又最怕酸性除垢剂（变色／点蚀／分层）⇒ 存在「过度清洁 → 涂层损坏 → 保修争议」的反向组合陷阱，上一版未覆盖。
+  风险转移：304/316 对盐酸任何浓度／温度均不推荐（BSSA），≥5% 含氯漂白剂室温可致腐；方解石酸蚀机理消失，但改怕氯离子与强酸。
+  口径纠正：牙膏通常 pH 7–9、pH 平衡洗手液 5–6、真皂 9–10，并非主要酸蚀源；真凶是 pH 1–3 除垢剂与 pH 1–2 洁厕灵。牙膏对石材主要是研磨划伤与残留白膜。
+  结论修订：真正杠杆是「不积水 + 可拆洗 + 快干」，金属的作用是让这套结构做得薄、精确、耐久、可同色。与软水主线仅为内容／叙事协同（共同变量 Ca2+/Mg2+），非技术协同，不改变「不独立立项」结论。
+  简报同步更新：第 2 节方案表、第 4 节全表重写 + 4.1/4.2/4.3、第 5 节门禁新增清洁剂误用声明／水垢可见度／缝隙滞水／薄壁抗凹、第 8 阶段 2 测试项、第 9 Claim 禁区（禁写防垢／不结水垢／免擦洗）、第 10 边界、Sources。
+  所有化学机理与 pH 均标注为公开资料二次核验，非 KES 台架实测；冷凝、凹陷率、哑黑水垢差评权重列为待验证假设。未做 git 提交、未同步 kenny-wiki。
+
+## [2026-11-08] research | 双层石纹陶瓷层板置物架：两平台销售实况与需求缺口
+- source: Kenny 纠正产品对象（非边几，是浴室／厨房双层置物架）并说明 KES 已有类似陶瓷层板产品、这次只改形态；要求深入调查 Amazon / Wayfair 销售与未满足需求。4 路并行检索（Amazon listing、Wayfair 与跨渠道、VOC 差评引文、多源综合）+ 3 组补充核验
+- updated: raw/products/bathroom-caddy/2026-11-08-two-tier-ceramic-shelf-market-evidence.md (new); wiki/products/bathroom-caddy/two-tier-ceramic-shelf-market-opportunity-2026-11-08.md (new); index.md; log.md
+- status: completed
+- notes: |
+  核心结论：不是蓝海，是「已被验证但功能创新停滞」的赛道。Amazon 上 Dobbyby 已把「石纹可拆陶瓷托盘 + 不锈钢框」做成 $44.99–47.69 / 4.6★ / 1,514 评 / BSR #19 Bathroom Trays / 200–300+ 月购，另有 Sweese 895 评、Kanwone 401 评 ⇒ >$40 陶瓷带有真实量；真天然石款评论量反而低。Wayfair 同形态 SKU 成体系（Orren Ellis / 17 Stories / Ivy Bronx / Rebrilliant）但评论 0–54 条、标价 $100–176 靠 −39%～−70% 折扣，真正有口碑的是 $26.99 / 54 评的玻璃壁挂架。
+  需求缺口的本质：解法都在但都在别的品类——可调层高（Kitstorack 水槽下架 5 档）、镂空排水（转角架）、72h 盐雾（玻璃壁挂架）、免工具快装与防崩垫片（Dobbyby 自己），没人搬进石纹装饰架。按证据强度排序：① 层高固定／净层高不标注（中强）② 潮湿环境框体与螺丝锈蚀、金色发绿（强）③ 陶瓷到货破损且只换整件（强）④ 晃动与螺丝过短（强）⑤ 积水与垫圈藏污（中）⑥ 同色套系（中偏弱，直接买家引文未见）⑦ 餐桌食品接触（弱，不下重注）。
+  形态建议：错层可调双层台面架，下层净高 ≥24cm、主图标净层高；6mm 陶瓷层板做可换嵌片、304 全周包边、可拆弹性垫、1–2° 排水坡；框体一体焊接、层板可拆；304/316 + PVD 四色，首发拉丝不锈钢／枪灰而非哑黑；层板单独补发 SKU + 分格泡棉。变体顺序：浴室台面 → 厨房 → 壁挂 → 餐桌（不做首发，食品接触证据弱）。
+  口径纪律：两平台均不公开销量，所有月销／BSR／搜索量标为第三方估算或缓存快照且互相矛盾（同一 Dobbyby ASIN 出现 50+/200+/300+），投产前须 Helium 10 / Keepa / Brand Analytics 复核；Reddit 一手帖被反爬拦截标为未见；Wayfair damage allowance 本轮第三方口径 2%–5%（另有 4%–10% 说），与上一轮口头「4–8%」不一致，官方 MSA 未见，已在两份文档标注须索取官方文本。
+  修正同日上一轮误判：产品不是落地边几／家具，「供应链零复用、两平台均不切入」结论撤回；但「已有陶瓷层板能力」在全库检索无对应产品文档，仅作为 Kenny 口述前提，不推断工艺／尺寸／成本。材质标注只能用 marble-pattern / porcelain / stone look，不写 marble 或 sintered stone（小件无该搜索心智）。
+  边界：未做样品实测、搜索量验证、FTO 检索、供应商报价与毛利模型；页面 officiality 均为 draft，未写入高信任正式面。未做 git 提交、未同步 kenny-wiki。
+
+## [2026-11-08] research | 餐桌甜点／糕点摆架细分销量与第三次对象校准
+- source: Kenny 第三次校准——原始照片「应该是餐桌实物／甜点糕点的置物架」，要求重新研究该细分品类销量。重看旋转图与局部放大确认：矩形平板无围边、上下平行错位、细黑 U 形框、周围为玻璃碗与高脚杯等餐具陈列。3 路并行专项检索（Amazon 销量、Wayfair 与跨渠道、VOC 差评）+ 2 组补充核验 + 图片复判
+- updated: raw/products/bathroom-caddy/2026-11-08-tiered-dessert-stand-market-evidence.md (new); wiki/products/bathroom-caddy/tiered-dessert-stand-segment-2026-11-08.md (new); wiki/products/bathroom-caddy/two-tier-ceramic-shelf-market-opportunity-2026-11-08.md（修正 6 处）; index.md; log.md
+- status: completed
+- notes: |
+  核心结论：销量成立、缺口真实、且 KES 的 U 形框形态天然避开该品类第一大痛点（中柱晃动／头重脚轻，≥8 独立来源）；但价格带更低、季节性强、需新建食品接触合规、与同色套系几乎无连带 ⇒ 「更好的形态差异化，更差的 KES 生意」。定位为共用陶瓷层板的第二场景变体，有限试水，不首发、不作主线。
+  销量实况：Amazon Cake Stands／Cupcake Stands 类目 Top10 均月销约 2,800、均价 $19.58 [三 ASINSIGHT，自相矛盾]；头部 Sumerflos $25.99/2,762 评/800+ 月、MALACASA $32.99/446 评/1K+ 月、PinCute 1K+ 月、Vecxoty #1 Cupcake Stands/700+ 月。Top3 点击份额仅 14.8%、转化 7.7%，极度分散；$20–35 占 69%，>$40 降一个数量级，>$60 长尾；真大理石款评数 12–512 无一破千。Wayfair 真石 SKU 评论 0–22（最高 AllModern 59），标价 $57–142 靠 −39%～−74% 折扣；2,883 评爆款是 Birch Lane 木+中柱，形态无关。
+  精确形态空白：Amazon US 与 11 个零售渠道均未查到「两层矩形石纹薄板 + 细黑 U 框」在售 SKU，非 Amazon 仅 Daraz.pk 一款 0 评；渠道主流是同心圆盘 + 中央立柱。空白位不可反推为需求证据。
+  上一轮结论修正：「餐桌食品接触证据弱」升级为**明确硬门槛**——Wayfair 多个真石 SKU 页面直标 Food Safe: No + Prop 65；FDA CPG 7117.06/07 铅镉溶出（扁平器皿 Pb≤3.0/Cd≤0.5 mg/L，4% 乙酸 22±2℃/24h），石纹釉上彩／贴花属高风险且一份报告不可跨花面套用；全品类未查到任何品牌公开第三方检测报告（这同时是空位）。已在旧文档 §1 校准、§3 表格第 7 项、§4 变体 4、§7 证据强度、related 与 Sources 共 6 处修正，两份文档并存不互相覆盖。
+  VOC 组合空位：「可拆洗 + 不积水不藏污 + 可平放收纳 + 食品接触安全可证明」全市场无人做全，MALACASA 最多两项（且为厂商宣称）。中柱晃动／到货破损／缺件补件三类为强证据。同色套系诉求**无任何直接买家引文**，属产品假设，已写入 Claim 禁区。
+  季节性证据冲突：Accio 系 Google Trends 转述称 11 月峰值 100 vs 6 月 31、C&B/Pottery Barn 节日文案与批发双峰（婚礼季 1–3 月、节日季 9–10 月下单）一致；但 Flapen UK 站称「无显著峰值 1.5×」且主词 cake stand 年搜 −17.8%、afternoon tea stands −57.9%、转化率仅 1.0–1.2%。Keepa 实测曲线与渠道官方上架日历未见。今天 2026-11-08，2026 Q4 窗口已关闭，下一可执行窗口为 2027 春季婚礼季或 2027 Q4。
+  口径纪律：所有月销／BSR／评数为缓存快照或第三方估算，ASINSIGHT 同一 ASIN 出现 8K/7K 两版本、Sumerflos 评数三版本、Godinger 233/244/5223 三种口径，已列「数据矛盾与未查到清单」随结论保留；投产前须 Helium 10 / Keepa / Brand Analytics 复核。Reddit 一手帖被反爬拦截；2026 年 AI 联盟评测站含虚构评分已全部排除。
+  边界：未做样品实测、搜索量验证、FTO、供应商报价与毛利模型、KES 现有陶瓷层板工艺成本核对、Wayfair 官方 MSA、FDA CPG 官方原文直链。未做 git 提交、未同步 kenny-wiki。
+
+## [2026-11-08] research | 食品接触面材料决策：陶瓷水转印与广西白大理石
+- source: Kenny 追问「陶瓷如果转水转印上大理石花纹，作为食品的器皿属于高风险？大理石（广西白）安全吗？」。2 路并行专项检索（水转印工艺与法规、广西白矿物与食品接触）+ 4 组补充核验（含现行标准版本核实）
+- updated: raw/products/bathroom-caddy/2026-11-08-food-contact-ceramic-decal-and-guangxi-white-evidence.md (new); wiki/products/bathroom-caddy/food-contact-materials-decision-2026-11-08.md (new); wiki/products/bathroom-caddy/tiered-dessert-stand-segment-2026-11-08.md（related 与 Claim 禁区）; index.md; log.md
+- status: completed
+- notes: |
+  核心结论：两种「水转印」都不能用在承放食物的正面，但机理不同。(A) 陶瓷水转印花纸＝釉上彩（700–850℃ 烤花、铅硼硅低熔熔剂 + 镉系颜料 CdS/CdS·Se、彩料裸露在釉面），是铅镉溶出风险最高一类；花纸供应商自己写「DO NOT decorate on surfaces that come in contact with food or drink unless decal is In-glaze」。(B) 水披覆 hydrographics＝PVA 膜 + 溶剂油墨 + 活化剂 + PU/UV 面漆，风险是有机涂层迁移且 GB 4806.4 只管 Pb/Cd 不覆盖有机迁移物，须另按 GB 4806.10-2016／21 CFR 175.300 做全组分正面清单与迁移评估，食品接触面几乎缺合规路径。平板满版石纹业界主流其实是数码喷墨 + 1200–1280℃ 一次烧成，不是水转印；花纸有收缩/接缝/气泡/封面油残留，水披覆为 3D 曲面工艺。
+  风险排序：通体坯/喷墨 ≥1200℃ ≲ 釉下彩 < 釉中彩 ≥1100℃ << 釉上彩/低温花纸 < 有机水披覆。满版放大所有失效；EU 84/500/EEC Art 2(5) 明文复测须「同形状、尺寸、装饰和釉料」≥3 件 ⇒ 一份报告不可跨花面/釉料/颜料批次/烤花曲线套用。
+  **重要纠错（不得写入规格书）**：多个检测机构营销页声称「GB 4806.4-2023 于 2024-09-06 实施、Pb 降至 0.5 mg/L、Cd 0.1、新增 6 元素」，为不实信息。CFSA 标准平台标 GB 4806.4-2016「现行」；2023 年 NHC 第 6 号公告 17 项食品接触材料标准 = 塑料/金属/橡胶/复合材料/油墨 5 项 + 12 项 GB 31604 方法标准，不含陶瓷；上海市监局 2024 版目录只列 2016 版；瑞昌 2025、太原 2026、重庆 2026 抽查细则与厦门市 2026-11-04 通报仍以 2016 版判定；且这些页面 Pb 出现 0.5/1.0/0.8 三种矛盾数值。真正更新的是检测方法 GB 31604.49-2023（多元素迁移测定），限值标准未变。规格书须写「GB 4806.4-2016（现行）」并要求实验室报告明示依据版本。
+  广西白：放射性不是风险点（贺州牛塘口「贺州白」官方矿区实测 IRa=0.02/Iγ=0.02，GB 6566-2010 A 类，大理石为变质碳酸盐岩不富集 U/Th/K；但属地质报告非成品批次 CMA 证书）。方解石 90–99%、白云石 1–10%，灰纹为泥质/铁质/残留缝合线，官方明确记载黄铁矿与铁质细脉；厂商「CaCO₃>99%、不含硫化物」与官方冲突不可采信。真正问题在：吸水率 0.147–0.22% 吸油渗色（Food & Wine 实测 5 天留下 dark oil circle）、不满足 FDA Food Code 2022 §4-101.11「nonabsorbent」、CaCO₃ 遇酸蚀失光、密封剂只减缓渗色不能防酸蚀且需重涂、禁洗碗机/微波/含氯/碱性清洁剂；以及 CFSA 明文天然石材无专门产品类国标、按 GB 4806.1 企业自评，EU/FDA 亦无专门规定（法国 DGCCRF 1991-08-29 Art.4 最贴近）⇒「不是测了就能过，是没人能告诉你测什么算过」。矿口批次不均质，一份报告不覆盖全部产品，灰纹/暗色条带/铁质线须单独取样。
+  行业惯例佐证：Wayfair 真石甜点架标 Food Safe: No + Prop 65，Target/TOV 写「Not food-safe on its own…paired with a plate or liner」，GlobeDecor 写 decorative purpose only + paper doilies ⇒ 真石架本质是装饰件 + 垫盘，不是标注保守。
+  三条行动：①先问现有陶瓷层板供应商要「石纹工艺与烧成温度 / 第三方铅镉溶出报告 / 报告对应花面釉料批次」三样，大概率已是喷墨高温烧成，可能根本不用上水转印（全库无 KES 现有陶瓷层板产品文档，仅按 Kenny 口述作能力前提）；②水转印只用于金属框外表面、陶瓷板侧边/底面等非食品接触面，不延伸到上表面口沿、不因滴落叠放构成间接接触，贴合 Metal-First；③食品面只用通体/釉下/釉中/喷墨 ≥1200℃，按目标市场分别出报告（美 FDA CPG 7117.07 Pb 3.0 µg/mL、7117.06 Cd 0.5 mg/L；中 GB 4806.4-2016 扁平 Pb≤0.8/Cd≤0.07 mg/dm²；欧 84/500/EEC；加州 Prop 65 和解口径），有有机涂层加测 GB 4806.10，报告按「器型×花面×釉料批次×烤花曲线×生产批次」绑定。
+  公开案例：RASFF 2022.0086 中国陶瓷碟铅 2.3 mg/dm² 从消费者召回、2023.8592 镉 1.15 mg/dm²（限值 0.07）；SAMR 2024 国抽 1 批次铅迁移量不合格；FDA Import Alert 99-45 红名单承接已停用 52-08。诚实边界：通报原文只写迁移超标，工艺归因（釉上彩）来自中国市场监管抽查解读，不是通报原文。
+  Claim 禁区补充：FDA 官方不认证单个产品，未取证前不写 food safe / lead free / FDA approved；装饰件定位须给永久性「非食品接触／须配垫盘」说明；不得写「食品级大理石」（不存在该法定身份）、防渗色/不吸油/耐酸/可洗碗机等绝对承诺。
+  边界：未做样品实测与第三方检测、KES 现有层板工艺成本核对、广西白成品板材食品接触迁移报告或 A 类成品证书、方铅矿/闪锌矿/含砷矿物在广西白中的检测证据、ISO 6486-2 具体限值（ISO 官网付费）、GB 4806.4-2016 中文全文 PDF 直抓。未做 git 提交、未同步 kenny-wiki。
+
+## [2026-11-08] research | 装饰陶瓷作 riser / cupcake stand 的产品责任：Food Safe: No 无效
+- source: Kenny 追问「用 (A) 水转印花纸做的陶瓷盆作为 riser cupcake stand，是否有产品责任风险？即使标明 food safe no？」。3 路并行专项检索（美国产品责任法 / 监管与平台 / 合规替代路径与成本）+ 主 agent 亲自 WebFetch 与 PDF 直抓核实 3 份决定性原始文件
+- updated: raw/products/bathroom-caddy/2026-11-08-decorative-ceramic-product-liability-evidence.md (new); wiki/products/bathroom-caddy/decorative-ceramic-riser-product-liability-2026-11-08.md (new); food-contact-materials-decision-2026-11-08.md（related）; tiered-dessert-stand-segment-2026-11-08.md（related）; index.md; log.md
+- status: completed
+- notes: |
+  核心结论：**有实质产品责任风险，且 `Food Safe: No` 不但挡不住，还构成独立的合规缺陷**。四道关卡全部失守：① FDA 21 CFR 109.16(b) 法定推定；② Restatement (Third) §18 严格责任；③ UCC 2-313/2-316 + FTC net impression 表征矛盾；④ Prop 65 H&S Code §25249.13 明示不免除普通法与法定义务。
+  **本轮亲自核实的三份决定性文件**（标【核】）：① eCFR 21 CFR §109.16 全文——"appears to be suitable for food use **will be considered to be for food use unless**"，豁免仅 (b)(1) 显著贴标（字高≥3.2mm + 三句法定措辞逐字使用）+ 底部**永久模压/烧制**同一语句，或 (b)(2) 在潜在食品接触面钻孔；三句为 "Not for Food Use. May Poison Food" / "Not for Food Use. Glaze contains lead. Food Use May Result in Lead Poisoning" / "Not for Food Use—Food Consumed from this Vessel May be Harmful"；(c)(1) 明确 "Decorative" / "For Decorative Purposes Only" 仅为**须置于法定语句之后的可选附加语**。② Cal. H&S Code §25249.13 原文："Nothing in this chapter shall alter or diminish any legal obligation otherwise required in common law or by statute or regulation, and nothing in this chapter shall create or enlarge any defense"；罚则 "in addition to"。③ Johnson v. Casa Collective 和解协议 PDF（12 页，pypdf 提取全文核对）：Kohl's Ceramic Tray「ceramic trays with surface designs containing lead」，被告标 "Decorative Trinket Tray" + "For Decorative Purposes Only"、明言 "not designed or intended for use with food or beverages"、§1.5 不承认违法，**仍付 $1,000 民事罚款 + $11,000 律师费**，承诺装饰铅≤90 ppm + NIOSH 9100 表面≤1.0 µg 或依法警示，并管线上同页/结账前警示与 §25600.2 第三方卖家通知。准确表述：私人执法和解、非「法院判免责无效」，但证明该抗辩未阻断执法。
+  条文编号纠错（不得再引错）：Restatement (Third) §16 = Increased harm due to product defect（非可预见误用）；**§18 = Disclaimers, Limitations, Waivers... as Defenses... for Harm to Persons**（非警示缺陷），原文 "do not bar or reduce otherwise valid products liability claims... for harm to persons"；警示缺陷在 §2(c)、警示不能替代安全设计在 §2 cmt l、营销期待在 §2 cmt f、可预见误用在 §2 cmt p/§15 cmt b/§17 cmt c。§18 标题本身即答案。
+  免责声明唯一残存效力：在 failure to warn 与比较过失（§17(a)(b)）上作为「已尽提示」的事实证据部分减责，不能全免；铅溶出非显而易见危险，open and obvious 不成立。但 `Food Safe: No` 既不具体、不显著、又被营销抵消，连这层都很弱。
+  三条法定出口全不成立：自创措辞 → 未触发豁免且可能构成误导性标注；(b)(1) 法定措辞 → 要在本体印 "May Poison Food" 并烧在底部，与 cupcake stand 营销自毁；(b)(2) 钻孔 → 承放面漏水藏污、放不住纸杯蛋糕，未查到任何在售 riser 采用。加垫盘/衬纸/烘焙纸**不是第四条路**（TOV / Wayfair "paired with a plate or liner" 是行业惯例非合规做法）；109.16 看器物整体「appears suitable」，Amazon FCM 范围按 foreseeable use，GPSR (EU) 2023/988 **Recital 22**（不是 Article）要求安全首先靠设计、警示只缓解剩余风险。「riser 只是底座」也不成立——盆倒扣仍可被翻过来用。
+  风险分级：Prop 65 私人执法**高**（2019–2026 多份陶瓷外饰铅 60-day notice，Casa / Sino 同款标签仍和解，§25249.7(b)(1) ≤$2,500/日/项）；平台与保险**高**（listing 可停用、Prop 65 Warning Type 是强制申报字段、BSA §9 ≥$1M、**2026-11-02 起大陆卖家新保单只能经 AIA**、已知含铅+用途错报踩 known loss / intentional act / application misrepresentation）；人身伤害严格责任**中**（有血铅事件或超标数据升高）；进口**中高**（Import Alert 99-45 DWPE、adulteration §402(a)(2)(C)(i)，非 misbranding）；召回 CPSC 估算平均直接成本 $540,000，责任险不赔召回费用。中国卖家送达难（Hague 第 10 条中国已提反对、电邮送达无效）、中美无判决互认条约 ⇒ 原告现实路径是压 Amazon / 保险 / 卖家账户资金。
+  推荐路径不变且更明确：**F 平层板 + 数码喷墨/釉中彩 ≥1200℃ 无铅体系 + 金属全周框**；D（仅换无铅花纸）备选但须全系统无铅 + 逐批成品检测，供应商「无铅」自述不可豁免检测；A/B/C 明确不能走。按目标市场分别出报告（US CPG 545.450 / CN GB 4806.4-**2016** / EU 84/500/EEC + 2005/31/EC DoC），绑定「器型×花面×釉料批次×烤花曲线×生产批次」+ Golden Sample；工艺/配方变更须书面通知保险人（中国保险行业协会条款第 21 条，否则不赔）。第三方实验室报价四组互相冲突，仅作量级不进财务模型。
+  与前稿关系：食品接触面材料决策「釉上彩禁用」由材料风险升级为**法定推定 + 责任不可豁免**；甜点架细分「食品接触是硬门槛」补上法律形态；浴室/厨房台面主路径不受影响（不承放裸食、不进入食品接触语境），进一步支持「餐桌只作有限试水」。
+  口径纪律：全部条文档案标【核】/【原】/【三】/【未】；Casa / Sino 均不承认违法，不得表述为法院判决；Oberdorf v. Amazon 已被全席复议撤销、不得援引；Amazon FCM 官方页系欧洲站/Haul 页，US 站专门页未查到；Wayfair $1M/$2M 保额仅第三方转述。本报告**不是法律意见**，须美国产品责任 + FDA/Prop 65 律师书面确认。
+  边界：未做样品实测与第三方检测、未拿到 KES 现有陶瓷层板工艺与报告、未由美国律师出具意见、未做 FTO、未核 Amazon 增强安全类目完整清单与 AIA 保费、未查到本品类人身伤害集体诉讼判决/和解金额或以 not intended for food 成功免责的公开判例。未做 git 提交、未同步 kenny-wiki。
+
+## [2026-11-08] research | riser 定性 + KES 现有浴室陶瓷层架风险评估（首次查库取证）
+- source: Kenny 三问——① riser 属不属于 food container？② 用陶瓷做 riser 呢？③ 深入评估我们目前的浴室陶瓷层架产品是否有风险？前两问定性检索，第三问**首次直查 OPS 生产库**（只读）
+- updated: raw/products/bathroom-caddy/2026-11-08-kes-ceramic-shelf-existing-product-risk-evidence.md (new); wiki/products/bathroom-caddy/kes-ceramic-shelf-existing-product-risk-2026-11-08.md (new); index.md; log.md
+- status: completed
+- notes: |
+  Q1 定性：**riser 不是任何法域的法定产品类别**。美国 FDA 用 "food contact substance/article" 与 CPG 545.450 的形状分类（flatware/small hollowware/large hollowware/cups-mugs/pitchers）；21 CFR 109.16 用 "appears to be suitable for food use"；EU 用 1935/2004 Art.1(2) 与 84/500/EEC Art.1(2) 的 "intended to come into contact"。故判准是「预期用途 + 可预见用途 + 形态」而非名称。三类 riser：结构型（柱状/框架，通常不落入）、托盘型（有围边平面，高度落入）、中间态（看语境）。**KES 现有产品正好是「有围边」的**（五点自述 "raised edges act as a barrier"），靠 bathroom-trays 类目与化妆品用途词挡住。
+  Q2 陶瓷 riser：材料本身不带来义务，形态/语境/材料体系才是变量。两个反向事实——陶瓷比金属**更容易被认成餐具**（陶瓷＝餐具的默认联想），但**只有陶瓷能做到 ≥1200℃ 无铅、可洗碗机、真食品级**（金属要涂层，涂层另受 21 CFR 175.300）。结论：陶瓷 riser 优于金属 riser，但要先选边：做结构/陈列件（形态去容器化 + 非食品类目）或做真食品接触件（无铅釉 + 釉中彩/喷墨 ≥1200℃ + 逐批检测），**中间地带最危险**。
+  Q3 首次数据库取证结论：KES 有 5 个陶瓷层架 SKU（HS 6911 章 + material=ceramic），4 个在售——BSC901B-CH/B0DT9PFTS3、BSC900B-CH/B0DT9QVSB7、BSC901B-PG/B0DT9NLSNP、BSC900B-PG/B0DT9RN9CQ，另 BSC223S4-2 无 listing。商品为「双层陶瓷托盘 + 抛光铝手柄 + 手工大理石纹」浴室转角/台面收纳架。US 近 12 个月 2,132 件 / 收入 $84,223 / 毛利仅 $5,631（**毛利率 6.7%**），全站点约 2,420 件 / $10 万；BSC901B-CH 铺 23 个渠道（14 Amazon 站 + HD + Wayfair + Walmart + 4 个 WooCommerce）。
+  **做得对的 5 点（别动）**：item_type_keyword=bathroom-trays、tray_type=Bathroom Tray（不是 food/serving tray）；specific_uses=Decorative Items、recommended_uses 全是 Skincare/Makeup/Perfume；pattern=Marble（纹路）而非 material=Marble；care=Wipe With Damp Cloth（未承诺洗碗机）；**不触发 21 CFR 109.16**。
+  **5 个真实风险（按优先级）**：R1 **HS 归类错章**【P0】——5 个 SKU 全报 6911102900「其他瓷厨房器具」，CIQ 691110290101「**食品接触陶瓷产品**」、监管条件 A、检验检疫 **R 进口食品卫生监督检验**；正确应 6911900000「其他家用或盥洗用瓷器」，监管与检验检疫均「无」，申报示例即「卫浴套件；陶瓷制；卫生间用」。等于报关层面自认食品接触件，却与 listing 的 required_product_compliance_certificate=Not Applicable、specific_uses=Decorative Items 互相打架 → 一旦查验首先被问铅镉报告在哪。R2 **零测试零认证零 Prop 65**【P0/P1】——product_test_record 在 shelf 三子类 205 条记录中陶瓷/铅/镉/釉类 **0 条**；dim_sku_certification 全表只有 water_efficiency 64/cec 26/doe 12（只有水效能效，无材料安全类），BSC 四 SKU 零记录；**全库无任何 prop65/california 字段**，US listing 66 属性无 safety_warning/supplier_declared_chemical_compliance。R3 **Prop 65 零申报**【P1】，参照 Casa 案 $12,000 和解 ≈ 该线 US 全年毛利 2.1 倍。R4 **文案矛盾**【P2，最便宜】——B0DT9RN9CQ description 写 "Polished brass handles" 而 material=Aluminum、五点写 "polished aluminum"，三处打架；"crack-resistant" 绝对化；"Heat Resistant" 作为 special_feature 暗示可承热物；maximum_weight_recommendation=13.00 无单位；4 个标题把 Handcrafted 拼成 "Hancrafted"；number_of_shelves 一个填 1 一个填 2 却都叫 2-Tier。R5 **形态 + Heat Resistant 构成 109.16 边缘暴露**（观察项，冗余薄）。
+  行动清单：P0 本周（近乎零成本）①向工厂要工艺三样：大理石纹是水转印/釉上彩/釉中彩/釉下彩/喷墨、烤花温度曲线、釉料彩料是否无铅及 TDS；②交报关行按 6911900000 复核归类并走正式变更留痕。P1 本月：补铅镉溶出（最不利样品，成品 6 件浸出 ASTM C738/AOAC 973.32）、做 Prop 65 exposure assessment、把测试与认证入系统。P2 季度：修文案、定「主图/A+ 禁食物场景、禁 food/serving/dessert 词」硬约束、评估 Heat Resistant 是否保留。
+  新增材料线索：KES 同时有**天然大理石**产品线（BPH284S1/BPH285S1/BPS202S39 系列的「天然大理石底座」），前几轮以为「陶瓷替代大理石」从零开始，实际两线都在跑；但大理石多孔，浴室里洗手液/洁面乳/酸性护肤品滴落的渗色与酸蚀可能比食品场景更常发生，且同样零密封/耐污测试记录，建议另立一项不并入本页。铝件阳极氧化/抛光层在潮湿浴室的耐久性同样无测试支撑。
+  边界：**未操作任何平台后台**（Amazon SC / Wayfair Partner Home / HD），数据取自 OPS 已落库快照；工艺完全未知，釉上彩判断均为「若…则…」条件推论；未抓图片视频、未查供应商验厂、未核 BSC223S4-2 无 listing 原因；HS 结论为待报关行确认的建议、非报关意见；毛利为 PnL 口径含分摊；不是法律意见。未做 git 提交、未同步 kenny-wiki。
+
+## [2026-11-08] ops | R1–R4 派单到 OPS（KM 指定执行人/关注人）
+- source: Kenny 指示——R1/R2/R3 派给梁育苗、watch 黄金玮；R4 派给 listing owner、watch 设开发负责人
+- updated: wiki/products/bathroom-caddy/kes-ceramic-shelf-existing-product-risk-2026-11-08.md（新增 §8 派单记录 + 两处 R4 更正）; log.md
+- status: completed
+- notes: |
+  5 条 OPS 待办已建、逐条回读：ee0677（R1 HS 归类，梁育苗/黄金玮，P0，11-10 18:00）、270bad（R2 工艺取证，同上，P0，11-11 18:00）、2bdff6（R3 铅镉送检+Prop 65+落库，同上，P1，11-27 18:00）、d54095（R4a amz_us 文案，梁雨欣/麦家浚，P2，11-13 18:00）、bfe2c0（R4b amz_us 文案，黄倩敏/麦家浚，P2，11-13 18:00）。
+  R4 拆两条的依据：`entity_responsibility` entity_type=listing role=owner 按站点查，amz_us 归 BSC900B-CH/PG = 梁雨欣、BSC901B-CH/PG = 黄倩敏；关注人取 product_variant `developer_owner` = 麦家浚。本次只覆盖 amz_us，EU/UK（李翠莹）与 Wayfair/HD/Walmart（张艳娟）对应文案未审未派。
+  **R4 原有两处表述在本轮逐字段复核后更正**：① `maximum_weight_recommendation` 单位并不缺失，两款均为 `13.00 pounds`；② "Hancrafted" 拼写错误只出现在 B0DT9RN9CQ 与 B0DT9PFTS3 两款，不是四款都有。两项已从派单正文剔除，改以「无测试支撑的承重/耐裂声明」与「number_of_shelves 与 2-Tier 矛盾」入单。
+  纪律：建单前按主题词严格去重（1107 条派出记录 / 203 条在途，主题词零命中；仅 3 条在正文提到本批 SKU 的无关单，已登记不阻止）；正文按平台五段式；执行人与关注人均经目录查人核 ID；关注人走批量接口写入（单条创建会静默丢弃）。未操作任何平台后台、未私信同事、未建钉钉原生待办。

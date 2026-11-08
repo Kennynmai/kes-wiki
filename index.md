@@ -28,6 +28,13 @@
 ### Products
 - [Bathtub Filter](wiki/products/bathtub-filter/bathtub-filter.md)
 - [Curtains](wiki/products/curtains.md)
+- [Bathroom Caddy — 大理石品类速判 2026-11-08](wiki/products/bathroom-caddy/bathroom-caddy-marble-market-scan-2026-11-08.md)
+- [Bathroom Caddy — Metal-First 混合结构设计 2026-11-08](wiki/products/bathroom-caddy/bathroom-caddy-metal-first-hybrid-design-2026-11-08.md)
+- [双层石纹陶瓷层板置物架 — Amazon / Wayfair 市场与需求缺口 2026-11-08](wiki/products/bathroom-caddy/two-tier-ceramic-shelf-market-opportunity-2026-11-08.md)
+- [餐桌甜点／糕点摆架细分 — 销量实况与第三次对象校准 2026-11-08](wiki/products/bathroom-caddy/tiered-dessert-stand-segment-2026-11-08.md)
+- [食品接触面材料决策 — 陶瓷水转印与广西白大理石 2026-11-08](wiki/products/bathroom-caddy/food-contact-materials-decision-2026-11-08.md)
+- [装饰陶瓷作 riser / cupcake stand 的产品责任判定 — 免责声明无效 2026-11-08](wiki/products/bathroom-caddy/decorative-ceramic-riser-product-liability-2026-11-08.md)
+- [riser 法律定性、陶瓷路径与 KES 现有浴室陶瓷层架风险评估 2026-11-08](wiki/products/bathroom-caddy/kes-ceramic-shelf-existing-product-risk-2026-11-08.md)
 
 ### Projects
 - [Japan Market Entry](wiki/projects/japan-market-entry.md)
