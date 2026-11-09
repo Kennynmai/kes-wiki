@@ -19,6 +19,9 @@
 - [Japan](wiki/markets/japan.md)
 - [美欧家装五金 Mass Customization 机会评估 2026](wiki/market-research/us-eu-home-hardware-mass-customization-2026.md)
 
+### Market Research
+- [US 单槽陶瓷 Farmhouse Sink 市场画像与机会候选](wiki/market-research/kitchen-fireclay-farmhouse-sink-single-bowl-market-report-2026-07-16.md)
+
 ### Company
 - [KES Certifications and Compliance Register](wiki/company/kes-certifications-and-compliance-register.md)
 - [KES Certification Claim-Control Matrix](wiki/company/kes-certification-claim-control-matrix.md)
@@ -27,6 +30,9 @@
 
 ### Products
 - [Bathtub Filter](wiki/products/bathtub-filter/bathtub-filter.md)
+- [US 单槽 Fireclay Farmhouse Sink](wiki/products/kitchen-farmhouse-sink/kitchen-fireclay-farmhouse-sink-single-bowl.md)
+- [KES 单槽 Fireclay Farmhouse Sink 切入与高端化策略](wiki/products/kitchen-farmhouse-sink/kitchen-fireclay-farmhouse-sink-kes-entry-premiumization-strategy-2026-07-18.md)
+- [Fireclay Farmhouse Sink 品牌设计与评论痛点分析](wiki/products/kitchen-farmhouse-sink/kitchen-fireclay-farmhouse-sink-brand-design-review-pain-point-analysis-2026-07-18.md)
 - [Curtains](wiki/products/curtains.md)
 - [Bathroom Caddy — 大理石品类速判 2026-11-08](wiki/products/bathroom-caddy/bathroom-caddy-marble-market-scan-2026-11-08.md)
 - [Bathroom Caddy — Metal-First 混合结构设计 2026-11-08](wiki/products/bathroom-caddy/bathroom-caddy-metal-first-hybrid-design-2026-11-08.md)
@@ -317,6 +323,12 @@
 - [KES Official Online Certification Verification 2026-05-30](wiki/source-summaries/kes-official-online-certification-verification-2026-05-30.md)
 - [KES Public Certification Model-Pattern Inventory 2026-05-30](wiki/source-summaries/kes-public-certification-model-pattern-inventory-2026-05-30.md)
 - [KES DOE / CEC Public Database Access 2026-05-30](wiki/source-summaries/kes-doe-cec-public-database-access-2026-05-30.md)
+
+## Source Summaries — Kitchen Farmhouse Sink
+
+- [US 单槽 Fireclay Farmhouse Sink 调查审核 2026-07-18](wiki/source-summaries/kitchen-fireclay-farmhouse-sink-audit-2026-07-18.md)
+- [US Farmhouse Sink 高端材质、功能、安装与标准对标 2026-07-18](wiki/source-summaries/kitchen-fireclay-farmhouse-sink-premium-benchmark-2026-07-18.md)
+- [Fireclay Farmhouse Sink 运输破损与安装支撑问题核实 2026-07-18](wiki/source-summaries/kitchen-fireclay-farmhouse-sink-breakage-install-support-validation-2026-07-18.md)
 
 ## Source Summaries — Bathtub Filter
 - [Source Summary - 桌面策略文档导入（2026-06-17）](wiki/source-summaries/bathtub-filter-desktop-strategy-doc-import-2026-06-17.md)

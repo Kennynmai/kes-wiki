@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -141,8 +141,9 @@ related:
 
 ## 下一步
 
+- **主动作**：`Match my water` → [Water-Match Selector](./bathtub-filter-kes-water-match-selector-spec.md)。本页不以 skin outcome 推购买；只有水型确定后才进入对应 Formula。
 - 游离氯城市的场景与配置 → [游离氯场景页](./bathtub-filter-kes-scenario-free-chlorine.md)
-- 看看网站怎么落"我们不说什么"免责带 → [website-copy §7](../bathtub-filter-kes-website-copy-v1.md)
+- 看看网站怎么落"我们不说什么"免责带 → [website-copy §9](../bathtub-filter-kes-website-copy-v1.md)
 - 想查术语（游离氯 / 氯胺 / TEWL / SMCL 等）→ [水质术语表](./bathtub-filter-kes-edu-water-glossary.md)
 - 井水用户看这里 → [E2 井水必读](./bathtub-filter-kes-edu-well-water-basics.md)
 - 装了软水器还需要滤氯吗 → [E8](./bathtub-filter-kes-edu-water-softener-households.md)

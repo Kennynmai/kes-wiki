@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: low
 officiality: placeholder
@@ -57,11 +57,13 @@ related:
 
 装配/漏水/适配类问题，先按下面步骤提供照片，便于客服判断（承接 spout 兼容边界）。
 
-1. 需拍哪些照片（水龙头形态 / 挂带位置 / 出水情况）：[____ 待补]
+1. 必需照片：出水嘴完整侧面、正面出水口、墙距/末端周长量尺、安装后挂带路径；漏水/溢流另附静态无水图 + 注水短视频。
 2. 上传入口 / 上传方式：[____ 待补]
 3. 提交后处理时限：[____ 待补]
 
 > 🟡 待 [运营/工程] 补：照片上传入口、要求拍摄的角度清单、处理流程。
+
+工单自动带入 `order_id / formula_id / spout_type / fit_status / installation_route / flow_symptom / test_strip_type`。图片采集前显示隐私提示并允许遮挡家庭信息；不得要求上传儿童、皮肤或身体照片来证明产品结果。
 
 ---
 
@@ -72,6 +74,18 @@ related:
 - 退货/保修类问题转交口径：见 [[bathtub-filter-kes-returns-and-warranty]]（条款不在本页重复）
 
 > 🟡 待 [运营] 补：升级触发条件、升级层级、跨团队转交口径。
+
+建议固定分流，不把所有问题堆给一线：
+
+| 问题 | 首个 owner | 必须保留的数据 |
+|---|---|---|
+| fit / 脱落 / 摇晃 | 安装支持 | spout、fit result、安装路线、照片 |
+| bypass / top-spill / housing leak / retention | 产品质量 | 四类 failure mode 分开记录，不合并为“漏水” |
+| 测试结果异常 | 技术/质量 | Formula、进水/出水读数、试纸批次、流量、使用次数 |
+| 错装滤材/缺附件 | 履约 | formula_id、packing list、箱标与实物照片 |
+| 退货/保修 | 运营/法务 | case reason、渠道、政策版本 |
+
+本页在真实联系方式与 SLA 未填实前保持 `officiality: placeholder`，Header 的 Support 不得链接到空表面；生产站至少提供一个已监控渠道和确认回执。
 
 ---
 

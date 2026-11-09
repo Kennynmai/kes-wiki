@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-30
-updated: 2026-07-02
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -56,6 +56,14 @@ related:
 - [S1 · 游离氯·市政](./bathtub-filter-kes-scenario-free-chlorine.md) — 过滤棉（PET）作第一层物理前置（过滤棉（PET）→ KDF55 → CaSO₃）。
 - [S5 · 沉积重水](./bathtub-filter-kes-scenario-sediment.md) — 强化过滤棉层作颗粒拦截。
 - [S2 · 氯胺·市政](./bathtub-filter-kes-scenario-chloramine.md) · [S3 · 井水](./bathtub-filter-kes-scenario-well-water.md) — 各自前置沉积层同样用过滤棉（S3 用粗规格前置沉积层）。
+
+## Hub / PDP 调用方式
+
+- 卡片短句：`A visible physical prefilter for particles — not an active chemical treatment layer.`
+- 图片：新旧 PET 近照可解释颗粒负载，但不得用“变黑”制造 toxin-panic。
+- `Used in`：三套标准 Formula；custom 根据 sediment load 选择标准或强化规格。
+- 页面主 CTA 返回进入时的 Formula；需要更换时进入 Care/Refill。
+- 不能把 PET 写成第三种 active ingredient，也不能把物理拦截扩成 broad purification。
 
 ## Sources / 内部依据
 

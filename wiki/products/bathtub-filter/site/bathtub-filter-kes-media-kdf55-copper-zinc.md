@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -58,8 +58,16 @@ KDF55 是**铜锌合金**颗粒，通过电化学氧化还原去除游离氯：`
 ## 用到我的场景（反链）
 
 - [S1 · 游离氯·市政](./bathtub-filter-kes-scenario-free-chlorine.md) — KDF55 作末端安全层（过滤棉（PET）→ KDF55 → CaSO₃）。
-- [S2 · 氯胺·市政（V1.5）](./bathtub-filter-kes-scenario-chloramine.md) — 小层 KDF55 作 free-chlorine residual / 稳定层，非氯胺主 KPI。
+- [S2 · 氯胺·市政（Chloramine + Soak Kit）](./bathtub-filter-kes-scenario-chloramine.md) — 小层 KDF55 作 free-chlorine residual / 稳定层，非氯胺主 KPI。
 - S3 · 井水 — 井水线以 KDF85 为主媒体；KDF55 在此线非主角。
+
+## Hub / PDP 调用方式
+
+- 卡片短句：`Visible copper-zinc media used as a stability and in-cartridge control layer — not the formula's headline performance claim.`
+- 图片：真实铜锌颗粒与分仓位置；不配 heavy-metal 健康图标。
+- `Used in`：Free-Chlorine、Chloramine + Soak；custom 仅按批准路线加入。
+- 页面主 CTA 根据 `selected_formula` 返回 S1 或 S2；无上下文时进入 Water Match。
+- 任何 NSF 字样必须同屏显示 `The finished product is not NSF-certified.`
 
 ## Sources / 内部依据
 

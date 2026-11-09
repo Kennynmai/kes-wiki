@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-30
-updated: 2026-07-02
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -25,8 +25,8 @@ related:
 
 # KES 场景页 · 氯胺城市（Chloramine City）
 
-> 本页是**氯胺城市**用户的配置与劝退页（Spoke A · S2）。它**只引用**各滤材页的口径，不改写：机理与 claim 的真理源是 [催化炭 M3](./bathtub-filter-kes-media-catalytic-carbon.md) 与 [抗坏血酸钠浸泡件 M4](./bathtub-filter-kes-media-sodium-ascorbate-soak.md)。
-> 氯胺是**红线区**：全页 claim 默认 🟡 Conditional，仅限 V1.5 双段配置，**未闭环前不上 Hub 首屏**。
+> 本页是**氯胺城市**用户的首发配置页（Spoke A · S2）。它**只引用**各滤材页的口径，不改写：机理与 claim 的真理源是 [催化炭 M3](./bathtub-filter-kes-media-catalytic-carbon.md) 与 [抗坏血酸钠浸泡件 M4](./bathtub-filter-kes-media-sodium-ascorbate-soak.md)。
+> **2026-07-14 产品决策**：Chloramine + Soak Kit 与 Free-Chlorine Formula 同步推出，Hub/选购器可直接推荐与加购，不再导向 waitlist。氯胺性能 claim 仍属红线区：具体百分比默认 🟡 Conditional，未闭环前不在 Hub 展示数字。
 
 ---
 
@@ -41,7 +41,7 @@ related:
 
 ---
 
-## ② 配置 — inline 双段（V1.5）
+## ② 配置 — Chloramine + Soak Kit（首发双段 SKU）
 
 **过滤棉（PET）→ 催化活性炭 → 小层 KDF55 ＋ 抗坏血酸钠浸泡件（drop-in）**（滤棉材质 2026-07-02 按 [V1 BOM 表](../bathtub-filter-v1-free-chlorine-removal-dimensions-materials.md) 裁定更正为 PET）
 
@@ -74,7 +74,7 @@ related:
 2. **「单芯不全除氯胺」必须明说**：inline 催化炭必要非充分，全除靠浸泡件在浴缸停留段完成。
 3. **禁「NSF/ANSI 177 支持氯胺」**：177 只测游离氯（challenge water 要求氯胺 <0.1 mg/L）。
 4. **验证用总氯（total chlorine）试纸**，不用游离氯试纸；并在说明书提示**抗坏血酸对 DPD/比色法的还原干扰**——测量应在充分反应混匀后取样，避免高估「中和」（详见 [M4 §四](./bathtub-filter-kes-media-sodium-ascorbate-soak.md)）。
-5. 全页 claim **🟡，不上 Hub 首屏**，不作对外承诺，直到氯胺台架闭环。
+5. Hub 可展示**套装名称、适用水质、真实滤材、两段步骤并直接加购**；具体去除率 / 剂量 / 完成度仍为 🟡，直到氯胺台架闭环前不得展示数字。
 
 > **验证与口径**：总氯试纸自测见 [T1 水质自测](./bathtub-filter-kes-page-water-test-diagnosis.md)，去氯胺测试 / 认证口径见 [T2 我们怎么测/认证](./bathtub-filter-kes-page-how-we-test-and-certify.md)。
 
@@ -82,21 +82,37 @@ related:
 
 ## ⑤ 诚实劝退（Honest Disqualification）
 
-氯胺版有两个**先说清**的前提，任一不接受，V1.5 现在还不适合你：
+氯胺版有两个**购买前先说清**的前提，任一不接受，这套产品就不适合你：
 
 - **你必须接受把浸泡件放进浴缸**。这不是「一颗炭芯搞定」——inline 只降一部分，剩下靠你等几分钟让浸泡件完成。不想多这一步，就别买这套。
 - **证据尚未闭环**。氯胺去除率 / 剂量数字还等 KES 自己的**氯胺专属台架**坐实（总氯口径），我们**现在不给你百分比承诺**。
 
-> **「Your city uses chloramine — this needs an in-tub soak step, and we won't quote you a removal number until our chloramine bench test closes. If that's not for you yet, leave your email and we'll tell you when the chloramine version (V1.5) is fully validated.」**
-> 「你所在城市用氯胺——这套需要一个缸内浸泡步骤，且在氯胺台架闭环前我们不给去除率数字。如果现在不合适，留个邮箱，V1.5 证据齐了我们通知你。」
+> **「Your city uses chloramine. Choose the Chloramine + Soak Kit if you are comfortable with its required in-tub step. We will show you the full formula and how to use it, but we won't quote a removal percentage until our dedicated chloramine bench test closes.」**
+> 「你所在城市用氯胺，可选择 Chloramine + Soak Kit；前提是接受它必需的缸内浸泡步骤。我们会完整展示配方和使用方式，但在专属氯胺台架闭环前不提供去除率百分比。」
 
 不卖错 = clean-formula 的信任资产。
+
+## ⑥ Formula PDP 交易规格
+
+本页同时是 `/bathtub-filter/chloramine` 的唯一内容 owner。PDP 必须把 inline 与 in-tub 两段放在同一购买区，不能把 soak step 藏在说明书或购物车之后。
+
+| PDP 区域 | 必须展示 | 行为 / owner |
+|---|---|---|
+| 首屏 | `KES Bath Filter — Chloramine + Soak Kit`；适用 chloramine city water；PET → catalytic carbon → small KDF55 + required soak step；总氯试纸；价格；fit 状态 | 价格调用 [SVC7](./bathtub-filter-kes-pricing-and-refill-economics.md)；fit 调用 [P4](./bathtub-filter-kes-install-and-compatibility-guide.md) |
+| 必需步骤确认 | `This formula includes a required in-tub soak step and needs a few minutes.` | 用户在 Add to cart 前确认；不得提供删除 soak accessory 的变体 |
+| 主 CTA | `Add Chloramine + Soak Kit` | 原位 cart drawer；完整套装一次加入；保留 `selected_formula=chloramine` |
+| 辅助 CTA | `Why the soak step?` / `Check my water` / `Check my spout` | 分别进入 [M4](./bathtub-filter-kes-media-sodium-ascorbate-soak.md)、[SVC10](./bathtub-filter-kes-water-match-selector-spec.md)、P4 |
+| What's inside | 两段爆炸图、水路和每个材料用途 | D1/D2 + M7/M3/M2/M4；不显示未验证百分比 |
+| Verify & replace | total-chlorine strip + 正确测量时机；inline cartridge 与 soak consumable 分开说明更换 | [SVC2](./bathtub-filter-kes-post-purchase-verification.md) / [T3](./bathtub-filter-kes-page-replacement-and-lifespan.md) |
+| 购买边界 | 不接受 soak step、要求 instant、想软化或处理井水红旗者不适用 | 指向 S1/S3 或诚实劝退，不允许 custom 删除必需步骤 |
+
+PDP sticky bar 固定显示 `Chloramine + Soak Kit / required soak confirmed / fit status / price / Add to cart`。从 M3/M4/D2/T2 返回时保留确认状态和购物车。
 
 ---
 
 ## Sources
 
-- [Claim register（Banned §C / Conditional §B 氯胺 V1.5）](../bathtub-filter-claim-register.md)
+- [Claim register（Banned §C / Conditional §B Chloramine + Soak Kit）](../bathtub-filter-claim-register.md)
 - [氯胺去除证据（媒体对比 / EBCT / 4–8 min / 双段结论）](../bathtub-filter-chloramine-media-research.md)
 - [按水源类型的滤材方案（方案 B 氯胺双段）](../bathtub-filter-kes-media-stack-options-by-water-type.md)
 - [内容地图（§三 B S2 行）](./bathtub-filter-kes-marketing-site-content-map.md)

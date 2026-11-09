@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: low
 officiality: placeholder
@@ -72,6 +72,8 @@ related:
 
 > 🟡 待 [法务/运营] 补：保修时长、覆盖与除外条款、主张流程；除外项须与 [兼容边界 / 适配页](./bathtub-filter-kes-structure-flat-strap-fit.md) 的「不支持」范围对齐（非标出水嘴误用不应算保修）。
 
+四版本必须分别决定并披露：共用 housing/strap 的制造缺陷、formula-specific cartridge、一次性/可消耗 soak component、PET 前置、试纸、custom packing error 和正常 media exhaustion 是否属于保修或耗材。不得用“滤芯不满意”混淆制造缺陷、正常耗尽和性能 claim 争议。
+
 ---
 
 ## 五、满意保证（Satisfaction Guarantee）
@@ -95,8 +97,17 @@ related:
 | 退款时限 | 时限、方式、restocking fee | 运营（+ 法务复核） |
 | 保修范围 | 时长、覆盖/除外、主张流程 | 法务 + 运营 |
 | 满意保证 | 形式、期限、条件、排除 | 法务 + 运营 |
+| 四版本差异 | housing/cartridge/soak/PET/试纸/custom packing 的退保处理 | 法务 + 产品 + 运营 |
+| 渠道差异 | DTC/Amazon 的入口、窗口和谁承担运费 | 运营 + 法务 |
 
 > **上线门槛**：以上 `[____]` 全部填实 + 法务复核通过后，方可把 `officiality` 从 `placeholder` 升级并上线。
+
+## 用户路径与状态
+
+- 从订单进入时自动带入 `order_id / formula_id / purchase_channel / delivered_at / fit_status`，不要求客户重复填写。
+- 适配失败先核对购买前 fit result；制造缺陷进入 warranty；未达到已发布性能 claim 进入验证/质量调查；单纯改变主意进入 return。
+- 页面主 CTA 为 `Start a return or warranty claim`，次入口为 Support。提交后显示 case ID、所需证据和下一时点；不能只显示“联系我们”。
+- 退货流程不得要求客户先发布评价、接受 store credit 或经过挽留墙。
 
 ---
 

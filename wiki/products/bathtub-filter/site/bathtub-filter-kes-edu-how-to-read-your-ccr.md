@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -142,6 +142,7 @@ CCR 通常是一份表格密集的 PDF。你不用全看，**盯住这三项**�
 
 ## 下一步
 
+- **主动作**：`Use my CCR result` → [Water-Match Selector](./bathtub-filter-kes-water-match-selector-spec.md)，允许用户确认 utility/type/confidence 后进入 Formula，不要求重新阅读同一信息。
 - CCR 显示你是**游离氯** → [S1 游离氯·市政场景页](./bathtub-filter-kes-scenario-free-chlorine.md)
 - CCR 显示你是**氯胺** → [S2 氯胺城市场景页](./bathtub-filter-kes-scenario-chloramine.md)
 - 想深挖游离氯 vs 氯胺的差别 → [E1 你的城市用游离氯还是氯胺](./bathtub-filter-kes-edu-chlorine-vs-chloramine-geography.md)

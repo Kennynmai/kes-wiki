@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-07-14
 visibility: team
 confidence: low
 officiality: placeholder
@@ -37,12 +37,13 @@ related:
 
 | # | 采集点 | 采什么 | 为什么（承诺用途） | 存哪 | 保留多久 |
 |---|---|---|---|---|---|
-| 1 | **选购器劝退邮箱**（[SVC10 §2.3/§3.3](./bathtub-filter-kes-water-match-selector-spec.md)） | 邮箱 + reason 枚举（6 种：`out_of_coverage / chloramine_wait / ro_no_value / carbon_retest_reminder / well_waitlist / well_out_of_scope`）+ ZIP 前缀 | **只兑现劝退时承诺的那类通知**（V1.5 上市 / 覆盖上新 / 复测提醒），时点归 [SVC11 E8](./bathtub-filter-kes-email-lifecycle-spec.md)；🔴 不挪作泛营销名单 | ESP 列表 + `email_capture` 表 `[____ 待工程]` | `[____]`（建议：承诺兑现后 N 月未转化即清 `[____ 待运营]`） |
+| 1 | **选购器劝退邮箱**（[SVC10 §2.3/§3.3](./bathtub-filter-kes-water-match-selector-spec.md)） | 邮箱 + reason 枚举（4 种：`out_of_coverage / ro_no_value / carbon_retest_reminder / well_out_of_scope`）+ ZIP 前缀 | **只兑现劝退时承诺的那类通知**（覆盖上新 / 复测提醒 / 专业检测指引），时点归 [SVC11 E8](./bathtub-filter-kes-email-lifecycle-spec.md)；🔴 不挪作泛营销名单。氯胺与合格井水均为首发可售，不采候补邮箱 | ESP 列表 + `email_capture` 表 `[____ 待工程]` | `[____]`（建议：承诺兑现后 N 月未转化即清 `[____ 待运营]`） |
 | 2 | **Referral 归因**（[SVC5 §五/§八](./bathtub-filter-kes-referral-program.md)） | 卡上唯一码（**卡面零 PII**）；服务端「码→盒→订单→推荐人」映射；归因 cookie；防自荐比对用的**收货地址 / 支付指纹** | 奖励归因与防刷；地址/支付指纹**仅用于同址拦截判定**，不作画像 | referral app + 服务端映射表 `[____ 待工程]` | 码有效期 `[____ 待运营]`；映射与比对记录 `[____]` |
 | 3 | **分享图生成器回传**（[proof §4.7.3](./bathtub-filter-kes-proof-and-testimonials.md)） | **可选**匿名 `{zip3, before, after, ts}`——零 PII、ZIP 只取前 3 位、**不回传也能出图**（纯前端渲染） | 城市对比钩子 / 匿名聚合统计（未来水质地图） | 匿名聚合存储 `[____ 待工程]` | `[____]`（匿名数据，建议聚合后即弃原始记录 `[____ 待法务确认是否够格「匿名」]`） |
 | 4 | **GA4 埋点**（[SVC10 §四](./bathtub-filter-kes-water-match-selector-spec.md) 事件表 + share 事件） | 事件流（`zip_hit / email_captured / add_to_cart / share_image_generated`…）、设备信息、粗粒度地理、cookie 标识符 | 漏斗与转化度量（KPI 见 MVP spec §6） | GA4（Google = 数据处理者，DPA `[____ 待法务]`） | GA4 保留期设置 `[____ 待运营，建议 14 个月]` |
 | 5 | **订阅 / 订单账户**（[SVC4 §一](./bathtub-filter-kes-refill-subscription.md)） | 姓名、地址、邮箱、订单史、订阅状态与 skip 历史；**支付卡号由支付处理商持有，站内不存** | 履约、订阅管理、退货保修（SVC3） | 电商平台（Woo/Shopify `[____ 待定]`）+ 支付处理商 `[____]` | `[____]`（税务/会计法定期限 `[____ 待法务]`） |
 | 6 | **UGC 投稿**（[proof §4.3](./bathtub-filter-kes-proof-and-testimonials.md)） | 照片/视频（**可能含人像**）、卡面手写城市/日期、社交 handle、rights license 勾选记录、#gifted 披露记录、奖励发放记录 | gallery 墙 / 官号转发 / 广告（**以 license 勾选范围为限**）；奖励兑付 | 投稿渠道定型后 `[____ 待运营]` | license 期限 `[____ 待法务]`；未勾选授权的素材**不存不转发** |
+| 7 | **Build Your Formula 配置**（[SVC13](./bathtub-filter-kes-custom-formula-builder-spec.md)） | `formula_id`、水源类型、用户勾选的问题、生成的 modules / fixed order / strip type；加入订单后与客户订单关联 | 生成合法配方、履约、补芯复购、客服与 claim 追溯；不用于推断健康状态 | 配置服务 + 电商订单 `[____ 待工程]` | 未购买匿名配置 `[____ 建议 30 天]`；已购买配置随订单法定/售后期限 `[____ 待法务]` |
 
 **跨项承诺（产品级已定，写进隐私政策）：**
 
@@ -97,7 +98,7 @@ related:
 ### 6.2 选购器（SVC10）
 
 - 表单语义：Q1–Q3 用 fieldset/legend + label；分岔跳转对屏幕阅读器可感知（结果区 aria-live）。
-- 全键盘可达：整棵决策树到加购/留邮箱可纯键盘走完；焦点可见且不丢失。
+- 全键盘可达：整棵决策树到加购、正确退出或可选通知表单都可纯键盘走完；焦点可见且不丢失。
 - 错误与状态不只靠颜色（ZIP 错误、confidence 提示需图标+文字）。
 
 ### 6.3 全站通用

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -25,7 +25,7 @@ related:
 # KES 滤材页 · 抗坏血酸钠浸泡件（Sodium Ascorbate Soak）
 
 > **这一页是「抗坏血酸钠浸泡件」这一料在 KES 站内的唯一口径源（single source of truth）。**
-> 任何场景页 / PDP / 说明书提到浸泡件的定位、机理、剂量、claim、验证方法，都引用本页。浸泡件是**氯胺红线区最敏感的一块**——它是「时间换去除率」的第二段，**天生慢**，因此本页从头到尾禁「秒解」，所有 claim 默认 🟡 Conditional，仅限 V1.5 双段配置。
+> 任何场景页 / PDP / 说明书提到浸泡件的定位、机理、剂量、claim、验证方法，都引用本页。浸泡件是**氯胺红线区最敏感的一块**——它是「时间换去除率」的第二段，**天生慢**，因此本页从头到尾禁「秒解」，所有性能 claim 默认 🟡 Conditional，仅限首发 Chloramine + Soak Kit 双段配置。
 
 ---
 
@@ -48,7 +48,7 @@ related:
 
 ## 二、在 KES 的定位
 
-**抗坏血酸钠浸泡件 = 氯胺版（V1.5）第二段：在浴缸停留段完成氯胺中和。**
+**抗坏血酸钠浸泡件 = Chloramine + Soak Kit 第二段：在浴缸停留段完成氯胺中和。**
 
 - 与 [催化炭（M3）](./bathtub-filter-kes-media-catalytic-carbon.md) 组成双段：inline 催化炭先降一部分，浸泡件用 4–8 分钟停留收尾。**两段都在用「时间换去除率」**，浴缸是唯一天然提供这段时间的 format。
 - 用户须**接受「额外把配件放进浴缸」**这个前提——这是氯胺 SKU 与游离氯 SKU 的根本 UX 差异，也是诚实劝退的分岔点（见 [S2 场景页 ⑤](./bathtub-filter-kes-scenario-chloramine.md)）。
@@ -86,9 +86,17 @@ related:
 
 ---
 
+## 六、Hub / PDP 调用方式
+
+- 卡片短句：`The required in-tub completion step for the Chloramine + Soak Kit.`
+- 图片/动画：单独展示放入浴缸、混匀与等待；不能把它画进 inline cartridge。
+- `Used in`：Chloramine + Soak；custom 的 chloramine 路线不得删除。
+- 页面主 CTA：`Return to Chloramine + Soak Kit`，保留 `required_soak_confirmed`。
+- 时间、剂量和试纸时机必须与最新成品测试/IFU 一致；禁 `instant`。
+
 ## Sources
 
-- [Claim register（Banned §C 秒解禁 / Conditional §B 氯胺 V1.5）](../bathtub-filter-claim-register.md)
+- [Claim register（Banned §C 秒解禁 / Conditional §B Chloramine + Soak Kit）](../bathtub-filter-claim-register.md)
 - [氯胺去除证据（SFPUC 4–8 min / AWWARF 化学计量 / pH / 亚分钟三保留）](../bathtub-filter-chloramine-media-research.md)
 - [按水源类型的滤材方案（方案 B 双段：为何抗坏血酸钠）](../bathtub-filter-kes-media-stack-options-by-water-type.md)
 - [内容地图（§三 C M4 行）](./bathtub-filter-kes-marketing-site-content-map.md)

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -147,6 +147,7 @@ KES 是一个**注水阶段的舒适向滤芯**，不是全屋系统、不是水
 
 ## 下一步
 
+- **主动作**：`Check my well first` → [Water-Match Selector](./bathtub-filter-kes-water-match-selector-spec.md)。红旗通过才进入 Well-Water Formula；命中健康级/高负载问题时不显示购买 CTA。
 - 想知道你家水属于哪一类、该配什么 → [水质自测与诊断页](./bathtub-filter-kes-page-water-test-diagnosis.md)
 - 井水场景的产品配置与有界 claim → [井水场景页](./bathtub-filter-kes-scenario-well-water.md)
 - 洗澡水里的氯到底值不值得在意（诚实对话）→ [E6](./bathtub-filter-kes-edu-chlorine-skin-worth-it.md)

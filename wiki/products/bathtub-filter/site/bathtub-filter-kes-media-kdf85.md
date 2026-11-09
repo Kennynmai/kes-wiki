@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -71,6 +71,14 @@ KDF85 是**高纯铜锌合金颗粒**，与 [KDF55](./bathtub-filter-kes-media-k
 ## 用到我的场景（反链）
 
 - [S3 · 井水场景页](./bathtub-filter-kes-scenario-well-water.md) — KDF85 是该 SKU 的去铁 / 去硫主力层（粗 PP → KDF85 → 催化炭）。
+
+## Hub / PDP 调用方式
+
+- 卡片短句：`The Well-Water Formula's media for low-to-moderate rust and sulfur nuisance.`
+- 图片：真实 KDF85 颗粒与所在分仓；不配饮水安全、细菌或砷图标。
+- `Used in`：Well-Water；custom 仅在井水红旗筛查通过后加入。
+- 页面主 CTA：已筛查用户返回 Well-Water Formula；未筛查用户进入 Water Match。
+- 百分比只在 KES 完整成品 challenge test 后显示。
 
 ## Sources / 内部依据
 

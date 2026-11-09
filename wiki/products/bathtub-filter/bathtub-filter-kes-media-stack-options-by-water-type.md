@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-04-19
-updated: 2026-07-02
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -35,10 +35,11 @@ related:
 1. **游离氯城市**
 2. **氯胺城市**
 3. **私人井水**
+4. **自行定制（guided custom formula）**
 
 > **2026-07-02 BOM 裁定更正**：本页滤料克数与滤棉材质已按 [V1 BOM 表](./bathtub-filter-v1-free-chlorine-removal-dimensions-materials.md) 更正——**KDF55 130g + CaSO₃ 110g、滤棉=聚酯纤维（PET）**（此前为互换值/PP，勿引旧版）。
 >
-> **2026-07-01 产品线决策**：**方案 B（氯胺版·催化活性炭）与方案 C（井水版）确认立项 GO**——三 SKU 框架成立。注意：GO 的是产品线，**不是 claim**——S2/S3 的 claim 证据状态不变（仍 🟡 待各自台架/证据闭环，见 [claim register](./bathtub-filter-claim-register.md) V1.5 conditional）；对外表面在版本 ship 前仍维持「留邮箱等氯胺版」的诚实劝退口径。同日决策重申：**软化不做**（硬水只提供阻垢剂选项，见 register Banned 软化行）；全屋软水器/前置过滤家庭为有效目标客群（氯照样通过），全屋活性炭家庭默认诚实劝退（试纸先测）——见 [E11 特殊水源页](./site/bathtub-filter-kes-edu-special-water-sources.md)。
+> **2026-07-14 四版本首发更新**：确认四个购买版本同步进入首发架构：**A Free-Chlorine Formula、B Chloramine + Soak Kit、C Well-Water Formula、D Build Your Formula**。Hub、PDP 与选购器必须把四者作为可购买入口，不再把氯胺或合格井水用户导向 waitlist。D 是 guided custom：用户选择需求，规则引擎只生成白名单材料、固定顺序与经过 claim 审核的组合，不卖散料、不允许任意堆料。产品推出决策与 claim 证据状态分开管理：B/C/D 的具体性能 claim 仍按各自证据状态控制，不得因首发而自动转绿。**软化仍不做**；硬水只提供阻垢剂选项。
 
 ---
 
@@ -123,7 +124,7 @@ related:
 
 ### KES 判断
 
-这是 **当前最成熟、最应该先做的主 SKU**。
+这是**当前性能证据最成熟的首发 SKU**；产品范围上与方案 B 氯胺套装同步推出，但两条路线的 claim 证据状态分别管理。
 
 ---
 
@@ -269,13 +270,14 @@ related:
 
 ---
 
-## 三套方案对比表
+## 四个购买版本对比表
 
 | 方案 | 目标水源 | 主媒体 | 关键辅助组件 | 主 KPI | 不解决什么 |
 |---|---|---|---|---|---|
 | A | 游离氯城市 | **CaSO3** | KDF55 + PP | free chlorine reduction | chloramine / hard-water softening / well-water issues |
 | B | 氯胺城市 | **catalytic activated carbon** | 抗坏血酸钠/维生素 C 浸泡配件 + 小层 KDF55 | chloramine reduction during fill + soak | 不能假装单靠小滤芯全做完 |
 | C | 私人井水 | **KDF85** | sediment layer + catalytic carbon | low-moderate iron / H2S / odor relief | bacteria / arsenic / nitrate / hard-water softening / high-iron treatment |
+| D | 自行定制 | **由规则引擎按水质选择** | 白名单模块 + 固定顺序 + 对应结构/试纸 | 仅继承最终组合已允许的 claim | 任意滤材顺序 / 未测试组合数字 / 软化 / PFAS / 杀菌 / 医疗声称 |
 
 ---
 
@@ -283,15 +285,16 @@ related:
 
 ### SKU 排序
 
-如果按当前成熟度和产品定义一致性排序：
+四个版本均进入购买架构；如果按当前证据成熟度排序：
 
 1. **方案 A — free chlorine municipal**
 2. **方案 B — chloramine city dual-stage**
 3. **方案 C — well-water nuisance route**
+4. **方案 D — guided custom formula**
 
 ### 不建议的做法
 
-- 不要把三条路线混成一个“universal bath filter”
+- 不要把前三条路线混成一个“universal bath filter”
 - 不要为了 marketplace 关键词把 KDF55 / CaSO3 / KDF85 / catalytic carbon / vitamin C 全塞进一个小球
 - 不要在 chlorine / chloramine / well-water 三类市场共用同一套文案
 
@@ -303,7 +306,7 @@ related:
 
 而是：
 
-> **KES 有同一产品定义下的三条水源适配路线：游离氯版、氯胺版、井水版。**
+> **KES 有同一平台下的四个购买版本：游离氯版、氯胺版、井水版，以及由规则约束的自行定制版。**
 
 这样更接近真实工程，也更接近真实 claim discipline。
 
@@ -318,6 +321,7 @@ related:
 | A | **KES Bath Filter Free-Chlorine** | free-chlorine municipal bathers；希望减少 pool smell / chlorine discomfort 的家庭 | `polyester (PET) fiber → KDF55 → CaSO3` | `free chlorine reduction` / `bath-water comfort` / `less pool-smell bath fill` | chloramine removal / hard-water softening / broad contaminant removal / well-water treatment | DPD free chlorine in/out；15/20/25/30 L/min curve；寿命曲线；overflow / leak / fit test |
 | B | **KES Bath Filter Chloramine + Soak Kit** | chloramine-city bathers；已知自己所在城市使用 chloramine、且愿意接受额外 bath accessory 的用户 | `polyester (PET) fiber → catalytic carbon → small KDF55` + `sodium ascorbate soak accessory` | `reduces combined chlorine during fill and soak` / `chloramine-city bath-water comfort` | single-cartridge full chloramine removal / NSF 177 chloramine implication / universal chloramine claim without soak step | total chlorine / monochloramine in/out；with-vs-without soak accessory；不同 fill time 验证；温水 38–42°C 条件测试；用户操作可理解性测试 |
 | C | **KES Bath Filter Well-Water Nuisance** | private well households with low-to-moderate iron / sulfur smell / rust nuisance | `coarse PP sediment → KDF85 → catalytic carbon` | `targets iron / sulfur-related bath nuisance` / `odor and rust discomfort relief framing` | bacteria treatment / arsenic / nitrate / uranium / high-iron replacement for whole-house / hard-water softening | iron / H2S / manganese challenge test；sediment loading / clogging test；pressure-drop life test；staining / odor panel validation |
+| D | **KES Bath Filter Build Your Formula** | 水质条件或附加问题跨越标准入口、希望自行选择需求的用户 | 由白名单规则生成；顺序不可由用户修改 | 只显示最终组合已有证据的 claim；无 finished-product 数据则不显示数字 | arbitrary stacking / user-defined order / unsupported targets / umbrella purification claim | 每个可售组合的 flow-path 校核、模块兼容、pressure drop、spout load、试纸匹配与组合级 claim review |
 
 ---
 
@@ -394,31 +398,54 @@ related:
 
 ---
 
+### SKU D — KES Bath Filter Build Your Formula
+
+### 适合怎么讲
+
+- 用户选择自己看见的问题，KES 生成合法配方
+- 透明展示每个模块、固定顺序、对应导流和验证方法
+- 是 guided configuration，不是散料自由拼装
+
+### 会议里应盯住的决策点
+
+- 白名单组合与 `formula_id` 规则由谁维护
+- 哪些组合已有 finished-product 数据，哪些只能展示结构不能展示数字
+- 模块增加后对压降、重量、spout 适配和寿命的影响
+- 售后与补芯如何按原配置准确复购
+
+### 进入下一阶段前至少要过的测试
+
+- **每个可售组合的 flow-path / channeling 校核**
+- **pressure-drop / overflow / spout-load 复核**
+- **材料顺序与物理防呆验收**
+- **组合级 claim、试纸和说明书匹配**
+
+详细规则见 [Build Your Formula 规格](./site/bathtub-filter-kes-custom-formula-builder-spec.md)。
+
+---
+
 ## 会议建议的决策顺序
 
 如果 KES 要开产品会，建议按下面顺序做决定：
 
-1. **先确认是否接受三 SKU 框架**
-   - 不要再讨论“一个滤芯通吃三种水”
-2. **先锁定 SKU A 继续推进**
-   - 它是最成熟、最接近现有证据与定义边界的
-3. **再决定 SKU B 是否值得立项**
-   - 关键不是 chemistry，而是用户是否接受 soak accessory
-4. **最后决定 SKU C 是否进入独立路线**
-   - 它更像新市场 / 新渠道 / 新 claim boundary，不应混进 Version A 节奏
+1. **四版本购买架构已确认**
+   - A/B/C 是标准预配方；D 是规则约束的定制入口
+2. **分别冻结 A/B/C 的 BOM 与必需步骤**
+3. **建立 D 的白名单组合、固定顺序和不可选目标**
+4. **每个版本独立完成测试与 claim 审核**
 
 ---
 
 ## 需要补的管理动作
 
-为了让这三套方案真正可推进，下一轮 wiki 最值得补的是三个配套页：
+为了让四个版本真正可推进，下一轮 wiki 最值得补的是三个配套面：
 
 1. **SKU-level claim register**
-   - 把 A/B/C 的 allowed / conditional / banned wording 分开
+   - 把 A/B/C/D 的 allowed / conditional / banned wording 分开
 2. **SKU-level validation checklist**
    - 把每条路线必须过的 bench / user / compatibility test 单独列出
 3. **SKU-level front-end qualification logic**
-   - 让用户先判断自己是 free chlorine、chloramine 还是 well-water，避免买错
+   - 让用户先判断自己是 free chlorine、chloramine、well-water，或进入 Build Your Formula，避免买错
 
 ---
 

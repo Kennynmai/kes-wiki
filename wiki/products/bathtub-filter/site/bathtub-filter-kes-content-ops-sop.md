@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -41,7 +41,7 @@ related:
 
 ### 1.1 建页六步
 
-1. **定归属**：先去 MAP §二"页面索引"和 §三"页面清单"确认这页属于哪一簇（T/M/S/D/E/P/SVC）、归哪个 claim 区、真理源指向谁。**MAP 里没有的页不要凭空建**——先在 MAP 加一行再建页，保持索引是唯一目录。
+1. **定归属**：先去 MAP 的页面索引和页面清单确认这页属于哪一簇（T/M/S/D/E/P/SVC/CH/OPS）、归哪个 claim 区、真理源指向谁。**MAP 里没有的页不要凭空建**——先在 MAP 加一行再建页，保持索引是唯一目录。
 2. **拷模板**：用 §1.2 frontmatter 模板 + §1.3 正文骨架起页。
 3. **填五段**（场景/滤材页按 §1.3 结构）。
 4. **挂 claim 标签**：每条对外 claim 就地标 🟢/🟡/🔴（见 §1.4）。
@@ -69,17 +69,29 @@ related:
 
 ### 1.3 正文结构
 
-**场景页（S）/ 滤材页（M）固定五段**（照 MAP §三）：
+**研究型场景页（S）/ 滤材页（M）的基础五段**（照 MAP；Formula PDP 另加交易规格）：
 
 ```
 ① problem 框定（这页解决用户哪个 problem，不越界到别的水源路线）
 ② 用哪套 media 配置（真理源=对应 M 页；场景页只引用不改写口径）
 ③ 有界 claim（每条带 🟢🟡🔴 + 限定词，如 "free chlorine / fresh-filter / 15 L/min"）
 ④ 承重护栏 / disclaim（本页必带句，如 "This is not a water purifier."）
-⑤ 诚实劝退（能力外明说不适合 + 留邮箱/引导）
+⑤ 诚实边界（能力外明说不适合 + 给正确去向；不得默认以邮箱/候补替代答案）
 ```
 
-**其它页型**：T/E/P 页按 MAP §三对应块的"内容/护栏"列展开；SVC 占位页保 `officiality: placeholder` 骨架，事实留 `[____]` 待业务补。
+**每个公开页面还必须补齐七项发布合同**：
+
+| 项 | 必须回答的问题 |
+|---|---|
+| Primary question | 用户进入此页要解决哪个唯一主问题？ |
+| Entry points | 从 Hub 哪个文字、图片或状态进入？URL/锚点是什么？ |
+| Evidence owner | 哪个 T/M/P 页面拥有数字或 claim？ |
+| Boundary | 哪些情况不适用，何时隐藏购买？ |
+| Primary CTA | Buy / Check Fit / Water Match / Return to Formula 中哪一个是唯一主动作？ |
+| Return behavior | 返回时保留哪些 `selected_formula`、`fit_status`、`water_match`、`cart_context`、`formula_id`？ |
+| Analytics | 至少记录入口、页面主 CTA、返回购买和边界退出 |
+
+**页型附加要求**：Formula PDP（S1–S3）必须有价格 owner、Fit 状态、Add to cart 与 sticky bar；M/D/E 页面必须有可被 Hub 调用的摘要、图片行为和返回 CTA；SVC 占位页可保 `officiality: placeholder`，但必须写清 owner、决策依赖和阻断上线的字段，不能只留空壳。
 
 ### 1.4 claim 标签口径
 
@@ -95,6 +107,9 @@ related:
 - [ ] **进索引**：MAP §二对应簇列表里有本页硬链接。
 - [ ] **单一真理源**：去氯数字引 T2、寿命引 T3、每种 media claim 引对应 M 页——**本页不自造口径**。
 - [ ] **禁词自查**：跑 §5.2 禁词扫描零命中。
+- [ ] **Formula 对齐**：本页明确适用于四版中的哪一版；试纸、滤材、测试时机、寿命和 CTA 未跨 Formula 复制。
+- [ ] **交易状态连续**：从 Hub/PDP 来回后应保留的状态已在页面合同中写明。
+- [ ] **公开/内部边界**：专利细节、未验证数字、供应链参数与对外摘要已分开；内部文件不可被前端直接渲染。
 
 ---
 
@@ -142,7 +157,7 @@ related:
 
 > **背景**：单一真理源规则（MAP §四）只在"真理源改动被逐页核销"时才成立。一处真理源数字改了、下游没跟，就是 claim 漂移。**任何改真理源数字的动作强制走本节六步。**
 
-### 六步
+### 八步
 
 1. **改真理源数字**：只在真理源页改（如 BOM 配比、T2 去氯数字、T3 寿命表）。
 2. **grep 全站引用**：拿旧数字全仓搜，列出所有下游命中。
@@ -151,6 +166,8 @@ related:
 4. **bump `updated`**：每个动过的页 `updated` 改当天日期。
 5. **复核 grep 零残留**：再 grep 一次旧数字，确认只剩"显式旧值对照"处，正文零残留。
 6. **同步 claim-register**：若数字支撑某条 claim，回 claim-register 对应行同步。
+7. **同步四 Formula 表面**：逐一核对 Hub、S1–S3、Builder、包装、IFU、Amazon、邮件和售后，不能只改默认版。
+8. **同步交易状态/埋点**：若 Formula 名、价格、fit 或验证逻辑改变，更新状态枚举、URL/深链、购物车 payload 和分析事件字典。
 
 ### 案例：2026-07-02 BOM 裁定
 
@@ -168,6 +185,7 @@ BOM 表把滤料克数互换（KDF55 110g/CaSO₃ 130g → **KDF55 130g / CaSO�
 | **[T2 我们怎么测/认证](./bathtub-filter-kes-page-how-we-test-and-certify.md)** | 去氯数字 / 认证口径 / 15↔25 L/min | Hub、S1–S5 场景页、PDP、[E10 流速×去氯](./bathtub-filter-kes-edu-flow-rate-and-lifespan.md)、efficacy 引用处 |
 | **[T3 更换/寿命](./bathtub-filter-kes-page-replacement-and-lifespan.md)** | 寿命表 / 更换触发 / 容量 | efficacy §9、[SVC4 补芯订阅](./bathtub-filter-kes-refill-subscription.md)、[P3 维护指南](./bathtub-filter-kes-care-and-maintenance-guide.md)、[SVC2 买后验证](./bathtub-filter-kes-post-purchase-verification.md) |
 | **[E4 术语表](./bathtub-filter-kes-edu-water-glossary.md)** | 游离氯/总氯/氯胺/ppm/硬度/TDS 定义 | 全部 E 页、S1–S5 场景页、[SVC1 买前 FAQ](./bathtub-filter-kes-faq-is-kes-right-for-you.md)、[T1 自测页](./bathtub-filter-kes-page-water-test-diagnosis.md) |
+| **[四版本 P2](./bathtub-filter-kes-pack-contents-spec.md)** | Formula 组成、试纸、固定顺序、装箱硬门槛 | Hub、S1–S3、Builder、P5 包装、CH1 Amazon、CH2 IFU、SVC2 验证、SVC3 退换、SVC6 支持 |
 
 ---
 
@@ -211,6 +229,7 @@ grep -rn '\[____\]' wiki/products/bathtub-filter/
 | 日期 | 动作 | owner |
 |---|---|---|
 | 2026-07-02 | SOP 页建立（draft）；随 2026-07-02 BOM 裁定 + TPU→硅胶 + ascorbate 误署更正批次 | strategy |
+| 2026-07-14 | 扩展为四 Formula 内容运维：增加公开页面合同、状态连续、渠道/包装传播与非候补默认规则 | strategy |
 
 ---
 

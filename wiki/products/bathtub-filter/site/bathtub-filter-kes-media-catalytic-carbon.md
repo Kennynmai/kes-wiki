@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -26,7 +26,7 @@ related:
 # KES 滤材页 · 催化活性炭（Catalytic Activated Carbon）
 
 > **这一页是「催化活性炭」这一滤材在 KES 站内的唯一口径源（single source of truth）。**
-> 任何场景页 / PDP / Hub 提到催化炭的定位、机理、claim、护栏，都引用本页，不得各自改写。催化炭是**氯胺红线区**——本页所有氯胺相关 claim 默认 🟡 Conditional，仅限 V1.5 双段配置，**未闭环前不上 Hub 首屏、不作对外承诺**。
+> 任何场景页 / PDP / Hub 提到催化炭的定位、机理、claim、护栏，都引用本页，不得各自改写。催化炭是**氯胺红线区**——仅限首发 Chloramine + Soak Kit 双段配置。Hub 可展示真实材料、适用水质与购买入口；具体去除率 claim 默认 🟡 Conditional，未闭环前不展示数字。
 
 ---
 
@@ -53,11 +53,11 @@ related:
 
 ## 二、在 KES 的定位
 
-**催化活性炭 = 氯胺版（V1.5）inline 主力：必要，但非充分。**
+**催化活性炭 = Chloramine + Soak Kit inline 主力：必要，但非充分。**
 
 - 在氯胺配置里，催化炭是**唯一可信的固相 inline 除氯胺路线**（不靠 KDF、不靠亚硫酸钙——那两者对氯胺无效，见 [claim register](../bathtub-filter-claim-register.md) Banned 区 V1 氯胺行 + [氯胺证据页](../bathtub-filter-chloramine-media-research.md) §1、§3）。
 - **但它「必要非充分」**：normal bath-fill flow（更别说 25 L/min）下，compact 滤芯的 EBCT 往往达不到 4–5 分钟门槛 → 催化炭单靠 inline **不能保证全除氯胺**，必须配 [抗坏血酸钠浸泡件（M4）](./bathtub-filter-kes-media-sodium-ascorbate-soak.md) 用浴缸停留段完成反应。
-- **游离氯版 V1 不含催化炭**（V1 = 过滤棉（PET）+ KDF55 + CaSO₃）。催化炭是 V1.5 / 氯胺线专属，**不得写成 V1 卖点**（register Banned「Carbon claims for V1」行）。
+- **游离氯版 V1 不含催化炭**（V1 = 过滤棉（PET）+ KDF55 + CaSO₃）。催化炭是 Chloramine + Soak Kit 专属，**不得写成 Free-Chlorine Formula 卖点**（register Banned「Carbon claims for V1」行）。
 
 > 定位一句话：**「催化炭把氯胺先降一部分，浴缸浸泡段完成剩下」——它开局，浸泡件收尾。** 不许写成「一颗炭芯搞定氯胺」。
 
@@ -67,7 +67,7 @@ related:
 
 | # | Claim（英文为客户可见 wording） | 状态 | 证据 / 依据 | 备注护栏 |
 |---|---|---|---|---|
-| C1 | 「Catalytic carbon is the most credible inline media for reducing combined chlorine (chloramine).」 | 🟡 Conditional | Kochany 2008（Tier 1，催化炭分解一氯胺为 N₂）+ EBCT 表（Tier 2） | 仅 V1.5；必带「inline reduction，not full removal」限定 |
+| C1 | 「Catalytic carbon is the most credible inline media for reducing combined chlorine (chloramine).」 | 🟡 Conditional | Kochany 2008（Tier 1，催化炭分解一氯胺为 N₂）+ EBCT 表（Tier 2） | 仅 Chloramine + Soak Kit；必带「inline stage，not full single-cartridge removal」限定 |
 | C2 | 「Inline catalytic carbon reduces part of the chloramine load during fill; the in-tub soak completes it.」 | 🟡 Conditional | 双段机理（[氯胺证据页 §2 / §8](../bathtub-filter-chloramine-media-research.md)） | 必须同时出现 M4 浸泡件；单写 inline 即违规 |
 | C3 | 具体去氯胺**百分比 / 击穿点**（如「≥X% @ 某流量」） | 🔴 未验证 / 不得写 | **无 KES 成品氯胺台架数据** | 🟡 待验证：须补**氯胺专属台架**（总氯口径），见缺口。无数前不得给任何百分比 |
 | C4 | 「Fast / instant / 秒解 chloramine」 | 🔴 Banned | register Banned §C「氯胺快速/秒解」 | 机理为慢催化分解，**按 4–8 分钟规划**；「fast」不可出现 |
@@ -94,6 +94,14 @@ related:
 - [S3 · 井水](./bathtub-filter-kes-scenario-well-water.md) —— 井水线（粗 PP → KDF85 → 催化炭）用催化炭，但角色是 **气味 / organics polish**，非氯胺、非游离氯逻辑；见 [media-stack 方案 C](../bathtub-filter-kes-media-stack-options-by-water-type.md)。
 
 ---
+
+## 六、Hub / PDP 调用方式
+
+- 卡片短句按 Formula 切换：Chloramine = `The required inline first stage, paired with an in-tub soak step.`；Well Water = `A sensory polishing layer after KDF85.`
+- 图片：真实炭层与独立分仓，不用黑色滤料暗示 broad purification。
+- `Used in`：Chloramine + Soak、Well-Water；custom 必须继承各自附件和红旗规则。
+- 页面主 CTA 返回进入时的 S2/S3/custom；无上下文时进入 Water Match。
+- 禁把 `catalytic` 翻成 PFAS、氯胺单芯全除或 universal contaminant claim。
 
 ## Sources
 

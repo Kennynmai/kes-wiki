@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -50,6 +50,10 @@ related:
 
 > 内容/分岔树/护栏全部沿 [选购器 spec](./bathtub-filter-kes-water-match-selector-spec.md)，此处只定移动呈现。
 
+- Hub 首屏四版本使用横向可滚动 tabs 或两行 2×2 选择区，默认完整显示版本名：Free Chlorine / Chloramine + Soak / Well Water / Build Your Formula。
+- 切换标准配方不得引发布局跳动；价格、滤材摘要、spout check 和 Add to cart 保持稳定位置。
+- Build Your Formula 每题单屏，顶部持续显示已选模块；生成结果必须在同一屏显示 `formula_id`、固定顺序、对应试纸和 Add to cart。
+
 ### 2.1 交互框架
 
 | 项 | 规格 |
@@ -59,21 +63,22 @@ related:
 | 单手可达 | 选项列表纵向排布、重心在屏幕下 2/3；「返回上一问」放左下角固定位 |
 | **进度指示** | 顶部轻量进度条或步点（如 `1/3`）；🔴 不用百分比游戏化（这是诊断不是测验）；劝退分岔到达时进度指示**照常走完**——劝退也是一个「完成」，不是中断 |
 | ZIP 输入 | 数字键盘唤起（`inputmode="numeric"`）；5 位自动提交；错误态就地提示不弹窗 |
-| 无注册墙 | 沿选购器 spec §四：所有结果（含劝退）不注册可看；邮箱字段只在劝退/等待分岔出现，且**单字段 + 一句给什么**，不做多字段表单 |
+| 无注册墙 | 沿选购器 spec：所有结果（含不适用结论）不注册可看。四个已推出版本直接购买，不出现候补邮箱；真正超出能力范围时仅在有明确后续通知项目与同意文案时提供可选单字段 |
 
 ### 2.2 劝退分岔的小屏折叠策略（关键）
 
 劝退文案（氯胺 / RO / 全屋炭工作中 / 井水红旗）在小屏的呈现规则：
 
-- **结论行永不折叠**：`"V1 isn't for your water yet."` / `"You don't need us."` 级别的结论句必须在结果首屏完整可见——**劝退的诚实价值就在第一眼**，折叠结论 = 变相软化劝退。
+- **结论行永不折叠**：适配时的 `"Choose the Chloramine + Soak Kit."`，以及劝退时的 `"You don't need us."`，都必须在结果首屏完整可见；不能把购买结论或诚实边界藏进折叠区。
 - **解释可折叠**：为什么氯胺不适用 / 炭床穿透机理等教育内容收进 `Read why ▾` 折叠区或链接到 E 页（E11/E1），展开不跳页。
-- **邮箱字段跟随结论同屏**（不折叠、不下滚才见）：劝退→候补的转化动作必须零滚动可达。
+- **下一步跟随结论同屏**：适配时直接进入对应 Formula 的购买动作；不适用时给专业处理/无需购买等正确去向。不得用通用邮箱收集替代明确结论。
 - 🔴 折叠区内**不得藏合规承重句**（如阻垢选项处的 "It does not soften your water." 必须与选项本体同屏同视野，见 §四）。
 - 🔴 劝退页无加购 CTA（选购器 spec §五 #3）——移动版也不得以 sticky bar 形式出现购买入口。
 
 ### 2.3 结果页（适配分岔）
 
 - 推荐卡：SKU + 一键加购在首屏拇指区；精度句（"one ZIP can span more than one water system…"）紧贴结果**不折叠**（选购器 spec §五 #1）。
+- 井水红旗命中时隐藏购买 sticky bar；自定义非法组合同样不得出现购买入口。
 - 硬度追加的阻垢选项：选项与 "It does not soften your water." **同一卡片内**渲染，不允许版式拆散。
 
 ---
@@ -105,9 +110,19 @@ related:
 
 - PDP 长页配**锚点条**（sticky，收缩为图标 + 短标签）：`What's inside / How it works / Testing / Replacement / FAQ / Fit`——对应 website-copy PDP 区块。
 - 锚点跳转保留浏览器回退语义（hash 路由），从选购器/广告深链进入可直达锚点（如 `#fit`）。
-- Hub 的 Match-Your-Water 区块（选购器入口）在移动首屏给**次级 CTA 直达**（website-copy 区块 6 是转化主路径）。
+- Hub 的 Formula 购买模块在首屏主 CTA 后立即出现；Water Match 是不会选择时的次级入口。分别对应 [website-copy §2](../bathtub-filter-kes-website-copy-v1.md) 的直接购买和 §6 的辅助诊断。
 
-### 4.3 表格 → 卡片化规则
+### 4.3 Hub 十屏移动顺序与两屏下单
+
+Hub 在移动端按内容地图的十屏顺序渲染，但前两屏承担完整交易闭环：
+
+1. **屏 1：情感钩子 + 产品实拍**。主张从“护肤品会看配料，泡澡水却不该是 black box”进入，主 CTA 滚到 Formula 购买区，次 CTA 打开 Water Match。
+2. **屏 2：四 Formula 购买模块**。Formula 切换、适用水型、价格、滤材摘要、Fit 状态和 Add to cart 在同一交易区；未完成 Fit 时 CTA 先触发内联 Fit Checker，不跳到教育页。
+3. **屏 3–10：卖点总览与深入入口**。依次覆盖透明分层、爆炸结构、强制水路/避免沟槽效应、流速、适配、验证、更换和诚实边界；每个摘要块整体可点，并链接到内容地图指定 Spoke。
+
+跨页保留 `selected_formula`、`fit_status`、`water_match`、`cart_context` 和 Custom 的 `formula_id`。用户从 M/D/E/P Spoke 返回时恢复原 Formula 与购买位置；移动 sticky bar 只显示当前合法 Formula、价格和 Add to cart，不覆盖边界句。
+
+### 4.4 表格 → 卡片化规则
 
 全站 spec 里的宽表（P4 兼容矩阵 S-01~S-08、P5 水型速查、T3 触发曲线表等）在 <768px 一律按此规则转卡片：
 
@@ -140,12 +155,15 @@ related:
 ## 六、验收清单（移动专项）
 
 - [ ] 360×640 视口：Hub / PDP 首屏可见 "not a water purifier" 承重句（无 banner 遮挡态与有 banner 态各验一次）。
-- [ ] 选购器每问单屏完成、选项 ≥44px、进度指示在场；劝退分岔结论句 + 邮箱字段零滚动可见，解释折叠可展开。
+- [ ] 选购器每问单屏完成、选项 ≥44px、进度指示在场；适配/不适用结论与正确下一步零滚动可见，解释折叠可展开；四个已推出版本无候补邮箱。
+- [ ] 360×640 与主流移动视口均能在最多两屏内选择 Formula、完成 Fit 或看到已有 Fit 状态并点击 Add to cart。
+- [ ] 首屏四版本名称完整可读；标准配方切换不跳版；自定义结果的 `formula_id`、固定顺序和 Add to cart 在一屏可见。
 - [ ] 阻垢选项与 "It does not soften your water." 同卡同屏；劝退页无任何购买入口（含 sticky bar）。
 - [ ] 生成器：iOS Safari 真机走通「出图 → navigator.share 保存/分享」与降级「长按保存」两条路径；1080×1920 与 1080×1080 两档出图像素正确。
 - [ ] 宽表卡片化后「不支持」边界信息零丢失（对照 P4 矩阵逐行核）。
 - [ ] 承重句区块在慢网模拟下无加载位移（CLS 专项）。
 - [ ] a11y 基线逐条对 SVC12 a11y 节走查（该页定稿后）。
+- [ ] 从任一 Spoke 返回 Hub/PDP 后，`selected_formula`、`fit_status`、`water_match`、`cart_context` 与 `formula_id` 不丢失。
 
 ### `[____]` 待补清单
 

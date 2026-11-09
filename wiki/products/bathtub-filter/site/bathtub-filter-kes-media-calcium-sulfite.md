@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-30
-updated: 2026-07-02
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -67,6 +67,14 @@ related:
 ## 用到我的场景（反链）
 
 - [S1 · 游离氯·市政场景页](./bathtub-filter-kes-scenario-free-chlorine.md) — CaSO₃ 是该 SKU 的去氯主力层（过滤棉（PET）→ KDF55 → CaSO₃）。
+
+## Hub / PDP 调用方式
+
+- 卡片短句：`Calcium sulfite is the Free-Chlorine Formula's primary dechlorination media.`
+- 图片：真实 3–4 mm 颗粒近照 + 透明分仓中的实际用量；点击进入本页。
+- `Used in`：Free-Chlorine Formula；custom 仅在 free-chlorine 路线由规则引擎加入。
+- 页面主 CTA：`Return to Free-Chlorine Formula`；从 custom 进入时返回原 `formula_id`。
+- 不单独显示 removal 百分比；成品数字只从 T2 调用。
 
 ## Sources / 内部依据
 

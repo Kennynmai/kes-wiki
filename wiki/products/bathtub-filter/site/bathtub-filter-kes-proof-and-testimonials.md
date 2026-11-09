@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-02
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -190,6 +190,12 @@ related:
 - 🔴 **不得含健康恐吓（toxin-panic）**：不得用「你的水有毒/伤害宝宝」框叙事。
 - ✅ 允许方向：comfort/感官（「没有泳池味」）、透明/「测得到」（试纸看得见差异）、如实的使用体验。
 - **真实可核**：禁编造/买评/AI 生成人物；每条须有来源、授权、可回溯的联系方式。试纸读数须与 [[bathtub-filter-kes-post-purchase-verification]] 口径一致（不得用 TDS 笔当去氯证据）。
+
+### Formula-specific 证据标注
+
+每条 testimonial 必须保存并展示适当上下文：`formula/formula_id`、水源类型、验证工具、使用时长、是否获赠/奖励、素材日期。Free-Chlorine 的试纸图不能放到 Chloramine/Well-Water 卡片；Chloramine 必须记录 soak 与测量时机；Well-Water 的气味/锈渍体验不能写成健康级安全证明；Custom 必须能回溯完整模块快照。
+
+Hub 只展示已审核摘要，点击进入本页查看上下文。没有真实素材前整个模块不上线，不用占位头像、AI 人物、设计师代写引文或内部员工冒充客户。
 
 > 🟡 待 [法务/市场] 补：素材清单逐条签署合规核销（对照 claim-register Banned 区 + §D「诊断报告卡」红线）。
 

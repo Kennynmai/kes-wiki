@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -43,7 +43,7 @@ related:
 
 - **阻垢粒 = 防垢附加层（anti-scale adjunct），不是软化层，不是护肤层。** 只能挂 anti-scale 口径。
 - **不得侵占去游离氯主媒体逻辑空间**：它是消耗型添加层，不进主 KPI（[media-stack §总原则新增边界](../bathtub-filter-kes-media-stack-options-by-water-type.md)）。
-- **真软化必须走独立 SKU（Route B）**，用离子交换树脂、数百 mL–1.5 L、最好可再生，指针到 [可行性页 §6 Route B](../bathtub-filter-point-of-use-hardness-softening-feasibility.md)——不在本料的能力范围内。
+- **真软化必须走全屋离子交换等专业品类**，不是 KES 当前四版本中的独立 SKU；指针到 [可行性页 §6 Route B](../bathtub-filter-point-of-use-hardness-softening-feasibility.md)。
 
 ## Claim 与证据状态表
 
@@ -61,11 +61,19 @@ related:
 - **「It does not soften your water. / 不软化、不降硬度」承重句必随行**——凡出现阻垢 claim 的任何表面（S4 / PDP / Hub / 广告 / 报告卡）都必须带。
 - **CP210620 卫生报告禁入营销**：第三方 CMA 只证材料**接触饮用水安全**，**不含任何阻垢率 / 硬度 / Ca·Mg 数据**；报告第 8 条禁广告 + 自送样 → **只能内部合规存档**，不得引作功效或安全卖点。
 - **阻垢率 = 供应商自测（🟡）**，不得升级为第三方实测；TDS 笔测不出变化是正常（正证没在软化）。
-- 真软化需求一律转指 **Route B 独立 SKU**（[可行性页 §6](../bathtub-filter-point-of-use-hardness-softening-feasibility.md)），不在本料范围内。
+- 真软化需求一律转指全屋离子交换等专业方案（[可行性页 §6](../bathtub-filter-point-of-use-hardness-softening-feasibility.md)），不暗示 KES 将推出软化 SKU。
 
 ## 用到我的场景（反链）
 
 - [S4 · 硬水 / 水垢场景页](./bathtub-filter-kes-scenario-hard-water-scale.md) — 阻垢粒作为该场景的**防垢附加层**（非主 KPI），全程带「不软化」承重句。
+
+## Hub / PDP 调用方式
+
+- 卡片短句：`An optional scale-control adjunct for fixtures. It does not soften your water.`
+- 图片：真实颗粒与附加仓位置；`It does not soften your water.` 必须与图片同屏。
+- `Used in`：作为 S1/S2/S3 或 custom 的条件附加模块，不构成第五个 Formula。
+- 页面主 CTA 返回原 Formula 的 add-on 选择；无 Formula 上下文时进入 S4。
+- 不展示供应商自测阻垢率或受限卫生报告作为广告背书。
 
 ## Sources / 内部依据
 

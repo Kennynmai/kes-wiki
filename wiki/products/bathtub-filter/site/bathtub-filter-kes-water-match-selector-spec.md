@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -23,6 +23,7 @@ related:
   - ./bathtub-filter-kes-scenario-well-water.md
   - ./bathtub-filter-kes-scenario-hard-water-scale.md
   - ./bathtub-filter-kes-scenario-sediment.md
+  - ./bathtub-filter-kes-custom-formula-builder-spec.md
   - ../bathtub-filter-claim-register.md
   - ./bathtub-filter-kes-marketing-site-content-map.md
 ---
@@ -43,7 +44,7 @@ related:
 | 身份 | 干什么 | 成功指标 |
 |---|---|---|
 | **① Conversion 工具** | 把已到站访客路由到对的场景页/SKU，一键加购 | 结果页→加购转化（MVP spec §6：>15%） |
-| **② 诚实劝退门** | 氯胺 / RO / 全屋炭正常工作 / 高铁井水——**主动说「别买」**，把劝退变成邮箱资产 | 劝退分岔邮箱捕获率；零错卖差评 |
+| **② 诚实劝退门** | RO / 全屋炭正常工作 / 高铁井水——**主动说「别买」**，把劝退变成邮箱资产 | 劝退分岔邮箱捕获率；零错卖差评 |
 | **③ Referral 落地页** | `kes.com/t/{code}` 落地 = 同一个选购器 + 码上下文，朋友走同一诊断流 | referral 归因转化（MVP spec §6） |
 
 > 设计原则沿 MVP spec §1.5：**极低摩擦、看结果不需注册、邮箱只在劝退/等待的价值时刻才要**；诊断只说「水的类型 / 产品适配」，禁健康恐吓。
@@ -71,7 +72,7 @@ Q1 「你家水从哪来？」 Where does your water come from?
 │       │
 │       ├─ 全屋活性炭 Whole-house carbon
 │       │   └─ ⚠️ 「先测再说」分岔 (链 E11 §六)
-│       │       ├─ 试纸测不出氯 → 🔴 诚实劝退「别买」（可留邮箱要提醒）
+│       │       ├─ 试纸测不出氯 → 🔴 诚实劝退「别买」（仅可选复测提醒）
 │       │       └─ 试纸测出氯   → 炭床可能穿透提示 ──→ [ZIP 流]
 │       │
 │       └─ 整屋 RO Whole-house reverse osmosis
@@ -80,11 +81,14 @@ Q1 「你家水从哪来？」 Where does your water come from?
 ├─ B. 私人井水 Private well
 │   │
 │   └─ Q3 症状粗筛（多选）：铁锈色染渍 / 臭鸡蛋味 / 看得见沉积
-│       ├─ 低中度 nuisance ─→ S3 井水场景页（⚠️ 井水版 GO 后才开此路由，见 2.5）
+│       ├─ 低中度 nuisance ─→ S3 Well-Water Formula（SKU + 一键加购，见 2.5）
 │       └─ 高铁 >2–3 ppm / 砷 / 细菌担忧 ─→ 🔴 劝退 + 建议专业检测（链 E2）
 │
-└─ C. 不确定 Not sure
-    └─ 「怎么知道我家水」教育出口（链 E7 CCR / E5 试纸），不强推 ZIP
+├─ C. Build Your Formula
+│   └─ 进入受约束配置器：水源 + 问题多选 → 白名单组合 → 爆炸图/水路/试纸 → 加购
+│
+└─ D. 不确定 Not sure
+    └─ 「怎么知道我家水」教育出口（链 E7 CCR / E5 试纸）+ 可选进入 Build Your Formula 的诊断起点
 
 [ZIP 流] 输入 5 位 ZIP → 查表返回 {消毒剂类型, 硬度档, confidence}
 │
@@ -92,10 +96,10 @@ Q1 「你家水从哪来？」 Where does your water come from?
 │   └─ 硬度 hard / very_hard → 附阻垢选项
 │       （「It does not soften your water.」必随行）
 │
-├─ 氯胺 chloramine ─→ 🔴 诚实劝退 + 留邮箱（V1.5 候补，见 2.4）
+├─ 氯胺 chloramine ─→ S2 Chloramine + Soak Kit 推荐（SKU + 一键加购，见 2.4）
 │
 └─ 未覆盖 / unknown ─→ 诚实 fallback：「查你的 CCR」(链 E7) + 试纸 (链 E5)
-                        + 留邮箱（「覆盖到你的城市时告诉你」）
+                        + 有明确覆盖计划时才可选收覆盖通知
 
 [referral 入口] kes.com/t/{code} 落地 = 同一选购器 + 码上下文
                  朋友首单减免在「适配分岔」（S1 推荐 / 加购）处挂出，
@@ -109,6 +113,7 @@ Q1 「你家水从哪来？」 Where does your water come from?
 > **"Where does your water come from?"**
 > - `City / municipal tap water` → Q2
 > - `Private well` → Q3 症状粗筛
+> - `Build my formula` → SVC13 guided configurator
 > - `Not sure` → 教育出口
 
 不确定出口文案：
@@ -143,9 +148,9 @@ Q1 「你家水从哪来？」 Where does your water come from?
   > 硬度 `hard/very_hard` 追加阻垢选项：
   > "Your area also has hard water. You can add the anti-scale option — it helps protect your tub and fixtures from scale buildup. **It does not soften your water.**"
   > 路由：[S1 游离氯](./bathtub-filter-kes-scenario-free-chlorine.md)（+硬水档链 [S4](./bathtub-filter-kes-scenario-hard-water-scale.md)）
-- `chloramine` 命中 → 🔴 诚实劝退 + 候补：
-  > "Your city uses **chloramine** — the current KES isn't built for your water yet. We won't sell you something that won't work. A chloramine version is in development — leave your email and we'll tell you when it ships."
-  > 路由：[S2 氯胺](./bathtub-filter-kes-scenario-chloramine.md)（教育）。**注意**：氯胺产品线已 GO 但未 ship——文案只说 in development / when it ships，**不提前认领任何氯胺去除 claim**（register S2 行：未闭环不上首屏）。
+- `chloramine` 命中 → S2 首发推荐卡：
+  > "Your city uses **chloramine**. Choose the KES Chloramine + Soak Kit — an inline catalytic-carbon stage plus an in-tub sodium-ascorbate step, matched to chloramine-city bath water."
+  > + 套装结构摘要 + 对应总氯试纸 + Add to cart。路由：[S2 氯胺](./bathtub-filter-kes-scenario-chloramine.md)。**注意**：产品已确认与游离氯版同步推出，但具体氯胺去除百分比仍须等专属台架闭环；推荐卡不得提前展示未经验证数字。
 - 未覆盖 / `unknown` → 诚实 fallback：
   > "We haven't mapped your city yet — and we won't guess. Two ways to find out yourself: check your city's water report (CCR), or test with a strip. Want us to email you when we cover your area?"
   > 链 [E7](./bathtub-filter-kes-edu-how-to-read-your-ccr.md) + [E5](./bathtub-filter-kes-edu-how-to-test-your-water.md)；邮箱 reason=`out_of_coverage`。**软出口**：同屏可展示 [B0 测试套装](./bathtub-filter-kes-bundles-and-multipacks.md)（"我们没数据、你可以自己测——买整机时全额抵回"），教育在前、B0 在后，🔴 不拦截式推销。埋点 `b0_offered` / `b0_purchased`。
@@ -158,7 +163,7 @@ Q1 「你家水从哪来？」 Where does your water come from?
 > - `Visible particles / cloudy water`（沉积）
 > - `None of these, just want better bath water`
 
-- 低中度（症状勾选但无红旗）→ [S3 井水](./bathtub-filter-kes-scenario-well-water.md)：nuisance 舒适线推荐（KDF85 井水配置）。
+- 低中度（症状勾选但无红旗）→ [S3 井水](./bathtub-filter-kes-scenario-well-water.md)：首发 Well-Water Formula 推荐（KDF85 井水配置）+ Add to cart。
 - 红旗追问（任一命中即劝退）："Have you ever measured iron above 2–3 ppm, or do you have arsenic / bacteria concerns?"
   > "That's beyond what a compact point-of-fill filter can do. You need a professional water test and a dedicated system — here's what to look for."（链 [E2 井水必读](./bathtub-filter-kes-edu-well-water-basics.md)；邮箱可选，reason=`well_out_of_scope`）
 - 症状全无 + 只想更好洗澡水 → 提示先做一次专业/邮寄检测再配（井水无 ZIP 权威源，见 §五）。
@@ -167,7 +172,7 @@ Q1 「你家水从哪来？」 Where does your water come from?
 
 - `kes.com/t/{code}` 落地 = **同一个选购器**，顶部加一行码上下文："{Friend's name} used this to figure out their water — check yours."
 - 朋友首单减免**只在适配分岔**（S1 推荐卡 / 加购处）挂出："Your friend's link gives you $X off your starter."
-- **劝退分岔不出现折扣**——氯胺/RO/全屋炭工作中的朋友照样被诚实劝退；referral 不改变诊断结论（防「为奖励错卖」）。
+- **劝退分岔不出现折扣**——RO/全屋炭工作中的朋友照样被诚实劝退；氯胺朋友进入对应 Chloramine + Soak Kit 适配购买分岔。referral 不改变诊断结论（防「为奖励错卖」）。
 - 归因 cookie / 奖励兑付沿 MVP spec §3.3，不重复。
 
 ### 2.3 分岔 × 路由 × 出口速查表
@@ -175,29 +180,38 @@ Q1 「你家水从哪来？」 Where does your water come from?
 | 分岔终点 | 路由 | 出口类型 | 邮箱 reason |
 |---|---|---|---|
 | 市政+游离氯 | S1（+S4 阻垢选项） | ✅ 加购 | — |
-| 市政+氯胺 | S2 教育页 | 🔴 劝退+候补 | `chloramine_wait` |
+| 市政+氯胺 | S2 Chloramine + Soak Kit | ✅ 加购 | — |
+| 井水低中度 | S3 Well-Water Formula | ✅ 加购 | — |
+| 自行定制 | SVC13 Build Your Formula | ✅ 合法组合加购 | — |
 | ZIP 未覆盖 | E7/E5 | 🟡 fallback | `out_of_coverage` |
 | 整屋 RO | E11 | 🔴 劝退 | 可选 `ro_no_value`（不推销） |
 | 全屋炭·测不出氯 | E11 §六 | 🔴 劝退 | 可选 `carbon_retest_reminder` |
 | 全屋炭·测出氯 | ZIP 流→S1 | ✅（带换炭床提示） | — |
-| 井水低中度 | S3 | ✅（井水版 GO 后） | GO 前 `well_waitlist` |
 | 井水红旗 | E2 | 🔴 劝退+专业检测 | 可选 `well_out_of_scope` |
 | 不确定 | E7/E5 | 🟡 教育 | 不收 |
 
 ### 2.4 氯胺分岔状态说明
 
-氯胺产品线（催化炭 + 抗坏血酸钠浸泡件，V1.5）**已 GO 但未 ship**。选购器口径：
+氯胺产品线（催化炭 + 抗坏血酸钠浸泡件）于 **2026-07-14 确认为与游离氯版同步推出的首发 SKU**。选购器口径：
 
-- 只说 "in development / we'll tell you when it ships"，**不认领**任何氯胺去除数字或时间承诺。
-- ship 后此分岔从「劝退+候补」翻转为「S2 推荐」——**翻转是配置开关**（见 §四），不需要改树。
-- waitlist 邮箱池 = V1.5 首发名单 + metro 扩张信号（MVP spec §3.1「劝退池=资产」）。
+- ZIP/CCR 命中 chloramine 时，直接返回 **Chloramine + Soak Kit** 推荐与加购，不收 waitlist 邮箱。
+- 推荐卡必须把 `inline catalytic carbon + in-tub soak step` 两段都说清，不能把它呈现成单芯解决方案。
+- 产品推出决定不把 claim 自动转绿：不得展示未闭环的氯胺去除百分比；禁 fast / instant / 秒解；验证使用总氯试纸并提示抗坏血酸干扰时机。
 
 ### 2.5 井水分岔状态说明
 
-井水线（S3，KDF85 配置）在内容地图为 🟡 Conditional。选购器口径：
+井水线（S3，KDF85 配置）于 **2026-07-14 确认为第三个首发购买版本**。选购器口径：
 
-- **井水版 GO 前**：Q3 低中度分岔落到「教育 + waitlist」（链 E2/S3 页教育部分，邮箱 reason=`well_waitlist`），不出加购。
-- **GO 后**：翻转为 S3 推荐 + 加购。同样是配置开关。
+- 低中度 nuisance 且无红旗 → 直接返回 **Well-Water Formula** 推荐与加购。
+- 高铁 >2–3 ppm、砷、硝酸盐、铀或细菌担忧 → 继续劝退，不允许用标准井水版或自定义版绕过。
+- 产品推出不把性能 claim 自动转绿：成品 challenge test 前不显示去铁 / H2S 百分比。
+
+### 2.6 Build Your Formula 分岔
+
+- 入口可由首页第四卡直接打开，也可由标准诊断结果页进入。
+- 用户选择水源和附加问题，系统只返回 [SVC13](./bathtub-filter-kes-custom-formula-builder-spec.md) 白名单内的材料、顺序和必需附件。
+- 合法组合生成 `formula_id`、实时爆炸图、水路图、对应试纸、价格和 Add to cart。
+- 不合法目标或红旗不得生成 SKU；不能通过自定义入口绕过 chloramine soak step、well-water 红旗或 softening/PFAS/杀菌禁区。
 
 ---
 
@@ -237,7 +251,7 @@ zip_water_lookup:
 
 ### 3.3 stack_mapping / email_capture
 
-沿 MVP spec §4 不重复；`email_capture.reason` 枚举扩展为本页 §2.3 表列出的全部值（原有 `out_of_coverage | chloramine_wait` + 新增 `ro_no_value | carbon_retest_reminder | well_waitlist | well_out_of_scope`）。
+沿 MVP spec §4 不重复；氯胺与合格井水均为首发可售，不再设置候补 reason。`email_capture.reason` 保留 `out_of_coverage | ro_no_value | carbon_retest_reminder | well_out_of_scope`。自定义结果另存 `formula_id` 与 module list，不进入 email_capture。
 
 ---
 
@@ -245,9 +259,12 @@ zip_water_lookup:
 
 - **MVP 形态**：纯前端表单 + 静态 JSON 查表，**无后端**（沿 MVP spec §5）。分岔树是纯客户端状态机；Q1/Q2/Q3 是静态选项，唯一「查询」是 ZIP → JSON。
 - **挂载**：WooCommerce（主）/ Shopify（等价）挂法引 MVP spec §5 + §3.3，不重复。
-- **分岔开关**：氯胺（§2.4）与井水（§2.5）的「劝退↔推荐」翻转做成 JSON 配置 flag（`chloramine_live: false`, `well_line_live: false`），ship 时改配置不改代码。
+- **分岔开关**：四版本首发路由均启用：`chloramine_live: true`、`well_line_live: true`、`custom_formula_live: true`。自定义组合白名单独立配置，新增组合不需改决策树代码，但必须经过测试/claim 审核。
 - **结果页**：模板化、可分享、带码（沿 MVP spec §3.2）；referral 落地的码上下文从 URL path（`/t/{code}`）读取，透传给 referral app 归因。
 - **无注册墙**：所有结果（包括劝退结论）**不需注册即可看**；邮箱字段只在 §2.3 标注的分岔出现。
+- **跨页状态**：结果生成后写入 `water_match`（source/type/confidence/red_flags/recommended_formula/created_at）；进入 Formula、Fit、M/D/T spoke 或 Custom 时透传。返回选购器应恢复结果，并允许显式 `Start over`，不得静默重算。
+- **结果有效期**：municipal 结果随 CCR 数据版本管理；well-water red-flag 结果与用户输入时间绑定。数据过期、ZIP 变更或用户更改水源时必须提示重新确认。
+- **与 Builder 的边界**：SVC10 决定水源基线和红旗；SVC13 只在该结果允许范围内组装模块。Builder 不得自己把 `unknown` 猜成 free chlorine，也不得覆盖 red flag。
 
 **埋点事件表**（GA4，命名与 MVP spec §6 对齐；MVP 的 `zip_diagnose`/`diagnose_result` 由下表 `zip_hit`/`zip_miss` 细化取代，其余沿用）：
 
@@ -257,7 +274,10 @@ zip_water_lookup:
 | `whole_house_selected` | Q2 作答 | `system: none\|softener\|prefilter\|carbon\|ro` |
 | `zip_hit` | ZIP 查表命中 | `type, hardness, confidence, metro` |
 | `zip_miss` | 查表未命中 / low confidence | `zip_prefix` |
-| `disqualified_chloramine` | 氯胺劝退页展示 | `metro` |
+| `recommended_chloramine` | 氯胺套装推荐页展示 | `metro, sku` |
+| `recommended_well_water` | 井水套装推荐页展示 | `symptoms, sku` |
+| `custom_formula_generated` | 自定义合法组合生成 | `formula_id, modules[], water_type` |
+| `custom_formula_blocked` | 自定义目标被规则拦截 | `reason` |
 | `disqualified_other` | RO / 全屋炭无氯 / 井水红旗劝退 | `reason: ro\|carbon_working\|well_flags` |
 | `email_captured` | 任一分岔收到邮箱 | `reason`（§3.3 枚举） |
 | `add_to_cart` | 结果页加购 | `sku[], source_tag: referral\|paid\|organic` |
@@ -272,11 +292,11 @@ zip_water_lookup:
 |---|---|---|
 | 1 | **精度句必带**（每个 ZIP 结果页脚注，EN 原文）："Based on your city's water utility data — one ZIP can span more than one water system. **Your included strip is the ground truth for your home.**" | ZIP 流全部命中分岔；confidence=medium 时强化版（§3.1） |
 | 2 | 🔴 **禁 toxin-panic / 健康恐吓**：结果只说水的类型与产品适配，不说「你的水有毒/伤害皮肤/宝宝」（register Banned） | 全树所有文案，含劝退页与 referral 上下文条 |
-| 3 | **每个劝退分岔 = 获客，🔴 无强卖**：氯胺→候补；RO/全屋炭工作中→「你不需要我们」+ 可选提醒邮箱；井水红旗→专业检测指引。劝退页**不出现任何加购 CTA** | §2.3 全部 🔴 行 |
+| 3 | **每个劝退分岔 = 获客，🔴 无强卖**：RO/全屋炭工作中→「你不需要我们」+ 可选提醒邮箱；井水红旗→专业检测指引。氯胺已是适配购买分岔，不再属于劝退。劝退页**不出现任何加购 CTA** | §2.3 全部 🔴 行 |
 | 4 | **阻垢≠软化**：阻垢选项出现处「It does not soften your water.」必随行；🔴 不做「软化版留邮箱」承诺（E11 §五：不暗示会有软化产品） | ZIP 流硬水档 |
-| 5 | **氯胺不提前认领**：已 GO 未 ship，只说 in development；ship 前不写任何氯胺去除表述 | §2.4 |
+| 5 | **氯胺 SKU 可售，数字不提前认领**：可说明首发套装结构与适用水质；专属台架闭环前不写去除百分比，且必须说清浸泡步骤 | §2.4 |
 | 6 | **类型判定以 ZIP/CCR 为准，试纸只作交叉验证**（T1 口径）；全屋炭分岔的试纸是「有没有氯」的存在性判断，不冒充浓度实验室 | Q2 炭分岔、精度句 |
-| 7 | **看结果不需注册**；邮箱只在劝退/等待价值时刻，且说清楚给什么（候补通知/复测提醒/覆盖通知） | §2.3 邮箱列 |
+| 7 | **看结果不需注册**；四个已推出版本无候补名单。邮箱只用于有明确兑现机制的复测提醒、覆盖通知或一次性专业资源，并说明用途 | §2.3 邮箱列 |
 | 8 | 🔴 禁 TDS 笔 / 铅试纸引导；井水不认领杀菌/除砷/硝酸盐（register Banned；E2/S3 口径） | Q3 分岔 |
 | 9 | **referral 不改变诊断结论**：折扣只挂适配分岔，劝退照劝退 | §2.2 referral 入口 |
 
@@ -284,14 +304,15 @@ zip_water_lookup:
 
 ## 六、验收标准（照 MVP spec §9 扩展新分岔）
 
-MVP spec §9 全部条目继续有效（P1 三城 ZIP 正确返回 / 氯胺劝退收邮箱 / referral 兑付 / GA4 事件 / 合规清单），新增：
+MVP spec §9 全部条目继续有效（P1 三城 ZIP 正确返回 / 氯胺返回对应 SKU 并可加购 / referral 兑付 / GA4 事件 / 合规清单），新增：
 
 - [ ] Q1 三选项均可达终点，无死胡同；「不确定」出口不收邮箱、不强推 ZIP。
 - [ ] Q2 五个全屋系统选项各自路由正确：软水器/前置带过渡提示进 ZIP 流；全屋炭出现「先测再说」三分岔；RO 落劝退页且**无加购 CTA**。
 - [ ] 全屋炭「测不出氯」分岔文案不含任何「再加一层更安心」式推销（对照 E11 §七护栏表）。
 - [ ] ZIP 命中 confidence=medium 时展示强化精度句；low/未命中一律走 fallback，**任何路径不默认返回 free_chlorine**。
 - [ ] 硬水档阻垢选项处「It does not soften your water.」逐字出现。
-- [ ] 氯胺/井水分岔由配置 flag 控制翻转，改 flag 不需改树代码。
+- [ ] 氯胺分岔固定返回 Chloramine + Soak Kit；合格井水分岔固定返回 Well-Water Formula。
+- [ ] Build Your Formula 只生成白名单组合、固定顺序和对应 `formula_id`；禁用目标无法加购。
 - [ ] 井水红旗（>2–3 ppm 铁/砷/菌）任一命中即劝退到 E2，不出推荐。
 - [ ] `kes.com/t/{code}` 落地展示码上下文；折扣只在适配分岔出现；劝退分岔无折扣。
 - [ ] §四 埋点事件全部可在 GA4 验证，`add_to_cart` 带 source 标签。
@@ -302,7 +323,7 @@ MVP spec §9 全部条目继续有效（P1 三城 ZIP 正确返回 / 氯胺劝�
 - `[____]` P1/P2 之外 metro 的查表数据（下一批城市名单与 CCR 核实）→ **产品**（接水务图谱维护，§3.2 档①）
 - `[____]` 井水症状粗筛的问题文案定稿（症状选项措辞、红旗追问阈值表述）→ **产品**
 - `[____]` EPA SDWIS / CCR 半自动抓取方案（数据管道、抽检流程、confidence 赋值规则）→ **工程**（§3.2 档② 前置）
-- `[____]` 氯胺/井水配置 flag 的翻转时点（跟随各自产品线 ship/GO 决议）→ **产品**
+- `[____]` 自定义组合白名单的审批 owner、版本化与回滚流程 → **产品 + 工程 + 合规**
 - `[____]` referral 落地码上下文条的最终文案与朋友折扣金额（接 MVP spec §11 奖励金额待定项）→ **产品+finance**
 
 ---

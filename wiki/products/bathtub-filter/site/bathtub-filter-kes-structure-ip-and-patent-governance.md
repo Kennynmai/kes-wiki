@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-02
+updated: 2026-07-14
 visibility: internal
 confidence: medium
 officiality: draft
@@ -81,6 +81,14 @@ Canopy / Kinder Filter / Tubo **无可见功能型 utility patent**（护城河�
 | ⚠️ **需律师** | FTO / 「不侵权」声明 | draft-FTO 判 likely clear，但正式意见未出 |
 | ⚠️ **需律师** | 「行业首创 / world's first / industry-first」 | 首创性主张风险高，须审 |
 | ⚠️ **需律师** | design patent（外观专利）相关主张 | KES 是否申请外观专利未记录，须核 |
+
+### 四 Formula 的 IP/结构治理
+
+- **可共用**：主机、透明滤仓、模块接口、导流/防溅/挂带等结构叙事，可作为四个 Formula 的平台级结构事实。
+- **不可共用**：Free-Chlorine 的滤材顺序、克数、测试数字和寿命不能因为共用专利/主机而自动投射到 Chloramine、Well 或 Custom。
+- **Custom 边界**：`formula_id` 只能调用已批准模块和固定水路；“模块化”或专利申请的宽描述不构成任意组合都有效、都获准销售的证据。
+- **公开爆炸图**：只展示消费者理解结构与水路所需的层级；尺寸、公差、导流细节、密封截面和未公开权利要求留在内部 D/IP 文件，不进入 Hub 可下载素材。
+- **版本新增门槛**：新增 Formula 必须先完成结构组合审查、成品测试、claim register 更新与 FTO 影响检查，再进入 Builder 白名单或渠道包装。
 
 ---
 

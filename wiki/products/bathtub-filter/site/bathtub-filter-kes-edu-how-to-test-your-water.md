@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -116,6 +116,7 @@ TDS 笔便宜、有个数字显示、看起来"科学"——所以很多人拿�
 
 ## 下一步
 
+- **主动作**：`Use my test result` → [Water-Match Selector](./bathtub-filter-kes-water-match-selector-spec.md)，把读数作为粗筛输入而不是实验室结论。
 - 想先查权威的类型 + 硬度（多数人够用）→ [E7 怎么读你的 CCR](./bathtub-filter-kes-edu-how-to-read-your-ccr.md)
 - 不确定自己是游离氯还是氯胺 → [E1 你的城市用游离氯还是氯胺](./bathtub-filter-kes-edu-chlorine-vs-chloramine-geography.md)
 - 想搞懂硬度单位和地图 → [E3 美国硬水地图 + 硬度单位](./bathtub-filter-kes-edu-hard-water-map-and-units.md)

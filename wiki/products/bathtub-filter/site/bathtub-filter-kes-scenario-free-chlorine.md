@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-30
-updated: 2026-07-02
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -31,7 +31,7 @@ related:
 - 适用：**US urban municipal tap water**，龙头端主问题是 **free chlorine**（游离氯）。
 - 市政自来水典型游离氯 0.5–2.0 mg/L（EPA 最低 0.2、MRDL 上限 4.0 mg/L），正好落在会削弱 AD 皮肤角质层保水能力的浓度区（Seki 2003，见 [证据参考 §A.1](../bathtub-filter-evidence-bibliography.md)）。
 - 体感层面：pool smell、注水时的氯味与干涩感。
-- **不适用**：氯胺城市（走 S2/V1.5）、硬水软化、井水。
+- **不适用**：氯胺城市（走 S2 Chloramine + Soak Kit）、硬水软化、井水。
 
 ## ② 用哪套 media 配置（V1）
 
@@ -70,10 +70,26 @@ related:
 
 ## ⑤ 诚实劝退
 
-- **你的城市用氯胺** → V1 不适合你的水。`Your city uses chloramine — V1 isn't for your water yet. Leave your email and we'll tell you when the chloramine version ships.`
+- **你的城市用氯胺** → 不要买 Free-Chlorine Formula，改选首发 [Chloramine + Soak Kit](./bathtub-filter-kes-scenario-chloramine.md)。`Your city uses chloramine — choose the Chloramine + Soak Kit, not the Free-Chlorine Formula.`
 - **你想软化硬水** → 这个产品不软化水，请勿以此为目的购买。
-- **井水 / 高铁 / 杀菌** → 均在能力外，明说不适合。
-- 留邮箱：把能力外坦白做成候补承诺（[claim register] Honest disqualification 行）。
+- **低中度 nuisance 井水** → 不要买 Free-Chlorine Formula，完成红旗筛查后改选 [Well-Water Formula](./bathtub-filter-kes-scenario-well-water.md)。
+- **高铁 / 砷 / 硝酸盐 / 铀 / 细菌担忧** → 产品能力外，指向专业检测或全屋处理，不允许用自行定制绕过。
+- 只有未覆盖区域、复测提醒或真正能力外场景才可按承诺收邮箱；四个首发版本本身不设候补名单（[claim register](../bathtub-filter-claim-register.md) Honest disqualification 行）。
+
+## ⑥ Formula PDP 交易规格
+
+本页同时是 `/bathtub-filter/free-chlorine` 的唯一内容 owner，公开 PDP 不再另写一套口径。
+
+| PDP 区域 | 必须展示 | 行为 / owner |
+|---|---|---|
+| 首屏 | `KES Bath Filter — Free-Chlorine Formula`；`For city water disinfected with free chlorine`；PET → KDF55 → CaSO₃；游离氯试纸；价格；fit 状态 | 价格只调用 [SVC7](./bathtub-filter-kes-pricing-and-refill-economics.md)；fit 调用 [P4](./bathtub-filter-kes-install-and-compatibility-guide.md) |
+| 主 CTA | `Add Free-Chlorine Formula` | 原位 cart drawer；不得先跳文章页；保留 `selected_formula=free_chlorine` |
+| 辅助 CTA | `Check my water` / `Check my spout` | 分别进入 [SVC10](./bathtub-filter-kes-water-match-selector-spec.md) / P4，返回后不清空购物车 |
+| What's inside | 三层真实材料、克数、顺序、D1 爆炸图和 D2 水路 | 材料链接 M7/M2/M1；结构链接 [D1](./bathtub-filter-kes-structure-overview.md) / [D2](./bathtub-filter-kes-structure-flow-diversion-module.md) |
+| Verify & replace | 游离氯试纸 before/after；按 baths + 读数更换 | [SVC2](./bathtub-filter-kes-post-purchase-verification.md) / [T3](./bathtub-filter-kes-page-replacement-and-lifespan.md) |
+| 购买边界 | 氯胺、井水、软化、健康级处理均不适用 | 氯胺链 S2；合格井水链 S3；其余去 FAQ/P1，不强卖 |
+
+PDP sticky bar 固定显示 `Free-Chlorine Formula / fit status / price / Add to cart`。用户进入任一 M/D/T spoke 后，返回本 PDP 时保持已选 starter/refill/subscription 与数量。
 
 ## Sources / 内部依据
 

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -35,7 +35,7 @@ verification_status: working
 | 结果展示 | **轻量结果页**（模板化，可分享，带推荐码） | 动态个性化 OG 报告卡（每份渲染图） |
 | 转介绍 | **现成 referral app** + 换芯抵扣 | 物理「一起测」寄试纸、多触点深度编排 |
 | 覆盖 | **首发 metro**（P1+P2）权威，其余诚实 fallback | 全 ZIP 覆盖 |
-| 验证 | 盒内**游离氯试纸**（已是产品标配）+ 验证后触发邮件 | 总氯/氯胺验证、报告卡二次分享 |
+| 验证 | 试纸随 SKU 匹配：Free-Chlorine Formula 配游离氯试纸；Chloramine + Soak Kit 配总氯试纸 + 正确测量时机说明；验证后触发邮件 | 报告卡二次分享 |
 
 ---
 
@@ -76,7 +76,7 @@ verification_status: working
 1. 首页区块 6「Find your water」输入 ZIP。
 2. 后端查 ZIP→水质映射，返回：消毒剂类型（游离氯/氯胺/未知）+ 硬度档 + 推荐组合。
 3. 结果页展示（§4.2），CTA「加入购物车」直挂推荐 SKU。
-4. **氯胺/未覆盖 ZIP → 诚实劝退**：「V1 还不适合你家的水，留邮箱等氯胺版」→ 收邮箱（不强卖）。
+4. **氯胺 ZIP → 直接推荐 Chloramine + Soak Kit 并加购**；未覆盖 ZIP 仍走诚实 fallback + 可选邮箱，不猜、不强卖。
 
 ### 流 B — 验证 → 转介绍（已购客 → 邀请）
 1. 购买后进入邮件序列。
@@ -95,12 +95,12 @@ verification_status: working
 ### 3.1 ZIP 水质查询
 - **输入**：5 位 ZIP。
 - **数据源**：[按 metro 水务图谱](./bathtub-filter-utility-service-map-by-metro.md) 整理成 `zip_prefix → {disinfectant_type, hardness_band, metro}` 静态表（MVP 先覆盖 P1 拉斯维加斯/凤凰城/圣安东尼奥 + P2 芝加哥/埃尔帕索）。
-- **返回**：`{type: free_chlorine | chloramine | unknown, hardness: soft|moderate|hard|very_hard, recommended_stack: [...], serviceable: bool}`。
+- **返回**：`{source: municipal | well | unknown, type: free_chlorine | chloramine | well_nuisance | custom | unknown, hardness: soft|moderate|hard|very_hard, recommended_stack: [...], formula_id?: string, serviceable: bool}`。
 - **覆盖外 fallback**：`unknown` → 不猜，给「我们还没覆盖你的城市」+ 留邮箱 + 通用教育。
 - **精度诚实**：ZIP→类型是 **metro/水务级近似**（一个 ZIP 可能跨水系），文案用「based on your city's water utility data」，并指明**盒内试纸才是你家水的地面真相**（接 claim register 精度行）。
 - **零摩擦**：单字段、即时、**无需注册看结果**。
 - **合规**：返回只说「水的类型/产品适配」，**不说健康危害**（claim register: 诊断禁 toxin-panic）。
-- **劝退池=资产**：氯胺/未覆盖留下的邮箱是**下一个 metro 扩张信号 + V1.5 氯胺 waitlist**，不是死数据。
+- **未覆盖池=资产**：未覆盖 ZIP 留下的邮箱是下一个 metro 扩张信号，不是死数据。氯胺已进入首发可售路由，不再收 waitlist 邮箱。
 
 ### 3.2 结果页（轻量，可分享，带码）
 - 模板化页（非动态图）：城市/类型/硬度 + 推荐组合 + 「为什么」一句 + 加购 CTA。
@@ -129,9 +129,10 @@ verification_status: working
 
 ```
 zip_water_lookup:  zip_prefix(PK) → disinfectant_type, hardness_band, metro, serviceable
-stack_mapping:     {type, hardness} → recommended_sku[]   # 游离氯→去游离氯主芯; +极硬→加阻垢; 氯胺→不可售(留邮箱)
+stack_mapping:     {type, hardness, symptoms[]} → recommended_sku[]   # 三套标准配方或白名单 custom formula；+极硬→阻垢 adjunct
+custom_formula:    formula_id(PK) → modules[], fixed_order[], required_accessories[], strip_type, claim_set
 referral:          由 app 托管(referrer_id, code, friend_order, reward_status)
-email_capture:     email, zip, reason(out_of_coverage | chloramine_wait)  # 诚实劝退收集
+email_capture:     email, zip, reason(out_of_coverage)  # 未覆盖城市通知；氯胺不再收候补
 ```
 
 ---
@@ -147,7 +148,7 @@ email_capture:     email, zip, reason(out_of_coverage | chloramine_wait)  # 诚�
 
 ## 6. 追踪 & KPI（day-1 instrument）
 - **GA4 事件**：`zip_diagnose`、`diagnose_result(type,serviceable)`、`add_to_cart_from_result`、`email_capture(reason)`、`referral_share`、`referral_signup`、`referral_reward_granted`。**每个订单打 source 标签（referral / paid / organic）** —— 否则 §1.5 的「转化 vs 获客」分不开。
-- **KPI**：诊断完成率、结果页→加购转化、referral 分享率、k-factor（邀请×转化）、**referral CAC vs 付费 CAC**、**奖励→复购兑现率**、劝退邮箱量（氯胺/未覆盖需求池）。
+- **KPI**：诊断完成率、结果页→加购转化（按 free_chlorine / chloramine 分开）、referral 分享率、k-factor（邀请×转化）、**referral CAC vs 付费 CAC**、**奖励→复购兑现率**、未覆盖邮箱量。
 - **what good looks like（粗目标，待真实数据校准）**：诊断完成率 >50%；结果页→加购 >15%；referral 分享率（已购客）>20%；**k-factor 趋近/超过 0.3**（每个客户带来 ~0.3 新客即显著摊低 blended CAC）；referral CAC 应 **<付费 CAC 的 1/2**，否则该砍。
 
 ---
@@ -156,7 +157,7 @@ email_capture:     email, zip, reason(out_of_coverage | chloramine_wait)  # 诚�
 - [ ] 结果页/分享/邮件无 toxin-panic、无健康/疗效、无软化承诺
 - [ ] 硬度推荐阻垢必带「does not soften your water」
 - [ ] 诊断精度如实「快速指路 ≠ 实验室检测」
-- [ ] 氯胺/未覆盖 = 诚实劝退 + 留邮箱，不强卖
+- [ ] 氯胺 = 推荐对应 Chloramine + Soak Kit；未覆盖 = 诚实 fallback + 可选邮箱，不强卖
 - [ ] 无 TDS 笔/铅试纸；验证只引导游离氯试纸
 - [ ] referral 文案不绑夸大、不刷屏压力
 - [ ] 无 scarcity / best-value / cheapest
@@ -173,7 +174,7 @@ email_capture:     email, zip, reason(out_of_coverage | chloramine_wait)  # 诚�
 
 ## 9. 验收标准（Done 定义）
 - 输入 P1 三城 ZIP → 正确返回类型/硬度/推荐 + 可加购。
-- 氯胺/未覆盖 ZIP → 劝退 + 收邮箱，无强卖。
+- 氯胺 ZIP → 返回对应 SKU 并可加购；未覆盖 ZIP → fallback + 可选邮箱，无强卖。
 - 已购客 T+10–14 收到带专属 referral 链接的验证邮件。
 - 朋友经链接购买 → 推荐人换芯抵扣 + 朋友首单折扣自动兑付。
 - §6 全部 GA4 事件可见；§7 合规清单全绿。
@@ -184,7 +185,7 @@ email_capture:     email, zip, reason(out_of_coverage | chloramine_wait)  # 诚�
 - 多参数试纸自测套件 + 观察指引（路径 B）
 - 寄免费试纸「一起测」
 - 动态个性化 OG 报告卡
-- 氯胺版相关流程（待 V1.5）
+- 氯胺专属动态报告卡与更深验证流程（基础 SKU 推荐、加购与总氯试纸说明已纳入 MVP）
 - 全 ZIP 覆盖
 
 ---

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -25,6 +25,7 @@ related:
 # 场景页 · 井水（低中度铁 / H₂S 气味 · nuisance 舒适线）
 
 > 本页按内容地图五段模板：① problem → ② 配置（链 M 页）→ ③ 有界 claim → ④ 承重护栏 → ⑤ 诚实劝退。滤材 claim 的唯一口径在对应 M 页，本页只引用不改写（见 [内容地图 §四](./bathtub-filter-kes-marketing-site-content-map.md)）。
+> **2026-07-14 产品决策**：Well-Water Formula 是第三个首发购买版本。低中度 nuisance 用户可直接推荐与加购；具体去铁/H2S 百分比仍待成品 challenge test，不因首发自动转绿。
 
 ## ① Problem — 井水的浴缸痛点是什么
 
@@ -64,14 +65,29 @@ related:
 
 > **验证与口径**：验证 / 认证口径见 [T2 我们怎么测/认证](./bathtub-filter-kes-page-how-we-test-and-certify.md)，更换 / 寿命见 [T3 更换/寿命](./bathtub-filter-kes-page-replacement-and-lifespan.md)。
 
-## ⑤ 诚实劝退（能力外明说 + 留邮箱）
+## ⑤ 诚实劝退（能力外明说）
 
 明确写给能力外用户，不卖错：
 
 - **高铁 / 高硫（约 >2–3 ppm）**：compact bath filter 会数天到数周即堵、压降剧增、差评——**明说不适合**，建议走全屋 backwashing / AIO 系统（[井水研究 Task 4](../bathtub-filter-well-water-research.md)）。
 - **健康级污染物（砷 / 硝酸盐 / 铀 / 细菌）**：本产品**不治**，需全屋 RO / 专材，先按 CDC 建议自测。
-- **硬水 / 想软化**：本产品**不软化**；真软化走 [Route B 独立 SKU](../bathtub-filter-point-of-use-hardness-softening-feasibility.md)，或看 [S4 硬水 / 水垢场景](./bathtub-filter-kes-scenario-hard-water-scale.md)。
-- 能力外一律：**「这不适合你家的水 — 留个邮箱，合适的方案上线我们通知你。」**
+- **硬水 / 想软化**：本产品**不软化**；真软化需要全屋离子交换系统。只想减少设备结垢可看 [S4 硬水 / 水垢场景](./bathtub-filter-kes-scenario-hard-water-scale.md)，但其阻垢模块也不软化。
+- 能力外一律：**「这不适合你家的水；你需要专业检测和专门系统。」** 不用 Build Your Formula 绕过红旗。
+
+## ⑥ Formula PDP 交易规格
+
+本页同时是 `/bathtub-filter/well-water` 的唯一内容 owner。井水版不能像普通产品卡直接无条件购买，必须把 nuisance 适用范围与红旗筛查放在价格和 CTA 之前。
+
+| PDP 区域 | 必须展示 | 行为 / owner |
+|---|---|---|
+| 首屏 | `KES Bath Filter — Well-Water Formula`；仅 low-to-moderate rust/odor nuisance；coarse PET → KDF85 → catalytic carbon；价格；fit 状态 | 价格调用 [SVC7](./bathtub-filter-kes-pricing-and-refill-economics.md)；fit 调用 [P4](./bathtub-filter-kes-install-and-compatibility-guide.md) |
+| 红旗筛查 | 铁浓度/高硫、砷、硝酸盐、铀、细菌担忧和未知检测状态 | 规则调用 [SVC10](./bathtub-filter-kes-water-match-selector-spec.md) 与 [E2](./bathtub-filter-kes-edu-well-water-basics.md)；任一红旗命中即不生成购买 CTA |
+| 主 CTA | `Check my well & add` | 筛查通过后原位 cart drawer；保存 `selected_formula=well_water` 与 red-flag result |
+| What's inside | KDF85 为 nuisance 主力、催化炭 polish、粗前置保护；爆炸图和水路 | D1/D2 + M7/M5/M3；不写成 health-grade treatment |
+| Verify & replace | 记录气味/锈渍基线 + 配方对应测试计划；更换不能复用游离氯 baths 数 | [T2](./bathtub-filter-kes-page-how-we-test-and-certify.md) / [T3](./bathtub-filter-kes-page-replacement-and-lifespan.md) |
+| 购买边界 | 高铁、高硫或健康级污染物不适用；硬水不等于井水版 | 指向专业检测、S4 或 FAQ；custom 不得绕过红旗 |
+
+PDP sticky bar 在筛查前显示 `Check my well`，通过后才显示 `Well-Water Formula / fit status / price / Add to cart`。返回页面时保留筛查结果，但超过设定有效期或用户更改水源后必须重跑。
 
 ## Sources / 内部依据
 

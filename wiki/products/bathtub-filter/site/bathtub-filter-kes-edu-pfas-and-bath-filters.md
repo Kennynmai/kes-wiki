@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -121,7 +121,8 @@ EPA 把这几类（含 GAC）列为除 PFAS 的"最佳可行技术（BAT）"，�
 
 ## 下一步
 
-- KES V1 到底为哪类水设计、明确"不适用"哪些 → [V1 定义与不适用清单](./bathtub-filter-kes-v1-definition-and-not-for-list.md)
+- **主动作**：PFAS 目标不显示 KES 购买 CTA，指向经认证的饮水/全屋专业处理方向；若用户另有浴缸水质问题，再进入 [Water Match](./bathtub-filter-kes-water-match-selector-spec.md)。
+- KES 四版本到底为哪类水设计、明确"不适用"哪些 → [产品定义与不适用清单](./bathtub-filter-kes-v1-definition-and-not-for-list.md)
 - 催化炭到底在 KES 里做什么（是氯胺、不是 PFAS）→ [催化活性炭滤材页](./bathtub-filter-kes-media-catalytic-carbon.md)
 - 想先搞清你家水属于哪一类 → [水质自测与诊断页](./bathtub-filter-kes-page-water-test-diagnosis.md)
 

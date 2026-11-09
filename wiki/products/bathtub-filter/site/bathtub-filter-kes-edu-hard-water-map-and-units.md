@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -150,6 +150,7 @@ related:
 
 ## 下一步
 
+- **主动作**：`Match my water and scale concern` → [Water-Match Selector](./bathtub-filter-kes-water-match-selector-spec.md)。硬水只作为附加问题，不能直接生成“软化版”。
 - 硬水但想搞清消毒剂 → [E1 你的城市用游离氯还是氯胺](./bathtub-filter-kes-edu-chlorine-vs-chloramine-geography.md)
 - 想测自己家硬度 → [E5 怎么测我家洗澡水](./bathtub-filter-kes-edu-how-to-test-your-water.md)
 - 硬水结垢，想看 KES 怎么处理（阻垢 ≠ 软化）→ [S4 硬水 / 水垢场景页](./bathtub-filter-kes-scenario-hard-water-scale.md)

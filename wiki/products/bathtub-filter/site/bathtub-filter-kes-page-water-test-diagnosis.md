@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -68,18 +68,19 @@ related:
 
 ---
 
-## 三、读卡 = 路由到场景页（or 劝退）
+## 三、读卡 = 路由到 Formula / Custom / 劝退
 
 诊断结果直接映射到该看的场景页；每个模块的声称**各自如实**（去氯 ✅ / 软化 ❌ / 阻垢只保设备 / 井水只到 nuisance）。
 
 ```
 检出条件                     →  路由到
 ──────────────────────────────────────────────────────
-ZIP=游离氯 / 游离氯高          →  S1 游离氯·市政场景页
-ZIP=氯胺（总氯≫游离氯）        →  S2 氯胺场景页（V1.5；未上线则诚实劝退 + 留邮箱）
+ZIP=游离氯 / 游离氯高          →  S1 Free-Chlorine Formula + 直接加购
+ZIP=氯胺（总氯≫游离氯）        →  S2 Chloramine + Soak Kit（首发 SKU + 直接加购）
 硬度 极硬                    →  S4 硬水·水垢场景页（附加阻垢层）
-铁 / 锈染                    →  S3 井水场景页（低中度；高铁 >2–3 ppm 劝退）
+铁 / 锈染                    →  S3 Well-Water Formula（先过红旗；高铁 >2–3 ppm 劝退）
 看得见颗粒                   →  S5 沉积场景页（强化物理层）
+多个允许问题需要组合           →  SVC13 Build Your Formula（白名单组合 + formula_id + 直接加购）
 ```
 
 **诚实叠加规则（防 claim-stacking）：**
@@ -89,15 +90,17 @@ ZIP=氯胺（总氯≫游离氯）        →  S2 氯胺场景页（V1.5；未�
 
 ---
 
-## 四、诚实劝退（能力外明说 + 留邮箱）
+## 四、诚实劝退（能力外明说 + 可选通知）
 
 照 register「Honest disqualification」Allowed 行——不卖错就是 clean-formula 的信任资产。
 
 **对外可用措辞（照 register 原文保留英文）：**
 
-> "Your city uses chloramine — V1 isn't for your water yet. Leave your email and we'll tell you when the chloramine version ships."
+> "Your city uses chloramine. Choose the Chloramine + Soak Kit — not the Free-Chlorine Formula. It uses an inline catalytic-carbon stage plus a required in-tub soak step."
 
-能力外一律明说「compact 浴缸滤芯做不到，这是会有用的方向」：**高铁（>2–3 ppm）/ 杀菌 / 除砷 / 硝酸盐 / 软化 / 氯胺未上线**。
+能力外一律明说「compact 浴缸滤芯做不到，这是会有用的方向」：**高铁（>2–3 ppm）/ 杀菌 / 除砷 / 硝酸盐 / 软化**。氯胺不再属于未覆盖分岔，但必须匹配 Chloramine + Soak Kit。
+
+结果页必须保存 `water_match` 并提供明确主动作：S1/S2 直接加购、S3 进入红旗筛查、多个合法问题进入 SVC13、能力外不显示购买 CTA。查看 D/M/T/E 详细页后返回时恢复同一结果；只有未覆盖区域、复测或专业检测提醒才可按用途收邮箱。
 
 ---
 

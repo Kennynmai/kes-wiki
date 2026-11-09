@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-02
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -79,6 +79,19 @@ KES 明确不走 category default 的混合介质床（mixed-bead / bath-ball）
 > （2026-07-02 按 [V1 BOM 表](../bathtub-filter-v1-free-chlorine-removal-dimensions-materials.md) 裁定更正：滤棉材质 PP→聚酯纤维 PET）
 
 护栏：这是解释技术选择而非贬损，**安全的前提是不点名竞品 ASIN、不夸大对方缺陷**。
+
+### 二A、不同 Formula 的水路要求
+
+| Formula | 结构必须保证 | 验证重点 |
+|---|---|---|
+| Free-Chlorine | 水依次经过 PET、KDF55、CaSO₃，避免主力 CaSO₃ 层中心冲蚀 | flow distribution、crater/bypass、DPD、pressure drop |
+| Chloramine + Soak | inline 水路依次经过 PET、catalytic carbon、small KDF55；soak 是壳体外第二段 | inline/with-soak 对照、total chlorine、4–8 min、比色干扰 |
+| Well-Water | coarse PET 先承受颗粒负载，再经过 KDF85 与 carbon；不得出现绕过粗前置的旁路 | 颗粒堵塞、iron/H₂S challenge、pressure drop |
+| Build Your Formula | 规则引擎每次改变模块后必须重新校核铺流、层序、压降和 spout load | 每个可售 `formula_id` 组合级测试；不能只继承单模块结果 |
+
+Hub 对比视觉只能写 `generic mixed bed may create a low-resistance shortcut`，不能断言所有竞品都 channeling。KES 侧必须用真实剖面、tracer 或测试图证明自己的水路，而不是只用理想箭头。
+
+页面主 CTA 为 `Return to your formula`，读取 `selected_formula`；次 CTA `See the test method` 进入 T2。水路图、标题和 CTA 可以点击，背景装饰不加链接。
 
 ---
 

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-02
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -62,13 +62,13 @@ related:
 | 心理 | "我投资了验证" → 沉没成本推动完成测试 → 测完自然进转化流 | 收到即忘 |
 | 品牌 | **引流品=信任机制本身**（verify-by-user 的付费预演） | 促销感 |
 
-**独有妙处**：别家的引流品是折扣券，KES 的引流品**就是产品哲学**——"先测，再买"。连诚实劝退都被货币化了：氯胺城市用户测完发现 V1 不适合 → 返现码自动转 **V1.5 预售抵扣**（用户没损失、我们收获精准候补）。
+**独有妙处**：别家的引流品是折扣券，KES 的引流品**就是产品哲学**——"先测，再买"。氯胺城市用户测完后，返现码直接应用到正确的 **Chloramine + Soak Kit**；不用先买错 Free-Chlorine Formula，也不需要等待预售。
 
 ### 机制细则
 
 1. **内含**：试纸 ×`[__]` + Before/After 对比卡（见 [proof 页 §四](./bathtub-filter-kes-proof-and-testimonials.md)）+ 读卡说明 + 返现码（印刷或账户自动挂）
 2. **返现**：购任一整机 SKU（B1/B2/B4/B5）时**自动全额抵扣**，无需手输；有效期 `[____ 建议 ≥180 天，短期限=变相 scarcity，与品牌冲突]`
-3. **劝退转化**：诊断结果=氯胺/井水（未 ship）→ 返现码自动转对应版本预售抵扣 + 候补名单
+3. **水质匹配**：诊断结果=氯胺 → 应用到 Chloramine + Soak Kit；合格井水 → 应用到 Well-Water Formula；自定义 → 应用到生成的 `formula_id`
 4. **叠加规则**：与 referral 朋友首单减免、订阅折扣的叠加/互斥 `[____ 待运营]`
 5. **措辞合规**：🔴 不说 "FREE test kit"（FTC free 规则：有条件的 free 须显著披露）——说 **"Test first. We'll credit it back."**（诚实且更有品牌味）
 

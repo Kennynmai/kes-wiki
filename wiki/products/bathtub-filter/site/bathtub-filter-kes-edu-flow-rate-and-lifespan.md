@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -100,6 +100,7 @@ related:
 
 ## 下一步
 
+- **主动作**：有 `selected_formula` 时 `Return to my formula`；无上下文时进入 [Water Match](./bathtub-filter-kes-water-match-selector-spec.md)。流速页不直接推荐一个通用滤芯。
 - 换芯触发、验证方法、寿命曲线 → [更换 / 寿命页](./bathtub-filter-kes-page-replacement-and-lifespan.md)
 - 游离氯城市的产品配置与有界 claim → [游离氯场景页](./bathtub-filter-kes-scenario-free-chlorine.md)
 - 注水太快导致溢水 / 溅水怎么排查 → [安装与兼容性指南](./bathtub-filter-kes-install-and-compatibility-guide.md)

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -127,7 +127,7 @@ KES 用一条 **21 mm 宽扁硅胶挂带**（左右各 4 个长度调节孔）�
 对照 [安装风险矩阵](../bathtub-filter-installation-risk-matrix-v2.md) 的更可防守写法：🟢
 
 - 支持**明确定义的常见龙头类型**（S-01/S-02/S-03 非瀑布/S-04/S-07/S-08）；
-- 在**温和注水**条件下表现稳定（快注水会溢流 + 降去氯，见 flow 页）；
+- 在**已验证的 Formula、spout 类型和注水流量 envelope** 内说明稳定性；不靠模糊的“温和注水”把真实流量问题留给用户；
 - **不需要胶带等破坏性变通**；
 - **不支持的配置你在买之前就能自己认出来**（松动套装龙头、瀑布/宽体装饰嘴）。
 
@@ -141,6 +141,7 @@ KES 用一条 **21 mm 宽扁硅胶挂带**（左右各 4 个长度调节孔）�
 - 挂带结构与适配设计细节 → [扁硅胶挂带 / 适配结构页](./bathtub-filter-kes-structure-flat-strap-fit.md)
 - 溢水、去氯与注水速度的关系 → [注水流速 × 去氯/寿命页](./bathtub-filter-kes-edu-flow-rate-and-lifespan.md)
 - 清洁 / 防霉 / 换芯排查 → [使用与维护指南](./bathtub-filter-kes-care-and-maintenance-guide.md)
+- 完成判断后 → 返回原 Formula/Hub 购买器并回写 `fit_status`；`pass` 可加购，`conditional` 带必需配件确认，`fail` 不显示默认安装购买 CTA。
 
 ---
 

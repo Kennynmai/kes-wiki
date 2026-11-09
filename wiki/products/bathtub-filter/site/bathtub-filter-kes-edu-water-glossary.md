@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -155,6 +155,7 @@ related:
 
 ## 下一步
 
+- **主动作**：查完术语后 `Match my water` → [Water-Match Selector](./bathtub-filter-kes-water-match-selector-spec.md)；把当前术语作为帮助提示，不自动写入诊断结论。
 - 想知道你家城市用游离氯还是氯胺 → [E1 你的城市用游离氯还是氯胺？](./bathtub-filter-kes-edu-chlorine-vs-chloramine-geography.md)
 - 想搞懂硬水地图和单位换算 → [E3 美国硬水地图 + 硬度单位](./bathtub-filter-kes-edu-hard-water-map-and-units.md)
 - 想动手测自己家的水 → [E5 怎么测我家洗澡水 + 工具置信度](./bathtub-filter-kes-edu-how-to-test-your-water.md)

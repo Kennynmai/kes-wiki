@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -94,6 +94,7 @@ related:
 
 ## 下一步
 
+- **主动作**：`Match the disinfectant after my softener` → [Water-Match Selector](./bathtub-filter-kes-water-match-selector-spec.md)。软水器存在不自动推荐 Free-Chlorine，仍按城市消毒剂类型分流。
 - 硬水 / 水垢的场景与"防垢≠软化"边界 → [硬水场景页](./bathtub-filter-kes-scenario-hard-water-scale.md)
 - 游离氯城市的场景与配置 → [游离氯场景页](./bathtub-filter-kes-scenario-free-chlorine.md)
 - 洗澡水里的氯值不值得在意（诚实对话）→ [E6](./bathtub-filter-kes-edu-chlorine-skin-worth-it.md)

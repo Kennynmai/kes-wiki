@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: low
 officiality: placeholder
@@ -16,6 +16,10 @@ related:
   - ./bathtub-filter-kes-page-replacement-and-lifespan.md
   - ./bathtub-filter-kes-returns-and-warranty.md
   - ./bathtub-filter-kes-marketing-site-content-map.md
+  - ./bathtub-filter-kes-scenario-free-chlorine.md
+  - ./bathtub-filter-kes-scenario-chloramine.md
+  - ./bathtub-filter-kes-scenario-well-water.md
+  - ./bathtub-filter-kes-custom-formula-builder-spec.md
 ---
 
 # KES 浴缸过滤器 · 定价与 Refill 经济学（Pricing & Refill Economics）
@@ -32,8 +36,12 @@ related:
 
 ## 一、单价
 
-- Starter Kit（壳体 + 1 滤芯）：[____ 待补]
-- Refill 单件：[____ 待补]
+| 价格对象 | 一次性 | Refill | 订阅 | 状态 |
+|---|---:|---:|---:|---|
+| Free-Chlorine Formula | `[____]` | `[____]` | `[____]` | 待财务/BOM |
+| Chloramine + Soak Kit | `[____]` | inline cartridge `[____]` + soak consumable `[____]` | `[____]` | 必须拆清两种耗材 |
+| Well-Water Formula | `[____]` | `[____]` | `[____]` | 待 challenge/BOM |
+| Build Your Formula | modules 汇总 | 按 `formula_id` | 按实际最早到期组件 | 不允许一个统一 custom 价 |
 
 > 🟡 待 [财务/运营] 补：Starter Kit 与 Refill 单件的最终对外价。
 
@@ -74,6 +82,14 @@ related:
 > [____ 待补] 成本计算器组件：输入本地氯浓度/泡澡频率 → 输出年成本与每次泡澡成本。
 
 > 🟡 待 [工程/财务] 补：计算器逻辑与参数（寿命随本地氯浓度变化的口径引换芯寿命页）。
+
+计算器必须先识别 Formula：Free-Chlorine 才能使用氯浓度/baths 模型；Chloramine 分开计算 inline 与 soak；Well-Water 按负载模型；Custom 按 `component_due[]`。禁止把游离氯寿命公式复制给全部版本。
+
+## 六、价格数据合同与上线阻断
+
+每个价格记录至少包含：`sku/formula_id`、`purchase_type`、`currency`、`list_price`、`actual_price`、`included_components`、`shipping/tax disclosure`、`effective_at`、`approved_by`。Hub、PDP、Bundle、Subscription、Amazon 只能调用这份记录。
+
+以下任一为空即阻断购买页上线：实际成交价、包含内容、订阅续费价/频率、取消方式、运费披露、税费处理、价格生效时间。页面可以在内部保留 `[____]`，生产环境不得显示占位符、`$0` 或“联系客服询价”。
 
 ---
 

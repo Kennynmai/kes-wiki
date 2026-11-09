@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -65,7 +65,7 @@ related:
 | 你的 SCWS 情况 | KES 适配 | 说明 |
 |---|---|---|
 | 用**氯**消毒 | ✅ 适合 | 和市政游离氯市场一样——这是我们的主场景 |
-| 用**氯胺**消毒 | ⚠️ 看版本 | V1（游离氯配置）对氯胺基本无效；氯胺需要 V1.5 配置，[claim 台账](../bathtub-filter-claim-register.md) 有界 |
+| 用**氯胺**消毒 | ✅ 选择对应首发套装 | Free-Chlorine Formula 对氯胺基本无效；选择 Chloramine + Soak Kit，[claim 台账](../bathtub-filter-claim-register.md) 有界 |
 | 水**极硬** | ❌ 不软化 | 见下方"软化"说明——我们只提供阻垢选项，不做软化 |
 | 含**铅 / 铁 / 砷等** | ❌ 不认领 | 这些需要专门的媒体或全屋系统，我们不认领 |
 
@@ -173,6 +173,7 @@ related:
 
 ## 下一步
 
+- **主动作**：`Check my water source` → [Water-Match Selector](./bathtub-filter-kes-water-match-selector-spec.md)。RO/全屋炭工作正常时允许返回“你可能不需要我们”，不强推产品。
 - 想搞清你家水属于哪一类、该配什么 → [水质自测与诊断页](./bathtub-filter-kes-page-water-test-diagnosis.md)
 - 家里装了软水器，为什么氯还在 → [软水器家庭](./bathtub-filter-kes-edu-water-softener-households.md)
 - 井水用户必读（污染物 / 何时该做专业检测）→ [井水必读](./bathtub-filter-kes-edu-well-water-basics.md)

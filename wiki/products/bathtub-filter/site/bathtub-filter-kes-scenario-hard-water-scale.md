@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -22,6 +22,7 @@ related:
 # 场景页 · 硬水 / 水垢（防垢附加层 · 非软化）
 
 > 本页按内容地图五段模板：① problem → ② 配置（链 M 页）→ ③ 有界 claim → ④ 承重护栏 → ⑤ 诚实劝退。滤材 claim 的唯一口径在对应 M 页，本页只引用不改写（见 [内容地图 §四](./bathtub-filter-kes-marketing-site-content-map.md)）。
+> 本页是附加问题解释页，不是第五个 Formula PDP。用户先匹配 S1/S2/S3，再决定是否加入 anti-scale adjunct；页面始终保留原 `selected_formula`。
 
 ## ① Problem — 硬水的浴缸痛点是什么
 
@@ -68,6 +69,12 @@ related:
 - **想要「真软化 / 泡澡水真的更软 / 硬度数字明显下降」**：本产品**做不到**，我们也**不做这条**。真软化属于**全屋软水器品类**（离子交换树脂设备、需再生），是另一类产品、不是浴缸滤芯能干的事（原理见 [可行性页 §2/§3](../bathtub-filter-point-of-use-hardness-softening-feasibility.md)）。我们只诚实告诉你"这是两回事"，不用浴缸滤芯冒充软水器。
 - **想改善硬水相关皮肤问题**：SOFTER 那类软水器证据**不能外推**到 compact filter，本产品不认领护肤 / eczema。
 - 能力外一律如实说：**「你要的是软化——那需要全屋软水器，不是我们这类浴缸滤芯。我们能给的是阻垢（减少水垢附着），不软化。」**
+
+## ⑥ 页面出口
+
+- 已有 Formula：主 CTA `Add scale-control adjunct`，返回原购买卡并同屏显示 `It does not soften your water.`。
+- 尚未匹配：主 CTA `Match my water first` → [SVC10](./bathtub-filter-kes-water-match-selector-spec.md)。
+- 只想软化：不显示购买 CTA，指向全屋离子交换等专业品类。
 
 ## Sources / 内部依据
 

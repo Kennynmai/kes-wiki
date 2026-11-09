@@ -3,12 +3,12 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
-domains: [bathtub-filter, kes, referral, share-the-test, test-strip, acquisition, growth, waitlist, compliance]
+domains: [bathtub-filter, kes, referral, share-the-test, test-strip, acquisition, growth, water-match, compliance]
 review_cycle: monthly
 related:
   - ../bathtub-filter-kes-water-diagnosis-kit-and-modular-acquisition-engine.md
@@ -74,14 +74,20 @@ related:
    ├─ 游离氯城市（适配）──▶ 适配建议 + 首单优惠 `[____ 待补]`
    │                        > 🟡 待 [市场/财务] 补：朋友端首单激励形式与额度
    │
-   ├─ 氯胺城市──▶ 诚实劝退："V1 isn't for your water yet."
-   │              → 留邮箱等氯胺版（V1.5 候补名单）
+   ├─ 氯胺城市──▶ 推荐 Chloramine + Soak Kit
+   │              → 对应 SKU + 首单优惠直接加购
    │
-   └─ 软化需求──▶ 说明只阻垢不软化（"It does not soften your water."）
-                  → 如实给方向（真软化 = 全屋软水器品类）
+   ├─ 低中度 nuisance 井水──▶ 红旗筛查通过后推荐 Well-Water Formula
+   │                           → 对应 SKU + 首单优惠直接加购
+   │
+   ├─ 多项合法需求──▶ 进入 Build Your Formula
+   │                  → 生成 formula_id、爆炸图与水路后直接加购
+   │
+   └─ 软化 / 高铁 / 砷 / 杀菌等能力外需求──▶ 诚实劝退
+                                              → 如实给专业检测或全屋处理方向
 ```
 
-**劝退也是获客（这层价值写明）**：氯胺城市的劝退邮箱 = **V1.5 上市当天的种子名单**——这些人已经完成了「朋友背书 + 亲手测过 + 被诚实对待」三重预热，是转化率最高的候补池。劝退不是漏斗损耗，是**把不能卖的今天变成能卖的明天**，同时让推荐人放心递卡（不会坑朋友买错）。
+**匹配本身就是获客价值**：朋友可直接进入 Free-Chlorine Formula、Chloramine + Soak Kit、Well-Water Formula 或受规则约束的 Build Your Formula。完成「朋友背书 + 水质匹配 + 看懂配方与水路」后直接购买正确版本；真正能力外的 RO / 高铁 / 软化需求仍诚实劝退，让推荐人放心递卡（不会坑朋友买错）。
 
 > **护栏**：⑤ 的所有分支话术守 register：读数只说**水的类型 / 产品适配**，🔴 不说「你的水有危害」；试纸 = 粗筛教育工具，不冒充检测。
 
@@ -217,7 +223,7 @@ related:
 ### 9.1 朋友端（Friend side）
 
 - 路径：扫码 → ZIP 诊断 → 判定适配 → **首单减免在结账自动带入**（码已在 URL 里，**无需手输**）；额度 `[____ 待市场/财务]`。
-- **劝退分岔也有交代**：氯胺城市 / 不适配 → 诚实劝退 + 留邮箱，**这张券自动转为 V1.5 预售资格**（券不作废，跟人走到氯胺版上市日）。
+- **不同水质都保留权益**：优惠自动应用到选购器返回的 Free-Chlorine、Chloramine + Soak、Well-Water 或合法自定义 `formula_id`；真正不适配 → 诚实劝退，优惠不诱导错买。
 
 ### 9.2 推荐人端（Referrer side）
 

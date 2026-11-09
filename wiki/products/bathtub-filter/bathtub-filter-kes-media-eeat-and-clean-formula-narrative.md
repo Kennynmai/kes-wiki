@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -86,7 +86,7 @@ Reddit 信号：用户知道「洗澡后皮肤痒」，不知道「过滤器」�
 |---|---|
 | "读得懂的配料表" | **透明滤盒看得见真料真量**——从「读标签」升级到「**亲眼看见**」，比 clean beauty 还硬 |
 | "no cheap fillers / no hidden nasties" | **metal-first 高级铜锌合金**，看得见的好料，不用藏起来的便宜杂豆 |
-| "personalized / 为你定制的干净配方" | **按你家水源配方**（游离氯/氯胺/井水） |
+| "personalized / 为你定制的干净配方" | 三套标准水源配方（游离氯/氯胺/井水）+ 规则约束的 Build Your Formula |
 | "skinification 成分护理" | **洗澡水的成分护理**——把护肤的「成分意识」迁移到包裹全身的水 |
 
 > clean beauty 只能在标签上**印**成分；KES 能让你**真的看见**真料真量。这是「clean formula」从「读」到「看」的升级——**这是这个叙事真正的护城河，不是借来的概念，是产品本来就有的事实。**

@@ -3,7 +3,7 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
@@ -138,6 +138,7 @@ related:
 
 ## 下一步
 
+- **主动作**：`Match my city water` → [Water-Match Selector](./bathtub-filter-kes-water-match-selector-spec.md)，结果直接进入 S1 或 S2 并保留 `water_match`。
 - 想动手查 CCR 确认类型 → [E7 怎么读你的 CCR](./bathtub-filter-kes-edu-how-to-read-your-ccr.md)
 - 想用试纸交叉验证（含总氯判氯胺）→ [E5 怎么测我家洗澡水](./bathtub-filter-kes-edu-how-to-test-your-water.md)
 - 确认自己是**游离氯**水 → [S1 游离氯·市政场景页](./bathtub-filter-kes-scenario-free-chlorine.md)

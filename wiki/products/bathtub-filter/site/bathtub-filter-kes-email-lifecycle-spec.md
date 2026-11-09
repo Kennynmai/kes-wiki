@@ -3,12 +3,12 @@ type: product
 status: draft
 owner: strategy
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-07-14
 visibility: team
 confidence: medium
 officiality: draft
 domain: product
-domains: [bathtub-filter, kes, email, lifecycle, crm, retention, referral, verification, subscription, waitlist, ugc, can-spam, compliance]
+domains: [bathtub-filter, kes, email, lifecycle, crm, retention, referral, verification, subscription, targeted-notices, ugc, can-spam, compliance]
 review_cycle: monthly
 related:
   - ./bathtub-filter-kes-post-purchase-verification.md
@@ -51,7 +51,7 @@ related:
 | E5 | 订阅发货前提醒（Skip-if-still-good） | 下期发货日前 | 发货前 `[____ 建议 7–10 天，待运营]` | 先测再决定发不发（[SVC4 §二](./bathtub-filter-kes-refill-subscription.md)） | 30 秒测法链接；**一键 Skip**（不扣款、周期顺延、无惩罚）；不操作默认行为 `[____ 待运营/法务，过 negative-option 合规]` | 🔴 禁反向恐吓催发货 | `skip_reminder`；`skip_clicked` / `ship_confirmed` |
 | E6 | 换芯提醒（非订阅） | 按 baths 估算接近 soft trigger | 估算 bath 数达 `[____ 待 T3 定稿，2 ppm/周 3 泡口径 soft ≈96 baths]` 前夕 | 提示**测了再换** | 「你大概泡到第 [__] 缸了——先测，读数回升才换」；T3 触发档位链接；复购入口 | 🔴 禁按月倒计时 / 禁「已失效」断言——试纸是 ground truth | `replace_reminder`；`refill_purchased` |
 | E7 | 诚实 win-back | 订阅取消 / 复购断档 | `[____ 待运营]` | 问真实原因，不打折轰炸 | 「上期滤芯还没用完？告诉我们，帮你暂停」（[SVC4 §5.3](./bathtub-filter-kes-refill-subscription.md) 拍板口径）；一键暂停 / 改周期 | 🔴 禁 toxin-panic 催回订 / 禁折扣连炸 | `winback`；`pause_clicked` / `resubscribed` |
-| E8 | 劝退候补通知 | 选购器 email_capture（按 reason） | 事件驱动（V1.5 上市 / 覆盖上新 / 定期复测），见 §二 E8 | 兑现劝退时的承诺 | 按 reason 分流，见 E8 详规 | 只发承诺内容，🔴 不挪作泛营销；氯胺 claim 守 V1.5 conditional | `waitlist_{reason}`；`waitlist_converted` |
+| E8 | 劝退 / 覆盖通知 | 选购器 email_capture（按 reason） | 事件驱动（覆盖上新 / 定期复测），见 §二 E8 | 兑现劝退时的承诺 | 按 reason 分流，见 E8 详规 | 只发承诺内容，🔴 不挪作泛营销；氯胺与合格井水均为首发可售，不采候补邮箱 | `notice_{reason}`；`notice_converted` |
 
 ---
 
@@ -61,14 +61,14 @@ related:
 
 > Subject: **"Order confirmed — here's what happens next."**
 
-- 正文要点：订单摘要与预计送达；预告 E2 的「装芯前先测一杯」动作；一句定位承重句（"This is not a water purifier — it doesn't target TDS."）；客服入口。
+- 正文要点：订单摘要、**Formula 名称 / formula_id / 完整组件与必需附件**、预计送达；预告 E2 的配方专属 baseline 动作；一句定位承重句；客服入口。Chloramine 邮件必须列 soak component，Custom 必须列模块与顺序。
 - Transactional 属性，不塞营销内容。
 
 ### E2 · 发货 / 安装引导
 
 > Subject: **"Your filter is on its way — do one thing before it arrives."**
 
-- 正文要点：① 追踪链接；② **装芯前接一杯「前」水、用随盒游离氯试纸测并记下档位**（这是 [买后验证](./bathtub-filter-kes-post-purchase-verification.md) 前后对比的第一半，错过就补不回）；③ [P4 安装指南](./bathtub-filter-kes-install-and-compatibility-guide.md)（spout 兼容自查 + 不支持边界）；④ 🔴 提醒别用 TDS 笔验证。
+- 正文要点：① 追踪链接；② 按 Formula 完成 baseline：Free-Chlorine 用游离氯试纸；Chloramine 记录总氯基线并预告正确时机；Well-Water 记录 nuisance/已有检测；Custom 按 formula_id 清单；③ [P4](./bathtub-filter-kes-install-and-compatibility-guide.md)；④ 🔴 提醒别用 TDS 笔替代目标方法。
 
 ### E3 · 验证峰值邮件（T+10–14）★ 本页核心
 
@@ -78,7 +78,7 @@ related:
 
 **正文结构（按信任逻辑排序）：**
 
-1. **锚定验证事实**（先确认，再开口）："You tested your water before and after the filter — you watched the number drop yourself."（没测的分支：先给 30 秒补测指引，不跳分享——**未验证不递卡**，分支判定 `[____ 待工程：是否可依据激活/购买数据分流]`）。
+1. **锚定验证事实**（先确认，再开口）：按 Formula 调用真实结果。Free-Chlorine 可说 before/after 档位；Chloramine 只在方法/时机有效后引用；Well-Water 不把气味变化说成安全证明；Custom 只说已批准信号。没测的分支先给补测指引，**未验证不递卡**。
 2. **递分享卡话术**（referral 触发②）："Know someone on the same water? There are two extra test cards in your box — hand one over."（话术池照 [referral §六 ✅ 区](./bathtub-filter-kes-referral-program.md)，逐条过 register §D「Referral 卡」行）。
 3. **激活分享卡**（referral §8.1 路线 B 的关键一步）：**「Activate my cards」按钮**——点击即把盒内卡组序号归到买家名下，此后朋友扫码才计奖励；不激活的卡扫码仍进诊断漏斗，只是不计奖励。
 4. **UGC 投稿邀请**（proof §4.3/§4.6）："Grab the before/after card in your box, stick your two strips on, and share it — every submission gets `[____ 奖励待市场/财务]`, whatever your result shows."——🔴 **只奖投稿不奖好评**（FTC）；附 #gifted 披露指引与 rights license 链接；可带 QR 生成器入口（proof §4.7.3）。
@@ -95,7 +95,7 @@ related:
 
 > Subject: **"Still deciding? First, check if KES fits your water."**
 
-- 正文要点：不催单，先给**选购器链接**——「先确认你家是游离氯城市再买」（不适配的人被劝退掉 = 少一单错卖）；常见疑问 3 条（SVC1 FAQ 链接）；如带首单优惠，金额 `[____ 待市场/财务]` 且**长期有效不倒计时**。
+- 正文要点：不催单，先恢复用户的 `water_match / selected_formula / fit_status`；未匹配者进入选购器，已匹配者返回原 Formula。不得把所有弃购者引向 Free-Chlorine；fit fail/井水红旗用户不发送购买优惠。
 - 🔴 禁：倒计时、假库存、"almost gone"、连发序列超过 `[____ 待运营]` 封。
 
 ### E5 · 订阅发货前提醒（Skip-if-still-good）
@@ -114,6 +114,8 @@ related:
 - 正文要点：① 「先测，别按日历换」——「后」水档位回升接近「前」水才换（[T3 触发档位](./bathtub-filter-kes-page-replacement-and-lifespan.md)）；② 你家 tap 氯浓度影响寿命（1 ppm ≈ 2× 寿命），所以试纸是 ground truth；③ 复购 / 订阅入口（可提 Skip-if-still-good 作为订阅理由）。
 - 🔴 禁按月口径、禁「已失效」断言、禁 toxin-panic。
 
+该 subject/96 baths 只用于 Free-Chlorine 且必须等待 T3 数字转绿。Chloramine 分别提醒 inline cartridge 与 soak consumable；Well-Water 按 pressure/load/approved signal；Custom 按 `component_due[]`。没有对应证据时只发送 `Time to check`，不发送确定“该换了”。
+
 ### E7 · 诚实 win-back
 
 > Subject: **"Filter from last cycle still going? Tell us — we'll pause, not push."**
@@ -121,17 +123,15 @@ related:
 - 正文要点：① 先问真实原因（还没用完 / 不好用 / 价格 / 搬家），一键选项；② 「还没用完」→ 一键暂停 / 拉长周期（不是挽留墙，是真按钮）；③ 「不好用」→ 客服 / 退货入口（SVC3）；④ 不打折轰炸——如有回归优惠，一次性、无倒计时 `[____ 待市场]`。
 - 序列时点与分支 `[____ 待运营]`（[SVC4 §5.3](./bathtub-filter-kes-refill-subscription.md) 的邮件化，机制真理源在那页，时点在本页）。
 
-### E8 · 选购器劝退候补通知（reason 枚举对齐 [选购器 spec §2.3/§3.3](./bathtub-filter-kes-water-match-selector-spec.md)）
+### E8 · 选购器能力外 / 覆盖通知（reason 枚举对齐 [选购器 spec §2.3/§3.3](./bathtub-filter-kes-water-match-selector-spec.md)）
 
 **原则：每条 reason 邮箱只收当初承诺的那类通知**，事件驱动、非日历驱动：
 
 | reason | 承诺 | 触发事件 | 主题行示例 | 红线 / 备注 |
 |---|---|---|---|---|
-| `chloramine_wait` | V1.5 氯胺版上市通知 | 氯胺配置 flag 翻转（ship 日） | "The chloramine version is here — you asked us to tell you." | ship 前**零邮件**；ship 当日 claim 口径守 register V1.5 conditional（🔴 禁 fast/秒解）；referral 转来的券此时兑现（referral §9.1） |
 | `out_of_coverage` | 覆盖你所在城市时通知 | 该 metro 数据入表（选购器 §3.2 档①→②） | "We've mapped your city's water — here's what it uses." | 结果只说消毒剂类型与适配；🔴 不 toxin-panic |
 | `ro_no_value` | 仅可选复测提醒 | 留邮箱后 `[____ 待运营，建议 3–6 个月]` | "A friendly nudge: re-test your RO system." | **不推销**（选购器 §2.3 原则：RO 用户「不需要我们」——邮件只提醒复测，无加购 CTA） |
 | `carbon_retest_reminder` | 几个月后提醒复测炭床 | 留邮箱后 `[____ 待运营，建议 3 个月]` | "Time to re-test your whole-house carbon — strips don't lie." | 测出氯才引到 ZIP 流；测不出 = 「your system is doing its job」，🔴 不做「再加一层更安心」推销（E11 §六口径） |
-| `well_waitlist` | 井水版 GO 时通知 | 井水配置 flag 翻转 | "The well-water setup is ready — you're on the list." | GO 前零邮件；claim 守 KDF85 conditional（🔴 禁杀菌/除砷） |
 | `well_out_of_scope` | 可选：专业检测指引跟进 | 留邮箱后一次性 | "Finding a certified water test near you." | 一次性资源邮件，无产品推销（能力外就是能力外） |
 
 ---
@@ -140,7 +140,7 @@ related:
 
 - **同一收件人 7 天内营销邮件上限 `[____ 待运营]` 封**；transactional（E1/E2/发货类）不计入。
 - **冲突让位**：E5（订阅提醒）与 E6（换芯提醒）互斥——订阅用户只走 E5；E3 与 E4 不可能同人同期（一个已购一个未购），但 referral 落地转化者的 E1 起点重算。
-- 退订分层（全退 / 只退营销 / 只留候补通知）`[____ 待运营，偏好中心一并定]`。
+- 退订分层（全退 / 只退营销 / 只保留用户主动订阅的复测或覆盖通知）`[____ 待运营，偏好中心一并定]`。
 
 ---
 
